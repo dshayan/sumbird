@@ -1,0 +1,319 @@
+#!/usr/bin/env python3
+"""
+Module for converting summarized content to Telegraph format.
+This module can be run independently or as part of the pipeline.
+"""
+import os
+import re
+import json
+from datetime import datetime
+from bs4 import BeautifulSoup
+import sys
+
+# Add parent directory to sys.path to allow imports from the root directory
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from config import (
+    SUMMARY_DIR, TRANSLATED_DIR, CONVERTED_DIR, FILE_FORMAT, 
+    get_date_str, SUMMARY_TITLE_FORMAT,
+    FOOTER_TEXT, FOOTER_LINK_TEXT, FOOTER_LINK_URL,
+    FOOTER_TEXT_FA, FOOTER_LINK_TEXT_FA, FOOTER_LINK_URL_FA,
+    get_file_path
+)
+from utils.logging_utils import log_error
+from utils.html_utils import clean_html_for_display
+
+def html_to_telegraph_nodes(html_content):
+    """Convert HTML content to Telegraph node format.
+    
+    Args:
+        html_content (str): HTML content as string
+        
+    Returns:
+        list: List of Telegraph node objects
+    """
+    soup = BeautifulSoup(html_content, 'html.parser')
+    result = []
+    
+    # Process all top-level elements in the HTML
+    for element in soup.find_all(recursive=False):
+        node = parse_element_to_node(element)
+        if node:
+            result.append(node)
+    
+    return result
+
+def parse_element_to_node(element):
+    """Parse a BeautifulSoup element to a Telegraph node.
+    
+    Args:
+        element: BeautifulSoup element
+        
+    Returns:
+        dict: Telegraph node object
+    """
+    # Text node
+    if isinstance(element, str) or element.name is None:
+        text = str(element) if isinstance(element, str) else str(element.string)
+        if text and text.strip():
+            return text.strip()
+        return None
+    
+    # Handle different element types
+    tag_name = element.name
+    
+    # Convert h2 to h3 for Telegraph
+    if tag_name == 'h2':
+        tag_name = 'h3'
+    
+    # Create node with tag
+    node = {'tag': tag_name}
+    
+    # Add attributes if needed
+    if tag_name == 'a' and element.get('href'):
+        node['attrs'] = {'href': element.get('href')}
+    elif tag_name == 'img' and element.get('src'):
+        node['attrs'] = {'src': element.get('src')}
+    
+    # Add children
+    children = []
+    for child in element.children:
+        parsed_child = parse_element_to_node(child)
+        if parsed_child:
+            children.append(parsed_child)
+    
+    if children:
+        node['children'] = children
+    
+    return node
+
+def ensure_spacing_between_nodes(nodes):
+    """Ensure proper spacing between adjacent text and formatted nodes.
+    
+    Args:
+        nodes (list): List of Telegraph nodes
+        
+    Returns:
+        list: List of Telegraph nodes with proper spacing
+    """
+    if not nodes:
+        return nodes
+        
+    result = []
+    formatting_tags = ['b', 'strong', 'i', 'em', 'code']
+    
+    for i, node in enumerate(nodes):
+        # Skip processing if not a valid node
+        if not node:
+            result.append(node)
+            continue
+            
+        # Case 1: Text node followed by a formatted node
+        if (isinstance(node, str) and i+1 < len(nodes) and 
+            isinstance(nodes[i+1], dict) and nodes[i+1].get('tag') in formatting_tags):
+            
+            # Only add space if the text doesn't already end with whitespace or punctuation
+            if not node.endswith((' ', '\n', '\t', ',', '.', ':', ';', '?', '!')):
+                node = node + ' '
+        
+        # Case 2: Formatted node followed by a text node
+        elif (isinstance(node, dict) and node.get('tag') in formatting_tags and 
+              i+1 < len(nodes) and isinstance(nodes[i+1], str)):
+            
+            next_text = nodes[i+1]
+            # Only add space if the next text doesn't start with whitespace or punctuation
+            if not next_text.startswith((' ', '\n', '\t', ',', '.', ':', ';', '?', '!')):
+                nodes[i+1] = ' ' + next_text
+        
+        # Case 3: Formatted node followed by another formatted node (e.g., bold to italic)
+        elif (isinstance(node, dict) and node.get('tag') in formatting_tags and 
+              i+1 < len(nodes) and isinstance(nodes[i+1], dict) and 
+              nodes[i+1].get('tag') in formatting_tags):
+            
+            # Insert a space node between them
+            result.append(node)
+            result.append(' ')
+            continue  # Skip appending the current node again
+        
+        result.append(node)
+    
+    return result
+
+def fix_spacing_in_nodes(nodes):
+    """Fix spacing issues in nodes.
+    
+    Args:
+        nodes (list): List of Telegraph nodes
+        
+    Returns:
+        list: List of Telegraph nodes with fixed spacing
+    """
+    # Recursively process all nodes
+    def process_node(node):
+        # Skip if not a dictionary (text node)
+        if not isinstance(node, dict):
+            return node
+        
+        # Process children if they exist
+        if 'children' in node and isinstance(node['children'], list):
+            # First process all children recursively
+            children = [process_node(child) for child in node['children']]
+            
+            # Then fix spacing between adjacent nodes
+            if node['tag'] in ['p', 'li']:  # Only apply to paragraph-like elements
+                node['children'] = ensure_spacing_between_nodes(children)
+            else:
+                node['children'] = children
+        
+        return node
+    
+    # Process each top-level node
+    return [process_node(node) for node in nodes]
+
+def add_footer(nodes, is_persian=False):
+    """Add footer to the content.
+    
+    Args:
+        nodes (list): List of Telegraph nodes
+        is_persian (bool): Whether to use Persian footer text
+        
+    Returns:
+        list: List with added footer
+    """
+    # Add footer node
+    if is_persian:
+        footer_text = FOOTER_TEXT_FA
+        footer_link = FOOTER_LINK_TEXT_FA
+        footer_url = FOOTER_LINK_URL_FA
+    else:
+        footer_text = FOOTER_TEXT
+        footer_link = FOOTER_LINK_TEXT
+        footer_url = FOOTER_LINK_URL
+    
+    footer_node = {
+        'tag': 'p',
+        'children': [
+            footer_text + ' ',
+            {
+                'tag': 'a',
+                'attrs': {'href': footer_url},
+                'children': [footer_link]
+            }
+        ]
+    }
+    
+    nodes.append(footer_node)
+    return nodes
+
+def extract_title(html_content):
+    """Extract title from HTML content.
+    
+    Args:
+        html_content (str): HTML content
+        
+    Returns:
+        tuple: (title, content_without_title)
+    """
+    soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # Look for h1 tags for title
+    title_tag = soup.find('h1')
+    if title_tag:
+        title = title_tag.get_text()
+        title_tag.extract()  # Remove the title from content
+        return title, str(soup)
+    
+    # Default title if not found
+    return "AI Updates", html_content
+
+def convert_to_telegraph_format(input_file, output_file, date_str, is_persian=False):
+    """Convert a summarized HTML file to Telegraph format.
+    
+    Args:
+        input_file (str): Path to the input HTML file
+        output_file (str): Path to save the Telegraph format file
+        date_str (str): Date string for formatting
+        is_persian (bool): Whether this is Persian content
+    
+    Returns:
+        bool: True if conversion was successful, False otherwise
+    """
+    try:
+        # Read the input file
+        with open(input_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # Content is already in HTML format, no need for conversion
+        html_content = content
+        
+        # Extract title and clean content
+        title, html_content = extract_title(html_content)
+        
+        # Clean HTML to ensure proper display
+        html_content = clean_html_for_display(html_content)
+        
+        # Convert HTML to Telegraph nodes
+        nodes = html_to_telegraph_nodes(html_content)
+        
+        # Fix spacing issues
+        nodes = fix_spacing_in_nodes(nodes)
+        
+        # Add footer
+        nodes = add_footer(nodes, is_persian)
+        
+        # Create Telegraph format
+        telegraph_data = {
+            'title': title,
+            'content': nodes
+        }
+        
+        # Save to JSON file
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(telegraph_data, f, ensure_ascii=False, indent=2)
+        
+        print(f"Converted to Telegraph format: {output_file}")
+        return True
+    
+    except Exception as e:
+        log_error('Telegraph Converter', f"Error converting to Telegraph format: {str(e)}")
+        return False
+
+def convert_all_summaries():
+    """Convert all summaries to Telegraph format."""
+    # Get the date string for today
+    date_str = get_date_str()
+    
+    # Get file paths
+    summary_file = get_file_path('summary', date_str)
+    translated_file = get_file_path('translated', date_str)
+    
+    converted_en_file = get_file_path('converted', date_str)
+    converted_fa_file = get_file_path('converted', date_str, lang='FA')
+    
+    # English conversion
+    en_result = convert_to_telegraph_format(summary_file, converted_en_file, date_str, is_persian=False)
+    
+    # Persian conversion if translated file exists
+    fa_result = False
+    if os.path.exists(translated_file):
+        fa_result = convert_to_telegraph_format(translated_file, converted_fa_file, date_str, is_persian=True)
+    
+    # Return overall success
+    return en_result and (not os.path.exists(translated_file) or fa_result)
+
+if __name__ == "__main__":
+    # Create necessary directories when running as standalone, but only if they don't exist
+    if not os.path.exists(SUMMARY_DIR):
+        print(f"Creating directory: {SUMMARY_DIR}")
+        os.makedirs(SUMMARY_DIR, exist_ok=True)
+    
+    if not os.path.exists(TRANSLATED_DIR):
+        print(f"Creating directory: {TRANSLATED_DIR}")
+        os.makedirs(TRANSLATED_DIR, exist_ok=True)
+    
+    if not os.path.exists(CONVERTED_DIR):
+        print(f"Creating directory: {CONVERTED_DIR}")
+        os.makedirs(CONVERTED_DIR, exist_ok=True)
+    
+    convert_all_summaries() 

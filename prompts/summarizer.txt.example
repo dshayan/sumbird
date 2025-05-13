@@ -1,0 +1,39 @@
+# AI Content Summarization Prompt
+
+This is an example prompt for summarizing Twitter content into structured categories. 
+Customize this file for your specific needs by creating a copy named 'summarizer.txt'.
+
+## Instructions for AI
+
+You should provide instructions for the AI to:
+- Define the content focus (e.g., AI, tech news, specific industry updates)
+- Specify categories for organizing information
+- Set formatting rules (HTML tags, emphasis styles)
+- Define inclusion/exclusion criteria
+- Specify how to handle usernames, URLs, etc.
+
+## Structure Guidelines
+
+- Use heading format: <h3>Category Name</h3>
+- Use list format: <ul><li>Item content</li></ul>
+- Highlight important terms with: <b>keyword</b>
+- Format usernames as: <em>@username</em>
+
+## Example Output Format
+
+<h3>Category One</h3>
+<ul>
+<li>Brief summary of important information with <b>key terms</b> highlighted <em>@sourceuser</em></li>
+<li>Another important point with <b>technical term</b> explained simply <em>@anotheruser</em></li>
+</ul>
+
+<h3>Category Two</h3>
+<ul>
+<li>Concise explanation of significant development with <b>specific details</b> <em>@expertuser</em></li>
+</ul>
+
+## Additional Notes
+
+- Specify how to handle content that doesn't fit categories
+- Provide guidance on tone, length, and detail level
+- Include any special handling instructions for specific content types 
