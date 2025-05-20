@@ -53,7 +53,7 @@ class OpenRouterClient:
             tuple: (generated_summary, input_tokens, output_tokens)
         """
         try:
-            async with httpx.AsyncClient() as client:
+            async with httpx.AsyncClient(timeout=120.0) as client:
                 response = await client.post(
                     self.api_url,
                     headers=self.headers,
