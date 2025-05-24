@@ -11,7 +11,7 @@ from google import genai
 from google.genai import types
 
 from config import (
-    GEMINI_API_KEY, GEMINI_TTS_MODEL, GEMINI_TTS_VOICE,
+    GEMINI_API_KEY, GEMINI_TTS_MODEL, GEMINI_TTS_VOICE, NARRATOR_PROMPT_PATH,
     SUMMARY_DIR, TRANSLATED_DIR, NARRATED_DIR,
     get_date_str, get_file_path
 )
@@ -22,17 +22,19 @@ from utils.file_utils import file_exists, read_file
 class NarratorClient:
     """Client for interacting with the Gemini TTS API."""
     
-    def __init__(self, api_key, model, voice):
+    def __init__(self, api_key, model, voice, prompt_template):
         """Initialize the Gemini TTS client.
         
         Args:
             api_key (str): The Gemini API key
             model (str): The TTS model to use
             voice (str): The voice to use for TTS
+            prompt_template (str): The prompt template for TTS
         """
         self.api_key = api_key
         self.model = model
         self.voice = voice
+        self.prompt_template = prompt_template
         self.client = genai.Client(api_key=self.api_key)
 
     def save_wave_file(self, filename, pcm_data):
@@ -90,9 +92,10 @@ class NarratorClient:
             print(f"Text length: {len(text)} characters")
             
             # Create TTS request
+            prompt = self.prompt_template.format(text=text)
             response = self.client.models.generate_content(
                 model=self.model,
-                contents=f"Please read the following text in a clear, bright voice: {text}",
+                contents=prompt,
                 config=types.GenerateContentConfig(
                     response_modalities=["AUDIO"],
                     speech_config=types.SpeechConfig(
@@ -199,6 +202,10 @@ def narrate():
         # Get the target date
         date_str = get_date_str()
         
+        # Read the narrator prompt
+        with open(NARRATOR_PROMPT_PATH, 'r', encoding='utf-8') as f:
+            prompt_template = f.read().strip()
+        
         # Get file paths
         summary_file = get_file_path('summary', date_str)
         translated_file = get_file_path('translated', date_str)
@@ -220,7 +227,8 @@ def narrate():
             client = NarratorClient(
                 api_key=GEMINI_API_KEY,
                 model=GEMINI_TTS_MODEL,
-                voice=GEMINI_TTS_VOICE
+                voice=GEMINI_TTS_VOICE,
+                prompt_template=prompt_template
             )
             summary_result = narrate_file(summary_file, summary_audio, client)
             if summary_result:
@@ -241,7 +249,8 @@ def narrate():
                 client = NarratorClient(
                     api_key=GEMINI_API_KEY,
                     model=GEMINI_TTS_MODEL,
-                    voice=GEMINI_TTS_VOICE
+                    voice=GEMINI_TTS_VOICE,
+                    prompt_template=prompt_template
                 )
             translated_result = narrate_file(translated_file, translated_audio, client)
             if translated_result:

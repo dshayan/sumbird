@@ -49,6 +49,7 @@ TRANSLATOR_PROMPT_PATH = env_utils.get_env('TRANSLATOR_PROMPT_PATH')
 GEMINI_API_KEY = env_utils.get_env('GEMINI_API_KEY')
 GEMINI_TTS_MODEL = env_utils.get_env('GEMINI_TTS_MODEL')
 GEMINI_TTS_VOICE = env_utils.get_env('GEMINI_TTS_VOICE')
+NARRATOR_PROMPT_PATH = env_utils.get_env('NARRATOR_PROMPT_PATH')
 
 # Telegraph configuration
 TELEGRAPH_ACCESS_TOKEN = env_utils.get_env('TELEGRAPH_ACCESS_TOKEN')
