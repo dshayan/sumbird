@@ -163,7 +163,7 @@ def run_pipeline():
                 log_step(log_file, True, f"Narrated (using cached files)")
             else:
                 print(f"Audio files created: {', '.join(audio_files)}")
-                log_step(log_file, True, f"Narrated ({len(audio_files)} audio files)")
+                log_step(log_file, True, f"Narrated {len(audio_files)} audio files")
         else:
             print("Warning: TTS conversion failed, continuing without audio")
             log_step(log_file, False, "Narrated")

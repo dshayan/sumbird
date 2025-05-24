@@ -413,7 +413,7 @@ def distribute():
                 if len(audio_files_to_send) == 1:
                     # Send single audio file
                     audio_file = audio_files_to_send[0]
-                    print(f"📤 Sending audio: {audio_file['path']}")
+                    print(f"Sending audio: {audio_file['path']}")
                     audio_success, audio_url = send_telegram_audio(
                         audio_file['path'], 
                         channel_id, 
@@ -421,19 +421,19 @@ def distribute():
                         title=audio_file['title']
                     )
                     if audio_success:
-                        print(f"✅ Audio sent successfully")
+                        print(f"Audio sent successfully")
                         audio_urls.append(audio_url)
                     else:
-                        print(f"❌ Failed to send audio")
+                        print(f"Failed to send audio")
                 else:
                     # Send multiple audio files as a group
-                    print(f"📤 Sending {len(audio_files_to_send)} audio files as a group")
+                    print(f"Sending {len(audio_files_to_send)} audio files as a group")
                     audio_success, audio_url = send_telegram_audio_group(audio_files_to_send, channel_id)
                     if audio_success:
-                        print(f"✅ Audio group sent successfully")
+                        print(f"Audio group sent successfully")
                         audio_urls.append(audio_url)
                     else:
-                        print(f"❌ Failed to send audio group")
+                        print(f"Failed to send audio group")
             
             # Update the published data with telegram distribution info
             published_data["telegram_distributed"] = {

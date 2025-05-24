@@ -86,8 +86,8 @@ class NarratorClient:
             str: Path to the created audio file, or None if failed
         """
         try:
-            print(f"🎤 Converting text to speech using {self.voice} voice")
-            print(f"📝 Text length: {len(text)} characters")
+            print(f"Converting text to speech using {self.voice} voice")
+            print(f"Text length: {len(text)} characters")
             
             # Create TTS request
             response = self.client.models.generate_content(
@@ -116,13 +116,13 @@ class NarratorClient:
             if output_file.endswith('.mp3'):
                 if self.wav_to_mp3(wav_file, output_file):
                     os.remove(wav_file)  # Remove WAV file after successful conversion
-                    print(f"🎵 Audio saved as: {output_file}")
+                    print(f"Audio saved as: {output_file}")
                     return output_file
                 else:
-                    print(f"🎵 Audio saved as: {wav_file} (MP3 conversion failed)")
+                    print(f"Audio saved as: {wav_file} (MP3 conversion failed)")
                     return wav_file
             else:
-                print(f"🎵 Audio saved as: {wav_file}")
+                print(f"Audio saved as: {wav_file}")
                 return wav_file
                 
         except Exception as e:
@@ -176,8 +176,8 @@ def narrate_file(file_path, output_path, client):
             log_error('Narrator', f"No text content found in {file_path}")
             return None
         
-        print(f"📄 Processing {file_path}")
-        print(f"📝 Text preview: {text_content[:200]}...")
+        print(f"Processing {file_path}")
+        print(f"Text preview: {text_content[:200]}...")
         
         # Ensure output directory exists
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -212,7 +212,7 @@ def narrate():
         
         # Check if summary audio already exists
         if file_exists(summary_audio):
-            print(f"✅ Using existing summary audio: {summary_audio}")
+            print(f"Using existing summary audio: {summary_audio}")
             summary_result = summary_audio
         elif file_exists(summary_file):
             print(f"\n=== Converting Summary to Speech ===")
@@ -224,15 +224,15 @@ def narrate():
             )
             summary_result = narrate_file(summary_file, summary_audio, client)
             if summary_result:
-                print(f"✅ Summary audio created: {summary_result}")
+                print(f"Summary audio created: {summary_result}")
             else:
-                print("❌ Failed to create summary audio")
+                print("Failed to create summary audio")
         else:
-            print(f"⚠️  Summary file not found: {summary_file}")
+            print(f"Summary file not found: {summary_file}")
         
         # Check if translated audio already exists
         if file_exists(translated_audio):
-            print(f"✅ Using existing translation audio: {translated_audio}")
+            print(f"Using existing translation audio: {translated_audio}")
             translated_result = translated_audio
         elif file_exists(translated_file):
             print(f"\n=== Converting Translation to Speech ===")
@@ -245,11 +245,11 @@ def narrate():
                 )
             translated_result = narrate_file(translated_file, translated_audio, client)
             if translated_result:
-                print(f"✅ Translation audio created: {translated_result}")
+                print(f"Translation audio created: {translated_result}")
             else:
-                print("❌ Failed to create translation audio")
+                print("Failed to create translation audio")
         else:
-            print(f"⚠️  Translation file not found: {translated_file}")
+            print(f"Translation file not found: {translated_file}")
         
         return summary_result, translated_result
         
@@ -266,10 +266,10 @@ if __name__ == "__main__":
     summary_audio, translated_audio = narrate()
     
     if summary_audio or translated_audio:
-        print(f"\n✅ Narration completed successfully")
+        print(f"\nNarration completed successfully")
         if summary_audio:
-            print(f"🎵 Summary audio: {summary_audio}")
+            print(f"Summary audio: {summary_audio}")
         if translated_audio:
-            print(f"🎵 Translation audio: {translated_audio}")
+            print(f"Translation audio: {translated_audio}")
     else:
-        print("\n❌ Narration failed") 
+        print("\nNarration failed") 
