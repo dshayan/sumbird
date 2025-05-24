@@ -127,7 +127,7 @@ def send_telegram_audio_group(audio_files, chat_id):
     """Send multiple audio files as a media group to a Telegram channel.
     
     Args:
-        audio_files (list): List of dicts with 'path', 'caption', and 'title' keys
+        audio_files (list): List of dicts with 'path' and 'title' keys
         chat_id (str): Channel ID
     
     Returns:
@@ -157,7 +157,6 @@ def send_telegram_audio_group(audio_files, chat_id):
             media.append({
                 "type": "audio",
                 "media": f"attach://{file_key}",
-                "caption": audio_file.get('caption', ''),
                 "title": audio_file.get('title', ''),
                 "parse_mode": TELEGRAM_PARSE_MODE
             })
@@ -222,13 +221,12 @@ def send_telegram_audio_group(audio_files, chat_id):
         log_error('TelegramDistributer', f"Error sending Telegram audio group", e)
         return False, ""
 
-def send_telegram_audio(audio_file_path, chat_id, caption="", title=""):
+def send_telegram_audio(audio_file_path, chat_id, title=""):
     """Send an audio file to a Telegram channel.
     
     Args:
         audio_file_path (str): Path to the audio file
         chat_id (str): Channel ID
-        caption (str): Caption for the audio file
         title (str): Title for the audio file
     
     Returns:
@@ -256,7 +254,6 @@ def send_telegram_audio(audio_file_path, chat_id, caption="", title=""):
             
             data = {
                 'chat_id': chat_id,
-                'caption': caption,
                 'title': title,
                 'parse_mode': TELEGRAM_PARSE_MODE,
                 'disable_notification': False
@@ -403,12 +400,10 @@ def distribute():
             audio_files_to_send = [
                 {
                     'path': summary_audio,
-                    'caption': '🎵 Audio summary (English)',
                     'title': 'Daily Summary Audio'
                 },
                 {
                     'path': translated_audio,
-                    'caption': '🎵 Audio summary (Persian)',
                     'title': 'Daily Summary Audio - Persian'
                 }
             ]
