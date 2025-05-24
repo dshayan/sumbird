@@ -50,6 +50,8 @@ python scripts/telegraph_post_manager.py  # List and delete Telegraph posts
 
 ## Pipeline Flow
 
+The pipeline follows a **fail-fast approach** - if any step fails, the entire pipeline stops. All steps are required:
+
 1. `fetcher.py`: Retrieves tweets via RSS feeds
 2. `summarizer.py`: Processes tweets with AI (via OpenRouter) to generate a summary
 3. `translator.py`: Translates the summary to Persian

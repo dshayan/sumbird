@@ -386,54 +386,42 @@ def distribute():
         if success:
             print(f"Successfully distributed content to Telegram channel {channel_id}")
             
-            # Check for audio files and send them as a group
+            # Check for audio files and send them as a group (both now required)
             summary_audio = get_file_path('narrated', date_str)
             translated_audio = get_file_path('narrated', date_str, lang='FA')
             
-            audio_urls = []
-            audio_files_to_send = []
+            # Verify both audio files exist (now required)
+            if not file_exists(summary_audio):
+                log_error('TelegramDistributer', f"Required summary audio file not found: {summary_audio}")
+                return False, ""
             
-            # Prepare audio files for group sending
-            if file_exists(summary_audio):
-                audio_files_to_send.append({
+            if not file_exists(translated_audio):
+                log_error('TelegramDistributer', f"Required translated audio file not found: {translated_audio}")
+                return False, ""
+            
+            audio_urls = []
+            audio_files_to_send = [
+                {
                     'path': summary_audio,
                     'caption': '🎵 Audio summary (English)',
                     'title': 'Daily Summary Audio'
-                })
-            
-            if file_exists(translated_audio):
-                audio_files_to_send.append({
+                },
+                {
                     'path': translated_audio,
                     'caption': '🎵 Audio summary (Persian)',
                     'title': 'Daily Summary Audio - Persian'
-                })
+                }
+            ]
             
-            # Send audio files as a group if any exist
-            if audio_files_to_send:
-                if len(audio_files_to_send) == 1:
-                    # Send single audio file
-                    audio_file = audio_files_to_send[0]
-                    print(f"Sending audio: {audio_file['path']}")
-                    audio_success, audio_url = send_telegram_audio(
-                        audio_file['path'], 
-                        channel_id, 
-                        caption=audio_file['caption'],
-                        title=audio_file['title']
-                    )
-                    if audio_success:
-                        print(f"Audio sent successfully")
-                        audio_urls.append(audio_url)
-                    else:
-                        print(f"Failed to send audio")
-                else:
-                    # Send multiple audio files as a group
-                    print(f"Sending {len(audio_files_to_send)} audio files as a group")
-                    audio_success, audio_url = send_telegram_audio_group(audio_files_to_send, channel_id)
-                    if audio_success:
-                        print(f"Audio group sent successfully")
-                        audio_urls.append(audio_url)
-                    else:
-                        print(f"Failed to send audio group")
+            # Send audio files as a group (both files are required)
+            print(f"Sending {len(audio_files_to_send)} audio files as a group")
+            audio_success, audio_url = send_telegram_audio_group(audio_files_to_send, channel_id)
+            if audio_success:
+                print(f"Audio group sent successfully")
+                audio_urls.append(audio_url)
+            else:
+                log_error('TelegramDistributer', "Failed to send required audio group")
+                return False, ""
             
             # Update the published data with telegram distribution info
             published_data["telegram_distributed"] = {

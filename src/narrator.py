@@ -210,6 +210,15 @@ def narrate():
         summary_file = get_file_path('summary', date_str)
         translated_file = get_file_path('translated', date_str)
         
+        # Verify both required files exist
+        if not file_exists(summary_file):
+            log_error('Narrator', f"Required summary file not found: {summary_file}")
+            return None, None
+        
+        if not file_exists(translated_file):
+            log_error('Narrator', f"Required translated file not found: {translated_file}")
+            return None, None
+        
         # Generate output paths
         summary_audio = get_file_path('narrated', date_str)
         translated_audio = get_file_path('narrated', date_str, lang='FA')
@@ -221,9 +230,9 @@ def narrate():
         if file_exists(summary_audio):
             print(f"Using existing summary audio: {summary_audio}")
             summary_result = summary_audio
-        elif file_exists(summary_file):
+        else:
             print(f"\n=== Converting Summary to Speech ===")
-            # Initialize TTS client only when needed
+            # Initialize TTS client
             client = NarratorClient(
                 api_key=GEMINI_API_KEY,
                 model=GEMINI_TTS_MODEL,
@@ -234,17 +243,16 @@ def narrate():
             if summary_result:
                 print(f"Summary audio created: {summary_result}")
             else:
-                print("Failed to create summary audio")
-        else:
-            print(f"Summary file not found: {summary_file}")
+                log_error('Narrator', "Failed to create required summary audio")
+                return None, None
         
         # Check if translated audio already exists
         if file_exists(translated_audio):
             print(f"Using existing translation audio: {translated_audio}")
             translated_result = translated_audio
-        elif file_exists(translated_file):
+        else:
             print(f"\n=== Converting Translation to Speech ===")
-            # Initialize TTS client only when needed (if not already initialized)
+            # Initialize TTS client if not already initialized
             if 'client' not in locals():
                 client = NarratorClient(
                     api_key=GEMINI_API_KEY,
@@ -256,9 +264,8 @@ def narrate():
             if translated_result:
                 print(f"Translation audio created: {translated_result}")
             else:
-                print("Failed to create translation audio")
-        else:
-            print(f"Translation file not found: {translated_file}")
+                log_error('Narrator', "Failed to create required translation audio")
+                return None, None
         
         return summary_result, translated_result
         

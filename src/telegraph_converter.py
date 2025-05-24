@@ -291,16 +291,23 @@ def convert_all_summaries():
     converted_en_file = get_file_path('converted', date_str)
     converted_fa_file = get_file_path('converted', date_str, lang='FA')
     
+    # Check if both required files exist
+    if not os.path.exists(summary_file):
+        log_error('Telegraph Converter', f"Summary file not found: {summary_file}")
+        return False
+    
+    if not os.path.exists(translated_file):
+        log_error('Telegraph Converter', f"Translated file not found: {translated_file}")
+        return False
+    
     # English conversion
     en_result = convert_to_telegraph_format(summary_file, converted_en_file, date_str, is_persian=False)
     
-    # Persian conversion if translated file exists
-    fa_result = False
-    if os.path.exists(translated_file):
-        fa_result = convert_to_telegraph_format(translated_file, converted_fa_file, date_str, is_persian=True)
+    # Persian conversion (now required)
+    fa_result = convert_to_telegraph_format(translated_file, converted_fa_file, date_str, is_persian=True)
     
-    # Return overall success
-    return en_result and (not os.path.exists(translated_file) or fa_result)
+    # Return overall success - both conversions must succeed
+    return en_result and fa_result
 
 if __name__ == "__main__":
     # Create necessary directories when running as standalone, but only if they don't exist

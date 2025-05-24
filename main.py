@@ -135,11 +135,13 @@ def run_pipeline():
             translated_file, tr_input_tokens, tr_output_tokens = translate()
             
             if not translated_file or not os.path.exists(translated_file):
-                print("Warning: Persian translation failed, continuing with English only")
+                print("Error: Persian translation failed")
                 log_step(log_file, False, "Translated")
-            else:
-                print(f"Translation created and saved to {translated_file}")
-                log_step(log_file, True, f"Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
+                log_file.write("──────────\n")
+                return False
+            
+            print(f"Translation created and saved to {translated_file}")
+            log_step(log_file, True, f"Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
         
         # Step 4: Convert to Speech (TTS)
         print("\n=== Step 4: Convert to Speech (TTS) ===")
@@ -149,24 +151,21 @@ def run_pipeline():
         translated_audio_path = get_file_path('narrated', date_str, lang='FA')
         using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path)
         
-        summary_audio, translated_audio = narrate()
-        
-        if summary_audio or translated_audio:
-            audio_files = []
-            if summary_audio:
-                audio_files.append(f"Summary: {summary_audio}")
-            if translated_audio:
-                audio_files.append(f"Translation: {translated_audio}")
-            
-            if using_cached_audio:
-                print(f"Using existing audio files: {', '.join(audio_files)}")
-                log_step(log_file, True, f"Narrated (using cached files)")
-            else:
-                print(f"Audio files created: {', '.join(audio_files)}")
-                log_step(log_file, True, f"Narrated {len(audio_files)} audio files")
+        if using_cached_audio:
+            print(f"Using existing audio files: {summary_audio_path}, {translated_audio_path}")
+            log_step(log_file, True, f"Narrated (using cached files)")
         else:
-            print("Warning: TTS conversion failed, continuing without audio")
-            log_step(log_file, False, "Narrated")
+            summary_audio, translated_audio = narrate()
+            
+            # Both audio files are now required
+            if summary_audio and translated_audio:
+                print(f"Audio files created: Summary: {summary_audio}, Translation: {translated_audio}")
+                log_step(log_file, True, f"Narrated 2 audio files")
+            else:
+                print("Error: TTS conversion failed")
+                log_step(log_file, False, "Narrated")
+                log_file.write("──────────\n")
+                return False
         
         # Step 5: Convert to Telegraph format
         print("\n=== Step 5: Convert to Telegraph Format ===")
