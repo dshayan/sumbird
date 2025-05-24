@@ -10,6 +10,7 @@ __version__ = '1.0.0'
 from src.fetcher import fetch_and_format
 from src.summarizer import summarize, OpenRouterClient
 from src.translator import translate, TranslatorClient
+from src.narrator import narrate, NarratorClient
 from src.telegraph_converter import convert_all_summaries
 from src.telegraph_publisher import publish
 from src.telegram_distributer import distribute
@@ -26,6 +27,8 @@ __all__ = [
     'OpenRouterClient',
     'translate',
     'TranslatorClient',
+    'narrate',
+    'NarratorClient',
     'convert_all_summaries',
     'publish',
     'distribute',

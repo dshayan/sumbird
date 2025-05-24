@@ -17,6 +17,7 @@ from config import (
     get_file_path, TIMEZONE, format_iso_datetime
 )
 from utils.logging_utils import log_error, handle_request_error
+from utils.file_utils import file_exists
 
 def validate_channel_id(channel_id):
     """Validates that the channel ID is in a proper format.
@@ -122,6 +123,91 @@ def send_telegram_channel_post(content, chat_id):
         log_error('TelegramDistributer', "Error sending Telegram channel post", e)
         return False, ""
 
+def send_telegram_audio(audio_file_path, chat_id, caption="", title=""):
+    """Send an audio file to a Telegram channel.
+    
+    Args:
+        audio_file_path (str): Path to the audio file
+        chat_id (str): Channel ID
+        caption (str): Caption for the audio file
+        title (str): Title for the audio file
+    
+    Returns:
+        tuple: (success, message_url) where success is a boolean and message_url is a string or empty
+    """
+    try:
+        # Validate the chat ID format
+        is_valid, error_message = validate_channel_id(chat_id)
+        if not is_valid:
+            log_error('TelegramDistributer', f"{error_message}\nReceived channel ID: '{chat_id}'")
+            return False, ""
+        
+        # Check if audio file exists
+        if not file_exists(audio_file_path):
+            log_error('TelegramDistributer', f"Audio file not found: {audio_file_path}")
+            return False, ""
+            
+        api_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendAudio"
+        
+        # Prepare the files and data for multipart upload
+        with open(audio_file_path, 'rb') as audio_file:
+            files = {
+                'audio': (os.path.basename(audio_file_path), audio_file, 'audio/mpeg')
+            }
+            
+            data = {
+                'chat_id': chat_id,
+                'caption': caption,
+                'title': title,
+                'parse_mode': TELEGRAM_PARSE_MODE,
+                'disable_notification': False
+            }
+            
+            # Make the API request
+            response = httpx.post(
+                api_url,
+                files=files,
+                data=data,
+                timeout=120  # Longer timeout for file uploads
+            )
+        
+        # Check if the request was successful
+        if response.status_code == 200:
+            response_json = response.json()
+            if response_json.get("ok"):
+                # Extract message info to construct URL
+                message_id = response_json.get("result", {}).get("message_id")
+                chat_id_value = response_json.get("result", {}).get("chat", {}).get("id")
+                chat_username = response_json.get("result", {}).get("chat", {}).get("username")
+                
+                # Construct message URL
+                message_url = ""
+                if chat_username:
+                    # Public channel
+                    message_url = f"https://t.me/{chat_username}/{message_id}"
+                elif chat_id_value:
+                    # Private channel
+                    # Remove the minus sign if it's a negative ID
+                    channel_id_str = str(chat_id_value)
+                    if channel_id_str.startswith('-100'):
+                        clean_id = channel_id_str[4:]  # Remove -100 prefix
+                        message_url = f"https://t.me/c/{clean_id}/{message_id}"
+                    elif channel_id_str.startswith('-'):
+                        clean_id = channel_id_str[1:]  # Remove just the minus sign
+                        message_url = f"https://t.me/c/{clean_id}/{message_id}"
+                    else:
+                        message_url = f"https://t.me/c/{channel_id_str}/{message_id}"
+                
+                return True, message_url
+            else:
+                return handle_request_error('TelegramDistributer', response, "Telegram API error"), ""
+        else:
+            return handle_request_error('TelegramDistributer', response, "API request failed"), ""
+    
+    except Exception as e:
+        log_error('TelegramDistributer', f"Error sending Telegram audio file", e)
+        return False, ""
+
 def format_telegram_post(published_data):
     """Format the published data into a Telegram post.
     
@@ -201,11 +287,48 @@ def distribute():
         if success:
             print(f"Successfully distributed content to Telegram channel {channel_id}")
             
+            # Check for audio files and send them
+            summary_audio = get_file_path('narrated', date_str)
+            translated_audio = get_file_path('narrated', date_str, lang='FA')
+            
+            audio_urls = []
+            
+            # Send summary audio if it exists
+            if file_exists(summary_audio):
+                print(f"📤 Sending summary audio: {summary_audio}")
+                audio_success, audio_url = send_telegram_audio(
+                    summary_audio, 
+                    channel_id, 
+                    caption="🎵 Audio summary (English)",
+                    title="Daily Summary Audio"
+                )
+                if audio_success:
+                    print(f"✅ Summary audio sent successfully")
+                    audio_urls.append(audio_url)
+                else:
+                    print(f"❌ Failed to send summary audio")
+            
+            # Send translated audio if it exists
+            if file_exists(translated_audio):
+                print(f"📤 Sending translated audio: {translated_audio}")
+                audio_success, audio_url = send_telegram_audio(
+                    translated_audio, 
+                    channel_id, 
+                    caption="🎵 Audio summary (Persian)",
+                    title="Daily Summary Audio - Persian"
+                )
+                if audio_success:
+                    print(f"✅ Translated audio sent successfully")
+                    audio_urls.append(audio_url)
+                else:
+                    print(f"❌ Failed to send translated audio")
+            
             # Update the published data with telegram distribution info
             published_data["telegram_distributed"] = {
                 "timestamp": format_iso_datetime(),
                 "channel": channel_id,
-                "message_url": message_url
+                "message_url": message_url,
+                "audio_urls": audio_urls
             }
             
             # Save the updated published data

@@ -16,7 +16,7 @@ import json
 from datetime import datetime
 
 # Import utilities from utils package
-from utils.file_utils import ensure_directories, get_file_path
+from utils.file_utils import ensure_directories, get_file_path, file_exists
 from utils.date_utils import get_date_str, format_datetime
 from utils.logging_utils import log_step
 
@@ -27,6 +27,7 @@ from config import HANDLES, MIN_FEEDS_TOTAL, MIN_FEEDS_SUCCESS_RATIO
 from src.fetcher import fetch_and_format
 from src.summarizer import summarize
 from src.translator import translate
+from src.narrator import narrate
 from src.telegraph_converter import convert_all_summaries
 from src.telegraph_publisher import publish
 from src.telegram_distributer import distribute
@@ -140,8 +141,35 @@ def run_pipeline():
                 print(f"Translation created and saved to {translated_file}")
                 log_step(log_file, True, f"Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
         
-        # Step 4: Convert to Telegraph format
-        print("\n=== Step 4: Convert to Telegraph Format ===")
+        # Step 4: Convert to Speech (TTS)
+        print("\n=== Step 4: Convert to Speech (TTS) ===")
+        
+        # Check if audio files already exist
+        summary_audio_path = get_file_path('narrated', date_str)
+        translated_audio_path = get_file_path('narrated', date_str, lang='FA')
+        using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path)
+        
+        summary_audio, translated_audio = narrate()
+        
+        if summary_audio or translated_audio:
+            audio_files = []
+            if summary_audio:
+                audio_files.append(f"Summary: {summary_audio}")
+            if translated_audio:
+                audio_files.append(f"Translation: {translated_audio}")
+            
+            if using_cached_audio:
+                print(f"Using existing audio files: {', '.join(audio_files)}")
+                log_step(log_file, True, f"Narrated (using cached files)")
+            else:
+                print(f"Audio files created: {', '.join(audio_files)}")
+                log_step(log_file, True, f"Narrated ({len(audio_files)} audio files)")
+        else:
+            print("Warning: TTS conversion failed, continuing without audio")
+            log_step(log_file, False, "Narrated")
+        
+        # Step 5: Convert to Telegraph format
+        print("\n=== Step 5: Convert to Telegraph Format ===")
         
         converted = convert_all_summaries()
         if not converted:
@@ -161,8 +189,8 @@ def run_pipeline():
         
         log_step(log_file, True, "Converted to JSON")
         
-        # Step 5: Publish to Telegraph
-        print("\n=== Step 5: Publish to Telegraph ===")
+        # Step 6: Publish to Telegraph
+        print("\n=== Step 6: Publish to Telegraph ===")
         
         # Pass feeds_success to the publish function
         published_file = publish(feeds_success)
@@ -189,8 +217,8 @@ def run_pipeline():
         else:
             log_step(log_file, True, f"Published on {telegraph_url}")
         
-        # Step 6: Distribute to Telegram Channel
-        print("\n=== Step 6: Distribute to Telegram Channel ===")
+        # Step 7: Distribute to Telegram Channel
+        print("\n=== Step 7: Distribute to Telegram Channel ===")
         
         telegram_url = ""
         distribution_success, telegram_url = distribute()

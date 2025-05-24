@@ -1,6 +1,6 @@
 # Sumbird
 
-A pipeline for fetching tweets from Twitter/X via RSS, summarizing them with AI (via OpenRouter), translating to Persian, and publishing to Telegraph and Telegram.
+A pipeline for fetching tweets from Twitter/X via RSS, summarizing them with AI (via OpenRouter), translating to Persian, converting to speech with TTS, and publishing to Telegraph and Telegram.
 
 ## Setup
 
@@ -16,6 +16,9 @@ A pipeline for fetching tweets from Twitter/X via RSS, summarizing them with AI 
 - `OPENROUTER_API_KEY`: OpenRouter API key
 - `OPENROUTER_MODEL`: AI model to use for summarization (e.g., anthropic/claude-3.7-sonnet, openai/gpt-4o)
 - `TRANSLATOR_MODEL`: AI model to use for translation (e.g., google/gemini-2.0-flash-001)
+- `GEMINI_API_KEY`: Gemini API key for TTS
+- `GEMINI_TTS_MODEL`: Gemini TTS model (e.g., gemini-2.5-flash-preview-tts)
+- `GEMINI_TTS_VOICE`: Voice to use for TTS (Zephyr, Aoede, Charon, Fenrir)
 - `OPENROUTER_SITE_URL`: Your site URL for OpenRouter rankings
 - `OPENROUTER_SITE_NAME`: Your site name for OpenRouter rankings
 - `TELEGRAPH_ACCESS_TOKEN`: Telegraph API token
@@ -34,6 +37,7 @@ python main.py
 python -m src.fetcher
 python -m src.summarizer
 python -m src.translator
+python -m src.narrator
 python -m src.telegraph_converter
 python -m src.telegraph_publisher
 python -m src.telegram_distributer
@@ -49,9 +53,10 @@ python scripts/telegraph_post_manager.py  # List and delete Telegraph posts
 1. `fetcher.py`: Retrieves tweets via RSS feeds
 2. `summarizer.py`: Processes tweets with AI (via OpenRouter) to generate a summary
 3. `translator.py`: Translates the summary to Persian
-4. `telegraph_converter.py`: Formats summaries for Telegraph in both languages
-5. `telegraph_publisher.py`: Publishes content to Telegraph
-6. `telegram_distributer.py`: Shares to Telegram with links to both versions
+4. `narrator.py`: Converts summaries to speech using Gemini TTS
+5. `telegraph_converter.py`: Formats summaries for Telegraph in both languages
+6. `telegraph_publisher.py`: Publishes content to Telegraph
+7. `telegram_distributer.py`: Shares to Telegram with links and audio files
 
 ## Directory Structure
 
@@ -66,6 +71,7 @@ python scripts/telegraph_post_manager.py  # List and delete Telegraph posts
   - `/export`: Raw exported tweets
   - `/summary`: AI-generated summaries
   - `/translated`: Persian translations
+  - `/narrated`: TTS audio files
   - `/converted`: Telegraph-formatted content
   - `/published`: Published content information
 - `/logs`: Execution logs (log.txt, error.log)

@@ -23,6 +23,7 @@ REQUIRED_VARS = [
     'TRANSLATED_DIR',
     'CONVERTED_DIR',
     'PUBLISHED_DIR',
+    'NARRATED_DIR',
     'FILE_FORMAT',
     'EXPORT_TITLE_FORMAT',
     'SUMMARY_TITLE_FORMAT',
@@ -35,6 +36,9 @@ REQUIRED_VARS = [
     'OPENROUTER_SITE_NAME',
     'TRANSLATOR_MODEL',
     'TRANSLATOR_PROMPT_PATH',
+    'GEMINI_API_KEY',
+    'GEMINI_TTS_MODEL',
+    'GEMINI_TTS_VOICE',
     'TELEGRAPH_ACCESS_TOKEN',
     'FOOTER_TEXT',
     'FOOTER_LINK_TEXT',
@@ -84,6 +88,7 @@ def load_environment():
         env_vars['TRANSLATED_DIR'],
         env_vars['CONVERTED_DIR'],
         env_vars['PUBLISHED_DIR'],
+        env_vars['NARRATED_DIR'],
         env_vars['FILE_FORMAT']
     )
     
