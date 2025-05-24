@@ -14,6 +14,7 @@ from config import (
     get_date_str, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID,
     TELEGRAM_MESSAGE_TITLE_FORMAT, TELEGRAM_SUMMARY_FORMAT,
     TELEGRAM_CHANNEL_DISPLAY, TELEGRAM_PARSE_MODE, TELEGRAM_DISABLE_WEB_PREVIEW,
+    TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
     get_file_path, TIMEZONE, format_iso_datetime
 )
 from utils.logging_utils import log_error, handle_request_error
@@ -400,11 +401,11 @@ def distribute():
             audio_files_to_send = [
                 {
                     'path': summary_audio,
-                    'title': 'Daily Summary Audio'
+                    'title': TELEGRAM_AUDIO_TITLE_EN
                 },
                 {
                     'path': translated_audio,
-                    'title': 'Daily Summary Audio - Persian'
+                    'title': TELEGRAM_AUDIO_TITLE_FA
                 }
             ]
             

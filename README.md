@@ -24,6 +24,8 @@ A pipeline for fetching tweets from Twitter/X via RSS, summarizing them with AI 
 - `TELEGRAPH_ACCESS_TOKEN`: Telegraph API token
 - `TELEGRAM_BOT_TOKEN`: Telegram bot token
 - `TELEGRAM_CHAT_ID`: Telegram channel ID
+- `TELEGRAM_AUDIO_TITLE_EN`: Title for English audio files
+- `TELEGRAM_AUDIO_TITLE_FA`: Title for Persian audio files
 
 ## Usage
 
