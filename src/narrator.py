@@ -12,7 +12,7 @@ from google.genai import types
 
 from config import (
     GEMINI_API_KEY, GEMINI_TTS_MODEL, GEMINI_TTS_VOICE, NARRATOR_PROMPT_PATH,
-    SUMMARY_DIR, TRANSLATED_DIR, NARRATED_DIR,
+    SCRIPT_DIR, NARRATED_DIR,
     get_date_str, get_file_path
 )
 from utils.logging_utils import log_error
@@ -207,16 +207,16 @@ def narrate():
             prompt_template = f.read().strip()
         
         # Get file paths
-        summary_file = get_file_path('summary', date_str)
-        translated_file = get_file_path('translated', date_str)
+        script_file = get_file_path('script', date_str)
+        translated_script_file = get_file_path('script', date_str, lang='FA')
         
         # Verify both required files exist
-        if not file_exists(summary_file):
-            log_error('Narrator', f"Required summary file not found: {summary_file}")
+        if not file_exists(script_file):
+            log_error('Narrator', f"Required script file not found: {script_file}")
             return None, None
         
-        if not file_exists(translated_file):
-            log_error('Narrator', f"Required translated file not found: {translated_file}")
+        if not file_exists(translated_script_file):
+            log_error('Narrator', f"Required translated script file not found: {translated_script_file}")
             return None, None
         
         # Generate output paths
@@ -231,7 +231,7 @@ def narrate():
             print(f"Using existing summary audio: {summary_audio}")
             summary_result = summary_audio
         else:
-            print(f"\n=== Converting Summary to Speech ===")
+            print(f"\n=== Converting Script to Speech ===")
             # Initialize TTS client
             client = NarratorClient(
                 api_key=GEMINI_API_KEY,
@@ -239,11 +239,11 @@ def narrate():
                 voice=GEMINI_TTS_VOICE,
                 prompt_template=prompt_template
             )
-            summary_result = narrate_file(summary_file, summary_audio, client)
+            summary_result = narrate_file(script_file, summary_audio, client)
             if summary_result:
-                print(f"Summary audio created: {summary_result}")
+                print(f"Script audio created: {summary_result}")
             else:
-                log_error('Narrator', "Failed to create required summary audio")
+                log_error('Narrator', "Failed to create required script audio")
                 return None, None
         
         # Check if translated audio already exists
@@ -251,7 +251,7 @@ def narrate():
             print(f"Using existing translation audio: {translated_audio}")
             translated_result = translated_audio
         else:
-            print(f"\n=== Converting Translation to Speech ===")
+            print(f"\n=== Converting Translation Script to Speech ===")
             # Initialize TTS client if not already initialized
             if 'client' not in locals():
                 client = NarratorClient(
@@ -260,11 +260,11 @@ def narrate():
                     voice=GEMINI_TTS_VOICE,
                     prompt_template=prompt_template
                 )
-            translated_result = narrate_file(translated_file, translated_audio, client)
+            translated_result = narrate_file(translated_script_file, translated_audio, client)
             if translated_result:
-                print(f"Translation audio created: {translated_result}")
+                print(f"Translation script audio created: {translated_result}")
             else:
-                log_error('Narrator', "Failed to create required translation audio")
+                log_error('Narrator', "Failed to create required translation script audio")
                 return None, None
         
         return summary_result, translated_result

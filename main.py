@@ -6,9 +6,11 @@ This pipeline:
 1. Fetches tweets from specified handles for a target date and formats them
 2. Processes them with AI (via OpenRouter) to generate a summary
 3. Translates the summary to Persian
-4. Converts the summary to Telegraph format
-5. Publishes the content to Telegraph
-6. Distributes the content to Telegram channel
+4. Converts content to TTS-optimized scripts
+5. Converts scripts to speech using TTS
+6. Converts the summary to Telegraph format
+7. Publishes the content to Telegraph
+8. Distributes the content to Telegram channel
 """
 import os
 import sys
@@ -27,6 +29,7 @@ from config import HANDLES, MIN_FEEDS_TOTAL, MIN_FEEDS_SUCCESS_RATIO
 from src.fetcher import fetch_and_format
 from src.summarizer import summarize
 from src.translator import translate
+from src.script_writer import write_scripts
 from src.narrator import narrate
 from src.telegraph_converter import convert_all_summaries
 from src.telegraph_publisher import publish
@@ -143,8 +146,34 @@ def run_pipeline():
             print(f"Translation created and saved to {translated_file}")
             log_step(log_file, True, f"Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
         
-        # Step 4: Convert to Speech (TTS)
-        print("\n=== Step 4: Convert to Speech (TTS) ===")
+        # Step 4: Convert to TTS-optimized Scripts
+        print("\n=== Step 4: Convert to TTS-optimized Scripts ===")
+        
+        # Check if script files already exist
+        summary_script_path = get_file_path('script', date_str)
+        translated_script_path = get_file_path('script', date_str, lang='FA')
+        using_cached_scripts = file_exists(summary_script_path) and file_exists(translated_script_path)
+        
+        if using_cached_scripts:
+            print(f"Using existing script files: {summary_script_path}, {translated_script_path}")
+            log_step(log_file, True, "Scripted (using cached files)")
+            sc_input_tokens = 0
+            sc_output_tokens = 0
+        else:
+            # Run script writing
+            summary_script, translated_script, sc_input_tokens, sc_output_tokens = write_scripts()
+            
+            if not summary_script or not translated_script:
+                print("Error: Script writing failed")
+                log_step(log_file, False, "Scripted")
+                log_file.write("──────────\n")
+                return False
+            
+            print(f"Scripts created: Summary: {summary_script}, Translation: {translated_script}")
+            log_step(log_file, True, f"Scripted using {sc_input_tokens} input tokens, {sc_output_tokens} output tokens")
+        
+        # Step 5: Convert to Speech (TTS)
+        print("\n=== Step 5: Convert to Speech (TTS) ===")
         
         # Check if audio files already exist
         summary_audio_path = get_file_path('narrated', date_str)
@@ -167,8 +196,8 @@ def run_pipeline():
                 log_file.write("──────────\n")
                 return False
         
-        # Step 5: Convert to Telegraph format
-        print("\n=== Step 5: Convert to Telegraph Format ===")
+        # Step 6: Convert to Telegraph format
+        print("\n=== Step 6: Convert to Telegraph Format ===")
         
         converted = convert_all_summaries()
         if not converted:
@@ -188,8 +217,8 @@ def run_pipeline():
         
         log_step(log_file, True, "Converted to JSON")
         
-        # Step 6: Publish to Telegraph
-        print("\n=== Step 6: Publish to Telegraph ===")
+        # Step 7: Publish to Telegraph
+        print("\n=== Step 7: Publish to Telegraph ===")
         
         # Pass feeds_success to the publish function
         published_file = publish(feeds_success)
@@ -216,8 +245,8 @@ def run_pipeline():
         else:
             log_step(log_file, True, f"Published on {telegraph_url}")
         
-        # Step 7: Distribute to Telegram Channel
-        print("\n=== Step 7: Distribute to Telegram Channel ===")
+        # Step 8: Distribute to Telegram Channel
+        print("\n=== Step 8: Distribute to Telegram Channel ===")
         
         telegram_url = ""
         distribution_success, telegram_url = distribute()

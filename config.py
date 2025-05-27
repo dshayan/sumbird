@@ -23,6 +23,7 @@ TARGET_DATE = env_utils.get_env('TARGET_DATE')
 EXPORT_DIR = env_utils.get_env('EXPORT_DIR')
 SUMMARY_DIR = env_utils.get_env('SUMMARY_DIR')
 TRANSLATED_DIR = env_utils.get_env('TRANSLATED_DIR')
+SCRIPT_DIR = env_utils.get_env('SCRIPT_DIR')
 CONVERTED_DIR = env_utils.get_env('CONVERTED_DIR')
 PUBLISHED_DIR = env_utils.get_env('PUBLISHED_DIR')
 NARRATED_DIR = env_utils.get_env('NARRATED_DIR')
@@ -44,6 +45,10 @@ OPENROUTER_SITE_NAME = env_utils.get_env('OPENROUTER_SITE_NAME')
 # Translator Configuration
 TRANSLATOR_MODEL = env_utils.get_env('TRANSLATOR_MODEL')
 TRANSLATOR_PROMPT_PATH = env_utils.get_env('TRANSLATOR_PROMPT_PATH')
+
+# Script Writer Configuration
+SCRIPT_WRITER_MODEL = env_utils.get_env('SCRIPT_WRITER_MODEL')
+SCRIPT_WRITER_PROMPT_PATH = env_utils.get_env('SCRIPT_WRITER_PROMPT_PATH')
 
 # TTS Configuration
 GEMINI_API_KEY = env_utils.get_env('GEMINI_API_KEY')
