@@ -78,6 +78,9 @@ class ScriptWriterClient:
                 output_tokens = usage.get("completion_tokens", 0)
                 
                 return script, input_tokens, output_tokens
+        except httpx.HTTPStatusError as e:
+            handle_request_error("ScriptWriter", e.response, "Error writing script with OpenRouter")
+            return None, 0, 0
         except Exception as e:
             log_error("ScriptWriter", f"Error writing script with OpenRouter", e)
             return None, 0, 0
@@ -139,8 +142,7 @@ def write_scripts():
         date_str = get_date_str()
         
         # Read the script writer prompt
-        with open(SCRIPT_WRITER_PROMPT_PATH, 'r', encoding='utf-8') as f:
-            system_prompt = f.read().strip()
+        system_prompt = read_file(SCRIPT_WRITER_PROMPT_PATH).strip()
         
         # Get file paths
         summary_file = get_file_path('summary', date_str)
