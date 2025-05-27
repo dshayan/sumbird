@@ -23,6 +23,7 @@ REQUIRED_VARS = [
     'TRANSLATED_DIR',
     'CONVERTED_DIR',
     'PUBLISHED_DIR',
+    'NARRATED_DIR',
     'FILE_FORMAT',
     'EXPORT_TITLE_FORMAT',
     'SUMMARY_TITLE_FORMAT',
@@ -35,6 +36,13 @@ REQUIRED_VARS = [
     'OPENROUTER_SITE_NAME',
     'TRANSLATOR_MODEL',
     'TRANSLATOR_PROMPT_PATH',
+    'SCRIPT_WRITER_MODEL',
+    'SCRIPT_WRITER_PROMPT_PATH',
+    'SCRIPT_DIR',
+    'GEMINI_API_KEY',
+    'GEMINI_TTS_MODEL',
+    'GEMINI_TTS_VOICE',
+    'NARRATOR_PROMPT_PATH',
     'TELEGRAPH_ACCESS_TOKEN',
     'FOOTER_TEXT',
     'FOOTER_LINK_TEXT',
@@ -48,7 +56,12 @@ REQUIRED_VARS = [
     'TELEGRAM_SUMMARY_FORMAT',
     'TELEGRAM_CHANNEL_DISPLAY',
     'TELEGRAM_PARSE_MODE',
-    'TELEGRAM_DISABLE_WEB_PREVIEW'
+    'TELEGRAM_DISABLE_WEB_PREVIEW',
+    'TELEGRAM_AUDIO_TITLE_EN',
+    'TELEGRAM_AUDIO_TITLE_FA',
+    'AUDIO_ARTIST',
+    'AUDIO_ALBUM',
+    'AUDIO_GENRE'
 ]
 
 # Storage for loaded environment variables
@@ -64,7 +77,11 @@ def load_environment():
     
     # Store variables in the env_vars dictionary
     for var in REQUIRED_VARS:
-        env_vars[var] = os.getenv(var)
+        value = os.getenv(var)
+        # Strip inline comments from environment variables
+        if value and '#' in value:
+            value = value.split('#')[0].strip()
+        env_vars[var] = value
     
     # Convert types for numeric values
     env_vars['OPENROUTER_MAX_TOKENS'] = int(env_vars['OPENROUTER_MAX_TOKENS'])
@@ -82,8 +99,10 @@ def load_environment():
         env_vars['EXPORT_DIR'],
         env_vars['SUMMARY_DIR'],
         env_vars['TRANSLATED_DIR'],
+        env_vars['SCRIPT_DIR'],
         env_vars['CONVERTED_DIR'],
         env_vars['PUBLISHED_DIR'],
+        env_vars['NARRATED_DIR'],
         env_vars['FILE_FORMAT']
     )
     

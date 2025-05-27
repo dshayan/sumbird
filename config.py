@@ -23,8 +23,10 @@ TARGET_DATE = env_utils.get_env('TARGET_DATE')
 EXPORT_DIR = env_utils.get_env('EXPORT_DIR')
 SUMMARY_DIR = env_utils.get_env('SUMMARY_DIR')
 TRANSLATED_DIR = env_utils.get_env('TRANSLATED_DIR')
+SCRIPT_DIR = env_utils.get_env('SCRIPT_DIR')
 CONVERTED_DIR = env_utils.get_env('CONVERTED_DIR')
 PUBLISHED_DIR = env_utils.get_env('PUBLISHED_DIR')
+NARRATED_DIR = env_utils.get_env('NARRATED_DIR')
 
 # Format configuration
 FILE_FORMAT = env_utils.get_env('FILE_FORMAT')
@@ -43,6 +45,21 @@ OPENROUTER_SITE_NAME = env_utils.get_env('OPENROUTER_SITE_NAME')
 # Translator Configuration
 TRANSLATOR_MODEL = env_utils.get_env('TRANSLATOR_MODEL')
 TRANSLATOR_PROMPT_PATH = env_utils.get_env('TRANSLATOR_PROMPT_PATH')
+
+# Script Writer Configuration
+SCRIPT_WRITER_MODEL = env_utils.get_env('SCRIPT_WRITER_MODEL')
+SCRIPT_WRITER_PROMPT_PATH = env_utils.get_env('SCRIPT_WRITER_PROMPT_PATH')
+
+# TTS Configuration
+GEMINI_API_KEY = env_utils.get_env('GEMINI_API_KEY')
+GEMINI_TTS_MODEL = env_utils.get_env('GEMINI_TTS_MODEL')
+GEMINI_TTS_VOICE = env_utils.get_env('GEMINI_TTS_VOICE')
+NARRATOR_PROMPT_PATH = env_utils.get_env('NARRATOR_PROMPT_PATH')
+
+# Audio metadata configuration
+AUDIO_ARTIST = env_utils.get_env('AUDIO_ARTIST')
+AUDIO_ALBUM = env_utils.get_env('AUDIO_ALBUM')
+AUDIO_GENRE = env_utils.get_env('AUDIO_GENRE')
 
 # Telegraph configuration
 TELEGRAPH_ACCESS_TOKEN = env_utils.get_env('TELEGRAPH_ACCESS_TOKEN')
@@ -63,6 +80,8 @@ TELEGRAM_SUMMARY_FORMAT = env_utils.get_env('TELEGRAM_SUMMARY_FORMAT')
 TELEGRAM_CHANNEL_DISPLAY = env_utils.get_env('TELEGRAM_CHANNEL_DISPLAY')
 TELEGRAM_PARSE_MODE = env_utils.get_env('TELEGRAM_PARSE_MODE')
 TELEGRAM_DISABLE_WEB_PREVIEW = env_utils.get_env('TELEGRAM_DISABLE_WEB_PREVIEW')
+TELEGRAM_AUDIO_TITLE_EN = env_utils.get_env('TELEGRAM_AUDIO_TITLE_EN')
+TELEGRAM_AUDIO_TITLE_FA = env_utils.get_env('TELEGRAM_AUDIO_TITLE_FA')
 
 # Twitter handles to fetch posts from
 HANDLES = env_utils.get_env('HANDLES')

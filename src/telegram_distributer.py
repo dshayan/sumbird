@@ -14,9 +14,11 @@ from config import (
     get_date_str, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID,
     TELEGRAM_MESSAGE_TITLE_FORMAT, TELEGRAM_SUMMARY_FORMAT,
     TELEGRAM_CHANNEL_DISPLAY, TELEGRAM_PARSE_MODE, TELEGRAM_DISABLE_WEB_PREVIEW,
+    TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
     get_file_path, TIMEZONE, format_iso_datetime
 )
 from utils.logging_utils import log_error, handle_request_error
+from utils.file_utils import file_exists
 
 def validate_channel_id(channel_id):
     """Validates that the channel ID is in a proper format.
@@ -122,6 +124,187 @@ def send_telegram_channel_post(content, chat_id):
         log_error('TelegramDistributer', "Error sending Telegram channel post", e)
         return False, ""
 
+def send_telegram_audio_group(audio_files, chat_id):
+    """Send multiple audio files as a media group to a Telegram channel.
+    
+    Args:
+        audio_files (list): List of dicts with 'path' and 'title' keys
+        chat_id (str): Channel ID
+    
+    Returns:
+        tuple: (success, message_url) where success is a boolean and message_url is a string or empty
+    """
+    try:
+        # Validate the chat ID format
+        is_valid, error_message = validate_channel_id(chat_id)
+        if not is_valid:
+            log_error('TelegramDistributer', f"{error_message}\nReceived channel ID: '{chat_id}'")
+            return False, ""
+        
+        # Check if all audio files exist
+        for audio_file in audio_files:
+            if not file_exists(audio_file['path']):
+                log_error('TelegramDistributer', f"Audio file not found: {audio_file['path']}")
+                return False, ""
+        
+        api_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMediaGroup"
+        
+        # Prepare media group
+        media = []
+        files = {}
+        
+        for i, audio_file in enumerate(audio_files):
+            file_key = f"audio{i}"
+            media.append({
+                "type": "audio",
+                "media": f"attach://{file_key}",
+                "title": audio_file.get('title', ''),
+                "parse_mode": TELEGRAM_PARSE_MODE
+            })
+            
+            # Read file for upload
+            with open(audio_file['path'], 'rb') as f:
+                files[file_key] = (os.path.basename(audio_file['path']), f.read(), 'audio/mpeg')
+        
+        data = {
+            'chat_id': chat_id,
+            'media': json.dumps(media),
+            'disable_notification': False
+        }
+        
+        # Make the API request
+        response = httpx.post(
+            api_url,
+            files=files,
+            data=data,
+            timeout=120  # Longer timeout for file uploads
+        )
+        
+        # Check if the request was successful
+        if response.status_code == 200:
+            response_json = response.json()
+            if response_json.get("ok"):
+                # Extract message info to construct URL (use first message in the group)
+                messages = response_json.get("result", [])
+                if messages:
+                    first_message = messages[0]
+                    message_id = first_message.get("message_id")
+                    chat_id_value = first_message.get("chat", {}).get("id")
+                    chat_username = first_message.get("chat", {}).get("username")
+                    
+                    # Construct message URL
+                    message_url = ""
+                    if chat_username:
+                        # Public channel
+                        message_url = f"https://t.me/{chat_username}/{message_id}"
+                    elif chat_id_value:
+                        # Private channel
+                        # Remove the minus sign if it's a negative ID
+                        channel_id_str = str(chat_id_value)
+                        if channel_id_str.startswith('-100'):
+                            clean_id = channel_id_str[4:]  # Remove -100 prefix
+                            message_url = f"https://t.me/c/{clean_id}/{message_id}"
+                        elif channel_id_str.startswith('-'):
+                            clean_id = channel_id_str[1:]  # Remove just the minus sign
+                            message_url = f"https://t.me/c/{clean_id}/{message_id}"
+                        else:
+                            message_url = f"https://t.me/c/{channel_id_str}/{message_id}"
+                    
+                    return True, message_url
+                else:
+                    return True, ""
+            else:
+                return handle_request_error('TelegramDistributer', response, "Telegram API error"), ""
+        else:
+            return handle_request_error('TelegramDistributer', response, "API request failed"), ""
+    
+    except Exception as e:
+        log_error('TelegramDistributer', f"Error sending Telegram audio group", e)
+        return False, ""
+
+def send_telegram_audio(audio_file_path, chat_id, title=""):
+    """Send an audio file to a Telegram channel.
+    
+    Args:
+        audio_file_path (str): Path to the audio file
+        chat_id (str): Channel ID
+        title (str): Title for the audio file
+    
+    Returns:
+        tuple: (success, message_url) where success is a boolean and message_url is a string or empty
+    """
+    try:
+        # Validate the chat ID format
+        is_valid, error_message = validate_channel_id(chat_id)
+        if not is_valid:
+            log_error('TelegramDistributer', f"{error_message}\nReceived channel ID: '{chat_id}'")
+            return False, ""
+        
+        # Check if audio file exists
+        if not file_exists(audio_file_path):
+            log_error('TelegramDistributer', f"Audio file not found: {audio_file_path}")
+            return False, ""
+            
+        api_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendAudio"
+        
+        # Prepare the files and data for multipart upload
+        with open(audio_file_path, 'rb') as audio_file:
+            files = {
+                'audio': (os.path.basename(audio_file_path), audio_file, 'audio/mpeg')
+            }
+            
+            data = {
+                'chat_id': chat_id,
+                'title': title,
+                'parse_mode': TELEGRAM_PARSE_MODE,
+                'disable_notification': False
+            }
+            
+            # Make the API request
+            response = httpx.post(
+                api_url,
+                files=files,
+                data=data,
+                timeout=120  # Longer timeout for file uploads
+            )
+        
+        # Check if the request was successful
+        if response.status_code == 200:
+            response_json = response.json()
+            if response_json.get("ok"):
+                # Extract message info to construct URL
+                message_id = response_json.get("result", {}).get("message_id")
+                chat_id_value = response_json.get("result", {}).get("chat", {}).get("id")
+                chat_username = response_json.get("result", {}).get("chat", {}).get("username")
+                
+                # Construct message URL
+                message_url = ""
+                if chat_username:
+                    # Public channel
+                    message_url = f"https://t.me/{chat_username}/{message_id}"
+                elif chat_id_value:
+                    # Private channel
+                    # Remove the minus sign if it's a negative ID
+                    channel_id_str = str(chat_id_value)
+                    if channel_id_str.startswith('-100'):
+                        clean_id = channel_id_str[4:]  # Remove -100 prefix
+                        message_url = f"https://t.me/c/{clean_id}/{message_id}"
+                    elif channel_id_str.startswith('-'):
+                        clean_id = channel_id_str[1:]  # Remove just the minus sign
+                        message_url = f"https://t.me/c/{clean_id}/{message_id}"
+                    else:
+                        message_url = f"https://t.me/c/{channel_id_str}/{message_id}"
+                
+                return True, message_url
+            else:
+                return handle_request_error('TelegramDistributer', response, "Telegram API error"), ""
+        else:
+            return handle_request_error('TelegramDistributer', response, "API request failed"), ""
+    
+    except Exception as e:
+        log_error('TelegramDistributer', f"Error sending Telegram audio file", e)
+        return False, ""
+
 def format_telegram_post(published_data):
     """Format the published data into a Telegram post.
     
@@ -201,11 +384,47 @@ def distribute():
         if success:
             print(f"Successfully distributed content to Telegram channel {channel_id}")
             
+            # Check for audio files and send them as a group (both now required)
+            summary_audio = get_file_path('narrated', date_str)
+            translated_audio = get_file_path('narrated', date_str, lang='FA')
+            
+            # Verify both audio files exist (now required)
+            if not file_exists(summary_audio):
+                log_error('TelegramDistributer', f"Required summary audio file not found: {summary_audio}")
+                return False, ""
+            
+            if not file_exists(translated_audio):
+                log_error('TelegramDistributer', f"Required translated audio file not found: {translated_audio}")
+                return False, ""
+            
+            audio_urls = []
+            audio_files_to_send = [
+                {
+                    'path': summary_audio,
+                    'title': TELEGRAM_AUDIO_TITLE_EN
+                },
+                {
+                    'path': translated_audio,
+                    'title': TELEGRAM_AUDIO_TITLE_FA
+                }
+            ]
+            
+            # Send audio files as a group (both files are required)
+            print(f"Sending {len(audio_files_to_send)} audio files as a group")
+            audio_success, audio_url = send_telegram_audio_group(audio_files_to_send, channel_id)
+            if audio_success:
+                print(f"Audio group sent successfully")
+                audio_urls.append(audio_url)
+            else:
+                log_error('TelegramDistributer', "Failed to send required audio group")
+                return False, ""
+            
             # Update the published data with telegram distribution info
             published_data["telegram_distributed"] = {
                 "timestamp": format_iso_datetime(),
                 "channel": channel_id,
-                "message_url": message_url
+                "message_url": message_url,
+                "audio_urls": audio_urls
             }
             
             # Save the updated published data

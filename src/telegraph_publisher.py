@@ -137,32 +137,27 @@ def publish(feeds_success=0):
     en_input_file = get_file_path('converted', date_str)
     fa_input_file = get_file_path('converted', date_str, lang='FA')
     
-    # Check if input files exist
+    # Check if both required input files exist
     if not os.path.exists(en_input_file):
         log_error('TelegraphPublisher', f"English input file not found at {en_input_file}")
         return None
     
-    has_persian = os.path.exists(fa_input_file)
+    if not os.path.exists(fa_input_file):
+        log_error('TelegraphPublisher', f"Persian input file not found at {fa_input_file}")
+        return None
     
     try:
         # Read the English converted file
         with open(en_input_file, 'r', encoding='utf-8') as f:
             en_data = json.load(f)
         
-        # Read the Persian converted file if it exists
-        fa_data = None
-        if has_persian:
-            try:
-                with open(fa_input_file, 'r', encoding='utf-8') as f:
-                    fa_data = json.load(f)
-            except Exception as e:
-                log_error('TelegraphPublisher', f"Error reading Persian input file: {str(e)}")
+        # Read the Persian converted file (now required)
+        with open(fa_input_file, 'r', encoding='utf-8') as f:
+            fa_data = json.load(f)
         
         # Check for existing publications
         en_existing_page_path = check_existing_publication(date_str)
-        fa_existing_page_path = None
-        if has_persian:
-            fa_existing_page_path = check_existing_publication(date_str, 'FA')
+        fa_existing_page_path = check_existing_publication(date_str, 'FA')
         
         # Publish English version
         if en_existing_page_path:
@@ -174,22 +169,23 @@ def publish(feeds_success=0):
             en_result = create_or_update_telegraph_page(en_data)
             en_action = "created"
         
-        # Publish Persian version if available
-        fa_result = None
-        fa_action = None
-        if has_persian and fa_data:
-            if fa_existing_page_path:
-                print(f"Found existing Persian publication for {date_str}, updating...")
-                fa_result = create_or_update_telegraph_page(fa_data, fa_existing_page_path)
-                fa_action = "updated"
-            else:
-                print(f"Creating new Persian Telegraph page for {date_str}...")
-                fa_result = create_or_update_telegraph_page(fa_data)
-                fa_action = "created"
+        # Publish Persian version (now required)
+        if fa_existing_page_path:
+            print(f"Found existing Persian publication for {date_str}, updating...")
+            fa_result = create_or_update_telegraph_page(fa_data, fa_existing_page_path)
+            fa_action = "updated"
+        else:
+            print(f"Creating new Persian Telegraph page for {date_str}...")
+            fa_result = create_or_update_telegraph_page(fa_data)
+            fa_action = "created"
         
-        # Check if at least English was published successfully
+        # Check if both publications were successful
         if not en_result:
-            print("Failed to publish English content to Telegraph")
+            log_error('TelegraphPublisher', "Failed to publish English content to Telegraph")
+            return None
+        
+        if not fa_result:
+            log_error('TelegraphPublisher', "Failed to publish Persian content to Telegraph")
             return None
         
         # Save published data
@@ -197,29 +193,23 @@ def publish(feeds_success=0):
             "title": en_data.get("title"),
             "url": en_result.get("url"),
             "path": en_result.get("path"),
+            "fa_title": fa_data.get("title"),
+            "fa_url": fa_result.get("url"),
+            "fa_path": fa_result.get("path"),
             "published_date": format_iso_datetime(),
             "source_date": date_str,
             "feeds_success": feeds_success  # Include the feed success count
         }
-        
-        # Add Persian data if available
-        if has_persian and fa_result:
-            published_data["fa_title"] = fa_data.get("title")
-            published_data["fa_url"] = fa_result.get("url")
-            published_data["fa_path"] = fa_result.get("path")
         
         saved_file = save_published_data(date_str, published_data)
         print(f"Published data saved to {saved_file}")
         
         # Log success messages
         en_url = en_result.get('url')
-        fa_url = fa_result.get('url') if fa_result else None
+        fa_url = fa_result.get('url')
         
-        if fa_url:
-            print(f"Successfully {en_action} English content on Telegraph: {en_url}")
-            print(f"Successfully {fa_action} Persian content on Telegraph: {fa_url}")
-        else:
-            print(f"Successfully {en_action} content on Telegraph: {en_url}")
+        print(f"Successfully {en_action} English content on Telegraph: {en_url}")
+        print(f"Successfully {fa_action} Persian content on Telegraph: {fa_url}")
         
         return saved_file
     

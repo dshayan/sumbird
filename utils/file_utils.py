@@ -14,18 +14,22 @@ from utils.date_utils import get_date_str
 EXPORT_DIR = None
 SUMMARY_DIR = None
 TRANSLATED_DIR = None
+SCRIPT_DIR = None
 CONVERTED_DIR = None
 PUBLISHED_DIR = None
+NARRATED_DIR = None
 FILE_FORMAT = None
 
-def set_file_paths(export_dir, summary_dir, translated_dir, converted_dir, published_dir, file_format):
+def set_file_paths(export_dir, summary_dir, translated_dir, script_dir, converted_dir, published_dir, narrated_dir, file_format):
     """Set the global file path variables."""
-    global EXPORT_DIR, SUMMARY_DIR, TRANSLATED_DIR, CONVERTED_DIR, PUBLISHED_DIR, FILE_FORMAT
+    global EXPORT_DIR, SUMMARY_DIR, TRANSLATED_DIR, SCRIPT_DIR, CONVERTED_DIR, PUBLISHED_DIR, NARRATED_DIR, FILE_FORMAT
     EXPORT_DIR = export_dir
     SUMMARY_DIR = summary_dir
     TRANSLATED_DIR = translated_dir
+    SCRIPT_DIR = script_dir
     CONVERTED_DIR = converted_dir
     PUBLISHED_DIR = published_dir
+    NARRATED_DIR = narrated_dir
     FILE_FORMAT = file_format
 
 def ensure_directories():
@@ -34,14 +38,18 @@ def ensure_directories():
     os.makedirs(EXPORT_DIR, exist_ok=True)
     os.makedirs(SUMMARY_DIR, exist_ok=True)
     os.makedirs(TRANSLATED_DIR, exist_ok=True)
+    if SCRIPT_DIR:  # Only create if SCRIPT_DIR is configured
+        os.makedirs(SCRIPT_DIR, exist_ok=True)
     os.makedirs(CONVERTED_DIR, exist_ok=True)
     os.makedirs(PUBLISHED_DIR, exist_ok=True)
+    if NARRATED_DIR:  # Only create if NARRATED_DIR is configured
+        os.makedirs(NARRATED_DIR, exist_ok=True)
 
 def get_file_path(file_type, date_str=None, lang=None):
     """Get a file path based on file type and date.
     
     Args:
-        file_type (str): Type of file ('export', 'summary', 'translated', 'converted', 'published')
+        file_type (str): Type of file ('export', 'summary', 'translated', 'script', 'converted', 'published', 'narrated')
         date_str (str, optional): Date string. If None, uses the target date.
         lang (str, optional): Language code for language-specific files (e.g., 'FA' for Persian)
     
@@ -59,8 +67,10 @@ def get_file_path(file_type, date_str=None, lang=None):
         'export': (EXPORT_DIR, FILE_FORMAT.replace('.html', '.md')),  # Export uses markdown
         'summary': (SUMMARY_DIR, FILE_FORMAT),  # Summary uses HTML
         'translated': (TRANSLATED_DIR, FILE_FORMAT),  # Translated uses HTML
+        'script': (SCRIPT_DIR, FILE_FORMAT),  # Script uses HTML
         'converted': (CONVERTED_DIR, FILE_FORMAT.replace('.html', '.json')),  # Converted uses JSON
-        'published': (PUBLISHED_DIR, FILE_FORMAT.replace('.html', '.json'))  # Published uses JSON
+        'published': (PUBLISHED_DIR, FILE_FORMAT.replace('.html', '.json')),  # Published uses JSON
+        'narrated': (NARRATED_DIR, FILE_FORMAT.replace('.html', '.mp3'))  # Narrated uses MP3
     }
     
     if file_type not in type_map:

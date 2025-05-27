@@ -6,9 +6,11 @@ This pipeline:
 1. Fetches tweets from specified handles for a target date and formats them
 2. Processes them with AI (via OpenRouter) to generate a summary
 3. Translates the summary to Persian
-4. Converts the summary to Telegraph format
-5. Publishes the content to Telegraph
-6. Distributes the content to Telegram channel
+4. Converts content to TTS-optimized scripts
+5. Converts scripts to speech using TTS
+6. Converts the summary to Telegraph format
+7. Publishes the content to Telegraph
+8. Distributes the content to Telegram channel
 """
 import os
 import sys
@@ -16,7 +18,7 @@ import json
 from datetime import datetime
 
 # Import utilities from utils package
-from utils.file_utils import ensure_directories, get_file_path
+from utils.file_utils import ensure_directories, get_file_path, file_exists
 from utils.date_utils import get_date_str, format_datetime
 from utils.logging_utils import log_step
 
@@ -27,6 +29,8 @@ from config import HANDLES, MIN_FEEDS_TOTAL, MIN_FEEDS_SUCCESS_RATIO
 from src.fetcher import fetch_and_format
 from src.summarizer import summarize
 from src.translator import translate
+from src.script_writer import write_scripts
+from src.narrator import narrate
 from src.telegraph_converter import convert_all_summaries
 from src.telegraph_publisher import publish
 from src.telegram_distributer import distribute
@@ -134,14 +138,66 @@ def run_pipeline():
             translated_file, tr_input_tokens, tr_output_tokens = translate()
             
             if not translated_file or not os.path.exists(translated_file):
-                print("Warning: Persian translation failed, continuing with English only")
+                print("Error: Persian translation failed")
                 log_step(log_file, False, "Translated")
-            else:
-                print(f"Translation created and saved to {translated_file}")
-                log_step(log_file, True, f"Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
+                log_file.write("──────────\n")
+                return False
+            
+            print(f"Translation created and saved to {translated_file}")
+            log_step(log_file, True, f"Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
         
-        # Step 4: Convert to Telegraph format
-        print("\n=== Step 4: Convert to Telegraph Format ===")
+        # Step 4: Convert to TTS-optimized Scripts
+        print("\n=== Step 4: Convert to TTS-optimized Scripts ===")
+        
+        # Check if script files already exist
+        summary_script_path = get_file_path('script', date_str)
+        translated_script_path = get_file_path('script', date_str, lang='FA')
+        using_cached_scripts = file_exists(summary_script_path) and file_exists(translated_script_path)
+        
+        if using_cached_scripts:
+            print(f"Using existing script files: {summary_script_path}, {translated_script_path}")
+            log_step(log_file, True, "Scripted (using cached files)")
+            sc_input_tokens = 0
+            sc_output_tokens = 0
+        else:
+            # Run script writing
+            summary_script, translated_script, sc_input_tokens, sc_output_tokens = write_scripts()
+            
+            if not summary_script or not translated_script:
+                print("Error: Script writing failed")
+                log_step(log_file, False, "Scripted")
+                log_file.write("──────────\n")
+                return False
+            
+            print(f"Scripts created: Summary: {summary_script}, Translation: {translated_script}")
+            log_step(log_file, True, f"Scripted using {sc_input_tokens} input tokens, {sc_output_tokens} output tokens")
+        
+        # Step 5: Convert to Speech (TTS)
+        print("\n=== Step 5: Convert to Speech (TTS) ===")
+        
+        # Check if audio files already exist
+        summary_audio_path = get_file_path('narrated', date_str)
+        translated_audio_path = get_file_path('narrated', date_str, lang='FA')
+        using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path)
+        
+        if using_cached_audio:
+            print(f"Using existing audio files: {summary_audio_path}, {translated_audio_path}")
+            log_step(log_file, True, f"Narrated (using cached files)")
+        else:
+            summary_audio, translated_audio = narrate()
+            
+            # Both audio files are now required
+            if summary_audio and translated_audio:
+                print(f"Audio files created: Summary: {summary_audio}, Translation: {translated_audio}")
+                log_step(log_file, True, f"Narrated 2 audio files")
+            else:
+                print("Error: TTS conversion failed")
+                log_step(log_file, False, "Narrated")
+                log_file.write("──────────\n")
+                return False
+        
+        # Step 6: Convert to Telegraph format
+        print("\n=== Step 6: Convert to Telegraph Format ===")
         
         converted = convert_all_summaries()
         if not converted:
@@ -161,8 +217,8 @@ def run_pipeline():
         
         log_step(log_file, True, "Converted to JSON")
         
-        # Step 5: Publish to Telegraph
-        print("\n=== Step 5: Publish to Telegraph ===")
+        # Step 7: Publish to Telegraph
+        print("\n=== Step 7: Publish to Telegraph ===")
         
         # Pass feeds_success to the publish function
         published_file = publish(feeds_success)
@@ -189,8 +245,8 @@ def run_pipeline():
         else:
             log_step(log_file, True, f"Published on {telegraph_url}")
         
-        # Step 6: Distribute to Telegram Channel
-        print("\n=== Step 6: Distribute to Telegram Channel ===")
+        # Step 8: Distribute to Telegram Channel
+        print("\n=== Step 8: Distribute to Telegram Channel ===")
         
         telegram_url = ""
         distribution_success, telegram_url = distribute()
