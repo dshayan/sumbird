@@ -7,6 +7,7 @@ Customize this file for your specific needs by creating a copy named 'screen_wri
 
 Provide instructions for the AI to optimize content for natural speech delivery:
 - Date format conversion for natural pronunciation
+- Source attribution in headings for brand recognition
 - Username handling and source attribution
 - Punctuation for proper pauses and flow
 - Content structure preservation
@@ -16,6 +17,7 @@ Provide instructions for the AI to optimize content for natural speech delivery:
 
 Define specific rules for:
 - Converting dates to spoken format (e.g., "2025-05-26" → "May twenty-sixth, twenty twenty-five")
+- Adding source attribution to main headings (e.g., "from Sumbird")
 - Removing or replacing usernames while maintaining attribution
 - Adding punctuation for natural speech pauses
 - Handling technical terms and abbreviations
@@ -23,9 +25,9 @@ Define specific rules for:
 
 ## Example Transformations
 
-### Date Conversion
+### Date Conversion and Source Attribution
 Original: `<h1>AI Updates on 2025-05-26</h1>`
-Optimized: `<h1>AI Updates on May twenty-sixth, twenty twenty-five</h1>`
+Optimized: `<h1>AI Updates on May twenty-sixth, twenty twenty-five, from Sumbird.</h1>`
 
 ### Username Handling
 Original: `<li>New AI model released with improved capabilities <em>@researcher</em></li>`
@@ -42,6 +44,7 @@ Optimized: `<li>Important development in machine learning.</li>`
 
 For multilingual content, provide:
 - Language-specific date pronunciation rules
+- Source attribution in appropriate language (e.g., "از سامبرد" for Persian)
 - Cultural naming conventions
 - Proper punctuation and pause patterns
 - Technical term handling per language
@@ -59,4 +62,5 @@ Ensure the optimization maintains:
 - Specify how to handle abbreviations and acronyms
 - Provide guidance for numbers, percentages, and measurements
 - Include rules for handling URLs, email addresses, and technical identifiers
-- Define approach for complex punctuation and special characters 
+- Define approach for complex punctuation and special characters
+- Consider brand attribution placement for professional audio delivery 
