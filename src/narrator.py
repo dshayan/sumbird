@@ -12,7 +12,8 @@ from google.genai import types
 
 from config import (
     GEMINI_API_KEY, GEMINI_TTS_MODEL, GEMINI_TTS_VOICE, NARRATOR_PROMPT_PATH,
-    SCRIPT_DIR, NARRATED_DIR,
+    SCRIPT_DIR, NARRATED_DIR, AUDIO_ARTIST, AUDIO_ALBUM, AUDIO_GENRE,
+    TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
     get_date_str, get_file_path
 )
 from utils.logging_utils import log_error
@@ -54,21 +55,41 @@ class NarratorClient:
             log_error('Narrator', f"Error saving WAV file {filename}", e)
             raise
 
-    def wav_to_mp3(self, wav_file, mp3_file):
-        """Convert WAV to MP3 using ffmpeg.
+    def wav_to_mp3(self, wav_file, mp3_file, title=None, date_str=None):
+        """Convert WAV to MP3 using ffmpeg with metadata.
         
         Args:
             wav_file (str): Path to the WAV file
             mp3_file (str): Path to save the MP3 file
+            title (str, optional): Title for the audio file
+            date_str (str, optional): Date string for the audio file
             
         Returns:
             bool: True if conversion successful, False otherwise
         """
         try:
-            subprocess.run([
-                'ffmpeg', '-i', wav_file, '-codec:a', 'libmp3lame', 
-                '-b:a', '128k', mp3_file, '-y'
-            ], check=True, capture_output=True)
+            # Build ffmpeg command with metadata
+            cmd = [
+                'ffmpeg', '-i', wav_file, 
+                '-codec:a', 'libmp3lame', 
+                '-b:a', '128k',
+                '-metadata', f'artist={AUDIO_ARTIST}',
+                '-metadata', f'album={AUDIO_ALBUM}',
+                '-metadata', f'genre={AUDIO_GENRE}'
+            ]
+            
+            # Add title if provided
+            if title:
+                cmd.extend(['-metadata', f'title={title}'])
+            
+            # Add date if provided
+            if date_str:
+                cmd.extend(['-metadata', f'date={date_str}'])
+            
+            # Add output file and overwrite flag
+            cmd.extend([mp3_file, '-y'])
+            
+            subprocess.run(cmd, check=True, capture_output=True)
             return True
         except subprocess.CalledProcessError as e:
             log_error('Narrator', f"ffmpeg conversion failed for {wav_file}", e)
@@ -77,12 +98,14 @@ class NarratorClient:
             log_error('Narrator', "ffmpeg not found. Install with: brew install ffmpeg (macOS) or apt install ffmpeg (Ubuntu)")
             return False
 
-    def text_to_speech(self, text, output_file):
+    def text_to_speech(self, text, output_file, title=None, date_str=None):
         """Convert text to speech using Gemini TTS.
         
         Args:
             text (str): Text content to convert
             output_file (str): Path to save the audio file
+            title (str, optional): Title for the audio file metadata
+            date_str (str, optional): Date string for the audio file metadata
             
         Returns:
             str: Path to the created audio file, or None if failed
@@ -117,7 +140,7 @@ class NarratorClient:
             
             # Convert to MP3
             if output_file.endswith('.mp3'):
-                if self.wav_to_mp3(wav_file, output_file):
+                if self.wav_to_mp3(wav_file, output_file, title, date_str):
                     os.remove(wav_file)  # Remove WAV file after successful conversion
                     print(f"Audio saved as: {output_file}")
                     return output_file
@@ -153,13 +176,15 @@ def convert_html_to_text(html_content):
     
     return text_content
 
-def narrate_file(file_path, output_path, client):
+def narrate_file(file_path, output_path, client, title=None, date_str=None):
     """Convert a single file to speech.
     
     Args:
         file_path (str): Path to the input file
         output_path (str): Path to save the audio file
         client (NarratorClient): TTS client instance
+        title (str, optional): Title for the audio file metadata
+        date_str (str, optional): Date string for the audio file metadata
         
     Returns:
         str: Path to the created audio file, or None if failed
@@ -186,7 +211,7 @@ def narrate_file(file_path, output_path, client):
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         
         # Convert to speech
-        return client.text_to_speech(text_content, output_path)
+        return client.text_to_speech(text_content, output_path, title, date_str)
         
     except Exception as e:
         log_error('Narrator', f"Error processing file {file_path}", e)
@@ -239,7 +264,7 @@ def narrate():
                 voice=GEMINI_TTS_VOICE,
                 prompt_template=prompt_template
             )
-            summary_result = narrate_file(script_file, summary_audio, client)
+            summary_result = narrate_file(script_file, summary_audio, client, TELEGRAM_AUDIO_TITLE_EN, date_str)
             if summary_result:
                 print(f"Script audio created: {summary_result}")
             else:
@@ -260,7 +285,7 @@ def narrate():
                     voice=GEMINI_TTS_VOICE,
                     prompt_template=prompt_template
                 )
-            translated_result = narrate_file(translated_script_file, translated_audio, client)
+            translated_result = narrate_file(translated_script_file, translated_audio, client, TELEGRAM_AUDIO_TITLE_FA, date_str)
             if translated_result:
                 print(f"Translation script audio created: {translated_result}")
             else:

@@ -58,7 +58,10 @@ REQUIRED_VARS = [
     'TELEGRAM_PARSE_MODE',
     'TELEGRAM_DISABLE_WEB_PREVIEW',
     'TELEGRAM_AUDIO_TITLE_EN',
-    'TELEGRAM_AUDIO_TITLE_FA'
+    'TELEGRAM_AUDIO_TITLE_FA',
+    'AUDIO_ARTIST',
+    'AUDIO_ALBUM',
+    'AUDIO_GENRE'
 ]
 
 # Storage for loaded environment variables

@@ -56,6 +56,11 @@ GEMINI_TTS_MODEL = env_utils.get_env('GEMINI_TTS_MODEL')
 GEMINI_TTS_VOICE = env_utils.get_env('GEMINI_TTS_VOICE')
 NARRATOR_PROMPT_PATH = env_utils.get_env('NARRATOR_PROMPT_PATH')
 
+# Audio metadata configuration
+AUDIO_ARTIST = env_utils.get_env('AUDIO_ARTIST')
+AUDIO_ALBUM = env_utils.get_env('AUDIO_ALBUM')
+AUDIO_GENRE = env_utils.get_env('AUDIO_GENRE')
+
 # Telegraph configuration
 TELEGRAPH_ACCESS_TOKEN = env_utils.get_env('TELEGRAPH_ACCESS_TOKEN')
 
