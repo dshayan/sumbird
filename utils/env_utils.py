@@ -71,7 +71,11 @@ def load_environment():
     
     # Store variables in the env_vars dictionary
     for var in REQUIRED_VARS:
-        env_vars[var] = os.getenv(var)
+        value = os.getenv(var)
+        # Strip inline comments from environment variables
+        if value and '#' in value:
+            value = value.split('#')[0].strip()
+        env_vars[var] = value
     
     # Convert types for numeric values
     env_vars['OPENROUTER_MAX_TOKENS'] = int(env_vars['OPENROUTER_MAX_TOKENS'])
