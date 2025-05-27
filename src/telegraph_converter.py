@@ -23,11 +23,12 @@ from config import (
 from utils.logging_utils import log_error
 from utils.html_utils import clean_html_for_display
 
-def html_to_telegraph_nodes(html_content):
+def html_to_telegraph_nodes(html_content, is_persian=False):
     """Convert HTML content to Telegraph node format.
     
     Args:
         html_content (str): HTML content as string
+        is_persian (bool): Whether this is Persian content (for RTL direction)
         
     Returns:
         list: List of Telegraph node objects
@@ -37,17 +38,18 @@ def html_to_telegraph_nodes(html_content):
     
     # Process all top-level elements in the HTML
     for element in soup.find_all(recursive=False):
-        node = parse_element_to_node(element)
+        node = parse_element_to_node(element, is_persian)
         if node:
             result.append(node)
     
     return result
 
-def parse_element_to_node(element):
+def parse_element_to_node(element, is_persian=False):
     """Parse a BeautifulSoup element to a Telegraph node.
     
     Args:
         element: BeautifulSoup element
+        is_persian (bool): Whether this is Persian content (for RTL direction)
         
     Returns:
         dict: Telegraph node object
@@ -78,9 +80,15 @@ def parse_element_to_node(element):
     # Add children
     children = []
     for child in element.children:
-        parsed_child = parse_element_to_node(child)
+        parsed_child = parse_element_to_node(child, is_persian)
         if parsed_child:
             children.append(parsed_child)
+    
+    # For Persian content, wrap text content with RTL embedding characters
+    if is_persian and children and tag_name in ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li']:
+        # Add Right-to-Left Embedding (RLE) at the beginning and Pop Directional Formatting (PDF) at the end
+        # U+202B (RLE) forces RTL direction, U+202C (PDF) ends the directional override
+        children = ['\u202B'] + children + ['\u202C']
     
     if children:
         node['children'] = children
@@ -190,16 +198,22 @@ def add_footer(nodes, is_persian=False):
         footer_link = FOOTER_LINK_TEXT
         footer_url = FOOTER_LINK_URL
     
+    footer_children = [
+        footer_text + ' ',
+        {
+            'tag': 'a',
+            'attrs': {'href': footer_url},
+            'children': [footer_link]
+        }
+    ]
+    
+    # For Persian footer, wrap with RTL embedding characters
+    if is_persian:
+        footer_children = ['\u202B'] + footer_children + ['\u202C']
+    
     footer_node = {
         'tag': 'p',
-        'children': [
-            footer_text + ' ',
-            {
-                'tag': 'a',
-                'attrs': {'href': footer_url},
-                'children': [footer_link]
-            }
-        ]
+        'children': footer_children
     }
     
     nodes.append(footer_node)
@@ -253,7 +267,7 @@ def convert_to_telegraph_format(input_file, output_file, date_str, is_persian=Fa
         html_content = clean_html_for_display(html_content)
         
         # Convert HTML to Telegraph nodes
-        nodes = html_to_telegraph_nodes(html_content)
+        nodes = html_to_telegraph_nodes(html_content, is_persian)
         
         # Fix spacing issues
         nodes = fix_spacing_in_nodes(nodes)
@@ -291,16 +305,23 @@ def convert_all_summaries():
     converted_en_file = get_file_path('converted', date_str)
     converted_fa_file = get_file_path('converted', date_str, lang='FA')
     
+    # Check if both required files exist
+    if not os.path.exists(summary_file):
+        log_error('Telegraph Converter', f"Summary file not found: {summary_file}")
+        return False
+    
+    if not os.path.exists(translated_file):
+        log_error('Telegraph Converter', f"Translated file not found: {translated_file}")
+        return False
+    
     # English conversion
     en_result = convert_to_telegraph_format(summary_file, converted_en_file, date_str, is_persian=False)
     
-    # Persian conversion if translated file exists
-    fa_result = False
-    if os.path.exists(translated_file):
-        fa_result = convert_to_telegraph_format(translated_file, converted_fa_file, date_str, is_persian=True)
+    # Persian conversion (now required)
+    fa_result = convert_to_telegraph_format(translated_file, converted_fa_file, date_str, is_persian=True)
     
-    # Return overall success
-    return en_result and (not os.path.exists(translated_file) or fa_result)
+    # Return overall success - both conversions must succeed
+    return en_result and fa_result
 
 if __name__ == "__main__":
     # Create necessary directories when running as standalone, but only if they don't exist
