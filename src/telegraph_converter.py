@@ -23,6 +23,31 @@ from config import (
 from utils.logging_utils import log_error
 from utils.html_utils import clean_html_for_display
 
+def apply_rtl_formatting(children):
+    """Apply RTL formatting to ensure proper display of mixed English/Persian text.
+    
+    Args:
+        children (list): List of child nodes
+        
+    Returns:
+        list: List with RTL formatting applied
+    """
+    # For mixed content, we need to ensure the entire paragraph flows RTL
+    # We'll add a strong RTL marker at the beginning of the first text node
+    result = []
+    first_text_found = False
+    
+    for child in children:
+        if isinstance(child, str) and child.strip() and not first_text_found:
+            # Add Right-to-Left Mark (RLM) at the very beginning to establish RTL context
+            # U+200F (RLM) establishes RTL directionality for the entire paragraph
+            result.append('\u200F' + child)
+            first_text_found = True
+        else:
+            result.append(child)
+    
+    return result
+
 def html_to_telegraph_nodes(html_content, is_persian=False):
     """Convert HTML content to Telegraph node format.
     
@@ -86,9 +111,11 @@ def parse_element_to_node(element, is_persian=False):
     
     # For Persian content, wrap text content with RTL embedding characters
     if is_persian and children and tag_name in ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li']:
-        # Add Right-to-Left Embedding (RLE) at the beginning and Pop Directional Formatting (PDF) at the end
-        # U+202B (RLE) forces RTL direction, U+202C (PDF) ends the directional override
-        children = ['\u202B'] + children + ['\u202C']
+        # Apply RTL formatting to all children
+        children = apply_rtl_formatting(children)
+        # Add Right-to-Left Override (RLO) at the beginning and Pop Directional Formatting (PDF) at the end
+        # U+202E (RLO) forces RTL direction more strongly than RLE, U+202C (PDF) ends the directional override
+        children = ['\u202E'] + children + ['\u202C']
     
     if children:
         node['children'] = children
@@ -209,7 +236,7 @@ def add_footer(nodes, is_persian=False):
     
     # For Persian footer, wrap with RTL embedding characters
     if is_persian:
-        footer_children = ['\u202B'] + footer_children + ['\u202C']
+        footer_children = ['\u202E'] + footer_children + ['\u202C']
     
     footer_node = {
         'tag': 'p',
