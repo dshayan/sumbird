@@ -7,6 +7,7 @@ This package contains utility modules used across the Sumbird pipeline:
 - logging_utils: Error logging utilities
 - html_utils: HTML processing and cleaning
 - env_utils: Environment variable management
+- retry_utils: Retry mechanisms for network operations
 """
 
 # Date utilities
@@ -39,4 +40,9 @@ from utils.html_utils import (
 # Environment utilities
 from utils.env_utils import (
     get_env, load_environment
+)
+
+# Retry utilities
+from utils.retry_utils import (
+    retry_sync, retry_async, with_retry_sync, with_retry_async
 ) 

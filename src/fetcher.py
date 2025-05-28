@@ -15,9 +15,13 @@ from utils.date_utils import (
 from utils.file_utils import get_file_path
 from utils.html_utils import strip_html, clean_text
 from utils.logging_utils import log_error
+from utils.retry_utils import with_retry_sync
 
 # Import configuration
-from config import BASE_URL, HANDLES, TIMEZONE, EXPORT_DIR, EXPORT_TITLE_FORMAT
+from config import (
+    BASE_URL, HANDLES, TIMEZONE, EXPORT_DIR, EXPORT_TITLE_FORMAT,
+    NETWORK_TIMEOUT, RETRY_MAX_ATTEMPTS
+)
 
 # Import feedparser directly, no patching needed
 import feedparser
@@ -36,6 +40,18 @@ def get_feeds_from_handles():
             })
     return feeds
 
+@with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
+def fetch_feed_with_retry(feed_url):
+    """Fetch a single RSS feed with retry logic.
+    
+    Args:
+        feed_url (str): URL of the RSS feed to fetch
+        
+    Returns:
+        feedparser.FeedParserDict: Parsed feed data
+    """
+    return feedparser.parse(feed_url)
+
 def get_posts(feeds, target_start, target_end):
     """Fetch posts from feeds within the specified date range."""
     results = []
@@ -45,7 +61,7 @@ def get_posts(feeds, target_start, target_end):
     for feed in feeds:
         try:
             print(f"Fetching: {feed['title']} from {feed['url']}")
-            parsed_feed = feedparser.parse(feed['url'])
+            parsed_feed = fetch_feed_with_retry(feed['url'])
             
             if parsed_feed.feed and hasattr(parsed_feed.feed, 'title'):
                 feed['title'] = parsed_feed.feed.title

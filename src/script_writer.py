@@ -10,10 +10,11 @@ from config import (
     OPENROUTER_API_KEY, SCRIPT_WRITER_PROMPT_PATH, SCRIPT_WRITER_MODEL,
     OPENROUTER_MAX_TOKENS, OPENROUTER_TEMPERATURE, OPENROUTER_SITE_URL,
     OPENROUTER_SITE_NAME, SUMMARY_DIR, TRANSLATED_DIR, SCRIPT_DIR,
-    FILE_FORMAT, get_date_str, get_file_path
+    FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
 from utils.logging_utils import log_error, handle_request_error
 from utils.file_utils import file_exists, read_file
+from utils.retry_utils import with_retry_async
 
 class ScriptWriterClient:
     """Client for interacting with the OpenRouter API for script writing."""
@@ -43,8 +44,9 @@ class ScriptWriterClient:
         }
         self.api_url = "https://openrouter.ai/api/v1/chat/completions"
 
+    @with_retry_async(timeout=AI_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
     async def write_script(self, system_prompt, content):
-        """Convert content to TTS-optimized script using OpenRouter API.
+        """Convert content to TTS-optimized script using OpenRouter API with retry logic.
         
         Args:
             system_prompt (str): The system prompt to use
@@ -53,37 +55,30 @@ class ScriptWriterClient:
         Returns:
             tuple: (script_content, input_tokens, output_tokens)
         """
-        try:
-            async with httpx.AsyncClient() as client:
-                response = await client.post(
-                    self.api_url,
-                    headers=self.headers,
-                    json={
-                        "model": self.model,
-                        "messages": [
-                            {"role": "system", "content": system_prompt},
-                            {"role": "user", "content": content}
-                        ],
-                        "max_tokens": self.max_tokens,
-                        "temperature": self.temperature
-                    }
-                )
-                response.raise_for_status()
-                response_json = response.json()
-                script = response_json["choices"][0]["message"]["content"]
-                
-                # Extract token counts
-                usage = response_json.get("usage", {})
-                input_tokens = usage.get("prompt_tokens", 0)
-                output_tokens = usage.get("completion_tokens", 0)
-                
-                return script, input_tokens, output_tokens
-        except httpx.HTTPStatusError as e:
-            handle_request_error("ScriptWriter", e.response, "Error writing script with OpenRouter")
-            return None, 0, 0
-        except Exception as e:
-            log_error("ScriptWriter", f"Error writing script with OpenRouter", e)
-            return None, 0, 0
+        async with httpx.AsyncClient(timeout=AI_TIMEOUT) as client:
+            response = await client.post(
+                self.api_url,
+                headers=self.headers,
+                json={
+                    "model": self.model,
+                    "messages": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": content}
+                    ],
+                    "max_tokens": self.max_tokens,
+                    "temperature": self.temperature
+                }
+            )
+            response.raise_for_status()
+            response_json = response.json()
+            script = response_json["choices"][0]["message"]["content"]
+            
+            # Extract token counts
+            usage = response_json.get("usage", {})
+            input_tokens = usage.get("prompt_tokens", 0)
+            output_tokens = usage.get("completion_tokens", 0)
+            
+            return script, input_tokens, output_tokens
 
 def write_script_for_file(input_file, output_file, client, system_prompt):
     """Convert a single file to TTS-optimized script.

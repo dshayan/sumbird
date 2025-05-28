@@ -15,10 +15,12 @@ from config import (
     TELEGRAM_MESSAGE_TITLE_FORMAT, TELEGRAM_SUMMARY_FORMAT,
     TELEGRAM_CHANNEL_DISPLAY, TELEGRAM_PARSE_MODE, TELEGRAM_DISABLE_WEB_PREVIEW,
     TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
-    get_file_path, TIMEZONE, format_iso_datetime
+    get_file_path, TIMEZONE, format_iso_datetime,
+    NETWORK_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
 from utils.logging_utils import log_error, handle_request_error
 from utils.file_utils import file_exists
+from utils.retry_utils import with_retry_sync
 
 def validate_channel_id(channel_id):
     """Validates that the channel ID is in a proper format.
@@ -52,8 +54,9 @@ def validate_channel_id(channel_id):
         "- For users: Just numeric ID"
     )
 
+@with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
 def send_telegram_channel_post(content, chat_id):
-    """Send a post to a Telegram channel.
+    """Send a post to a Telegram channel with retry logic.
     
     Args:
         content (dict): Content to post including text and optional parameters
@@ -84,7 +87,7 @@ def send_telegram_channel_post(content, chat_id):
         response = httpx.post(
             api_url,
             json=request_data,
-            timeout=60
+            timeout=NETWORK_TIMEOUT
         )
         
         # Check if the request was successful
@@ -124,8 +127,9 @@ def send_telegram_channel_post(content, chat_id):
         log_error('TelegramDistributer', "Error sending Telegram channel post", e)
         return False, ""
 
+@with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
 def send_telegram_audio_group(audio_files, chat_id):
-    """Send multiple audio files as a media group to a Telegram channel.
+    """Send multiple audio files as a media group to a Telegram channel with retry logic.
     
     Args:
         audio_files (list): List of dicts with 'path' and 'title' keys
@@ -177,7 +181,7 @@ def send_telegram_audio_group(audio_files, chat_id):
             api_url,
             files=files,
             data=data,
-            timeout=120  # Longer timeout for file uploads
+            timeout=NETWORK_TIMEOUT * 2  # Longer timeout for file uploads
         )
         
         # Check if the request was successful
@@ -222,8 +226,9 @@ def send_telegram_audio_group(audio_files, chat_id):
         log_error('TelegramDistributer', f"Error sending Telegram audio group", e)
         return False, ""
 
+@with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
 def send_telegram_audio(audio_file_path, chat_id, title=""):
-    """Send an audio file to a Telegram channel.
+    """Send an audio file to a Telegram channel with retry logic.
     
     Args:
         audio_file_path (str): Path to the audio file
@@ -265,7 +270,7 @@ def send_telegram_audio(audio_file_path, chat_id, title=""):
                 api_url,
                 files=files,
                 data=data,
-                timeout=120  # Longer timeout for file uploads
+                timeout=NETWORK_TIMEOUT * 2  # Longer timeout for file uploads
             )
         
         # Check if the request was successful

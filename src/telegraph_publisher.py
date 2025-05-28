@@ -11,12 +11,14 @@ from datetime import datetime
 from config import (
     CONVERTED_DIR, PUBLISHED_DIR, FILE_FORMAT,
     get_date_str, TELEGRAPH_ACCESS_TOKEN, get_file_path, TIMEZONE,
-    format_iso_datetime
+    format_iso_datetime, NETWORK_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
 from utils.logging_utils import log_error, handle_request_error
+from utils.retry_utils import with_retry_sync
 
+@with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
 def create_or_update_telegraph_page(data, page_path=None):
-    """Create or update a Telegraph page.
+    """Create or update a Telegraph page with retry logic.
     
     Args:
         data (dict): The page data including title, content, etc.
@@ -54,7 +56,7 @@ def create_or_update_telegraph_page(data, page_path=None):
             method, 
             api_url,
             data=request_data,
-            timeout=60
+            timeout=NETWORK_TIMEOUT
         )
         
         # Check if the request was successful

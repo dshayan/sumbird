@@ -14,11 +14,12 @@ from config import (
     GEMINI_API_KEY, GEMINI_TTS_MODEL, GEMINI_TTS_VOICE, NARRATOR_PROMPT_PATH,
     SCRIPT_DIR, NARRATED_DIR, AUDIO_ARTIST, AUDIO_ALBUM, AUDIO_GENRE,
     TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
-    get_date_str, get_file_path
+    get_date_str, get_file_path, AI_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
 from utils.logging_utils import log_error
 from utils.html_utils import html_to_text
 from utils.file_utils import file_exists, read_file
+from utils.retry_utils import with_retry_sync
 
 class NarratorClient:
     """Client for interacting with the Gemini TTS API."""
@@ -56,50 +57,56 @@ class NarratorClient:
             raise
 
     def wav_to_mp3(self, wav_file, mp3_file, title=None, date_str=None):
-        """Convert WAV to MP3 using ffmpeg with metadata.
+        """Convert WAV file to MP3 with metadata.
         
         Args:
             wav_file (str): Path to the WAV file
             mp3_file (str): Path to save the MP3 file
-            title (str, optional): Title for the audio file
-            date_str (str, optional): Date string for the audio file
+            title (str, optional): Title for the audio file metadata
+            date_str (str, optional): Date string for the audio file metadata
             
         Returns:
             bool: True if conversion successful, False otherwise
         """
         try:
-            # Build ffmpeg command with metadata
+            # Build ffmpeg command
             cmd = [
-                'ffmpeg', '-i', wav_file, 
-                '-codec:a', 'libmp3lame', 
-                '-b:a', '128k',
-                '-metadata', f'artist={AUDIO_ARTIST}',
-                '-metadata', f'album={AUDIO_ALBUM}',
-                '-metadata', f'genre={AUDIO_GENRE}'
+                'ffmpeg', '-y',  # -y to overwrite output file
+                '-i', wav_file,
+                '-codec:a', 'libmp3lame',
+                '-b:a', '128k'
             ]
             
-            # Add title if provided
+            # Add metadata if provided
             if title:
                 cmd.extend(['-metadata', f'title={title}'])
-            
-            # Add date if provided
+            if AUDIO_ARTIST:
+                cmd.extend(['-metadata', f'artist={AUDIO_ARTIST}'])
+            if AUDIO_ALBUM:
+                cmd.extend(['-metadata', f'album={AUDIO_ALBUM}'])
+            if AUDIO_GENRE:
+                cmd.extend(['-metadata', f'genre={AUDIO_GENRE}'])
             if date_str:
                 cmd.extend(['-metadata', f'date={date_str}'])
             
-            # Add output file and overwrite flag
-            cmd.extend([mp3_file, '-y'])
+            cmd.append(mp3_file)
             
-            subprocess.run(cmd, check=True, capture_output=True)
-            return True
-        except subprocess.CalledProcessError as e:
-            log_error('Narrator', f"ffmpeg conversion failed for {wav_file}", e)
-            return False
-        except FileNotFoundError:
-            log_error('Narrator', "ffmpeg not found. Install with: brew install ffmpeg (macOS) or apt install ffmpeg (Ubuntu)")
+            # Run ffmpeg
+            result = subprocess.run(cmd, capture_output=True, text=True)
+            
+            if result.returncode == 0:
+                return True
+            else:
+                log_error('Narrator', f"FFmpeg conversion failed: {result.stderr}")
+                return False
+                
+        except Exception as e:
+            log_error('Narrator', f"Error converting WAV to MP3", e)
             return False
 
+    @with_retry_sync(timeout=AI_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
     def text_to_speech(self, text, output_file, title=None, date_str=None):
-        """Convert text to speech using Gemini TTS.
+        """Convert text to speech using Gemini TTS with retry logic.
         
         Args:
             text (str): Text content to convert
@@ -110,50 +117,45 @@ class NarratorClient:
         Returns:
             str: Path to the created audio file, or None if failed
         """
-        try:
-            print(f"Converting text to speech using {self.voice} voice")
-            print(f"Text length: {len(text)} characters")
-            
-            # Create TTS request
-            prompt = self.prompt_template.format(text=text)
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_modalities=["AUDIO"],
-                    speech_config=types.SpeechConfig(
-                        voice_config=types.VoiceConfig(
-                            prebuilt_voice_config=types.PrebuiltVoiceConfig(
-                                voice_name=self.voice,
-                            )
+        print(f"Converting text to speech using {self.voice} voice")
+        print(f"Text length: {len(text)} characters")
+        
+        # Create TTS request
+        prompt = self.prompt_template.format(text=text)
+        response = self.client.models.generate_content(
+            model=self.model,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_modalities=["AUDIO"],
+                speech_config=types.SpeechConfig(
+                    voice_config=types.VoiceConfig(
+                        prebuilt_voice_config=types.PrebuiltVoiceConfig(
+                            voice_name=self.voice,
                         )
-                    ),
-                )
+                    )
+                ),
             )
-            
-            # Extract audio data
-            audio_data = response.candidates[0].content.parts[0].inline_data.data
-            
-            # Save as WAV first
-            wav_file = output_file.replace('.mp3', '.wav')
-            self.save_wave_file(wav_file, audio_data)
-            
-            # Convert to MP3
-            if output_file.endswith('.mp3'):
-                if self.wav_to_mp3(wav_file, output_file, title, date_str):
-                    os.remove(wav_file)  # Remove WAV file after successful conversion
-                    print(f"Audio saved as: {output_file}")
-                    return output_file
-                else:
-                    print(f"Audio saved as: {wav_file} (MP3 conversion failed)")
-                    return wav_file
+        )
+        
+        # Extract audio data
+        audio_data = response.candidates[0].content.parts[0].inline_data.data
+        
+        # Save as WAV first
+        wav_file = output_file.replace('.mp3', '.wav')
+        self.save_wave_file(wav_file, audio_data)
+        
+        # Convert to MP3
+        if output_file.endswith('.mp3'):
+            if self.wav_to_mp3(wav_file, output_file, title, date_str):
+                os.remove(wav_file)  # Remove WAV file after successful conversion
+                print(f"Audio saved as: {output_file}")
+                return output_file
             else:
-                print(f"Audio saved as: {wav_file}")
+                print(f"Audio saved as: {wav_file} (MP3 conversion failed)")
                 return wav_file
-                
-        except Exception as e:
-            log_error('Narrator', f"Error converting text to speech", e)
-            return None
+        else:
+            print(f"Audio saved as: {wav_file}")
+            return wav_file
 
 def convert_html_to_text(html_content):
     """Convert HTML content to clean text for TTS.

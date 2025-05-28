@@ -10,9 +10,10 @@ from config import (
     OPENROUTER_API_KEY, SYSTEM_PROMPT_PATH, OPENROUTER_MODEL,
     OPENROUTER_MAX_TOKENS, OPENROUTER_TEMPERATURE, OPENROUTER_SITE_URL,
     OPENROUTER_SITE_NAME, SUMMARY_TITLE_FORMAT, EXPORT_DIR, SUMMARY_DIR,
-    FILE_FORMAT, get_date_str, get_file_path
+    FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
 from utils.logging_utils import log_error, handle_request_error
+from utils.retry_utils import with_retry_async
 
 class OpenRouterClient:
     """Client for interacting with the OpenRouter API."""
@@ -42,8 +43,9 @@ class OpenRouterClient:
         }
         self.api_url = "https://openrouter.ai/api/v1/chat/completions"
 
+    @with_retry_async(timeout=AI_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
     async def generate_summary(self, system_prompt, user_prompt):
-        """Generate a summary using OpenRouter API.
+        """Generate a summary using OpenRouter API with retry logic.
         
         Args:
             system_prompt (str): The system prompt to use
@@ -52,34 +54,30 @@ class OpenRouterClient:
         Returns:
             tuple: (generated_summary, input_tokens, output_tokens)
         """
-        try:
-            async with httpx.AsyncClient(timeout=120.0) as client:
-                response = await client.post(
-                    self.api_url,
-                    headers=self.headers,
-                    json={
-                        "model": self.model,
-                        "messages": [
-                            {"role": "system", "content": system_prompt},
-                            {"role": "user", "content": user_prompt}
-                        ],
-                        "max_tokens": self.max_tokens,
-                        "temperature": self.temperature
-                    }
-                )
-                response.raise_for_status()
-                response_json = response.json()
-                summary = response_json["choices"][0]["message"]["content"]
-                
-                # Extract token counts
-                usage = response_json.get("usage", {})
-                input_tokens = usage.get("prompt_tokens", 0)
-                output_tokens = usage.get("completion_tokens", 0)
-                
-                return summary, input_tokens, output_tokens
-        except Exception as e:
-            log_error("Summarizer", f"Error generating summary with OpenRouter", e)
-            return None, 0, 0
+        async with httpx.AsyncClient(timeout=AI_TIMEOUT) as client:
+            response = await client.post(
+                self.api_url,
+                headers=self.headers,
+                json={
+                    "model": self.model,
+                    "messages": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_prompt}
+                    ],
+                    "max_tokens": self.max_tokens,
+                    "temperature": self.temperature
+                }
+            )
+            response.raise_for_status()
+            response_json = response.json()
+            summary = response_json["choices"][0]["message"]["content"]
+            
+            # Extract token counts
+            usage = response_json.get("usage", {})
+            input_tokens = usage.get("prompt_tokens", 0)
+            output_tokens = usage.get("completion_tokens", 0)
+            
+            return summary, input_tokens, output_tokens
 
 def summarize():
     """Main function to summarize tweets using OpenRouter.

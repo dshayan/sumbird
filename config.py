@@ -83,6 +83,11 @@ TELEGRAM_DISABLE_WEB_PREVIEW = env_utils.get_env('TELEGRAM_DISABLE_WEB_PREVIEW')
 TELEGRAM_AUDIO_TITLE_EN = env_utils.get_env('TELEGRAM_AUDIO_TITLE_EN')
 TELEGRAM_AUDIO_TITLE_FA = env_utils.get_env('TELEGRAM_AUDIO_TITLE_FA')
 
+# Retry configuration
+AI_TIMEOUT = int(env_utils.get_env('AI_TIMEOUT', '120'))
+NETWORK_TIMEOUT = int(env_utils.get_env('NETWORK_TIMEOUT', '60'))
+RETRY_MAX_ATTEMPTS = int(env_utils.get_env('RETRY_MAX_ATTEMPTS', '3'))
+
 # Twitter handles to fetch posts from
 HANDLES = env_utils.get_env('HANDLES')
 
