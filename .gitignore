@@ -67,6 +67,3 @@ temp/
 # Prompts - keep only example files
 /prompts/*.txt
 !/prompts/*.txt.example
-
-# Scripts directory
-/scripts/ 

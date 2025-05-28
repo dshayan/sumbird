@@ -15,40 +15,41 @@ All configuration is managed through environment variables. See `.env.example` f
 
 - **General Configuration**: Pipeline thresholds, date/timezone settings
 - **Fetcher Module**: RSS service URL, Twitter/X handles to monitor
-- **Summarizer Module**: OpenRouter API settings for AI summarization
-- **Translator Module**: Translation model configuration
-- **Script Writer Module**: TTS optimization settings
-- **Narrator Module**: Gemini TTS API configuration
-- **Telegraph Modules**: Publishing and formatting settings
-- **Telegram Module**: Bot configuration and message formatting
+- **Summarizer Module**: OpenRouter API settings for AI summarization with Claude
+- **Translator Module**: Translation model configuration for Persian output
+- **Script Writer Module**: TTS optimization settings for natural speech
+- **Narrator Module**: Gemini TTS API configuration with voice selection
+- **Telegraph Modules**: Publishing and formatting settings for both languages
+- **Telegram Module**: Bot configuration, message formatting, and audio distribution
 
 ## Usage
 
 ### Complete Pipeline
-```
+```bash
 python main.py
 ```
+Runs the entire pipeline from fetching to distribution.
 
 ### Individual Modules
-```
-python -m src.fetcher
-python -m src.summarizer
-python -m src.translator
-python -m src.script_writer
-python -m src.narrator
-python -m src.telegraph_converter
-python -m src.telegraph_publisher
-python -m src.telegram_distributer
+```bash
+python -m src.fetcher          # Fetch and format tweets
+python -m src.summarizer       # Generate AI summary
+python -m src.translator       # Translate to Persian
+python -m src.script_writer    # Create TTS-optimized scripts
+python -m src.narrator         # Generate speech audio
+python -m src.telegraph_converter  # Format for Telegraph
+python -m src.telegraph_publisher  # Publish to Telegraph
+python -m src.telegram_distributer # Distribute to Telegram
 ```
 
 ### Utility Scripts
-```
+```bash
 python scripts/telegraph_post_manager.py  # List and delete Telegraph posts
 ```
 
 ## Pipeline Flow
 
-The pipeline follows a **fail-fast approach** - if any step fails, the entire pipeline stops. All steps are required:
+The pipeline follows a **fail-fast approach** with **robust retry mechanisms** - if any step fails after retries, the entire pipeline stops. All steps are required:
 
 1. **Fetcher**: Retrieves tweets via RSS feeds and formats them
 2. **Summarizer**: Processes tweets with AI (via OpenRouter) to generate a summary
@@ -61,23 +62,44 @@ The pipeline follows a **fail-fast approach** - if any step fails, the entire pi
 
 ## Directory Structure
 
-- `/src`: Core pipeline modules 
-- `/utils`: Utility modules used across the pipeline
-  - `date_utils.py`: Date and timezone handling
-  - `file_utils.py`: File operations and path management
-  - `logging_utils.py`: Error logging utilities
-  - `html_utils.py`: HTML processing and cleaning
-  - `env_utils.py`: Environment variable management
-- `/data`: Pipeline outputs
-  - `/export`: Raw exported tweets
-  - `/summary`: AI-generated summaries
-  - `/translated`: Persian translations
-  - `/script`: TTS-optimized scripts
-  - `/narrated`: TTS audio files
-  - `/converted`: Telegraph-formatted content
-  - `/published`: Published content information
-- `/logs`: Execution logs (log.txt, error.log)
-- `/prompts`: AI system prompts (Only examples are versioned, copy `.txt.example` to `.txt` to use)
+```
+sumbird/
+├── src/                    # Core pipeline modules
+│   ├── fetcher.py         # RSS feed fetching and formatting
+│   ├── summarizer.py      # AI summarization with Claude
+│   ├── translator.py      # Persian translation
+│   ├── script_writer.py   # TTS script optimization
+│   ├── narrator.py        # Text-to-speech generation
+│   ├── telegraph_converter.py  # Telegraph formatting
+│   ├── telegraph_publisher.py  # Telegraph publishing
+│   └── telegram_distributer.py # Telegram distribution
+├── utils/                 # Utility modules
+│   ├── date_utils.py      # Date and timezone handling
+│   ├── file_utils.py      # File operations and path management
+│   ├── logging_utils.py   # Error logging and retry tracking
+│   ├── html_utils.py      # HTML processing and cleaning
+│   ├── env_utils.py       # Environment variable management
+│   └── retry_utils.py     # Centralized retry mechanisms
+├── data/                  # Pipeline outputs (auto-created)
+│   ├── export/           # Raw exported tweets
+│   ├── summary/          # AI-generated summaries
+│   ├── translated/       # Persian translations
+│   ├── script/           # TTS-optimized scripts
+│   ├── narrated/         # TTS audio files (MP3)
+│   ├── converted/        # Telegraph-formatted content
+│   └── published/        # Published content metadata
+├── logs/                  # Execution logs (auto-created)
+│   ├── log.txt           # Pipeline execution tracking
+│   └── error.log         # Detailed error logs with retry information
+├── prompts/              # AI system prompts
+│   ├── *.txt.example     # Example prompts (versioned)
+│   └── *.txt             # Active prompts (copy from examples)
+├── scripts/              # Utility scripts
+│   └── telegraph_post_manager.py  # Telegraph post management
+├── main.py               # Pipeline entry point
+├── config.py             # Configuration management
+└── requirements.txt      # Python dependencies
+```
 
 ## License
 
