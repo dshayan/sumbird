@@ -4,81 +4,16 @@ Module for converting summary and translation content to TTS-optimized scripts.
 This module can be run independently or as part of the pipeline.
 """
 import os
-import httpx
 import asyncio
 from config import (
     OPENROUTER_API_KEY, SCRIPT_WRITER_PROMPT_PATH, SCRIPT_WRITER_MODEL,
     OPENROUTER_MAX_TOKENS, OPENROUTER_TEMPERATURE, OPENROUTER_SITE_URL,
     OPENROUTER_SITE_NAME, SUMMARY_DIR, TRANSLATED_DIR, SCRIPT_DIR,
-    FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT, RETRY_MAX_ATTEMPTS
+    FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT
 )
 from utils.logging_utils import log_error, log_info, log_success
 from utils.file_utils import file_exists, read_file
-from utils.retry_utils import with_retry_async
-
-class ScriptWriterClient:
-    """Client for interacting with the OpenRouter API for script writing."""
-    
-    def __init__(self, api_key, model, max_tokens, temperature, site_url, site_name):
-        """Initialize the OpenRouter client for script writing.
-        
-        Args:
-            api_key (str): The OpenRouter API key
-            model (str): The model to use for script writing
-            max_tokens (int): Maximum tokens for the response
-            temperature (float): Temperature for generation
-            site_url (str): Site URL for rankings
-            site_name (str): Site name for rankings
-        """
-        self.api_key = api_key
-        self.model = model
-        self.max_tokens = max_tokens
-        self.temperature = temperature
-        self.site_url = site_url
-        self.site_name = site_name
-        self.headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {self.api_key}",
-            "HTTP-Referer": self.site_url,
-            "X-Title": self.site_name
-        }
-        self.api_url = "https://openrouter.ai/api/v1/chat/completions"
-
-    @with_retry_async(timeout=AI_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
-    async def write_script(self, system_prompt, content):
-        """Convert content to TTS-optimized script using OpenRouter API with retry logic.
-        
-        Args:
-            system_prompt (str): The system prompt to use
-            content (str): The content to convert to script
-            
-        Returns:
-            tuple: (script_content, input_tokens, output_tokens)
-        """
-        async with httpx.AsyncClient(timeout=AI_TIMEOUT) as client:
-            response = await client.post(
-                self.api_url,
-                headers=self.headers,
-                json={
-                    "model": self.model,
-                    "messages": [
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": content}
-                    ],
-                    "max_tokens": self.max_tokens,
-                    "temperature": self.temperature
-                }
-            )
-            response.raise_for_status()
-            response_json = response.json()
-            script = response_json["choices"][0]["message"]["content"]
-            
-            # Extract token counts
-            usage = response_json.get("usage", {})
-            input_tokens = usage.get("prompt_tokens", 0)
-            output_tokens = usage.get("completion_tokens", 0)
-            
-            return script, input_tokens, output_tokens
+from utils.openrouter_utils import create_openrouter_client
 
 def write_script_for_file(input_file, output_file, client, system_prompt):
     """Convert a single file to TTS-optimized script.
@@ -86,7 +21,7 @@ def write_script_for_file(input_file, output_file, client, system_prompt):
     Args:
         input_file (str): Path to the input file
         output_file (str): Path to save the script file
-        client (ScriptWriterClient): Script writer client instance
+        client (OpenRouterClient): OpenRouter client instance
         system_prompt (str): The system prompt to use
         
     Returns:
@@ -108,7 +43,7 @@ def write_script_for_file(input_file, output_file, client, system_prompt):
         log_info('ScriptWriter', f"Content preview: {content[:200]}...")
         
         # Generate script using async function with asyncio.run
-        script, input_tokens, output_tokens = asyncio.run(client.write_script(system_prompt, content))
+        script, input_tokens, output_tokens = asyncio.run(client.generate_completion(system_prompt, content))
         if not script:
             return None, 0, 0
             
@@ -167,13 +102,14 @@ def write_scripts():
             summary_result = summary_script
         else:
             log_info('ScriptWriter', "Converting Summary to Script")
-            client = ScriptWriterClient(
+            client = create_openrouter_client(
                 api_key=OPENROUTER_API_KEY,
                 model=SCRIPT_WRITER_MODEL,
                 max_tokens=OPENROUTER_MAX_TOKENS,
                 temperature=OPENROUTER_TEMPERATURE,
                 site_url=OPENROUTER_SITE_URL,
-                site_name=OPENROUTER_SITE_NAME
+                site_name=OPENROUTER_SITE_NAME,
+                timeout=AI_TIMEOUT
             )
             summary_result, input_tokens, output_tokens = write_script_for_file(
                 summary_file, summary_script, client, system_prompt
@@ -194,13 +130,14 @@ def write_scripts():
             log_info('ScriptWriter', "Converting Translation to Script")
             # Initialize script writer client if not already initialized
             if 'client' not in locals():
-                client = ScriptWriterClient(
+                client = create_openrouter_client(
                     api_key=OPENROUTER_API_KEY,
                     model=SCRIPT_WRITER_MODEL,
                     max_tokens=OPENROUTER_MAX_TOKENS,
                     temperature=OPENROUTER_TEMPERATURE,
                     site_url=OPENROUTER_SITE_URL,
-                    site_name=OPENROUTER_SITE_NAME
+                    site_name=OPENROUTER_SITE_NAME,
+                    timeout=AI_TIMEOUT
                 )
             translated_result, input_tokens, output_tokens = write_script_for_file(
                 translated_file, translated_script, client, system_prompt

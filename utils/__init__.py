@@ -46,4 +46,14 @@ from utils.env_utils import (
 # Retry utilities
 from utils.retry_utils import (
     retry_sync, retry_async, with_retry_sync, with_retry_async
+)
+
+# OpenRouter utilities
+from utils.openrouter_utils import (
+    OpenRouterClient, create_openrouter_client
+)
+
+# Gemini utilities
+from utils.gemini_utils import (
+    GeminiTTSClient, create_gemini_tts_client
 ) 

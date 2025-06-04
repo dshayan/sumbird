@@ -4,80 +4,15 @@ Module for processing exported tweets with OpenRouter AI to generate summaries.
 This module can be run independently or as part of the pipeline.
 """
 import os
-import httpx
 import asyncio
 from config import (
     OPENROUTER_API_KEY, SYSTEM_PROMPT_PATH, OPENROUTER_MODEL,
     OPENROUTER_MAX_TOKENS, OPENROUTER_TEMPERATURE, OPENROUTER_SITE_URL,
     OPENROUTER_SITE_NAME, SUMMARY_TITLE_FORMAT, EXPORT_DIR, SUMMARY_DIR,
-    FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT, RETRY_MAX_ATTEMPTS
+    FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT
 )
 from utils.logging_utils import log_error, log_info, log_success
-from utils.retry_utils import with_retry_async
-
-class OpenRouterClient:
-    """Client for interacting with the OpenRouter API."""
-    
-    def __init__(self, api_key, model, max_tokens, temperature, site_url, site_name):
-        """Initialize the OpenRouter client.
-        
-        Args:
-            api_key (str): The OpenRouter API key
-            model (str): The model to use
-            max_tokens (int): Maximum tokens for the response
-            temperature (float): Temperature for generation
-            site_url (str): Site URL for rankings
-            site_name (str): Site name for rankings
-        """
-        self.api_key = api_key
-        self.model = model
-        self.max_tokens = max_tokens
-        self.temperature = temperature
-        self.site_url = site_url
-        self.site_name = site_name
-        self.headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {self.api_key}",
-            "HTTP-Referer": self.site_url,
-            "X-Title": self.site_name
-        }
-        self.api_url = "https://openrouter.ai/api/v1/chat/completions"
-
-    @with_retry_async(timeout=AI_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
-    async def generate_summary(self, system_prompt, user_prompt):
-        """Generate a summary using OpenRouter API with retry logic.
-        
-        Args:
-            system_prompt (str): The system prompt to use
-            user_prompt (str): The user prompt containing tweets to summarize
-            
-        Returns:
-            tuple: (generated_summary, input_tokens, output_tokens)
-        """
-        async with httpx.AsyncClient(timeout=AI_TIMEOUT) as client:
-            response = await client.post(
-                self.api_url,
-                headers=self.headers,
-                json={
-                    "model": self.model,
-                    "messages": [
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": user_prompt}
-                    ],
-                    "max_tokens": self.max_tokens,
-                    "temperature": self.temperature
-                }
-            )
-            response.raise_for_status()
-            response_json = response.json()
-            summary = response_json["choices"][0]["message"]["content"]
-            
-            # Extract token counts
-            usage = response_json.get("usage", {})
-            input_tokens = usage.get("prompt_tokens", 0)
-            output_tokens = usage.get("completion_tokens", 0)
-            
-            return summary, input_tokens, output_tokens
+from utils.openrouter_utils import create_openrouter_client
 
 def summarize():
     """Main function to summarize exported tweets using OpenRouter.
@@ -103,17 +38,18 @@ def summarize():
             user_prompt = f.read()
         
         # Initialize OpenRouter client
-        client = OpenRouterClient(
+        client = create_openrouter_client(
             api_key=OPENROUTER_API_KEY,
             model=OPENROUTER_MODEL,
             max_tokens=OPENROUTER_MAX_TOKENS,
             temperature=OPENROUTER_TEMPERATURE,
             site_url=OPENROUTER_SITE_URL,
-            site_name=OPENROUTER_SITE_NAME
+            site_name=OPENROUTER_SITE_NAME,
+            timeout=AI_TIMEOUT
         )
         
         # Generate summary using async function with asyncio.run
-        summary, input_tokens, output_tokens = asyncio.run(client.generate_summary(system_prompt, user_prompt))
+        summary, input_tokens, output_tokens = asyncio.run(client.generate_completion(system_prompt, user_prompt))
         if not summary:
             return None, 0, 0
             
