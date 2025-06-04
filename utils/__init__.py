@@ -55,5 +55,6 @@ from utils.openrouter_utils import (
 
 # Gemini utilities
 from utils.gemini_utils import (
+    GeminiTextClient, create_gemini_text_client,
     GeminiTTSClient, create_gemini_tts_client
 ) 

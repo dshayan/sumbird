@@ -8,7 +8,6 @@ import json
 import httpx
 from datetime import datetime
 import re
-from google import genai
 
 from config import (
     PUBLISHED_DIR, FILE_FORMAT,
@@ -23,6 +22,7 @@ from config import (
 from utils.logging_utils import log_error, handle_request_error, log_info, log_success
 from utils.file_utils import file_exists, read_file
 from utils.retry_utils import with_retry_sync
+from utils.gemini_utils import create_gemini_text_client
 
 class HeadlineGenerator:
     """Client for generating headlines using Gemini API."""
@@ -35,9 +35,11 @@ class HeadlineGenerator:
             model (str): The model to use for headline generation
             prompt_path (str): Path to the headline writer prompt file
         """
-        self.api_key = api_key
-        self.client = genai.Client(api_key=self.api_key)
-        self.model = model
+        self.client = create_gemini_text_client(
+            api_key=api_key,
+            model=model,
+            timeout=AI_TIMEOUT
+        )
         
         # Load headline writer prompt
         try:
@@ -47,7 +49,6 @@ class HeadlineGenerator:
             log_error('HeadlineGenerator', f"Error loading headline writer prompt from {prompt_path}", e)
             self.prompt = "Create a concise headline from the following AI news summary:"
 
-    @with_retry_sync(timeout=AI_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
     def generate_headline(self, summary_content):
         """Generate a headline from summary content with retry logic.
         
@@ -63,18 +64,8 @@ class HeadlineGenerator:
         # Create the prompt with the summary content
         full_prompt = f"{self.prompt}\n\n{summary_content}"
         
-        # Generate headline using Gemini
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=full_prompt
-        )
-        
-        headline = response.text.strip()
-        
-        if not headline:
-            raise Exception("Generated headline is empty")
-        
-        return headline
+        # Generate headline using the centralized Gemini client
+        return self.client.generate_text(full_prompt)
 
 def validate_channel_id(channel_id):
     """Validates that the channel ID is in a proper format.

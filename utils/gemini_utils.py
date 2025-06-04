@@ -12,6 +12,48 @@ from utils.retry_utils import with_retry_sync
 from utils.logging_utils import log_error, log_info, log_success
 
 
+class GeminiTextClient:
+    """Client for interacting with the Gemini API for text generation."""
+    
+    def __init__(self, api_key, model, timeout=120):
+        """Initialize the Gemini text client.
+        
+        Args:
+            api_key (str): The Gemini API key
+            model (str): The model to use for text generation
+            timeout (int): Request timeout in seconds
+        """
+        self.api_key = api_key
+        self.model = model
+        self.timeout = timeout
+        self.client = genai.Client(api_key=self.api_key)
+
+    @with_retry_sync(timeout=120, max_attempts=3)
+    def generate_text(self, prompt):
+        """Generate text using Gemini API with retry logic.
+        
+        Args:
+            prompt (str): The prompt to generate text from
+            
+        Returns:
+            str: Generated text
+            
+        Raises:
+            Exception: If text generation fails after all retries
+        """
+        response = self.client.models.generate_content(
+            model=self.model,
+            contents=prompt
+        )
+        
+        text = response.text.strip()
+        
+        if not text:
+            raise Exception("Generated text is empty")
+        
+        return text
+
+
 class GeminiTTSClient:
     """Client for interacting with the Gemini TTS API."""
     
@@ -157,6 +199,24 @@ class GeminiTTSClient:
         except Exception as e:
             log_error('GeminiTTS', f"Error in text_to_speech", e)
             return None
+
+
+def create_gemini_text_client(api_key, model, timeout=120):
+    """Factory function to create a Gemini text client.
+    
+    Args:
+        api_key (str): The Gemini API key
+        model (str): The model to use for text generation
+        timeout (int): Request timeout in seconds
+        
+    Returns:
+        GeminiTextClient: Configured client instance
+    """
+    return GeminiTextClient(
+        api_key=api_key,
+        model=model,
+        timeout=timeout
+    )
 
 
 def create_gemini_tts_client(api_key, model, voice, prompt_template, timeout=120):
