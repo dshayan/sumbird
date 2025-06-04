@@ -4,15 +4,12 @@ Module for translating summarized content to Persian.
 This module can be run independently or as part of the pipeline.
 """
 import os
-import asyncio
 from config import (
-    OPENROUTER_API_KEY, TRANSLATOR_PROMPT_PATH, TRANSLATOR_MODEL,
-    OPENROUTER_MAX_TOKENS, OPENROUTER_TEMPERATURE, OPENROUTER_SITE_URL,
-    OPENROUTER_SITE_NAME, SUMMARY_DIR, TRANSLATED_DIR,
-    FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT
+    GEMINI_API_KEY, TRANSLATOR_PROMPT_PATH, GEMINI_TRANSLATOR_MODEL,
+    SUMMARY_DIR, TRANSLATED_DIR, FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT
 )
 from utils.logging_utils import log_error, log_info, log_success
-from utils.openrouter_utils import create_openrouter_client
+from utils.gemini_utils import create_gemini_text_client
 
 def translate():
     """Main function to translate summary to Persian using OpenRouter.
@@ -37,21 +34,24 @@ def translate():
         with open(summary_file, 'r') as f:
             content_to_translate = f.read()
         
-        # Initialize translator client
-        client = create_openrouter_client(
-            api_key=OPENROUTER_API_KEY,
-            model=TRANSLATOR_MODEL,
-            max_tokens=OPENROUTER_MAX_TOKENS,
-            temperature=OPENROUTER_TEMPERATURE,
-            site_url=OPENROUTER_SITE_URL,
-            site_name=OPENROUTER_SITE_NAME,
+        # Initialize Gemini translator client
+        client = create_gemini_text_client(
+            api_key=GEMINI_API_KEY,
+            model=GEMINI_TRANSLATOR_MODEL,
             timeout=AI_TIMEOUT
         )
         
-        # Generate translation using async function with asyncio.run
-        translation, input_tokens, output_tokens = asyncio.run(client.generate_completion(system_prompt, content_to_translate))
+        # Create the full prompt with system prompt and content
+        full_prompt = f"{system_prompt}\n\n{content_to_translate}"
+        
+        # Generate translation using Gemini
+        translation = client.generate_text(full_prompt)
         if not translation:
             return None, 0, 0
+        
+        # Note: Gemini API doesn't provide token counts like OpenRouter
+        input_tokens = 0
+        output_tokens = 0
             
         # Save translation
         translated_file = get_file_path('translated', date_str)

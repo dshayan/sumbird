@@ -4,16 +4,14 @@ Module for converting summary and translation content to TTS-optimized scripts.
 This module can be run independently or as part of the pipeline.
 """
 import os
-import asyncio
 from config import (
-    OPENROUTER_API_KEY, SCRIPT_WRITER_PROMPT_PATH, SCRIPT_WRITER_MODEL,
-    OPENROUTER_MAX_TOKENS, OPENROUTER_TEMPERATURE, OPENROUTER_SITE_URL,
-    OPENROUTER_SITE_NAME, SUMMARY_DIR, TRANSLATED_DIR, SCRIPT_DIR,
+    GEMINI_API_KEY, SCRIPT_WRITER_PROMPT_PATH, GEMINI_SCRIPT_WRITER_MODEL,
+    SUMMARY_DIR, TRANSLATED_DIR, SCRIPT_DIR,
     FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT
 )
 from utils.logging_utils import log_error, log_info, log_success
 from utils.file_utils import file_exists, read_file
-from utils.openrouter_utils import create_openrouter_client
+from utils.gemini_utils import create_gemini_text_client
 
 def write_script_for_file(input_file, output_file, client, system_prompt):
     """Convert a single file to TTS-optimized script.
@@ -21,7 +19,7 @@ def write_script_for_file(input_file, output_file, client, system_prompt):
     Args:
         input_file (str): Path to the input file
         output_file (str): Path to save the script file
-        client (OpenRouterClient): OpenRouter client instance
+        client (GeminiTextClient): Gemini text client instance
         system_prompt (str): The system prompt to use
         
     Returns:
@@ -42,10 +40,17 @@ def write_script_for_file(input_file, output_file, client, system_prompt):
         log_info('ScriptWriter', f"Processing {input_file}")
         log_info('ScriptWriter', f"Content preview: {content[:200]}...")
         
-        # Generate script using async function with asyncio.run
-        script, input_tokens, output_tokens = asyncio.run(client.generate_completion(system_prompt, content))
+        # Create the full prompt with system prompt and content
+        full_prompt = f"{system_prompt}\n\n{content}"
+        
+        # Generate script using Gemini
+        script = client.generate_text(full_prompt)
         if not script:
             return None, 0, 0
+        
+        # Note: Gemini API doesn't provide token counts like OpenRouter
+        input_tokens = 0
+        output_tokens = 0
             
         # Ensure output directory exists
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
@@ -102,13 +107,9 @@ def write_scripts():
             summary_result = summary_script
         else:
             log_info('ScriptWriter', "Converting Summary to Script")
-            client = create_openrouter_client(
-                api_key=OPENROUTER_API_KEY,
-                model=SCRIPT_WRITER_MODEL,
-                max_tokens=OPENROUTER_MAX_TOKENS,
-                temperature=OPENROUTER_TEMPERATURE,
-                site_url=OPENROUTER_SITE_URL,
-                site_name=OPENROUTER_SITE_NAME,
+            client = create_gemini_text_client(
+                api_key=GEMINI_API_KEY,
+                model=GEMINI_SCRIPT_WRITER_MODEL,
                 timeout=AI_TIMEOUT
             )
             summary_result, input_tokens, output_tokens = write_script_for_file(
@@ -130,13 +131,9 @@ def write_scripts():
             log_info('ScriptWriter', "Converting Translation to Script")
             # Initialize script writer client if not already initialized
             if 'client' not in locals():
-                client = create_openrouter_client(
-                    api_key=OPENROUTER_API_KEY,
-                    model=SCRIPT_WRITER_MODEL,
-                    max_tokens=OPENROUTER_MAX_TOKENS,
-                    temperature=OPENROUTER_TEMPERATURE,
-                    site_url=OPENROUTER_SITE_URL,
-                    site_name=OPENROUTER_SITE_NAME,
+                client = create_gemini_text_client(
+                    api_key=GEMINI_API_KEY,
+                    model=GEMINI_SCRIPT_WRITER_MODEL,
                     timeout=AI_TIMEOUT
                 )
             translated_result, input_tokens, output_tokens = write_script_for_file(

@@ -17,7 +17,7 @@ from config import (
     TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
     get_file_path, TIMEZONE, format_iso_datetime,
     NETWORK_TIMEOUT, RETRY_MAX_ATTEMPTS, GEMINI_API_KEY, AI_TIMEOUT,
-    HEADLINE_WRITER_MODEL, HEADLINE_WRITER_PROMPT_PATH
+    GEMINI_TELEGRAM_MODEL, HEADLINE_WRITER_PROMPT_PATH
 )
 from utils.logging_utils import log_error, handle_request_error, log_info, log_success
 from utils.file_utils import file_exists, read_file
@@ -481,7 +481,7 @@ def distribute():
         
         # Initialize headline generator and generate headline
         try:
-            headline_generator = HeadlineGenerator(GEMINI_API_KEY, HEADLINE_WRITER_MODEL, HEADLINE_WRITER_PROMPT_PATH)
+            headline_generator = HeadlineGenerator(GEMINI_API_KEY, GEMINI_TELEGRAM_MODEL, HEADLINE_WRITER_PROMPT_PATH)
             headline = headline_generator.generate_headline(summary_content)
         except Exception as e:
             log_error('TelegramDistributer', "Headline generation failed, cannot proceed without generated headline", e)

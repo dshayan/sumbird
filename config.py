@@ -42,16 +42,16 @@ OPENROUTER_TEMPERATURE = env_utils.get_env('OPENROUTER_TEMPERATURE')
 OPENROUTER_SITE_URL = env_utils.get_env('OPENROUTER_SITE_URL')
 OPENROUTER_SITE_NAME = env_utils.get_env('OPENROUTER_SITE_NAME')
 
-# Translator Configuration
-TRANSLATOR_MODEL = env_utils.get_env('TRANSLATOR_MODEL')
+# Translator Configuration (using Gemini)
+GEMINI_TRANSLATOR_MODEL = env_utils.get_env('GEMINI_TRANSLATOR_MODEL')
 TRANSLATOR_PROMPT_PATH = env_utils.get_env('TRANSLATOR_PROMPT_PATH')
 
-# Script Writer Configuration
-SCRIPT_WRITER_MODEL = env_utils.get_env('SCRIPT_WRITER_MODEL')
+# Script Writer Configuration (using Gemini)
+GEMINI_SCRIPT_WRITER_MODEL = env_utils.get_env('GEMINI_SCRIPT_WRITER_MODEL')
 SCRIPT_WRITER_PROMPT_PATH = env_utils.get_env('SCRIPT_WRITER_PROMPT_PATH')
 
-# Headline Writer Configuration
-HEADLINE_WRITER_MODEL = env_utils.get_env('HEADLINE_WRITER_MODEL')
+# Telegram Headline Writer Configuration (using Gemini)
+GEMINI_TELEGRAM_MODEL = env_utils.get_env('GEMINI_TELEGRAM_MODEL')
 HEADLINE_WRITER_PROMPT_PATH = env_utils.get_env('HEADLINE_WRITER_PROMPT_PATH')
 
 # TTS Configuration
