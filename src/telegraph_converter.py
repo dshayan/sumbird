@@ -351,6 +351,10 @@ def convert_all_summaries():
     return en_result and fa_result
 
 if __name__ == "__main__":
+    # Ensure environment is loaded when running standalone
+    from utils import ensure_environment_loaded
+    ensure_environment_loaded()
+    
     # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(SUMMARY_DIR):
         log_info('Telegraph Converter', f"Creating directory: {SUMMARY_DIR}")

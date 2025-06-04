@@ -555,6 +555,10 @@ def distribute():
         return False, ""
 
 if __name__ == "__main__":
+    # Ensure environment is loaded when running standalone
+    from utils import ensure_environment_loaded
+    ensure_environment_loaded()
+    
     distribution_success, message_url = distribute()
     if distribution_success:
         log_success('TelegramDistributer', "Telegram distribution completed successfully")

@@ -322,4 +322,9 @@ def main():
 
 
 if __name__ == "__main__":
+    # Ensure environment is loaded when running standalone
+    sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    from utils import ensure_environment_loaded
+    ensure_environment_loaded()
+    
     main() 

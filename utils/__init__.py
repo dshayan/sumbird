@@ -43,6 +43,12 @@ from utils.env_utils import (
     get_env, load_environment
 )
 
+def ensure_environment_loaded():
+    """Ensure environment variables are loaded. Safe to call multiple times."""
+    from utils import env_utils
+    if not env_utils.env_vars:
+        env_utils.load_environment()
+
 # Retry utilities
 from utils.retry_utils import (
     retry_sync, retry_async, with_retry_sync, with_retry_async

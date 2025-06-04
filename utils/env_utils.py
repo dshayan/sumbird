@@ -166,5 +166,5 @@ def get_env(var_name, default=None):
     """
     return env_vars.get(var_name, default)
 
-# Initialize environment variables on module import
-load_environment() 
+# Environment variables will be loaded explicitly by the application
+# Do not auto-load at import time to avoid circular dependencies 

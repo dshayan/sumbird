@@ -17,6 +17,11 @@ import sys
 import json
 from datetime import datetime
 
+# Ensure environment is loaded before importing config-dependent modules
+from utils import env_utils
+if not env_utils.env_vars:
+    env_utils.load_environment()
+
 # Import utilities from utils package
 from utils.file_utils import ensure_directories, get_file_path, file_exists
 from utils.date_utils import get_date_str, format_datetime

@@ -5,6 +5,9 @@ Handles loading and validating environment variables.
 """
 from utils import env_utils
 
+# Load environment variables explicitly after imports are complete
+env_utils.load_environment()
+
 # Get all environment variables
 env_vars = env_utils.env_vars
 

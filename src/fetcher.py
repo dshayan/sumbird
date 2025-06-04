@@ -254,6 +254,10 @@ def fetch_and_format():
     return output_file, feeds_success, feeds_total, failed_handles
 
 if __name__ == "__main__":
+    # Ensure environment is loaded when running standalone
+    from utils import ensure_environment_loaded
+    ensure_environment_loaded()
+    
     # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(EXPORT_DIR):
         log_info('Fetcher', f"Creating directory: {EXPORT_DIR}")

@@ -219,6 +219,10 @@ def publish(feeds_success=0):
         return None
 
 if __name__ == "__main__":
+    # Ensure environment is loaded when running standalone
+    from utils import ensure_environment_loaded
+    ensure_environment_loaded()
+    
     # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(CONVERTED_DIR):
         log_info('TelegraphPublisher', f"Creating directory: {CONVERTED_DIR}")
