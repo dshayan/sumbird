@@ -5,6 +5,7 @@ This module can be run independently or as part of the pipeline.
 """
 import os
 import wave
+import time
 import subprocess
 from pathlib import Path
 from google import genai
@@ -272,6 +273,11 @@ def narrate():
             else:
                 log_error('Narrator', "Failed to create required script audio")
                 return None, None
+        
+        # Add 1-minute sleep after English voice conversion and before Persian voice conversion
+        if summary_result and not file_exists(translated_audio):
+            print("Waiting 1 minute before converting Persian script...")
+            time.sleep(60)
         
         # Check if translated audio already exists
         if file_exists(translated_audio):
