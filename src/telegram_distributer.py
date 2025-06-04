@@ -8,19 +8,73 @@ import json
 import httpx
 from datetime import datetime
 import re
+from google import genai
 
 from config import (
     PUBLISHED_DIR, FILE_FORMAT,
     get_date_str, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID,
-    TELEGRAM_MESSAGE_TITLE_FORMAT, TELEGRAM_SUMMARY_FORMAT,
+    TELEGRAM_MESSAGE_TITLE_FORMAT,
     TELEGRAM_CHANNEL_DISPLAY, TELEGRAM_PARSE_MODE, TELEGRAM_DISABLE_WEB_PREVIEW,
     TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
     get_file_path, TIMEZONE, format_iso_datetime,
-    NETWORK_TIMEOUT, RETRY_MAX_ATTEMPTS
+    NETWORK_TIMEOUT, RETRY_MAX_ATTEMPTS, GEMINI_API_KEY, AI_TIMEOUT,
+    HEADLINE_WRITER_MODEL, HEADLINE_WRITER_PROMPT_PATH
 )
 from utils.logging_utils import log_error, handle_request_error
-from utils.file_utils import file_exists
+from utils.file_utils import file_exists, read_file
 from utils.retry_utils import with_retry_sync
+
+class HeadlineGenerator:
+    """Client for generating headlines using Gemini API."""
+    
+    def __init__(self, api_key, model, prompt_path):
+        """Initialize the Gemini client for headline generation.
+        
+        Args:
+            api_key (str): The Gemini API key
+            model (str): The model to use for headline generation
+            prompt_path (str): Path to the headline writer prompt file
+        """
+        self.api_key = api_key
+        self.client = genai.Client(api_key=self.api_key)
+        self.model = model
+        
+        # Load headline writer prompt
+        try:
+            with open(prompt_path, 'r', encoding='utf-8') as f:
+                self.prompt = f.read()
+        except Exception as e:
+            log_error('HeadlineGenerator', f"Error loading headline writer prompt from {prompt_path}", e)
+            self.prompt = "Create a concise headline from the following AI news summary:"
+
+    @with_retry_sync(timeout=AI_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
+    def generate_headline(self, summary_content):
+        """Generate a headline from summary content with retry logic.
+        
+        Args:
+            summary_content (str): The AI summary content
+            
+        Returns:
+            str: Generated headline
+            
+        Raises:
+            Exception: If headline generation fails after all retries
+        """
+        # Create the prompt with the summary content
+        full_prompt = f"{self.prompt}\n\n{summary_content}"
+        
+        # Generate headline using Gemini
+        response = self.client.models.generate_content(
+            model=self.model,
+            contents=full_prompt
+        )
+        
+        headline = response.text.strip()
+        
+        if not headline:
+            raise Exception("Generated headline is empty")
+        
+        return headline
 
 def validate_channel_id(channel_id):
     """Validates that the channel ID is in a proper format.
@@ -310,6 +364,42 @@ def send_telegram_audio(audio_file_path, chat_id, title=""):
         log_error('TelegramDistributer', f"Error sending Telegram audio file", e)
         return False, ""
 
+def format_telegram_post_with_headline(published_data, headline):
+    """Format the published data into a Telegram post with provided headline.
+    
+    Args:
+        published_data (dict): The published data
+        headline (str): The generated headline
+    
+    Returns:
+        dict: Formatted content for Telegram post
+    """
+    # Extract information from published data
+    title = published_data.get("title", "AI Updates on " + published_data.get("source_date", ""))
+    en_url = published_data.get("url", "")
+    fa_url = published_data.get("fa_url", "")
+    
+    # Create the message title using the title format
+    message = TELEGRAM_MESSAGE_TITLE_FORMAT.format(title=title) + "\n\n"
+    
+    # Add the generated headline
+    message += headline + "\n\n"
+    
+    # Add the summary message with link(s) using the configured format
+    if en_url and fa_url:
+        # Both English and Persian URLs are available
+        message += f"🇬🇧 <a href=\"{en_url}\">English Summary</a>\n🇮🇷 <a href=\"{fa_url}\">Persian Summary</a>"
+    
+    # Add the channel display at the end if it exists
+    if TELEGRAM_CHANNEL_DISPLAY:
+        message += "\n\n" + TELEGRAM_CHANNEL_DISPLAY
+    
+    return {
+        "text": message,
+        "parse_mode": TELEGRAM_PARSE_MODE,
+        "disable_web_page_preview": TELEGRAM_DISABLE_WEB_PREVIEW
+    }
+
 def format_telegram_post(published_data):
     """Format the published data into a Telegram post.
     
@@ -324,10 +414,6 @@ def format_telegram_post(published_data):
     en_url = published_data.get("url", "")
     fa_url = published_data.get("fa_url", "")
     
-    # Get the number of successfully fetched sources
-    # First check if we have it in published_data
-    feeds_success = published_data.get("feeds_success", 0)
-    
     # Create the message title using the title format
     message = TELEGRAM_MESSAGE_TITLE_FORMAT.format(title=title) + "\n\n"
     
@@ -335,12 +421,10 @@ def format_telegram_post(published_data):
     if en_url:
         if fa_url:
             # Both English and Persian URLs are available
-            message += TELEGRAM_SUMMARY_FORMAT.format(feeds_success=feeds_success, en_url=en_url, fa_url=fa_url)
+            message += f"🇬🇧 <a href=\"{en_url}\">English Summary</a>\n🇮🇷 <a href=\"{fa_url}\">Persian Summary</a>"
         else:
-            # Only English URL is available - fallback to using en_url as the only URL
-            # Replace {fa_url} with {en_url} to handle environment configs without the updated format
-            formatted_message = TELEGRAM_SUMMARY_FORMAT.replace("{fa_url}", "{en_url}")
-            message += formatted_message.format(feeds_success=feeds_success, en_url=en_url)
+            # Only English URL is available
+            message += f"🇬🇧 <a href=\"{en_url}\">English Summary</a>"
         
     # Add the channel display at the end if it exists
     if TELEGRAM_CHANNEL_DISPLAY:
@@ -374,8 +458,46 @@ def distribute():
         with open(published_file, 'r', encoding='utf-8') as f:
             published_data = json.load(f)
         
+        # Check if both English and Persian URLs are available
+        en_url = published_data.get("url", "")
+        fa_url = published_data.get("fa_url", "")
+        
+        if not en_url:
+            log_error('TelegramDistributer', "English summary URL not found in published data")
+            return False, ""
+        
+        if not fa_url:
+            log_error('TelegramDistributer', "Persian summary URL not found in published data")
+            return False, ""
+        
+        # Check if both summary files exist
+        summary_file = get_file_path('summary', date_str)
+        translated_file = get_file_path('translated', date_str)
+        
+        if not file_exists(summary_file):
+            log_error('TelegramDistributer', f"English summary file not found: {summary_file}")
+            return False, ""
+        
+        if not file_exists(translated_file):
+            log_error('TelegramDistributer', f"Persian summary file not found: {translated_file}")
+            return False, ""
+        
+        # Generate headline from summary content (required, no fallback)
+        summary_content = read_file(summary_file)
+        if not summary_content:
+            log_error('TelegramDistributer', f"Failed to read summary content from {summary_file}")
+            return False, ""
+        
+        # Initialize headline generator and generate headline
+        try:
+            headline_generator = HeadlineGenerator(GEMINI_API_KEY, HEADLINE_WRITER_MODEL, HEADLINE_WRITER_PROMPT_PATH)
+            headline = headline_generator.generate_headline(summary_content)
+        except Exception as e:
+            log_error('TelegramDistributer', "Headline generation failed, cannot proceed without generated headline", e)
+            return False, ""
+        
         # Format content for Telegram
-        telegram_content = format_telegram_post(published_data)
+        telegram_content = format_telegram_post_with_headline(published_data, headline)
         
         # Get channel ID
         channel_id = TELEGRAM_CHAT_ID
@@ -429,7 +551,8 @@ def distribute():
                 "timestamp": format_iso_datetime(),
                 "channel": channel_id,
                 "message_url": message_url,
-                "audio_urls": audio_urls
+                "audio_urls": audio_urls,
+                "headline": headline
             }
             
             # Save the updated published data

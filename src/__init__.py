@@ -14,7 +14,7 @@ from src.script_writer import write_scripts, ScriptWriterClient
 from src.narrator import narrate, NarratorClient
 from src.telegraph_converter import convert_all_summaries
 from src.telegraph_publisher import publish
-from src.telegram_distributer import distribute
+from src.telegram_distributer import distribute, HeadlineGenerator
 
 # Import utility functions from the utils package
 from utils.logging_utils import log_error, handle_request_error
@@ -35,6 +35,7 @@ __all__ = [
     'convert_all_summaries',
     'publish',
     'distribute',
+    'HeadlineGenerator',
     
     # Utility functions that are used by multiple modules
     'log_error',
