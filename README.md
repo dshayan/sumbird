@@ -20,7 +20,7 @@ All configuration is managed through environment variables. See `.env.example` f
 - **Script Writer Module**: TTS optimization settings for natural speech
 - **Narrator Module**: Gemini TTS API configuration with voice selection
 - **Telegraph Modules**: Publishing and formatting settings for both languages
-- **Telegram Module**: Bot configuration, message formatting, and audio distribution
+- **Telegram Module**: Bot configuration, message formatting, audio distribution, and headline generation settings
 
 ## Usage
 
@@ -39,7 +39,7 @@ python -m src.script_writer    # Create TTS-optimized scripts
 python -m src.narrator         # Generate speech audio
 python -m src.telegraph_converter  # Format for Telegraph
 python -m src.telegraph_publisher  # Publish to Telegraph
-python -m src.telegram_distributer # Distribute to Telegram
+python -m src.telegram_distributer # Distribute to Telegram (includes headline generation)
 ```
 
 ### Utility Scripts
@@ -58,7 +58,7 @@ The pipeline follows a **fail-fast approach** with **robust retry mechanisms** -
 5. **Narrator**: Converts scripts to speech using Gemini TTS
 6. **Telegraph Converter**: Formats summaries for Telegraph in both languages
 7. **Telegraph Publisher**: Publishes content to Telegraph
-8. **Telegram Distributer**: Shares to Telegram with links and audio files
+8. **Telegram Distributer**: Generates engaging headlines and shares to Telegram with links and audio files
 
 ## Directory Structure
 
@@ -92,7 +92,7 @@ sumbird/
 │   ├── log.txt           # Pipeline execution tracking
 │   └── error.log         # Detailed error logs with retry information
 ├── prompts/              # AI system prompts
-│   ├── *.txt.example     # Example prompts (versioned)
+│   ├── *.txt.example     # Example prompts
 │   └── *.txt             # Active prompts (copy from examples)
 ├── scripts/              # Utility scripts
 │   └── telegraph_post_manager.py  # Telegraph post management
