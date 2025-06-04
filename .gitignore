@@ -28,6 +28,9 @@ ENV/
 # Output directory
 data/
 
+# Test directory and outputs
+test/
+
 # Logs
 *.log
 logs/
