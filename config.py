@@ -98,7 +98,8 @@ HANDLES = env_utils.get_env('HANDLES')
 from utils.date_utils import (
     get_target_date, get_date_str, get_now, 
     format_datetime, format_log_datetime, 
-    format_iso_datetime, format_feed_datetime
+    format_iso_datetime, format_feed_datetime,
+    get_date_range
 )
 
 # File utils functions - import from utils
