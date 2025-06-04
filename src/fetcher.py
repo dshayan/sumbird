@@ -26,6 +26,33 @@ from config import (
 # Import feedparser directly, no patching needed
 import feedparser
 
+def convert_to_x_url(url):
+    """Convert RSS feed URL to x.com format.
+    
+    Args:
+        url (str): Original RSS feed URL
+        
+    Returns:
+        str: Converted x.com URL
+    """
+    if not url:
+        return url
+    
+    # Extract the domain from BASE_URL for URL parsing
+    base_domain = BASE_URL.rstrip('/').split('://')[-1]  # Get domain part
+    
+    if base_domain in url and '/status/' in url:
+        # Extract username and status ID from the URL
+        url_parts = url.split(base_domain + '/')
+        if len(url_parts) > 1:
+            path = url_parts[1]
+            if '/status/' in path:
+                username = path.split('/status/')[0]
+                status_id = path.split('/status/')[1].split('#')[0]
+                return f"https://x.com/{username}/status/{status_id}"
+    
+    return url
+
 def get_feeds_from_handles():
     """Generate feed URLs from Twitter handles."""
     feeds = []
@@ -88,8 +115,15 @@ def get_posts(feeds, target_start, target_end):
                 
                 # Compare timezone-aware datetime objects directly
                 if target_start <= pub_date < target_end:
-                    content = None
+                    # Check if this is a retweet by examining the title
+                    title = entry.get('title', '')
+                    is_retweet = title.startswith('RT by @')
                     
+                    # Get the URL from the link field
+                    url = entry.get('link', '')
+                    
+                    # Get content from summary/content fields
+                    content = None
                     if hasattr(entry, 'summary'):
                         content = entry.summary
                     elif hasattr(entry, 'content') and entry.content:
@@ -97,12 +131,44 @@ def get_posts(feeds, target_start, target_end):
                     else:
                         content = entry.title
                     
+                    # Clean the content
                     content = strip_html(content)
                     content = clean_text(content)
+                    
+                    # Convert URLs in content to x.com format
+                    if content:
+                        # Extract the domain from BASE_URL for URL replacement
+                        base_domain = BASE_URL.rstrip('/').split('://')[-1]  # Get domain part
+                        
+                        # Replace URLs in content with x.com format
+                        import re
+                        # Pattern to match URLs with the base domain (with or without https://)
+                        url_pattern = rf'(?:https?://)?{re.escape(base_domain)}/([^/\s]+)/status/(\d+)(?:#\w+)?'
+                        content = re.sub(url_pattern, r'https://x.com/\1/status/\2', content)
+                    
+                    # Handle retweets
+                    if is_retweet:
+                        # Extract original author from the URL
+                        original_author = "unknown"
+                        if url and BASE_URL.rstrip('/') in url:
+                            # Extract the domain from BASE_URL for URL parsing
+                            base_domain = BASE_URL.rstrip('/').split('://')[-1]  # Get domain part
+                            url_parts = url.split(base_domain + '/')
+                            if len(url_parts) > 1:
+                                path = url_parts[1]
+                                if '/status/' in path:
+                                    original_author = path.split('/status/')[0]
+                        
+                        # Format as "RT from @username: content"
+                        content = f"RT from @{original_author}: {content}"
+                    
+                    # Convert the main URL to x.com format
+                    converted_url = convert_to_x_url(url)
                     
                     results.append({
                         'source': feed['title'],
                         'content': content,
+                        'url': converted_url,
                         'date': format_feed_datetime(pub_date),
                         'timestamp': pub_date
                     })
@@ -137,6 +203,7 @@ def save_to_file(posts, output_file, date_str):
         posts_by_date[date_only][source].append({
             'time': time_only,
             'content': post['content'],
+            'url': post['url'],
             'timestamp': post['timestamp']
         })
     
@@ -155,7 +222,7 @@ def save_to_file(posts, output_file, date_str):
                 source_posts.sort(key=lambda x: x['timestamp'])
                 
                 for post in source_posts:
-                    f.write(f"- {post['time']}: {post['content']}\n")
+                    f.write(f"- {post['time']}: {post['content']} [URL: {post['url']}]\n")
                 
                 f.write("\n")
 
