@@ -17,7 +17,7 @@ from config import (
     TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
     get_date_str, get_file_path, AI_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
-from utils.logging_utils import log_error
+from utils.logging_utils import log_error, log_info, log_success
 from utils.html_utils import html_to_text
 from utils.file_utils import file_exists, read_file
 from utils.retry_utils import with_retry_sync
@@ -107,10 +107,10 @@ class NarratorClient:
 
     @with_retry_sync(timeout=AI_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
     def text_to_speech(self, text, output_file, title=None, date_str=None):
-        """Convert text to speech using Gemini TTS with retry logic.
+        """Convert text to speech using Gemini TTS.
         
         Args:
-            text (str): Text content to convert
+            text (str): Text to convert to speech
             output_file (str): Path to save the audio file
             title (str, optional): Title for the audio file metadata
             date_str (str, optional): Date string for the audio file metadata
@@ -118,45 +118,47 @@ class NarratorClient:
         Returns:
             str: Path to the created audio file, or None if failed
         """
-        print(f"Converting text to speech using {self.voice} voice")
-        print(f"Text length: {len(text)} characters")
-        
-        # Create TTS request
-        prompt = self.prompt_template.format(text=text)
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_modalities=["AUDIO"],
-                speech_config=types.SpeechConfig(
-                    voice_config=types.VoiceConfig(
-                        prebuilt_voice_config=types.PrebuiltVoiceConfig(
-                            voice_name=self.voice,
-                        )
-                    )
-                ),
+        try:
+            log_info('Narrator', f"Converting text to speech using {self.voice} voice")
+            log_info('Narrator', f"Text length: {len(text)} characters")
+            
+            # Generate speech using Gemini TTS
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=self.prompt_template.format(text=text),
+                config=types.GenerateContentConfig(
+                    system_instruction="You are a professional narrator. Convert the provided text to natural, engaging speech.",
+                    speech_config=types.SpeechConfig(voice_config=types.VoiceConfig(name=self.voice))
+                )
             )
-        )
-        
-        # Extract audio data
-        audio_data = response.candidates[0].content.parts[0].inline_data.data
-        
-        # Save as WAV first
-        wav_file = output_file.replace('.mp3', '.wav')
-        self.save_wave_file(wav_file, audio_data)
-        
-        # Convert to MP3
-        if output_file.endswith('.mp3'):
-            if self.wav_to_mp3(wav_file, output_file, title, date_str):
-                os.remove(wav_file)  # Remove WAV file after successful conversion
-                print(f"Audio saved as: {output_file}")
-                return output_file
+            
+            # Get the audio data
+            audio_data = response.candidates[0].content.parts[0].inline_data.data
+            
+            # Determine output format and save accordingly
+            if output_file.endswith('.mp3'):
+                # Save as WAV first, then convert to MP3
+                wav_file = output_file.replace('.mp3', '.wav')
+                self.save_wave_file(wav_file, audio_data)
+                
+                # Convert to MP3
+                if self.wav_to_mp3(wav_file, output_file, title, date_str):
+                    # Remove the temporary WAV file
+                    os.remove(wav_file)
+                    log_success('Narrator', f"Audio saved as: {output_file}")
+                    return output_file
+                else:
+                    log_info('Narrator', f"Audio saved as: {wav_file} (MP3 conversion failed)")
+                    return wav_file
             else:
-                print(f"Audio saved as: {wav_file} (MP3 conversion failed)")
-                return wav_file
-        else:
-            print(f"Audio saved as: {wav_file}")
-            return wav_file
+                # Save as WAV
+                self.save_wave_file(output_file, audio_data)
+                log_success('Narrator', f"Audio saved as: {output_file}")
+                return output_file
+                
+        except Exception as e:
+            log_error('Narrator', f"Error in text_to_speech", e)
+            return None
 
 def convert_html_to_text(html_content):
     """Convert HTML content to clean text for TTS.
@@ -207,8 +209,8 @@ def narrate_file(file_path, output_path, client, title=None, date_str=None):
             log_error('Narrator', f"No text content found in {file_path}")
             return None
         
-        print(f"Processing {file_path}")
-        print(f"Text preview: {text_content[:200]}...")
+        log_info('Narrator', f"Processing {file_path}")
+        log_info('Narrator', f"Text preview: {text_content[:200]}...")
         
         # Ensure output directory exists
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -256,11 +258,10 @@ def narrate():
         
         # Check if summary audio already exists
         if file_exists(summary_audio):
-            print(f"Using existing summary audio: {summary_audio}")
+            log_info('Narrator', f"Using existing summary audio: {summary_audio}")
             summary_result = summary_audio
         else:
-            print(f"\n=== Converting Script to Speech ===")
-            # Initialize TTS client
+            log_info('Narrator', "Converting Script to Speech")
             client = NarratorClient(
                 api_key=GEMINI_API_KEY,
                 model=GEMINI_TTS_MODEL,
@@ -269,22 +270,22 @@ def narrate():
             )
             summary_result = narrate_file(script_file, summary_audio, client, TELEGRAM_AUDIO_TITLE_EN, date_str)
             if summary_result:
-                print(f"Script audio created: {summary_result}")
+                log_success('Narrator', f"Script audio created: {summary_result}")
             else:
                 log_error('Narrator', "Failed to create required script audio")
                 return None, None
         
-        # Add 1-minute sleep after English voice conversion and before Persian voice conversion
-        if summary_result and not file_exists(translated_audio):
-            print("Waiting 1 minute before converting Persian script...")
+        # Wait between requests to avoid rate limiting
+        if not file_exists(translated_audio):
+            log_info('Narrator', "Waiting 1 minute before converting Persian script...")
             time.sleep(60)
         
         # Check if translated audio already exists
         if file_exists(translated_audio):
-            print(f"Using existing translation audio: {translated_audio}")
+            log_info('Narrator', f"Using existing translation audio: {translated_audio}")
             translated_result = translated_audio
         else:
-            print(f"\n=== Converting Translation Script to Speech ===")
+            log_info('Narrator', "Converting Translation Script to Speech")
             # Initialize TTS client if not already initialized
             if 'client' not in locals():
                 client = NarratorClient(
@@ -295,7 +296,7 @@ def narrate():
                 )
             translated_result = narrate_file(translated_script_file, translated_audio, client, TELEGRAM_AUDIO_TITLE_FA, date_str)
             if translated_result:
-                print(f"Translation script audio created: {translated_result}")
+                log_success('Narrator', f"Translation script audio created: {translated_result}")
             else:
                 log_error('Narrator', "Failed to create required translation script audio")
                 return None, None
@@ -307,18 +308,16 @@ def narrate():
         return None, None
 
 if __name__ == "__main__":
-    # Create necessary directories when running as standalone
+    # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(NARRATED_DIR):
-        print(f"Creating directory: {NARRATED_DIR}")
+        log_info('Narrator', f"Creating directory: {NARRATED_DIR}")
         os.makedirs(NARRATED_DIR, exist_ok=True)
     
     summary_audio, translated_audio = narrate()
     
-    if summary_audio or translated_audio:
-        print(f"\nNarration completed successfully")
-        if summary_audio:
-            print(f"Summary audio: {summary_audio}")
-        if translated_audio:
-            print(f"Translation audio: {translated_audio}")
+    if summary_audio and translated_audio:
+        log_success('Narrator', "Narration completed successfully")
+        log_info('Narrator', f"Summary audio: {summary_audio}")
+        log_info('Narrator', f"Translation audio: {translated_audio}")
     else:
-        print("\nNarration failed") 
+        log_error('Narrator', "Narration failed") 

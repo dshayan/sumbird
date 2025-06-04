@@ -13,7 +13,7 @@ from config import (
     get_date_str, TELEGRAPH_ACCESS_TOKEN, get_file_path, TIMEZONE,
     format_iso_datetime, NETWORK_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
-from utils.logging_utils import log_error, handle_request_error
+from utils.logging_utils import log_error, handle_request_error, log_info, log_success, log_warning
 from utils.retry_utils import with_retry_sync
 
 @with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
@@ -65,15 +65,14 @@ def create_or_update_telegraph_page(data, page_path=None):
             if response_json.get("ok"):
                 return response_json.get("result")
             else:
-                print(f"Telegraph API error: {response_json.get('error')}")
+                log_error('TelegraphPublisher', f"Telegraph API error: {response_json.get('error')}")
                 return None
         else:
-            print(f"API request failed with status code {response.status_code}")
-            print(f"Response: {response.text}")
+            log_error('TelegraphPublisher', f"API request failed with status code {response.status_code}\nResponse: {response.text}")
             return None
     
     except Exception as e:
-        print(f"Error publishing to Telegraph: {e}")
+        log_error('TelegraphPublisher', f"Error publishing to Telegraph", e)
         return None
 
 def save_published_data(date_str, published_data):
@@ -163,21 +162,21 @@ def publish(feeds_success=0):
         
         # Publish English version
         if en_existing_page_path:
-            print(f"Found existing English publication for {date_str}, updating...")
+            log_info('TelegraphPublisher', f"Found existing English publication for {date_str}, updating...")
             en_result = create_or_update_telegraph_page(en_data, en_existing_page_path)
             en_action = "updated"
         else:
-            print(f"Creating new English Telegraph page for {date_str}...")
+            log_info('TelegraphPublisher', f"Creating new English Telegraph page for {date_str}...")
             en_result = create_or_update_telegraph_page(en_data)
             en_action = "created"
         
         # Publish Persian version (now required)
         if fa_existing_page_path:
-            print(f"Found existing Persian publication for {date_str}, updating...")
+            log_info('TelegraphPublisher', f"Found existing Persian publication for {date_str}, updating...")
             fa_result = create_or_update_telegraph_page(fa_data, fa_existing_page_path)
             fa_action = "updated"
         else:
-            print(f"Creating new Persian Telegraph page for {date_str}...")
+            log_info('TelegraphPublisher', f"Creating new Persian Telegraph page for {date_str}...")
             fa_result = create_or_update_telegraph_page(fa_data)
             fa_action = "created"
         
@@ -204,14 +203,14 @@ def publish(feeds_success=0):
         }
         
         saved_file = save_published_data(date_str, published_data)
-        print(f"Published data saved to {saved_file}")
+        log_success('TelegraphPublisher', f"Published data saved to {saved_file}")
         
         # Log success messages
         en_url = en_result.get('url')
         fa_url = fa_result.get('url')
         
-        print(f"Successfully {en_action} English content on Telegraph: {en_url}")
-        print(f"Successfully {fa_action} Persian content on Telegraph: {fa_url}")
+        log_success('TelegraphPublisher', f"Successfully {en_action} English content on Telegraph: {en_url}")
+        log_success('TelegraphPublisher', f"Successfully {fa_action} Persian content on Telegraph: {fa_url}")
         
         return saved_file
     
@@ -222,15 +221,15 @@ def publish(feeds_success=0):
 if __name__ == "__main__":
     # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(CONVERTED_DIR):
-        print(f"Creating directory: {CONVERTED_DIR}")
+        log_info('TelegraphPublisher', f"Creating directory: {CONVERTED_DIR}")
         os.makedirs(CONVERTED_DIR, exist_ok=True)
     
     if not os.path.exists(PUBLISHED_DIR):
-        print(f"Creating directory: {PUBLISHED_DIR}")
+        log_info('TelegraphPublisher', f"Creating directory: {PUBLISHED_DIR}")
         os.makedirs(PUBLISHED_DIR, exist_ok=True)
     
     published_file = publish()
     if published_file:
-        print(f"Publisher completed. Output file: {published_file}")
+        log_success('TelegraphPublisher', f"Publisher completed. Output file: {published_file}")
     else:
-        print("Publisher failed.") 
+        log_error('TelegraphPublisher', "Publisher failed.") 

@@ -12,7 +12,7 @@ from config import (
     OPENROUTER_SITE_NAME, SUMMARY_TITLE_FORMAT, EXPORT_DIR, SUMMARY_DIR,
     FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
-from utils.logging_utils import log_error, handle_request_error
+from utils.logging_utils import log_error, log_info, log_success
 from utils.retry_utils import with_retry_async
 
 class OpenRouterClient:
@@ -80,7 +80,7 @@ class OpenRouterClient:
             return summary, input_tokens, output_tokens
 
 def summarize():
-    """Main function to summarize tweets using OpenRouter.
+    """Main function to summarize exported tweets using OpenRouter.
     
     Returns:
         tuple: (summary_file_path, input_tokens, output_tokens) or (None, 0, 0) if failed
@@ -89,14 +89,14 @@ def summarize():
         # Get the target date
         date_str = get_date_str()
         
-        # Read the system prompt
+        # Read the summarizer prompt
         with open(SYSTEM_PROMPT_PATH, 'r') as f:
             system_prompt = f.read()
         
-        # Read the exported tweets
+        # Read the exported content
         export_file = get_file_path('export', date_str)
         if not os.path.exists(export_file):
-            print(f"Export file not found: {export_file}")
+            log_error('Summarizer', f"Export file not found: {export_file}")
             return None, 0, 0
             
         with open(export_file, 'r') as f:
@@ -121,6 +121,9 @@ def summarize():
         formatted_summary = f"<h1>{SUMMARY_TITLE_FORMAT.format(date=date_str)}</h1>\n\n{summary}"
         summary_file = get_file_path('summary', date_str)
         
+        # Ensure the directory exists
+        os.makedirs(os.path.dirname(summary_file), exist_ok=True)
+        
         with open(summary_file, 'w') as f:
             f.write(formatted_summary)
             
@@ -133,16 +136,16 @@ def summarize():
 if __name__ == "__main__":
     # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(EXPORT_DIR):
-        print(f"Creating directory: {EXPORT_DIR}")
+        log_info('Summarizer', f"Creating directory: {EXPORT_DIR}")
         os.makedirs(EXPORT_DIR, exist_ok=True)
     
     if not os.path.exists(SUMMARY_DIR):
-        print(f"Creating directory: {SUMMARY_DIR}")
+        log_info('Summarizer', f"Creating directory: {SUMMARY_DIR}")
         os.makedirs(SUMMARY_DIR, exist_ok=True)
     
     summary_file, input_tokens, output_tokens = summarize()
     if summary_file:
-        print(f"Summarizer completed. Output file: {summary_file}")
-        print(f"Tokens used: {input_tokens} input, {output_tokens} output")
+        log_success('Summarizer', f"Summarizer completed. Output file: {summary_file}")
+        log_info('Summarizer', f"Tokens used: {input_tokens} input, {output_tokens} output")
     else:
-        print("Summarizer failed.")
+        log_error('Summarizer', "Summarizer failed.")

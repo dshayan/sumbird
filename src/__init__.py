@@ -17,7 +17,7 @@ from src.telegraph_publisher import publish
 from src.telegram_distributer import distribute, HeadlineGenerator
 
 # Import utility functions from the utils package
-from utils.logging_utils import log_error, handle_request_error
+from utils.logging_utils import log_error, handle_request_error, log_info, log_success, log_warning, log_pipeline_step
 from utils.html_utils import strip_html, clean_html_for_display, clean_text
 
 # Define package exports - only include functions that should be part of the public API
@@ -40,6 +40,10 @@ __all__ = [
     # Utility functions that are used by multiple modules
     'log_error',
     'handle_request_error',
+    'log_info',
+    'log_success',
+    'log_warning',
+    'log_pipeline_step',
     'strip_html',
     'clean_html_for_display',
     'clean_text',

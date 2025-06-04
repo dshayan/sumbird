@@ -20,7 +20,7 @@ from config import (
     FOOTER_TEXT_FA, FOOTER_LINK_TEXT_FA, FOOTER_LINK_URL_FA,
     get_file_path
 )
-from utils.logging_utils import log_error
+from utils.logging_utils import log_error, log_info, log_success
 from utils.html_utils import clean_html_for_display
 
 def apply_rtl_formatting(children):
@@ -313,7 +313,7 @@ def convert_to_telegraph_format(input_file, output_file, date_str, is_persian=Fa
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(telegraph_data, f, ensure_ascii=False, indent=2)
         
-        print(f"Converted to Telegraph format: {output_file}")
+        log_success('Telegraph Converter', f"Converted to Telegraph format: {output_file}")
         return True
     
     except Exception as e:
@@ -353,15 +353,15 @@ def convert_all_summaries():
 if __name__ == "__main__":
     # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(SUMMARY_DIR):
-        print(f"Creating directory: {SUMMARY_DIR}")
+        log_info('Telegraph Converter', f"Creating directory: {SUMMARY_DIR}")
         os.makedirs(SUMMARY_DIR, exist_ok=True)
     
     if not os.path.exists(TRANSLATED_DIR):
-        print(f"Creating directory: {TRANSLATED_DIR}")
+        log_info('Telegraph Converter', f"Creating directory: {TRANSLATED_DIR}")
         os.makedirs(TRANSLATED_DIR, exist_ok=True)
     
     if not os.path.exists(CONVERTED_DIR):
-        print(f"Creating directory: {CONVERTED_DIR}")
+        log_info('Telegraph Converter', f"Creating directory: {CONVERTED_DIR}")
         os.makedirs(CONVERTED_DIR, exist_ok=True)
     
     convert_all_summaries() 

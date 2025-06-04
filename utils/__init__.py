@@ -28,7 +28,8 @@ from utils.file_utils import (
 
 # Logging utilities
 from utils.logging_utils import (
-    log_error, handle_request_error, log_step
+    log_error, handle_request_error, log_step,
+    log_info, log_success, log_warning, log_pipeline_step
 )
 
 # HTML utilities

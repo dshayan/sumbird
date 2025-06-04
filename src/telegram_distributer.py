@@ -20,7 +20,7 @@ from config import (
     NETWORK_TIMEOUT, RETRY_MAX_ATTEMPTS, GEMINI_API_KEY, AI_TIMEOUT,
     HEADLINE_WRITER_MODEL, HEADLINE_WRITER_PROMPT_PATH
 )
-from utils.logging_utils import log_error, handle_request_error
+from utils.logging_utils import log_error, handle_request_error, log_info, log_success
 from utils.file_utils import file_exists, read_file
 from utils.retry_utils import with_retry_sync
 
@@ -499,17 +499,12 @@ def distribute():
         # Format content for Telegram
         telegram_content = format_telegram_post_with_headline(published_data, headline)
         
-        # Get channel ID
+        # Send the message
         channel_id = TELEGRAM_CHAT_ID
-        is_valid, error_message = validate_channel_id(channel_id)
-        
-        if not is_valid:
-            log_error('TelegramDistributer', f"Warning: {error_message}. Will attempt to send with the provided ID: '{channel_id}'")
-        
-        # Send to Telegram channel
         success, message_url = send_telegram_channel_post(telegram_content, channel_id)
+        
         if success:
-            print(f"Successfully distributed content to Telegram channel {channel_id}")
+            log_success('TelegramDistributer', f"Successfully distributed content to Telegram channel {channel_id}")
             
             # Check for audio files and send them as a group (both now required)
             summary_audio = get_file_path('narrated', date_str)
@@ -537,10 +532,10 @@ def distribute():
             ]
             
             # Send audio files as a group (both files are required)
-            print(f"Sending {len(audio_files_to_send)} audio files as a group")
+            log_info('TelegramDistributer', f"Sending {len(audio_files_to_send)} audio files as a group")
             audio_success, audio_url = send_telegram_audio_group(audio_files_to_send, channel_id)
             if audio_success:
-                print(f"Audio group sent successfully")
+                log_success('TelegramDistributer', "Audio group sent successfully")
                 audio_urls.append(audio_url)
             else:
                 log_error('TelegramDistributer', "Failed to send required audio group")
@@ -569,10 +564,9 @@ def distribute():
         return False, ""
 
 if __name__ == "__main__":
-    success, message_url = distribute()
-    if success:
-        print(f"Telegram distribution completed successfully")
-        if message_url:
-            print(f"Message URL: {message_url}")
+    distribution_success, message_url = distribute()
+    if distribution_success:
+        log_success('TelegramDistributer', "Telegram distribution completed successfully")
+        log_info('TelegramDistributer', f"Message URL: {message_url}")
     else:
-        print("Telegram distribution failed") 
+        log_error('TelegramDistributer', "Telegram distribution failed") 

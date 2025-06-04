@@ -6,6 +6,7 @@ This module provides logging functionality:
 - Error logging with consistent formatting
 - API error handling
 - Pipeline step logging
+- Info and success logging
 """
 import os
 import sys
@@ -50,6 +51,59 @@ def log_error(module_name, error_message, exception=None):
             traceback_text = ''.join(traceback.format_exception(type(exception), exception, exception.__traceback__))
             log_file.write(f"{traceback_text}\n")
         log_file.write("---\n")
+
+def log_info(module_name, message):
+    """Log an informational message with consistent formatting.
+    
+    Used for general information, progress updates, and status messages.
+    
+    Args:
+        module_name (str): Name of the module logging the message
+        message (str): The informational message
+    """
+    timestamp = format_datetime()
+    formatted_message = f"[INFO] {timestamp} - {module_name}: {message}"
+    print(formatted_message)
+
+def log_success(module_name, message):
+    """Log a success message with consistent formatting.
+    
+    Used for successful operations and completions.
+    
+    Args:
+        module_name (str): Name of the module logging the message
+        message (str): The success message
+    """
+    timestamp = format_datetime()
+    formatted_message = f"[SUCCESS] {timestamp} - {module_name}: {message}"
+    print(formatted_message)
+
+def log_warning(module_name, message):
+    """Log a warning message with consistent formatting.
+    
+    Used for non-critical issues that should be noted.
+    
+    Args:
+        module_name (str): Name of the module logging the message
+        message (str): The warning message
+    """
+    timestamp = format_datetime()
+    formatted_message = f"[WARNING] {timestamp} - {module_name}: {message}"
+    print(formatted_message, file=sys.stderr)
+
+def log_pipeline_step(step_name, message=""):
+    """Log a pipeline step with consistent formatting.
+    
+    Used in main.py and test_main.py for pipeline step headers.
+    
+    Args:
+        step_name (str): Name of the pipeline step
+        message (str, optional): Additional message for the step
+    """
+    if message:
+        print(f"\n=== {step_name}: {message} ===")
+    else:
+        print(f"\n=== {step_name} ===")
         
 def handle_request_error(module_name, response, error_message):
     """Handle API request errors consistently.

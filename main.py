@@ -20,7 +20,7 @@ from datetime import datetime
 # Import utilities from utils package
 from utils.file_utils import ensure_directories, get_file_path, file_exists
 from utils.date_utils import get_date_str, format_datetime
-from utils.logging_utils import log_step
+from utils.logging_utils import log_step, log_pipeline_step, log_info, log_error
 
 # Import configuration
 from config import HANDLES, MIN_FEEDS_TOTAL, MIN_FEEDS_SUCCESS_RATIO
@@ -41,7 +41,7 @@ def run_pipeline():
     ensure_directories()
     
     date_str = get_date_str()
-    print(f"Starting pipeline for date: {date_str}")
+    log_info('Pipeline', f"Starting pipeline for date: {date_str}")
     
     # Open log file for this run
     with open(os.path.join('logs', 'log.txt'), 'a', encoding='utf-8') as log_file:
@@ -50,14 +50,14 @@ def run_pipeline():
         log_step(log_file, True, f"Started at {now}")
         
         # Step 1: Fetch and format tweets
-        print("\n=== Step 1: Fetch and Format Tweets ===")
+        log_pipeline_step("Step 1", "Fetch and Format Tweets")
         
         export_file = get_file_path('export', date_str)
         using_cached_export = os.path.exists(export_file)
         
         if using_cached_export:
             # Using cached export file
-            print(f"Using existing export file: {export_file}")
+            log_info('Pipeline', f"Using existing export file: {export_file}")
             log_step(log_file, True, "Gathered (using cached file)")
             log_step(log_file, True, "Fetched (using cached file)")
             feeds_success = 0  # We don't know the actual count from cached file
@@ -68,7 +68,7 @@ def run_pipeline():
             exported_file, feeds_success, feeds_total, failed_handles = fetch_and_format()
             
             if not exported_file or not os.path.exists(exported_file):
-                print("Error: Tweet fetching and formatting failed")
+                log_error('Pipeline', "Tweet fetching and formatting failed")
                 log_step(log_file, False, f"Gathered {feeds_total} sources")
                 
                 # Building the failed handles string
@@ -94,17 +94,17 @@ def run_pipeline():
             
             log_step(log_file, fetch_success, f"Fetched {feeds_success}/{feeds_total} sources{failed_str}")
             
-            print(f"Tweets fetched and saved to {exported_file}")
+            log_info('Pipeline', f"Tweets fetched and saved to {exported_file}")
         
         # Step 2: Summarize with AI
-        print("\n=== Step 2: Summarize with AI ===")
+        log_pipeline_step("Step 2", "Summarize with AI")
         
         summary_file = get_file_path('summary', date_str)
         using_cached_summary = os.path.exists(summary_file)
         
         if using_cached_summary:
             # Using cached summary file
-            print(f"Using existing summary file: {summary_file}")
+            log_info('Pipeline', f"Using existing summary file: {summary_file}")
             log_step(log_file, True, "Summarized (using cached file)")
             input_tokens = 0
             output_tokens = 0
@@ -113,23 +113,23 @@ def run_pipeline():
             summarized_file, input_tokens, output_tokens = summarize()
             
             if not summarized_file or not os.path.exists(summarized_file):
-                print("Error: AI summarization failed")
+                log_error('Pipeline', "AI summarization failed")
                 log_step(log_file, False, "Summarized")
                 log_file.write("──────────\n")
                 return False
             
-            print(f"Summary created and saved to {summarized_file}")
+            log_info('Pipeline', f"Summary created and saved to {summarized_file}")
             log_step(log_file, True, f"Summarized using {input_tokens} input tokens, {output_tokens} output tokens")
         
         # Step 3: Translate summary to Persian
-        print("\n=== Step 3: Translate Summary to Persian ===")
+        log_pipeline_step("Step 3", "Translate Summary to Persian")
         
         translated_file = get_file_path('translated', date_str)
         using_cached_translation = os.path.exists(translated_file)
         
         if using_cached_translation:
             # Using cached translation file
-            print(f"Using existing translation file: {translated_file}")
+            log_info('Pipeline', f"Using existing translation file: {translated_file}")
             log_step(log_file, True, "Translated (using cached file)")
             tr_input_tokens = 0
             tr_output_tokens = 0
@@ -138,16 +138,16 @@ def run_pipeline():
             translated_file, tr_input_tokens, tr_output_tokens = translate()
             
             if not translated_file or not os.path.exists(translated_file):
-                print("Error: Persian translation failed")
+                log_error('Pipeline', "Persian translation failed")
                 log_step(log_file, False, "Translated")
                 log_file.write("──────────\n")
                 return False
             
-            print(f"Translation created and saved to {translated_file}")
+            log_info('Pipeline', f"Translation created and saved to {translated_file}")
             log_step(log_file, True, f"Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
         
         # Step 4: Convert to TTS-optimized Scripts
-        print("\n=== Step 4: Convert to TTS-optimized Scripts ===")
+        log_pipeline_step("Step 4", "Convert to TTS-optimized Scripts")
         
         # Check if script files already exist
         summary_script_path = get_file_path('script', date_str)
@@ -155,7 +155,7 @@ def run_pipeline():
         using_cached_scripts = file_exists(summary_script_path) and file_exists(translated_script_path)
         
         if using_cached_scripts:
-            print(f"Using existing script files: {summary_script_path}, {translated_script_path}")
+            log_info('Pipeline', f"Using existing script files: {summary_script_path}, {translated_script_path}")
             log_step(log_file, True, "Scripted (using cached files)")
             sc_input_tokens = 0
             sc_output_tokens = 0
@@ -164,16 +164,16 @@ def run_pipeline():
             summary_script, translated_script, sc_input_tokens, sc_output_tokens = write_scripts()
             
             if not summary_script or not translated_script:
-                print("Error: Script writing failed")
+                log_error('Pipeline', "Script writing failed")
                 log_step(log_file, False, "Scripted")
                 log_file.write("──────────\n")
                 return False
             
-            print(f"Scripts created: Summary: {summary_script}, Translation: {translated_script}")
+            log_info('Pipeline', f"Scripts created: Summary: {summary_script}, Translation: {translated_script}")
             log_step(log_file, True, f"Scripted using {sc_input_tokens} input tokens, {sc_output_tokens} output tokens")
         
         # Step 5: Convert to Speech (TTS)
-        print("\n=== Step 5: Convert to Speech (TTS) ===")
+        log_pipeline_step("Step 5", "Convert to Speech (TTS)")
         
         # Check if audio files already exist
         summary_audio_path = get_file_path('narrated', date_str)
@@ -181,27 +181,27 @@ def run_pipeline():
         using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path)
         
         if using_cached_audio:
-            print(f"Using existing audio files: {summary_audio_path}, {translated_audio_path}")
+            log_info('Pipeline', f"Using existing audio files: {summary_audio_path}, {translated_audio_path}")
             log_step(log_file, True, f"Narrated (using cached files)")
         else:
             summary_audio, translated_audio = narrate()
             
             # Both audio files are now required
             if summary_audio and translated_audio:
-                print(f"Audio files created: Summary: {summary_audio}, Translation: {translated_audio}")
+                log_info('Pipeline', f"Audio files created: Summary: {summary_audio}, Translation: {translated_audio}")
                 log_step(log_file, True, f"Narrated 2 audio files")
             else:
-                print("Error: TTS conversion failed")
+                log_error('Pipeline', "TTS conversion failed")
                 log_step(log_file, False, "Narrated")
                 log_file.write("──────────\n")
                 return False
         
         # Step 6: Convert to Telegraph format
-        print("\n=== Step 6: Convert to Telegraph Format ===")
+        log_pipeline_step("Step 6", "Convert to Telegraph Format")
         
         converted = convert_all_summaries()
         if not converted:
-            print("Error: Telegraph conversion failed")
+            log_error('Pipeline', "Telegraph conversion failed")
             log_step(log_file, False, "Converted to JSON")
             log_file.write("──────────\n")
             return False
@@ -211,19 +211,19 @@ def run_pipeline():
         fa_converted_file = get_file_path('converted', date_str, lang='FA')
         
         if os.path.exists(fa_converted_file):
-            print(f"Content converted to Telegraph format and saved to {converted_file} and {fa_converted_file}")
+            log_info('Pipeline', f"Content converted to Telegraph format and saved to {converted_file} and {fa_converted_file}")
         else:
-            print(f"Content converted to Telegraph format and saved to {converted_file}")
+            log_info('Pipeline', f"Content converted to Telegraph format and saved to {converted_file}")
         
         log_step(log_file, True, "Converted to JSON")
         
         # Step 7: Publish to Telegraph
-        print("\n=== Step 7: Publish to Telegraph ===")
+        log_pipeline_step("Step 7", "Publish to Telegraph")
         
         # Pass feeds_success to the publish function
         published_file = publish(feeds_success)
         if not published_file or not os.path.exists(published_file):
-            print("Error: Telegraph publishing failed")
+            log_error('Pipeline', "Telegraph publishing failed")
             log_step(log_file, False, "Published")
             log_file.write("──────────\n")
             return False
@@ -237,29 +237,29 @@ def run_pipeline():
                 telegraph_url = published_data.get("url", "")
                 telegraph_fa_url = published_data.get("fa_url", "")
         except Exception as e:
-            print(f"Error reading published file: {e}")
+            log_error('Pipeline', f"Error reading published file: {e}")
         
-        print(f"Content published and details saved to {published_file}")
+        log_info('Pipeline', f"Content published and details saved to {published_file}")
         if telegraph_fa_url:
             log_step(log_file, True, f"Published on {telegraph_url} and {telegraph_fa_url}")
         else:
             log_step(log_file, True, f"Published on {telegraph_url}")
         
         # Step 8: Distribute to Telegram Channel
-        print("\n=== Step 8: Distribute to Telegram Channel ===")
+        log_pipeline_step("Step 8", "Distribute to Telegram Channel")
         
         telegram_url = ""
         distribution_success, telegram_url = distribute()
         if not distribution_success:
-            print("Error: Telegram distribution failed")
+            log_error('Pipeline', "Telegram distribution failed")
             log_step(log_file, False, "Distributed")
             log_file.write("──────────\n")
             return False
         
-        print("Content successfully distributed to Telegram channel")
+        log_info('Pipeline', "Content successfully distributed to Telegram channel")
         log_step(log_file, True, f"Distributed at {telegram_url}")
         
-        print("Pipeline completed successfully!")
+        log_info('Pipeline', "Pipeline completed successfully!")
         log_file.write("──────────\n")
         
         return True
@@ -268,13 +268,13 @@ if __name__ == "__main__":
     try:
         success = run_pipeline()
         if success:
-            print("Pipeline execution completed")
+            log_info('Pipeline', "Pipeline execution completed")
         else:
-            print("Pipeline execution failed")
+            log_error('Pipeline', "Pipeline execution failed")
             sys.exit(1)
     except KeyboardInterrupt:
-        print("\nPipeline interrupted by user")
+        log_info('Pipeline', "Pipeline interrupted by user")
         sys.exit(1)
     except Exception as e:
-        print(f"Unexpected error: {e}")
+        log_error('Pipeline', f"Unexpected error: {e}")
         sys.exit(1) 

@@ -12,7 +12,7 @@ from config import (
     OPENROUTER_SITE_NAME, SUMMARY_DIR, TRANSLATED_DIR, SCRIPT_DIR,
     FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
-from utils.logging_utils import log_error, handle_request_error
+from utils.logging_utils import log_error, log_info, log_success
 from utils.file_utils import file_exists, read_file
 from utils.retry_utils import with_retry_async
 
@@ -104,8 +104,8 @@ def write_script_for_file(input_file, output_file, client, system_prompt):
             log_error('ScriptWriter', f"No content found in {input_file}")
             return None, 0, 0
         
-        print(f"Processing {input_file}")
-        print(f"Content preview: {content[:200]}...")
+        log_info('ScriptWriter', f"Processing {input_file}")
+        log_info('ScriptWriter', f"Content preview: {content[:200]}...")
         
         # Generate script using async function with asyncio.run
         script, input_tokens, output_tokens = asyncio.run(client.write_script(system_prompt, content))
@@ -163,11 +163,10 @@ def write_scripts():
         
         # Check if summary script already exists
         if file_exists(summary_script):
-            print(f"Using existing summary script: {summary_script}")
+            log_info('ScriptWriter', f"Using existing summary script: {summary_script}")
             summary_result = summary_script
         else:
-            print(f"\n=== Converting Summary to Script ===")
-            # Initialize script writer client
+            log_info('ScriptWriter', "Converting Summary to Script")
             client = ScriptWriterClient(
                 api_key=OPENROUTER_API_KEY,
                 model=SCRIPT_WRITER_MODEL,
@@ -180,7 +179,7 @@ def write_scripts():
                 summary_file, summary_script, client, system_prompt
             )
             if summary_result:
-                print(f"✅ Scripted using {input_tokens} input tokens, {output_tokens} output tokens")
+                log_success('ScriptWriter', f"Scripted using {input_tokens} input tokens, {output_tokens} output tokens")
                 total_input_tokens += input_tokens
                 total_output_tokens += output_tokens
             else:
@@ -189,10 +188,10 @@ def write_scripts():
         
         # Check if translated script already exists
         if file_exists(translated_script):
-            print(f"Using existing translation script: {translated_script}")
+            log_info('ScriptWriter', f"Using existing translation script: {translated_script}")
             translated_result = translated_script
         else:
-            print(f"\n=== Converting Translation to Script ===")
+            log_info('ScriptWriter', "Converting Translation to Script")
             # Initialize script writer client if not already initialized
             if 'client' not in locals():
                 client = ScriptWriterClient(
@@ -207,7 +206,7 @@ def write_scripts():
                 translated_file, translated_script, client, system_prompt
             )
             if translated_result:
-                print(f"✅ Scripted using {input_tokens} input tokens, {output_tokens} output tokens")
+                log_success('ScriptWriter', f"Scripted using {input_tokens} input tokens, {output_tokens} output tokens")
                 total_input_tokens += input_tokens
                 total_output_tokens += output_tokens
             else:
@@ -221,20 +220,17 @@ def write_scripts():
         return None, None, 0, 0
 
 if __name__ == "__main__":
-    # Create necessary directories when running as standalone
+    # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(SCRIPT_DIR):
-        print(f"Creating directory: {SCRIPT_DIR}")
+        log_info('ScriptWriter', f"Creating directory: {SCRIPT_DIR}")
         os.makedirs(SCRIPT_DIR, exist_ok=True)
     
     summary_script, translated_script, input_tokens, output_tokens = write_scripts()
     
-    if summary_script or translated_script:
-        print(f"\nScript writing completed successfully")
-        if summary_script:
-            print(f"Summary script: {summary_script}")
-        if translated_script:
-            print(f"Translation script: {translated_script}")
-        if input_tokens > 0 or output_tokens > 0:
-            print(f"Total tokens used: {input_tokens} input, {output_tokens} output")
+    if summary_script and translated_script:
+        log_success('ScriptWriter', "Script writing completed successfully")
+        log_info('ScriptWriter', f"Summary script: {summary_script}")
+        log_info('ScriptWriter', f"Translation script: {translated_script}")
+        log_info('ScriptWriter', f"Total tokens used: {input_tokens} input, {output_tokens} output")
     else:
-        print("\nScript writing failed") 
+        log_error('ScriptWriter', "Script writing failed") 

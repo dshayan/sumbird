@@ -14,7 +14,7 @@ from utils.date_utils import (
 )
 from utils.file_utils import get_file_path
 from utils.html_utils import strip_html, clean_text
-from utils.logging_utils import log_error
+from utils.logging_utils import log_error, log_info, log_success
 from utils.retry_utils import with_retry_sync
 
 # Import configuration
@@ -87,7 +87,7 @@ def get_posts(feeds, target_start, target_end):
     
     for feed in feeds:
         try:
-            print(f"Fetching: {feed['title']} from {feed['url']}")
+            log_info('Fetcher', f"Fetching: {feed['title']} from {feed['url']}")
             parsed_feed = fetch_feed_with_retry(feed['url'])
             
             if parsed_feed.feed and hasattr(parsed_feed.feed, 'title'):
@@ -183,7 +183,7 @@ def get_posts(feeds, target_start, target_end):
 def save_to_file(posts, output_file, date_str):
     """Save processed posts to output file."""
     if not posts:
-        print("No posts found to save")
+        log_info('Fetcher', "No posts found to save")
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write("# No Twitter Posts Found")
         return
@@ -235,9 +235,9 @@ def fetch_and_format():
     # Generate output file path using the centralized function
     output_file = get_file_path('export', date_str)
     
-    print(f"Base URL: {BASE_URL}")
-    print(f"Handles to process: {', '.join(HANDLES)}")
-    print(f"Target date: {date_str}")
+    log_info('Fetcher', f"Base URL: {BASE_URL}")
+    log_info('Fetcher', f"Handles to process: {', '.join(HANDLES)}")
+    log_info('Fetcher', f"Target date: {date_str}")
     
     # Get feeds and posts
     feeds = get_feeds_from_handles()
@@ -246,7 +246,7 @@ def fetch_and_format():
     target_start, target_end = get_date_range(target_date)
     posts, feeds_success, failed_handles = get_posts(feeds, target_start, target_end)
     
-    print(f"Retrieved {len(posts)} posts from {feeds_success}/{feeds_total} feeds")
+    log_info('Fetcher', f"Retrieved {len(posts)} posts from {feeds_success}/{feeds_total} feeds")
     
     # Save to file
     save_to_file(posts, output_file, date_str)
@@ -256,12 +256,12 @@ def fetch_and_format():
 if __name__ == "__main__":
     # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(EXPORT_DIR):
-        print(f"Creating directory: {EXPORT_DIR}")
+        log_info('Fetcher', f"Creating directory: {EXPORT_DIR}")
         os.makedirs(EXPORT_DIR, exist_ok=True)
     
     output_file, feeds_success, feeds_total, failed_handles = fetch_and_format()
     if output_file and os.path.exists(output_file):
-        print(f"Successfully fetched and formatted tweets to {output_file}")
+        log_success('Fetcher', f"Successfully fetched and formatted tweets to {output_file}")
     else:
-        print("Failed to fetch and format tweets")
+        log_error('Fetcher', "Failed to fetch and format tweets")
         sys.exit(1) 

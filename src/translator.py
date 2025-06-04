@@ -12,7 +12,7 @@ from config import (
     OPENROUTER_SITE_NAME, SUMMARY_DIR, TRANSLATED_DIR,
     FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
-from utils.logging_utils import log_error, handle_request_error
+from utils.logging_utils import log_error, log_info, log_success
 from utils.retry_utils import with_retry_async
 
 class TranslatorClient:
@@ -96,7 +96,7 @@ def translate():
         # Read the summarized content
         summary_file = get_file_path('summary', date_str)
         if not os.path.exists(summary_file):
-            print(f"Summary file not found: {summary_file}")
+            log_error('Translator', f"Summary file not found: {summary_file}")
             return None, 0, 0
             
         with open(summary_file, 'r') as f:
@@ -135,16 +135,16 @@ def translate():
 if __name__ == "__main__":
     # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(SUMMARY_DIR):
-        print(f"Creating directory: {SUMMARY_DIR}")
+        log_info('Translator', f"Creating directory: {SUMMARY_DIR}")
         os.makedirs(SUMMARY_DIR, exist_ok=True)
     
     if not os.path.exists(TRANSLATED_DIR):
-        print(f"Creating directory: {TRANSLATED_DIR}")
+        log_info('Translator', f"Creating directory: {TRANSLATED_DIR}")
         os.makedirs(TRANSLATED_DIR, exist_ok=True)
     
     translated_file, input_tokens, output_tokens = translate()
     if translated_file:
-        print(f"Translator completed. Output file: {translated_file}")
-        print(f"Tokens used: {input_tokens} input, {output_tokens} output")
+        log_success('Translator', f"Translator completed. Output file: {translated_file}")
+        log_info('Translator', f"Tokens used: {input_tokens} input, {output_tokens} output")
     else:
-        print("Translator failed.") 
+        log_error('Translator', "Translator failed.") 
