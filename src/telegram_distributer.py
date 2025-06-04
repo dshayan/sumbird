@@ -65,7 +65,13 @@ class HeadlineGenerator:
         full_prompt = f"{self.prompt}\n\n{summary_content}"
         
         # Generate headline using the centralized Gemini client
-        return self.client.generate_text(full_prompt)
+        result = self.client.generate_text(full_prompt)
+        if isinstance(result, tuple):
+            # Extract just the text from the (text, input_tokens, output_tokens) tuple
+            return result[0]
+        else:
+            # Fallback for backward compatibility
+            return result
 
 def validate_channel_id(channel_id):
     """Validates that the channel ID is in a proper format.

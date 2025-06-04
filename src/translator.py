@@ -45,13 +45,12 @@ def translate():
         full_prompt = f"{system_prompt}\n\n{content_to_translate}"
         
         # Generate translation using Gemini
-        translation = client.generate_text(full_prompt)
-        if not translation:
+        result = client.generate_text(full_prompt)
+        if not result:
             return None, 0, 0
         
-        # Note: Gemini API doesn't provide token counts like OpenRouter
-        input_tokens = 0
-        output_tokens = 0
+        # Extract translation and token counts from result
+        translation, input_tokens, output_tokens = result
             
         # Save translation
         translated_file = get_file_path('translated', date_str)

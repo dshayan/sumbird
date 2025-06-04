@@ -44,13 +44,12 @@ def write_script_for_file(input_file, output_file, client, system_prompt):
         full_prompt = f"{system_prompt}\n\n{content}"
         
         # Generate script using Gemini
-        script = client.generate_text(full_prompt)
-        if not script:
+        result = client.generate_text(full_prompt)
+        if not result:
             return None, 0, 0
         
-        # Note: Gemini API doesn't provide token counts like OpenRouter
-        input_tokens = 0
-        output_tokens = 0
+        # Extract script and token counts from result
+        script, input_tokens, output_tokens = result
             
         # Ensure output directory exists
         os.makedirs(os.path.dirname(output_file), exist_ok=True)

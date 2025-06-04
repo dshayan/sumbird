@@ -28,6 +28,28 @@ class GeminiTextClient:
         self.timeout = timeout
         self.client = genai.Client(api_key=self.api_key)
 
+    def count_tokens(self, prompt):
+        """Count tokens in a prompt using Gemini API.
+        
+        Args:
+            prompt (str): The prompt to count tokens for
+            
+        Returns:
+            int: Number of tokens in the prompt
+            
+        Raises:
+            Exception: If token counting fails
+        """
+        try:
+            response = self.client.models.count_tokens(
+                model=self.model,
+                contents=prompt
+            )
+            return response.total_tokens
+        except Exception as e:
+            log_error('GeminiTextClient', f"Error counting tokens", e)
+            raise
+
     @with_retry_sync(timeout=120, max_attempts=3)
     def generate_text(self, prompt):
         """Generate text using Gemini API with retry logic.
@@ -36,7 +58,7 @@ class GeminiTextClient:
             prompt (str): The prompt to generate text from
             
         Returns:
-            str: Generated text
+            tuple: (generated_text, input_tokens, output_tokens)
             
         Raises:
             Exception: If text generation fails after all retries
@@ -51,7 +73,12 @@ class GeminiTextClient:
         if not text:
             raise Exception("Generated text is empty")
         
-        return text
+        # Extract token usage from response
+        usage_metadata = response.usage_metadata
+        input_tokens = usage_metadata.prompt_token_count if usage_metadata else 0
+        output_tokens = usage_metadata.candidates_token_count if usage_metadata else 0
+        
+        return text, input_tokens, output_tokens
 
 
 class GeminiTTSClient:
