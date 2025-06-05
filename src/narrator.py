@@ -50,7 +50,7 @@ def narrate_file(file_path, output_path, client, title=None, date_str=None):
         date_str (str, optional): Date string for the audio file metadata
         
     Returns:
-        str: Path to the created audio file, or None if failed
+        tuple: (audio_file_path, input_tokens, output_tokens) or (None, 0, 0) if failed
     """
     try:
         if not file_exists(file_path):
@@ -78,13 +78,14 @@ def narrate_file(file_path, output_path, client, title=None, date_str=None):
         
     except Exception as e:
         log_error('Narrator', f"Error processing file {file_path}", e)
-        return None
+        return None, 0, 0
 
 def narrate():
     """Main function to convert summary and translated files to speech.
     
     Returns:
-        tuple: (summary_audio_path, translated_audio_path) where paths are strings or None if failed
+        tuple: (summary_audio_path, translated_audio_path, total_input_tokens, total_output_tokens) 
+               where paths are strings or None if failed
     """
     try:
         # Get the target date
@@ -113,6 +114,8 @@ def narrate():
         
         summary_result = None
         translated_result = None
+        total_input_tokens = 0
+        total_output_tokens = 0
         
         # Check if summary audio already exists
         if file_exists(summary_audio):
@@ -127,12 +130,15 @@ def narrate():
                 prompt_template=prompt_template,
                 timeout=AI_TIMEOUT
             )
-            summary_result = narrate_file(script_file, summary_audio, client, TELEGRAM_AUDIO_TITLE_EN, date_str)
-            if summary_result:
+            result = narrate_file(script_file, summary_audio, client, TELEGRAM_AUDIO_TITLE_EN, date_str)
+            if result[0]:  # Check if audio file path is not None
+                summary_result, input_tokens, output_tokens = result
+                total_input_tokens += input_tokens
+                total_output_tokens += output_tokens
                 log_success('Narrator', f"Script audio created: {summary_result}")
             else:
                 log_error('Narrator', "Failed to create required script audio")
-                return None, None
+                return None, None, 0, 0
         
         # Wait between requests to avoid rate limiting
         if not file_exists(translated_audio):
@@ -154,18 +160,21 @@ def narrate():
                     prompt_template=prompt_template,
                     timeout=AI_TIMEOUT
                 )
-            translated_result = narrate_file(translated_script_file, translated_audio, client, TELEGRAM_AUDIO_TITLE_FA, date_str)
-            if translated_result:
+            result = narrate_file(translated_script_file, translated_audio, client, TELEGRAM_AUDIO_TITLE_FA, date_str)
+            if result[0]:  # Check if audio file path is not None
+                translated_result, input_tokens, output_tokens = result
+                total_input_tokens += input_tokens
+                total_output_tokens += output_tokens
                 log_success('Narrator', f"Translation script audio created: {translated_result}")
             else:
                 log_error('Narrator', "Failed to create required translation script audio")
-                return None, None
+                return None, None, 0, 0
         
-        return summary_result, translated_result
+        return summary_result, translated_result, total_input_tokens, total_output_tokens
         
     except Exception as e:
         log_error('Narrator', f"Error in narrate function", e)
-        return None, None
+        return None, None, 0, 0
 
 if __name__ == "__main__":
     # Ensure environment is loaded when running standalone
@@ -177,11 +186,12 @@ if __name__ == "__main__":
         log_info('Narrator', f"Creating directory: {NARRATED_DIR}")
         os.makedirs(NARRATED_DIR, exist_ok=True)
     
-    summary_audio, translated_audio = narrate()
+    summary_audio, translated_audio, input_tokens, output_tokens = narrate()
     
     if summary_audio and translated_audio:
         log_success('Narrator', "Narration completed successfully")
         log_info('Narrator', f"Summary audio: {summary_audio}")
         log_info('Narrator', f"Translation audio: {translated_audio}")
+        log_info('Narrator', f"Tokens used: {input_tokens} input, {output_tokens} output")
     else:
         log_error('Narrator', "Narration failed") 

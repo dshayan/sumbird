@@ -183,24 +183,59 @@ class GeminiTTSClient:
             date_str (str, optional): Date string for the audio file metadata
             
         Returns:
-            str: Path to the created audio file, or None if failed
+            tuple: (audio_file_path, input_tokens, output_tokens) or (None, 0, 0) if failed
         """
         try:
             log_info('GeminiTTS', f"Converting text to speech using {self.voice} voice")
             log_info('GeminiTTS', f"Text length: {len(text)} characters")
+            
+            # Check text length limit (TTS models have token limits)
+            if len(text) > 5000:  # Conservative limit
+                log_error('GeminiTTS', f"Text too long for TTS: {len(text)} characters (max 5000)")
+                return None, 0, 0
             
             # Generate speech using Gemini TTS
             response = self.client.models.generate_content(
                 model=self.model,
                 contents=self.prompt_template.format(text=text),
                 config=types.GenerateContentConfig(
-                    system_instruction="You are a professional narrator. Convert the provided text to natural, engaging speech.",
-                    speech_config=types.SpeechConfig(voice_config=types.VoiceConfig(name=self.voice))
+                    response_modalities=["AUDIO"],
+                    speech_config=types.SpeechConfig(
+                        voice_config=types.VoiceConfig(
+                            prebuilt_voice_config=types.PrebuiltVoiceConfig(
+                                voice_name=self.voice
+                            )
+                        )
+                    )
                 )
             )
             
+            log_info('GeminiTTS', f"Response received: candidates={len(response.candidates) if response.candidates else 0}")
+            
+            # Check if response has valid candidates and content
+            if not response.candidates:
+                log_error('GeminiTTS', "No candidates in response")
+                return None, 0, 0
+            
+            if not response.candidates[0].content:
+                log_error('GeminiTTS', "No content in first candidate")
+                return None, 0, 0
+                
+            if not response.candidates[0].content.parts:
+                log_error('GeminiTTS', "No parts in content")
+                return None, 0, 0
+                
+            if not response.candidates[0].content.parts[0].inline_data:
+                log_error('GeminiTTS', "No inline_data in first part")
+                return None, 0, 0
+            
             # Get the audio data
             audio_data = response.candidates[0].content.parts[0].inline_data.data
+            
+            # Extract token usage from response
+            usage_metadata = response.usage_metadata
+            input_tokens = usage_metadata.prompt_token_count if usage_metadata else 0
+            output_tokens = usage_metadata.candidates_token_count if usage_metadata else 0
             
             # Determine output format and save accordingly
             if output_file.endswith('.mp3'):
@@ -213,19 +248,19 @@ class GeminiTTSClient:
                     # Remove the temporary WAV file
                     os.remove(wav_file)
                     log_success('GeminiTTS', f"Audio saved as: {output_file}")
-                    return output_file
+                    return output_file, input_tokens, output_tokens
                 else:
                     log_info('GeminiTTS', f"Audio saved as: {wav_file} (MP3 conversion failed)")
-                    return wav_file
+                    return wav_file, input_tokens, output_tokens
             else:
                 # Save as WAV
                 self.save_wave_file(output_file, audio_data)
                 log_success('GeminiTTS', f"Audio saved as: {output_file}")
-                return output_file
+                return output_file, input_tokens, output_tokens
                 
         except Exception as e:
             log_error('GeminiTTS', f"Error in text_to_speech", e)
-            return None
+            return None, 0, 0
 
 
 def create_gemini_text_client(api_key, model, timeout=120):

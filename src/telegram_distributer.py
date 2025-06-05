@@ -56,7 +56,7 @@ class HeadlineGenerator:
             summary_content (str): The AI summary content
             
         Returns:
-            str: Generated headline
+            tuple: (headline, input_tokens, output_tokens)
             
         Raises:
             Exception: If headline generation fails after all retries
@@ -67,11 +67,11 @@ class HeadlineGenerator:
         # Generate headline using the centralized Gemini client
         result = self.client.generate_text(full_prompt)
         if isinstance(result, tuple):
-            # Extract just the text from the (text, input_tokens, output_tokens) tuple
-            return result[0]
+            # Return the full tuple (text, input_tokens, output_tokens)
+            return result
         else:
             # Fallback for backward compatibility
-            return result
+            return result, 0, 0
 
 def validate_channel_id(channel_id):
     """Validates that the channel ID is in a proper format.
@@ -437,7 +437,8 @@ def distribute():
     """Main function to distribute published content to Telegram channels.
     
     Returns:
-        tuple: (success, message_url) where success is a boolean and message_url is a string
+        tuple: (success, message_url, input_tokens, output_tokens) where success is a boolean, 
+               message_url is a string, and token counts are integers
     """
     # Get the date string
     date_str = get_date_str()
@@ -448,7 +449,7 @@ def distribute():
     # Check if published file exists
     if not os.path.exists(published_file):
         log_error('TelegramDistributer', f"Published file not found at {published_file}")
-        return False, ""
+        return False, "", 0, 0
     
     try:
         # Read the published file
@@ -461,11 +462,11 @@ def distribute():
         
         if not en_url:
             log_error('TelegramDistributer', "English summary URL not found in published data")
-            return False, ""
+            return False, "", 0, 0
         
         if not fa_url:
             log_error('TelegramDistributer', "Persian summary URL not found in published data")
-            return False, ""
+            return False, "", 0, 0
         
         # Check if both summary files exist
         summary_file = get_file_path('summary', date_str)
@@ -473,25 +474,25 @@ def distribute():
         
         if not file_exists(summary_file):
             log_error('TelegramDistributer', f"English summary file not found: {summary_file}")
-            return False, ""
+            return False, "", 0, 0
         
         if not file_exists(translated_file):
             log_error('TelegramDistributer', f"Persian summary file not found: {translated_file}")
-            return False, ""
+            return False, "", 0, 0
         
         # Generate headline from summary content (required, no fallback)
         summary_content = read_file(summary_file)
         if not summary_content:
             log_error('TelegramDistributer', f"Failed to read summary content from {summary_file}")
-            return False, ""
+            return False, "", 0, 0
         
         # Initialize headline generator and generate headline
         try:
             headline_generator = HeadlineGenerator(GEMINI_API_KEY, GEMINI_TELEGRAM_MODEL, HEADLINE_WRITER_PROMPT_PATH)
-            headline = headline_generator.generate_headline(summary_content)
+            headline, input_tokens, output_tokens = headline_generator.generate_headline(summary_content)
         except Exception as e:
             log_error('TelegramDistributer', "Headline generation failed, cannot proceed without generated headline", e)
-            return False, ""
+            return False, "", 0, 0
         
         # Format content for Telegram
         telegram_content = format_telegram_post_with_headline(published_data, headline)
@@ -510,11 +511,11 @@ def distribute():
             # Verify both audio files exist (now required)
             if not file_exists(summary_audio):
                 log_error('TelegramDistributer', f"Required summary audio file not found: {summary_audio}")
-                return False, ""
+                return False, "", 0, 0
             
             if not file_exists(translated_audio):
                 log_error('TelegramDistributer', f"Required translated audio file not found: {translated_audio}")
-                return False, ""
+                return False, "", 0, 0
             
             audio_urls = []
             audio_files_to_send = [
@@ -536,7 +537,7 @@ def distribute():
                 audio_urls.append(audio_url)
             else:
                 log_error('TelegramDistributer', "Failed to send required audio group")
-                return False, ""
+                return False, "", 0, 0
             
             # Update the published data with telegram distribution info
             published_data["telegram_distributed"] = {
@@ -551,23 +552,24 @@ def distribute():
             with open(published_file, 'w', encoding='utf-8') as f:
                 json.dump(published_data, f, ensure_ascii=False, indent=2)
             
-            return True, message_url
+            return True, message_url, input_tokens, output_tokens
         else:
             log_error('TelegramDistributer', "Failed to distribute to Telegram channel")
-            return False, ""
+            return False, "", 0, 0
     
     except Exception as e:
         log_error('TelegramDistributer', f"Error distributing content", e)
-        return False, ""
+        return False, "", 0, 0
 
 if __name__ == "__main__":
     # Ensure environment is loaded when running standalone
     from utils import ensure_environment_loaded
     ensure_environment_loaded()
     
-    distribution_success, message_url = distribute()
+    distribution_success, message_url, input_tokens, output_tokens = distribute()
     if distribution_success:
         log_success('TelegramDistributer', "Telegram distribution completed successfully")
         log_info('TelegramDistributer', f"Message URL: {message_url}")
+        log_info('TelegramDistributer', f"Tokens used: {input_tokens} input, {output_tokens} output")
     else:
         log_error('TelegramDistributer', "Telegram distribution failed") 

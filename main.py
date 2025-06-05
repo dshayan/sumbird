@@ -188,13 +188,15 @@ def run_pipeline():
         if using_cached_audio:
             log_info('Pipeline', f"Using existing audio files: {summary_audio_path}, {translated_audio_path}")
             log_step(log_file, True, f"Narrated (using cached files)")
+            na_input_tokens = 0
+            na_output_tokens = 0
         else:
-            summary_audio, translated_audio = narrate()
+            summary_audio, translated_audio, na_input_tokens, na_output_tokens = narrate()
             
             # Both audio files are now required
             if summary_audio and translated_audio:
                 log_info('Pipeline', f"Audio files created: Summary: {summary_audio}, Translation: {translated_audio}")
-                log_step(log_file, True, f"Narrated 2 audio files")
+                log_step(log_file, True, f"Narrated using {na_input_tokens} input tokens, {na_output_tokens} output tokens for 2 audio files")
             else:
                 log_error('Pipeline', "TTS conversion failed")
                 log_step(log_file, False, "Narrated")
@@ -254,7 +256,7 @@ def run_pipeline():
         log_pipeline_step("Step 8", "Distribute to Telegram Channel")
         
         telegram_url = ""
-        distribution_success, telegram_url = distribute()
+        distribution_success, telegram_url, tg_input_tokens, tg_output_tokens = distribute()
         if not distribution_success:
             log_error('Pipeline', "Telegram distribution failed")
             log_step(log_file, False, "Distributed")
@@ -262,7 +264,7 @@ def run_pipeline():
             return False
         
         log_info('Pipeline', "Content successfully distributed to Telegram channel")
-        log_step(log_file, True, f"Distributed at {telegram_url}")
+        log_step(log_file, True, f"Distributed using {tg_input_tokens} input tokens, {tg_output_tokens} output tokens at {telegram_url}")
         
         log_info('Pipeline', "Pipeline completed successfully!")
         log_file.write("──────────\n")
