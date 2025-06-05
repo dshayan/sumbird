@@ -189,11 +189,6 @@ class GeminiTTSClient:
             log_info('GeminiTTS', f"Converting text to speech using {self.voice} voice")
             log_info('GeminiTTS', f"Text length: {len(text)} characters")
             
-            # Check text length limit (TTS models have token limits)
-            if len(text) > 5000:  # Conservative limit
-                log_error('GeminiTTS', f"Text too long for TTS: {len(text)} characters (max 5000)")
-                return None, 0, 0
-            
             # Generate speech using Gemini TTS
             response = self.client.models.generate_content(
                 model=self.model,
