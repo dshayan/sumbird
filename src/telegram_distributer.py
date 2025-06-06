@@ -23,6 +23,7 @@ from utils.logging_utils import log_error, handle_request_error, log_info, log_s
 from utils.file_utils import file_exists, read_file
 from utils.retry_utils import with_retry_sync
 from utils.gemini_utils import create_gemini_text_client
+from utils.html_utils import html_to_text
 
 class HeadlineGenerator:
     """Client for generating headlines using Gemini API."""
@@ -486,10 +487,16 @@ def distribute():
             log_error('TelegramDistributer', f"Failed to read summary content from {summary_file}")
             return False, "", 0, 0
         
+        # Convert HTML to plain text for headline generation
+        summary_text = html_to_text(summary_content)
+        if not summary_text.strip():
+            log_error('TelegramDistributer', f"No text content found after HTML conversion from {summary_file}")
+            return False, "", 0, 0
+        
         # Initialize headline generator and generate headline
         try:
             headline_generator = HeadlineGenerator(GEMINI_API_KEY, GEMINI_TELEGRAM_MODEL, HEADLINE_WRITER_PROMPT_PATH)
-            headline, input_tokens, output_tokens = headline_generator.generate_headline(summary_content)
+            headline, input_tokens, output_tokens = headline_generator.generate_headline(summary_text)
         except Exception as e:
             log_error('TelegramDistributer', "Headline generation failed, cannot proceed without generated headline", e)
             return False, "", 0, 0
