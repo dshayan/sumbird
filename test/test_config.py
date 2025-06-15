@@ -93,4 +93,21 @@ def get_test_file_path(file_type, date_str=None, lang=None):
     return file_path
 
 # Override the get_file_path function for test mode
-get_file_path = get_test_file_path 
+get_file_path = get_test_file_path
+
+def ensure_directories():
+    """Ensure all test directories exist."""
+    test_dirs = [
+        EXPORT_DIR,
+        SUMMARY_DIR, 
+        TRANSLATED_DIR,
+        SCRIPT_DIR,
+        CONVERTED_DIR,
+        PUBLISHED_DIR,
+        NARRATED_DIR,
+        "logs"  # Logs directory is shared
+    ]
+    
+    import os
+    for directory in test_dirs:
+        os.makedirs(directory, exist_ok=True) 
