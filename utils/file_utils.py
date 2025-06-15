@@ -94,6 +94,32 @@ def get_file_path(file_type, date_str=None, lang=None):
     
     return file_path
 
+def get_audio_file_path(file_type, date_str=None, lang=None):
+    """Get audio file path, checking for both MP3 and WAV formats.
+    
+    Args:
+        file_type (str): Type of file (should be 'narrated')
+        date_str (str, optional): Date string. If None, uses the target date.
+        lang (str, optional): Language code for language-specific files (e.g., 'FA' for Persian)
+    
+    Returns:
+        str: Full path to the existing audio file (MP3 preferred, WAV as fallback), or MP3 path if neither exists
+    """
+    # Get MP3 path (preferred format)
+    mp3_path = get_file_path(file_type, date_str, lang)
+    
+    # Check if MP3 exists
+    if file_exists(mp3_path):
+        return mp3_path
+    
+    # If MP3 doesn't exist, check for WAV fallback
+    wav_path = mp3_path.replace('.mp3', '.wav')
+    if file_exists(wav_path):
+        return wav_path
+    
+    # If neither exists, return the MP3 path (for error messages or file creation)
+    return mp3_path
+
 def file_exists(file_path):
     """Check if a file exists.
     

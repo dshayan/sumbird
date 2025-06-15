@@ -20,7 +20,7 @@ from config import (
     GEMINI_TELEGRAM_MODEL, HEADLINE_WRITER_PROMPT_PATH
 )
 from utils.logging_utils import log_error, handle_request_error, log_info, log_success
-from utils.file_utils import file_exists, read_file
+from utils.file_utils import file_exists, read_file, get_audio_file_path
 from utils.retry_utils import with_retry_sync
 from utils.gemini_utils import create_gemini_text_client
 from utils.html_utils import html_to_text
@@ -512,8 +512,9 @@ def distribute():
             log_success('TelegramDistributer', f"Successfully distributed content to Telegram channel {channel_id}")
             
             # Check for audio files and send them as a group (both now required)
-            summary_audio = get_file_path('narrated', date_str)
-            translated_audio = get_file_path('narrated', date_str, lang='FA')
+            # Use the new function that checks for both MP3 and WAV
+            summary_audio = get_audio_file_path('narrated', date_str)
+            translated_audio = get_audio_file_path('narrated', date_str, lang='FA')
             
             # Verify both audio files exist (now required)
             if not file_exists(summary_audio):
