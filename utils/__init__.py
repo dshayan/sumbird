@@ -63,4 +63,7 @@ from utils.openrouter_utils import (
 from utils.gemini_utils import (
     GeminiTextClient, create_gemini_text_client,
     GeminiTTSClient, create_gemini_tts_client
-) 
+)
+
+# Pipeline core
+from utils.pipeline_core import run_pipeline_core 
