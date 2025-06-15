@@ -42,6 +42,11 @@ python -m src.telegraph_publisher  # Publish to Telegraph
 python -m src.telegram_distributer # Distribute to Telegram (includes headline generation)
 ```
 
+### Test Pipeline
+```bash
+python test/test_main.py  # Run complete pipeline in test mode
+```
+
 ### Utility Scripts
 ```bash
 python scripts/telegraph_post_manager.py  # List and delete Telegraph posts
@@ -55,10 +60,27 @@ The pipeline follows a **fail-fast approach** with **robust retry mechanisms** -
 2. **Summarizer**: Processes tweets with AI (via OpenRouter) to generate a summary
 3. **Translator**: Translates the summary to Persian
 4. **Script Writer**: Converts content to TTS-optimized scripts with natural speech formatting
-5. **Narrator**: Converts scripts to speech using Gemini TTS
+5. **Narrator**: Converts scripts to speech using Gemini TTS (MP3 preferred, WAV fallback)
 6. **Telegraph Converter**: Formats summaries for Telegraph in both languages
 7. **Telegraph Publisher**: Publishes content to Telegraph
 8. **Telegram Distributer**: Generates engaging headlines and shares to Telegram with links and audio files
+
+## Test Pipeline
+
+The project includes a comprehensive test pipeline that runs the complete workflow in isolation:
+
+- **Isolated Environment**: Uses `test/data/` directories instead of `data/`
+- **Test Telegram Channel**: Configurable via `TEST_TELEGRAM_CHAT_ID` environment variable
+- **Telegraph Integration**: Publishes to Telegraph with "TEST-" prefix in titles
+- **Same AI Models**: Uses identical AI configuration as production pipeline
+- **Cached Execution**: Reuses existing test data when available for faster iteration
+
+### Running Tests
+
+```bash
+# Run complete test pipeline
+python test/test_main.py
+```
 
 ## Directory Structure
 
@@ -85,9 +107,13 @@ sumbird/
 │   ├── summary/          # AI-generated summaries
 │   ├── translated/       # Persian translations
 │   ├── script/           # TTS-optimized scripts
-│   ├── narrated/         # TTS audio files (MP3)
+│   ├── narrated/         # TTS audio files (MP3/WAV)
 │   ├── converted/        # Telegraph-formatted content
 │   └── published/        # Published content metadata
+├── test/                  # Test pipeline
+│   ├── test_main.py      # Test pipeline runner
+│   ├── test_config.py    # Test configuration overrides
+│   └── data/             # Test outputs (auto-created, gitignored)
 ├── logs/                  # Execution logs (auto-created)
 │   ├── log.txt           # Pipeline execution tracking
 │   └── error.log         # Detailed error logs with retry information
