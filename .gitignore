@@ -27,9 +27,7 @@ ENV/
 
 # Output directory
 data/
-
-# Test directory and outputs
-test/
+test/data/
 
 # Logs
 *.log
