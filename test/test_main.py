@@ -331,10 +331,14 @@ def run_test_pipeline():
         log_pipeline_step("Step 8", "Distribute to Telegram Channel")
         
         # Override the telegram_distributer's file path function and config
+        # Also need to override the utils.file_utils.get_file_path that get_audio_file_path uses
+        from utils import file_utils
         original_get_file_path = telegram_distributer.get_file_path
+        original_utils_get_file_path = file_utils.get_file_path
         original_chat_id = telegram_distributer.TELEGRAM_CHAT_ID
         
         telegram_distributer.get_file_path = config.get_file_path
+        file_utils.get_file_path = config.get_file_path  # This makes get_audio_file_path use test directories
         telegram_distributer.TELEGRAM_CHAT_ID = config.TELEGRAM_CHAT_ID
         
         telegram_url = ""
@@ -342,6 +346,7 @@ def run_test_pipeline():
         
         # Restore original functions and config
         telegram_distributer.get_file_path = original_get_file_path
+        file_utils.get_file_path = original_utils_get_file_path
         telegram_distributer.TELEGRAM_CHAT_ID = original_chat_id
         
         if not distribution_success:
