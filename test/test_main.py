@@ -26,6 +26,7 @@ from utils.file_utils import file_exists
 
 # Import pipeline modules
 from src import fetcher, summarizer, translator, script_writer, narrator, telegraph_converter, telegraph_publisher, telegram_distributer
+import utils.file_utils
 
 def ensure_test_directories():
     """Ensure all test directories exist before starting the pipeline."""
@@ -232,10 +233,19 @@ def run_test_pipeline():
         # Step 5: Convert to Speech (TTS)
         log_pipeline_step("Step 5", "Convert to Speech (TTS)")
         
-        # Check if audio files already exist
-        summary_audio_path = config.get_file_path('narrated', date_str)
-        translated_audio_path = config.get_file_path('narrated', date_str, lang='FA')
+        # Check if audio files already exist (check for both MP3 and WAV)
+        from utils.file_utils import get_audio_file_path
+        
+        # Override get_file_path temporarily for audio file detection
+        original_utils_get_file_path = utils.file_utils.get_file_path
+        utils.file_utils.get_file_path = config.get_file_path
+        
+        summary_audio_path = get_audio_file_path('narrated', date_str)
+        translated_audio_path = get_audio_file_path('narrated', date_str, lang='FA')
         using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path)
+        
+        # Restore original function
+        utils.file_utils.get_file_path = original_utils_get_file_path
         
         if using_cached_audio:
             log_info('Test Pipeline', f"Using existing audio files: {summary_audio_path}, {translated_audio_path}")
