@@ -232,9 +232,9 @@ def run_test_pipeline():
         # Step 5: Convert to Speech (TTS)
         log_pipeline_step("Step 5", "Convert to Speech (TTS)")
         
-        # Check if audio files already exist (check for both MP3 and WAV)
-        summary_audio_path = config.get_test_audio_file_path('narrated', date_str)
-        translated_audio_path = config.get_test_audio_file_path('narrated', date_str, lang='FA')
+        # Check if audio files already exist
+        summary_audio_path = config.get_file_path('narrated', date_str)
+        translated_audio_path = config.get_file_path('narrated', date_str, lang='FA')
         using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path)
         
         if using_cached_audio:
@@ -330,13 +330,11 @@ def run_test_pipeline():
         # Step 8: Distribute to Telegram Channel
         log_pipeline_step("Step 8", "Distribute to Telegram Channel")
         
-        # Override the telegram_distributer's file path functions and config
+        # Override the telegram_distributer's file path function and config
         original_get_file_path = telegram_distributer.get_file_path
-        original_get_audio_file_path = telegram_distributer.get_audio_file_path
         original_chat_id = telegram_distributer.TELEGRAM_CHAT_ID
         
         telegram_distributer.get_file_path = config.get_file_path
-        telegram_distributer.get_audio_file_path = config.get_test_audio_file_path
         telegram_distributer.TELEGRAM_CHAT_ID = config.TELEGRAM_CHAT_ID
         
         telegram_url = ""
@@ -344,7 +342,6 @@ def run_test_pipeline():
         
         # Restore original functions and config
         telegram_distributer.get_file_path = original_get_file_path
-        telegram_distributer.get_audio_file_path = original_get_audio_file_path
         telegram_distributer.TELEGRAM_CHAT_ID = original_chat_id
         
         if not distribution_success:

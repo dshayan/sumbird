@@ -92,31 +92,6 @@ def get_test_file_path(file_type, date_str=None, lang=None):
     
     return file_path
 
-def get_test_audio_file_path(file_type, date_str=None, lang=None):
-    """Get audio file path for test mode, checking for both MP3 and WAV formats.
-    
-    Args:
-        file_type (str): Type of file (should be 'narrated')
-        date_str (str, optional): Date string. If None, uses the target date.
-        lang (str, optional): Language code for language-specific files (e.g., 'FA' for Persian)
-    
-    Returns:
-        str: Full path to the existing audio file (MP3 preferred, WAV as fallback), or MP3 path if neither exists
-    """
-    # Get MP3 path (preferred format)
-    mp3_path = get_test_file_path(file_type, date_str, lang)
-    
-    # Check if MP3 exists
-    if os.path.exists(mp3_path) and os.path.isfile(mp3_path):
-        return mp3_path
-    
-    # If MP3 doesn't exist, check for WAV fallback
-    wav_path = mp3_path.replace('.mp3', '.wav')
-    if os.path.exists(wav_path) and os.path.isfile(wav_path):
-        return wav_path
-    
-    # If neither exists, return the MP3 path (for error messages or file creation)
-    return mp3_path
 
 # Override the get_file_path function for test mode
 get_file_path = get_test_file_path 
