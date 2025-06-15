@@ -23,7 +23,7 @@ if not env_utils.env_vars:
     env_utils.load_environment()
 
 # Import utilities from utils package
-from utils.file_utils import ensure_directories, get_file_path, file_exists
+from utils.file_utils import ensure_directories, get_file_path, get_audio_file_path, file_exists
 from utils.date_utils import get_date_str, format_datetime
 from utils.logging_utils import log_step, log_pipeline_step, log_info, log_error
 
@@ -181,8 +181,8 @@ def run_pipeline():
         log_pipeline_step("Step 5", "Convert to Speech (TTS)")
         
         # Check if audio files already exist
-        summary_audio_path = get_file_path('narrated', date_str)
-        translated_audio_path = get_file_path('narrated', date_str, lang='FA')
+        summary_audio_path = get_audio_file_path('narrated', date_str)
+        translated_audio_path = get_audio_file_path('narrated', date_str, lang='FA')
         using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path)
         
         if using_cached_audio:
