@@ -7,6 +7,7 @@ This module provides logging functionality:
 - API error handling
 - Pipeline step logging
 - Info and success logging
+- Retry logging for network operations
 """
 import os
 import sys
@@ -51,6 +52,29 @@ def log_error(module_name, error_message, exception=None):
             traceback_text = ''.join(traceback.format_exception(type(exception), exception, exception.__traceback__))
             log_file.write(f"{traceback_text}\n")
         log_file.write("---\n")
+
+def log_retry(module_name, message, attempt, max_attempts, exception=None):
+    """Log a retry attempt with less alarming formatting.
+    
+    Used for network operations that are expected to occasionally fail and retry.
+    
+    Args:
+        module_name (str): Name of the module logging the retry
+        message (str): Human-readable description of what's being retried
+        attempt (int): Current attempt number
+        max_attempts (int): Maximum number of attempts
+        exception (Exception, optional): Exception that caused the retry
+    """
+    timestamp = format_datetime()
+    formatted_message = f"[RETRY] {timestamp} - {module_name}: {message} (attempt {attempt}/{max_attempts})"
+    
+    # Print to console with less alarming stderr
+    print(formatted_message)
+    
+    # For timeouts and network errors, don't log full traceback to avoid alarm
+    # Only log the exception message if it's informative
+    if exception and not (exception.__class__.__name__ == 'TimeoutError' or isinstance(exception, ConnectionError)):
+        print(f"Reason: {str(exception)}")
 
 def log_info(module_name, message):
     """Log an informational message with consistent formatting.

@@ -67,7 +67,7 @@ def get_feeds_from_handles():
             })
     return feeds
 
-@with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
+@with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS, context="RSS feed fetch")
 def fetch_feed_with_retry(feed_url):
     """Fetch a single RSS feed with retry logic.
     
@@ -79,6 +79,24 @@ def fetch_feed_with_retry(feed_url):
     """
     return feedparser.parse(feed_url)
 
+def fetch_feed_with_context(feed_title, feed_url):
+    """Fetch a feed with contextual retry logging.
+    
+    Args:
+        feed_title (str): Human-readable feed title (e.g., "@MistralAI")
+        feed_url (str): URL of the RSS feed to fetch
+        
+    Returns:
+        feedparser.FeedParserDict: Parsed feed data
+    """
+    # Create a context-aware retry decorator
+    @with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS, 
+                     context=f"RSS feed fetch for {feed_title}")
+    def fetch_with_context():
+        return feedparser.parse(feed_url)
+    
+    return fetch_with_context()
+
 def get_posts(feeds, target_start, target_end):
     """Fetch posts from feeds within the specified date range."""
     results = []
@@ -88,7 +106,8 @@ def get_posts(feeds, target_start, target_end):
     for feed in feeds:
         try:
             log_info('Fetcher', f"Fetching: {feed['title']} from {feed['url']}")
-            parsed_feed = fetch_feed_with_retry(feed['url'])
+            # Use the context-aware fetch function
+            parsed_feed = fetch_feed_with_context(feed['title'], feed['url'])
             
             if parsed_feed.feed and hasattr(parsed_feed.feed, 'title'):
                 feed['title'] = parsed_feed.feed.title
