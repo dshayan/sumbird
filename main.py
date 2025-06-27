@@ -10,11 +10,12 @@ This pipeline:
 5. Converts scripts to speech using TTS
 6. Converts the summary to Telegraph format
 7. Publishes the content to Telegraph
-8. Distributes the content to Telegram channel
+8. Distributes the content to Telegram channel (optional with --skip-telegram)
 """
 import os
 import sys
 import json
+import argparse
 from datetime import datetime
 
 # Ensure environment is loaded before importing config-dependent modules
@@ -25,16 +26,41 @@ if not env_utils.env_vars:
 # Import utilities from utils package
 from utils.logging_utils import log_info, log_error
 
-def run_pipeline():
+def parse_arguments():
+    """Parse command-line arguments."""
+    parser = argparse.ArgumentParser(
+        description='Sumbird Pipeline - Twitter/X RSS feed fetcher, summarizer and publisher',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python main.py                    # Run complete pipeline including Telegram distribution
+  python main.py --skip-telegram   # Run pipeline but skip Telegram distribution step
+        """
+    )
+    
+    parser.add_argument(
+        '--skip-telegram',
+        action='store_true',
+        help='Skip the Telegram distribution step (Step 8)'
+    )
+    
+    return parser.parse_args()
+
+def run_pipeline(skip_telegram=False):
     """Run the complete pipeline sequentially."""
     import config
     from utils.pipeline_core import run_pipeline_core
     
-    return run_pipeline_core(config)
+    return run_pipeline_core(config, skip_telegram=skip_telegram)
 
 if __name__ == "__main__":
     try:
-        success = run_pipeline()
+        args = parse_arguments()
+        
+        if args.skip_telegram:
+            log_info('Pipeline', "Starting pipeline with Telegram distribution disabled")
+        
+        success = run_pipeline(skip_telegram=args.skip_telegram)
         if success:
             log_info('Pipeline', "Pipeline execution completed")
         else:

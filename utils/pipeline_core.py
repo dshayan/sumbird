@@ -11,7 +11,7 @@ from utils.date_utils import get_date_str, format_datetime
 from utils.logging_utils import log_step, log_pipeline_step, log_info, log_error
 from utils.file_utils import file_exists, get_audio_file_path
 
-def run_pipeline_core(config_module, log_prefix="", test_mode=False):
+def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegram=False):
     """
     Core pipeline logic that works with any configuration module.
     
@@ -19,6 +19,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False):
         config_module: Configuration module (config or test.test_config)
         log_prefix (str): Prefix for log messages (e.g., "TEST ")
         test_mode (bool): Whether running in test mode for special handling
+        skip_telegram (bool): Whether to skip the Telegram distribution step
     
     Returns:
         bool: True if pipeline completed successfully, False otherwise
@@ -332,36 +333,41 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False):
         else:
             log_step(log_file, True, f"{log_prefix}Published on {telegraph_url}")
         
-        # Step 8: Distribute to Telegram Channel
-        log_pipeline_step("Step 8", "Distribute to Telegram Channel")
-        
-        # Override the telegram_distributer's file path function and config
-        # Also need to override the utils.file_utils.get_file_path that get_audio_file_path uses
-        original_get_file_path = telegram_distributer.get_file_path
-        original_utils_get_file_path = file_utils.get_file_path
-        original_chat_id = telegram_distributer.TELEGRAM_CHAT_ID
-        
-        telegram_distributer.get_file_path = config_module.get_file_path
-        file_utils.get_file_path = config_module.get_file_path  # This makes get_audio_file_path use correct directories
-        telegram_distributer.TELEGRAM_CHAT_ID = config_module.TELEGRAM_CHAT_ID
-        
-        try:
-            telegram_url = ""
-            distribution_success, telegram_url, tg_input_tokens, tg_output_tokens = telegram_distributer.distribute()
-        finally:
-            # Restore original functions and config
-            telegram_distributer.get_file_path = original_get_file_path
-            file_utils.get_file_path = original_utils_get_file_path
-            telegram_distributer.TELEGRAM_CHAT_ID = original_chat_id
-        
-        if not distribution_success:
-            log_error(pipeline_name, "Telegram distribution failed")
-            log_step(log_file, False, f"{log_prefix}Distributed")
-            log_file.write("──────────\n")
-            return False
-        
-        log_info(pipeline_name, "Content successfully distributed to Telegram channel")
-        log_step(log_file, True, f"{log_prefix}Distributed using {tg_input_tokens} input tokens, {tg_output_tokens} output tokens at {telegram_url}")
+        # Step 8: Distribute to Telegram Channel (conditional)
+        if skip_telegram:
+            log_pipeline_step("Step 8", "Distribute to Telegram Channel (SKIPPED)")
+            log_info(pipeline_name, "Telegram distribution skipped as requested")
+            log_step(log_file, True, f"{log_prefix}Distributed (skipped)")
+        else:
+            log_pipeline_step("Step 8", "Distribute to Telegram Channel")
+            
+            # Override the telegram_distributer's file path function and config
+            # Also need to override the utils.file_utils.get_file_path that get_audio_file_path uses
+            original_get_file_path = telegram_distributer.get_file_path
+            original_utils_get_file_path = file_utils.get_file_path
+            original_chat_id = telegram_distributer.TELEGRAM_CHAT_ID
+            
+            telegram_distributer.get_file_path = config_module.get_file_path
+            file_utils.get_file_path = config_module.get_file_path  # This makes get_audio_file_path use correct directories
+            telegram_distributer.TELEGRAM_CHAT_ID = config_module.TELEGRAM_CHAT_ID
+            
+            try:
+                telegram_url = ""
+                distribution_success, telegram_url, tg_input_tokens, tg_output_tokens = telegram_distributer.distribute()
+            finally:
+                # Restore original functions and config
+                telegram_distributer.get_file_path = original_get_file_path
+                file_utils.get_file_path = original_utils_get_file_path
+                telegram_distributer.TELEGRAM_CHAT_ID = original_chat_id
+            
+            if not distribution_success:
+                log_error(pipeline_name, "Telegram distribution failed")
+                log_step(log_file, False, f"{log_prefix}Distributed")
+                log_file.write("──────────\n")
+                return False
+            
+            log_info(pipeline_name, "Content successfully distributed to Telegram channel")
+            log_step(log_file, True, f"{log_prefix}Distributed using {tg_input_tokens} input tokens, {tg_output_tokens} output tokens at {telegram_url}")
         
         log_info(pipeline_name, "Pipeline completed successfully!")
         log_file.write("──────────\n")

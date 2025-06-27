@@ -25,8 +25,14 @@ All configuration is managed through environment variables. See `.env.example` f
 # Run complete pipeline
 python main.py
 
+# Run pipeline without Telegram distribution
+python main.py --skip-telegram
+
 # Run test pipeline
 python test/test_main.py
+
+# Run test pipeline without Telegram distribution
+python test/test_main.py --skip-telegram
 
 # Run individual modules
 python -m src.fetcher
