@@ -11,7 +11,7 @@ from utils.logging_utils import log_error
 class OpenRouterClient:
     """Client for interacting with the OpenRouter API."""
     
-    def __init__(self, api_key, model, max_tokens, temperature, site_url, site_name, timeout=120):
+    def __init__(self, api_key, model, max_tokens, temperature, site_url, site_name, timeout=None):
         """Initialize the OpenRouter client.
         
         Args:
@@ -29,7 +29,12 @@ class OpenRouterClient:
         self.temperature = temperature
         self.site_url = site_url
         self.site_name = site_name
-        self.timeout = timeout
+        # Import config here to avoid circular imports
+        if timeout is None:
+            from config import OPENROUTER_TIMEOUT
+            self.timeout = OPENROUTER_TIMEOUT
+        else:
+            self.timeout = timeout
         self.headers = {
             "Content-Type": "application/json",
             "Authorization": f"Bearer {self.api_key}",
@@ -38,7 +43,6 @@ class OpenRouterClient:
         }
         self.api_url = "https://openrouter.ai/api/v1/chat/completions"
 
-    @with_retry_async(timeout=120, max_attempts=3)
     async def generate_completion(self, system_prompt, user_prompt):
         """Generate a completion using OpenRouter API with retry logic.
         
@@ -49,33 +53,38 @@ class OpenRouterClient:
         Returns:
             tuple: (generated_content, input_tokens, output_tokens)
         """
-        async with httpx.AsyncClient(timeout=self.timeout) as client:
-            response = await client.post(
-                self.api_url,
-                headers=self.headers,
-                json={
-                    "model": self.model,
-                    "messages": [
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": user_prompt}
-                    ],
-                    "max_tokens": self.max_tokens,
-                    "temperature": self.temperature
-                }
-            )
-            response.raise_for_status()
-            response_json = response.json()
-            content = response_json["choices"][0]["message"]["content"]
-            
-            # Extract token counts
-            usage = response_json.get("usage", {})
-            input_tokens = usage.get("prompt_tokens", 0)
-            output_tokens = usage.get("completion_tokens", 0)
-            
-            return content, input_tokens, output_tokens
+        # Apply retry with instance timeout
+        @with_retry_async(timeout=self.timeout, max_attempts=3)
+        async def _generate_with_retry():
+            async with httpx.AsyncClient(timeout=self.timeout) as client:
+                response = await client.post(
+                    self.api_url,
+                    headers=self.headers,
+                    json={
+                        "model": self.model,
+                        "messages": [
+                            {"role": "system", "content": system_prompt},
+                            {"role": "user", "content": user_prompt}
+                        ],
+                        "max_tokens": self.max_tokens,
+                        "temperature": self.temperature
+                    }
+                )
+                response.raise_for_status()
+                response_json = response.json()
+                content = response_json["choices"][0]["message"]["content"]
+                
+                # Extract token counts
+                usage = response_json.get("usage", {})
+                input_tokens = usage.get("prompt_tokens", 0)
+                output_tokens = usage.get("completion_tokens", 0)
+                
+                return content, input_tokens, output_tokens
+        
+        return await _generate_with_retry()
 
 
-def create_openrouter_client(api_key, model, max_tokens=4000, temperature=0, site_url="", site_name="", timeout=120):
+def create_openrouter_client(api_key, model, max_tokens=4000, temperature=0, site_url="", site_name="", timeout=None):
     """Factory function to create an OpenRouter client with default parameters.
     
     Args:

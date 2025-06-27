@@ -7,7 +7,7 @@ import os
 from config import (
     GEMINI_API_KEY, SCRIPT_WRITER_PROMPT_PATH, GEMINI_SCRIPT_WRITER_MODEL,
     SUMMARY_DIR, TRANSLATED_DIR, SCRIPT_DIR,
-    FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT
+    FILE_FORMAT, get_date_str, get_file_path
 )
 from utils.logging_utils import log_error, log_info, log_success
 from utils.file_utils import file_exists, read_file
@@ -108,8 +108,7 @@ def write_scripts():
             log_info('ScriptWriter', "Converting Summary to Script")
             client = create_gemini_text_client(
                 api_key=GEMINI_API_KEY,
-                model=GEMINI_SCRIPT_WRITER_MODEL,
-                timeout=AI_TIMEOUT
+                model=GEMINI_SCRIPT_WRITER_MODEL
             )
             summary_result, input_tokens, output_tokens = write_script_for_file(
                 summary_file, summary_script, client, system_prompt
@@ -132,8 +131,7 @@ def write_scripts():
             if 'client' not in locals():
                 client = create_gemini_text_client(
                     api_key=GEMINI_API_KEY,
-                    model=GEMINI_SCRIPT_WRITER_MODEL,
-                    timeout=AI_TIMEOUT
+                    model=GEMINI_SCRIPT_WRITER_MODEL
                 )
             translated_result, input_tokens, output_tokens = write_script_for_file(
                 translated_file, translated_script, client, system_prompt

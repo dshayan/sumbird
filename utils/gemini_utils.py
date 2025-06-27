@@ -15,7 +15,7 @@ from utils.logging_utils import log_error, log_info, log_success
 class GeminiTextClient:
     """Client for interacting with the Gemini API for text generation."""
     
-    def __init__(self, api_key, model, timeout=120):
+    def __init__(self, api_key, model, timeout=None):
         """Initialize the Gemini text client.
         
         Args:
@@ -25,7 +25,12 @@ class GeminiTextClient:
         """
         self.api_key = api_key
         self.model = model
-        self.timeout = timeout
+        # Import config here to avoid circular imports
+        if timeout is None:
+            from config import GEMINI_TEXT_TIMEOUT
+            self.timeout = GEMINI_TEXT_TIMEOUT
+        else:
+            self.timeout = timeout
         self.client = genai.Client(api_key=self.api_key)
 
     def count_tokens(self, prompt):
@@ -50,7 +55,6 @@ class GeminiTextClient:
             log_error('GeminiTextClient', f"Error counting tokens", e)
             raise
 
-    @with_retry_sync(timeout=120, max_attempts=3)
     def generate_text(self, prompt):
         """Generate text using Gemini API with retry logic.
         
@@ -63,28 +67,33 @@ class GeminiTextClient:
         Raises:
             Exception: If text generation fails after all retries
         """
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=prompt
-        )
+        # Apply retry with instance timeout
+        @with_retry_sync(timeout=self.timeout, max_attempts=3)
+        def _generate_with_retry():
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt
+            )
+            
+            text = response.text.strip()
+            
+            if not text:
+                raise Exception("Generated text is empty")
+            
+            # Extract token usage from response
+            usage_metadata = response.usage_metadata
+            input_tokens = usage_metadata.prompt_token_count if usage_metadata else 0
+            output_tokens = usage_metadata.candidates_token_count if usage_metadata else 0
+            
+            return text, input_tokens, output_tokens
         
-        text = response.text.strip()
-        
-        if not text:
-            raise Exception("Generated text is empty")
-        
-        # Extract token usage from response
-        usage_metadata = response.usage_metadata
-        input_tokens = usage_metadata.prompt_token_count if usage_metadata else 0
-        output_tokens = usage_metadata.candidates_token_count if usage_metadata else 0
-        
-        return text, input_tokens, output_tokens
+        return _generate_with_retry()
 
 
 class GeminiTTSClient:
     """Client for interacting with the Gemini TTS API."""
     
-    def __init__(self, api_key, model, voice, prompt_template, timeout=120):
+    def __init__(self, api_key, model, voice, prompt_template, timeout=None):
         """Initialize the Gemini TTS client.
         
         Args:
@@ -98,7 +107,12 @@ class GeminiTTSClient:
         self.model = model
         self.voice = voice
         self.prompt_template = prompt_template
-        self.timeout = timeout
+        # Import config here to avoid circular imports
+        if timeout is None:
+            from config import TTS_TIMEOUT
+            self.timeout = TTS_TIMEOUT
+        else:
+            self.timeout = timeout
         self.client = genai.Client(api_key=self.api_key)
         
         # Apply retry decorator with instance timeout
@@ -260,7 +274,7 @@ class GeminiTTSClient:
             return None, 0, 0
 
 
-def create_gemini_text_client(api_key, model, timeout=120):
+def create_gemini_text_client(api_key, model, timeout=None):
     """Factory function to create a Gemini text client.
     
     Args:
@@ -278,7 +292,7 @@ def create_gemini_text_client(api_key, model, timeout=120):
     )
 
 
-def create_gemini_tts_client(api_key, model, voice, prompt_template, timeout=120):
+def create_gemini_tts_client(api_key, model, voice, prompt_template, timeout=None):
     """Factory function to create a Gemini TTS client.
     
     Args:

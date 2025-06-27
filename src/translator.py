@@ -6,7 +6,7 @@ This module can be run independently or as part of the pipeline.
 import os
 from config import (
     GEMINI_API_KEY, TRANSLATOR_PROMPT_PATH, GEMINI_TRANSLATOR_MODEL,
-    SUMMARY_DIR, TRANSLATED_DIR, FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT
+    SUMMARY_DIR, TRANSLATED_DIR, FILE_FORMAT, get_date_str, get_file_path
 )
 from utils.logging_utils import log_error, log_info, log_success
 from utils.gemini_utils import create_gemini_text_client
@@ -37,8 +37,7 @@ def translate():
         # Initialize Gemini translator client
         client = create_gemini_text_client(
             api_key=GEMINI_API_KEY,
-            model=GEMINI_TRANSLATOR_MODEL,
-            timeout=AI_TIMEOUT
+            model=GEMINI_TRANSLATOR_MODEL
         )
         
         # Create the full prompt with system prompt and content

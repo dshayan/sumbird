@@ -127,8 +127,7 @@ def narrate():
                 api_key=GEMINI_API_KEY,
                 model=GEMINI_TTS_MODEL,
                 voice=GEMINI_TTS_VOICE,
-                prompt_template=prompt_template,
-                timeout=TTS_TIMEOUT
+                prompt_template=prompt_template
             )
             result = narrate_file(script_file, summary_audio, client, TELEGRAM_AUDIO_TITLE_EN, date_str)
             if result[0]:  # Check if audio file path is not None
@@ -157,8 +156,7 @@ def narrate():
                     api_key=GEMINI_API_KEY,
                     model=GEMINI_TTS_MODEL,
                     voice=GEMINI_TTS_VOICE,
-                    prompt_template=prompt_template,
-                    timeout=TTS_TIMEOUT
+                    prompt_template=prompt_template
                 )
             result = narrate_file(translated_script_file, translated_audio, client, TELEGRAM_AUDIO_TITLE_FA, date_str)
             if result[0]:  # Check if audio file path is not None

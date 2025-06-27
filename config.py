@@ -89,10 +89,17 @@ TELEGRAM_DISABLE_WEB_PREVIEW = env_utils.get_env('TELEGRAM_DISABLE_WEB_PREVIEW')
 TELEGRAM_AUDIO_TITLE_EN = env_utils.get_env('TELEGRAM_AUDIO_TITLE_EN')
 TELEGRAM_AUDIO_TITLE_FA = env_utils.get_env('TELEGRAM_AUDIO_TITLE_FA')
 
-# Retry configuration
-AI_TIMEOUT = int(env_utils.get_env('AI_TIMEOUT'))
+# Timeout configuration
+RSS_TIMEOUT = int(env_utils.get_env('RSS_TIMEOUT'))
+OPENROUTER_TIMEOUT = int(env_utils.get_env('OPENROUTER_TIMEOUT'))
+GEMINI_TEXT_TIMEOUT = int(env_utils.get_env('GEMINI_TEXT_TIMEOUT'))
 TTS_TIMEOUT = int(env_utils.get_env('TTS_TIMEOUT'))
+TELEGRAPH_TIMEOUT = int(env_utils.get_env('TELEGRAPH_TIMEOUT'))
+TELEGRAM_MESSAGE_TIMEOUT = int(env_utils.get_env('TELEGRAM_MESSAGE_TIMEOUT'))
+TELEGRAM_FILE_TIMEOUT = int(env_utils.get_env('TELEGRAM_FILE_TIMEOUT'))
 NETWORK_TIMEOUT = int(env_utils.get_env('NETWORK_TIMEOUT'))
+
+# Retry configuration
 RETRY_MAX_ATTEMPTS = int(env_utils.get_env('RETRY_MAX_ATTEMPTS'))
 
 # Twitter handles to fetch posts from

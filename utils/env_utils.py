@@ -65,8 +65,13 @@ REQUIRED_VARS = [
     'AUDIO_ARTIST',
     'AUDIO_ALBUM',
     'AUDIO_GENRE',
-    'AI_TIMEOUT',
+    'RSS_TIMEOUT',
+    'OPENROUTER_TIMEOUT',
+    'GEMINI_TEXT_TIMEOUT',
     'TTS_TIMEOUT',
+    'TELEGRAPH_TIMEOUT',
+    'TELEGRAM_MESSAGE_TIMEOUT',
+    'TELEGRAM_FILE_TIMEOUT',
     'NETWORK_TIMEOUT',
     'RETRY_MAX_ATTEMPTS',
     'TEST_TELEGRAM_CHAT_ID',
@@ -98,8 +103,13 @@ def load_environment():
     env_vars['OPENROUTER_MAX_TOKENS'] = int(env_vars['OPENROUTER_MAX_TOKENS'])
     env_vars['OPENROUTER_TEMPERATURE'] = float(env_vars['OPENROUTER_TEMPERATURE'])
     env_vars['TELEGRAM_DISABLE_WEB_PREVIEW'] = env_vars['TELEGRAM_DISABLE_WEB_PREVIEW'].lower() == 'true'
-    env_vars['AI_TIMEOUT'] = int(env_vars['AI_TIMEOUT'])
+    env_vars['RSS_TIMEOUT'] = int(env_vars['RSS_TIMEOUT'])
+    env_vars['OPENROUTER_TIMEOUT'] = int(env_vars['OPENROUTER_TIMEOUT'])
+    env_vars['GEMINI_TEXT_TIMEOUT'] = int(env_vars['GEMINI_TEXT_TIMEOUT'])
     env_vars['TTS_TIMEOUT'] = int(env_vars['TTS_TIMEOUT'])
+    env_vars['TELEGRAPH_TIMEOUT'] = int(env_vars['TELEGRAPH_TIMEOUT'])
+    env_vars['TELEGRAM_MESSAGE_TIMEOUT'] = int(env_vars['TELEGRAM_MESSAGE_TIMEOUT'])
+    env_vars['TELEGRAM_FILE_TIMEOUT'] = int(env_vars['TELEGRAM_FILE_TIMEOUT'])
     env_vars['NETWORK_TIMEOUT'] = int(env_vars['NETWORK_TIMEOUT'])
     env_vars['RETRY_MAX_ATTEMPTS'] = int(env_vars['RETRY_MAX_ATTEMPTS'])
     

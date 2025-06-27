@@ -9,7 +9,7 @@ from config import (
     OPENROUTER_API_KEY, SYSTEM_PROMPT_PATH, OPENROUTER_MODEL,
     OPENROUTER_MAX_TOKENS, OPENROUTER_TEMPERATURE, OPENROUTER_SITE_URL,
     OPENROUTER_SITE_NAME, SUMMARY_TITLE_FORMAT, EXPORT_DIR, SUMMARY_DIR,
-    FILE_FORMAT, get_date_str, get_file_path, AI_TIMEOUT
+    FILE_FORMAT, get_date_str, get_file_path
 )
 from utils.logging_utils import log_error, log_info, log_success
 from utils.openrouter_utils import create_openrouter_client
@@ -44,8 +44,7 @@ def summarize():
             max_tokens=OPENROUTER_MAX_TOKENS,
             temperature=OPENROUTER_TEMPERATURE,
             site_url=OPENROUTER_SITE_URL,
-            site_name=OPENROUTER_SITE_NAME,
-            timeout=AI_TIMEOUT
+            site_name=OPENROUTER_SITE_NAME
         )
         
         # Generate summary using async function with asyncio.run

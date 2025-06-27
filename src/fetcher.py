@@ -20,7 +20,7 @@ from utils.retry_utils import with_retry_sync
 # Import configuration
 from config import (
     BASE_URL, HANDLES, TIMEZONE, EXPORT_DIR, EXPORT_TITLE_FORMAT,
-    NETWORK_TIMEOUT, RETRY_MAX_ATTEMPTS
+    RSS_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
 
 # Import feedparser directly, no patching needed
@@ -67,7 +67,7 @@ def get_feeds_from_handles():
             })
     return feeds
 
-@with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS, context="RSS feed fetch")
+@with_retry_sync(timeout=RSS_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS, context="RSS feed fetch")
 def fetch_feed_with_retry(feed_url):
     """Fetch a single RSS feed with retry logic.
     
@@ -90,7 +90,7 @@ def fetch_feed_with_context(feed_title, feed_url):
         feedparser.FeedParserDict: Parsed feed data
     """
     # Create a context-aware retry decorator
-    @with_retry_sync(timeout=NETWORK_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS, 
+    @with_retry_sync(timeout=RSS_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS, 
                      context=f"RSS feed fetch for {feed_title}")
     def fetch_with_context():
         return feedparser.parse(feed_url)
