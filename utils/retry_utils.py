@@ -3,6 +3,7 @@
 Retry utilities for Sumbird pipeline.
 Provides simple retry mechanisms with configurable timeout and max attempts.
 """
+import os
 import time
 import asyncio
 import signal
@@ -80,6 +81,18 @@ def retry_sync(func: Callable, timeout: int = 60, max_attempts: int = 3, context
                     return func(*args, **kwargs)
             except Exception as e:
                 last_exception = e
+                
+                # Check if output file was created despite timeout (common with TTS operations)
+                if isinstance(e, TimeoutError):
+                    output_file = check_output_file_created(args, kwargs)
+                    if output_file:
+                        from utils.logging_utils import log_info
+                        log_info(module_name, f"Operation timed out but output file was created: {output_file}")
+                        # For TTS operations, return the expected tuple format
+                        if 'text_to_speech' in func.__name__:
+                            return output_file, 0, 0  # Return (file_path, input_tokens, output_tokens)
+                        else:
+                            return output_file  # Return just the file path for other operations
                 
                 if attempt == max_attempts:
                     # Final attempt failed - use ERROR level
@@ -190,4 +203,37 @@ def with_retry_async(timeout: int = 60, max_attempts: int = 3, context: str = No
     """
     def decorator(func: Callable) -> Callable:
         return retry_async(func, timeout, max_attempts, context)
-    return decorator 
+    return decorator
+
+
+def check_output_file_created(args, kwargs):
+    """Check if an output file was created based on function arguments.
+    
+    This helps prevent retrying operations that actually succeeded but timed out
+    due to slow processing (like TTS operations).
+    
+    Args:
+        args: Function positional arguments
+        kwargs: Function keyword arguments
+        
+    Returns:
+        str or None: Path to output file if found, None otherwise
+    """
+    # Common parameter names for output files
+    output_params = ['output_file', 'output_path', 'filename', 'file_path']
+    
+    # Check kwargs first
+    for param in output_params:
+        if param in kwargs and kwargs[param]:
+            file_path = kwargs[param]
+            if isinstance(file_path, str) and os.path.exists(file_path):
+                return file_path
+    
+    # Check positional args (common patterns)
+    if len(args) >= 2:
+        # Second argument is often output file path
+        potential_path = args[1]
+        if isinstance(potential_path, str) and os.path.exists(potential_path):
+            return potential_path
+    
+    return None 

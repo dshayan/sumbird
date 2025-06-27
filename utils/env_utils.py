@@ -16,6 +16,8 @@ from utils.file_utils import set_file_paths
 # Required environment variables
 REQUIRED_VARS = [
     'BASE_URL',
+    'MIN_FEEDS_TOTAL',
+    'MIN_FEEDS_SUCCESS_RATIO',
     'TARGET_DATE',
     'TIMEZONE',
     'EXPORT_DIR',
@@ -62,7 +64,13 @@ REQUIRED_VARS = [
     'TELEGRAM_AUDIO_TITLE_FA',
     'AUDIO_ARTIST',
     'AUDIO_ALBUM',
-    'AUDIO_GENRE'
+    'AUDIO_GENRE',
+    'AI_TIMEOUT',
+    'TTS_TIMEOUT',
+    'NETWORK_TIMEOUT',
+    'RETRY_MAX_ATTEMPTS',
+    'TEST_TELEGRAM_CHAT_ID',
+    'TEST_SUMMARY_TITLE_FORMAT'
 ]
 
 # Storage for loaded environment variables
@@ -85,9 +93,15 @@ def load_environment():
         env_vars[var] = value
     
     # Convert types for numeric values
+    env_vars['MIN_FEEDS_TOTAL'] = int(env_vars['MIN_FEEDS_TOTAL'])
+    env_vars['MIN_FEEDS_SUCCESS_RATIO'] = float(env_vars['MIN_FEEDS_SUCCESS_RATIO'])
     env_vars['OPENROUTER_MAX_TOKENS'] = int(env_vars['OPENROUTER_MAX_TOKENS'])
     env_vars['OPENROUTER_TEMPERATURE'] = float(env_vars['OPENROUTER_TEMPERATURE'])
     env_vars['TELEGRAM_DISABLE_WEB_PREVIEW'] = env_vars['TELEGRAM_DISABLE_WEB_PREVIEW'].lower() == 'true'
+    env_vars['AI_TIMEOUT'] = int(env_vars['AI_TIMEOUT'])
+    env_vars['TTS_TIMEOUT'] = int(env_vars['TTS_TIMEOUT'])
+    env_vars['NETWORK_TIMEOUT'] = int(env_vars['NETWORK_TIMEOUT'])
+    env_vars['RETRY_MAX_ATTEMPTS'] = int(env_vars['RETRY_MAX_ATTEMPTS'])
     
     # Clean up BASE_URL (ensure it ends with a slash)
     env_vars['BASE_URL'] = env_vars['BASE_URL'].rstrip('/') + '/'

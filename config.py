@@ -15,8 +15,8 @@ env_vars = env_utils.env_vars
 BASE_URL = env_utils.get_env('BASE_URL')
 
 # Pipeline success thresholds
-MIN_FEEDS_TOTAL = int(env_utils.get_env('MIN_FEEDS_TOTAL', '50'))
-MIN_FEEDS_SUCCESS_RATIO = float(env_utils.get_env('MIN_FEEDS_SUCCESS_RATIO', '0.9'))
+MIN_FEEDS_TOTAL = int(env_utils.get_env('MIN_FEEDS_TOTAL'))
+MIN_FEEDS_SUCCESS_RATIO = float(env_utils.get_env('MIN_FEEDS_SUCCESS_RATIO'))
 
 # Date and timezone configuration
 TIMEZONE = env_utils.get_env('TIMEZONE')
@@ -90,9 +90,10 @@ TELEGRAM_AUDIO_TITLE_EN = env_utils.get_env('TELEGRAM_AUDIO_TITLE_EN')
 TELEGRAM_AUDIO_TITLE_FA = env_utils.get_env('TELEGRAM_AUDIO_TITLE_FA')
 
 # Retry configuration
-AI_TIMEOUT = int(env_utils.get_env('AI_TIMEOUT', '120'))
-NETWORK_TIMEOUT = int(env_utils.get_env('NETWORK_TIMEOUT', '60'))
-RETRY_MAX_ATTEMPTS = int(env_utils.get_env('RETRY_MAX_ATTEMPTS', '3'))
+AI_TIMEOUT = int(env_utils.get_env('AI_TIMEOUT'))
+TTS_TIMEOUT = int(env_utils.get_env('TTS_TIMEOUT'))
+NETWORK_TIMEOUT = int(env_utils.get_env('NETWORK_TIMEOUT'))
+RETRY_MAX_ATTEMPTS = int(env_utils.get_env('RETRY_MAX_ATTEMPTS'))
 
 # Twitter handles to fetch posts from
 HANDLES = env_utils.get_env('HANDLES')

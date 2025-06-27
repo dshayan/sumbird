@@ -24,14 +24,14 @@ from utils import env_utils
 from utils.date_utils import get_date_str
 
 # Override Telegram configuration for test channel
-TEST_TELEGRAM_CHAT_ID = env_utils.get_env('TEST_TELEGRAM_CHAT_ID', 'YOUR_TEST_TELEGRAM_CHAT_ID')
+TEST_TELEGRAM_CHAT_ID = env_utils.get_env('TEST_TELEGRAM_CHAT_ID')
 
 # Override the Telegram configuration for test mode
 TELEGRAM_CHAT_ID = TEST_TELEGRAM_CHAT_ID
 
 # Override Telegraph title format to include TEST- prefix for URLs
 # This will make Telegraph URLs start with TEST- (e.g., https://telegra.ph/TEST-AI-Updates-on-2025-06-03...)
-TEST_SUMMARY_TITLE_FORMAT = env_utils.get_env('TEST_SUMMARY_TITLE_FORMAT', f"TEST-{SUMMARY_TITLE_FORMAT}")
+TEST_SUMMARY_TITLE_FORMAT = env_utils.get_env('TEST_SUMMARY_TITLE_FORMAT')
 SUMMARY_TITLE_FORMAT = TEST_SUMMARY_TITLE_FORMAT
 
 # Override directory paths for test mode - use test/data/ structure

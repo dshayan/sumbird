@@ -11,7 +11,7 @@ from config import (
     GEMINI_API_KEY, GEMINI_TTS_MODEL, GEMINI_TTS_VOICE, NARRATOR_PROMPT_PATH,
     SCRIPT_DIR, NARRATED_DIR, AUDIO_ARTIST, AUDIO_ALBUM, AUDIO_GENRE,
     TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
-    get_date_str, get_file_path, AI_TIMEOUT
+    get_date_str, get_file_path, TTS_TIMEOUT
 )
 from utils.logging_utils import log_error, log_info, log_success
 from utils.html_utils import html_to_text
@@ -128,7 +128,7 @@ def narrate():
                 model=GEMINI_TTS_MODEL,
                 voice=GEMINI_TTS_VOICE,
                 prompt_template=prompt_template,
-                timeout=AI_TIMEOUT
+                timeout=TTS_TIMEOUT
             )
             result = narrate_file(script_file, summary_audio, client, TELEGRAM_AUDIO_TITLE_EN, date_str)
             if result[0]:  # Check if audio file path is not None
@@ -158,7 +158,7 @@ def narrate():
                     model=GEMINI_TTS_MODEL,
                     voice=GEMINI_TTS_VOICE,
                     prompt_template=prompt_template,
-                    timeout=AI_TIMEOUT
+                    timeout=TTS_TIMEOUT
                 )
             result = narrate_file(translated_script_file, translated_audio, client, TELEGRAM_AUDIO_TITLE_FA, date_str)
             if result[0]:  # Check if audio file path is not None

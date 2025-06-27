@@ -100,6 +100,9 @@ class GeminiTTSClient:
         self.prompt_template = prompt_template
         self.timeout = timeout
         self.client = genai.Client(api_key=self.api_key)
+        
+        # Apply retry decorator with instance timeout
+        self.text_to_speech = with_retry_sync(timeout=self.timeout, max_attempts=3)(self._text_to_speech_impl)
 
     def save_wave_file(self, filename, pcm_data):
         """Save PCM data as a WAV file.
@@ -169,8 +172,7 @@ class GeminiTTSClient:
             log_error('GeminiTTS', f"Error converting WAV to MP3", e)
             return False
 
-    @with_retry_sync(timeout=120, max_attempts=3)
-    def text_to_speech(self, text, output_file, title=None, artist=None, album=None, genre=None, date_str=None):
+    def _text_to_speech_impl(self, text, output_file, title=None, artist=None, album=None, genre=None, date_str=None):
         """Convert text to speech using Gemini TTS.
         
         Args:
