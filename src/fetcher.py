@@ -14,7 +14,7 @@ from utils.date_utils import (
 )
 from utils.file_utils import get_file_path
 from utils.html_utils import strip_html, clean_text
-from utils.logging_utils import log_error, log_info, log_success
+from utils.logging_utils import log_error, log_info, log_success, log_warning
 from utils.retry_utils import with_retry_sync
 
 # Import configuration
@@ -104,17 +104,25 @@ def get_posts(feeds, target_start, target_end):
     failed_handles = []
     
     for feed in feeds:
+        feed_handle = feed['title']  # e.g., "@username"
+        
         try:
-            log_info('Fetcher', f"Fetching: {feed['title']} from {feed['url']}")
             # Use the context-aware fetch function
             parsed_feed = fetch_feed_with_context(feed['title'], feed['url'])
             
+            # Analyze the parsed feed for detailed logging
             if parsed_feed.feed and hasattr(parsed_feed.feed, 'title'):
+                # Feed was successfully parsed
                 feed['title'] = parsed_feed.feed.title
+                entry_count = len(parsed_feed.entries) if hasattr(parsed_feed, 'entries') else 0
                 successful_feeds += 1
+                log_success('Fetcher', f"{feed_handle} - Feed loaded successfully ({entry_count} entries found)")
             else:
+                # Feed failed - analyze why
+                failure_reason = analyze_feed_failure(parsed_feed, feed_handle)
+                log_warning('Fetcher', f"{feed_handle} - Feed failed: {failure_reason}")
                 handle = feed['title'].replace('@', '')
-                failed_handles.append(handle)
+                failed_handles.append({'handle': handle, 'reason': failure_reason})
                 continue
             
             for entry in parsed_feed.entries:
@@ -192,12 +200,66 @@ def get_posts(feeds, target_start, target_end):
                         'timestamp': pub_date
                     })
         except Exception as e:
-            log_error('Fetcher', f"Error fetching {feed['url']}", e)
+            # This catches exceptions that weren't handled by the retry mechanism
+            failure_reason = f"Exception: {str(e)}"
+            log_error('Fetcher', f"{feed_handle} - Feed failed: {failure_reason}")
             handle = feed['title'].replace('@', '')
-            failed_handles.append(handle)
+            failed_handles.append({'handle': handle, 'reason': failure_reason})
     
     results.sort(key=lambda x: x['timestamp'])
     return results, successful_feeds, failed_handles
+
+def analyze_feed_failure(parsed_feed, feed_handle):
+    """Analyze why a feed failed and return a descriptive reason.
+    
+    Args:
+        parsed_feed: The parsed feed object from feedparser
+        feed_handle: The feed handle (e.g., "@username")
+    
+    Returns:
+        str: Human-readable failure reason
+    """
+    # Check for feedparser bozo (malformed feed) errors
+    if hasattr(parsed_feed, 'bozo') and parsed_feed.bozo:
+        if hasattr(parsed_feed, 'bozo_exception'):
+            exception_type = type(parsed_feed.bozo_exception).__name__
+            if 'URLError' in exception_type or 'HTTPError' in exception_type:
+                return f"Network error ({exception_type})"
+            elif 'XML' in exception_type or 'SAX' in exception_type:
+                return f"Malformed RSS (XML parsing error)"
+            else:
+                return f"Feed parsing error ({exception_type})"
+        else:
+            return "Malformed RSS (bozo flag set)"
+    
+    # Check for HTTP status codes if available
+    if hasattr(parsed_feed, 'status'):
+        status = parsed_feed.status
+        if status == 404:
+            return "HTTP 404 (account not found)"
+        elif status == 403:
+            return "HTTP 403 (access denied/private account)"
+        elif status == 429:
+            return "HTTP 429 (rate limited)"
+        elif status >= 500:
+            return f"HTTP {status} (server error)"
+        elif status >= 400:
+            return f"HTTP {status} (client error)"
+    
+    # Check if feed object exists but is empty
+    if hasattr(parsed_feed, 'feed'):
+        if not parsed_feed.feed:
+            return "Empty feed (no feed object)"
+        elif not hasattr(parsed_feed.feed, 'title'):
+            return "Invalid feed structure (no title)"
+    
+    # Check if entries exist
+    if hasattr(parsed_feed, 'entries'):
+        if len(parsed_feed.entries) == 0:
+            return "Empty feed (no entries)"
+    
+    # Default fallback
+    return "Unknown error (feed validation failed)"
 
 def save_to_file(posts, output_file, date_str):
     """Save processed posts to output file."""
@@ -266,6 +328,12 @@ def fetch_and_format():
     posts, feeds_success, failed_handles = get_posts(feeds, target_start, target_end)
     
     log_info('Fetcher', f"Retrieved {len(posts)} posts from {feeds_success}/{feeds_total} feeds")
+    
+    # Log failed feeds summary if there are any failures
+    if failed_handles:
+        log_info('Fetcher', f"Failed feeds summary:")
+        for failed_feed in failed_handles:
+            log_info('Fetcher', f"- {failed_feed['handle']}: {failed_feed['reason']}")
     
     # Save to file
     save_to_file(posts, output_file, date_str)
