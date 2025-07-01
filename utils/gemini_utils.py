@@ -242,6 +242,9 @@ class GeminiTTSClient:
                 with open(mp3_file, 'wb') as f:
                     f.write(mp3_data)
                 
+                # Add metadata using mutagen
+                self._add_metadata_to_mp3(mp3_file, title, artist, album, genre, date_str)
+                
                 log_success('GeminiTTS', f"Python MP3 conversion successful: {os.path.basename(mp3_file)}")
                 return True
                 
@@ -255,6 +258,9 @@ class GeminiTTSClient:
                 import shutil
                 shutil.copy2(wav_file, mp3_file)
                 
+                # Try to add metadata even to the copied WAV file (renamed as .mp3)
+                self._add_metadata_to_mp3(mp3_file, title, artist, album, genre, date_str)
+                
                 log_info('GeminiTTS', f"File copied: {os.path.basename(wav_file)} → {os.path.basename(mp3_file)}")
                 log_info('GeminiTTS', "Note: Audio players will still play this file correctly")
                 return True
@@ -267,11 +273,68 @@ class GeminiTTSClient:
                 log_info('GeminiTTS', "Attempting simple file copy as fallback...")
                 import shutil
                 shutil.copy2(wav_file, mp3_file)
+                
+                # Try to add metadata even to the copied file
+                self._add_metadata_to_mp3(mp3_file, title, artist, album, genre, date_str)
+                
                 log_info('GeminiTTS', f"Fallback copy successful: {os.path.basename(mp3_file)}")
                 return True
             except Exception as copy_error:
                 log_error('GeminiTTS', f"Fallback copy also failed: {str(copy_error)}")
                 return False
+    
+    def _add_metadata_to_mp3(self, mp3_file, title=None, artist=None, album=None, genre=None, date_str=None):
+        """Add ID3 metadata to MP3 file using mutagen.
+        
+        Args:
+            mp3_file (str): Path to the MP3 file
+            title (str, optional): Title for the audio file metadata
+            artist (str, optional): Artist for the audio file metadata
+            album (str, optional): Album for the audio file metadata
+            genre (str, optional): Genre for the audio file metadata
+            date_str (str, optional): Date string for the audio file metadata
+        """
+        try:
+            from mutagen.mp3 import MP3
+            from mutagen.id3 import ID3NoHeaderError, TIT2, TPE1, TALB, TCON, TDRC
+            
+            # Load the MP3 file
+            try:
+                audio = MP3(mp3_file)
+            except ID3NoHeaderError:
+                # Add ID3 header if it doesn't exist
+                audio = MP3(mp3_file)
+                audio.add_tags()
+            
+            # Add metadata tags if provided
+            if title:
+                audio.tags.add(TIT2(encoding=3, text=title))
+                log_info('GeminiTTS', f"Added title: {title}")
+            
+            if artist:
+                audio.tags.add(TPE1(encoding=3, text=artist))
+                log_info('GeminiTTS', f"Added artist: {artist}")
+            
+            if album:
+                audio.tags.add(TALB(encoding=3, text=album))
+                log_info('GeminiTTS', f"Added album: {album}")
+            
+            if genre:
+                audio.tags.add(TCON(encoding=3, text=genre))
+                log_info('GeminiTTS', f"Added genre: {genre}")
+            
+            if date_str:
+                audio.tags.add(TDRC(encoding=3, text=date_str))
+                log_info('GeminiTTS', f"Added date: {date_str}")
+            
+            # Save the tags
+            audio.save()
+            log_success('GeminiTTS', f"Metadata added to: {os.path.basename(mp3_file)}")
+            
+        except ImportError:
+            log_info('GeminiTTS', "mutagen not available, skipping metadata addition")
+        except Exception as e:
+            log_error('GeminiTTS', f"Error adding metadata: {str(e)}")
 
     def _text_to_speech_impl(self, text, output_file, title=None, artist=None, album=None, genre=None, date_str=None):
         """Convert text to speech using Gemini TTS.
