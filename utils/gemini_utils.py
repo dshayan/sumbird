@@ -402,6 +402,8 @@ class GeminiTTSClient:
                     # Log other candidate attributes for debugging
                     if hasattr(candidate, 'finish_reason'):
                         log_info('GeminiTTS', f"Candidate finish_reason: {candidate.finish_reason}")
+                    if hasattr(candidate, 'finish_message'):
+                        log_info('GeminiTTS', f"Candidate finish_message: {candidate.finish_message}")
                     if hasattr(candidate, 'safety_ratings'):
                         log_info('GeminiTTS', f"Candidate safety_ratings: {candidate.safety_ratings}")
                     if hasattr(candidate, 'citation_metadata'):
@@ -422,6 +424,15 @@ class GeminiTTSClient:
                 log_error('GeminiTTS', f"Candidate attributes: {[attr for attr in dir(candidate) if not attr.startswith('_')]}")
                 if hasattr(candidate, 'finish_reason'):
                     log_error('GeminiTTS', f"Finish reason for empty content: {candidate.finish_reason}")
+                    
+                    # Check if this is a FinishReason.OTHER (API internal error)
+                    if str(candidate.finish_reason) == "FinishReason.OTHER":
+                        log_error('GeminiTTS', "API returned FinishReason.OTHER - this indicates an internal API error")
+                        log_error('GeminiTTS', "This is typically caused by content that the TTS engine cannot process")
+                        log_error('GeminiTTS', "Consider: 1) Text preprocessing, 2) Shorter chunks, 3) Different voice, 4) Reporting to Google")
+                        
+                if hasattr(candidate, 'finish_message'):
+                    log_error('GeminiTTS', f"Finish message for empty content: {candidate.finish_message}")
                 return None, 0, 0
                 
             if not response.candidates[0].content.parts:
