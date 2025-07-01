@@ -78,7 +78,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
                 # Building the failed handles string
                 failed_str = ""
                 if failed_handles and len(failed_handles) > 0:
-                    failed_str = f" (Failed: {', '.join(failed_handles)})"
+                    failed_str = f" (Failed: {', '.join([fh['handle'] for fh in failed_handles])})"
                 
                 log_step(log_file, False, f"{log_prefix}Fetched {feeds_success}/{feeds_total} sources{failed_str}")
                 log_file.write("──────────\n")
@@ -94,7 +94,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             # Building the failed handles string
             failed_str = ""
             if failed_handles and len(failed_handles) > 0:
-                failed_str = f" (Failed: {', '.join(failed_handles)})"
+                failed_str = f" (Failed: {', '.join([fh['handle'] for fh in failed_handles])})"
             
             log_step(log_file, fetch_success, f"{log_prefix}Fetched {feeds_success}/{feeds_total} sources{failed_str}")
             
