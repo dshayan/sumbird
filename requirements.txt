@@ -4,4 +4,5 @@ beautifulsoup4>=4.11.1
 python-dotenv>=0.21.0
 pytz>=2022.7
 google-genai>=1.16.0
-pydub>=0.25.1 
+pydub>=0.25.1
+simpleaudio>=1.0.4 
