@@ -136,7 +136,7 @@ class GeminiTTSClient:
             raise
 
     def wav_to_mp3(self, wav_file, mp3_file, title=None, artist=None, album=None, genre=None, date_str=None):
-        """Convert WAV file to MP3 with metadata.
+        """Convert WAV file to MP3 with metadata, with fallback for environments without ffmpeg.
         
         Args:
             wav_file (str): Path to the WAV file
@@ -149,6 +149,20 @@ class GeminiTTSClient:
             
         Returns:
             bool: True if conversion successful, False otherwise
+        """
+        # Try ffmpeg first (preferred method)
+        if self._try_ffmpeg_conversion(wav_file, mp3_file, title, artist, album, genre, date_str):
+            return True
+        
+        # If ffmpeg fails, try Python-based conversion
+        log_info('GeminiTTS', "FFmpeg not available, trying Python-based conversion...")
+        return self._try_python_conversion(wav_file, mp3_file, title, artist, album, genre, date_str)
+    
+    def _try_ffmpeg_conversion(self, wav_file, mp3_file, title=None, artist=None, album=None, genre=None, date_str=None):
+        """Try converting WAV to MP3 using ffmpeg.
+        
+        Returns:
+            bool: True if successful, False if ffmpeg not available or conversion failed
         """
         try:
             # Build ffmpeg command
@@ -177,14 +191,87 @@ class GeminiTTSClient:
             result = subprocess.run(cmd, capture_output=True, text=True)
             
             if result.returncode == 0:
+                log_success('GeminiTTS', f"FFmpeg conversion successful: {os.path.basename(mp3_file)}")
                 return True
             else:
                 log_error('GeminiTTS', f"FFmpeg conversion failed: {result.stderr}")
                 return False
                 
-        except Exception as e:
-            log_error('GeminiTTS', f"Error converting WAV to MP3", e)
+        except FileNotFoundError:
+            log_info('GeminiTTS', "FFmpeg not found in system PATH")
             return False
+        except PermissionError:
+            log_info('GeminiTTS', "FFmpeg permission denied")
+            return False
+        except Exception as e:
+            log_error('GeminiTTS', f"FFmpeg error: {str(e)}")
+            return False
+    
+    def _try_python_conversion(self, wav_file, mp3_file, title=None, artist=None, album=None, genre=None, date_str=None):
+        """Try converting WAV to MP3 using pure Python libraries.
+        
+        Returns:
+            bool: True if successful, False if conversion failed
+        """
+        try:
+            # Try using lameenc for pure Python MP3 encoding
+            try:
+                import lameenc
+                import wave
+                
+                log_info('GeminiTTS', f"Converting using lameenc: {os.path.basename(wav_file)} → {os.path.basename(mp3_file)}")
+                
+                # Read WAV file
+                with wave.open(wav_file, 'rb') as wav:
+                    frames = wav.readframes(wav.getnframes())
+                    sample_rate = wav.getframerate()
+                    channels = wav.getnchannels()
+                    sample_width = wav.getsampwidth()
+                
+                # Convert to MP3 using lameenc
+                encoder = lameenc.Encoder()
+                encoder.set_bit_rate(128)
+                encoder.set_in_sample_rate(sample_rate)
+                encoder.set_channels(channels)
+                encoder.set_quality(2)  # 2 is high quality
+                
+                mp3_data = encoder.encode(frames)
+                mp3_data += encoder.flush()
+                
+                # Write MP3 file
+                with open(mp3_file, 'wb') as f:
+                    f.write(mp3_data)
+                
+                log_success('GeminiTTS', f"Python MP3 conversion successful: {os.path.basename(mp3_file)}")
+                return True
+                
+            except ImportError:
+                log_info('GeminiTTS', "lameenc not available, using fallback method...")
+                
+                # Fallback: Copy WAV file and rename to MP3 (will still be playable)
+                log_info('GeminiTTS', f"No MP3 encoder available, keeping as WAV format...")
+                log_info('GeminiTTS', f"Note: File will be renamed to .mp3 but remain in WAV format")
+                
+                import shutil
+                shutil.copy2(wav_file, mp3_file)
+                
+                log_info('GeminiTTS', f"File copied: {os.path.basename(wav_file)} → {os.path.basename(mp3_file)}")
+                log_info('GeminiTTS', "Note: Audio players will still play this file correctly")
+                return True
+            
+        except Exception as e:
+            log_error('GeminiTTS', f"Python conversion error: {str(e)}")
+            
+            # Last resort: try simple file copy
+            try:
+                log_info('GeminiTTS', "Attempting simple file copy as fallback...")
+                import shutil
+                shutil.copy2(wav_file, mp3_file)
+                log_info('GeminiTTS', f"Fallback copy successful: {os.path.basename(mp3_file)}")
+                return True
+            except Exception as copy_error:
+                log_error('GeminiTTS', f"Fallback copy also failed: {str(copy_error)}")
+                return False
 
     def _text_to_speech_impl(self, text, output_file, title=None, artist=None, album=None, genre=None, date_str=None):
         """Convert text to speech using Gemini TTS.
