@@ -301,10 +301,21 @@ class GeminiTTSClient:
             # Load the MP3 file
             try:
                 audio = MP3(mp3_file)
+                # Check if tags exist, if not add them
+                if audio.tags is None:
+                    audio.add_tags()
             except ID3NoHeaderError:
                 # Add ID3 header if it doesn't exist
                 audio = MP3(mp3_file)
                 audio.add_tags()
+            except Exception as e:
+                log_error('GeminiTTS', f"Error loading MP3 file: {str(e)}")
+                return
+            
+            # Ensure tags are available before adding metadata
+            if audio.tags is None:
+                log_error('GeminiTTS', "Could not initialize ID3 tags")
+                return
             
             # Add metadata tags if provided
             if title:
