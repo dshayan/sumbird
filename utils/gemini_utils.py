@@ -115,8 +115,8 @@ class GeminiTTSClient:
             self.timeout = timeout
         self.client = genai.Client(api_key=self.api_key)
         
-        # Apply retry decorator with instance timeout - using TTS-specific retry logic
-        self.text_to_speech = self._text_to_speech_with_retry
+        # Apply retry decorator with instance timeout
+        self.text_to_speech = with_retry_sync(timeout=self.timeout, max_attempts=3)(self._text_to_speech_impl)
 
     def save_wave_file(self, filename, pcm_data):
         """Save PCM data as a WAV file.
@@ -347,142 +347,6 @@ class GeminiTTSClient:
         except Exception as e:
             log_error('GeminiTTS', f"Error adding metadata: {str(e)}")
 
-    def _validate_tts_response(self, response, text):
-        """Validate TTS response structure with enhanced logging.
-        
-        Args:
-            response: Gemini TTS API response
-            text (str): Original text that was sent for TTS
-            
-        Returns:
-            bool: True if response is valid, False otherwise
-        """
-        try:
-            # Log response structure for debugging
-            log_info('GeminiTTS', f"Response validation for text length: {len(text)} chars")
-            
-            # Check candidates
-            if not response.candidates:
-                log_error('GeminiTTS', "No candidates in response")
-                log_error('GeminiTTS', f"Response object type: {type(response)}")
-                log_error('GeminiTTS', f"Response attributes: {dir(response)}")
-                return False
-            
-            log_info('GeminiTTS', f"Found {len(response.candidates)} candidate(s)")
-            
-            # Check first candidate
-            first_candidate = response.candidates[0]
-            if not first_candidate.content:
-                log_error('GeminiTTS', "No content in first candidate")
-                log_error('GeminiTTS', f"Candidate type: {type(first_candidate)}")
-                log_error('GeminiTTS', f"Candidate attributes: {dir(first_candidate)}")
-                
-                # Check if candidate has finish_reason or other diagnostic info
-                if hasattr(first_candidate, 'finish_reason'):
-                    log_error('GeminiTTS', f"Candidate finish_reason: {first_candidate.finish_reason}")
-                if hasattr(first_candidate, 'safety_ratings'):
-                    log_error('GeminiTTS', f"Candidate safety_ratings: {first_candidate.safety_ratings}")
-                
-                # Log text characteristics that might cause issues
-                log_error('GeminiTTS', f"Text preview (first 100 chars): {text[:100]}")
-                log_error('GeminiTTS', f"Text contains non-ASCII: {any(ord(c) > 127 for c in text)}")
-                log_error('GeminiTTS', f"Text encoding: {text.encode('utf-8')[:50]}...")
-                
-                return False
-                
-            # Check content parts
-            if not first_candidate.content.parts:
-                log_error('GeminiTTS', "No parts in content")
-                log_error('GeminiTTS', f"Content type: {type(first_candidate.content)}")
-                log_error('GeminiTTS', f"Content attributes: {dir(first_candidate.content)}")
-                return False
-                
-            log_info('GeminiTTS', f"Found {len(first_candidate.content.parts)} part(s)")
-            
-            # Check inline_data
-            first_part = first_candidate.content.parts[0]
-            if not first_part.inline_data:
-                log_error('GeminiTTS', "No inline_data in first part")
-                log_error('GeminiTTS', f"Part type: {type(first_part)}")
-                log_error('GeminiTTS', f"Part attributes: {dir(first_part)}")
-                return False
-            
-            # Check if inline_data has actual audio data
-            if not first_part.inline_data.data:
-                log_error('GeminiTTS', "No data in inline_data")
-                log_error('GeminiTTS', f"inline_data type: {type(first_part.inline_data)}")
-                log_error('GeminiTTS', f"inline_data attributes: {dir(first_part.inline_data)}")
-                return False
-            
-            # Log successful validation
-            audio_data_size = len(first_part.inline_data.data)
-            log_info('GeminiTTS', f"Response validation successful: {audio_data_size} bytes of audio data")
-            
-            return True
-            
-        except Exception as e:
-            log_error('GeminiTTS', f"Error during response validation: {str(e)}")
-                         log_error('GeminiTTS', f"Exception type: {type(e)}")
-             return False
-
-    def _text_to_speech_with_retry(self, text, output_file, title=None, artist=None, album=None, genre=None, date_str=None):
-        """Text-to-speech with enhanced retry logic for malformed responses.
-        
-        Args:
-            text (str): Text to convert to speech
-            output_file (str): Path to save the audio file
-            title (str, optional): Title for the audio file metadata
-            artist (str, optional): Artist for the audio file metadata
-            album (str, optional): Album for the audio file metadata
-            genre (str, optional): Genre for the audio file metadata
-            date_str (str, optional): Date string for the audio file metadata
-            
-        Returns:
-            tuple: (audio_file_path, input_tokens, output_tokens) or (None, 0, 0) if failed
-        """
-        import time
-        
-        max_attempts = 3
-        base_delay = 2  # seconds
-        
-        for attempt in range(1, max_attempts + 1):
-            try:
-                log_info('GeminiTTS', f"TTS attempt {attempt}/{max_attempts}")
-                
-                result = self._text_to_speech_impl(text, output_file, title, artist, album, genre, date_str)
-                
-                # If successful, return immediately
-                if result[0] is not None:
-                    if attempt > 1:
-                        log_success('GeminiTTS', f"TTS succeeded on attempt {attempt}")
-                    return result
-                
-                # If this was the last attempt, return the failure
-                if attempt == max_attempts:
-                    log_error('GeminiTTS', f"TTS failed after {max_attempts} attempts")
-                    return result
-                
-                # Calculate delay with exponential backoff
-                delay = base_delay * (2 ** (attempt - 1))
-                log_info('GeminiTTS', f"TTS attempt {attempt} failed, retrying in {delay} seconds...")
-                time.sleep(delay)
-                
-            except Exception as e:
-                log_error('GeminiTTS', f"TTS attempt {attempt} raised exception: {str(e)}")
-                
-                # If this was the last attempt, re-raise the exception
-                if attempt == max_attempts:
-                    log_error('GeminiTTS', f"TTS failed with exception after {max_attempts} attempts")
-                    raise
-                
-                # Calculate delay and retry
-                delay = base_delay * (2 ** (attempt - 1))
-                log_info('GeminiTTS', f"Retrying TTS in {delay} seconds after exception...")
-                time.sleep(delay)
-        
-        # Should never reach here, but just in case
-        return None, 0, 0
-
     def _text_to_speech_impl(self, text, output_file, title=None, artist=None, album=None, genre=None, date_str=None):
         """Convert text to speech using Gemini TTS.
         
@@ -520,9 +384,57 @@ class GeminiTTSClient:
             
             log_info('GeminiTTS', f"Response received: candidates={len(response.candidates) if response.candidates else 0}")
             
-            # Enhanced validation with detailed logging
-            validation_result = self._validate_tts_response(response, text)
-            if not validation_result:
+            # Enhanced error logging for response structure analysis
+            try:
+                # Log detailed response structure for debugging
+                log_info('GeminiTTS', f"Response type: {type(response)}")
+                if hasattr(response, 'candidates') and response.candidates:
+                    log_info('GeminiTTS', f"First candidate type: {type(response.candidates[0])}")
+                    candidate = response.candidates[0]
+                    
+                    # Log candidate attributes
+                    if hasattr(candidate, 'content'):
+                        log_info('GeminiTTS', f"Candidate content type: {type(candidate.content)}")
+                        log_info('GeminiTTS', f"Candidate content is None: {candidate.content is None}")
+                    else:
+                        log_error('GeminiTTS', "Candidate has no 'content' attribute")
+                    
+                    # Log other candidate attributes for debugging
+                    if hasattr(candidate, 'finish_reason'):
+                        log_info('GeminiTTS', f"Candidate finish_reason: {candidate.finish_reason}")
+                    if hasattr(candidate, 'safety_ratings'):
+                        log_info('GeminiTTS', f"Candidate safety_ratings: {candidate.safety_ratings}")
+                    if hasattr(candidate, 'citation_metadata'):
+                        log_info('GeminiTTS', f"Candidate citation_metadata: {candidate.citation_metadata}")
+                        
+            except Exception as debug_error:
+                log_error('GeminiTTS', f"Error during response structure debugging: {str(debug_error)}")
+            
+            # Check if response has valid candidates and content
+            if not response.candidates:
+                log_error('GeminiTTS', "No candidates in response")
+                return None, 0, 0
+            
+            if not response.candidates[0].content:
+                log_error('GeminiTTS', "No content in first candidate")
+                # Additional debugging for empty content
+                candidate = response.candidates[0]
+                log_error('GeminiTTS', f"Candidate attributes: {[attr for attr in dir(candidate) if not attr.startswith('_')]}")
+                if hasattr(candidate, 'finish_reason'):
+                    log_error('GeminiTTS', f"Finish reason for empty content: {candidate.finish_reason}")
+                return None, 0, 0
+                
+            if not response.candidates[0].content.parts:
+                log_error('GeminiTTS', "No parts in content")
+                log_error('GeminiTTS', f"Content type: {type(response.candidates[0].content)}")
+                log_error('GeminiTTS', f"Content attributes: {[attr for attr in dir(response.candidates[0].content) if not attr.startswith('_')]}")
+                return None, 0, 0
+                
+            if not response.candidates[0].content.parts[0].inline_data:
+                log_error('GeminiTTS', "No inline_data in first part")
+                part = response.candidates[0].content.parts[0]
+                log_error('GeminiTTS', f"Part type: {type(part)}")
+                log_error('GeminiTTS', f"Part attributes: {[attr for attr in dir(part) if not attr.startswith('_')]}")
                 return None, 0, 0
             
             # Get the audio data
