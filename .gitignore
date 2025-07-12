@@ -68,3 +68,6 @@ temp/
 # Prompts - keep only example files
 /prompts/*.txt
 !/prompts/*.txt.example
+
+# Scheduling scripts (user-specific)
+scripts/schedule.sh
