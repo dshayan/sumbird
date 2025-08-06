@@ -236,11 +236,11 @@ class NewsletterGenerator:
                 post_html = f'''
                 {divider_html}
                 <article>
-                    <h2>
+                    <h1>
                         <a href="posts/{date_str}.html">
                             {content_data.get('title', 'AI Updates')}
                         </a>
-                    </h2>
+                    </h1>
                     <div class="prose">
                         {content_data.get('content', '')}
                     </div>
@@ -331,11 +331,11 @@ class NewsletterGenerator:
                     post_html = f'''
                     {divider_html}
                     <article>
-                        <h2>
+                        <h1>
                             <a href="posts/{date_str}.html">
                                 {content_data.get('title', 'AI Updates')}
                             </a>
-                        </h2>
+                        </h1>
                         <div class="prose">
                             {content_data.get('content', '')}
                         </div>

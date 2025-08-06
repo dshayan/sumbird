@@ -89,9 +89,7 @@ def parse_element_to_node(element, is_persian=False):
     # Handle different element types
     tag_name = element.name
     
-    # Convert h2 to h3 for Telegraph
-    if tag_name == 'h2':
-        tag_name = 'h3'
+
     
     # Create node with tag
     node = {'tag': tag_name}
@@ -110,7 +108,7 @@ def parse_element_to_node(element, is_persian=False):
             children.append(parsed_child)
     
     # For Persian content, wrap text content with RTL embedding characters
-    if is_persian and children and tag_name in ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li']:
+    if is_persian and children and tag_name in ['p', 'h1', 'h3', 'h4', 'h5', 'h6', 'li']:
         # Apply RTL formatting to all children
         children = apply_rtl_formatting(children)
         # Add Right-to-Left Override (RLO) at the beginning and Pop Directional Formatting (PDF) at the end
