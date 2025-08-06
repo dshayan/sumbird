@@ -68,7 +68,7 @@ body {
 
 .header-title {
   font-size: var(--text-lg);
-  font-weight: 700;
+  font-weight: 600;
   color: var(--text);
   text-decoration: none;
 }
@@ -224,7 +224,7 @@ article h1 a:hover {
 }
 
 .footer-title {
-  font-weight: 700;
+  font-weight: 600;
   color: var(--text);
 }
 
