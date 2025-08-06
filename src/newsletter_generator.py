@@ -211,7 +211,7 @@ class NewsletterGenerator:
             return False
     
     def generate_homepage(self, recent_posts: List[Tuple[str, Dict[str, str]]]) -> bool:
-        """Generate homepage with recent posts.
+        """Generate homepage with recent posts and pagination.
         
         Args:
             recent_posts: List of (date_str, content_data) tuples for recent posts.
@@ -226,14 +226,12 @@ class NewsletterGenerator:
                 log_error("Newsletter Generator", f"Could not read homepage: {self.homepage_path}")
                 return False
             
-            # Generate posts HTML
+            # Generate posts HTML for first page (5 posts)
+            posts_per_page = 5
+            first_page_posts = recent_posts[:posts_per_page]
             posts_html = ""
-            for date_str, content_data in recent_posts[:10]:  # Show 10 most recent
-                date_formats = self.format_date(date_str)
-                
-                # Use full content instead of preview
-                full_content = content_data.get('content', '')
-                
+            
+            for date_str, content_data in first_page_posts:
                 # Add divider for all posts except the first one
                 divider_html = '''
                 <div class="border-t border-gray-200 my-16"></div>
@@ -242,16 +240,13 @@ class NewsletterGenerator:
                 post_html = f'''
                 {divider_html}
                 <article class="mb-16">
-                    <div class="text-center mb-6">
-                        <time class="text-sm text-gray-400 font-light tracking-wide" datetime="{date_formats['iso_date']}">{date_formats['display_date']}</time>
-                    </div>
-                    <h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+                    <h2 class="text-3xl font-light text-dark-text mb-8 tracking-tight leading-tight">
                         <a href="posts/{date_str}.html" class="hover:text-primary-blue transition-colors">
                             {content_data.get('title', 'AI Updates')}
                         </a>
                     </h2>
                     <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
-                        {full_content}
+                        {content_data.get('content', '')}
                     </div>
                 </article>
                 '''
@@ -264,11 +259,67 @@ class NewsletterGenerator:
                 posts_container.clear()
                 posts_container.append(BeautifulSoup(posts_html, 'html.parser'))
                 
+                # Update load more button
+                load_more_btn = soup.find('button', {'disabled': True})
+                if load_more_btn and len(recent_posts) > posts_per_page:
+                    # Enable the button and add functionality
+                    del load_more_btn['disabled']
+                    load_more_btn['onclick'] = 'loadMorePosts()'
+                    load_more_btn['id'] = 'load-more-btn'
+                
+                # Add JavaScript for load more functionality
+                script_tag = soup.new_tag('script')
+                script_tag.string = f'''
+                let currentPage = 1;
+                const postsPerPage = {posts_per_page};
+                const allPosts = {self._generate_posts_json(recent_posts)};
+                
+                function loadMorePosts() {{
+                    const startIndex = currentPage * postsPerPage;
+                    const endIndex = startIndex + postsPerPage;
+                    const postsToLoad = allPosts.slice(startIndex, endIndex);
+                    
+                    if (postsToLoad.length === 0) {{
+                        document.getElementById('load-more-btn').style.display = 'none';
+                        return;
+                    }}
+                    
+                    const postsContainer = document.getElementById('posts-container');
+                    
+                    postsToLoad.forEach(post => {{
+                        const divider = document.createElement('div');
+                        divider.className = 'border-t border-gray-200 my-16';
+                        postsContainer.appendChild(divider);
+                        
+                        const article = document.createElement('article');
+                        article.className = 'mb-16';
+                        article.innerHTML = `
+                            <h2 class="text-3xl font-light text-dark-text mb-8 tracking-tight leading-tight">
+                                <a href="posts/${{post.date}}.html" class="hover:text-primary-blue transition-colors">
+                                    ${{post.title}}
+                                </a>
+                            </h2>
+                            <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
+                                ${{post.content}}
+                            </div>
+                        `;
+                        postsContainer.appendChild(article);
+                    }});
+                    
+                    currentPage++;
+                    
+                    if (startIndex + postsPerPage >= allPosts.length) {{
+                        document.getElementById('load-more-btn').style.display = 'none';
+                    }}
+                }}
+                '''
+                soup.body.append(script_tag)
+                
                 # Write updated homepage
                 with open(self.homepage_path, 'w', encoding='utf-8') as f:
                     f.write(str(soup))
                 
-                log_info("Newsletter Generator", f"Updated homepage with {len(recent_posts[:10])} posts")
+                log_info("Newsletter Generator", f"Updated homepage with {len(first_page_posts)} posts (pagination enabled)")
                 return True
             else:
                 log_error("Newsletter Generator", "Could not find posts container in homepage")
@@ -277,6 +328,18 @@ class NewsletterGenerator:
         except Exception as e:
             log_error("Newsletter Generator", f"Error generating homepage", e)
             return False
+    
+    def _generate_posts_json(self, posts: List[Tuple[str, Dict[str, str]]]) -> str:
+        """Generate JSON string of posts for JavaScript pagination."""
+        import json
+        posts_data = []
+        for date_str, content_data in posts:
+            posts_data.append({
+                'date': date_str,
+                'title': content_data.get('title', 'AI Updates'),
+                'content': content_data.get('content', '').replace('\n', ' ').replace('"', '\\"')
+            })
+        return json.dumps(posts_data)
     
     def _extract_preview(self, soup: BeautifulSoup, max_length: int = 300) -> str:
         """Extract preview text from content.
