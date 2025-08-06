@@ -12,52 +12,46 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        'sf': ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Segoe UI', 'Roboto', 'sans-serif'],
+                        'inter': ['Inter', 'system-ui', 'sans-serif'],
                     },
                     colors: {
-                        'apple-blue': '#007AFF',
-                        'apple-gray': '#F2F2F7',
-                        'apple-dark': '#1C1C1E',
-                        'apple-light': '#FAFAFA',
+                        'primary-blue': '#007AFF',
+                        'light-gray': '#F2F2F7',
+                        'dark-text': '#1C1C1E',
+                        'light-bg': '#FAFAFA',
                     }
                 }
             }
         }
     </script>
-<link href="feed.xml" rel="alternate" title="Sumbird Newsletter RSS Feed" type="application/rss+xml"/>
-<link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🐦&lt;/text&gt;&lt;/svg&gt;" rel="icon"/>
-</head>
-<body class="font-sf bg-apple-light min-h-screen">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="feed.xml" rel="alternate" title="Sumbird Newsletter RSS Feed" type="application/rss+xml">
+<link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🐦&lt;/text&gt;&lt;/svg&gt;" rel="icon">
+</link></link></head>
+<body class="font-inter bg-white min-h-screen">
 <!-- Header -->
-<header class="bg-white/80 backdrop-blur-xl border-b border-gray-200/50">
-<div class="max-w-5xl mx-auto px-6 py-8">
-<div class="flex items-center justify-between">
-<div>
-<h1 class="text-4xl font-light text-apple-dark tracking-tight">Sumbird</h1>
+<header class="border-b border-gray-200">
+<div class="max-w-4xl mx-auto px-6 py-8">
+<div class="text-center">
+<h1 class="text-4xl font-light text-dark-text tracking-tight">Sumbird</h1>
 <p class="text-gray-500 mt-2 font-light">Daily AI news and insights</p>
-</div>
-<a class="inline-flex items-center px-5 py-2.5 bg-apple-blue text-white rounded-full hover:bg-blue-600 transition-all duration-200 font-medium text-sm" href="feed.xml">
-<svg class="w-4 h-4 mr-2" fill="currentColor" viewbox="0 0 20 20">
-<path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z"></path>
-</svg>
-                    Subscribe
-                </a>
 </div>
 </div>
 </header>
 <!-- Main Content -->
-<main class="max-w-5xl mx-auto px-6 py-12">
+<main class="max-w-4xl mx-auto px-6 py-12">
 <!-- Posts will be inserted here by the generator -->
 <div id="posts-container">
-<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-<div class="p-8">
+<article class="mb-16">
 <div class="text-center mb-6">
 <time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-08-05">Aug 05, 2025</time>
 </div>
-<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-<a class="hover:text-apple-blue transition-colors" href="posts/2025-08-05.html">
-                                AI Updates on 2025-08-05
-                            </a>
+<h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-primary-blue transition-colors" href="posts/2025-08-05.html">
+                            AI Updates on 2025-08-05
+                        </a>
 </h2>
 <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
@@ -99,17 +93,16 @@
 <li>Stanford NLP celebrates team member Luong Minh-Thang leading Google DeepMind's gold medal achievement at International Mathematical Olympiad, with models operating end-to-end in natural language producing proofs directly from official problems <em><a href="https://x.com/stanfordnlp/status/1952803377865269448">@stanfordnlp</a></em></li>
 </ul>
 </div>
-</div>
 </article>
-<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-<div class="p-8">
+<div class="border-t border-gray-200 my-16"></div>
+<article class="mb-16">
 <div class="text-center mb-6">
 <time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-08-04">Aug 04, 2025</time>
 </div>
-<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-<a class="hover:text-apple-blue transition-colors" href="posts/2025-08-04.html">
-                                AI Updates on 2025-08-04
-                            </a>
+<h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-primary-blue transition-colors" href="posts/2025-08-04.html">
+                            AI Updates on 2025-08-04
+                        </a>
 </h2>
 <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
@@ -152,17 +145,16 @@
 <li>Qwen-Image technical report reveals the model used <b>Qwen-2.5 VL vision LLM</b> to generate captions for training data and employed synthetic data techniques for text rendering capabilities <em><a href="https://x.com/simonw/status/1952447959448395864">@simonw</a></em></li>
 </ul>
 </div>
-</div>
 </article>
-<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-<div class="p-8">
+<div class="border-t border-gray-200 my-16"></div>
+<article class="mb-16">
 <div class="text-center mb-6">
 <time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-08-03">Aug 03, 2025</time>
 </div>
-<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-<a class="hover:text-apple-blue transition-colors" href="posts/2025-08-03.html">
-                                AI Updates on 2025-08-03
-                            </a>
+<h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-primary-blue transition-colors" href="posts/2025-08-03.html">
+                            AI Updates on 2025-08-03
+                        </a>
 </h2>
 <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
@@ -202,17 +194,16 @@
 <li>Alex Graveley questions vision reasoning capabilities beyond behavior cloning, suggesting skepticism about training LLMs from internet data versus hand-crafted environments <em><a href="https://x.com/alexgraveley/status/1952045449977954660">@alexgraveley</a></em></li>
 </ul>
 </div>
-</div>
 </article>
-<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-<div class="p-8">
+<div class="border-t border-gray-200 my-16"></div>
+<article class="mb-16">
 <div class="text-center mb-6">
 <time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-08-02">Aug 02, 2025</time>
 </div>
-<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-<a class="hover:text-apple-blue transition-colors" href="posts/2025-08-02.html">
-                                AI Updates on 2025-08-02
-                            </a>
+<h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-primary-blue transition-colors" href="posts/2025-08-02.html">
+                            AI Updates on 2025-08-02
+                        </a>
 </h2>
 <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
@@ -250,17 +241,16 @@
 <li>Aidan McLaughlin criticizes barriers preventing AI researchers from accessing competitor models, arguing it hinders important qualitative research on model behavior <em><a href="https://x.com/aidan_mclau/status/1951507361270734980">@aidan_mclau</a></em></li>
 </ul>
 </div>
-</div>
 </article>
-<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-<div class="p-8">
+<div class="border-t border-gray-200 my-16"></div>
+<article class="mb-16">
 <div class="text-center mb-6">
 <time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-08-01">Aug 01, 2025</time>
 </div>
-<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-<a class="hover:text-apple-blue transition-colors" href="posts/2025-08-01.html">
-                                AI Updates on 2025-08-01
-                            </a>
+<h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-primary-blue transition-colors" href="posts/2025-08-01.html">
+                            AI Updates on 2025-08-01
+                        </a>
 </h2>
 <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
@@ -296,17 +286,16 @@
 <li>Research demonstrates AI models can be fragile in benchmarking, appearing successful with PASS@10 metrics while failing often in real-world applications <em><a href="https://x.com/emollick/status/1951046579009495249">@emollick</a></em></li>
 </ul>
 </div>
-</div>
 </article>
-<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-<div class="p-8">
+<div class="border-t border-gray-200 my-16"></div>
+<article class="mb-16">
 <div class="text-center mb-6">
 <time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-07-31">Jul 31, 2025</time>
 </div>
-<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-<a class="hover:text-apple-blue transition-colors" href="posts/2025-07-31.html">
-                                AI Updates on 2025-07-31
-                            </a>
+<h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-primary-blue transition-colors" href="posts/2025-07-31.html">
+                            AI Updates on 2025-07-31
+                        </a>
 </h2>
 <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
@@ -357,17 +346,16 @@
 <li>Step 3 model proposes new <b>infrastructure-level optimization</b> of Attention and FFN disaggregation, demonstrating model and infrastructure co-design approach <em><a href="https://x.com/Xianbao_QIAN/status/1950917239915397334">@Xianbao_QIAN</a></em></li>
 </ul>
 </div>
-</div>
 </article>
-<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-<div class="p-8">
+<div class="border-t border-gray-200 my-16"></div>
+<article class="mb-16">
 <div class="text-center mb-6">
 <time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-07-30">Jul 30, 2025</time>
 </div>
-<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-<a class="hover:text-apple-blue transition-colors" href="posts/2025-07-30.html">
-                                AI Updates on 2025-07-30
-                            </a>
+<h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-primary-blue transition-colors" href="posts/2025-07-30.html">
+                            AI Updates on 2025-07-30
+                        </a>
 </h2>
 <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
@@ -410,17 +398,16 @@
 <li>Simon Willison notes that July has been an incredible month for model releases from Chinese AI labs, with the best available open weight models now coming from Chinese companies <em><a href="https://x.com/simonw/status/1950592653047062578">@simonw</a></em></li>
 </ul>
 </div>
-</div>
 </article>
-<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-<div class="p-8">
+<div class="border-t border-gray-200 my-16"></div>
+<article class="mb-16">
 <div class="text-center mb-6">
 <time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-07-29">Jul 29, 2025</time>
 </div>
-<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-<a class="hover:text-apple-blue transition-colors" href="posts/2025-07-29.html">
-                                AI Updates on 2025-07-29
-                            </a>
+<h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-primary-blue transition-colors" href="posts/2025-07-29.html">
+                            AI Updates on 2025-07-29
+                        </a>
 </h2>
 <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
@@ -468,17 +455,16 @@
 <li>Alibaba Qwen's GSPO paper becomes third most popular on Hugging Face for the month, expected to have massive impact on the field <em><a href="https://x.com/ClementDelangue/status/1949934196148895799">@ClementDelangue</a></em></li>
 </ul>
 </div>
-</div>
 </article>
-<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-<div class="p-8">
+<div class="border-t border-gray-200 my-16"></div>
+<article class="mb-16">
 <div class="text-center mb-6">
 <time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-07-28">Jul 28, 2025</time>
 </div>
-<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-<a class="hover:text-apple-blue transition-colors" href="posts/2025-07-28.html">
-                                AI Updates on 2025-07-28
-                            </a>
+<h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-primary-blue transition-colors" href="posts/2025-07-28.html">
+                            AI Updates on 2025-07-28
+                        </a>
 </h2>
 <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
@@ -518,17 +504,16 @@
 <li>Research on real-time AI companions identifies challenges in achieving 10hz human conversation frequency versus current 1-2hz LLM reaction times, requiring advances in multi-modal processing and long-context understanding <em><a href="https://x.com/ericjang11/status/1949862356001140889">@ericjang11</a></em></li>
 </ul>
 </div>
-</div>
 </article>
-<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-<div class="p-8">
+<div class="border-t border-gray-200 my-16"></div>
+<article class="mb-16">
 <div class="text-center mb-6">
 <time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-07-27">Jul 27, 2025</time>
 </div>
-<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-<a class="hover:text-apple-blue transition-colors" href="posts/2025-07-27.html">
-                                AI Updates on 2025-07-27
-                            </a>
+<h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-primary-blue transition-colors" href="posts/2025-07-27.html">
+                            AI Updates on 2025-07-27
+                        </a>
 </h2>
 <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
@@ -568,29 +553,28 @@
 <li>Novel games are being used to test AI capabilities, with researchers developing chess variants and other game formats to evaluate AI performance in new domains <em><a href="https://x.com/emollick/status/1949238033305538814">@emollick</a></em></li>
 </ul>
 </div>
-</div>
 </article>
 </div>
 <!-- Load More Button (for future pagination) -->
 <div class="text-center mt-16">
-<button class="px-8 py-3 bg-gray-100 text-gray-600 rounded-full hover:bg-gray-200 transition-all duration-200 font-medium disabled:opacity-50" disabled="">
+<button class="px-8 py-3 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200 transition-all duration-200 font-medium disabled:opacity-50" disabled="">
                 Load More
             </button>
 </div>
 </main>
 <!-- Footer -->
-<footer class="bg-white/50 border-t border-gray-200/50 mt-24">
-<div class="max-w-5xl mx-auto px-6 py-12">
+<footer class="border-t border-gray-200 mt-24">
+<div class="max-w-4xl mx-auto px-6 py-12">
 <div class="text-center">
 <div class="mb-6">
-<h3 class="text-lg font-light text-apple-dark mb-2">Sumbird</h3>
+<h3 class="text-lg font-light text-dark-text mb-2">Sumbird</h3>
 <p class="text-gray-500 font-light">Powered by AI, curated for humans</p>
 </div>
 <div class="flex justify-center space-x-8">
-<a class="text-gray-400 hover:text-apple-blue transition-colors font-light" href="feed.xml">RSS Feed</a>
-<a class="text-gray-400 hover:text-apple-blue transition-colors font-light" href="https://github.com/dshayan/sumbird">GitHub</a>
+<a class="text-gray-400 hover:text-primary-blue transition-colors font-light" href="feed.xml">RSS Feed</a>
+<a class="text-gray-400 hover:text-primary-blue transition-colors font-light" href="https://github.com/dshayan/sumbird">GitHub</a>
 </div>
-<div class="mt-8 pt-6 border-t border-gray-200/50">
+<div class="mt-8 pt-6 border-t border-gray-200">
 <p class="text-sm text-gray-400 font-light">© 2025 Sumbird. All rights reserved.</p>
 </div>
 </div>

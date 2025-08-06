@@ -234,20 +234,24 @@ class NewsletterGenerator:
                 # Use full content instead of preview
                 full_content = content_data.get('content', '')
                 
+                # Add divider for all posts except the first one
+                divider_html = '''
+                <div class="border-t border-gray-200 my-16"></div>
+                ''' if posts_html else ''
+                
                 post_html = f'''
-                <article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
-                    <div class="p-8">
-                        <div class="text-center mb-6">
-                            <time class="text-sm text-gray-400 font-light tracking-wide" datetime="{date_formats['iso_date']}">{date_formats['display_date']}</time>
-                        </div>
-                        <h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
-                            <a href="posts/{date_str}.html" class="hover:text-apple-blue transition-colors">
-                                {content_data.get('title', 'AI Updates')}
-                            </a>
-                        </h2>
-                        <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
-                            {full_content}
-                        </div>
+                {divider_html}
+                <article class="mb-16">
+                    <div class="text-center mb-6">
+                        <time class="text-sm text-gray-400 font-light tracking-wide" datetime="{date_formats['iso_date']}">{date_formats['display_date']}</time>
+                    </div>
+                    <h2 class="text-3xl font-light text-dark-text mb-8 text-center tracking-tight leading-tight">
+                        <a href="posts/{date_str}.html" class="hover:text-primary-blue transition-colors">
+                            {content_data.get('title', 'AI Updates')}
+                        </a>
+                    </h2>
+                    <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
+                        {full_content}
                     </div>
                 </article>
                 '''
