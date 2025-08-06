@@ -235,17 +235,17 @@ class NewsletterGenerator:
                 full_content = content_data.get('content', '')
                 
                 post_html = f'''
-                <article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-4">
-                            <time class="text-sm text-gray-500" datetime="{date_formats['iso_date']}">{date_formats['display_date']}</time>
+                <article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+                    <div class="p-8">
+                        <div class="text-center mb-6">
+                            <time class="text-sm text-gray-400 font-light tracking-wide" datetime="{date_formats['iso_date']}">{date_formats['display_date']}</time>
                         </div>
-                        <h2 class="text-xl font-semibold text-gray-900 mb-3">
-                            <a href="posts/{date_str}.html" class="hover:text-blue-600 transition-colors">
+                        <h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+                            <a href="posts/{date_str}.html" class="hover:text-apple-blue transition-colors">
                                 {content_data.get('title', 'AI Updates')}
                             </a>
                         </h2>
-                        <div class="prose prose-gray max-w-none">
+                        <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
                             {full_content}
                         </div>
                     </div>

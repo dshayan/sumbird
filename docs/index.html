@@ -7,42 +7,59 @@
 <title>Sumbird Newsletter - AI News Daily</title>
 <meta content="Daily AI news and updates curated by Sumbird" name="description"/>
 <script src="https://cdn.tailwindcss.com"></script>
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sf': ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Segoe UI', 'Roboto', 'sans-serif'],
+                    },
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#F2F2F7',
+                        'apple-dark': '#1C1C1E',
+                        'apple-light': '#FAFAFA',
+                    }
+                }
+            }
+        }
+    </script>
 <link href="feed.xml" rel="alternate" title="Sumbird Newsletter RSS Feed" type="application/rss+xml"/>
 <link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🐦&lt;/text&gt;&lt;/svg&gt;" rel="icon"/>
 </head>
-<body class="bg-gray-50 min-h-screen">
+<body class="font-sf bg-apple-light min-h-screen">
 <!-- Header -->
-<header class="bg-white shadow-sm border-b">
-<div class="max-w-4xl mx-auto px-4 py-6">
+<header class="bg-white/80 backdrop-blur-xl border-b border-gray-200/50">
+<div class="max-w-5xl mx-auto px-6 py-8">
 <div class="flex items-center justify-between">
 <div>
-<h1 class="text-3xl font-bold text-gray-900">Sumbird Newsletter</h1>
-<p class="text-gray-600 mt-1">Daily AI news and updates</p>
+<h1 class="text-4xl font-light text-apple-dark tracking-tight">Sumbird</h1>
+<p class="text-gray-500 mt-2 font-light">Daily AI news and insights</p>
 </div>
-<a class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" href="feed.xml">
+<a class="inline-flex items-center px-5 py-2.5 bg-apple-blue text-white rounded-full hover:bg-blue-600 transition-all duration-200 font-medium text-sm" href="feed.xml">
 <svg class="w-4 h-4 mr-2" fill="currentColor" viewbox="0 0 20 20">
 <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z"></path>
 </svg>
-                    RSS Feed
+                    Subscribe
                 </a>
 </div>
 </div>
 </header>
 <!-- Main Content -->
-<main class="max-w-4xl mx-auto px-4 py-8">
+<main class="max-w-5xl mx-auto px-6 py-12">
 <!-- Posts will be inserted here by the generator -->
 <div id="posts-container">
-<article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-<div class="p-6">
-<div class="flex items-center justify-between mb-4">
-<time class="text-sm text-gray-500" datetime="2025-08-05">Aug 05, 2025</time>
+<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+<div class="p-8">
+<div class="text-center mb-6">
+<time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-08-05">Aug 05, 2025</time>
 </div>
-<h2 class="text-xl font-semibold text-gray-900 mb-3">
-<a class="hover:text-blue-600 transition-colors" href="posts/2025-08-05.html">
+<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-apple-blue transition-colors" href="posts/2025-08-05.html">
                                 AI Updates on 2025-08-05
                             </a>
 </h2>
-<div class="prose prose-gray max-w-none">
+<div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
 <ul>
 <li>OpenAI releases <b>gpt-oss</b> family with two open-weight reasoning models: <b>gpt-oss-120b</b> (117B total/5.1B active parameters) and <b>gpt-oss-20b</b> (20.9B total/3.6B active parameters) under Apache 2.0 license, with the larger model matching <b>o4-mini</b> performance and the smaller matching <b>o3-mini</b> <em><a href="https://x.com/OpenAI/status/1952783291091653011">@OpenAI</a></em></li>
@@ -84,17 +101,17 @@
 </div>
 </div>
 </article>
-<article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-<div class="p-6">
-<div class="flex items-center justify-between mb-4">
-<time class="text-sm text-gray-500" datetime="2025-08-04">Aug 04, 2025</time>
+<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+<div class="p-8">
+<div class="text-center mb-6">
+<time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-08-04">Aug 04, 2025</time>
 </div>
-<h2 class="text-xl font-semibold text-gray-900 mb-3">
-<a class="hover:text-blue-600 transition-colors" href="posts/2025-08-04.html">
+<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-apple-blue transition-colors" href="posts/2025-08-04.html">
                                 AI Updates on 2025-08-04
                             </a>
 </h2>
-<div class="prose prose-gray max-w-none">
+<div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
 <ul>
 <li>Alibaba releases <b>Qwen-Image</b>, a 20B MMDiT model for text-to-image generation with state-of-the-art text rendering capabilities, especially strong at creating graphic posters with native text and bilingual support <em><a href="https://x.com/Alibaba_Qwen/status/1952398250121756992">@Alibaba_Qwen</a></em></li>
@@ -137,17 +154,17 @@
 </div>
 </div>
 </article>
-<article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-<div class="p-6">
-<div class="flex items-center justify-between mb-4">
-<time class="text-sm text-gray-500" datetime="2025-08-03">Aug 03, 2025</time>
+<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+<div class="p-8">
+<div class="text-center mb-6">
+<time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-08-03">Aug 03, 2025</time>
 </div>
-<h2 class="text-xl font-semibold text-gray-900 mb-3">
-<a class="hover:text-blue-600 transition-colors" href="posts/2025-08-03.html">
+<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-apple-blue transition-colors" href="posts/2025-08-03.html">
                                 AI Updates on 2025-08-03
                             </a>
 </h2>
-<div class="prose prose-gray max-w-none">
+<div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
 <ul>
 <li>China releases breakthrough AI for mathematics that achieves Gold in <b>IMO 2025</b>, solves over 50% of all Putnam problems and 78% of past IMO problems, beating Google's <b>AlphaGeometry2</b> and achieving 100% on OpenAI's miniF2F benchmark <em><a href="https://x.com/deedydas/status/1951829325839499753">@deedydas</a></em></li>
@@ -187,17 +204,17 @@
 </div>
 </div>
 </article>
-<article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-<div class="p-6">
-<div class="flex items-center justify-between mb-4">
-<time class="text-sm text-gray-500" datetime="2025-08-02">Aug 02, 2025</time>
+<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+<div class="p-8">
+<div class="text-center mb-6">
+<time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-08-02">Aug 02, 2025</time>
 </div>
-<h2 class="text-xl font-semibold text-gray-900 mb-3">
-<a class="hover:text-blue-600 transition-colors" href="posts/2025-08-02.html">
+<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-apple-blue transition-colors" href="posts/2025-08-02.html">
                                 AI Updates on 2025-08-02
                             </a>
 </h2>
-<div class="prose prose-gray max-w-none">
+<div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
 <ul>
 <li>Google announces <b>Gemini 2.5 Deep Think</b> achieving state-of-the-art performance across many challenging benchmarks <em><a href="https://x.com/demishassabis/status/1951468051578142848">@demishassabis</a></em></li>
@@ -235,17 +252,17 @@
 </div>
 </div>
 </article>
-<article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-<div class="p-6">
-<div class="flex items-center justify-between mb-4">
-<time class="text-sm text-gray-500" datetime="2025-08-01">Aug 01, 2025</time>
+<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+<div class="p-8">
+<div class="text-center mb-6">
+<time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-08-01">Aug 01, 2025</time>
 </div>
-<h2 class="text-xl font-semibold text-gray-900 mb-3">
-<a class="hover:text-blue-600 transition-colors" href="posts/2025-08-01.html">
+<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-apple-blue transition-colors" href="posts/2025-08-01.html">
                                 AI Updates on 2025-08-01
                             </a>
 </h2>
-<div class="prose prose-gray max-w-none">
+<div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
 <ul>
 <li>Google releases <b>Gemini 2.5 Deep Think</b> for Ultra subscribers, a variation of the model that achieved gold-medal performance at the International Mathematical Olympiad, featuring parallel thinking and reinforcement learning techniques <em><a href="https://x.com/GoogleDeepMind/status/1951239132950204439">@GoogleDeepMind</a></em></li>
@@ -281,17 +298,17 @@
 </div>
 </div>
 </article>
-<article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-<div class="p-6">
-<div class="flex items-center justify-between mb-4">
-<time class="text-sm text-gray-500" datetime="2025-07-31">Jul 31, 2025</time>
+<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+<div class="p-8">
+<div class="text-center mb-6">
+<time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-07-31">Jul 31, 2025</time>
 </div>
-<h2 class="text-xl font-semibold text-gray-900 mb-3">
-<a class="hover:text-blue-600 transition-colors" href="posts/2025-07-31.html">
+<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-apple-blue transition-colors" href="posts/2025-07-31.html">
                                 AI Updates on 2025-07-31
                             </a>
 </h2>
-<div class="prose prose-gray max-w-none">
+<div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
 <ul>
 <li>Google releases <b>Veo 3 Fast</b> and <b>Veo 3</b> with image-to-video capabilities, now available in the Gemini API for creating high-quality videos with sound and enhanced creative control <em><a href="https://x.com/googleaidevs/status/1950958605013823539">@googleaidevs</a></em></li>
@@ -342,17 +359,17 @@
 </div>
 </div>
 </article>
-<article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-<div class="p-6">
-<div class="flex items-center justify-between mb-4">
-<time class="text-sm text-gray-500" datetime="2025-07-30">Jul 30, 2025</time>
+<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+<div class="p-8">
+<div class="text-center mb-6">
+<time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-07-30">Jul 30, 2025</time>
 </div>
-<h2 class="text-xl font-semibold text-gray-900 mb-3">
-<a class="hover:text-blue-600 transition-colors" href="posts/2025-07-30.html">
+<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-apple-blue transition-colors" href="posts/2025-07-30.html">
                                 AI Updates on 2025-07-30
                             </a>
 </h2>
-<div class="prose prose-gray max-w-none">
+<div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
 <ul>
 <li>Meta's Mark Zuckerberg announces the company has seen glimpses of AI systems improving themselves and states "Developing <b>superintelligence</b> is now in sight" in a new letter outlining Meta's vision for personal superintelligence <em><a href="https://x.com/AIatMeta/status/1950543458609037550">@AIatMeta</a></em></li>
@@ -395,17 +412,17 @@
 </div>
 </div>
 </article>
-<article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-<div class="p-6">
-<div class="flex items-center justify-between mb-4">
-<time class="text-sm text-gray-500" datetime="2025-07-29">Jul 29, 2025</time>
+<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+<div class="p-8">
+<div class="text-center mb-6">
+<time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-07-29">Jul 29, 2025</time>
 </div>
-<h2 class="text-xl font-semibold text-gray-900 mb-3">
-<a class="hover:text-blue-600 transition-colors" href="posts/2025-07-29.html">
+<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-apple-blue transition-colors" href="posts/2025-07-29.html">
                                 AI Updates on 2025-07-29
                             </a>
 </h2>
-<div class="prose prose-gray max-w-none">
+<div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
 <ul>
 <li><b>Qwen3-30B-A3B</b> receives small update with enhanced reasoning, coding, and math skills, broader multilingual knowledge, improved long-context understanding up to 256K tokens, and no more thinking blocks - approaching <b>GPT-4o</b> performance with only 3B activated parameters <em><a href="https://x.com/Alibaba_Qwen/status/1950227114793586867">@Alibaba_Qwen</a></em></li>
@@ -453,17 +470,17 @@
 </div>
 </div>
 </article>
-<article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-<div class="p-6">
-<div class="flex items-center justify-between mb-4">
-<time class="text-sm text-gray-500" datetime="2025-07-28">Jul 28, 2025</time>
+<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+<div class="p-8">
+<div class="text-center mb-6">
+<time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-07-28">Jul 28, 2025</time>
 </div>
-<h2 class="text-xl font-semibold text-gray-900 mb-3">
-<a class="hover:text-blue-600 transition-colors" href="posts/2025-07-28.html">
+<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-apple-blue transition-colors" href="posts/2025-07-28.html">
                                 AI Updates on 2025-07-28
                             </a>
 </h2>
-<div class="prose prose-gray max-w-none">
+<div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
 <ul>
 <li>Zhipu AI releases <b>GLM-4.5</b> and <b>GLM-4.5-Air</b> models with MIT license, featuring 355B total parameters (32B active) and 106B total parameters (12B active) respectively, both with 128K context length and native function calling <em><a href="https://x.com/reach_vb/status/1949823507400884446">@reach_vb</a></em></li>
@@ -503,17 +520,17 @@
 </div>
 </div>
 </article>
-<article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
-<div class="p-6">
-<div class="flex items-center justify-between mb-4">
-<time class="text-sm text-gray-500" datetime="2025-07-27">Jul 27, 2025</time>
+<article class="bg-white/70 backdrop-blur-sm rounded-3xl border border-gray-200/50 mb-12 overflow-hidden">
+<div class="p-8">
+<div class="text-center mb-6">
+<time class="text-sm text-gray-400 font-light tracking-wide" datetime="2025-07-27">Jul 27, 2025</time>
 </div>
-<h2 class="text-xl font-semibold text-gray-900 mb-3">
-<a class="hover:text-blue-600 transition-colors" href="posts/2025-07-27.html">
+<h2 class="text-3xl font-light text-apple-dark mb-8 text-center tracking-tight leading-tight">
+<a class="hover:text-apple-blue transition-colors" href="posts/2025-07-27.html">
                                 AI Updates on 2025-07-27
                             </a>
 </h2>
-<div class="prose prose-gray max-w-none">
+<div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
 <h3>AI Model Announcements</h3>
 <ul>
 <li>Tencent releases <b>Hunyuan</b> 3D model for generating 3D models from text prompts, with GitHub repository and Hugging Face integration available <em><a href="https://x.com/AndrewCurran_/status/1949294273553224079">@AndrewCurran_</a></em></li>
@@ -555,23 +572,26 @@
 </article>
 </div>
 <!-- Load More Button (for future pagination) -->
-<div class="text-center mt-8">
-<button class="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors" disabled="">
-                Load More Posts
+<div class="text-center mt-16">
+<button class="px-8 py-3 bg-gray-100 text-gray-600 rounded-full hover:bg-gray-200 transition-all duration-200 font-medium disabled:opacity-50" disabled="">
+                Load More
             </button>
 </div>
 </main>
 <!-- Footer -->
-<footer class="bg-white border-t mt-16">
-<div class="max-w-4xl mx-auto px-4 py-8">
-<div class="flex items-center justify-between">
-<div>
-<p class="text-gray-600">© 2025 Sumbird Newsletter</p>
-<p class="text-sm text-gray-500">Powered by AI, curated for humans</p>
+<footer class="bg-white/50 border-t border-gray-200/50 mt-24">
+<div class="max-w-5xl mx-auto px-6 py-12">
+<div class="text-center">
+<div class="mb-6">
+<h3 class="text-lg font-light text-apple-dark mb-2">Sumbird</h3>
+<p class="text-gray-500 font-light">Powered by AI, curated for humans</p>
 </div>
-<div class="flex space-x-4">
-<a class="text-gray-400 hover:text-gray-600" href="feed.xml">RSS</a>
-<a class="text-gray-400 hover:text-gray-600" href="https://github.com/dshayan/sumbird">GitHub</a>
+<div class="flex justify-center space-x-8">
+<a class="text-gray-400 hover:text-apple-blue transition-colors font-light" href="feed.xml">RSS Feed</a>
+<a class="text-gray-400 hover:text-apple-blue transition-colors font-light" href="https://github.com/dshayan/sumbird">GitHub</a>
+</div>
+<div class="mt-8 pt-6 border-t border-gray-200/50">
+<p class="text-sm text-gray-400 font-light">© 2025 Sumbird. All rights reserved.</p>
 </div>
 </div>
 </div>
