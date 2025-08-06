@@ -143,7 +143,7 @@ class NewsletterGenerator:
         if first_li:
             return first_li.get_text().strip()[:160] + "..."
         
-        return "Daily AI news and updates curated by Sumbird"
+        return "AI news and vibes from Twitter"
     
     def format_date(self, date_str: str) -> Dict[str, str]:
         """Format date string into various formats.
