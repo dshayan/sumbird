@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sumbird Newsletter</title>
-    <description>Daily AI news and updates curated by Sumbird</description>
+    <title>Sumbird</title>
+    <description>AI news and vibes from Twitter</description>
     <link>https://dshayan.github.io/sumbird/</link>
     <atom:link href="https://dshayan.github.io/sumbird/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <managingEditor>sumbird@example.com (Sumbird)</managingEditor>
     <webMaster>sumbird@example.com (Sumbird)</webMaster>
-    <generator>Sumbird Newsletter Generator</generator>
+    <generator>Sumbird Generator</generator>
     <lastBuildDate>Wed, 06 Aug 2025 14:00:45 +0000</lastBuildDate>
     <pubDate>Wed, 06 Aug 2025 14:00:45 +0000</pubDate>
     <ttl>1440</ttl>
