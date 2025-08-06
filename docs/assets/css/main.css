@@ -217,20 +217,30 @@ article h1 a:hover {
   padding: var(--space-sm) 0;
 }
 
-.footer-text {
-  color: var(--text-light);
-  margin: 0;
-  text-align: left;
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.footer-text a {
+.footer-title {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.footer-link {
   color: var(--text-light);
-  text-decoration: underline;
+  text-decoration: none;
   transition: text-decoration 0.2s;
 }
 
-.footer-text a:hover {
-  text-decoration: none;
+.footer-link:hover {
+  text-decoration: underline;
 }
 
 /* Utility Classes */
@@ -251,7 +261,11 @@ article h1 a:hover {
     font-size: var(--text-lg);
   }
   
-
+  .footer-content {
+    flex-direction: column;
+    gap: var(--space-sm);
+    text-align: center;
+  }
   
   .pagination-links {
     gap: var(--space-xs);
