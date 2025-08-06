@@ -11,6 +11,7 @@ This pipeline:
 6. Converts the summary to Telegraph format
 7. Publishes the content to Telegraph
 8. Distributes the content to Telegram channel (optional with --skip-telegram)
+9. Generates newsletter website and pushes to GitHub Pages
 """
 import os
 import sys

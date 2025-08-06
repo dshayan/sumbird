@@ -369,6 +369,28 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             log_info(pipeline_name, "Content successfully distributed to Telegram channel")
             log_step(log_file, True, f"{log_prefix}Distributed using {tg_input_tokens} input tokens, {tg_output_tokens} output tokens at {telegram_url}")
         
+        # Step 9: Generate Newsletter Website
+        log_pipeline_step("Step 9", "Generate Newsletter Website")
+        
+        try:
+            from src import newsletter_generator
+            newsletter_success = newsletter_generator.generate()
+        except ImportError:
+            log_error(pipeline_name, "Newsletter generator not available")
+            newsletter_success = False
+        except Exception as e:
+            log_error(pipeline_name, f"Newsletter generation failed: {e}")
+            newsletter_success = False
+        
+        if not newsletter_success:
+            log_error(pipeline_name, "Newsletter generation failed")
+            log_step(log_file, False, f"{log_prefix}Newsletter generated")
+            # Don't fail the entire pipeline for newsletter issues
+            log_info(pipeline_name, "Pipeline completed with newsletter generation failure")
+        else:
+            log_info(pipeline_name, "Newsletter website generated successfully")
+            log_step(log_file, True, f"{log_prefix}Newsletter generated")
+        
         log_info(pipeline_name, "Pipeline completed successfully!")
         log_file.write("──────────\n")
         

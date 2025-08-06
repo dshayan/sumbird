@@ -15,6 +15,7 @@ from src.narrator import narrate
 from src.telegraph_converter import convert_all_summaries
 from src.telegraph_publisher import publish
 from src.telegram_distributer import distribute, HeadlineGenerator
+from src.newsletter_generator import generate as generate_newsletter
 
 # Import utility functions from the utils package
 from utils.logging_utils import log_error, handle_request_error, log_info, log_success, log_warning, log_pipeline_step
@@ -31,6 +32,7 @@ __all__ = [
     'convert_all_summaries',
     'publish',
     'distribute',
+    'generate_newsletter',
     'HeadlineGenerator',
     
     # Utility functions that are used by multiple modules
