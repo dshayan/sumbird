@@ -5,61 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Updates on 2025-06-11 - Sumbird Newsletter</title>
     <meta name="description" content="Meta releases V-JEPA 2, a 1.2 billion-parameter world model trained on video that enables zero-shot planning in robots and can adapt in new environments without...">
-    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    
+    <!-- RSS Feed -->
     <link rel="alternate" type="application/rss+xml" title="Sumbird Newsletter RSS Feed" href="../feed.xml">
+    
+    <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐦</text></svg>">
 </head>
-<body class="bg-gray-50 min-h-screen">
-    <!-- Header -->
-    <header class="bg-white shadow-sm border-b">
-        <div class="max-w-4xl mx-auto px-4 py-6">
-            <div class="flex items-center justify-between">
-                <div>
-                    <a href="../" class="text-3xl font-bold text-gray-900 hover:text-blue-600 transition-colors">Sumbird Newsletter</a>
-                    <p class="text-gray-600 mt-1">Daily AI news and updates</p>
-                </div>
-                <a href="../feed.xml" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z"/>
-                    </svg>
-                    RSS Feed
-                </a>
-            </div>
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="header-content">
+            <a href="../" class="header-title">Sumbird</a>
+            <p class="header-subtitle">AI news and vibes from Twitter.</p>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!-- Main Content -->
-    <main class="max-w-4xl mx-auto px-4 py-8">
-        <!-- Breadcrumb -->
-        <nav class="mb-8">
-            <ol class="flex items-center space-x-2 text-sm text-gray-500">
-                <li><a href="../" class="hover:text-blue-600">Home</a></li>
-                <li><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg></li>
-                <li class="text-gray-900">2025-06-11</li>
-            </ol>
-        </nav>
-
-        <!-- Post Content -->
-        <article class="bg-white rounded-lg shadow-sm border overflow-hidden">
-            <div class="p-8">
-                <!-- Post Header -->
-                <header class="mb-8">
-                    <div class="flex items-center justify-between mb-4">
-                        <time class="text-sm text-gray-500" datetime="2025-06-11">June 11, 2025</time>
-                        <div class="flex space-x-2">
-                            <button onclick="sharePost()" class="inline-flex items-center px-3 py-1 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors">
-                                <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"></path>
-                                </svg>
-                                Share
-                            </button>
-                        </div>
-                    </div>
-                    <h1 class="text-3xl font-bold text-gray-900 mb-4">AI Updates on 2025-06-11</h1>
-                </header>
-
-                <!-- Post Body -->
-                <div class="prose prose-lg prose-gray max-w-none">
+    <main class="main-content">
+        <div class="container">
+            <article class="article">
+                <h1 class="article-title">AI Updates on 2025-06-11</h1>
+                <div class="prose">
                     <h3>AI Model Announcements</h3>
 <ul>
 <li>Meta releases <b>V-JEPA 2</b>, a 1.2 billion-parameter world model trained on video that enables zero-shot planning in robots and can adapt in new environments without prior training <em><a href="https://x.com/AIatMeta/status/1932808881627148450">@AIatMeta</a></em></li>
@@ -101,56 +71,23 @@
 <li>Research shows <b>o3-pro</b> achieves 87.3% performance on Extended NYT Connections benchmark, surpassing <b>o1-pro</b>'s 82.5% score <em><a href="https://x.com/LechMazur/status/1932615511155548556">@LechMazur</a></em></li>
 </ul>
                 </div>
-            </div>
-        </article>
-
-        <!-- Navigation -->
-        <nav class="mt-8 flex justify-between">
-            <a href="#" class="inline-flex items-center px-4 py-2 bg-white border rounded-lg hover:bg-gray-50 transition-colors opacity-50 pointer-events-none">
-                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                </svg>
-                Previous Post
-            </a>
-            <a href="#" class="inline-flex items-center px-4 py-2 bg-white border rounded-lg hover:bg-gray-50 transition-colors opacity-50 pointer-events-none">
-                Next Post
-                <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
-                </svg>
-            </a>
-        </nav>
+            </article>
+        </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-white border-t mt-16">
-        <div class="max-w-4xl mx-auto px-4 py-8">
-            <div class="flex items-center justify-between">
-                <div>
-                    <p class="text-gray-600">© 2025 Sumbird Newsletter</p>
-                    <p class="text-sm text-gray-500">Powered by AI, curated for humans</p>
-                </div>
-                <div class="flex space-x-4">
-                    <a href="../feed.xml" class="text-gray-400 hover:text-gray-600">RSS</a>
-                    <a href="https://github.com/dshayan/sumbird" class="text-gray-400 hover:text-gray-600">GitHub</a>
-                </div>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>
+                <h3 class="footer-title">Sumbird</h3>
+            </div>
+            <div class="footer-links">
+                <a class="footer-link" href="../">Home</a>
+                <a class="footer-link" href="../feed.xml">RSS</a>
+                <a class="footer-link" href="https://github.com/dshayan/sumbird">GitHub</a>
             </div>
         </div>
-    </footer>
-
-    <script>
-        function sharePost() {
-            if (navigator.share) {
-                navigator.share({
-                    title: document.title,
-                    url: window.location.href
-                });
-            } else {
-                // Fallback: copy URL to clipboard
-                navigator.clipboard.writeText(window.location.href).then(() => {
-                    alert('URL copied to clipboard!');
-                });
-            }
-        }
-    </script>
+    </div>
+</footer>
 </body>
 </html>
