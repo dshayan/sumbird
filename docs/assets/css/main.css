@@ -29,11 +29,9 @@
   --space-lg: 3rem;      /* 48px */
   
   /* Typography - Simple scale */
-  --text-sm: 0.875rem;   /* 14px */
   --text-base: 1rem;     /* 16px */
   --text-lg: 1.25rem;    /* 20px */
   --text-xl: 1.5rem;     /* 24px */
-  --text-2xl: 2rem;      /* 32px */
   
   /* Layout */
   --content-width: 48rem;
@@ -69,7 +67,7 @@ body {
 }
 
 .header-title {
-  font-size: var(--text-2xl);
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--text);
   text-decoration: none;
@@ -91,27 +89,25 @@ article {
 }
 
 article h1, .article-title {
-  font-size: var(--text-2xl);
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--text);
   margin-bottom: var(--space-md);
 }
 
-article h2 {
-  margin-bottom: var(--space-md);
-}
-
-article h2 a {
-  font-size: var(--text-xl);
+article h1 a {
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--text);
   text-decoration: none;
   transition: text-decoration 0.2s;
 }
 
-article h2 a:hover {
+article h1 a:hover {
   text-decoration: underline;
 }
+
+
 
 /* Prose Content */
 .prose {
@@ -264,7 +260,7 @@ article h2 a:hover {
   }
   
   .header-title {
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
   }
   
   .footer-content {
