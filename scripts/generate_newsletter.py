@@ -63,11 +63,11 @@ def main():
         
         log_info("Newsletter Script", "Starting newsletter generation...")
         
-        # Initialize generator
+        # Initialize generator with external CSS
         if args.docs_path:
-            generator = NewsletterGenerator(args.docs_path)
+            generator = NewsletterGenerator(args.docs_path, use_external_css=True)
         else:
-            generator = NewsletterGenerator()
+            generator = NewsletterGenerator(use_external_css=True)
         
         # Generate newsletter
         auto_commit = not args.no_commit

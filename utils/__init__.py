@@ -8,6 +8,7 @@ This package contains utility modules used across the Sumbird pipeline:
 - html_utils: HTML processing and cleaning
 - env_utils: Environment variable management
 - retry_utils: Retry mechanisms for network operations
+- template_utils: Template and component management for external CSS system
 """
 
 # Date utilities
@@ -66,4 +67,7 @@ from utils.gemini_utils import (
 )
 
 # Pipeline core
-from utils.pipeline_core import run_pipeline_core 
+from utils.pipeline_core import run_pipeline_core
+
+# Template utilities
+from utils.template_utils import TemplateManager, create_template_manager 

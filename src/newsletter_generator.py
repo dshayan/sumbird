@@ -23,17 +23,20 @@ from config import SUMMARY_DIR, get_date_str
 from utils.logging_utils import log_error, log_info, log_success
 from utils.date_utils import format_datetime, get_now
 from utils.file_utils import read_file
+from utils.template_utils import TemplateManager
 
 
 class NewsletterGenerator:
     """Generates newsletter website from summary HTML files."""
     
-    def __init__(self, docs_path: str = None):
+    def __init__(self, docs_path: str = None, use_external_css: bool = True):
         """Initialize the newsletter generator.
         
         Args:
             docs_path: Path to the docs directory. 
                       Defaults to docs/ in the current project.
+            use_external_css: If True, use external CSS and component-based templates.
+                             If False, use the legacy embedded CSS templates (deprecated).
         """
         if docs_path is None:
             # Default to docs directory in current project
@@ -42,9 +45,13 @@ class NewsletterGenerator:
         
         self.docs_path = Path(docs_path)
         self.posts_dir = self.docs_path / "posts"
+        self.use_external_css = use_external_css
         self.template_path = self.posts_dir / "template.html"
         self.homepage_path = self.docs_path / "index.html"
         self.feed_path = self.docs_path / "feed.xml"
+        
+        # Initialize template manager for external CSS system
+        self.template_manager = TemplateManager(str(docs_path))
         
         # Validate paths
         if not self.docs_path.exists():
@@ -164,7 +171,7 @@ class NewsletterGenerator:
             }
     
     def generate_post_page(self, date_str: str, content_data: Dict[str, str]) -> bool:
-        """Generate individual post page from template.
+        """Generate individual post page using external CSS template.
         
         Args:
             date_str: Date string in YYYY-MM-DD format.
@@ -174,34 +181,29 @@ class NewsletterGenerator:
             True if successful, False otherwise.
         """
         try:
-            # Read template
-            template_content = read_file(str(self.template_path))
-            if not template_content:
-                log_error("Newsletter Generator", f"Could not read template: {self.template_path}")
+            if not self.template_manager:
+                log_error("Newsletter Generator", "Template manager not initialized for external CSS mode")
                 return False
             
-            # Format dates
-            date_formats = self.format_date(date_str)
+            # Generate HTML using template manager
+            title = content_data.get('title', 'AI Updates')
+            content = content_data.get('content', '')
+            description = content_data.get('description', '')
             
-            # Replace template variables
-            post_content = template_content.replace("{{TITLE}}", content_data.get('title', 'AI Updates'))
-            post_content = post_content.replace("{{DESCRIPTION}}", content_data.get('description', ''))
-            post_content = post_content.replace("{{DATE}}", date_str)
-            post_content = post_content.replace("{{ISO_DATE}}", date_formats['iso_date'])
-            post_content = post_content.replace("{{FORMATTED_DATE}}", date_formats['formatted_date'])
-            post_content = post_content.replace("{{CONTENT}}", content_data.get('content', ''))
+            post_html = self.template_manager.generate_post_html(
+                title=title,
+                content=content,
+                description=description
+            )
             
-            # Handle navigation (prev/next posts)
-            # For now, we'll leave these as placeholders
-            post_content = post_content.replace("{{PREV_POST_URL}}", "#")
-            post_content = post_content.replace("{{NEXT_POST_URL}}", "#")
-            post_content = post_content.replace("{{PREV_DISABLED}}", "opacity-50 pointer-events-none")
-            post_content = post_content.replace("{{NEXT_DISABLED}}", "opacity-50 pointer-events-none")
+            if not post_html:
+                log_error("Newsletter Generator", f"Failed to generate HTML for {date_str}")
+                return False
             
             # Write post file
             post_file = self.posts_dir / f"{date_str}.html"
             with open(post_file, 'w', encoding='utf-8') as f:
-                f.write(post_content)
+                f.write(post_html)
             
             log_info("Newsletter Generator", f"Generated post: {post_file.name}")
             return True
@@ -209,9 +211,11 @@ class NewsletterGenerator:
         except Exception as e:
             log_error("Newsletter Generator", f"Error generating post for {date_str}", e)
             return False
+
+
     
     def generate_homepage(self, recent_posts: List[Tuple[str, Dict[str, str]]]) -> bool:
-        """Generate homepage with recent posts and pagination.
+        """Generate homepage with recent posts and simple pagination.
         
         Args:
             recent_posts: List of (date_str, content_data) tuples for recent posts.
@@ -220,126 +224,201 @@ class NewsletterGenerator:
             True if successful, False otherwise.
         """
         try:
-            # Read current homepage to get the structure
-            homepage_content = read_file(str(self.homepage_path))
-            if not homepage_content:
-                log_error("Newsletter Generator", f"Could not read homepage: {self.homepage_path}")
-                return False
-            
-            # Generate posts HTML for first page (5 posts)
-            posts_per_page = 5
+            # Generate posts HTML for first page (10 posts - more reasonable for a newsletter)
+            posts_per_page = 10
             first_page_posts = recent_posts[:posts_per_page]
             posts_html = ""
             
             for date_str, content_data in first_page_posts:
                 # Add divider for all posts except the first one
-                divider_html = '''
-                <div class="border-t border-gray-200 my-16"></div>
-                ''' if posts_html else ''
+                divider_html = '<div class="border-t"></div>' if posts_html else ''
                 
                 post_html = f'''
                 {divider_html}
-                <article class="mb-16">
-                    <h2 class="text-3xl font-light text-dark-text mb-8 tracking-tight leading-tight">
-                        <a href="posts/{date_str}.html" class="hover:text-primary-blue transition-colors">
+                <article>
+                    <h2>
+                        <a href="posts/{date_str}.html">
                             {content_data.get('title', 'AI Updates')}
                         </a>
                     </h2>
-                    <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
+                    <div class="prose">
                         {content_data.get('content', '')}
                     </div>
                 </article>
                 '''
                 posts_html += post_html
             
-            # Replace the posts container content
-            soup = BeautifulSoup(homepage_content, 'html.parser')
-            posts_container = soup.find('div', id='posts-container')
-            if posts_container:
-                posts_container.clear()
-                posts_container.append(BeautifulSoup(posts_html, 'html.parser'))
-                
-                # Update load more button
-                load_more_btn = soup.find('button', {'disabled': True})
-                if load_more_btn and len(recent_posts) > posts_per_page:
-                    # Enable the button and add functionality
-                    del load_more_btn['disabled']
-                    load_more_btn['onclick'] = 'loadMorePosts()'
-                    load_more_btn['id'] = 'load-more-btn'
-                
-                # Add JavaScript for load more functionality
-                script_tag = soup.new_tag('script')
-                script_tag.string = f'''
-                let currentPage = 1;
-                const postsPerPage = {posts_per_page};
-                const allPosts = {self._generate_posts_json(recent_posts)};
-                
-                function loadMorePosts() {{
-                    const startIndex = currentPage * postsPerPage;
-                    const endIndex = startIndex + postsPerPage;
-                    const postsToLoad = allPosts.slice(startIndex, endIndex);
-                    
-                    if (postsToLoad.length === 0) {{
-                        document.getElementById('load-more-btn').style.display = 'none';
-                        return;
-                    }}
-                    
-                    const postsContainer = document.getElementById('posts-container');
-                    
-                    postsToLoad.forEach(post => {{
-                        const divider = document.createElement('div');
-                        divider.className = 'border-t border-gray-200 my-16';
-                        postsContainer.appendChild(divider);
-                        
-                        const article = document.createElement('article');
-                        article.className = 'mb-16';
-                        article.innerHTML = `
-                            <h2 class="text-3xl font-light text-dark-text mb-8 tracking-tight leading-tight">
-                                <a href="posts/${{post.date}}.html" class="hover:text-primary-blue transition-colors">
-                                    ${{post.title}}
-                                </a>
-                            </h2>
-                            <div class="prose prose-lg prose-gray max-w-none font-light leading-relaxed">
-                                ${{post.content}}
-                            </div>
-                        `;
-                        postsContainer.appendChild(article);
-                    }});
-                    
-                    currentPage++;
-                    
-                    if (startIndex + postsPerPage >= allPosts.length) {{
-                        document.getElementById('load-more-btn').style.display = 'none';
-                    }}
-                }}
+            # Generate simple pagination links
+            total_posts = len(recent_posts)
+            total_pages = (total_posts + posts_per_page - 1) // posts_per_page
+            
+            pagination_html = ""
+            if total_pages > 1:
+                pagination_html = '''
+                <div class="pagination-container">
+                    <div class="pagination-links">
+                        <span class="pagination-link current">1</span>
                 '''
-                soup.body.append(script_tag)
                 
-                # Write updated homepage
-                with open(self.homepage_path, 'w', encoding='utf-8') as f:
-                    f.write(str(soup))
+                # Add links to other pages
+                for page in range(2, min(6, total_pages + 1)):  # Show up to 5 pages
+                    pagination_html += f'''
+                        <a href="page{page}.html" class="pagination-link">{page}</a>
+                    '''
                 
-                log_info("Newsletter Generator", f"Updated homepage with {len(first_page_posts)} posts (pagination enabled)")
-                return True
-            else:
-                log_error("Newsletter Generator", "Could not find posts container in homepage")
+                if total_pages > 5:
+                    pagination_html += '''
+                        <span class="pagination-dots">...</span>
+                        <a href="page{}.html" class="pagination-link">{}</a>
+                    '''.format(total_pages, total_pages)
+                
+                if total_pages > 1:
+                    pagination_html += '''
+                        <a href="page2.html" class="pagination-next">Next →</a>
+                    '''
+                
+                pagination_html += '''
+                    </div>
+                            </div>
+                '''
+            
+            # Use template manager to generate complete homepage
+            homepage_html = self.template_manager.generate_index_html(
+                posts_content=posts_html,
+                pagination_script=pagination_html,  # Now contains pagination HTML instead of JS
+                template_name="page-template.html"
+            )
+            
+            if not homepage_html:
+                log_error("Newsletter Generator", "Failed to generate homepage HTML")
                 return False
+            
+            # Write homepage
+            with open(self.homepage_path, 'w', encoding='utf-8') as f:
+                f.write(homepage_html)
+            
+            # Generate additional pages if needed
+            if total_pages > 1:
+                self._generate_pagination_pages(recent_posts, posts_per_page, total_pages)
+            
+            log_info("Newsletter Generator", f"Updated homepage with {len(first_page_posts)} posts ({total_pages} pages total)")
+            return True
                 
         except Exception as e:
             log_error("Newsletter Generator", f"Error generating homepage", e)
             return False
     
-    def _generate_posts_json(self, posts: List[Tuple[str, Dict[str, str]]]) -> str:
-        """Generate JSON string of posts for JavaScript pagination."""
-        import json
-        posts_data = []
-        for date_str, content_data in posts:
-            posts_data.append({
-                'date': date_str,
-                'title': content_data.get('title', 'AI Updates'),
-                'content': content_data.get('content', '').replace('\n', ' ').replace('"', '\\"')
-            })
-        return json.dumps(posts_data)
+    def _generate_pagination_pages(self, recent_posts: List[Tuple[str, Dict[str, str]]], posts_per_page: int, total_pages: int) -> None:
+        """Generate additional pagination pages.
+        
+        Args:
+            recent_posts: All posts data.
+            posts_per_page: Number of posts per page.
+            total_pages: Total number of pages.
+        """
+        try:
+            for page_num in range(2, total_pages + 1):
+                start_idx = (page_num - 1) * posts_per_page
+                end_idx = start_idx + posts_per_page
+                page_posts = recent_posts[start_idx:end_idx]
+                
+                # Generate posts HTML for this page
+                posts_html = ""
+                for date_str, content_data in page_posts:
+                    # Add divider for all posts except the first one
+                    divider_html = '<div class="border-t"></div>' if posts_html else ''
+                    
+                    post_html = f'''
+                    {divider_html}
+                    <article>
+                        <h2>
+                            <a href="posts/{date_str}.html">
+                                {content_data.get('title', 'AI Updates')}
+                            </a>
+                        </h2>
+                        <div class="prose">
+                            {content_data.get('content', '')}
+                        </div>
+                    </article>
+                    '''
+                    posts_html += post_html
+                
+                # Generate pagination for this page
+                pagination_html = f'''
+                <div class="pagination-container">
+                    <div class="pagination-links">
+                '''
+                
+                # Previous link
+                if page_num > 1:
+                    prev_link = "index.html" if page_num == 2 else f"page{page_num - 1}.html"
+                    pagination_html += f'''
+                        <a href="{prev_link}" class="pagination-prev">← Previous</a>
+                    '''
+                
+                # Page numbers
+                for page in range(1, min(6, total_pages + 1)):
+                    if page == 1:
+                        if page_num == 1:
+                            pagination_html += '''
+                                <span class="pagination-link current">1</span>
+                            '''
+                        else:
+                            pagination_html += '''
+                                <a href="index.html" class="pagination-link">1</a>
+                            '''
+                    else:
+                        if page_num == page:
+                            pagination_html += f'''
+                                <span class="pagination-link current">{page}</span>
+                            '''
+                        else:
+                            pagination_html += f'''
+                                <a href="page{page}.html" class="pagination-link">{page}</a>
+                            '''
+                
+                if total_pages > 5:
+                    pagination_html += '''
+                        <span class="pagination-dots">...</span>
+                    '''
+                    if page_num == total_pages:
+                        pagination_html += f'''
+                            <span class="pagination-link current">{total_pages}</span>
+                        '''
+                    else:
+                        pagination_html += f'''
+                            <a href="page{total_pages}.html" class="pagination-link">{total_pages}</a>
+                        '''
+                
+                # Next link
+                if page_num < total_pages:
+                    pagination_html += f'''
+                        <a href="page{page_num + 1}.html" class="pagination-next">Next →</a>
+                    '''
+                
+                pagination_html += '''
+                    </div>
+                </div>
+                '''
+                
+                # Generate complete page HTML with adjusted paths for subdirectory
+                page_html = self.template_manager.generate_index_html_for_subdir(
+                    posts_content=posts_html,
+                    pagination_script=pagination_html,
+                    template_name="page-template.html"
+                )
+                
+                if page_html:
+                    # Save pages directly in docs directory
+                    page_file = self.docs_path / f"page{page_num}.html"
+                    with open(page_file, 'w', encoding='utf-8') as f:
+                        f.write(page_html)
+                    log_info("Newsletter Generator", f"Generated page{page_num}.html")
+                
+        except Exception as e:
+            log_error("Newsletter Generator", f"Error generating pagination pages", e)
+    
+
     
     def _extract_preview(self, soup: BeautifulSoup, max_length: int = 300) -> str:
         """Extract preview text from content.
@@ -578,7 +657,7 @@ class NewsletterGenerator:
 def generate():
     """Main function to generate newsletter. Can be called from pipeline or standalone."""
     try:
-        generator = NewsletterGenerator()
+        generator = NewsletterGenerator(use_external_css=True)
         success = generator.generate_newsletter()
         
         if success:
