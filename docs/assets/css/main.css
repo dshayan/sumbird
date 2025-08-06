@@ -7,20 +7,20 @@
 :root {
   /* Colors - Complete color palette */
   /* Primary colors */
-  --primary: #007AFF;                    /* Blue accent color */
+  --primary: #205EA6;                    /* Blue accent color */
   
   /* Text colors */
-  --text: #1a1a1a;                      /* Primary text color */
-  --text-light: #666;                   /* Secondary/muted text */
+  --text: #1A1A1A;                      /* Primary text color */
+  --text-light: #666666;                   /* Secondary/muted text */
   
   /* Background colors */
   --background: #FFFCF0;                /* Main page background (cream) */
   --background-white: white;            /* White background for elements */
-  --background-hover: #f5f5f5;          /* Light gray hover state */
-  --background-primary-hover: #f0f8ff;  /* Light blue hover state */
+  --background-hover: #F5F5F5;          /* Light gray hover state */
+  --background-primary-hover: #E1ECEB;  /* Light blue hover state */
   
   /* Border colors */
-  --border: #e5e5e5;                    /* Light gray borders */
+  --border: #E5E5E5;                    /* Light gray borders */
   
   /* Spacing - Simple scale */
   --space-xs: 0.5rem;    /* 8px */
@@ -63,11 +63,11 @@ body {
 /* Header Component */
 .header {
   border-bottom: 1px solid var(--border);
-  padding: var(--space-md) 0;
+  padding: var(--space-sm) 0;
 }
 
 .header-title {
-  font-size: var(--text-xl);
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--text);
   text-decoration: none;
@@ -90,13 +90,13 @@ article {
 
 article h1, .article-title {
   font-size: var(--text-xl);
-  font-weight: 700;
+  font-weight: 600;
   color: var(--text);
   margin-bottom: var(--space-md);
 }
 
 article h1 a {
-  font-size: var(--text-lg);
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--text);
   text-decoration: none;
@@ -107,8 +107,6 @@ article h1 a:hover {
   text-decoration: underline;
 }
 
-
-
 /* Prose Content */
 .prose {
   color: var(--text);
@@ -117,7 +115,7 @@ article h1 a:hover {
 
 .prose h3 {
   font-size: var(--text-lg);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--text);
   margin: var(--space-md) 0 var(--space-sm) 0;
 }
@@ -215,8 +213,8 @@ article h1 a:hover {
 /* Footer Component */
 .footer {
   border-top: 1px solid var(--border);
-  margin-top: var(--space-md);
-  padding: var(--space-md) 0;
+  margin-top: var(--space-sm);
+  padding: var(--space-sm) 0;
 }
 
 .footer-content {
@@ -226,7 +224,7 @@ article h1 a:hover {
 }
 
 .footer-title {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
 }
 
