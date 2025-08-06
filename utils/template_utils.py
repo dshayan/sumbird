@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Template utilities for Sumbird Newsletter - Handles centralized templates and components.
+Template utilities for Sumbird - Handles centralized templates and components.
 
 This module provides utilities for:
 1. Loading shared components (header, footer)

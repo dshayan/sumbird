@@ -32,7 +32,7 @@ from utils.logging_utils import log_info, log_error, log_success
 def parse_arguments():
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(
-        description='Generate Sumbird Newsletter website from summary files',
+        description='Generate Sumbird website from summary files',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
