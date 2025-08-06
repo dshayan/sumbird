@@ -231,9 +231,8 @@ class NewsletterGenerator:
             for date_str, content_data in recent_posts[:10]:  # Show 10 most recent
                 date_formats = self.format_date(date_str)
                 
-                # Extract first paragraph or section for preview
-                soup = BeautifulSoup(content_data.get('content', ''), 'html.parser')
-                preview = self._extract_preview(soup)
+                # Use full content instead of preview
+                full_content = content_data.get('content', '')
                 
                 post_html = f'''
                 <article class="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden">
@@ -247,15 +246,7 @@ class NewsletterGenerator:
                             </a>
                         </h2>
                         <div class="prose prose-gray max-w-none">
-                            {preview}
-                        </div>
-                        <div class="mt-4">
-                            <a href="posts/{date_str}.html" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors">
-                                Read full update
-                                <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
-                                </svg>
-                            </a>
+                            {full_content}
                         </div>
                     </div>
                 </article>
