@@ -19,7 +19,7 @@ from typing import List, Dict, Optional, Tuple
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 
-from config import SUMMARY_DIR, get_date_str
+from config import SUMMARY_DIR, TRANSLATED_DIR, get_date_str
 from utils.logging_utils import log_error, log_info, log_success
 from utils.date_utils import format_datetime, get_now
 from utils.file_utils import read_file
@@ -29,7 +29,8 @@ from utils.template_utils import TemplateManager
 class NewsletterGenerator:
     """Generates newsletter website from summary HTML files."""
     
-    def __init__(self, docs_path: str = None, use_external_css: bool = True):
+    def __init__(self, docs_path: str = None, use_external_css: bool = True, 
+                 language: str = "en", source_dir: str = None):
         """Initialize the newsletter generator.
         
         Args:
@@ -37,21 +38,43 @@ class NewsletterGenerator:
                       Defaults to docs/ in the current project.
             use_external_css: If True, use external CSS and component-based templates.
                              If False, use the legacy embedded CSS templates (deprecated).
+            language: Language code ("en" for English, "fa" for Farsi).
+            source_dir: Source directory for content files (overrides default based on language).
         """
+        # Set language properties
+        self.language = language
+        self.is_farsi = language == "fa"
+        
+        # Determine base docs path
         if docs_path is None:
             # Default to docs directory in current project
             current_dir = Path(__file__).parent.parent
-            docs_path = current_dir / "docs"
+            base_docs_path = current_dir / "docs"
+        else:
+            base_docs_path = Path(docs_path)
         
-        self.docs_path = Path(docs_path)
+        # Set language-aware paths
+        if self.is_farsi:
+            self.docs_path = base_docs_path / "fa"
+            self.source_dir = source_dir or TRANSLATED_DIR
+            self.component_suffix = "-fa"  # Use header-fa.html, footer-fa.html
+        else:
+            self.docs_path = base_docs_path
+            self.source_dir = source_dir or SUMMARY_DIR
+            self.component_suffix = ""  # Use header.html, footer.html
+        
         self.posts_dir = self.docs_path / "posts"
         self.use_external_css = use_external_css
         self.template_path = self.posts_dir / "template.html"
         self.homepage_path = self.docs_path / "index.html"
         self.feed_path = self.docs_path / "feed.xml"
         
-        # Initialize template manager for external CSS system
-        self.template_manager = TemplateManager(str(docs_path))
+        # Initialize template manager for external CSS system with language context
+        self.template_manager = TemplateManager(
+            str(base_docs_path), 
+            language=self.language,
+            component_suffix=self.component_suffix
+        )
         
         # Validate paths
         if not self.docs_path.exists():
@@ -60,18 +83,18 @@ class NewsletterGenerator:
             raise FileNotFoundError(f"Template not found at: {self.template_path}")
     
     def get_summary_files(self) -> List[Tuple[str, Path]]:
-        """Get all summary HTML files sorted by date (newest first).
+        """Get all content HTML files sorted by date (newest first).
         
         Returns:
             List of (date_str, file_path) tuples sorted by date descending.
         """
-        summary_dir = Path(SUMMARY_DIR)
-        if not summary_dir.exists():
-            log_error("Newsletter Generator", f"Summary directory not found: {summary_dir}")
+        source_dir = Path(self.source_dir)
+        if not source_dir.exists():
+            log_error("Newsletter Generator", f"Source directory not found: {source_dir}")
             return []
         
         files = []
-        for file_path in summary_dir.glob("X-*.html"):
+        for file_path in source_dir.glob("X-*.html"):
             # Extract date from filename: X-YYYY-MM-DD.html
             match = re.match(r'X-(\d{4}-\d{2}-\d{2})\.html', file_path.name)
             if match:
@@ -658,21 +681,21 @@ class NewsletterGenerator:
             return False
 
 
-def generate(force_regenerate: bool = False):
+def generate(force_regenerate: bool = False, language: str = "en"):
     """Main function to generate newsletter. Can be called from pipeline or standalone."""
     try:
-        generator = NewsletterGenerator(use_external_css=True)
+        generator = NewsletterGenerator(use_external_css=True, language=language)
         success = generator.generate_newsletter(force_regenerate=force_regenerate)
         
         if success:
-            log_success("Newsletter Generator", "Newsletter generation completed successfully")
+            log_success("Newsletter Generator", f"Newsletter generation completed successfully ({language})")
         else:
-            log_error("Newsletter Generator", "Newsletter generation failed")
+            log_error("Newsletter Generator", f"Newsletter generation failed ({language})")
         
         return success
         
     except Exception as e:
-        log_error("Newsletter Generator", f"Error in generate function", e)
+        log_error("Newsletter Generator", f"Error in generate function ({language})", e)
         return False
 
 
@@ -687,5 +710,12 @@ if __name__ == "__main__":
     # Check for force regenerate flag
     force_regenerate = "--force" in sys.argv or "-f" in sys.argv
     
-    success = generate(force_regenerate=force_regenerate)
+    # Check for language flag
+    language = "en"  # default
+    if "--fa" in sys.argv or "--farsi" in sys.argv:
+        language = "fa"
+    elif "--en" in sys.argv or "--english" in sys.argv:
+        language = "en"
+    
+    success = generate(force_regenerate=force_regenerate, language=language)
     exit(0 if success else 1)

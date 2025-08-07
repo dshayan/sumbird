@@ -18,15 +18,19 @@ from utils.logging_utils import log_error, log_info
 class TemplateManager:
     """Manages templates and shared components for the newsletter."""
     
-    def __init__(self, docs_path: str = "docs"):
+    def __init__(self, docs_path: str = "docs", language: str = "en", component_suffix: str = ""):
         """Initialize the template manager.
         
         Args:
             docs_path: Path to the docs directory containing templates and components.
+            language: Language code ("en" or "fa").
+            component_suffix: Suffix for language-specific components (e.g., "-fa").
         """
         self.docs_path = Path(docs_path)
         self.components_path = self.docs_path / "assets" / "components"
         self.templates_path = self.docs_path / "posts"
+        self.language = language
+        self.component_suffix = component_suffix
         
         # Cache for loaded components
         self._component_cache = {}
@@ -46,7 +50,13 @@ class TemplateManager:
         if cache_key in self._component_cache:
             return self._component_cache[cache_key]
         
-        component_path = self.components_path / f"{component_name}.html"
+        # Use language-specific component if available
+        component_file = f"{component_name}{self.component_suffix}.html"
+        component_path = self.components_path / component_file
+        
+        # Fallback to default component if language-specific doesn't exist
+        if not component_path.exists() and self.component_suffix:
+            component_path = self.components_path / f"{component_name}.html"
         
         try:
             component_content = read_file(str(component_path))
@@ -118,12 +128,17 @@ class TemplateManager:
                 log_error("TemplateManager", f"Could not load template: {template_name}")
                 return ""
             
-            # Load components
-            header_html = self.load_header("../")
-            footer_html = self.load_footer("../", "../feed.xml")
-            
-            # Generate canonical URL for the post
-            canonical_url = f"https://dshayan.github.io/sumbird/posts/{date_str}.html" if date_str else "https://dshayan.github.io/sumbird/"
+            # Load components with language-aware paths
+            if self.language == "fa":
+                header_html = self.load_header("../../")  # From fa/posts/ to root
+                footer_html = self.load_footer("../../", "../feed.xml")  # RSS in fa/ directory
+                # Generate canonical URL for Farsi post
+                canonical_url = f"https://dshayan.github.io/sumbird/fa/posts/{date_str}.html" if date_str else "https://dshayan.github.io/sumbird/fa/"
+            else:
+                header_html = self.load_header("../")  # From posts/ to root
+                footer_html = self.load_footer("../", "../feed.xml")
+                # Generate canonical URL for English post
+                canonical_url = f"https://dshayan.github.io/sumbird/posts/{date_str}.html" if date_str else "https://dshayan.github.io/sumbird/"
             
             # Use default OG image if none provided
             if not og_image:
@@ -134,8 +149,20 @@ class TemplateManager:
             if not og_description:
                 og_description = "AI news and vibes from Twitter"
             
+            # Adjust language attributes for Farsi
+            if self.language == "fa":
+                # Update HTML lang attribute
+                html_content = template_content.replace('lang="en"', 'lang="fa"')
+                # Add dir="rtl" if not present
+                if 'dir="rtl"' not in html_content:
+                    html_content = html_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
+                # Update Open Graph locale
+                html_content = html_content.replace('content="en_US"', 'content="fa_IR"')
+            else:
+                html_content = template_content
+            
             # Replace template placeholders
-            html_content = template_content.replace("{{TITLE}}", title)
+            html_content = html_content.replace("{{TITLE}}", title)
             html_content = html_content.replace("{{DESCRIPTION}}", description)
             html_content = html_content.replace("{{CONTENT}}", content)
             html_content = html_content.replace("{{CANONICAL_URL}}", canonical_url)
@@ -171,9 +198,29 @@ class TemplateManager:
                 log_error("TemplateManager", f"Could not load template: {template_name}")
                 return ""
             
-            # Load components
-            header_html = self.load_header("/")
-            footer_html = self.load_footer("/", "feed.xml")
+            # Determine if we're in a subdirectory (Farsi)
+            is_subdirectory = self.language == "fa"
+            
+            # Load components with appropriate paths
+            home_url = "../" if is_subdirectory else "/"
+            rss_url = "feed.xml"
+            header_html = self.load_header(home_url)
+            footer_html = self.load_footer(home_url, rss_url)
+            
+            # Adjust asset paths for subdirectory
+            if is_subdirectory:
+                template_content = template_content.replace('href="assets/', 'href="../assets/')
+                template_content = template_content.replace('src="assets/', 'src="../assets/')
+            
+            # Adjust language attributes for Farsi
+            if self.language == "fa":
+                # Update HTML lang attribute
+                template_content = template_content.replace('lang="en"', 'lang="fa"')
+                # Add dir="rtl" if not present
+                if 'dir="rtl"' not in template_content:
+                    template_content = template_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
+                # Update Open Graph locale
+                template_content = template_content.replace('content="en_US"', 'content="fa_IR"')
             
             # Replace template placeholders
             html_content = template_content.replace("{{POSTS}}", posts_content)
@@ -210,9 +257,29 @@ class TemplateManager:
                 log_error("TemplateManager", f"Could not load template: {template_name}")
                 return ""
             
-            # Load components with paths for root directory
-            header_html = self.load_header("/")
-            footer_html = self.load_footer("/", "feed.xml")
+            # Determine if we're in a subdirectory (Farsi)
+            is_subdirectory = self.language == "fa"
+            
+            # Load components with appropriate paths
+            home_url = "../" if is_subdirectory else "/"
+            rss_url = "feed.xml"
+            header_html = self.load_header(home_url)
+            footer_html = self.load_footer(home_url, rss_url)
+            
+            # Adjust asset paths for subdirectory
+            if is_subdirectory:
+                template_content = template_content.replace('href="assets/', 'href="../assets/')
+                template_content = template_content.replace('src="assets/', 'src="../assets/')
+            
+            # Adjust language attributes for Farsi
+            if self.language == "fa":
+                # Update HTML lang attribute
+                template_content = template_content.replace('lang="en"', 'lang="fa"')
+                # Add dir="rtl" if not present
+                if 'dir="rtl"' not in template_content:
+                    template_content = template_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
+                # Update Open Graph locale
+                template_content = template_content.replace('content="en_US"', 'content="fa_IR"')
             
             # Replace template placeholders
             html_content = template_content.replace("{{POSTS}}", posts_content)
@@ -220,9 +287,6 @@ class TemplateManager:
             html_content = html_content.replace("{{JAVASCRIPT}}", pagination_script)  # Backwards compatibility
             html_content = html_content.replace("{{HEADER}}", header_html)
             html_content = html_content.replace("{{FOOTER}}", footer_html)
-            
-            # No path adjustments needed for root directory
-            # Assets and posts are already at correct relative paths
             
             return html_content
             
