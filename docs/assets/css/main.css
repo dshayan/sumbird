@@ -271,3 +271,63 @@ article h1 a:hover {
     gap: var(--space-xs);
   }
 }
+
+/* RTL Support for Farsi */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] body {
+  font-family: 'Vazir', 'Tahoma', 'Arial', sans-serif;
+  direction: rtl;
+}
+
+[dir="rtl"] .header-content {
+  text-align: right;
+}
+
+[dir="rtl"] .footer-content {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+[dir="rtl"] .footer-links {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .pagination-links {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .pagination-prev {
+  order: 2;
+}
+
+[dir="rtl"] .pagination-next {
+  order: -1;
+}
+
+/* Persian Typography */
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3 {
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+[dir="rtl"] p, [dir="rtl"] li {
+  line-height: 1.8;
+}
+
+/* Adjust margins for RTL */
+[dir="rtl"] ul, [dir="rtl"] ol {
+  margin-right: var(--space-md);
+  margin-left: 0;
+}
+
+[dir="rtl"] blockquote {
+  border-right: 4px solid var(--primary);
+  border-left: none;
+  margin-right: 0;
+  margin-left: var(--space-md);
+  padding-right: var(--space-md);
+  padding-left: 0;
+}
