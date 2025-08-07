@@ -276,35 +276,12 @@ class NewsletterGenerator:
             total_posts = len(recent_posts)
             total_pages = (total_posts + posts_per_page - 1) // posts_per_page
             
-            pagination_html = ""
-            if total_pages > 1:
-                pagination_html = '''
-                <div class="pagination-container">
-                    <div class="pagination-links">
-                        <span class="pagination-link current">1</span>
-                '''
-                
-                # Add links to other pages
-                for page in range(2, min(6, total_pages + 1)):  # Show up to 5 pages
-                    pagination_html += f'''
-                        <a href="page{page}.html" class="pagination-link">{page}</a>
-                    '''
-                
-                if total_pages > 5:
-                    pagination_html += '''
-                        <span class="pagination-dots">...</span>
-                        <a href="page{}.html" class="pagination-link">{}</a>
-                    '''.format(total_pages, total_pages)
-                
-                if total_pages > 1:
-                    pagination_html += '''
-                        <a href="page2.html" class="pagination-next">Next →</a>
-                    '''
-                
-                pagination_html += '''
-                    </div>
-                            </div>
-                '''
+            # Generate pagination using component
+            pagination_html = self.template_manager.load_pagination(
+                current_page=1,
+                total_pages=total_pages,
+                base_path=""
+            )
             
             # Use template manager to generate complete homepage
             homepage_html = self.template_manager.generate_index_html(
@@ -367,63 +344,12 @@ class NewsletterGenerator:
                     '''
                     posts_html += post_html
                 
-                # Generate pagination for this page
-                pagination_html = f'''
-                <div class="pagination-container">
-                    <div class="pagination-links">
-                '''
-                
-                # Previous link
-                if page_num > 1:
-                    prev_link = "index.html" if page_num == 2 else f"page{page_num - 1}.html"
-                    pagination_html += f'''
-                        <a href="{prev_link}" class="pagination-prev">← Previous</a>
-                    '''
-                
-                # Page numbers
-                for page in range(1, min(6, total_pages + 1)):
-                    if page == 1:
-                        if page_num == 1:
-                            pagination_html += '''
-                                <span class="pagination-link current">1</span>
-                            '''
-                        else:
-                            pagination_html += '''
-                                <a href="index.html" class="pagination-link">1</a>
-                            '''
-                    else:
-                        if page_num == page:
-                            pagination_html += f'''
-                                <span class="pagination-link current">{page}</span>
-                            '''
-                        else:
-                            pagination_html += f'''
-                                <a href="page{page}.html" class="pagination-link">{page}</a>
-                            '''
-                
-                if total_pages > 5:
-                    pagination_html += '''
-                        <span class="pagination-dots">...</span>
-                    '''
-                    if page_num == total_pages:
-                        pagination_html += f'''
-                            <span class="pagination-link current">{total_pages}</span>
-                        '''
-                    else:
-                        pagination_html += f'''
-                            <a href="page{total_pages}.html" class="pagination-link">{total_pages}</a>
-                        '''
-                
-                # Next link
-                if page_num < total_pages:
-                    pagination_html += f'''
-                        <a href="page{page_num + 1}.html" class="pagination-next">Next →</a>
-                    '''
-                
-                pagination_html += '''
-                    </div>
-                </div>
-                '''
+                # Generate pagination using component
+                pagination_html = self.template_manager.load_pagination(
+                    current_page=page_num,
+                    total_pages=total_pages,
+                    base_path=""
+                )
                 
                 # Generate complete page HTML with adjusted paths for subdirectory
                 page_html = self.template_manager.generate_index_html_for_subdir(

@@ -100,6 +100,65 @@ class TemplateManager:
         """
         return self.load_component("footer", HOME_URL=home_url, RSS_URL=rss_url)
     
+    def load_pagination(self, current_page: int, total_pages: int, base_path: str = "") -> str:
+        """Load the pagination component.
+        
+        Args:
+            current_page: Current page number (1-based).
+            total_pages: Total number of pages.
+            base_path: Base path for links (e.g., "" for root, "../" for subdirectory).
+            
+        Returns:
+            The pagination HTML.
+        """
+        if total_pages <= 1:
+            return ""
+        
+        # Generate previous link
+        prev_link = ""
+        if current_page > 1:
+            prev_href = f"{base_path}index.html" if current_page == 2 else f"{base_path}page{current_page - 1}.html"
+            if self.language == "fa":
+                prev_link = f'<a href="{prev_href}" class="pagination-prev">بعدی ←</a>'
+            else:
+                prev_link = f'<a href="{prev_href}" class="pagination-prev">← Previous</a>'
+        
+        # Generate next link
+        next_link = ""
+        if current_page < total_pages:
+            next_href = f"{base_path}page{current_page + 1}.html"
+            if self.language == "fa":
+                next_link = f'<a href="{next_href}" class="pagination-next">→ قبلی</a>'
+            else:
+                next_link = f'<a href="{next_href}" class="pagination-next">Next →</a>'
+        
+        # Generate page links
+        page_links = ""
+        for page in range(1, min(6, total_pages + 1)):
+            if page == 1:
+                page_href = f"{base_path}index.html"
+            else:
+                page_href = f"{base_path}page{page}.html"
+            
+            if page == current_page:
+                page_links += f'<span class="pagination-link current">{page}</span>'
+            else:
+                page_links += f'<a href="{page_href}" class="pagination-link">{page}</a>'
+        
+        # Add dots and last page if there are more than 5 pages
+        if total_pages > 5:
+            page_links += '<span class="pagination-dots">...</span>'
+            last_href = f"{base_path}page{total_pages}.html"
+            if current_page == total_pages:
+                page_links += f'<span class="pagination-link current">{total_pages}</span>'
+            else:
+                page_links += f'<a href="{last_href}" class="pagination-link">{total_pages}</a>'
+        
+        return self.load_component("pagination", 
+                                 PREV_LINK=prev_link,
+                                 PAGE_LINKS=page_links,
+                                 NEXT_LINK=next_link)
+    
     def generate_post_html(self, 
                           title: str, 
                           content: str, 
