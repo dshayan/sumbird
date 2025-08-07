@@ -119,7 +119,7 @@ class TemplateManager:
         if current_page > 1:
             prev_href = f"{base_path}index.html" if current_page == 2 else f"{base_path}page{current_page - 1}.html"
             if self.language == "fa":
-                prev_link = f'<a href="{prev_href}" class="pagination-prev">بعدی ←</a>'
+                prev_link = f'<a href="{prev_href}" class="pagination-prev">قبلی ←</a>'
             else:
                 prev_link = f'<a href="{prev_href}" class="pagination-prev">← Previous</a>'
         
@@ -128,7 +128,7 @@ class TemplateManager:
         if current_page < total_pages:
             next_href = f"{base_path}page{current_page + 1}.html"
             if self.language == "fa":
-                next_link = f'<a href="{next_href}" class="pagination-next">→ قبلی</a>'
+                next_link = f'<a href="{next_href}" class="pagination-next">→ بعدی</a>'
             else:
                 next_link = f'<a href="{next_href}" class="pagination-next">Next →</a>'
         
