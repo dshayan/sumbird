@@ -149,7 +149,7 @@ class TemplateManager:
             if not og_description:
                 og_description = "AI news and vibes from Twitter"
             
-            # Adjust language attributes for Farsi
+            # Adjust language attributes and asset paths for Farsi
             if self.language == "fa":
                 # Update HTML lang attribute
                 html_content = template_content.replace('lang="en"', 'lang="fa"')
@@ -158,6 +158,9 @@ class TemplateManager:
                     html_content = html_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
                 # Update Open Graph locale
                 html_content = html_content.replace('content="en_US"', 'content="fa_IR"')
+                # Adjust asset paths for posts in subdirectory (fa/posts/ needs ../../assets/)
+                html_content = html_content.replace('href="../assets/', 'href="../../assets/')
+                html_content = html_content.replace('src="../assets/', 'src="../../assets/')
             else:
                 html_content = template_content
             
