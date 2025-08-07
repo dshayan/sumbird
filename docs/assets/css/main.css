@@ -193,20 +193,7 @@ article h1 a:hover {
   color: var(--background-white);
 }
 
-.pagination-prev,
-.pagination-next {
-  padding: var(--space-xs) var(--space-md);
-  border-radius: var(--border-radius);
-  color: var(--primary);
-  text-decoration: none;
-  font-weight: 500;
-  transition: background 0.2s;
-}
 
-.pagination-prev:hover,
-.pagination-next:hover {
-  background: var(--background-primary-hover);
-}
 
 .pagination-dots {
   color: var(--text-light);
@@ -298,17 +285,9 @@ article h1 a:hover {
   flex-direction: row-reverse;
 }
 
-[dir="rtl"] .pagination-links {
-  flex-direction: row-reverse;
-}
 
-[dir="rtl"] .pagination-prev {
-  order: 2;
-}
 
-[dir="rtl"] .pagination-next {
-  order: -1;
-}
+
 
 /* Persian Typography */
 [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3 {
