@@ -114,23 +114,7 @@ class TemplateManager:
         if total_pages <= 1:
             return ""
         
-        # Generate previous link
-        prev_link = ""
-        if current_page > 1:
-            prev_href = f"{base_path}index.html" if current_page == 2 else f"{base_path}page{current_page - 1}.html"
-            if self.language == "fa":
-                prev_link = f'<a href="{prev_href}" class="pagination-prev">قبلی ←</a>'
-            else:
-                prev_link = f'<a href="{prev_href}" class="pagination-prev">← Previous</a>'
-        
-        # Generate next link
-        next_link = ""
-        if current_page < total_pages:
-            next_href = f"{base_path}page{current_page + 1}.html"
-            if self.language == "fa":
-                next_link = f'<a href="{next_href}" class="pagination-next">→ بعدی</a>'
-            else:
-                next_link = f'<a href="{next_href}" class="pagination-next">Next →</a>'
+        # No previous/next links - only numbered pagination
         
         # Generate page links
         page_links = ""
@@ -155,9 +139,9 @@ class TemplateManager:
                 page_links += f'<a href="{last_href}" class="pagination-link">{total_pages}</a>'
         
         return self.load_component("pagination", 
-                                 PREV_LINK=prev_link,
+                                 PREV_LINK="",
                                  PAGE_LINKS=page_links,
-                                 NEXT_LINK=next_link)
+                                 NEXT_LINK="")
     
     def generate_post_html(self, 
                           title: str, 
