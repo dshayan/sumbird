@@ -3,6 +3,9 @@
 /* Import minimal Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+/* Import Persian Fonts */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+
 /* Design System */
 :root {
   /* Colors - Complete color palette */
@@ -278,7 +281,7 @@ article h1 a:hover {
 }
 
 [dir="rtl"] body {
-  font-family: 'Vazir', 'Tahoma', 'Arial', sans-serif;
+  font-family: 'Vazirmatn', 'Vazir', system-ui, -apple-system, sans-serif;
   direction: rtl;
 }
 
