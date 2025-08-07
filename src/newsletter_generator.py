@@ -591,11 +591,12 @@ class NewsletterGenerator:
             log_error("Newsletter Generator", f"Error in commit and push", e)
             return False
     
-    def generate_newsletter(self, auto_commit: bool = True) -> bool:
+    def generate_newsletter(self, auto_commit: bool = True, force_regenerate: bool = False) -> bool:
         """Generate the complete newsletter from summary files.
         
         Args:
             auto_commit: Whether to automatically commit and push changes.
+            force_regenerate: Whether to regenerate existing posts (useful for template updates).
             
         Returns:
             True if successful, False otherwise.
@@ -624,10 +625,12 @@ class NewsletterGenerator:
                 
                 # Check if post already exists
                 post_file = self.posts_dir / f"{date_str}.html"
-                if post_file.exists():
+                if post_file.exists() and not force_regenerate:
                     log_info("Newsletter Generator", f"Post already exists: {date_str}")
                 else:
-                    # Generate new post
+                    # Generate new post or regenerate existing one
+                    action = "Regenerating" if post_file.exists() else "Generating"
+                    log_info("Newsletter Generator", f"{action} post: {date_str}")
                     if self.generate_post_page(date_str, content_data):
                         generated_count += 1
                 
@@ -655,11 +658,11 @@ class NewsletterGenerator:
             return False
 
 
-def generate():
+def generate(force_regenerate: bool = False):
     """Main function to generate newsletter. Can be called from pipeline or standalone."""
     try:
         generator = NewsletterGenerator(use_external_css=True)
-        success = generator.generate_newsletter()
+        success = generator.generate_newsletter(force_regenerate=force_regenerate)
         
         if success:
             log_success("Newsletter Generator", "Newsletter generation completed successfully")
@@ -674,10 +677,15 @@ def generate():
 
 
 if __name__ == "__main__":
+    import sys
+    
     # Ensure environment is loaded when running standalone
     from utils import env_utils
     if not env_utils.env_vars:
         env_utils.load_environment()
     
-    success = generate()
+    # Check for force regenerate flag
+    force_regenerate = "--force" in sys.argv or "-f" in sys.argv
+    
+    success = generate(force_regenerate=force_regenerate)
     exit(0 if success else 1)
