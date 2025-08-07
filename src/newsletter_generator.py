@@ -193,7 +193,8 @@ class NewsletterGenerator:
             post_html = self.template_manager.generate_post_html(
                 title=title,
                 content=content,
-                description=description
+                description=description,
+                date_str=date_str
             )
             
             if not post_html:

@@ -94,7 +94,9 @@ class TemplateManager:
                           title: str, 
                           content: str, 
                           description: str = "", 
-                          template_name: str = "template.html") -> str:
+                          template_name: str = "template.html",
+                          date_str: str = "",
+                          og_image: str = "") -> str:
         """Generate a complete post HTML using the template.
         
         Args:
@@ -102,6 +104,8 @@ class TemplateManager:
             content: The post content (HTML).
             description: The post description for meta tag.
             template_name: Name of the template file to use.
+            date_str: Date string for generating canonical URL.
+            og_image: URL to Open Graph image.
             
         Returns:
             The complete HTML for the post.
@@ -118,10 +122,24 @@ class TemplateManager:
             header_html = self.load_header("../")
             footer_html = self.load_footer("../", "../feed.xml")
             
+            # Generate canonical URL for the post
+            canonical_url = f"https://dshayan.github.io/sumbird/posts/{date_str}.html" if date_str else "https://dshayan.github.io/sumbird/"
+            
+            # Use default OG image if none provided
+            if not og_image:
+                og_image = "https://dshayan.github.io/sumbird/assets/images/sumbird-og-image.svg"
+            
+            # Truncate description for OG tags (max 65 chars for good preview)
+            og_description = description[:62] + "..." if len(description) > 65 else description
+            if not og_description:
+                og_description = "AI news and vibes from Twitter"
+            
             # Replace template placeholders
             html_content = template_content.replace("{{TITLE}}", title)
             html_content = html_content.replace("{{DESCRIPTION}}", description)
             html_content = html_content.replace("{{CONTENT}}", content)
+            html_content = html_content.replace("{{CANONICAL_URL}}", canonical_url)
+            html_content = html_content.replace("{{OG_IMAGE}}", og_image)
             html_content = html_content.replace("{{HEADER}}", header_html)
             html_content = html_content.replace("{{FOOTER}}", footer_html)
             
