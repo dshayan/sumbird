@@ -62,6 +62,9 @@ python scripts/generate_newsletter.py --no-commit
 
 # Manage Telegraph posts (list/delete)
 python scripts/telegraph_post_manager.py
+
+# Monitor HTTP traffic for fetcher debugging
+python scripts/fetcher_monitor.py
 ```
 
 ## Pipeline Flow
@@ -139,7 +142,8 @@ sumbird/
 │   └── feed.xml                  # RSS feed (auto-generated)
 ├── scripts/                       # Utility scripts
 │   ├── generate_newsletter.py    # Standalone newsletter generator
-│   └── telegraph_post_manager.py # Telegraph post management tool
+│   ├── telegraph_post_manager.py # Telegraph post management tool
+│   └── fetcher_monitor.py        # HTTP traffic monitoring for debugging
 ├── test/                          # Test pipeline and configuration
 ├── data/                          # Pipeline outputs (auto-created)
 │   ├── export/                   # Raw exported tweets
