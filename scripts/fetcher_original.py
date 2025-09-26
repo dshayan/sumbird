@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Module for fetching RSS feeds from Twitter/X via self-hosted Nitter and formatting them.
+Module for fetching RSS feeds from Twitter/X and formatting them.
 This module can be run independently or as part of the pipeline.
 """
 import os
@@ -19,21 +19,18 @@ from utils.retry_utils import with_retry_sync
 
 # Import configuration
 from config import (
-    HANDLES, TIMEZONE, EXPORT_DIR, EXPORT_TITLE_FORMAT,
+    BASE_URL, HANDLES, TIMEZONE, EXPORT_DIR, EXPORT_TITLE_FORMAT,
     RSS_TIMEOUT, RETRY_MAX_ATTEMPTS
 )
 
 # Import feedparser directly, no patching needed
 import feedparser
 
-# Nitter configuration
-NITTER_BASE_URL = "http://localhost:8080"
-
 def convert_to_x_url(url):
-    """Convert Nitter URL to x.com format.
+    """Convert RSS feed URL to x.com format.
     
     Args:
-        url (str): Original Nitter URL
+        url (str): Original RSS feed URL
         
     Returns:
         str: Converted x.com URL
@@ -41,14 +38,12 @@ def convert_to_x_url(url):
     if not url:
         return url
     
-    # Convert localhost Nitter URLs to x.com format
-    if 'localhost' in url and '/status/' in url:
+    # Extract the domain from BASE_URL for URL parsing
+    base_domain = BASE_URL.rstrip('/').split('://')[-1]  # Get domain part
+    
+    if base_domain in url and '/status/' in url:
         # Extract username and status ID from the URL
-        if 'localhost:8080' in url:
-            url_parts = url.split('localhost:8080/')
-        else:
-            url_parts = url.split('localhost/')
-        
+        url_parts = url.split(base_domain + '/')
         if len(url_parts) > 1:
             path = url_parts[1]
             if '/status/' in path:
@@ -59,13 +54,12 @@ def convert_to_x_url(url):
     return url
 
 def get_feeds_from_handles():
-    """Generate Nitter RSS feed URLs from Twitter handles."""
+    """Generate feed URLs from Twitter handles."""
     feeds = []
     for handle in HANDLES:
         handle = handle.strip()
         if handle:
-            # Use Nitter RSS feeds
-            feed_url = f"{NITTER_BASE_URL}/{handle}/rss"
+            feed_url = f"{BASE_URL}{handle}/rss"
             feed_title = f"@{handle}"
             feeds.append({
                 'url': feed_url,
@@ -155,19 +149,38 @@ def get_posts(feeds, target_start, target_end):
                     # Get the URL from the link field
                     url = entry.get('link', '')
                     
-                    # Get content from description or summary
-                    content = entry.get('description', '') or entry.get('summary', '')
+                    # Get content from summary/content fields
+                    content = None
+                    if hasattr(entry, 'summary'):
+                        content = entry.summary
+                    elif hasattr(entry, 'content') and entry.content:
+                        content = entry.content[0].value
+                    else:
+                        content = entry.title
                     
-                    # Clean HTML from content
+                    # Clean the content
                     content = strip_html(content)
                     content = clean_text(content)
                     
-                    # Handle retweets - convert Nitter retweet format to x.com format
-                    if is_retweet and url:
+                    # Convert URLs in content to x.com format
+                    if content:
+                        # Extract the domain from BASE_URL for URL replacement
+                        base_domain = BASE_URL.rstrip('/').split('://')[-1]  # Get domain part
+                        
+                        # Replace URLs in content with x.com format
+                        import re
+                        # Pattern to match URLs with the base domain (with or without https://)
+                        url_pattern = rf'(?:https?://)?{re.escape(base_domain)}/([^/\s]+)/status/(\d+)(?:#\w+)?'
+                        content = re.sub(url_pattern, r'https://x.com/\1/status/\2', content)
+                    
+                    # Handle retweets
+                    if is_retweet:
                         # Extract original author from the URL
                         original_author = "unknown"
-                        if 'localhost:8080' in url:
-                            url_parts = url.split('localhost:8080/')
+                        if url and BASE_URL.rstrip('/') in url:
+                            # Extract the domain from BASE_URL for URL parsing
+                            base_domain = BASE_URL.rstrip('/').split('://')[-1]  # Get domain part
+                            url_parts = url.split(base_domain + '/')
                             if len(url_parts) > 1:
                                 path = url_parts[1]
                                 if '/status/' in path:
@@ -197,46 +210,53 @@ def get_posts(feeds, target_start, target_end):
     return results, successful_feeds, failed_handles
 
 def analyze_feed_failure(parsed_feed, feed_handle):
-    """
-    Analyze why a feed failed and return a descriptive reason.
+    """Analyze why a feed failed and return a descriptive reason.
     
     Args:
-        parsed_feed: The feedparser result object
-        feed_handle: The handle being processed (e.g., "@username")
-        
-    Returns:
-        str: Descriptive failure reason
-    """
-    # Check for common failure patterns
-    if not hasattr(parsed_feed, 'feed') or parsed_feed.feed is None:
-        return "No feed data received (possible network issue or invalid URL)"
+        parsed_feed: The parsed feed object from feedparser
+        feed_handle: The feed handle (e.g., "@username")
     
+    Returns:
+        str: Human-readable failure reason
+    """
+    # Check for feedparser bozo (malformed feed) errors
     if hasattr(parsed_feed, 'bozo') and parsed_feed.bozo:
         if hasattr(parsed_feed, 'bozo_exception'):
-            return f"Feed parsing error: {str(parsed_feed.bozo_exception)}"
+            exception_type = type(parsed_feed.bozo_exception).__name__
+            if 'URLError' in exception_type or 'HTTPError' in exception_type:
+                return f"Network error ({exception_type})"
+            elif 'XML' in exception_type or 'SAX' in exception_type:
+                return f"Malformed RSS (XML parsing error)"
+            else:
+                return f"Feed parsing error ({exception_type})"
         else:
-            return "Feed parsing error (malformed XML/RSS)"
+            return "Malformed RSS (bozo flag set)"
     
+    # Check for HTTP status codes if available
     if hasattr(parsed_feed, 'status'):
-        if parsed_feed.status == 404:
-            return "Feed not found (404) - account may not exist or be private"
-        elif parsed_feed.status == 403:
-            return "Access forbidden (403) - account may be private or restricted"
-        elif parsed_feed.status == 429:
-            return "Rate limited (429) - too many requests"
-        elif parsed_feed.status >= 500:
-            return f"Server error ({parsed_feed.status}) - service unavailable"
-        elif parsed_feed.status != 200:
-            return f"HTTP error ({parsed_feed.status})"
+        status = parsed_feed.status
+        if status == 404:
+            return "HTTP 404 (account not found)"
+        elif status == 403:
+            return "HTTP 403 (access denied/private account)"
+        elif status == 429:
+            return "HTTP 429 (rate limited)"
+        elif status >= 500:
+            return f"HTTP {status} (server error)"
+        elif status >= 400:
+            return f"HTTP {status} (client error)"
     
-    if hasattr(parsed_feed, 'entries') and len(parsed_feed.entries) == 0:
-        return "Feed is empty (no entries found)"
+    # Check if feed object exists but is empty
+    if hasattr(parsed_feed, 'feed'):
+        if not parsed_feed.feed:
+            return "Empty feed (no feed object)"
+        elif not hasattr(parsed_feed.feed, 'title'):
+            return "Invalid feed structure (no title)"
     
-    # Check for specific error messages in the feed
-    if hasattr(parsed_feed.feed, 'title'):
-        title = parsed_feed.feed.title.lower()
-        if 'error' in title or 'not found' in title:
-            return f"Feed error: {parsed_feed.feed.title}"
+    # Check if entries exist
+    if hasattr(parsed_feed, 'entries'):
+        if len(parsed_feed.entries) == 0:
+            return "Empty feed (no entries)"
     
     # Default fallback
     return "Unknown error (feed validation failed)"
@@ -296,7 +316,7 @@ def fetch_and_format():
     # Generate output file path using the centralized function
     output_file = get_file_path('export', date_str)
     
-    log_info('Fetcher', f"Nitter Base URL: {NITTER_BASE_URL}")
+    log_info('Fetcher', f"Base URL: {BASE_URL}")
     log_info('Fetcher', f"Handles to process: {', '.join(HANDLES)}")
     log_info('Fetcher', f"Target date: {date_str}")
     
@@ -335,4 +355,4 @@ if __name__ == "__main__":
         log_success('Fetcher', f"Successfully fetched and formatted tweets to {output_file}")
     else:
         log_error('Fetcher', "Failed to fetch and format tweets")
-        sys.exit(1)
+        sys.exit(1) 

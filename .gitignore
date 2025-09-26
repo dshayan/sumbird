@@ -71,3 +71,10 @@ temp/
 
 # Scheduling scripts (user-specific)
 scripts/schedule.sh
+
+# Session files
+sessions.jsonl
+
+# Docker files
+docker-compose.override.yml
+nitter.conf

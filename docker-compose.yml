@@ -1,0 +1,29 @@
+services:
+  nitter-redis:
+    image: redis:7-alpine
+    container_name: nitter-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+
+  nitter:
+    image: zedeus/nitter:latest
+    platform: linux/amd64
+    container_name: nitter
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./nitter.conf:/src/nitter.conf:ro
+      - ./sessions.jsonl:/src/sessions.jsonl:ro
+    depends_on:
+      - nitter-redis
+    environment:
+      - NITTER_REDIS_HOST=nitter-redis
+      - NITTER_REDIS_PORT=6379
+
+volumes:
+  redis_data:
