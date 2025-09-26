@@ -382,35 +382,7 @@ class GeminiTTSClient:
                 )
             )
             
-            log_info('GeminiTTS', f"Response received: candidates={len(response.candidates) if response.candidates else 0}")
-            
-            # Enhanced error logging for response structure analysis
-            try:
-                # Log detailed response structure for debugging
-                log_info('GeminiTTS', f"Response type: {type(response)}")
-                if hasattr(response, 'candidates') and response.candidates:
-                    log_info('GeminiTTS', f"First candidate type: {type(response.candidates[0])}")
-                    candidate = response.candidates[0]
-                    
-                    # Log candidate attributes
-                    if hasattr(candidate, 'content'):
-                        log_info('GeminiTTS', f"Candidate content type: {type(candidate.content)}")
-                        log_info('GeminiTTS', f"Candidate content is None: {candidate.content is None}")
-                    else:
-                        log_error('GeminiTTS', "Candidate has no 'content' attribute")
-                    
-                    # Log other candidate attributes for debugging
-                    if hasattr(candidate, 'finish_reason'):
-                        log_info('GeminiTTS', f"Candidate finish_reason: {candidate.finish_reason}")
-                    if hasattr(candidate, 'finish_message'):
-                        log_info('GeminiTTS', f"Candidate finish_message: {candidate.finish_message}")
-                    if hasattr(candidate, 'safety_ratings'):
-                        log_info('GeminiTTS', f"Candidate safety_ratings: {candidate.safety_ratings}")
-                    if hasattr(candidate, 'citation_metadata'):
-                        log_info('GeminiTTS', f"Candidate citation_metadata: {candidate.citation_metadata}")
-                        
-            except Exception as debug_error:
-                log_error('GeminiTTS', f"Error during response structure debugging: {str(debug_error)}")
+            log_info('GeminiTTS', f"Response received successfully")
             
             # Check if response has valid candidates and content
             if not response.candidates:

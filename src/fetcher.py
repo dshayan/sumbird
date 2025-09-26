@@ -122,7 +122,7 @@ def get_posts(feeds, target_start, target_end):
                 feed['title'] = parsed_feed.feed.title
                 entry_count = len(parsed_feed.entries) if hasattr(parsed_feed, 'entries') else 0
                 successful_feeds += 1
-                log_success('Fetcher', f"{feed_handle} - Feed loaded successfully ({entry_count} entries found)")
+                # Only log individual failures, not successes
             else:
                 # Feed failed - analyze why
                 failure_reason = analyze_feed_failure(parsed_feed, feed_handle)
@@ -303,6 +303,8 @@ def fetch_and_format():
     # Get feeds and posts
     feeds = get_feeds_from_handles()
     feeds_total = len(feeds)
+    
+    log_info('Fetcher', f"Processing {feeds_total} feeds...")
     
     target_start, target_end = get_date_range(target_date)
     posts, feeds_success, failed_handles = get_posts(feeds, target_start, target_end)

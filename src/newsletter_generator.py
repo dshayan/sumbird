@@ -318,6 +318,7 @@ class NewsletterGenerator:
             total_pages: Total number of pages.
         """
         try:
+            pages_generated = 0
             for page_num in range(2, total_pages + 1):
                 start_idx = (page_num - 1) * posts_per_page
                 end_idx = start_idx + posts_per_page
@@ -363,7 +364,11 @@ class NewsletterGenerator:
                     page_file = self.docs_path / f"page{page_num}.html"
                     with open(page_file, 'w', encoding='utf-8') as f:
                         f.write(page_html)
-                    log_info("Newsletter Generator", f"Generated page{page_num}.html")
+                    pages_generated += 1
+            
+            # Log summary of pages generated
+            if pages_generated > 0:
+                log_info("Newsletter Generator", f"Generated {pages_generated} pagination pages")
                 
         except Exception as e:
             log_error("Newsletter Generator", f"Error generating pagination pages", e)
@@ -521,14 +526,14 @@ class NewsletterGenerator:
                 return True
             
             # Add docs directory changes
-            subprocess.run(['git', 'add', 'docs/'], check=True)
+            subprocess.run(['git', 'add', 'docs/'], check=True, capture_output=True)
             
             # Commit with timestamp
             commit_message = f"Update newsletter - {get_now().strftime('%Y-%m-%d %H:%M:%S UTC')}"
-            subprocess.run(['git', 'commit', '-m', commit_message], check=True)
+            subprocess.run(['git', 'commit', '-m', commit_message], check=True, capture_output=True)
             
             # Push to origin
-            subprocess.run(['git', 'push', 'origin', 'main'], check=True)
+            subprocess.run(['git', 'push', 'origin', 'main'], check=True, capture_output=True)
             
             log_success("Newsletter Generator", "Successfully committed and pushed changes")
             return True
@@ -564,6 +569,7 @@ class NewsletterGenerator:
             # Parse and generate posts
             recent_posts = []
             generated_count = 0
+            skipped_count = 0
             
             for date_str, file_path in summary_files:
                 # Parse summary content
@@ -575,7 +581,7 @@ class NewsletterGenerator:
                 # Check if post already exists
                 post_file = self.posts_dir / f"{date_str}.html"
                 if post_file.exists() and not force_regenerate:
-                    log_info("Newsletter Generator", f"Post already exists: {date_str}")
+                    skipped_count += 1
                 else:
                     # Generate new post or regenerate existing one
                     action = "Regenerating" if post_file.exists() else "Generating"
@@ -584,6 +590,10 @@ class NewsletterGenerator:
                         generated_count += 1
                 
                 recent_posts.append((date_str, content_data))
+            
+            # Log summary of skipped posts
+            if skipped_count > 0:
+                log_info("Newsletter Generator", f"Skipped {skipped_count} existing posts")
             
             # Generate homepage with recent posts
             if not self.generate_homepage(recent_posts):
@@ -607,21 +617,23 @@ class NewsletterGenerator:
             return False
 
 
-def generate(force_regenerate: bool = False, language: str = "en"):
+def generate(force_regenerate: bool = False, language: str = "en", verbose: bool = True):
     """Main function to generate newsletter. Can be called from pipeline or standalone."""
     try:
         generator = NewsletterGenerator(use_external_css=True, language=language)
         success = generator.generate_newsletter(force_regenerate=force_regenerate)
         
-        if success:
-            log_success("Newsletter Generator", f"Newsletter generation completed successfully ({language})")
-        else:
-            log_error("Newsletter Generator", f"Newsletter generation failed ({language})")
+        if verbose:
+            if success:
+                log_success("Newsletter Generator", f"Newsletter generation completed successfully ({language})")
+            else:
+                log_error("Newsletter Generator", f"Newsletter generation failed ({language})")
         
         return success
         
     except Exception as e:
-        log_error("Newsletter Generator", f"Error in generate function ({language})", e)
+        if verbose:
+            log_error("Newsletter Generator", f"Error in generate function ({language})", e)
         return False
 
 

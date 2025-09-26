@@ -128,6 +128,22 @@ def log_pipeline_step(step_name, message=""):
         print(f"\n=== {step_name}: {message} ===")
     else:
         print(f"\n=== {step_name} ===")
+
+def log_pipeline_progress(step_number, total_steps, step_name, message=""):
+    """Log a pipeline step with modern progress formatting.
+    
+    Args:
+        step_number (int): Current step number (1-based)
+        total_steps (int): Total number of steps
+        step_name (str): Name of the pipeline step
+        message (str, optional): Additional message for the step
+    """
+    timestamp = format_datetime()
+    if message:
+        formatted_message = f"[INFO] {timestamp} - Pipeline: Step {step_number}/{total_steps}: {step_name} - {message}"
+    else:
+        formatted_message = f"[INFO] {timestamp} - Pipeline: Step {step_number}/{total_steps}: {step_name}..."
+    print(formatted_message)
         
 def handle_request_error(module_name, response, error_message):
     """Handle API request errors consistently.

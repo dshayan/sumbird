@@ -8,7 +8,7 @@ by both the main pipeline and test pipeline with different configurations.
 import os
 import json
 from utils.date_utils import get_date_str, format_datetime
-from utils.logging_utils import log_step, log_pipeline_step, log_info, log_error
+from utils.logging_utils import log_step, log_pipeline_step, log_pipeline_progress, log_info, log_error
 from utils.file_utils import file_exists, get_audio_file_path
 
 def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegram=False):
@@ -47,7 +47,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         log_step(log_file, True, f"{log_prefix}Started at {now}")
         
         # Step 1: Fetch and format tweets
-        log_pipeline_step("Step 1", "Fetch and Format Tweets")
+        log_pipeline_progress(1, 9, "Fetching tweets")
         
         export_file = config_module.get_file_path('export', date_str)
         using_cached_export = os.path.exists(export_file)
@@ -101,7 +101,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             log_info(pipeline_name, f"Tweets fetched and saved to {exported_file}")
         
         # Step 2: Summarize with AI
-        log_pipeline_step("Step 2", "Summarize with AI")
+        log_pipeline_progress(2, 9, "Summarizing content")
         
         summary_file = config_module.get_file_path('summary', date_str)
         using_cached_summary = os.path.exists(summary_file)
@@ -138,7 +138,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             log_step(log_file, True, f"{log_prefix}Summarized using {input_tokens} input tokens, {output_tokens} output tokens")
         
         # Step 3: Translate summary to Persian
-        log_pipeline_step("Step 3", "Translate Summary to Persian")
+        log_pipeline_progress(3, 9, "Translating to Persian")
         
         translated_file = config_module.get_file_path('translated', date_str)
         using_cached_translation = os.path.exists(translated_file)
@@ -192,7 +192,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             log_step(log_file, True, f"{log_prefix}Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
         
         # Step 4: Convert to TTS-optimized Scripts
-        log_pipeline_step("Step 4", "Convert to TTS-optimized Scripts")
+        log_pipeline_progress(4, 9, "Creating TTS scripts")
         
         # Check if script files already exist
         summary_script_path = config_module.get_file_path('script', date_str)
@@ -225,7 +225,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             log_step(log_file, True, f"{log_prefix}Scripted using {sc_input_tokens} input tokens, {sc_output_tokens} output tokens")
         
         # Step 5: Convert to Speech (TTS)
-        log_pipeline_step("Step 5", "Convert to Speech (TTS)")
+        log_pipeline_progress(5, 9, "Converting to speech")
         
         # Check if audio files already exist (check for both MP3 and WAV)
         # Override get_file_path temporarily for audio file detection
@@ -267,7 +267,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
                 return False
         
         # Step 6: Convert to Telegraph format
-        log_pipeline_step("Step 6", "Convert to Telegraph Format")
+        log_pipeline_progress(6, 9, "Converting to Telegraph format")
         
         # Override the telegraph_converter's file path function
         original_get_file_path = telegraph_converter.get_file_path
@@ -297,7 +297,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         log_step(log_file, True, f"{log_prefix}Converted to JSON")
         
         # Step 7: Publish to Telegraph
-        log_pipeline_step("Step 7", "Publish to Telegraph")
+        log_pipeline_progress(7, 9, "Publishing to Telegraph")
         
         # Override the telegraph_publisher's file path function
         original_get_file_path = telegraph_publisher.get_file_path
@@ -335,11 +335,11 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         
         # Step 8: Distribute to Telegram Channel (conditional)
         if skip_telegram:
-            log_pipeline_step("Step 8", "Distribute to Telegram Channel (SKIPPED)")
+            log_pipeline_progress(8, 9, "Telegram distribution (skipped)")
             log_info(pipeline_name, "Telegram distribution skipped as requested")
             log_step(log_file, True, f"{log_prefix}Distributed (skipped)")
         else:
-            log_pipeline_step("Step 8", "Distribute to Telegram Channel")
+            log_pipeline_progress(8, 9, "Distributing to Telegram")
             
             # Override the telegram_distributer's file path function and config
             # Also need to override the utils.file_utils.get_file_path that get_audio_file_path uses
@@ -370,18 +370,15 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             log_step(log_file, True, f"{log_prefix}Distributed using {tg_input_tokens} input tokens, {tg_output_tokens} output tokens at {telegram_url}")
         
         # Step 9: Generate Newsletter Website (English and Farsi)
-        log_pipeline_step("Step 9", "Generate Newsletter Website")
+        log_pipeline_progress(9, 9, "Generating newsletters")
         
         try:
             from src import newsletter_generator
             
-            # Generate English newsletter
-            log_info(pipeline_name, "Generating English newsletter...")
-            newsletter_success_en = newsletter_generator.generate(language="en")
-            
-            # Generate Farsi newsletter
-            log_info(pipeline_name, "Generating Farsi newsletter...")
-            newsletter_success_fa = newsletter_generator.generate(language="fa")
+            # Generate newsletters for both languages
+            log_info(pipeline_name, "Generating newsletters (English and Farsi)...")
+            newsletter_success_en = newsletter_generator.generate(language="en", verbose=False)
+            newsletter_success_fa = newsletter_generator.generate(language="fa", verbose=False)
             
             newsletter_success = newsletter_success_en and newsletter_success_fa
             
