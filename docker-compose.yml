@@ -21,9 +21,6 @@ services:
       - ./sessions.jsonl:/src/sessions.jsonl:ro
     depends_on:
       - nitter-redis
-    environment:
-      - NITTER_REDIS_HOST=nitter-redis
-      - NITTER_REDIS_PORT=6379
 
 volumes:
   redis_data:

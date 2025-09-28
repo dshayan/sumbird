@@ -29,7 +29,7 @@ Sumbird uses a self-hosted [Nitter](https://github.com/zedeus/nitter) instance t
 
 1. **Start Nitter with Docker:**
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
 2. **Configure session tokens:**
@@ -38,7 +38,7 @@ Sumbird uses a self-hosted [Nitter](https://github.com/zedeus/nitter) instance t
      ```json
      {"oauth_token": "your_oauth_token", "oauth_token_secret": "your_oauth_token_secret"}
      ```
-   - Restart Nitter: `docker-compose restart nitter`
+   - Restart Nitter: `docker compose restart nitter`
 
 3. **Verify setup:**
    ```bash
@@ -51,9 +51,15 @@ For Apple Silicon users, the Docker setup uses platform emulation. For native AR
 
 ### Troubleshooting
 
-- **Services not running:** `docker-compose logs`
-- **Redis connection issues:** `docker-compose restart nitter-redis`
+- **Services not running:** `docker compose logs`
+- **Redis connection issues:** `docker compose restart nitter-redis`
 - **Port conflicts:** Modify port in `docker-compose.yml` and update `src/fetcher.py`
+
+### Nitter Config Format
+
+- Use the sectioned format in `nitter.conf`: `[Server]`, `[Cache]`, `[Config]`, `[Preferences]`.
+- When using Docker Compose, set `redisHost = "nitter-redis"` in the `[Cache]` section.
+- Nitter listens on `0.0.0.0:8080`; the compose file maps it to `localhost:8080`.
 
 ## Session Configuration
 
