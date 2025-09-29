@@ -26,6 +26,7 @@ if not env_utils.env_vars:
 
 # Import utilities from utils package
 from utils.logging_utils import log_info, log_error
+from utils.lock_utils import PipelineLock, check_lock_status, force_release_lock
 
 def parse_arguments():
     """Parse command-line arguments."""
@@ -36,6 +37,8 @@ def parse_arguments():
 Examples:
   python main.py                    # Run complete pipeline including Telegram distribution
   python main.py --skip-telegram   # Run pipeline but skip Telegram distribution step
+  python main.py --force-lock     # Force release any existing lock and run pipeline
+  python main.py --check-lock     # Check lock status without running pipeline
         """
     )
     
@@ -43,6 +46,18 @@ Examples:
         '--skip-telegram',
         action='store_true',
         help='Skip the Telegram distribution step (Step 8)'
+    )
+    
+    parser.add_argument(
+        '--force-lock',
+        action='store_true',
+        help='Force release any existing lock before running pipeline'
+    )
+    
+    parser.add_argument(
+        '--check-lock',
+        action='store_true',
+        help='Check lock status and exit without running pipeline'
     )
     
     return parser.parse_args()
@@ -58,15 +73,39 @@ if __name__ == "__main__":
     try:
         args = parse_arguments()
         
-        if args.skip_telegram:
-            log_info('Pipeline', "Starting pipeline with Telegram distribution disabled")
+        # Handle lock status check
+        if args.check_lock:
+            lock_status = check_lock_status()
+            print(f"Lock Status: {lock_status['message']}")
+            sys.exit(0 if not lock_status['locked'] else 1)
         
-        success = run_pipeline(skip_telegram=args.skip_telegram)
-        if success:
-            log_info('Pipeline', "Pipeline execution completed")
+        # Handle force lock release
+        if args.force_lock:
+            if force_release_lock():
+                log_info('Pipeline', "Existing lock force-released")
+            else:
+                log_info('Pipeline', "No existing lock found")
+        
+        # Run pipeline with lock protection
+        with PipelineLock():
+            if args.skip_telegram:
+                log_info('Pipeline', "Starting pipeline with Telegram distribution disabled")
+            
+            success = run_pipeline(skip_telegram=args.skip_telegram)
+            if success:
+                log_info('Pipeline', "Pipeline execution completed")
+            else:
+                log_error('Pipeline', "Pipeline execution failed")
+                sys.exit(1)
+                
+    except RuntimeError as e:
+        if "Could not acquire pipeline lock" in str(e):
+            lock_status = check_lock_status()
+            log_error('Pipeline', f"Pipeline is already running: {lock_status['message']}")
+            log_error('Pipeline', "Use --force-lock to override or --check-lock to see status")
         else:
-            log_error('Pipeline', "Pipeline execution failed")
-            sys.exit(1)
+            log_error('Pipeline', f"Runtime error: {e}")
+        sys.exit(1)
     except KeyboardInterrupt:
         log_info('Pipeline', "Pipeline interrupted by user")
         sys.exit(1)
