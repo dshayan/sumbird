@@ -68,7 +68,6 @@ def narrate_file(file_path, output_path, client, title=None, date_str=None):
             return None
         
         log_info('Narrator', f"Processing {file_path}")
-        log_info('Narrator', f"Text preview: {text_content[:200]}...")
         
         # Ensure output directory exists
         os.makedirs(os.path.dirname(output_path), exist_ok=True)

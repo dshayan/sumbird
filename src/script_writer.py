@@ -38,7 +38,6 @@ def write_script_for_file(input_file, output_file, client, system_prompt):
             return None, 0, 0
         
         log_info('ScriptWriter', f"Processing {input_file}")
-        log_info('ScriptWriter', f"Content preview: {content[:200]}...")
         
         # Create the full prompt with system prompt and content
         full_prompt = f"{system_prompt}\n\n{content}"
