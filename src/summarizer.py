@@ -61,6 +61,10 @@ def summarize():
         
         with open(summary_file, 'w') as f:
             f.write(formatted_summary)
+        
+        # Log completion and token usage
+        log_success('Summarizer', f"Summarizer completed. Output file: {summary_file}")
+        log_info('Summarizer', f"Tokens used: {input_tokens} input, {output_tokens} output")
             
         return summary_file, input_tokens, output_tokens
         

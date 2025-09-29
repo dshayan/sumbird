@@ -67,7 +67,14 @@ def retry_sync(func: Callable, timeout: int = 60, max_attempts: int = 3, context
         last_exception = None
         
         # Use a more readable module name
-        module_name = 'Fetcher' if 'fetcher' in func.__module__ else func.__module__.split('.')[-1].title()
+        if 'fetcher' in func.__module__:
+            module_name = 'Fetcher'
+        elif 'gemini_utils' in func.__module__:
+            module_name = 'GeminiUtils'
+        elif 'telegram_distributer' in func.__module__:
+            module_name = 'TelegramDistributer'
+        else:
+            module_name = func.__module__.split('.')[-1].title().replace('_', '')
         
         # Generate context message if not provided
         operation_context = context or f"network operation ({func.__name__})"
@@ -135,7 +142,12 @@ def retry_async(func: Callable, timeout: int = 60, max_attempts: int = 3, contex
         last_exception = None
         
         # Use a more readable module name
-        module_name = func.__module__.split('.')[-1].title()
+        if 'gemini_utils' in func.__module__:
+            module_name = 'GeminiUtils'
+        elif 'telegram_distributer' in func.__module__:
+            module_name = 'TelegramDistributer'
+        else:
+            module_name = func.__module__.split('.')[-1].title().replace('_', '')
         
         # Generate context message if not provided
         operation_context = context or f"async operation ({func.__name__})"

@@ -559,6 +559,11 @@ def distribute():
             with open(published_file, 'w', encoding='utf-8') as f:
                 json.dump(published_data, f, ensure_ascii=False, indent=2)
             
+            # Log completion and token usage
+            log_success('TelegramDistributer', "Telegram distribution completed successfully")
+            log_info('TelegramDistributer', f"Message URL: {message_url}")
+            log_info('TelegramDistributer', f"Tokens used: {input_tokens} input, {output_tokens} output")
+            
             return True, message_url, input_tokens, output_tokens
         else:
             log_error('TelegramDistributer', "Failed to distribute to Telegram channel")

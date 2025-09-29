@@ -311,11 +311,11 @@ def convert_to_telegraph_format(input_file, output_file, date_str, is_persian=Fa
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(telegraph_data, f, ensure_ascii=False, indent=2)
         
-        log_success('Telegraph Converter', f"Converted to Telegraph format: {output_file}")
+        log_success('TelegraphConverter', f"Converted to Telegraph format: {output_file}")
         return True
     
     except Exception as e:
-        log_error('Telegraph Converter', f"Error converting to Telegraph format: {str(e)}")
+        log_error('TelegraphConverter', f"Error converting to Telegraph format: {str(e)}")
         return False
 
 def convert_all_summaries():
@@ -332,11 +332,11 @@ def convert_all_summaries():
     
     # Check if both required files exist
     if not os.path.exists(summary_file):
-        log_error('Telegraph Converter', f"Summary file not found: {summary_file}")
+        log_error('TelegraphConverter', f"Summary file not found: {summary_file}")
         return False
     
     if not os.path.exists(translated_file):
-        log_error('Telegraph Converter', f"Translated file not found: {translated_file}")
+        log_error('TelegraphConverter', f"Translated file not found: {translated_file}")
         return False
     
     # English conversion
@@ -344,6 +344,12 @@ def convert_all_summaries():
     
     # Persian conversion (now required)
     fa_result = convert_to_telegraph_format(translated_file, converted_fa_file, date_str, is_persian=True)
+    
+    # Log completion
+    if en_result and fa_result:
+        log_success('TelegraphConverter', f"Successfully converted both English and Persian summaries to Telegraph format")
+    else:
+        log_error('TelegraphConverter', "Failed to convert summaries to Telegraph format")
     
     # Return overall success - both conversions must succeed
     return en_result and fa_result
@@ -355,15 +361,15 @@ if __name__ == "__main__":
     
     # Create necessary directories when running as standalone, but only if they don't exist
     if not os.path.exists(SUMMARY_DIR):
-        log_info('Telegraph Converter', f"Creating directory: {SUMMARY_DIR}")
+        log_info('TelegraphConverter', f"Creating directory: {SUMMARY_DIR}")
         os.makedirs(SUMMARY_DIR, exist_ok=True)
     
     if not os.path.exists(TRANSLATED_DIR):
-        log_info('Telegraph Converter', f"Creating directory: {TRANSLATED_DIR}")
+        log_info('TelegraphConverter', f"Creating directory: {TRANSLATED_DIR}")
         os.makedirs(TRANSLATED_DIR, exist_ok=True)
     
     if not os.path.exists(CONVERTED_DIR):
-        log_info('Telegraph Converter', f"Creating directory: {CONVERTED_DIR}")
+        log_info('TelegraphConverter', f"Creating directory: {CONVERTED_DIR}")
         os.makedirs(CONVERTED_DIR, exist_ok=True)
     
     convert_all_summaries() 

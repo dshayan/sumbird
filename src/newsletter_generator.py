@@ -90,7 +90,7 @@ class NewsletterGenerator:
         """
         source_dir = Path(self.source_dir)
         if not source_dir.exists():
-            log_error("Newsletter Generator", f"Source directory not found: {source_dir}")
+            log_error("NewsletterGenerator", f"Source directory not found: {source_dir}")
             return []
         
         files = []
@@ -145,7 +145,7 @@ class NewsletterGenerator:
             }
             
         except Exception as e:
-            log_error("Newsletter Generator", f"Error parsing {file_path}", e)
+            log_error("NewsletterGenerator", f"Error parsing {file_path}", e)
             return {}
     
     def _extract_description(self, soup: BeautifulSoup) -> str:
@@ -205,7 +205,7 @@ class NewsletterGenerator:
         """
         try:
             if not self.template_manager:
-                log_error("Newsletter Generator", "Template manager not initialized for external CSS mode")
+                log_error("NewsletterGenerator", "Template manager not initialized for external CSS mode")
                 return False
             
             # Generate HTML using template manager
@@ -221,7 +221,7 @@ class NewsletterGenerator:
             )
             
             if not post_html:
-                log_error("Newsletter Generator", f"Failed to generate HTML for {date_str}")
+                log_error("NewsletterGenerator", f"Failed to generate HTML for {date_str}")
                 return False
             
             # Write post file
@@ -229,11 +229,11 @@ class NewsletterGenerator:
             with open(post_file, 'w', encoding='utf-8') as f:
                 f.write(post_html)
             
-            log_info("Newsletter Generator", f"Generated post: {post_file.name}")
+            log_info("NewsletterGenerator", f"Generated post: {post_file.name}")
             return True
             
         except Exception as e:
-            log_error("Newsletter Generator", f"Error generating post for {date_str}", e)
+            log_error("NewsletterGenerator", f"Error generating post for {date_str}", e)
             return False
 
 
@@ -291,7 +291,7 @@ class NewsletterGenerator:
             )
             
             if not homepage_html:
-                log_error("Newsletter Generator", "Failed to generate homepage HTML")
+                log_error("NewsletterGenerator", "Failed to generate homepage HTML")
                 return False
             
             # Write homepage
@@ -302,11 +302,11 @@ class NewsletterGenerator:
             if total_pages > 1:
                 self._generate_pagination_pages(recent_posts, posts_per_page, total_pages)
             
-            log_info("Newsletter Generator", f"Updated homepage with {len(first_page_posts)} posts ({total_pages} pages total)")
+            log_info("NewsletterGenerator", f"Updated homepage with {len(first_page_posts)} posts ({total_pages} pages total)")
             return True
                 
         except Exception as e:
-            log_error("Newsletter Generator", f"Error generating homepage", e)
+            log_error("NewsletterGenerator", f"Error generating homepage", e)
             return False
     
     def _generate_pagination_pages(self, recent_posts: List[Tuple[str, Dict[str, str]]], posts_per_page: int, total_pages: int) -> None:
@@ -368,10 +368,10 @@ class NewsletterGenerator:
             
             # Log summary of pages generated
             if pages_generated > 0:
-                log_info("Newsletter Generator", f"Generated {pages_generated} pagination pages")
+                log_info("NewsletterGenerator", f"Generated {pages_generated} pagination pages")
                 
         except Exception as e:
-            log_error("Newsletter Generator", f"Error generating pagination pages", e)
+            log_error("NewsletterGenerator", f"Error generating pagination pages", e)
     
 
     
@@ -438,7 +438,7 @@ class NewsletterGenerator:
             # Read RSS template
             rss_content = read_file(str(self.feed_path))
             if not rss_content:
-                log_error("Newsletter Generator", f"Could not read RSS template: {self.feed_path}")
+                log_error("NewsletterGenerator", f"Could not read RSS template: {self.feed_path}")
                 return False
             
             # Generate RSS items for last 20 posts
@@ -470,11 +470,11 @@ class NewsletterGenerator:
             with open(self.feed_path, 'w', encoding='utf-8') as f:
                 f.write(rss_content)
             
-            log_info("Newsletter Generator", f"Generated RSS feed with {len(recent_posts[:20])} items")
+            log_info("NewsletterGenerator", f"Generated RSS feed with {len(recent_posts[:20])} items")
             return True
             
         except Exception as e:
-            log_error("Newsletter Generator", f"Error generating RSS feed", e)
+            log_error("NewsletterGenerator", f"Error generating RSS feed", e)
             return False
     
     def _clean_html_for_rss(self, soup: BeautifulSoup) -> str:
@@ -522,7 +522,7 @@ class NewsletterGenerator:
             result = subprocess.run(['git', 'status', '--porcelain', 'docs/'], 
                                   capture_output=True, text=True, check=True)
             if not result.stdout.strip():
-                log_info("Newsletter Generator", "No changes to commit")
+                log_info("NewsletterGenerator", "No changes to commit")
                 return True
             
             # Add docs directory changes
@@ -535,14 +535,14 @@ class NewsletterGenerator:
             # Push to origin
             subprocess.run(['git', 'push', 'origin', 'main'], check=True, capture_output=True)
             
-            log_success("Newsletter Generator", "Successfully committed and pushed changes")
+            log_success("NewsletterGenerator", "Successfully committed and pushed changes")
             return True
             
         except subprocess.CalledProcessError as e:
-            log_error("Newsletter Generator", f"Git operation failed: {e}")
+            log_error("NewsletterGenerator", f"Git operation failed: {e}")
             return False
         except Exception as e:
-            log_error("Newsletter Generator", f"Error in commit and push", e)
+            log_error("NewsletterGenerator", f"Error in commit and push", e)
             return False
     
     def generate_newsletter(self, auto_commit: bool = True, force_regenerate: bool = False) -> bool:
@@ -556,15 +556,15 @@ class NewsletterGenerator:
             True if successful, False otherwise.
         """
         try:
-            log_info("Newsletter Generator", "Starting newsletter generation...")
+            log_info("NewsletterGenerator", "Starting newsletter generation...")
             
             # Get all summary files
             summary_files = self.get_summary_files()
             if not summary_files:
-                log_error("Newsletter Generator", "No summary files found")
+                log_error("NewsletterGenerator", "No summary files found")
                 return False
             
-            log_info("Newsletter Generator", f"Found {len(summary_files)} summary files")
+            log_info("NewsletterGenerator", f"Found {len(summary_files)} summary files")
             
             # Parse and generate posts
             recent_posts = []
@@ -575,7 +575,7 @@ class NewsletterGenerator:
                 # Parse summary content
                 content_data = self.parse_summary_html(file_path)
                 if not content_data:
-                    log_error("Newsletter Generator", f"Failed to parse {file_path}")
+                    log_error("NewsletterGenerator", f"Failed to parse {file_path}")
                     continue
                 
                 # Check if post already exists
@@ -585,7 +585,7 @@ class NewsletterGenerator:
                 else:
                     # Generate new post or regenerate existing one
                     action = "Regenerating" if post_file.exists() else "Generating"
-                    log_info("Newsletter Generator", f"{action} post: {date_str}")
+                    log_info("NewsletterGenerator", f"{action} post: {date_str}")
                     if self.generate_post_page(date_str, content_data):
                         generated_count += 1
                 
@@ -593,7 +593,7 @@ class NewsletterGenerator:
             
             # Log summary of skipped posts
             if skipped_count > 0:
-                log_info("Newsletter Generator", f"Skipped {skipped_count} existing posts")
+                log_info("NewsletterGenerator", f"Skipped {skipped_count} existing posts")
             
             # Generate homepage with recent posts
             if not self.generate_homepage(recent_posts):
@@ -603,7 +603,7 @@ class NewsletterGenerator:
             if not self.generate_rss_feed(recent_posts):
                 return False
             
-            log_success("Newsletter Generator", 
+            log_success("NewsletterGenerator", 
                        f"Generated {generated_count} new posts, updated homepage and RSS feed")
             
             # Commit and push if requested
@@ -613,7 +613,7 @@ class NewsletterGenerator:
             return True
             
         except Exception as e:
-            log_error("Newsletter Generator", f"Error in newsletter generation", e)
+            log_error("NewsletterGenerator", f"Error in newsletter generation", e)
             return False
 
 
@@ -625,15 +625,15 @@ def generate(force_regenerate: bool = False, language: str = "en", verbose: bool
         
         if verbose:
             if success:
-                log_success("Newsletter Generator", f"Newsletter generation completed successfully ({language})")
+                log_success("NewsletterGenerator", f"Newsletter generation completed successfully ({language})")
             else:
-                log_error("Newsletter Generator", f"Newsletter generation failed ({language})")
+                log_error("NewsletterGenerator", f"Newsletter generation failed ({language})")
         
         return success
         
     except Exception as e:
         if verbose:
-            log_error("Newsletter Generator", f"Error in generate function ({language})", e)
+            log_error("NewsletterGenerator", f"Error in generate function ({language})", e)
         return False
 
 

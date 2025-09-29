@@ -212,6 +212,9 @@ def publish(feeds_success=0):
         log_success('TelegraphPublisher', f"Successfully {en_action} English content on Telegraph: {en_url}")
         log_success('TelegraphPublisher', f"Successfully {fa_action} Persian content on Telegraph: {fa_url}")
         
+        # Log completion
+        log_success('TelegraphPublisher', f"Publisher completed. Output file: {saved_file}")
+        
         return saved_file
     
     except Exception as e:

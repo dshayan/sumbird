@@ -59,6 +59,10 @@ def translate():
         
         with open(translated_file, 'w') as f:
             f.write(translation)
+        
+        # Log completion and token usage
+        log_success('Translator', f"Translator completed. Output file: {translated_file}")
+        log_info('Translator', f"Tokens used: {input_tokens} input, {output_tokens} output")
             
         return translated_file, input_tokens, output_tokens
         

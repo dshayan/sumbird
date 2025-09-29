@@ -167,6 +167,12 @@ def narrate():
                 log_error('Narrator', "Failed to create required translation script audio")
                 return None, None, 0, 0
         
+        # Log completion and token usage
+        log_success('Narrator', "Narration completed successfully")
+        log_info('Narrator', f"Summary audio: {summary_result}")
+        log_info('Narrator', f"Translation audio: {translated_result}")
+        log_info('Narrator', f"Tokens used: {total_input_tokens} input, {total_output_tokens} output")
+        
         return summary_result, translated_result, total_input_tokens, total_output_tokens
         
     except Exception as e:

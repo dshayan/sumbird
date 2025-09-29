@@ -54,6 +54,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         
         if using_cached_export:
             # Using cached export file
+            log_info(pipeline_name, f"Using existing export file: {export_file}")
             log_step(log_file, True, f"{log_prefix}Gathered (using cached file)")
             log_step(log_file, True, f"{log_prefix}Fetched (using cached file)")
             feeds_success = 0  # We don't know the actual count from cached file
@@ -104,6 +105,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         
         if using_cached_summary:
             # Using cached summary file
+            log_info(pipeline_name, f"Using existing summary file: {summary_file}")
             log_step(log_file, True, f"{log_prefix}Summarized (using cached file)")
             input_tokens = 0
             output_tokens = 0
@@ -139,6 +141,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         
         if using_cached_translation:
             # Using cached translation file
+            log_info(pipeline_name, f"Using existing translation file: {translated_file}")
             log_step(log_file, True, f"{log_prefix}Translated (using cached file)")
             tr_input_tokens = 0
             tr_output_tokens = 0
@@ -192,6 +195,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         using_cached_scripts = file_exists(summary_script_path) and file_exists(translated_script_path)
         
         if using_cached_scripts:
+            log_info(pipeline_name, f"Using existing script files: {summary_script_path}, {translated_script_path}")
             log_step(log_file, True, f"{log_prefix}Scripted (using cached files)")
             sc_input_tokens = 0
             sc_output_tokens = 0
@@ -231,6 +235,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             file_utils.get_file_path = original_utils_get_file_path
         
         if using_cached_audio:
+            log_info(pipeline_name, f"Using existing audio files: {summary_audio_path}, {translated_audio_path}")
             log_step(log_file, True, f"{log_prefix}Narrated (using cached files)")
             na_input_tokens = 0
             na_output_tokens = 0

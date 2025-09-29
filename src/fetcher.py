@@ -317,6 +317,9 @@ def fetch_and_format():
     # Save to file
     save_to_file(posts, output_file, date_str)
     
+    # Log completion
+    log_success('Fetcher', f"Successfully fetched and formatted tweets to {output_file}")
+    
     return output_file, feeds_success, feeds_total, failed_handles
 
 if __name__ == "__main__":

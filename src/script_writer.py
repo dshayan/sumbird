@@ -143,6 +143,12 @@ def write_scripts():
                 log_error('ScriptWriter', "Failed to create required translation script")
                 return None, None, 0, 0
         
+        # Log completion and token usage
+        log_success('ScriptWriter', "Script writing completed successfully")
+        log_info('ScriptWriter', f"Summary script: {summary_result}")
+        log_info('ScriptWriter', f"Translation script: {translated_result}")
+        log_info('ScriptWriter', f"Total tokens used: {total_input_tokens} input, {total_output_tokens} output")
+        
         return summary_result, translated_result, total_input_tokens, total_output_tokens
         
     except Exception as e:
