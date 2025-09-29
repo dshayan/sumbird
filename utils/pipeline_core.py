@@ -54,7 +54,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         
         if using_cached_export:
             # Using cached export file
-            log_info(pipeline_name, f"Using existing export file: {export_file}")
             log_step(log_file, True, f"{log_prefix}Gathered (using cached file)")
             log_step(log_file, True, f"{log_prefix}Fetched (using cached file)")
             feeds_success = 0  # We don't know the actual count from cached file
@@ -97,9 +96,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
                 failed_str = f" (Failed: {', '.join([fh['handle'] for fh in failed_handles])})"
             
             log_step(log_file, fetch_success, f"{log_prefix}Fetched {feeds_success}/{feeds_total} sources{failed_str}")
-            
-            log_info(pipeline_name, f"Tweets fetched and saved to {exported_file}")
-        
         # Step 2: Summarize with AI
         log_pipeline_progress(2, 9, "Summarizing content")
         
@@ -108,7 +104,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         
         if using_cached_summary:
             # Using cached summary file
-            log_info(pipeline_name, f"Using existing summary file: {summary_file}")
             log_step(log_file, True, f"{log_prefix}Summarized (using cached file)")
             input_tokens = 0
             output_tokens = 0
@@ -134,7 +129,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
                 log_file.write("──────────\n")
                 return False
             
-            log_info(pipeline_name, f"Summary created and saved to {summarized_file}")
             log_step(log_file, True, f"{log_prefix}Summarized using {input_tokens} input tokens, {output_tokens} output tokens")
         
         # Step 3: Translate summary to Persian
@@ -145,7 +139,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         
         if using_cached_translation:
             # Using cached translation file
-            log_info(pipeline_name, f"Using existing translation file: {translated_file}")
             log_step(log_file, True, f"{log_prefix}Translated (using cached file)")
             tr_input_tokens = 0
             tr_output_tokens = 0
@@ -188,7 +181,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
                 log_file.write("──────────\n")
                 return False
             
-            log_info(pipeline_name, f"Translation created and saved to {translated_file}")
             log_step(log_file, True, f"{log_prefix}Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
         
         # Step 4: Convert to TTS-optimized Scripts
@@ -200,7 +192,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         using_cached_scripts = file_exists(summary_script_path) and file_exists(translated_script_path)
         
         if using_cached_scripts:
-            log_info(pipeline_name, f"Using existing script files: {summary_script_path}, {translated_script_path}")
             log_step(log_file, True, f"{log_prefix}Scripted (using cached files)")
             sc_input_tokens = 0
             sc_output_tokens = 0
@@ -221,7 +212,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
                 log_file.write("──────────\n")
                 return False
             
-            log_info(pipeline_name, f"Scripts created: Summary: {summary_script}, Translation: {translated_script}")
             log_step(log_file, True, f"{log_prefix}Scripted using {sc_input_tokens} input tokens, {sc_output_tokens} output tokens")
         
         # Step 5: Convert to Speech (TTS)
@@ -241,7 +231,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             file_utils.get_file_path = original_utils_get_file_path
         
         if using_cached_audio:
-            log_info(pipeline_name, f"Using existing audio files: {summary_audio_path}, {translated_audio_path}")
             log_step(log_file, True, f"{log_prefix}Narrated (using cached files)")
             na_input_tokens = 0
             na_output_tokens = 0
@@ -258,7 +247,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             
             # Both audio files are now required
             if summary_audio and translated_audio:
-                log_info(pipeline_name, f"Audio files created: Summary: {summary_audio}, Translation: {translated_audio}")
                 log_step(log_file, True, f"{log_prefix}Narrated using {na_input_tokens} input tokens, {na_output_tokens} output tokens for 2 audio files")
             else:
                 log_error(pipeline_name, "TTS conversion failed")
@@ -284,15 +272,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             log_step(log_file, False, f"{log_prefix}Converted to JSON")
             log_file.write("──────────\n")
             return False
-        
-        # Construct the converted file path since the function now returns a boolean
-        converted_file = config_module.get_file_path('converted', date_str)
-        fa_converted_file = config_module.get_file_path('converted', date_str, lang='FA')
-        
-        if os.path.exists(fa_converted_file):
-            log_info(pipeline_name, f"Content converted to Telegraph format and saved to {converted_file} and {fa_converted_file}")
-        else:
-            log_info(pipeline_name, f"Content converted to Telegraph format and saved to {converted_file}")
         
         log_step(log_file, True, f"{log_prefix}Converted to JSON")
         
@@ -327,7 +306,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         except Exception as e:
             log_error(pipeline_name, f"Error reading published file: {e}")
         
-        log_info(pipeline_name, f"Content published and details saved to {published_file}")
         if telegraph_fa_url:
             log_step(log_file, True, f"{log_prefix}Published on {telegraph_url} and {telegraph_fa_url}")
         else:
@@ -336,7 +314,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         # Step 8: Distribute to Telegram Channel (conditional)
         if skip_telegram:
             log_pipeline_progress(8, 9, "Telegram distribution (skipped)")
-            log_info(pipeline_name, "Telegram distribution skipped as requested")
             log_step(log_file, True, f"{log_prefix}Distributed (skipped)")
         else:
             log_pipeline_progress(8, 9, "Distributing to Telegram")
@@ -366,7 +343,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
                 log_file.write("──────────\n")
                 return False
             
-            log_info(pipeline_name, "Content successfully distributed to Telegram channel")
             log_step(log_file, True, f"{log_prefix}Distributed using {tg_input_tokens} input tokens, {tg_output_tokens} output tokens at {telegram_url}")
         
         # Step 9: Generate Newsletter Website (English and Farsi)
@@ -375,8 +351,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         try:
             from src import newsletter_generator
             
-            # Generate newsletters for both languages
-            log_info(pipeline_name, "Generating newsletters (English and Farsi)...")
             newsletter_success_en = newsletter_generator.generate(language="en", verbose=False)
             newsletter_success_fa = newsletter_generator.generate(language="fa", verbose=False)
             
@@ -390,15 +364,10 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             newsletter_success = False
         
         if not newsletter_success:
-            log_error(pipeline_name, "Newsletter generation failed")
             log_step(log_file, False, f"{log_prefix}Newsletter generated")
             # Don't fail the entire pipeline for newsletter issues
-            log_info(pipeline_name, "Pipeline completed with newsletter generation failure")
         else:
-            log_info(pipeline_name, "Newsletter websites generated successfully (English and Farsi)")
             log_step(log_file, True, f"{log_prefix}Newsletter generated")
-        
-        log_info(pipeline_name, "Pipeline completed successfully!")
         log_file.write("──────────\n")
         
         return True 
