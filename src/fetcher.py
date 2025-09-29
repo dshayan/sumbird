@@ -297,7 +297,6 @@ def fetch_and_format():
     output_file = get_file_path('export', date_str)
     
     log_info('Fetcher', f"Nitter Base URL: {NITTER_BASE_URL}")
-    log_info('Fetcher', f"Handles to process: {', '.join(HANDLES)}")
     log_info('Fetcher', f"Target date: {date_str}")
     
     # Get feeds and posts
