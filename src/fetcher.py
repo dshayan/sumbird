@@ -126,7 +126,6 @@ def get_posts(feeds, target_start, target_end):
             else:
                 # Feed failed - analyze why
                 failure_reason = analyze_feed_failure(parsed_feed, feed_handle)
-                log_warning('Fetcher', f"{feed_handle} - Feed failed: {failure_reason}")
                 handle = feed['title'].replace('@', '')
                 failed_handles.append({'handle': handle, 'reason': failure_reason})
                 continue
@@ -189,7 +188,6 @@ def get_posts(feeds, target_start, target_end):
         except Exception as e:
             # This catches exceptions that weren't handled by the retry mechanism
             failure_reason = f"Exception: {str(e)}"
-            log_error('Fetcher', f"{feed_handle} - Feed failed: {failure_reason}")
             handle = feed['title'].replace('@', '')
             failed_handles.append({'handle': handle, 'reason': failure_reason})
     
