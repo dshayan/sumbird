@@ -13,10 +13,10 @@ A comprehensive AI-powered pipeline for fetching tweets from Twitter/X via RSS, 
 
 ## Configuration
 
-All configuration is managed through environment variables. See `.env.example` for a complete list of settings organized by module:
+All configuration is managed through environment variables. Copy `.env.example` to `.env` and configure:
 
-- **API Keys**: OpenRouter, Gemini, Telegraph, and Telegram bot tokens
-- **AI Models**: Model selection and parameters for each pipeline step
+- **API Keys**: OpenRouter, Gemini, Telegraph, Telegram tokens
+- **AI Models**: Model selection and parameters for each pipeline step  
 - **Content Sources**: Twitter/X handles to monitor via RSS
 - **Output Formatting**: Telegraph and Telegram message formatting
 - **Pipeline Settings**: Thresholds, timeouts, and retry configuration
@@ -64,11 +64,11 @@ For Apple Silicon users, the Docker setup uses platform emulation. For native AR
   - Restart Nitter after updating tokens: `docker compose restart nitter`
 - **RSS feeds returning HTML errors:** Session tokens are invalid/expired - create new ones
 
-### Nitter Config Format
+### Configuration Notes
 
-- Use the sectioned format in `nitter.conf`: `[Server]`, `[Cache]`, `[Config]`, `[Preferences]`.
-- When using Docker Compose, set `redisHost = "nitter-redis"` in the `[Cache]` section.
-- Nitter listens on `0.0.0.0:8080`; the compose file maps it to `localhost:8080`.
+- Use sectioned format in `nitter.conf`: `[Server]`, `[Cache]`, `[Config]`, `[Preferences]`
+- Set `redisHost = "nitter-redis"` in the `[Cache]` section for Docker
+- Nitter listens on `0.0.0.0:8080`; mapped to `localhost:8080`
 
 ## Session Configuration
 
@@ -94,11 +94,10 @@ Sumbird requires Twitter session tokens to access Twitter content through Nitter
 - **Security**: Keep `sessions.jsonl` private and add to `.gitignore`
 - **Troubleshooting**: If fetcher fails with "mismatched tag" errors, session tokens are invalid/expired
 
-### Session Token Requirements
+### Token Requirements
 
-- **2FA Secret**: The script requires the base32-encoded secret key from your authenticator app
-- **Valid Characters**: A-Z and 2-7 (no 0, 1, 8, 9, O, I, L)
-- **Not the 6-digit code**: Use the secret key that generates the codes, not the codes themselves
+- **2FA Secret**: Base32-encoded secret from authenticator app (A-Z, 2-7 only)
+- **Not 6-digit codes**: Use the secret key that generates codes, not the codes themselves
 
 ## Usage
 
@@ -129,18 +128,25 @@ python test/test_main.py --force-override
 python test/test_config.py
 ```
 
+**Test Mode Features:**
+- Isolated `test/data/` subdirectories
+- Separate `TEST_TELEGRAM_CHAT_ID` for Telegram
+- "TEST-" prefix for Telegraph URLs
+- Inherits AI model configurations
+- Safe testing without affecting production
+
 ### Individual Modules
 ```bash
 # Core pipeline modules (run independently)
-python -m src.fetcher                # Fetch tweets from self-hosted Nitter RSS feeds
-python -m src.summarizer             # Generate AI summaries
-python -m src.translator             # Translate to Persian
-python -m src.script_writer          # Optimize for text-to-speech
-python -m src.narrator               # Generate audio files
-python -m src.telegraph_converter    # Convert for Telegraph
-python -m src.telegraph_publisher    # Publish to Telegraph
-python -m src.telegram_distributer   # Distribute to Telegram
-python -m src.newsletter_generator   # Generate newsletter website
+python src/fetcher.py                # Fetch tweets from self-hosted Nitter RSS feeds
+python src/summarizer.py             # Generate AI summaries
+python src/translator.py             # Translate to Persian
+python src/script_writer.py          # Optimize for text-to-speech
+python src/narrator.py               # Generate audio files
+python src/telegraph_converter.py    # Convert for Telegraph
+python src/telegraph_publisher.py    # Publish to Telegraph
+python src/telegram_distributer.py   # Distribute to Telegram
+python src/newsletter_generator.py   # Generate newsletter website
 ```
 
 ### Utility Scripts
@@ -155,10 +161,10 @@ python scripts/generate_newsletter.py --no-commit
 python scripts/telegraph_post_manager.py
 
 # Monitor HTTP traffic for fetcher debugging
-python scripts/fetcher_monitor.py
+python scripts/fetcher_monitor.py    # Captures HTTP requests/responses for debugging
 
 # Run original fetcher (alternative RSS source)
-python scripts/fetcher_original.py
+python scripts/fetcher_original.py   # Alternative RSS fetcher (non-Nitter)
 
 # Create Nitter session tokens (fixes authentication issues)
 ./scripts/create_nitter_session.sh
@@ -178,7 +184,7 @@ python scripts/fetcher_original.py
 
 ### Pipeline Flow
 
-1. **Fetch** (`src/fetcher.py`): Retrieve tweets via self-hosted Nitter RSS feeds and format into markdown
+1. **Fetch** (`src/fetcher.py`): Retrieve tweets via self-hosted Nitter RSS feeds and format into markdown files
 2. **Summarize** (`src/summarizer.py`): Generate AI summary using OpenRouter/Claude
 3. **Translate** (`src/translator.py`): Convert to Persian using Gemini
 4. **Script** (`src/script_writer.py`): Optimize content for text-to-speech
@@ -188,101 +194,35 @@ python scripts/fetcher_original.py
 8. **Distribute** (`src/telegram_distributer.py`): Share to Telegram with audio files
 9. **Newsletter** (`src/newsletter_generator.py`): Generate website and publish to GitHub Pages
 
-### Manual Newsletter Generation
-
-To generate the newsletter manually:
+### Newsletter & Development
 
 ```bash
-# Generate newsletter without committing
-python scripts/generate_newsletter.py --no-commit
+# Generate newsletter manually
+python scripts/generate_newsletter.py --no-commit  # Without committing
+python scripts/generate_newsletter.py            # With auto-commit
 
-# Generate and auto-commit to trigger GitHub Pages deployment
-python scripts/generate_newsletter.py
-```
-
-### Local Development
-
-To preview the newsletter locally:
-
-```bash
-# Serve the docs directory locally
-cd docs
-python -m http.server 8000
-
+# Preview locally
+cd docs && python -m http.server 8000
 # Visit http://localhost:8000
 ```
 
-## Directory Structure
+## Project Structure
 
 ```
 sumbird/
-├── src/                           # Core pipeline modules
-│   ├── fetcher.py                # Self-hosted Nitter RSS feed fetching and markdown formatting
-│   ├── summarizer.py             # AI summarization using OpenRouter
-│   ├── translator.py             # Persian translation using Gemini
-│   ├── script_writer.py          # TTS script optimization
-│   ├── narrator.py               # Audio generation using Gemini TTS
-│   ├── telegraph_converter.py    # Telegraph content formatting
-│   ├── telegraph_publisher.py    # Telegraph publishing
-│   ├── telegram_distributer.py   # Telegram distribution with headline generation
-│   └── newsletter_generator.py   # Newsletter website generation
-├── utils/                         # Utility functions
-│   ├── date_utils.py             # Date and timezone handling
-│   ├── file_utils.py             # File operations and path management
-│   ├── logging_utils.py          # Error logging and API error handling
-│   ├── html_utils.py             # HTML processing and text cleaning
-│   ├── env_utils.py              # Environment variable management
-│   ├── retry_utils.py            # Network retry mechanisms
-│   ├── template_utils.py         # Template and component management
-│   ├── openrouter_utils.py       # OpenRouter API client
-│   ├── gemini_utils.py           # Gemini API clients (text and TTS)
-│   └── pipeline_core.py          # Shared pipeline execution logic
-├── docs/                          # Newsletter website (GitHub Pages)
-│   ├── assets/                   # Website assets
-│   │   ├── css/main.css          # Custom CSS with CSS variables
-│   │   └── components/           # Reusable HTML components
-│   │       ├── header.html       # Site header component
-│   │       └── footer.html       # Site footer component
-│   ├── posts/                    # Individual newsletter posts
-│   │   └── template.html         # Post template
-│   ├── page-template.html        # Main page template
-│   ├── index.html                # Homepage (auto-generated)
-│   ├── page*.html                # Pagination pages (auto-generated)
-│   └── feed.xml                  # RSS feed (auto-generated)
-├── scripts/                       # Utility scripts
-│   ├── generate_newsletter.py    # Standalone newsletter generator
-│   ├── telegraph_post_manager.py # Telegraph post management tool
-│   ├── fetcher_monitor.py        # HTTP traffic monitoring for debugging
-│   ├── fetcher_original.py       # Alternative RSS fetcher (non-Nitter)
-│   ├── create_nitter_session.sh  # Interactive Nitter session token creator
-│   ├── pipeline_scheduler.sh     # Automated pipeline scheduling (wake + cron)
-│   └── get_session.py             # Nitter session token creation script
-├── test/                          # Test pipeline and configuration
-│   ├── test_main.py              # Test pipeline execution
-│   ├── test_config.py            # Configuration testing
-│   └── data/                     # Test data directory
-├── data/                          # Pipeline outputs (auto-created)
-│   ├── export/                   # Raw exported tweets
-│   ├── summary/                  # AI-generated summaries
-│   ├── translated/               # Persian translations
-│   ├── script/                   # TTS-optimized scripts
-│   ├── converted/                # Telegraph-formatted content
-│   ├── published/                # Published content information
-│   └── narrated/                 # Generated audio files
-├── logs/                          # Execution logs (auto-created)
-│   ├── log.txt                   # Main execution log
-│   └── error.log                 # Error log with tracebacks
-├── prompts/                       # AI system prompts
-│   ├── summarizer.txt            # Summarization prompt
-│   ├── translator.txt            # Translation prompt
-│   ├── script_writer.txt         # TTS script optimization prompt
-│   ├── narrator.txt              # TTS narration prompt
-│   └── headline_writer.txt       # Telegram headline generation prompt
-├── main.py                        # Pipeline entry point
-├── config.py                      # Configuration management
-├── requirements.txt               # Python dependencies
-├── docker-compose.yml             # Docker services for Nitter
-├── nitter.conf                    # Nitter configuration
-├── sessions.jsonl                 # Twitter session tokens
-└── .env.example                   # Environment configuration template
+├── src/                    # Core pipeline modules
+├── utils/                  # Utility functions  
+├── docs/                   # Newsletter website (GitHub Pages)
+├── scripts/                # Utility scripts
+├── test/                   # Test pipeline and configuration
+├── data/                   # Pipeline outputs (auto-created)
+├── logs/                   # Execution logs (auto-created)
+├── prompts/                # AI system prompts
+├── main.py                 # Pipeline entry point
+├── config.py               # Configuration management
+├── requirements.txt        # Python dependencies
+├── docker-compose.yml      # Docker services for Nitter
+├── nitter.conf             # Nitter configuration
+├── sessions.jsonl          # Twitter session tokens
+└── .env.example            # Environment configuration template
 ```
