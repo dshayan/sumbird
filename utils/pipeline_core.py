@@ -79,7 +79,12 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
                 # Building the failed handles string
                 failed_str = ""
                 if failed_handles and len(failed_handles) > 0:
-                    failed_str = f" (Failed: {', '.join([fh['handle'] for fh in failed_handles])})"
+                    if len(failed_handles) <= 3:
+                        failed_str = f" (Failed: {', '.join([fh['handle'] for fh in failed_handles])})"
+                    else:
+                        first_three = ', '.join([fh['handle'] for fh in failed_handles[:3]])
+                        remaining = len(failed_handles) - 3
+                        failed_str = f" (Failed: {first_three}, {remaining} more)"
                 
                 log_step(log_file, False, f"{log_prefix}Fetched {feeds_success}/{feeds_total} sources{failed_str}")
                 log_run_separator()
@@ -95,7 +100,12 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             # Building the failed handles string
             failed_str = ""
             if failed_handles and len(failed_handles) > 0:
-                failed_str = f" (Failed: {', '.join([fh['handle'] for fh in failed_handles])})"
+                if len(failed_handles) <= 3:
+                    failed_str = f" (Failed: {', '.join([fh['handle'] for fh in failed_handles])})"
+                else:
+                    first_three = ', '.join([fh['handle'] for fh in failed_handles[:3]])
+                    remaining = len(failed_handles) - 3
+                    failed_str = f" (Failed: {first_three}, {remaining} more)"
             
             log_step(log_file, fetch_success, f"{log_prefix}Fetched {feeds_success}/{feeds_total} sources{failed_str}")
         # Step 2: Summarize with AI
