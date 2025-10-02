@@ -2,10 +2,17 @@
 """
 Module for fetching RSS feeds from Twitter/X via self-hosted Nitter and formatting them.
 This module can be run independently or as part of the pipeline.
+Enhanced with rate limiting and account protection mechanisms.
 """
 import os
 import sys
+import time
+import random
+import requests
 from datetime import datetime
+from collections import defaultdict
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # Import utilities from utils package
 from utils.date_utils import (
@@ -20,7 +27,9 @@ from utils.retry_utils import with_retry_sync
 # Import configuration
 from config import (
     HANDLES, TIMEZONE, EXPORT_DIR, EXPORT_TITLE_FORMAT,
-    RSS_TIMEOUT, RETRY_MAX_ATTEMPTS
+    RSS_TIMEOUT, RETRY_MAX_ATTEMPTS,
+    RATE_LIMIT_REQUESTS_PER_WINDOW, RATE_LIMIT_WINDOW_MINUTES,
+    MIN_REQUEST_DELAY, MAX_REQUEST_DELAY, REQUEST_JITTER
 )
 
 # Import feedparser directly, no patching needed
@@ -28,6 +37,139 @@ import feedparser
 
 # Nitter configuration
 NITTER_BASE_URL = "http://localhost:8080"
+
+# Rate limiting configuration
+class RateLimiter:
+    """Intelligent rate limiter to prevent account suspension and respect X's limits."""
+    
+    def __init__(self, max_requests_per_window=800, window_minutes=15):
+        self.max_requests = max_requests_per_window
+        self.window_minutes = window_minutes
+        self.requests = defaultdict(list)
+        self.last_request_time = 0
+        self.consecutive_failures = 0
+        
+    def wait_if_needed(self):
+        """Check if we need to wait before making a request."""
+        now = time.time()
+        current_window = int(now // (self.window_minutes * 60))
+        
+        # Clean old requests outside current window
+        self.requests[current_window] = [
+            req_time for req_time in self.requests[current_window]
+            if now - req_time < self.window_minutes * 60
+        ]
+        
+        # Check if we need to wait due to rate limits
+        if len(self.requests[current_window]) >= self.max_requests:
+            sleep_time = (self.window_minutes * 60) - (now % (self.window_minutes * 60))
+            log_warning('RateLimiter', f"Rate limit reached, waiting {sleep_time:.1f}s")
+            time.sleep(sleep_time + random.uniform(1, 3))  # Add jitter
+        
+        # Add minimum delay between requests (2-5 seconds with jitter)
+        if now - self.last_request_time < 2:
+            jitter = random.uniform(2, 5)
+            time.sleep(jitter)
+        
+        # Record this request
+        self.requests[current_window].append(now)
+        self.last_request_time = now
+    
+    def on_rate_limit_hit(self):
+        """Handle when we hit a rate limit."""
+        self.consecutive_failures += 1
+        # Exponential backoff: 30s, 60s, 120s, etc.
+        backoff_time = min(300, 30 * (2 ** (self.consecutive_failures - 1)))
+        log_warning('RateLimiter', f"Rate limit hit, backing off for {backoff_time}s")
+        time.sleep(backoff_time + random.uniform(5, 15))
+    
+    def on_success(self):
+        """Reset failure counter on successful request."""
+        self.consecutive_failures = 0
+
+class SafeFeedFetcher:
+    """Enhanced feed fetcher with rate limiting and account protection."""
+    
+    def __init__(self):
+        self.session = self._create_session()
+        self.user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0'
+        ]
+        
+    def _create_session(self):
+        """Create a session with proper retry strategy."""
+        session = requests.Session()
+        
+        # Configure retry strategy for rate limits and server errors
+        retry_strategy = Retry(
+            total=3,
+            backoff_factor=2,
+            status_forcelist=[429, 500, 502, 503, 504],
+            allowed_methods=["GET"]
+        )
+        
+        adapter = HTTPAdapter(max_retries=retry_strategy)
+        session.mount("http://", adapter)
+        session.mount("https://", adapter)
+        
+        return session
+    
+    def fetch_feed_safely(self, feed_url, rate_limiter):
+        """Fetch feed with proper headers and rate limiting."""
+        # Apply rate limiting
+        rate_limiter.wait_if_needed()
+        
+        # Rotate user agent
+        headers = {
+            'User-Agent': random.choice(self.user_agents),
+            'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Upgrade-Insecure-Requests': '1'
+        }
+        
+        try:
+            response = self.session.get(feed_url, headers=headers, timeout=30)
+            
+            # Check for rate limiting
+            if response.status_code == 429:
+                rate_limiter.on_rate_limit_hit()
+                # Retry once after backoff
+                return self.fetch_feed_safely(feed_url, rate_limiter)
+            
+            # Check for other rate limit indicators
+            if 'x-rate-limit-remaining' in response.headers:
+                remaining = int(response.headers.get('x-rate-limit-remaining', '1000'))
+                if remaining < 50:
+                    log_warning('SafeFeedFetcher', f"Low rate limit remaining: {remaining}")
+                    time.sleep(random.uniform(5, 10))
+            
+            response.raise_for_status()
+            
+            # Parse with feedparser
+            parsed_feed = feedparser.parse(response.content)
+            rate_limiter.on_success()
+            return parsed_feed
+            
+        except requests.exceptions.RequestException as e:
+            log_error('SafeFeedFetcher', f"Request failed: {e}")
+            raise
+
+# Global rate limiter instance with configuration
+rate_limiter = RateLimiter(
+    max_requests_per_window=RATE_LIMIT_REQUESTS_PER_WINDOW,
+    window_minutes=RATE_LIMIT_WINDOW_MINUTES
+)
 
 def convert_to_x_url(url):
     """Convert Nitter URL to x.com format.
@@ -73,9 +215,8 @@ def get_feeds_from_handles():
             })
     return feeds
 
-@with_retry_sync(timeout=RSS_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS, context="RSS feed fetch")
 def fetch_feed_with_retry(feed_url):
-    """Fetch a single RSS feed with retry logic.
+    """Fetch a single RSS feed with enhanced retry logic and rate limiting.
     
     Args:
         feed_url (str): URL of the RSS feed to fetch
@@ -83,10 +224,11 @@ def fetch_feed_with_retry(feed_url):
     Returns:
         feedparser.FeedParserDict: Parsed feed data
     """
-    return feedparser.parse(feed_url)
+    fetcher = SafeFeedFetcher()
+    return fetcher.fetch_feed_safely(feed_url, rate_limiter)
 
 def fetch_feed_with_context(feed_title, feed_url):
-    """Fetch a feed with contextual retry logging.
+    """Fetch a feed with contextual retry logging and rate limiting.
     
     Args:
         feed_title (str): Human-readable feed title (e.g., "@MistralAI")
@@ -95,25 +237,33 @@ def fetch_feed_with_context(feed_title, feed_url):
     Returns:
         feedparser.FeedParserDict: Parsed feed data
     """
-    # Create a context-aware retry decorator
-    @with_retry_sync(timeout=RSS_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS, 
-                     context=f"RSS feed fetch for {feed_title}")
-    def fetch_with_context():
-        return feedparser.parse(feed_url)
-    
-    return fetch_with_context()
+    try:
+        fetcher = SafeFeedFetcher()
+        return fetcher.fetch_feed_safely(feed_url, rate_limiter)
+    except Exception as e:
+        log_error('Fetcher', f"Failed to fetch feed for {feed_title}: {e}")
+        raise
 
 def get_posts(feeds, target_start, target_end):
-    """Fetch posts from feeds within the specified date range."""
+    """Fetch posts from feeds within the specified date range with rate limiting."""
     results = []
     successful_feeds = 0
     failed_handles = []
     
-    for feed in feeds:
+    # Shuffle feeds to avoid predictable patterns
+    random.shuffle(feeds)
+    
+    log_info('Fetcher', f"Processing {len(feeds)} feeds with rate limiting...")
+    
+    for i, feed in enumerate(feeds):
         feed_handle = feed['title']  # e.g., "@username"
         
+        # Log progress every 5 feeds
+        if i % 5 == 0:
+            log_info('Fetcher', f"Processing feed {i+1}/{len(feeds)}: {feed_handle}")
+        
         try:
-            # Use the context-aware fetch function
+            # Use the context-aware fetch function with rate limiting
             parsed_feed = fetch_feed_with_context(feed['title'], feed['url'])
             
             # Analyze the parsed feed for detailed logging
@@ -296,12 +446,13 @@ def fetch_and_format():
     
     log_info('Fetcher', f"Nitter Base URL: {NITTER_BASE_URL}")
     log_info('Fetcher', f"Target date: {date_str}")
+    log_info('Fetcher', f"Rate limiting: {rate_limiter.max_requests} requests per {rate_limiter.window_minutes} minutes")
     
     # Get feeds and posts
     feeds = get_feeds_from_handles()
     feeds_total = len(feeds)
     
-    log_info('Fetcher', f"Processing {feeds_total} feeds...")
+    log_info('Fetcher', f"Processing {feeds_total} feeds with enhanced rate limiting...")
     
     target_start, target_end = get_date_range(target_date)
     posts, feeds_success, failed_handles = get_posts(feeds, target_start, target_end)

@@ -102,6 +102,13 @@ NETWORK_TIMEOUT = int(env_utils.get_env('NETWORK_TIMEOUT'))
 # Retry configuration
 RETRY_MAX_ATTEMPTS = int(env_utils.get_env('RETRY_MAX_ATTEMPTS'))
 
+# Rate limiting configuration for Twitter/X API protection
+RATE_LIMIT_REQUESTS_PER_WINDOW = int(env_utils.get_env('RATE_LIMIT_REQUESTS_PER_WINDOW'))
+RATE_LIMIT_WINDOW_MINUTES = int(env_utils.get_env('RATE_LIMIT_WINDOW_MINUTES'))
+MIN_REQUEST_DELAY = float(env_utils.get_env('MIN_REQUEST_DELAY'))
+MAX_REQUEST_DELAY = float(env_utils.get_env('MAX_REQUEST_DELAY'))
+REQUEST_JITTER = float(env_utils.get_env('REQUEST_JITTER'))
+
 # Twitter handles to fetch posts from
 HANDLES = env_utils.get_env('HANDLES')
 
