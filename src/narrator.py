@@ -79,8 +79,11 @@ def narrate_file(file_path, output_path, client, title=None, date_str=None):
         log_error('Narrator', f"Error processing file {file_path}", e)
         return None, 0, 0
 
-def narrate():
+def narrate(force_override=False):
     """Main function to convert summary and translated files to speech.
+    
+    Args:
+        force_override (bool): Whether to force regeneration of existing files
     
     Returns:
         tuple: (summary_audio_path, translated_audio_path, total_input_tokens, total_output_tokens) 
@@ -117,7 +120,7 @@ def narrate():
         total_output_tokens = 0
         
         # Check if summary audio already exists
-        if file_exists(summary_audio):
+        if file_exists(summary_audio) and not force_override:
             log_info('Narrator', f"Using existing summary audio: {summary_audio}")
             summary_result = summary_audio
         else:
@@ -139,12 +142,12 @@ def narrate():
                 return None, None, 0, 0
         
         # Wait between requests to avoid rate limiting
-        if not file_exists(translated_audio):
+        if not file_exists(translated_audio) or force_override:
             log_info('Narrator', "Waiting 1 minute before converting Persian script...")
             time.sleep(60)
         
         # Check if translated audio already exists
-        if file_exists(translated_audio):
+        if file_exists(translated_audio) and not force_override:
             log_info('Narrator', f"Using existing translation audio: {translated_audio}")
             translated_result = translated_audio
         else:

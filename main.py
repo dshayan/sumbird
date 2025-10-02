@@ -39,6 +39,7 @@ Examples:
   python main.py --skip-telegram   # Run pipeline but skip Telegram distribution step
   python main.py --force-lock     # Force release any existing lock and run pipeline
   python main.py --check-lock     # Check lock status without running pipeline
+  python main.py --force-override # Force regeneration of all files, bypassing cache
         """
     )
     
@@ -60,14 +61,20 @@ Examples:
         help='Check lock status and exit without running pipeline'
     )
     
+    parser.add_argument(
+        '--force-override',
+        action='store_true',
+        help='Force regeneration of all files, bypassing cache and overriding existing outputs'
+    )
+    
     return parser.parse_args()
 
-def run_pipeline(skip_telegram=False):
+def run_pipeline(skip_telegram=False, force_override=False):
     """Run the complete pipeline sequentially."""
     import config
     from utils.pipeline_core import run_pipeline_core
     
-    return run_pipeline_core(config, skip_telegram=skip_telegram)
+    return run_pipeline_core(config, skip_telegram=skip_telegram, force_override=force_override)
 
 if __name__ == "__main__":
     try:
@@ -90,8 +97,10 @@ if __name__ == "__main__":
         with PipelineLock():
             if args.skip_telegram:
                 log_info('Pipeline', "Starting pipeline with Telegram distribution disabled")
+            if args.force_override:
+                log_info('Pipeline', "Starting pipeline with force override enabled - all files will be regenerated")
             
-            success = run_pipeline(skip_telegram=args.skip_telegram)
+            success = run_pipeline(skip_telegram=args.skip_telegram, force_override=args.force_override)
             if success:
                 log_info('Pipeline', "Pipeline execution completed")
             else:

@@ -109,6 +109,9 @@ python main.py
 
 # Run pipeline without Telegram distribution
 python main.py --skip-telegram
+
+# Force regeneration of all files (bypass cache)
+python main.py --force-override
 ```
 
 ### Test Pipeline
@@ -118,6 +121,9 @@ python test/test_main.py
 
 # Run test pipeline without Telegram distribution
 python test/test_main.py --skip-telegram
+
+# Force regeneration of all files in test mode
+python test/test_main.py --force-override
 
 # Test configuration settings
 python test/test_config.py
@@ -169,6 +175,29 @@ python scripts/fetcher_original.py
 7. **Publish** (`src/telegraph_publisher.py`): Create Telegraph posts
 8. **Distribute** (`src/telegram_distributer.py`): Share to Telegram with audio files
 9. **Newsletter** (`src/newsletter_generator.py`): Generate website and publish to GitHub Pages
+
+### Force Override Mode
+
+The `--force-override` flag bypasses the pipeline's caching system and forces regeneration of all files:
+
+- **Bypasses cache**: Ignores existing export, summary, translation, script, and audio files
+- **Forces regeneration**: All AI processing steps are re-executed regardless of existing files
+- **Use cases**: 
+  - Testing with fresh content
+  - Debugging pipeline issues
+  - Updating content with new AI models or prompts
+  - Resolving corrupted cache files
+
+```bash
+# Force regenerate all files
+python main.py --force-override
+
+# Force regenerate in test mode
+python test/test_main.py --force-override
+
+# Combine with other options
+python main.py --force-override --skip-telegram
+```
 
 ### Manual Newsletter Generation
 

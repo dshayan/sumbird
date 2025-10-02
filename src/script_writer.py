@@ -63,8 +63,11 @@ def write_script_for_file(input_file, output_file, client, system_prompt):
         log_error('ScriptWriter', f"Error processing file {input_file}", e)
         return None, 0, 0
 
-def write_scripts():
+def write_scripts(force_override=False):
     """Main function to convert summary and translation files to TTS-optimized scripts.
+    
+    Args:
+        force_override (bool): Whether to force regeneration of existing files
     
     Returns:
         tuple: (summary_script_path, translated_script_path, total_input_tokens, total_output_tokens) 
@@ -100,7 +103,7 @@ def write_scripts():
         total_output_tokens = 0
         
         # Check if summary script already exists
-        if file_exists(summary_script):
+        if file_exists(summary_script) and not force_override:
             log_info('ScriptWriter', f"Using existing summary script: {summary_script}")
             summary_result = summary_script
         else:
@@ -121,7 +124,7 @@ def write_scripts():
                 return None, None, 0, 0
         
         # Check if translated script already exists
-        if file_exists(translated_script):
+        if file_exists(translated_script) and not force_override:
             log_info('ScriptWriter', f"Using existing translation script: {translated_script}")
             translated_result = translated_script
         else:

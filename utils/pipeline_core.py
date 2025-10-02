@@ -11,7 +11,7 @@ from utils.date_utils import get_date_str, format_datetime
 from utils.logging_utils import log_step, log_pipeline_step, log_pipeline_progress, log_info, log_error
 from utils.file_utils import file_exists, get_audio_file_path
 
-def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegram=False):
+def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegram=False, force_override=False):
     """
     Core pipeline logic that works with any configuration module.
     
@@ -20,6 +20,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         log_prefix (str): Prefix for log messages (e.g., "TEST ")
         test_mode (bool): Whether running in test mode for special handling
         skip_telegram (bool): Whether to skip the Telegram distribution step
+        force_override (bool): Whether to force regeneration of all files, bypassing cache
     
     Returns:
         bool: True if pipeline completed successfully, False otherwise
@@ -50,7 +51,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         log_pipeline_progress(1, 9, "Fetching tweets")
         
         export_file = config_module.get_file_path('export', date_str)
-        using_cached_export = os.path.exists(export_file)
+        using_cached_export = os.path.exists(export_file) and not force_override
         
         if using_cached_export:
             # Using cached export file
@@ -101,7 +102,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         log_pipeline_progress(2, 9, "Summarizing content")
         
         summary_file = config_module.get_file_path('summary', date_str)
-        using_cached_summary = os.path.exists(summary_file)
+        using_cached_summary = os.path.exists(summary_file) and not force_override
         
         if using_cached_summary:
             # Using cached summary file
@@ -137,7 +138,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         log_pipeline_progress(3, 9, "Translating to Persian")
         
         translated_file = config_module.get_file_path('translated', date_str)
-        using_cached_translation = os.path.exists(translated_file)
+        using_cached_translation = os.path.exists(translated_file) and not force_override
         
         if using_cached_translation:
             # Using cached translation file
@@ -192,7 +193,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         # Check if script files already exist
         summary_script_path = config_module.get_file_path('script', date_str)
         translated_script_path = config_module.get_file_path('script', date_str, lang='FA')
-        using_cached_scripts = file_exists(summary_script_path) and file_exists(translated_script_path)
+        using_cached_scripts = file_exists(summary_script_path) and file_exists(translated_script_path) and not force_override
         
         if using_cached_scripts:
             log_info(pipeline_name, f"Using existing script files: {summary_script_path}, {translated_script_path}")
@@ -205,7 +206,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             script_writer.get_file_path = config_module.get_file_path
             
             try:
-                summary_script, translated_script, sc_input_tokens, sc_output_tokens = script_writer.write_scripts()
+                summary_script, translated_script, sc_input_tokens, sc_output_tokens = script_writer.write_scripts(force_override=force_override)
             finally:
                 # Restore original function
                 script_writer.get_file_path = original_get_file_path
@@ -229,7 +230,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         try:
             summary_audio_path = get_audio_file_path('narrated', date_str)
             translated_audio_path = get_audio_file_path('narrated', date_str, lang='FA')
-            using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path)
+            using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path) and not force_override
         finally:
             # Restore original function
             file_utils.get_file_path = original_utils_get_file_path
@@ -245,7 +246,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             narrator.get_file_path = config_module.get_file_path
             
             try:
-                summary_audio, translated_audio, na_input_tokens, na_output_tokens = narrator.narrate()
+                summary_audio, translated_audio, na_input_tokens, na_output_tokens = narrator.narrate(force_override=force_override)
             finally:
                 # Restore original function
                 narrator.get_file_path = original_get_file_path
