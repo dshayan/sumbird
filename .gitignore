@@ -69,9 +69,6 @@ temp/
 /prompts/*.txt
 !/prompts/*.txt.example
 
-# Scheduling scripts (user-specific)
-scripts/schedule.sh
-
 # Session files
 sessions.jsonl
 

@@ -162,6 +162,18 @@ python scripts/fetcher_original.py
 
 # Create Nitter session tokens (fixes authentication issues)
 ./scripts/create_nitter_session.sh
+
+# Set up automated pipeline scheduling (wake + cron)
+./scripts/pipeline_scheduler.sh setup
+
+# Remove automated scheduling
+./scripts/pipeline_scheduler.sh remove
+
+# Check scheduling status
+./scripts/pipeline_scheduler.sh status
+
+# Test run the pipeline
+./scripts/pipeline_scheduler.sh test
 ```
 
 ### Pipeline Flow
@@ -243,6 +255,7 @@ sumbird/
 │   ├── fetcher_monitor.py        # HTTP traffic monitoring for debugging
 │   ├── fetcher_original.py       # Alternative RSS fetcher (non-Nitter)
 │   ├── create_nitter_session.sh  # Interactive Nitter session token creator
+│   ├── pipeline_scheduler.sh     # Automated pipeline scheduling (wake + cron)
 │   └── get_session.py             # Nitter session token creation script
 ├── test/                          # Test pipeline and configuration
 │   ├── test_main.py              # Test pipeline execution
