@@ -108,6 +108,20 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
                     failed_str = f" (Failed: {first_three}, {remaining} more)"
             
             log_step(log_file, fetch_success, f"{log_prefix}Fetched {feeds_success}/{feeds_total} sources{failed_str}")
+            
+            # Enforce success criteria - stop pipeline if thresholds not met
+            if not gather_success:
+                log_error(pipeline_name, f"Insufficient feeds gathered: {feeds_total} < {config_module.MIN_FEEDS_TOTAL}")
+                log_step(log_file, False, f"{log_prefix}Gathered {feeds_total} sources")
+                log_run_separator()
+                return False
+            
+            if not fetch_success:
+                log_error(pipeline_name, f"Insufficient feeds fetched: {feeds_success}/{feeds_total} < {config_module.MIN_FEEDS_SUCCESS_RATIO}")
+                log_step(log_file, False, f"{log_prefix}Fetched {feeds_success}/{feeds_total} sources{failed_str}")
+                log_run_separator()
+                return False
+        
         # Step 2: Summarize with AI
         log_pipeline_progress(2, 9, "Summarizing content")
         
