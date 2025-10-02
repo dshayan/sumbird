@@ -30,12 +30,12 @@ def log_error(module_name, error_message, exception=None):
     formatted_message = f"[ERROR] {timestamp} - {module_name}: {error_message}"
     
     # Print to console
-    print(formatted_message, file=sys.stderr)
+    print(formatted_message, file=sys.stderr, flush=True)
     
     # If there's an exception, print the traceback
     if exception:
-        print(f"Exception details: {str(exception)}", file=sys.stderr)
-        print("Traceback:", file=sys.stderr)
+        print(f"Exception details: {str(exception)}", file=sys.stderr, flush=True)
+        print("Traceback:", file=sys.stderr, flush=True)
         traceback.print_exception(type(exception), exception, exception.__traceback__, file=sys.stderr)
     
     # Create logs directory if it doesn't exist
@@ -69,12 +69,12 @@ def log_retry(module_name, message, attempt, max_attempts, exception=None):
     formatted_message = f"[RETRY] {timestamp} - {module_name}: {message} (attempt {attempt}/{max_attempts})"
     
     # Print to console with less alarming stderr
-    print(formatted_message)
+    print(formatted_message, flush=True)
     
     # For timeouts and network errors, don't log full traceback to avoid alarm
     # Only log the exception message if it's informative
     if exception and not (exception.__class__.__name__ == 'TimeoutError' or isinstance(exception, ConnectionError)):
-        print(f"Reason: {str(exception)}")
+        print(f"Reason: {str(exception)}", flush=True)
 
 def log_info(module_name, message):
     """Log an informational message with consistent formatting.
@@ -87,7 +87,7 @@ def log_info(module_name, message):
     """
     timestamp = format_datetime()
     formatted_message = f"[INFO] {timestamp} - {module_name}: {message}"
-    print(formatted_message)
+    print(formatted_message, flush=True)
 
 def log_success(module_name, message):
     """Log a success message with consistent formatting.
@@ -100,7 +100,7 @@ def log_success(module_name, message):
     """
     timestamp = format_datetime()
     formatted_message = f"[SUCCESS] {timestamp} - {module_name}: {message}"
-    print(formatted_message)
+    print(formatted_message, flush=True)
 
 def log_warning(module_name, message):
     """Log a warning message with consistent formatting.
@@ -113,7 +113,7 @@ def log_warning(module_name, message):
     """
     timestamp = format_datetime()
     formatted_message = f"[WARNING] {timestamp} - {module_name}: {message}"
-    print(formatted_message, file=sys.stderr)
+    print(formatted_message, file=sys.stderr, flush=True)
 
 def log_pipeline_step(step_name, message=""):
     """Log a pipeline step with consistent formatting.
@@ -143,7 +143,7 @@ def log_pipeline_progress(step_number, total_steps, step_name, message=""):
         formatted_message = f"[INFO] {timestamp} - Pipeline: Step {step_number}/{total_steps}: {step_name} - {message}"
     else:
         formatted_message = f"[INFO] {timestamp} - Pipeline: Step {step_number}/{total_steps}: {step_name}..."
-    print(formatted_message)
+    print(formatted_message, flush=True)
         
 def handle_request_error(module_name, response, error_message):
     """Handle API request errors consistently.
