@@ -8,7 +8,7 @@ by both the main pipeline and test pipeline with different configurations.
 import os
 import json
 from utils.date_utils import get_date_str, format_datetime
-from utils.logging_utils import log_step, log_pipeline_step, log_pipeline_progress, log_info, log_error
+from utils.logging_utils import log_step, log_pipeline_step, log_pipeline_progress, log_info, log_error, log_run_separator
 from utils.file_utils import file_exists, get_audio_file_path
 
 def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegram=False, force_override=False):
@@ -82,7 +82,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
                     failed_str = f" (Failed: {', '.join([fh['handle'] for fh in failed_handles])})"
                 
                 log_step(log_file, False, f"{log_prefix}Fetched {feeds_success}/{feeds_total} sources{failed_str}")
-                log_file.write("──────────\n")
+                log_run_separator()
                 return False
             
             # Logging gather success (considered successful if > MIN_FEEDS_TOTAL sources)
@@ -129,7 +129,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             if not summarized_file or not os.path.exists(summarized_file):
                 log_error(pipeline_name, "AI summarization failed")
                 log_step(log_file, False, f"{log_prefix}Summarized")
-                log_file.write("──────────\n")
+                log_run_separator()
                 return False
             
             log_step(log_file, True, f"{log_prefix}Summarized using {input_tokens} input tokens, {output_tokens} output tokens")
@@ -182,7 +182,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             if not translated_file or not os.path.exists(translated_file):
                 log_error(pipeline_name, "Persian translation failed")
                 log_step(log_file, False, f"{log_prefix}Translated")
-                log_file.write("──────────\n")
+                log_run_separator()
                 return False
             
             log_step(log_file, True, f"{log_prefix}Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
@@ -214,7 +214,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             if not summary_script or not translated_script:
                 log_error(pipeline_name, "Script writing failed")
                 log_step(log_file, False, f"{log_prefix}Scripted")
-                log_file.write("──────────\n")
+                log_run_separator()
                 return False
             
             log_step(log_file, True, f"{log_prefix}Scripted using {sc_input_tokens} input tokens, {sc_output_tokens} output tokens")
@@ -257,7 +257,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             else:
                 log_error(pipeline_name, "TTS conversion failed")
                 log_step(log_file, False, f"{log_prefix}Narrated")
-                log_file.write("──────────\n")
+                log_run_separator()
                 return False
         
         # Step 6: Convert to Telegraph format
@@ -276,7 +276,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         if not converted:
             log_error(pipeline_name, "Telegraph conversion failed")
             log_step(log_file, False, f"{log_prefix}Converted to JSON")
-            log_file.write("──────────\n")
+            log_run_separator()
             return False
         
         log_step(log_file, True, f"{log_prefix}Converted to JSON")
@@ -298,7 +298,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         if not published_file or not os.path.exists(published_file):
             log_error(pipeline_name, "Telegraph publishing failed")
             log_step(log_file, False, f"{log_prefix}Published")
-            log_file.write("──────────\n")
+            log_run_separator()
             return False
         
         # Read the published file to get the URLs
@@ -346,7 +346,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             if not distribution_success:
                 log_error(pipeline_name, "Telegram distribution failed")
                 log_step(log_file, False, f"{log_prefix}Distributed")
-                log_file.write("──────────\n")
+                log_run_separator()
                 return False
             
             log_step(log_file, True, f"{log_prefix}Distributed using {tg_input_tokens} input tokens, {tg_output_tokens} output tokens at {telegram_url}")
@@ -374,6 +374,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             # Don't fail the entire pipeline for newsletter issues
         else:
             log_step(log_file, True, f"{log_prefix}Newsletter generated")
-        log_file.write("──────────\n")
+        log_run_separator()
         
         return True 

@@ -178,4 +178,12 @@ def log_step(log_file, status, message):
         message: The message to log
     """
     status_icon = "✅" if status else "❌"
-    log_file.write(f"{status_icon} {message}\n") 
+    log_file.write(f"{status_icon} {message}\n")
+
+def log_run_separator():
+    """Log a run separator to both console and log file.
+    
+    This ensures the separator appears in both log.txt and cron.log.
+    """
+    separator = "──────────"
+    print(separator, flush=True) 
