@@ -33,16 +33,20 @@ Sumbird uses a self-hosted [Nitter](https://github.com/zedeus/nitter) instance t
    ```
 
 2. **Configure session tokens:**
-   - Follow the [Creating session tokens guide](https://github.com/zedeus/nitter/wiki/Creating-session-tokens)
-   - Create `sessions.jsonl` with your Twitter OAuth tokens:
+   - **Use the provided script** (recommended):
+     ```bash
+     ./scripts/create_nitter_session.sh
+     ```
+   - **Manual configuration**: Create `sessions.jsonl` with your Twitter OAuth tokens:
      ```json
      {"oauth_token": "your_oauth_token", "oauth_token_secret": "your_oauth_token_secret"}
      ```
-   - Restart Nitter: `docker compose restart nitter`
+   - **Restart Nitter**: `docker compose restart nitter`
 
 3. **Verify setup:**
    ```bash
-   curl http://localhost:8080
+   # Test Nitter RSS feeds manually
+   curl http://localhost:8080/OpenAI/rss
    ```
 
 ### ARM64 Support
@@ -54,6 +58,11 @@ For Apple Silicon users, the Docker setup uses platform emulation. For native AR
 - **Services not running:** `docker compose logs`
 - **Redis connection issues:** `docker compose restart nitter-redis`
 - **Port conflicts:** Modify port in `docker-compose.yml` and update `src/fetcher.py`
+- **Session token issues:** 
+  - Check Nitter logs: `docker logs nitter`
+  - If you see "no sessions available", run `./scripts/create_nitter_session.sh`
+  - Restart Nitter after updating tokens: `docker compose restart nitter`
+- **RSS feeds returning HTML errors:** Session tokens are invalid/expired - create new ones
 
 ### Nitter Config Format
 
@@ -67,23 +76,29 @@ Sumbird requires Twitter session tokens to access Twitter content through Nitter
 
 ### Creating Session Tokens
 
-1. **Follow the official guide**: [Creating session tokens](https://github.com/zedeus/nitter/wiki/Creating-session-tokens)
-2. **Use the provided script** (if available):
+1. **Use the provided script** (recommended):
    ```bash
-   # Navigate to Nitter tools directory
-   cd tools
-   python get_session.py <username> <password> <2fa_secret> ../sessions.jsonl
+   # Run the interactive session creator
+   ./scripts/create_nitter_session.sh
    ```
-3. **Manual configuration**: Create `sessions.jsonl` with your OAuth tokens:
+2. **Manual configuration**: Create `sessions.jsonl` with your OAuth tokens:
    ```json
    {"oauth_token": "your_oauth_token", "oauth_token_secret": "your_oauth_token_secret"}
    ```
+3. **Follow the official guide**: [Creating session tokens](https://github.com/zedeus/nitter/wiki/Creating-session-tokens)
 
 ### Session Management
 
 - **Multiple accounts**: Add multiple lines to `sessions.jsonl` (one JSON object per line)
-- **Token rotation**: Replace expired tokens in `sessions.jsonl`
+- **Token rotation**: Replace expired tokens in `sessions.jsonl` or run the script again
 - **Security**: Keep `sessions.jsonl` private and add to `.gitignore`
+- **Troubleshooting**: If fetcher fails with "mismatched tag" errors, session tokens are invalid/expired
+
+### Session Token Requirements
+
+- **2FA Secret**: The script requires the base32-encoded secret key from your authenticator app
+- **Valid Characters**: A-Z and 2-7 (no 0, 1, 8, 9, O, I, L)
+- **Not the 6-digit code**: Use the secret key that generates the codes, not the codes themselves
 
 ## Usage
 
@@ -138,6 +153,9 @@ python scripts/fetcher_monitor.py
 
 # Run original fetcher (alternative RSS source)
 python scripts/fetcher_original.py
+
+# Create Nitter session tokens (fixes authentication issues)
+./scripts/create_nitter_session.sh
 ```
 
 ### Pipeline Flow
@@ -217,7 +235,9 @@ sumbird/
 │   ├── generate_newsletter.py    # Standalone newsletter generator
 │   ├── telegraph_post_manager.py # Telegraph post management tool
 │   ├── fetcher_monitor.py        # HTTP traffic monitoring for debugging
-│   └── fetcher_original.py       # Alternative RSS fetcher (non-Nitter)
+│   ├── fetcher_original.py       # Alternative RSS fetcher (non-Nitter)
+│   ├── create_nitter_session.sh  # Interactive Nitter session token creator
+│   └── get_session.py             # Nitter session token creation script
 ├── test/                          # Test pipeline and configuration
 │   ├── test_main.py              # Test pipeline execution
 │   ├── test_config.py            # Configuration testing
