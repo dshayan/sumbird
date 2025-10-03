@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """
-Module for fetching RSS feeds from Twitter/X and formatting them.
+Original RSS fetcher for Twitter/X feeds - Alternative implementation.
+
+This module provides a simpler RSS fetching implementation without rate limiting
+and advanced features. It can be used as a fallback or for testing purposes.
 This module can be run independently or as part of the pipeline.
 """
 import os

@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""
+Twitter/X session token generator for Nitter authentication.
+
+This script creates session tokens for Nitter to avoid rate limiting issues.
+It authenticates with Twitter/X using username, password, and optional 2FA.
+"""
 import json
 import sys
 

@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Template utilities for Sumbird - Handles centralized templates and components.
+Template utilities for Sumbird - Manages newsletter website templates and components.
 
 This module provides utilities for:
-1. Loading shared components (header, footer)
-2. Processing templates with external CSS
-3. Generating clean HTML without embedded styles
+1. Loading shared components (header, footer, pagination)
+2. Processing templates with external CSS system
+3. Generating clean HTML for newsletter posts and pages
+4. Managing language-specific templates (English/Farsi)
 """
 import os
 from pathlib import Path
