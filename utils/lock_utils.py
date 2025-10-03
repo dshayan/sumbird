@@ -15,8 +15,8 @@ import atexit
 from utils.logging_utils import log_info, log_error, log_warning
 from utils.date_utils import format_datetime
 
-# Global lock file path
-LOCK_FILE_PATH = 'logs/sumbird.lock'
+# Import configuration
+from config import LOCK_FILE_PATH
 
 class PipelineLock:
     """Context manager for pipeline locking to prevent concurrent executions."""

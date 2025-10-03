@@ -35,8 +35,8 @@ from config import (
 # Import feedparser directly, no patching needed
 import feedparser
 
-# Nitter configuration
-NITTER_BASE_URL = "http://localhost:8080"
+# Import configuration
+from config import NITTER_BASE_URL
 
 # Rate limiting configuration
 class RateLimiter:

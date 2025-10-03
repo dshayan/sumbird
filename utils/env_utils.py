@@ -16,6 +16,11 @@ from utils.file_utils import set_file_paths
 # Required environment variables
 REQUIRED_VARS = [
     'BASE_URL',
+    'NITTER_BASE_URL',
+    'GITHUB_PAGES_URL',
+    'GITHUB_PAGES_FA_URL',
+    'OG_IMAGE_URL',
+    'LOCK_FILE_PATH',
     'MIN_FEEDS_TOTAL',
     'MIN_FEEDS_SUCCESS_RATIO',
     'TARGET_DATE',

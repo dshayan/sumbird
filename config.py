@@ -14,6 +14,17 @@ env_vars = env_utils.env_vars
 # General configuration constants
 BASE_URL = env_utils.get_env('BASE_URL')
 
+# Nitter service configuration
+NITTER_BASE_URL = env_utils.get_env('NITTER_BASE_URL')
+
+# GitHub Pages URLs
+GITHUB_PAGES_URL = env_utils.get_env('GITHUB_PAGES_URL')
+GITHUB_PAGES_FA_URL = env_utils.get_env('GITHUB_PAGES_FA_URL')
+OG_IMAGE_URL = env_utils.get_env('OG_IMAGE_URL')
+
+# Lock file configuration
+LOCK_FILE_PATH = env_utils.get_env('LOCK_FILE_PATH')
+
 # Pipeline success thresholds
 MIN_FEEDS_TOTAL = int(env_utils.get_env('MIN_FEEDS_TOTAL'))
 MIN_FEEDS_SUCCESS_RATIO = float(env_utils.get_env('MIN_FEEDS_SUCCESS_RATIO'))

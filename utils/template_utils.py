@@ -14,6 +14,9 @@ from typing import Dict, Optional
 from utils.file_utils import read_file
 from utils.logging_utils import log_error, log_info
 
+# Import configuration
+from config import GITHUB_PAGES_URL, GITHUB_PAGES_FA_URL, OG_IMAGE_URL
+
 
 class TemplateManager:
     """Manages templates and shared components for the newsletter."""
@@ -176,16 +179,16 @@ class TemplateManager:
                 header_html = self.load_header("../../")  # From fa/posts/ to root
                 footer_html = self.load_footer("../../", "../feed.xml")  # RSS in fa/ directory
                 # Generate canonical URL for Farsi post
-                canonical_url = f"https://dshayan.github.io/sumbird/fa/posts/{date_str}.html" if date_str else "https://dshayan.github.io/sumbird/fa/"
+                canonical_url = f"{GITHUB_PAGES_FA_URL}/posts/{date_str}.html" if date_str else f"{GITHUB_PAGES_FA_URL}/"
             else:
                 header_html = self.load_header("../")  # From posts/ to root
                 footer_html = self.load_footer("../", "../feed.xml")
                 # Generate canonical URL for English post
-                canonical_url = f"https://dshayan.github.io/sumbird/posts/{date_str}.html" if date_str else "https://dshayan.github.io/sumbird/"
+                canonical_url = f"{GITHUB_PAGES_URL}/posts/{date_str}.html" if date_str else f"{GITHUB_PAGES_URL}/"
             
             # Use default OG image if none provided
             if not og_image:
-                og_image = "https://dshayan.github.io/sumbird/assets/images/sumbird-og-image.svg"
+                og_image = OG_IMAGE_URL
             
             # Truncate description for OG tags (max 65 chars for good preview)
             og_description = description[:62] + "..." if len(description) > 65 else description

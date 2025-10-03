@@ -19,6 +19,9 @@ from typing import List, Dict, Optional, Tuple
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 
+# Import configuration
+from config import GITHUB_PAGES_URL
+
 from config import SUMMARY_DIR, TRANSLATED_DIR, get_date_str
 from utils.logging_utils import log_error, log_info, log_success
 from utils.date_utils import format_datetime, get_now
@@ -454,8 +457,8 @@ class NewsletterGenerator:
     <item>
       <title>{self._escape_xml(content_data.get('title', 'AI Updates'))}</title>
       <description><![CDATA[{rss_description}]]></description>
-      <link>https://dshayan.github.io/sumbird/posts/{date_str}.html</link>
-      <guid>https://dshayan.github.io/sumbird/posts/{date_str}.html</guid>
+      <link>{GITHUB_PAGES_URL}/posts/{date_str}.html</link>
+      <guid>{GITHUB_PAGES_URL}/posts/{date_str}.html</guid>
       <pubDate>{date_formats['rss_date']}</pubDate>
     </item>'''
                 items_xml += item_xml
