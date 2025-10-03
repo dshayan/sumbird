@@ -518,7 +518,7 @@ class NewsletterGenerator:
             project_root = self.docs_path.parent
             os.chdir(project_root)
             
-            # Check if there are changes to commit in docs/
+            # Check if there are changes to commit in docs/ (after content generation)
             result = subprocess.run(['git', 'status', '--porcelain', 'docs/'], 
                                   capture_output=True, text=True, check=True)
             if not result.stdout.strip():
