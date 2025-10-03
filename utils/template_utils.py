@@ -11,7 +11,6 @@ import os
 from pathlib import Path
 from typing import Dict, Optional
 
-from config import GITHUB_PAGES_FA_URL, GITHUB_PAGES_URL, OG_IMAGE_URL
 from utils.file_utils import read_file
 from utils.logging_utils import log_error, log_info
 
@@ -173,6 +172,9 @@ class TemplateManager:
                 return ""
             
             # Load components with language-aware paths
+            # Import config values locally to avoid circular imports
+            from config import GITHUB_PAGES_FA_URL, GITHUB_PAGES_URL, OG_IMAGE_URL
+            
             if self.language == "fa":
                 header_html = self.load_header("../../")  # From fa/posts/ to root
                 footer_html = self.load_footer("../../", "../feed.xml")  # RSS in fa/ directory
