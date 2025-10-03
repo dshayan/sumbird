@@ -8,15 +8,15 @@ import time
 from pathlib import Path
 
 from config import (
-    GEMINI_API_KEY, GEMINI_TTS_MODEL, GEMINI_TTS_VOICE, NARRATOR_PROMPT_PATH,
-    SCRIPT_DIR, NARRATED_DIR, AUDIO_ARTIST, AUDIO_ALBUM, AUDIO_GENRE,
-    TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
-    get_date_str, get_file_path, TTS_TIMEOUT
+    AUDIO_ALBUM, AUDIO_ARTIST, AUDIO_GENRE, GEMINI_API_KEY,
+    GEMINI_TTS_MODEL, GEMINI_TTS_VOICE, NARRATED_DIR, NARRATOR_PROMPT_PATH,
+    SCRIPT_DIR, TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA,
+    TTS_TIMEOUT, get_date_str, get_file_path
 )
-from utils.logging_utils import log_error, log_info, log_success
-from utils.html_utils import html_to_text
 from utils.file_utils import file_exists, read_file
 from utils.gemini_utils import create_gemini_tts_client
+from utils.html_utils import html_to_text
+from utils.logging_utils import log_error, log_info, log_success
 
 def convert_html_to_text(html_content):
     """Convert HTML content to clean text for TTS.

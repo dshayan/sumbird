@@ -4,12 +4,14 @@ Module for translating summarized content to Persian.
 This module can be run independently or as part of the pipeline.
 """
 import os
+
 from config import (
-    GEMINI_API_KEY, TRANSLATOR_PROMPT_PATH, GEMINI_TRANSLATOR_MODEL,
-    SUMMARY_DIR, TRANSLATED_DIR, FILE_FORMAT, get_date_str, get_file_path
+    FILE_FORMAT, GEMINI_API_KEY, GEMINI_TRANSLATOR_MODEL,
+    SUMMARY_DIR, TRANSLATED_DIR, TRANSLATOR_PROMPT_PATH, get_date_str,
+    get_file_path
 )
-from utils.logging_utils import log_error, log_info, log_success
 from utils.gemini_utils import create_gemini_text_client
+from utils.logging_utils import log_error, log_info, log_success
 
 def translate():
     """Main function to translate summary to Persian using OpenRouter.

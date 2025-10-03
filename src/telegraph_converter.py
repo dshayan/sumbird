@@ -3,25 +3,25 @@
 Module for converting summarized content to Telegraph format.
 This module can be run independently or as part of the pipeline.
 """
+import json
 import os
 import re
-import json
-from datetime import datetime
-from bs4 import BeautifulSoup
 import sys
+from datetime import datetime
+
+from bs4 import BeautifulSoup
 
 # Add parent directory to sys.path to allow imports from the root directory
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from config import (
-    SUMMARY_DIR, TRANSLATED_DIR, CONVERTED_DIR, FILE_FORMAT, 
-    get_date_str, SUMMARY_TITLE_FORMAT,
-    FOOTER_TEXT, FOOTER_LINK_TEXT, FOOTER_LINK_URL,
-    FOOTER_TEXT_FA, FOOTER_LINK_TEXT_FA, FOOTER_LINK_URL_FA,
+    CONVERTED_DIR, FILE_FORMAT, FOOTER_LINK_TEXT, FOOTER_LINK_TEXT_FA,
+    FOOTER_LINK_URL, FOOTER_LINK_URL_FA, FOOTER_TEXT, FOOTER_TEXT_FA,
+    SUMMARY_DIR, SUMMARY_TITLE_FORMAT, TRANSLATED_DIR, get_date_str,
     get_file_path
 )
-from utils.logging_utils import log_error, log_info, log_success
 from utils.html_utils import clean_html_for_display
+from utils.logging_utils import log_error, log_info, log_success
 
 def apply_rtl_formatting(children):
     """Apply RTL formatting to ensure proper display of mixed English/Persian text.

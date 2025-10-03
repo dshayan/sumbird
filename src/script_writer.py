@@ -4,14 +4,15 @@ Module for converting summary and translation content to TTS-optimized scripts.
 This module can be run independently or as part of the pipeline.
 """
 import os
+
 from config import (
-    GEMINI_API_KEY, SCRIPT_WRITER_PROMPT_PATH, GEMINI_SCRIPT_WRITER_MODEL,
-    SUMMARY_DIR, TRANSLATED_DIR, SCRIPT_DIR,
-    FILE_FORMAT, get_date_str, get_file_path
+    FILE_FORMAT, GEMINI_API_KEY, GEMINI_SCRIPT_WRITER_MODEL,
+    SCRIPT_DIR, SCRIPT_WRITER_PROMPT_PATH, SUMMARY_DIR, TRANSLATED_DIR,
+    get_date_str, get_file_path
 )
-from utils.logging_utils import log_error, log_info, log_success
 from utils.file_utils import file_exists, read_file
 from utils.gemini_utils import create_gemini_text_client
+from utils.logging_utils import log_error, log_info, log_success
 
 def write_script_for_file(input_file, output_file, client, system_prompt):
     """Convert a single file to TTS-optimized script.

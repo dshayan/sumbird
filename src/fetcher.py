@@ -5,38 +5,31 @@ This module can be run independently or as part of the pipeline.
 Enhanced with rate limiting and account protection mechanisms.
 """
 import os
+import random
 import sys
 import time
-import random
-import requests
-from datetime import datetime
 from collections import defaultdict
+from datetime import datetime
+
+import feedparser
+import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-# Import utilities from utils package
+from config import (
+    EXPORT_DIR, EXPORT_TITLE_FORMAT, HANDLES, MAX_REQUEST_DELAY,
+    MIN_REQUEST_DELAY, NITTER_BASE_URL, RATE_LIMIT_REQUESTS_PER_WINDOW,
+    RATE_LIMIT_WINDOW_MINUTES, REQUEST_JITTER, RETRY_MAX_ATTEMPTS,
+    RSS_TIMEOUT, TIMEZONE
+)
 from utils.date_utils import (
-    get_target_date, get_date_str, 
-    get_date_range, convert_to_timezone, format_feed_datetime
+    convert_to_timezone, format_feed_datetime, get_date_range,
+    get_date_str, get_target_date
 )
 from utils.file_utils import get_file_path
-from utils.html_utils import strip_html, clean_text
+from utils.html_utils import clean_text, strip_html
 from utils.logging_utils import log_error, log_info, log_success, log_warning
 from utils.retry_utils import with_retry_sync
-
-# Import configuration
-from config import (
-    HANDLES, TIMEZONE, EXPORT_DIR, EXPORT_TITLE_FORMAT,
-    RSS_TIMEOUT, RETRY_MAX_ATTEMPTS,
-    RATE_LIMIT_REQUESTS_PER_WINDOW, RATE_LIMIT_WINDOW_MINUTES,
-    MIN_REQUEST_DELAY, MAX_REQUEST_DELAY, REQUEST_JITTER
-)
-
-# Import feedparser directly, no patching needed
-import feedparser
-
-# Import configuration
-from config import NITTER_BASE_URL
 
 # Rate limiting configuration
 class RateLimiter:

@@ -13,19 +13,17 @@ import os
 import re
 import shutil
 import subprocess
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import List, Dict, Optional, Tuple
-import xml.etree.ElementTree as ET
+from typing import Dict, List, Optional, Tuple
+
 from bs4 import BeautifulSoup
 
-# Import configuration
-from config import GITHUB_PAGES_URL
-
-from config import SUMMARY_DIR, TRANSLATED_DIR, get_date_str
-from utils.logging_utils import log_error, log_info, log_success
+from config import GITHUB_PAGES_URL, SUMMARY_DIR, TRANSLATED_DIR, get_date_str
 from utils.date_utils import format_datetime, get_now
 from utils.file_utils import read_file
+from utils.logging_utils import log_error, log_info, log_success
 from utils.template_utils import TemplateManager
 
 
