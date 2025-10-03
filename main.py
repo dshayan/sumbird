@@ -13,10 +13,10 @@ This pipeline:
 8. Distributes the content to Telegram channel (optional with --skip-telegram)
 9. Generates newsletter website and pushes to GitHub Pages
 """
+import argparse
+import json
 import os
 import sys
-import json
-import argparse
 from datetime import datetime
 
 # Ensure environment is loaded before importing config-dependent modules
@@ -24,9 +24,8 @@ from utils import env_utils
 if not env_utils.env_vars:
     env_utils.load_environment()
 
-# Import utilities from utils package
-from utils.logging_utils import log_info, log_error
 from utils.lock_utils import PipelineLock, check_lock_status, force_release_lock
+from utils.logging_utils import log_error, log_info
 
 def parse_arguments():
     """Parse command-line arguments."""

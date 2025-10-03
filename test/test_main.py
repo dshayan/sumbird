@@ -6,10 +6,10 @@ This script runs the complete Sumbird pipeline in test mode, using separate
 test directories and a test Telegram channel while maintaining the same
 Telegraph account.
 """
+import argparse
+import json
 import os
 import sys
-import json
-import argparse
 
 # Add parent directory to path to import from main project
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -19,9 +19,8 @@ from utils import env_utils
 if not env_utils.env_vars:
     env_utils.load_environment()
 
-# Import test configuration instead of main config
 import test.test_config as config
-from utils.logging_utils import log_info, log_error
+from utils.logging_utils import log_error, log_info
 
 def parse_arguments():
     """Parse command-line arguments."""

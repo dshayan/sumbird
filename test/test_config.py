@@ -18,7 +18,6 @@ import sys
 # Add parent directory to path to import from main project
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# Import all base configuration (includes new Gemini model configs)
 from config import *
 from utils import env_utils
 from utils.date_utils import get_date_str
