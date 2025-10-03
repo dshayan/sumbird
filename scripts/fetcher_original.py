@@ -7,24 +7,20 @@ import os
 import sys
 from datetime import datetime
 
-# Import utilities from utils package
+import feedparser
+
+from config import (
+    BASE_URL, EXPORT_DIR, EXPORT_TITLE_FORMAT, HANDLES, RETRY_MAX_ATTEMPTS,
+    RSS_TIMEOUT, TIMEZONE
+)
 from utils.date_utils import (
-    get_target_date, get_date_str, 
-    get_date_range, convert_to_timezone, format_feed_datetime
+    convert_to_timezone, format_feed_datetime, get_date_range,
+    get_date_str, get_target_date
 )
 from utils.file_utils import get_file_path
-from utils.html_utils import strip_html, clean_text
+from utils.html_utils import clean_text, strip_html
 from utils.logging_utils import log_error, log_info, log_success, log_warning
 from utils.retry_utils import with_retry_sync
-
-# Import configuration
-from config import (
-    BASE_URL, HANDLES, TIMEZONE, EXPORT_DIR, EXPORT_TITLE_FORMAT,
-    RSS_TIMEOUT, RETRY_MAX_ATTEMPTS
-)
-
-# Import feedparser directly, no patching needed
-import feedparser
 
 def convert_to_x_url(url):
     """Convert RSS feed URL to x.com format.

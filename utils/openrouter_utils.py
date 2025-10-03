@@ -4,8 +4,9 @@ OpenRouter API utilities for Sumbird pipeline.
 Provides a centralized client for interacting with OpenRouter API.
 """
 import httpx
-from utils.retry_utils import with_retry_async
+
 from utils.logging_utils import log_error
+from utils.retry_utils import with_retry_async
 
 
 class OpenRouterClient:

@@ -12,9 +12,9 @@ Usage:
     python scripts/generate_newsletter.py --no-commit       # Generate without committing
     python scripts/generate_newsletter.py --web-repo PATH   # Use custom web repo path
 """
+import argparse
 import os
 import sys
-import argparse
 from pathlib import Path
 
 # Add the project root to Python path
@@ -27,7 +27,7 @@ if not env_utils.env_vars:
     env_utils.load_environment()
 
 from src.newsletter_generator import NewsletterGenerator
-from utils.logging_utils import log_info, log_error, log_success
+from utils.logging_utils import log_error, log_info, log_success
 
 def parse_arguments():
     """Parse command-line arguments."""

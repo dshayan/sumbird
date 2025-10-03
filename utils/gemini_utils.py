@@ -4,12 +4,14 @@ Google Gemini API utilities for Sumbird pipeline.
 Provides centralized clients for interacting with Gemini APIs including TTS.
 """
 import os
-import wave
 import subprocess
+import wave
+
 from google import genai
 from google.genai import types
-from utils.retry_utils import with_retry_sync
+
 from utils.logging_utils import log_error, log_info, log_success
+from utils.retry_utils import with_retry_sync
 
 
 class GeminiTextClient:

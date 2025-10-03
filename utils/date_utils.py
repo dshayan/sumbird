@@ -8,9 +8,9 @@ This module provides date and time handling functions:
 - Date range operations
 """
 from datetime import datetime, timedelta
+
 import pytz
 
-# Date format constants
 DATE_FORMAT = '%Y-%m-%d'
 DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
 DATETIME_TZ_FORMAT = '%Y-%m-%d %H:%M:%S %Z'

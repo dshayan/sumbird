@@ -7,15 +7,13 @@ This module provides utilities for:
 2. Processing templates with external CSS
 3. Generating clean HTML without embedded styles
 """
-
 import os
 from pathlib import Path
 from typing import Dict, Optional
+
+from config import GITHUB_PAGES_FA_URL, GITHUB_PAGES_URL, OG_IMAGE_URL
 from utils.file_utils import read_file
 from utils.logging_utils import log_error, log_info
-
-# Import configuration
-from config import GITHUB_PAGES_URL, GITHUB_PAGES_FA_URL, OG_IMAGE_URL
 
 
 class TemplateManager:

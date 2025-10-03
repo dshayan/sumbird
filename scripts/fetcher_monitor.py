@@ -3,15 +3,16 @@
 Script to capture the complete HTTP headers, request, and response that fetcher.py makes.
 This captures the actual HTTP traffic that feedparser generates without interfering.
 """
+import http.client
+import json
 import os
 import sys
-import json
-import requests
-import feedparser
-from datetime import datetime
-import urllib.request
 import urllib.error
-import http.client
+import urllib.request
+from datetime import datetime
+
+import feedparser
+import requests
 
 # Add the parent directory to the path to import modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

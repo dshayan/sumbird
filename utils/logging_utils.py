@@ -12,6 +12,7 @@ This module provides logging functionality:
 import os
 import sys
 import traceback
+
 from utils.date_utils import format_datetime
 
 def log_error(module_name, error_message, exception=None):

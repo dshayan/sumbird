@@ -8,15 +8,14 @@ This module provides process locking functionality to prevent concurrent pipelin
 - Lock timeout handling
 - Process ID tracking
 """
+import atexit
 import os
 import sys
 import time
-import atexit
-from utils.logging_utils import log_info, log_error, log_warning
-from utils.date_utils import format_datetime
 
-# Import configuration
 from config import LOCK_FILE_PATH
+from utils.date_utils import format_datetime
+from utils.logging_utils import log_error, log_info, log_warning
 
 class PipelineLock:
     """Context manager for pipeline locking to prevent concurrent executions."""
