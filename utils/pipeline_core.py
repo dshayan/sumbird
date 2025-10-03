@@ -8,7 +8,7 @@ by both the main pipeline and test pipeline with different configurations.
 import os
 import json
 from utils.date_utils import get_date_str, format_datetime
-from utils.logging_utils import log_step, log_pipeline_step, log_pipeline_progress, log_info, log_error, log_run_separator
+from utils.logging_utils import log_step, log_pipeline_step, log_pipeline_progress, log_info, log_error
 from utils.file_utils import file_exists, get_audio_file_path
 
 def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegram=False, force_override=False):
@@ -44,7 +44,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
     # Open log file for this run
     with open(os.path.join('logs', 'log.txt'), 'a', encoding='utf-8') as log_file:
         # Add separator at the start of each run
-        log_run_separator()
         log_file.write("──────────\n")
         
         # Log start time with consistent datetime format
@@ -297,7 +296,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         if not converted:
             log_error(pipeline_name, "Telegraph conversion failed")
             log_step(log_file, False, f"{log_prefix}Converted to JSON")
-            log_run_separator()
             return False
         
         log_step(log_file, True, f"{log_prefix}Converted to JSON")
@@ -319,7 +317,6 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         if not published_file or not os.path.exists(published_file):
             log_error(pipeline_name, "Telegraph publishing failed")
             log_step(log_file, False, f"{log_prefix}Published")
-            log_run_separator()
             return False
         
         # Read the published file to get the URLs
