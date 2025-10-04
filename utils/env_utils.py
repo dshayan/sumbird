@@ -81,13 +81,12 @@ REQUIRED_VARS = [
     'TELEGRAM_FILE_TIMEOUT',
     'NETWORK_TIMEOUT',
     'RETRY_MAX_ATTEMPTS',
-    'RATE_LIMIT_REQUESTS_PER_WINDOW',
-    'RATE_LIMIT_WINDOW_MINUTES',
-    'MIN_REQUEST_DELAY',
-    'MAX_REQUEST_DELAY',
-    'REQUEST_JITTER',
     'TEST_TELEGRAM_CHAT_ID',
-    'TEST_SUMMARY_TITLE_FORMAT'
+    'TEST_SUMMARY_TITLE_FORMAT',
+    'FETCHER_BATCH_SIZE',
+    'FETCHER_BATCH_DELAY',
+    'FETCHER_SESSION_MODE',
+    'FETCHER_REQUEST_DELAY'
 ]
 
 # Storage for loaded environment variables
@@ -124,6 +123,12 @@ def load_environment():
     env_vars['TELEGRAM_FILE_TIMEOUT'] = int(env_vars['TELEGRAM_FILE_TIMEOUT'])
     env_vars['NETWORK_TIMEOUT'] = int(env_vars['NETWORK_TIMEOUT'])
     env_vars['RETRY_MAX_ATTEMPTS'] = int(env_vars['RETRY_MAX_ATTEMPTS'])
+    
+    # Convert batch processing configuration (simplified)
+    env_vars['FETCHER_BATCH_SIZE'] = int(env_vars['FETCHER_BATCH_SIZE'])
+    env_vars['FETCHER_BATCH_DELAY'] = float(env_vars['FETCHER_BATCH_DELAY'])
+    env_vars['FETCHER_SESSION_MODE'] = env_vars['FETCHER_SESSION_MODE'].lower()
+    env_vars['FETCHER_REQUEST_DELAY'] = float(env_vars['FETCHER_REQUEST_DELAY'])
     
     # Clean up BASE_URL (ensure it ends with a slash)
     env_vars['BASE_URL'] = env_vars['BASE_URL'].rstrip('/') + '/'
