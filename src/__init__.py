@@ -5,12 +5,7 @@ and publishing the summary on Telegraph and Telegram.
 
 __version__ = '1.0.0'
 
-from src.fetcher import SimplifiedFetcher
-
-def fetch_and_format():
-    """Wrapper function to maintain compatibility with existing pipeline."""
-    fetcher = SimplifiedFetcher()
-    return fetcher.fetch_and_format()
+from src.fetcher import SimplifiedFetcher, fetch_and_format
 from src.narrator import narrate
 from src.newsletter_generator import generate as generate_newsletter
 from src.script_writer import write_scripts

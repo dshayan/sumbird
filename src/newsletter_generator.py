@@ -515,8 +515,11 @@ class NewsletterGenerator:
             True if successful, False otherwise.
         """
         try:
-            # Change to project root (parent of docs directory)
-            project_root = self.docs_path.parent
+            # Change to project root (parent of base docs directory)
+            if self.is_farsi:
+                project_root = self.docs_path.parent.parent
+            else:
+                project_root = self.docs_path.parent
             os.chdir(project_root)
             
             # Check if there are changes to commit in docs/ (after content generation)

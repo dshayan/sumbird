@@ -143,6 +143,12 @@ class SimplifiedFetcher:
                     f.write("\n")
 
 
+def fetch_and_format():
+    """Module-level function for pipeline compatibility."""
+    fetcher = SimplifiedFetcher()
+    return fetcher.fetch_and_format()
+
+
 def main():
     """Main function for standalone execution."""
     # Ensure environment is loaded when running standalone
