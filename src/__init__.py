@@ -15,7 +15,7 @@ from src.telegraph_converter import convert_all_summaries
 from src.telegraph_publisher import publish
 from src.translator import translate
 from utils.html_utils import clean_html_for_display, clean_text, strip_html
-from utils.logging_utils import handle_request_error, log_error, log_info, log_pipeline_step, log_success, log_warning
+from utils.logging_utils import handle_request_error, log_error, log_info, log_success, log_warning
 
 # Define package exports - only include functions that should be part of the public API
 __all__ = [
@@ -37,7 +37,6 @@ __all__ = [
     'log_info',
     'log_success',
     'log_warning',
-    'log_pipeline_step',
     'strip_html',
     'clean_html_for_display',
     'clean_text',

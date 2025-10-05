@@ -10,7 +10,7 @@ import os
 
 from utils.date_utils import format_datetime, get_date_str
 from utils.file_utils import file_exists, get_audio_file_path
-from utils.logging_utils import log_error, log_info, log_pipeline_progress, log_pipeline_step, log_step
+from utils.logging_utils import log_error, log_info, log_pipeline_progress, log_step
 
 def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegram=False, force_override=False):
     """

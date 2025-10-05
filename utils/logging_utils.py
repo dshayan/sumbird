@@ -116,19 +116,6 @@ def log_warning(module_name, message):
     formatted_message = f"[WARNING] {timestamp} - {module_name}: {message}"
     print(formatted_message, file=sys.stderr, flush=True)
 
-def log_pipeline_step(step_name, message=""):
-    """Log a pipeline step with consistent formatting.
-    
-    Used in main.py and test_main.py for pipeline step headers.
-    
-    Args:
-        step_name (str): Name of the pipeline step
-        message (str, optional): Additional message for the step
-    """
-    if message:
-        print(f"\n=== {step_name}: {message} ===")
-    else:
-        print(f"\n=== {step_name} ===")
 
 def log_pipeline_progress(step_number, total_steps, step_name, message=""):
     """Log a pipeline step with modern progress formatting.

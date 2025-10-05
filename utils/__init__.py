@@ -25,7 +25,7 @@ from utils.gemini_utils import (
 )
 from utils.html_utils import clean_html_for_display, clean_text, html_to_text, strip_html
 from utils.logging_utils import (
-    handle_request_error, log_error, log_info, log_pipeline_step,
+    handle_request_error, log_error, log_info,
     log_step, log_success, log_warning
 )
 from utils.openrouter_utils import OpenRouterClient, create_openrouter_client
