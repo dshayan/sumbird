@@ -42,9 +42,8 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
     pipeline_name = f"{log_prefix}Pipeline" if log_prefix else "Pipeline"
     log_info(pipeline_name, f"Starting pipeline for date: {date_str}")
     
-    # Add separator to both log files at the start of each run
+    # Add separator only to log.txt file
     separator = "──────────"
-    print(separator, flush=True)  # This goes to cron.log via shell redirection
     
     # Open log file for this run
     with open(os.path.join('logs', 'log.txt'), 'a', encoding='utf-8') as log_file:
