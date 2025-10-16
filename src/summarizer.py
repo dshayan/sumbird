@@ -14,6 +14,7 @@ from config import (
 )
 from utils.logging_utils import log_error, log_info, log_success
 from utils.openrouter_utils import create_openrouter_client
+from utils.prompt_utils import load_prompt
 
 def summarize():
     """Main function to summarize exported tweets using OpenRouter.
@@ -26,8 +27,7 @@ def summarize():
         date_str = get_date_str()
         
         # Read the summarizer prompt
-        with open(SYSTEM_PROMPT_PATH, 'r') as f:
-            system_prompt = f.read()
+        system_prompt = load_prompt(SYSTEM_PROMPT_PATH)
         
         # Read the exported content
         export_file = get_file_path('export', date_str)

@@ -17,6 +17,7 @@ from utils.file_utils import file_exists, read_file
 from utils.gemini_utils import create_gemini_tts_client
 from utils.html_utils import html_to_text
 from utils.logging_utils import log_error, log_info, log_success
+from utils.prompt_utils import load_prompt
 
 def convert_html_to_text(html_content):
     """Convert HTML content to clean text for TTS.
@@ -94,8 +95,7 @@ def narrate(force_override=False):
         date_str = get_date_str()
         
         # Read the narrator prompt
-        with open(NARRATOR_PROMPT_PATH, 'r', encoding='utf-8') as f:
-            prompt_template = f.read().strip()
+        prompt_template = load_prompt(NARRATOR_PROMPT_PATH)
         
         # Get file paths
         script_file = get_file_path('script', date_str)

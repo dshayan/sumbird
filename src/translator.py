@@ -12,6 +12,7 @@ from config import (
 )
 from utils.gemini_utils import create_gemini_text_client
 from utils.logging_utils import log_error, log_info, log_success
+from utils.prompt_utils import load_prompt
 
 def translate():
     """Main function to translate summary to Persian using OpenRouter.
@@ -24,8 +25,7 @@ def translate():
         date_str = get_date_str()
         
         # Read the translator prompt
-        with open(TRANSLATOR_PROMPT_PATH, 'r') as f:
-            system_prompt = f.read()
+        system_prompt = load_prompt(TRANSLATOR_PROMPT_PATH)
         
         # Read the summarized content
         summary_file = get_file_path('summary', date_str)

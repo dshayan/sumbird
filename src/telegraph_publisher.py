@@ -14,6 +14,7 @@ from config import (
     TELEGRAPH_ACCESS_TOKEN, TELEGRAPH_TIMEOUT, TIMEZONE, format_iso_datetime,
     get_date_str, get_file_path
 )
+from utils.json_utils import read_json, write_json
 from utils.logging_utils import handle_request_error, log_error, log_info, log_success, log_warning
 from utils.retry_utils import with_retry_sync
 
@@ -92,8 +93,7 @@ def save_published_data(date_str, published_data):
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     
     # Save the data
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(published_data, f, ensure_ascii=False, indent=2)
+    write_json(output_file, published_data)
     
     return output_file
 
@@ -111,13 +111,12 @@ def check_existing_publication(date_str, lang=None):
     
     if os.path.exists(published_file):
         try:
-            with open(published_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                
-                if lang == 'FA':
-                    return data.get("fa_path")
-                else:
-                    return data.get("path")
+            data = read_json(published_file)
+            
+            if lang == 'FA':
+                return data.get("fa_path")
+            else:
+                return data.get("path")
         except Exception as e:
             log_error('TelegraphPublisher', f"Error reading published file", e)
     
@@ -150,12 +149,10 @@ def publish(feeds_success=0):
     
     try:
         # Read the English converted file
-        with open(en_input_file, 'r', encoding='utf-8') as f:
-            en_data = json.load(f)
+        en_data = read_json(en_input_file)
         
         # Read the Persian converted file (now required)
-        with open(fa_input_file, 'r', encoding='utf-8') as f:
-            fa_data = json.load(f)
+        fa_data = read_json(fa_input_file)
         
         # Check for existing publications
         en_existing_page_path = check_existing_publication(date_str)

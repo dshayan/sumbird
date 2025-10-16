@@ -21,6 +21,7 @@ from config import (
     get_file_path
 )
 from utils.html_utils import clean_html_for_display
+from utils.json_utils import write_json
 from utils.logging_utils import log_error, log_info, log_success
 
 def apply_rtl_formatting(children):
@@ -307,9 +308,7 @@ def convert_to_telegraph_format(input_file, output_file, date_str, is_persian=Fa
         }
         
         # Save to JSON file
-        os.makedirs(os.path.dirname(output_file), exist_ok=True)
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(telegraph_data, f, ensure_ascii=False, indent=2)
+        write_json(output_file, telegraph_data)
         
         log_success('TelegraphConverter', f"Converted to Telegraph format: {output_file}")
         return True

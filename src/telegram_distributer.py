@@ -22,7 +22,9 @@ from config import (
 from utils.file_utils import file_exists, get_audio_file_path, read_file
 from utils.gemini_utils import create_gemini_text_client
 from utils.html_utils import html_to_text
+from utils.json_utils import read_json, write_json
 from utils.logging_utils import handle_request_error, log_error, log_info, log_success
+from utils.prompt_utils import load_prompt
 from utils.retry_utils import with_retry_sync
 
 class HeadlineGenerator:
@@ -42,12 +44,10 @@ class HeadlineGenerator:
         )
         
         # Load headline writer prompt
-        try:
-            with open(prompt_path, 'r', encoding='utf-8') as f:
-                self.prompt = f.read()
-        except Exception as e:
-            log_error('HeadlineGenerator', f"Error loading headline writer prompt from {prompt_path}", e)
-            self.prompt = "Create a concise headline from the following AI news summary:"
+        self.prompt = load_prompt(
+            prompt_path, 
+            default="Create a concise headline from the following AI news summary:"
+        )
 
     def generate_headline(self, summary_content):
         """Generate a headline from summary content with retry logic.
@@ -453,8 +453,7 @@ def distribute():
     
     try:
         # Read the published file
-        with open(published_file, 'r', encoding='utf-8') as f:
-            published_data = json.load(f)
+        published_data = read_json(published_file)
         
         # Check if both English and Persian URLs are available
         en_url = published_data.get("url", "")
@@ -556,8 +555,7 @@ def distribute():
             }
             
             # Save the updated published data
-            with open(published_file, 'w', encoding='utf-8') as f:
-                json.dump(published_data, f, ensure_ascii=False, indent=2)
+            write_json(published_file, published_data)
             
             # Log completion and token usage
             log_success('TelegramDistributer', "Telegram distribution completed successfully")
