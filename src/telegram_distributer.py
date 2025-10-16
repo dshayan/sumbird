@@ -397,41 +397,6 @@ def format_telegram_post_with_headline(published_data, headline):
         "disable_web_page_preview": TELEGRAM_DISABLE_WEB_PREVIEW
     }
 
-def format_telegram_post(published_data):
-    """Format the published data into a Telegram post.
-    
-    Args:
-        published_data (dict): The published data
-    
-    Returns:
-        dict: Formatted content for Telegram post
-    """
-    # Extract information from published data
-    title = published_data.get("title", "AI Updates on " + published_data.get("source_date", ""))
-    en_url = published_data.get("url", "")
-    fa_url = published_data.get("fa_url", "")
-    
-    # Create the message title using the title format
-    message = TELEGRAM_MESSAGE_TITLE_FORMAT.format(title=title) + "\n\n"
-    
-    # Add the summary message with link(s) using the configured format
-    if en_url:
-        if fa_url:
-            # Both English and Persian URLs are available
-            message += f"🇬🇧 <a href=\"{en_url}\">English Summary</a>\n🇮🇷 <a href=\"{fa_url}\">Persian Summary</a>"
-        else:
-            # Only English URL is available
-            message += f"🇬🇧 <a href=\"{en_url}\">English Summary</a>"
-        
-    # Add the channel display at the end if it exists
-    if TELEGRAM_CHANNEL_DISPLAY:
-        message += "\n\n" + TELEGRAM_CHANNEL_DISPLAY
-    
-    return {
-        "text": message,
-        "parse_mode": TELEGRAM_PARSE_MODE,
-        "disable_web_page_preview": TELEGRAM_DISABLE_WEB_PREVIEW
-    }
 
 def distribute():
     """Main function to distribute published content to Telegram channels.

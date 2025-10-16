@@ -11,9 +11,6 @@ from datetime import datetime
 
 from bs4 import BeautifulSoup
 
-# Add parent directory to sys.path to allow imports from the root directory
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from config import (
     CONVERTED_DIR, FILE_FORMAT, FOOTER_LINK_TEXT, FOOTER_LINK_TEXT_FA,
     FOOTER_LINK_URL, FOOTER_LINK_URL_FA, FOOTER_TEXT, FOOTER_TEXT_FA,

@@ -285,65 +285,6 @@ class TemplateManager:
             log_error("TemplateManager", f"Error generating index HTML", e)
             return ""
     
-    def generate_index_html_for_subdir(self, 
-                                      posts_content: str, 
-                                      pagination_script: str = "", 
-                                      template_name: str = "index.html") -> str:
-        """Generate index page HTML for subdirectory with adjusted paths.
-        
-        Args:
-            posts_content: The HTML content for all posts.
-            pagination_script: JavaScript for pagination functionality.
-            template_name: Name of the template file to use.
-            
-        Returns:
-            The complete HTML for the index page with adjusted paths.
-        """
-        template_path = self.docs_path / template_name
-        
-        try:
-            template_content = read_file(str(template_path))
-            if not template_content:
-                log_error("TemplateManager", f"Could not load template: {template_name}")
-                return ""
-            
-            # Determine if we're in a subdirectory (Farsi)
-            is_subdirectory = self.language == "fa"
-            
-            # Load components with appropriate paths
-            home_url = "../" if is_subdirectory else "/"
-            rss_url = "feed.xml"
-            header_html = self.load_header(home_url)
-            footer_html = self.load_footer(home_url, rss_url)
-            
-            # Adjust asset paths for subdirectory
-            if is_subdirectory:
-                template_content = template_content.replace('href="assets/', 'href="../assets/')
-                template_content = template_content.replace('src="assets/', 'src="../assets/')
-            
-            # Adjust language attributes for Farsi
-            if self.language == "fa":
-                # Update HTML lang attribute
-                template_content = template_content.replace('lang="en"', 'lang="fa"')
-                # Add dir="rtl" if not present
-                if 'dir="rtl"' not in template_content:
-                    template_content = template_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
-                # Update Open Graph locale
-                template_content = template_content.replace('content="en_US"', 'content="fa_IR"')
-            
-            # Replace template placeholders
-            html_content = template_content.replace("{{POSTS}}", posts_content)
-            html_content = html_content.replace("{{PAGINATION}}", pagination_script)
-            html_content = html_content.replace("{{JAVASCRIPT}}", pagination_script)  # Backwards compatibility
-            html_content = html_content.replace("{{HEADER}}", header_html)
-            html_content = html_content.replace("{{FOOTER}}", footer_html)
-            
-            return html_content
-            
-        except Exception as e:
-            log_error("TemplateManager", f"Error generating index HTML for subdirectory", e)
-            return ""
-    
     def clear_cache(self):
         """Clear the component cache."""
         self._component_cache.clear()

@@ -354,7 +354,7 @@ class NewsletterGenerator:
                 )
                 
                 # Generate complete page HTML with adjusted paths for subdirectory
-                page_html = self.template_manager.generate_index_html_for_subdir(
+                page_html = self.template_manager.generate_index_html(
                     posts_content=posts_html,
                     pagination_script=pagination_html,
                     template_name="page-template.html"
@@ -376,55 +376,6 @@ class NewsletterGenerator:
     
 
     
-    def _extract_preview(self, soup: BeautifulSoup, max_length: int = 300) -> str:
-        """Extract preview text from content.
-        
-        Args:
-            soup: BeautifulSoup object of the content.
-            max_length: Maximum length of preview.
-            
-        Returns:
-            Preview HTML string.
-        """
-        # Get first section or first few list items
-        first_section = soup.find('h3')
-        if first_section:
-            preview_content = []
-            current = first_section
-            
-            # Add the section title
-            preview_content.append(str(first_section))
-            
-            # Add following content until we hit another section or reach max length
-            current = first_section.find_next_sibling()
-            text_length = 0
-            
-            while current and text_length < max_length:
-                if current.name == 'h3':  # Stop at next section
-                    break
-                
-                if current.name in ['ul', 'ol', 'p']:
-                    preview_content.append(str(current))
-                    text_length += len(current.get_text())
-                    
-                    if current.name in ['ul', 'ol']:
-                        # For lists, only show first few items
-                        items = current.find_all('li')[:3]  # First 3 items
-                        if len(items) < len(current.find_all('li')):
-                            # Add "and more..." indicator
-                            preview_content[-1] = str(current).replace('</ul>', '<li class="text-gray-500 italic">...and more</li></ul>')
-                        break
-                
-                current = current.find_next_sibling()
-            
-            return ''.join(preview_content)
-        
-        # Fallback: just get first paragraph or list
-        first_content = soup.find(['p', 'ul', 'ol'])
-        if first_content:
-            return str(first_content)
-        
-        return "<p>Click to read the full update...</p>"
     
     def generate_rss_feed(self, recent_posts: List[Tuple[str, Dict[str, str]]]) -> bool:
         """Generate RSS feed with recent posts.

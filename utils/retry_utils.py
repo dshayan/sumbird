@@ -19,11 +19,6 @@ class TimeoutError(Exception):
     pass
 
 
-def timeout_handler(signum, frame):
-    """Signal handler for timeout."""
-    raise TimeoutError("Operation timed out")
-
-
 def run_with_timeout(func, timeout_seconds, *args, **kwargs):
     """Run a function with timeout using threading (cross-platform)."""
     result = [None]
