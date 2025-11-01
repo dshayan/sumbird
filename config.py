@@ -22,6 +22,13 @@ GITHUB_PAGES_URL = env_utils.get_env('GITHUB_PAGES_URL')
 GITHUB_PAGES_FA_URL = env_utils.get_env('GITHUB_PAGES_FA_URL')
 OG_IMAGE_URL = env_utils.get_env('OG_IMAGE_URL')
 
+# RSS Feed Configuration
+RSS_FEED_TITLE = env_utils.get_env('RSS_FEED_TITLE')
+RSS_FEED_DESCRIPTION = env_utils.get_env('RSS_FEED_DESCRIPTION')
+RSS_FEED_LANGUAGE = env_utils.get_env('RSS_FEED_LANGUAGE')
+RSS_FEED_TTL = int(env_utils.get_env('RSS_FEED_TTL'))
+RSS_FEED_GENERATOR = env_utils.get_env('RSS_FEED_GENERATOR')
+
 # Lock file configuration
 LOCK_FILE_PATH = env_utils.get_env('LOCK_FILE_PATH')
 

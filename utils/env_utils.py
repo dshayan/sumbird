@@ -22,6 +22,11 @@ REQUIRED_VARS = [
     'GITHUB_PAGES_URL',
     'GITHUB_PAGES_FA_URL',
     'OG_IMAGE_URL',
+    'RSS_FEED_TITLE',
+    'RSS_FEED_DESCRIPTION',
+    'RSS_FEED_LANGUAGE',
+    'RSS_FEED_TTL',
+    'RSS_FEED_GENERATOR',
     'LOCK_FILE_PATH',
     'MIN_FEEDS_TOTAL',
     'MIN_FEEDS_SUCCESS_RATIO',
@@ -129,6 +134,9 @@ def load_environment():
     env_vars['FETCHER_BATCH_DELAY'] = float(env_vars['FETCHER_BATCH_DELAY'])
     env_vars['FETCHER_SESSION_MODE'] = env_vars['FETCHER_SESSION_MODE'].lower()
     env_vars['FETCHER_REQUEST_DELAY'] = float(env_vars['FETCHER_REQUEST_DELAY'])
+    
+    # Convert RSS feed configuration
+    env_vars['RSS_FEED_TTL'] = int(env_vars['RSS_FEED_TTL'])
     
     # Clean up BASE_URL (ensure it ends with a slash)
     env_vars['BASE_URL'] = env_vars['BASE_URL'].rstrip('/') + '/'

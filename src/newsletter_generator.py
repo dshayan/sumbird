@@ -11,17 +11,20 @@ This module:
 """
 import os
 import re
-import shutil
 import subprocess
-import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Tuple
 
 from bs4 import BeautifulSoup
+from feedgen.feed import FeedGenerator
 
-from config import GITHUB_PAGES_URL, SUMMARY_DIR, TRANSLATED_DIR, get_date_str
-from utils.date_utils import format_datetime, get_now
+from config import (
+    GITHUB_PAGES_URL, GITHUB_PAGES_FA_URL, SUMMARY_DIR, TRANSLATED_DIR,
+    RSS_FEED_TITLE, RSS_FEED_DESCRIPTION, RSS_FEED_LANGUAGE,
+    RSS_FEED_TTL, RSS_FEED_GENERATOR
+)
+from utils.date_utils import get_now
 from utils.file_utils import read_file
 from utils.logging_utils import log_error, log_info, log_success
 from utils.template_utils import TemplateManager
@@ -30,15 +33,13 @@ from utils.template_utils import TemplateManager
 class NewsletterGenerator:
     """Generates newsletter website from summary HTML files."""
     
-    def __init__(self, docs_path: str = None, use_external_css: bool = True, 
+    def __init__(self, docs_path: str = None, 
                  language: str = "en", source_dir: str = None):
         """Initialize the newsletter generator.
         
         Args:
             docs_path: Path to the docs directory. 
                       Defaults to docs/ in the current project.
-            use_external_css: If True, use external CSS and component-based templates.
-                             If False, use the legacy embedded CSS templates (deprecated).
             language: Language code ("en" for English, "fa" for Farsi).
             source_dir: Source directory for content files (overrides default based on language).
         """
@@ -65,7 +66,6 @@ class NewsletterGenerator:
             self.component_suffix = ""  # Use header.html, footer.html
         
         self.posts_dir = self.docs_path / "posts"
-        self.use_external_css = use_external_css
         self.template_path = self.posts_dir / "template.html"
         self.homepage_path = self.docs_path / "index.html"
         self.feed_path = self.docs_path / "feed.xml"
@@ -169,31 +169,6 @@ class NewsletterGenerator:
         
         return "AI news and vibes from Twitter"
     
-    def format_date(self, date_str: str) -> Dict[str, str]:
-        """Format date string into various formats.
-        
-        Args:
-            date_str: Date in YYYY-MM-DD format.
-            
-        Returns:
-            Dictionary with various date formats.
-        """
-        try:
-            dt = datetime.strptime(date_str, "%Y-%m-%d")
-            return {
-                'iso_date': date_str,
-                'formatted_date': dt.strftime("%B %d, %Y"),
-                'rss_date': dt.strftime("%a, %d %b %Y %H:%M:%S +0000"),
-                'display_date': dt.strftime("%b %d, %Y")
-            }
-        except ValueError:
-            return {
-                'iso_date': date_str,
-                'formatted_date': date_str,
-                'rss_date': date_str,
-                'display_date': date_str
-            }
-    
     def generate_post_page(self, date_str: str, content_data: Dict[str, str]) -> bool:
         """Generate individual post page using external CSS template.
         
@@ -236,8 +211,34 @@ class NewsletterGenerator:
         except Exception as e:
             log_error("NewsletterGenerator", f"Error generating post for {date_str}", e)
             return False
-
-
+    
+    def _generate_posts_html(self, posts: List[Tuple[str, Dict[str, str]]]) -> str:
+        """Generate HTML for a list of posts.
+        
+        Args:
+            posts: List of (date_str, content_data) tuples.
+            
+        Returns:
+            HTML string with all posts, including dividers between posts.
+        """
+        posts_html = ""
+        for date_str, content_data in posts:
+            divider_html = '<div class="border-t"></div>' if posts_html else ''
+            post_html = f'''
+            {divider_html}
+            <article>
+                <h1>
+                    <a href="posts/{date_str}.html">
+                        {content_data.get('title', 'AI Updates')}
+                    </a>
+                </h1>
+                <div class="prose">
+                    {content_data.get('content', '')}
+                </div>
+            </article>
+            '''
+            posts_html += post_html
+        return posts_html
     
     def generate_homepage(self, recent_posts: List[Tuple[str, Dict[str, str]]]) -> bool:
         """Generate homepage with recent posts and simple pagination.
@@ -252,26 +253,7 @@ class NewsletterGenerator:
             # Generate posts HTML for first page (10 posts - more reasonable for a newsletter)
             posts_per_page = 10
             first_page_posts = recent_posts[:posts_per_page]
-            posts_html = ""
-            
-            for date_str, content_data in first_page_posts:
-                # Add divider for all posts except the first one
-                divider_html = '<div class="border-t"></div>' if posts_html else ''
-                
-                post_html = f'''
-                {divider_html}
-                <article>
-                    <h1>
-                        <a href="posts/{date_str}.html">
-                            {content_data.get('title', 'AI Updates')}
-                        </a>
-                    </h1>
-                    <div class="prose">
-                        {content_data.get('content', '')}
-                    </div>
-                </article>
-                '''
-                posts_html += post_html
+            posts_html = self._generate_posts_html(first_page_posts)
             
             # Generate simple pagination links
             total_posts = len(recent_posts)
@@ -326,25 +308,7 @@ class NewsletterGenerator:
                 page_posts = recent_posts[start_idx:end_idx]
                 
                 # Generate posts HTML for this page
-                posts_html = ""
-                for date_str, content_data in page_posts:
-                    # Add divider for all posts except the first one
-                    divider_html = '<div class="border-t"></div>' if posts_html else ''
-                    
-                    post_html = f'''
-                    {divider_html}
-                    <article>
-                        <h1>
-                            <a href="posts/{date_str}.html">
-                                {content_data.get('title', 'AI Updates')}
-                            </a>
-                        </h1>
-                        <div class="prose">
-                            {content_data.get('content', '')}
-                        </div>
-                    </article>
-                    '''
-                    posts_html += post_html
+                posts_html = self._generate_posts_html(page_posts)
                 
                 # Generate pagination using component
                 pagination_html = self.template_manager.load_pagination(
@@ -374,55 +338,93 @@ class NewsletterGenerator:
         except Exception as e:
             log_error("NewsletterGenerator", f"Error generating pagination pages", e)
     
-
-    
-    
     def generate_rss_feed(self, recent_posts: List[Tuple[str, Dict[str, str]]]) -> bool:
-        """Generate RSS feed with recent posts.
+        """Generate RSS feed programmatically with recent posts.
+        
+        Uses feedgen library to create a valid RSS 2.0 feed with the latest 20 posts.
+        The feed is generated from scratch on each run to ensure consistency and accuracy.
         
         Args:
-            recent_posts: List of (date_str, content_data) tuples for recent posts.
+            recent_posts: List of (date_str, content_data) tuples for recent posts, 
+                         sorted by date descending (newest first).
             
         Returns:
             True if successful, False otherwise.
         """
         try:
-            # Read RSS template
-            rss_content = read_file(str(self.feed_path))
-            if not rss_content:
-                log_error("NewsletterGenerator", f"Could not read RSS template: {self.feed_path}")
-                return False
+            # Determine base URL based on language
+            base_url = GITHUB_PAGES_FA_URL if self.is_farsi else GITHUB_PAGES_URL
+            feed_url = f"{base_url}/feed.xml"
             
-            # Generate RSS items for last 20 posts
-            items_xml = ""
-            for date_str, content_data in recent_posts[:20]:
-                date_formats = self.format_date(date_str)
-                
-                # Clean content for RSS (remove complex HTML)
-                soup = BeautifulSoup(content_data.get('content', ''), 'html.parser')
-                rss_description = self._clean_html_for_rss(soup)
-                
-                item_xml = f'''
-    <item>
-      <title>{self._escape_xml(content_data.get('title', 'AI Updates'))}</title>
-      <description><![CDATA[{rss_description}]]></description>
-      <link>{GITHUB_PAGES_URL}/posts/{date_str}.html</link>
-      <guid>{GITHUB_PAGES_URL}/posts/{date_str}.html</guid>
-      <pubDate>{date_formats['rss_date']}</pubDate>
-    </item>'''
-                items_xml += item_xml
+            # Determine RSS metadata based on language
+            if self.is_farsi:
+                rss_title = f"{RSS_FEED_TITLE} - فارسی"
+                rss_description = "اخبار و تحلیل‌های هوش مصنوعی از توییتر"
+                rss_language = "fa-ir"
+            else:
+                rss_title = RSS_FEED_TITLE
+                rss_description = RSS_FEED_DESCRIPTION
+                rss_language = RSS_FEED_LANGUAGE
             
-            # Replace template variables
+            # Create feed generator
+            fg = FeedGenerator()
+            fg.title(rss_title)
+            fg.description(rss_description)
+            fg.link(href=base_url + '/', rel='alternate')
+            fg.link(href=feed_url, rel='self')
+            fg.language(rss_language)
+            fg.generator(RSS_FEED_GENERATOR)
+            fg.ttl(str(RSS_FEED_TTL))
+            
+            # Set build date and publication date
             now = get_now()
-            rss_content = rss_content.replace("{{LAST_BUILD_DATE}}", now.strftime("%a, %d %b %Y %H:%M:%S +0000"))
-            rss_content = rss_content.replace("{{PUB_DATE}}", now.strftime("%a, %d %b %Y %H:%M:%S +0000"))
-            rss_content = rss_content.replace("{{ITEMS}}", items_xml)
+            fg.lastBuildDate(now)
+            fg.pubDate(now)
             
-            # Write RSS feed
-            with open(self.feed_path, 'w', encoding='utf-8') as f:
-                f.write(rss_content)
+            # Generate items for the last 20 posts
+            # Note: feedgen writes entries in reverse order, so we add oldest first
+            # to get newest-first in the final RSS feed (RSS best practice)
+            items_count = 0
+            for date_str, content_data in reversed(recent_posts[:20]):
+                try:
+                    # Create entry
+                    fe = fg.add_entry()
+                    
+                    # Add title
+                    title = content_data.get('title', 'AI Updates')
+                    fe.title(title)
+                    
+                    # Clean and add description (feedgen handles CDATA automatically)
+                    content = content_data.get('content', '')
+                    soup = BeautifulSoup(content, 'html.parser')
+                    cleaned_content = self._clean_html_for_rss(soup)
+                    fe.description(cleaned_content)
+                    
+                    # Add link and GUID
+                    post_url = f"{base_url}/posts/{date_str}.html"
+                    fe.link(href=post_url)
+                    fe.guid(post_url)
+                    
+                    # Add publication date (convert date_str to datetime with UTC timezone)
+                    try:
+                        post_date = datetime.strptime(date_str, "%Y-%m-%d")
+                        post_date = post_date.replace(tzinfo=timezone.utc)
+                        fe.pubDate(post_date)
+                    except ValueError:
+                        log_error("NewsletterGenerator", f"Invalid date format: {date_str}")
+                        continue
+                    
+                    items_count += 1
+                    
+                except Exception as e:
+                    log_error("NewsletterGenerator", f"Error adding RSS item for {date_str}", e)
+                    continue
             
-            log_info("NewsletterGenerator", f"Generated RSS feed with {len(recent_posts[:20])} items")
+            # Write RSS feed file
+            fg.rss_file(str(self.feed_path), pretty=True)
+            
+            log_success("NewsletterGenerator", 
+                       f"Generated RSS feed with {items_count} items at {self.feed_path}")
             return True
             
         except Exception as e:
@@ -443,21 +445,6 @@ class NewsletterGenerator:
             elem.decompose()
         
         return str(soup)
-    
-    def _escape_xml(self, text: str) -> str:
-        """Escape XML special characters.
-        
-        Args:
-            text: Text to escape.
-            
-        Returns:
-            XML-escaped text.
-        """
-        return (text.replace('&', '&amp;')
-                   .replace('<', '&lt;')
-                   .replace('>', '&gt;')
-                   .replace('"', '&quot;')
-                   .replace("'", '&#x27;'))
     
     def commit_and_push(self) -> bool:
         """Commit and push changes to the repository.
@@ -575,7 +562,7 @@ class NewsletterGenerator:
 def generate(force_regenerate: bool = False, language: str = "en", verbose: bool = True):
     """Main function to generate newsletter. Can be called from pipeline or standalone."""
     try:
-        generator = NewsletterGenerator(use_external_css=True, language=language)
+        generator = NewsletterGenerator(language=language)
         success = generator.generate_newsletter(force_regenerate=force_regenerate)
         
         if verbose:
