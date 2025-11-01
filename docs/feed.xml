@@ -8,9 +8,54 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Nov 2025 00:11:01 +0330</lastBuildDate>
-    <pubDate>Sun, 02 Nov 2025 00:11:01 +0330</pubDate>
+    <lastBuildDate>Sun, 02 Nov 2025 00:44:03 +0330</lastBuildDate>
+    <pubDate>Sun, 02 Nov 2025 00:44:03 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-01</title>
+      <link>https://dshayan.github.io/sumbird/posts/2025-11-01.html</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-VL&lt;/b&gt; models with support across multiple platforms including Ollama, LM Studio, and llama.cpp, with GGUF weights available for all variants from 2B to 235B parameters, supporting CPU, CUDA, Metal, and Vulkan backends &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1984634293004747252"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI releases &lt;b&gt;Sora&lt;/b&gt;-generated 4-minute "Monster Manor" Halloween video, demonstrating the model's video generation capabilities &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1984318204374892798"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI announces credit-based pricing now live in &lt;b&gt;Codex&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/gdb/status/1984440078010368238"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft announces &lt;b&gt;Copilot&lt;/b&gt; is now built into Windows 11 with voice activation via "Hey Copilot" command &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1984379858164613600"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google showcases &lt;b&gt;Veo 3.1&lt;/b&gt; video generation capabilities and &lt;b&gt;Nano Banana&lt;/b&gt; image generation features for Halloween-themed content creation &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1984407565250494613"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon holds 7.8% ownership stake in Anthropic valued at $9.5B according to Q3 earnings, while Google holds up to 8.8% stake based on unrealized gains from non-marketable equity &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1984643668092076472"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SF AI startup founder reports abandoning AI-assisted coding interviews because they only measured candidates' hands-on experience with AI tools rather than engineering fundamentals, returning to algorithmic interviews for better signal &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1984714647761453388"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gerge Orosz observes increasing adoption of Claude Code terminals in coffee shops, noting faster-than-expected CLI spread among developers &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1984586103978885180"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA and Palantir demonstrate AI-powered supply chain system enabling thousands of Lowe's stores to operate as one intelligent system that anticipates and adapts to disruptions in real-time &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1984364757877453090"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gigawatt-scale Stargate data center announced as largest single investment in Michigan history &lt;em&gt;&lt;a href="https://x.com/gdb/status/1984394938453528684"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Majority of consumers express concern about data centers driving up electricity costs, raising questions about industry preparedness for potential public backlash &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1984656197278970197"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nathan Lambert criticizes arXiv's new moderation policies requiring peer review for certain submissions, arguing this creates unpredictable barriers to research dissemination and represents a "slippery slope" toward the platform's decline, advocating instead for AI-native curation systems &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1984406758551666730"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick notes ChatGPT's image generation is "actually getting close to funny at times" when comparing outputs from the same prompt a year apart, demonstrating rapid improvement in AI humor capabilities &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984363186896924684"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gerge Orosz reflects on generational shifts in software engineering, noting how each generation faces skepticism from the "old guard" about their tools and methods, yet consistently proves successful despite different skill sets &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1984379489066074385"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Claire Vo builds Halloween Candy Scanner AI app using Gemini that analyzes photos or videos of candy hauls to identify pieces, count quantities, estimate total calories, and calculate teeth-brushing time needed &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1984383408605438167"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity launches accurate currency conversions feature on iOS app and web &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1984470511959814483"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developers create various Halloween-themed AI applications including spooky photo booths, costume generators using &lt;b&gt;v0&lt;/b&gt; and Nano Banana, 80s costume photo generators, and character voice generators &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1984376211959923066"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andon Labs researchers embed various LLMs in a vacuum robot to test embodiment readiness, with humorous results &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1984637070489358830"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ethan Mollick observes mathematics appears to be the first academic field reaching consensus that AIs will accelerate research, based on feedback from math professors, though noting this differs from autonomous research &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984388281061282081"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Timothy Gowers suggests we have entered a "brief but enjoyable era where our research is greatly sped up by AI but AI still needs us" &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1984645265513705494"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT CSAIL commemorates Yann LeCun's 1998 paper on gradient-based deep learning for document recognition, noting it took over a decade before neural networks gained widespread acceptance &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1984651752218460634"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick identifies innovation and design thinking processes as urgently needing change due to AI, noting research shows many constraints change dramatically while some aspects like building empathy remain important &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984653211936993723"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Simon Willison highlights a novel approach to working with multiple coding agents simultaneously through coordinated agent communication and task management &lt;em&gt;&lt;a href="https://x.com/simonw/status/1984390532790153484"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Investigation into reported &lt;b&gt;Codex&lt;/b&gt; degradations provides detailed analysis of model performance changes &lt;em&gt;&lt;a href="https://x.com/gdb/status/1984707276461261226"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-11-01.html</guid>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-10-31</title>
       <link>https://dshayan.github.io/sumbird/posts/2025-10-31.html</link>
@@ -897,37 +942,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-13.html</guid>
       <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-10-12</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-12.html</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;GPT-5 Pro&lt;/b&gt; demonstrates superhuman literature search capabilities by solving Erdős Problem #339, which was listed as open but had actually been solved 20 years ago &lt;em&gt;&lt;a href="https://x.com/SebastienBubeck/status/1977181716457701775"&gt;@SebastienBubeck&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;xAI updates Grok app with new "TRON mode" featuring character Ani &lt;em&gt;&lt;a href="https://x.com/xai/status/1977121515587223679"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;NVIDIA has invested in over 80 AI startups over the last two years, leveraging its ballooning fortunes from the AI boom &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1977397366303907997"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Every oncall and paging tool now brands itself as an &lt;b&gt;"AI platform"&lt;/b&gt; or &lt;b&gt;"AI-first operations platform"&lt;/b&gt;, showing widespread AI marketing adoption across enterprise tools &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1977402484709867571"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini leads GenAI tools with over 3x the month-over-month growth rate of runner-up Perplexity, while Grok shows negative growth and DeepSeek sees first positive growth since February &lt;em&gt;&lt;a href="https://x.com/Similarweb/status/1977297941099434289"&gt;@Similarweb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Enterprise AI adoption faces significant rate-limiting factors including human and organizational ability to absorb change, regulations, and enterprise budgets, beyond just infrastructure and algorithmic breakthroughs &lt;em&gt;&lt;a href="https://x.com/sriramk/status/1977424467627299126"&gt;@sriramk&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Emerging &lt;b&gt;"deep AI use"&lt;/b&gt; cases where experts have automated complex, valuable tasks in their domains, though diffusion of specific use cases will be slower than general AI adoption &lt;em&gt;&lt;a href="https://x.com/emollick/status/1977415102606577684"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude Code can be prompted to &lt;b&gt;"use sub-agents"&lt;/b&gt; to fire up multiple parallel sub-agents for complex tasks, each with fresh context &lt;em&gt;&lt;a href="https://x.com/simonw/status/1977124799454626004"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Current AI feels capable enough for most tasks lasting up to a few minutes, with failures often due to insufficient background context rather than capability limitations &lt;em&gt;&lt;a href="https://x.com/gdb/status/1977425127534166521"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sam Altman predicts &lt;b&gt;Codex&lt;/b&gt; will dramatically transform software creation, making it difficult to imagine what software development will look like by the end of 2026 &lt;em&gt;&lt;a href="https://x.com/sama/status/1977177505971736675"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;LLMs now dominate hard STEM contests including the International Math Olympiad, International Olympiad on Astronomy &amp;amp; Astrophysics, and International Informatics Olympiad, despite being poor at math just a year ago &lt;em&gt;&lt;a href="https://x.com/emollick/status/1977460160197956089"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Industry analysis suggests &lt;b&gt;OpenAI&lt;/b&gt; has the best post-training/reinforcement learning capabilities applied to weaker pretraining, while &lt;b&gt;Gemini&lt;/b&gt; has spectacular pretraining that made creating reasoning models surprisingly easy &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1977455816312557990"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Top 5 most impactful open AI models ranked: &lt;b&gt;DeepSeek R1&lt;/b&gt; (ignited Chinese open model ecosystem), &lt;b&gt;LLaMA&lt;/b&gt; (enabled post-ChatGPT RLHF research), &lt;b&gt;Mistral 7B&lt;/b&gt; (created community interest in finetuning), &lt;b&gt;LLaMA 3.1&lt;/b&gt; (closest open models to frontier), and &lt;b&gt;Qwen 3&lt;/b&gt; (summarizes Qwen's current R&amp;amp;D dominance) &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1977385568293269511"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-12.html</guid>
-      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
