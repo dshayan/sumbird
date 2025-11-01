@@ -8,9 +8,8 @@ This module provides utilities for:
 3. Generating clean HTML for newsletter posts and pages
 4. Managing language-specific templates (English/Farsi)
 """
-import os
+import re
 from pathlib import Path
-from typing import Dict, Optional
 
 from utils.file_utils import read_file
 from utils.logging_utils import log_error, log_info
@@ -19,19 +18,19 @@ from utils.logging_utils import log_error, log_info
 class TemplateManager:
     """Manages templates and shared components for the newsletter."""
     
-    def __init__(self, docs_path: str = "docs", language: str = "en", component_suffix: str = ""):
+    def __init__(self, docs_path: str = "docs", language: str = "en"):
         """Initialize the template manager.
         
         Args:
             docs_path: Path to the docs directory containing templates and components.
             language: Language code ("en" or "fa").
-            component_suffix: Suffix for language-specific components (e.g., "-fa").
         """
         self.docs_path = Path(docs_path)
-        self.components_path = self.docs_path / "assets" / "components"
-        self.templates_path = self.docs_path / "posts"
+        # Components are now in language-specific subdirectories
+        self.components_path = self.docs_path / "assets" / "components" / language
+        # Templates are now in language-specific subdirectories
+        self.templates_path = self.docs_path / language / "templates"
         self.language = language
-        self.component_suffix = component_suffix
         
         # Cache for loaded components
         self._component_cache = {}
@@ -51,13 +50,8 @@ class TemplateManager:
         if cache_key in self._component_cache:
             return self._component_cache[cache_key]
         
-        # Use language-specific component if available
-        component_file = f"{component_name}{self.component_suffix}.html"
-        component_path = self.components_path / component_file
-        
-        # Fallback to default component if language-specific doesn't exist
-        if not component_path.exists() and self.component_suffix:
-            component_path = self.components_path / f"{component_name}.html"
+        # Load component from language-specific directory
+        component_path = self.components_path / f"{component_name}.html"
         
         try:
             component_content = read_file(str(component_path))
@@ -205,13 +199,21 @@ class TemplateManager:
             html_content = html_content.replace('src="../assets/', 'src="../../../assets/')
             
             if self.language == "fa":
-                # Update HTML lang attribute
+                # Update HTML lang attribute to Farsi
                 html_content = html_content.replace('lang="en"', 'lang="fa"')
-                # Add dir="rtl" if not present
-                if 'dir="rtl"' not in html_content:
-                    html_content = html_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
+                # Remove any existing dir attribute and add dir="rtl"
+                html_content = re.sub(r'\s+dir="[^"]*"', '', html_content)  # Remove existing dir attribute
+                html_content = html_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
                 # Update Open Graph locale
                 html_content = html_content.replace('content="en_US"', 'content="fa_IR"')
+            else:
+                # Update HTML lang attribute to English
+                html_content = html_content.replace('lang="fa"', 'lang="en"')
+                # Remove any existing dir attribute and add dir="ltr"
+                html_content = re.sub(r'\s+dir="[^"]*"', '', html_content)  # Remove existing dir attribute
+                html_content = html_content.replace('<html lang="en"', '<html lang="en" dir="ltr"')
+                # Update Open Graph locale to English
+                html_content = html_content.replace('content="fa_IR"', 'content="en_US"')
             
             # Replace template placeholders
             html_content = html_content.replace("{{TITLE}}", title)
@@ -231,7 +233,7 @@ class TemplateManager:
     def generate_index_html(self, 
                            posts_content: str, 
                            pagination_script: str = "", 
-                           template_name: str = "index.html") -> str:
+                           template_name: str = "page-template.html") -> str:
         """Generate the index page HTML using the template.
         
         Args:
@@ -242,7 +244,8 @@ class TemplateManager:
         Returns:
             The complete HTML for the index page.
         """
-        template_path = self.docs_path / template_name
+        # Template is in language-specific templates directory
+        template_path = self.templates_path / template_name
         
         try:
             template_content = read_file(str(template_path))
@@ -261,20 +264,27 @@ class TemplateManager:
             template_content = template_content.replace('href="assets/', 'href="../assets/')
             template_content = template_content.replace('src="assets/', 'src="../assets/')
             
-            # Adjust language attributes for Farsi
+            # Adjust language attributes for both languages
             if self.language == "fa":
-                # Update HTML lang attribute
+                # Update HTML lang attribute to Farsi
                 template_content = template_content.replace('lang="en"', 'lang="fa"')
-                # Add dir="rtl" if not present
-                if 'dir="rtl"' not in template_content:
-                    template_content = template_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
+                # Remove any existing dir attribute and add dir="rtl"
+                template_content = re.sub(r'\s+dir="[^"]*"', '', template_content)  # Remove existing dir attribute
+                template_content = template_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
                 # Update Open Graph locale
                 template_content = template_content.replace('content="en_US"', 'content="fa_IR"')
+            else:
+                # Update HTML lang attribute to English
+                template_content = template_content.replace('lang="fa"', 'lang="en"')
+                # Remove any existing dir attribute and add dir="ltr"
+                template_content = re.sub(r'\s+dir="[^"]*"', '', template_content)  # Remove existing dir attribute
+                template_content = template_content.replace('<html lang="en"', '<html lang="en" dir="ltr"')
+                # Update Open Graph locale to English
+                template_content = template_content.replace('content="fa_IR"', 'content="en_US"')
             
             # Replace template placeholders
             html_content = template_content.replace("{{POSTS}}", posts_content)
             html_content = html_content.replace("{{PAGINATION}}", pagination_script)
-            html_content = html_content.replace("{{JAVASCRIPT}}", pagination_script)  # Backwards compatibility
             html_content = html_content.replace("{{HEADER}}", header_html)
             html_content = html_content.replace("{{FOOTER}}", footer_html)
             
@@ -288,15 +298,3 @@ class TemplateManager:
         """Clear the component cache."""
         self._component_cache.clear()
         log_info("TemplateManager", "Component cache cleared")
-
-
-def create_template_manager(docs_path: str = "docs") -> TemplateManager:
-    """Create a new template manager instance.
-    
-    Args:
-        docs_path: Path to the docs directory.
-        
-    Returns:
-        A new TemplateManager instance.
-    """
-    return TemplateManager(docs_path)

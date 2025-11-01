@@ -59,24 +59,22 @@ class NewsletterGenerator:
         if self.is_farsi:
             self.docs_path = base_docs_path / "fa"
             self.source_dir = source_dir or TRANSLATED_DIR
-            self.component_suffix = "-fa"  # Use header-fa.html, footer-fa.html
             self.posts_dir = base_docs_path / "fa" / "news"
         else:
             self.docs_path = base_docs_path / "en"
             self.source_dir = source_dir or SUMMARY_DIR
-            self.component_suffix = ""  # Use header.html, footer.html
             self.posts_dir = base_docs_path / "en" / "news"
         
-        # Template is in posts directory
-        self.template_path = base_docs_path / "posts" / "template.html"
+        # Templates are now in language-specific directories
+        self.template_path = self.docs_path / "templates" / "template.html"
         self.homepage_path = self.docs_path / "index.html"
         self.feed_path = self.docs_path / "feed.xml"
         
         # Initialize template manager for external CSS system with language context
+        # Components are now loaded from language-specific directories
         self.template_manager = TemplateManager(
             str(base_docs_path), 
-            language=self.language,
-            component_suffix=self.component_suffix
+            language=self.language
         )
         
         # Ensure posts directory exists

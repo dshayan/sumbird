@@ -116,7 +116,8 @@ Fetch → Summarize → Translate → Script → Narrate → Convert → Publish
 ```bash
 # Preview newsletter locally
 cd docs && python -m http.server 8000
-# Visit http://localhost:8000
+# Visit http://localhost:8000/en/ (English) or http://localhost:8000/fa/ (Farsi)
+# Root (http://localhost:8000) redirects to /en/
 ```
 
 ## Project Structure

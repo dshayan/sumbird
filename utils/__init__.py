@@ -33,7 +33,7 @@ from utils.logging_utils import (
 from utils.openrouter_utils import OpenRouterClient, create_openrouter_client
 from utils.pipeline_core import run_pipeline_core
 from utils.retry_utils import retry_async, retry_sync, with_retry_async, with_retry_sync
-from utils.template_utils import TemplateManager, create_template_manager
+from utils.template_utils import TemplateManager
 
 
 def ensure_environment_loaded():
