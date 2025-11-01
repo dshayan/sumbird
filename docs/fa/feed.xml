@@ -2,18 +2,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Sumbird - فارسی</title>
-    <link>https://dshayan.github.io/sumbird/fa/feed.xml</link>
+    <link>https://sumbird.ir/fa/feed.xml</link>
     <description>اخبار و تحلیل‌های هوش مصنوعی از توییتر</description>
-    <atom:link href="https://dshayan.github.io/sumbird/fa/feed.xml" rel="self"/>
+    <atom:link href="https://sumbird.ir/fa/feed.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Sun, 02 Nov 2025 01:00:12 +0330</lastBuildDate>
-    <pubDate>Sun, 02 Nov 2025 01:00:12 +0330</pubDate>
+    <lastBuildDate>Sun, 02 Nov 2025 01:14:52 +0330</lastBuildDate>
+    <pubDate>Sun, 02 Nov 2025 01:14:52 +0330</pubDate>
     <ttl>1440</ttl>
     <item>
       <title>اخبار هوش مصنوعی در 2025-11-01</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-11-01.html</link>
+      <link>https://sumbird.ir/fa/news/2025-11-01.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;«علی‌بابا» مدل‌های &lt;b&gt;Qwen3-VL&lt;/b&gt; را با پشتیبانی از چندین پلتفرم از جمله Ollama، LM Studio و llama.cpp منتشر می‌کند، با وزن‌های GGUF که برای تمامی نسخه‌ها از 2B تا 235B پارامتر موجود است و از بک‌اندهای CPU، CUDA، Metal و Vulkan پشتیبانی می‌کند &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1984634293004747252"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -53,12 +53,12 @@
 &lt;li&gt;«سایمون ویلیسون» رویکردی نوآورانه برای کار همزمان با چندین عامل کدنویسی از طریق ارتباط هماهنگ عامل‌ها و مدیریت وظایف را برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/simonw/status/1984390532790153484"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;بررسی تخریب‌های گزارش‌شده‌ی &lt;b&gt;Codex&lt;/b&gt;، تحلیل دقیقی از تغییرات عملکرد مدل ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/gdb/status/1984707276461261226"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-11-01.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-01.html</guid>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-31</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-31.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-31.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;«کیمی» (Kimi) &lt;b&gt;«پیش‌نمایش فنی CLI» (CLI Technical Preview)&lt;/b&gt; و &lt;b&gt;«کیمی برای کدنویسی» (Kimi For Coding)&lt;/b&gt; را با رابط کاربری shell-مانند، یکپارچگی Zsh، پشتیبانی از MCP و سازگاری با Agent Client Protocol معرفی می‌کند. &lt;em&gt;&lt;a href="https://x.com/Kimi_Moonshot/status/1984207733177090274"&gt;@Kimi_Moonshot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -100,12 +100,12 @@
 &lt;li&gt;«یان لکون» (Yann LeCun) استدلال می‌کند که اصطلاح &lt;b&gt;«AGI» (هوش عمومی مصنوعی)&lt;/b&gt; بی‌معناست، زیرا هوش انسانی عمومی نیست بلکه تخصصی است؛ او به جای آن، ساخت &lt;b&gt;«مدل‌های جهان» (World Models)&lt;/b&gt; را پیشنهاد می‌کند که جهان فیزیکی را از طریق بازنمایی‌های انتزاعی درک می‌کنند. &lt;em&gt;&lt;a href="https://x.com/youtubejocoding/status/1984126277100703940"&gt;@youtubejocoding&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;«مارک آندرِسن» (Marc Andreessen) درباره‌ی رقابت هوش مصنوعی بین آمریکا و چین بحث می‌کند و پیش‌بینی می‌کند که فاز بعدی این رقابت در &lt;b&gt;«رباتیک» (robotics)&lt;/b&gt; خواهد بود تا نرم‌افزار؛ او بر نیاز به هوش تجسم‌یافته (embodied intelligence) فراتر از سیستم‌های هوش مصنوعی غیرتجسم‌یافته‌ی کنونی تأکید می‌کند. &lt;em&gt;&lt;a href="https://x.com/a16z/status/1984330876273246279"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-31.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-31.html</guid>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-30</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-30.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-30.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;OpenAI، &lt;b&gt;Aardvark&lt;/b&gt; را معرفی کرد؛ یک محقق امنیتی عامل‌محور که با استفاده از &lt;b&gt;GPT-5&lt;/b&gt; باگ‌های امنیتی را پیدا و رفع می‌کند و اکنون در مرحله‌ی بتای خصوصی است &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1983956431360659467"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -156,12 +156,12 @@
 &lt;li&gt;LMCache به اکوسیستم PyTorch می‌پیوندد و استنتاج (inference) مقیاس‌پذیر LLM را از طریق یکپارچه‌سازی با vLLM با استفاده‌ی مجدد و اشتراک‌گذاری کش‌های KV در میان کوئری‌ها پیشرفت می‌دهد و به توان عملیاتی تا 15 برابر سریع‌تر دست می‌یابد &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1983938803887755308"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;پژوهش هوش مصنوعی برکلی نشان می‌دهد که چگونه LLMها می‌توانند از طریق یادگیری در متن (in-context learning) «خود-تکمیل» شوند و از اشتباهات یاد بگیرند و نحوه‌ی اعمال تطبیق در زمان استنتاج به یادگیری ربات را بررسی می‌کند &lt;em&gt;&lt;a href="https://x.com/ameeshsh/status/1983648418406060144"&gt;@ameeshsh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-30.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-30.html</guid>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-29</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-29.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-29.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;اوپن‌اِی‌آی مدل‌های &lt;b&gt;gpt-oss-safeguard&lt;/b&gt; را برای طبقه‌بندی ایمنی منتشر کرد؛ این مدل‌ها نسخه‌های تنظیم‌شده‌ی مدل‌های متن‌باز این شرکت هستند که تحت مجوز Apache 2.0 در Hugging Face دردسترس می‌باشند &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1983507394316710039"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -205,12 +205,12 @@
 &lt;li&gt;پژوهش DeepSeek روش‌های جدیدی را برای بهبود توانایی هوش مصنوعی در به‌خاطرسپردن اطلاعات پیشنهاد می‌کند &lt;em&gt;&lt;a href="https://x.com/techreview/status/1983478656342134934"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;پیشرفتی در محاسبات کوانتومی به &lt;b&gt;درهم‌تنیدگی 120 کیوبیت&lt;/b&gt; دست یافت که بزرگ‌ترین حالت درهم‌تنیدگی است که تاکنون در یک کامپیوتر کوانتومی به دست آمده است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983505751596273790"&gt;@jaygambetta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-29.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-29.html</guid>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-28</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-28.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-28.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;ادوبی &lt;b&gt;Firefly Image 5&lt;/b&gt;، جدیدترین نسخه‌ی مدل تولیدکننده‌ی تصویر خود را به همراه ویژگی‌های جدید برای وب‌سایت Firefly، پشتیبانی از مدل‌های شخص ثالث بیشتر و قابلیت تولید گفتار و صدا عرضه کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1983142975510118528"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -256,12 +256,12 @@
 &lt;li&gt;PyTorch بهینه‌سازی Diffusers با torch.compile را برای مزایای عملکردی از جمله آف‌لودینگ، LoRA و کوانتیزاسیون در تولید ویدئو، تصویر و صدا برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1983164400090407213"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Monarch از متا آموزش PyTorch در مقیاس بزرگ را مستقیماً به Lightning Studio می‌آورد و همان تجربه‌ی سریع و شبیه به نوت‌بوک را فراهم می‌کند که اکنون بدون نیاز به تنظیمات، در GPUها توزیع شده است &lt;em&gt;&lt;a href="https://x.com/LightningAI/status/1983159348537770433"&gt;@LightningAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-28.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-28.html</guid>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-27</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-27.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-27.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;آنتروپیک قابلیت‌های &lt;b&gt;Claude&lt;/b&gt; را برای خدمات مالی با افزونه‌ی اکسل، اتصال‌دهنده‌های داده‌ی بلادرنگ به LSE، Moody's و سایر پلتفرم‌های مالی گسترش می‌دهد، به علاوه‌ی Agent Skills از پیش ساخته‌شده برای مدل‌های جریان نقدینگی و گزارش‌های پوشش (Coverage Reports). &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1982842909235040731"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -300,12 +300,12 @@
 &lt;li&gt;فریم‌ورک Glyph منتشرشده توسط Zai.org طول زمینه (Context Length) را با فشرده‌سازی متن به تصاویر و پردازش آن با مدل‌های دیداری-زبانی افزایش می‌دهد و هزینه‌های محاسباتی را کاهش می‌دهد. &lt;em&gt;&lt;a href="https://x.com/AdinaYakup/status/1982816099793269046"&gt;@AdinaYakup&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;مدل بنیادی LongCat-Video از Meituan ویدیوهایی با کیفیت 720p و 30 فریم بر ثانیه تولید می‌کند که دارای فریم‌ورک یکپارچه‌ی تبدیل متن به ویدیو، تصویر به ویدیو و ادامه‌ی ویدیو است. &lt;em&gt;&lt;a href="https://x.com/AdinaYakup/status/1982742218952843385"&gt;@AdinaYakup&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-27.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-27.html</guid>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-26</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-26.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-26.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;DeepSeek-OCR&lt;/b&gt; قابلیت‌های استثنایی تشخیص متن دست‌نویس را به نمایش می‌گذارد و نامه‌های دست‌نویس بسیار دشوار، از جمله معادلات ریاضی متعلق به سال 1913 را به‌دقت تحلیل می‌کند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1982286772605448450"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -336,12 +336,12 @@
 &lt;li&gt;بررسی اشکال‌زدایی فنی، مشکلات بک‌اند PyTorch MPS را نشان می‌دهد که با تنسورهای خروجی غیرمتوالی مرتبط است، و این سوال را مطرح می‌کند که &lt;b&gt;مدل‌های زبانی بزرگ (LLM)&lt;/b&gt; چه زمانی قادر به انجام چنین کارهای پیچیده‌ی کارآگاهی فنی خواهند بود &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1982483540899237981"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;بر اساس گزارش‌ها، آزمایشگاه‌های هوش مصنوعی پیشرو با کمبود نیروی انسانی مواجه هستند علیرغم وجود حجم عظیمی از فرصت‌های سهل‌الوصول، که منجر به برنامه‌های کاری فشرده و اولویت‌بندی بی‌رحمانه می‌شود به‌دلیل کمبود نیروی انسانی و منابع محاسباتی &lt;em&gt;&lt;a href="https://x.com/brianryhuang/status/1982498641689657365"&gt;@brianryhuang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-26.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-26.html</guid>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-25</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-25.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-25.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;گزارش شده که OpenAI در حال آموزش یک &lt;b&gt;مدل موسیقی&lt;/b&gt; جدید است که اولین مدل آن‌ها از زمان &lt;b&gt;Jukebox&lt;/b&gt; در سال 2020 خواهد بود؛ این نشان‌دهنده‌ی یک تغییر مهم است، زیرا آن‌ها قبلاً از درگیری‌های حقوقی با شرکت‌های موسیقی اجتناب می‌کردند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1981852010480837070"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -380,12 +380,12 @@
 &lt;li&gt;بررسی یک‌ساله‌ی KernelBench، درس‌های آموخته‌شده در مسیر تولید خودکار هسته‌های GPU/CUDA را آشکار می‌کند که نشان‌دهنده‌ی پیشرفت قابل توجه جامعه است &lt;em&gt;&lt;a href="https://x.com/simonguozirui/status/1981830383449911417"&gt;@simonguozirui&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;آزمایشگاه Stanford NLP بیست‌و‌پنجمین سالگرد خود را جشن می‌گیرد و نقش خود را در الهام‌بخشی به گروه‌های NLP در سراسر جهان که به LLM‌های امروزی منجر شد، برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1982137945856368688"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-25.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-25.html</guid>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-24</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-24.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-24.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;انتروپیک افزایش گسترده‌ی استفاده از TPUهای گوگل کلود را اعلام کرد که با تضمین تقریباً &lt;b&gt;یک میلیون TPU&lt;/b&gt; و بیش از یک گیگاوات ظرفیت در سال ۲۰۲۶، به ارزش ده‌ها میلیارد دلار، با هدف افزایش چشمگیر منابع محاسباتی جهت پژوهش‌های هوش مصنوعی و توسعه‌ی محصول انجام می‌شود &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1981460118354219180"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -423,12 +423,12 @@
 &lt;li&gt;Isaacus مدل &lt;b&gt;Kanon 2 Embedder&lt;/b&gt; را راه‌اندازی کرد؛ یک LLM تعبیه‌ی حقوقی که ادعا می‌کند ۹٪ عملکرد بالاتری نسبت به OpenAI Text Embedding 3 Large و ۶٪ بالاتر از Google Gemini Embedding دارد و با سرعت ۳۴۰٪ بیشتر از Voyage 3 Large عمل می‌کند &lt;em&gt;&lt;a href="https://x.com/rohanpaul_ai/status/1981485254364766301"&gt;@rohanpaul_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;جفری لیت رویکرد «جراح نرم‌افزار» را برای کدنویسی هوش مصنوعی پیشنهاد می‌کند که در آن توسعه‌دهندگان بر کارهای خلاقانه‌ی اصلی تمرکز می‌کنند، در حالی که هوش مصنوعی کارهای ثانویه مانند مستندسازی، رفع اشکال و کاوش کد را انجام می‌دهد و بر سطوح خودمختاری متفاوت برای انواع مختلف کار تأکید می‌کند &lt;em&gt;&lt;a href="https://x.com/geoffreylitt/status/1981720163968749736"&gt;@geoffreylitt&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-24.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-24.html</guid>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-23</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-23.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-23.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;OpenAI شرکت Software Applications Incorporated، سازنده‌ی &lt;b&gt;Sky&lt;/b&gt;، یک رابط زبان طبیعی برای مک را، خریداری کرد تا تجربه‌ی هوش مصنوعی دسکتاپ خود را در ChatGPT ادغام کند &lt;em&gt;&lt;a href="https://x.com/OpenAINewsroom/status/1981405466044616920"&gt;@OpenAINewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -470,12 +470,12 @@
 &lt;li&gt;مدل &lt;b&gt;llama-embed-nemotron-8b&lt;/b&gt; انویدیا به جایگاه شماره 1 جدید در جدول رده‌بندی بنچمارک MTEB Embedding دست یافت و با میانگین 69.46 در تمام وظایف، Gemini و Qwen3 را شکست داد &lt;em&gt;&lt;a href="https://x.com/TheAhmadOsman/status/1981208922783690764"&gt;@TheAhmadOsman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;ایتان مولیک مشاهده کرد که تولید ویدیوی هوش مصنوعی، ثبات بصری را در کلیپ‌های متعدد بهتر از ثبات صوتی حفظ می‌کند، با اشاره به اینکه ویدیو می‌تواند از فریم‌های قبلی تولید شود، در حالی که دارای ویژگی‌های مدل جهانی است &lt;em&gt;&lt;a href="https://x.com/emollick/status/1981162893631770892"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-23.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-23.html</guid>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-22</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-22.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-22.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;گوگل الگوریتم کوانتومی پیشگامانه‌ی &lt;b&gt;Quantum Echoes&lt;/b&gt; را که بر روی تراشه‌ی &lt;b&gt;Willow&lt;/b&gt; اجرا می‌شود، با دستیابی به اولین مزیت کوانتومی قابل‌تأیید و ۱۳,۰۰۰ برابر سرعت بیشتر نسبت به سوپرکامپیوترهای کلاسیک برای تعاملات مولکولی، معرفی کرد. &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1981013746698100811"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -530,12 +530,12 @@
 &lt;li&gt;هامل حسین (Hamel Husain) و برایان بیشوف (Bryan Bischof) هکاتون «مهندسی زمینه» (Context Engineering) را برگزار کردند که کیفیت عامل را به‌طور عینی از طریق افشای ارزیابی تدریجی اندازه‌گیری می‌کند تا مهارت‌ها را فراتر از ارائه‌ی سطحی آزمایش کند. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1980755070183772621"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;داده‌های نظرسنجی نشان می‌دهد که استفاده از هوش مصنوعی مولد (GenAI) در میان کارگران آمریکایی از ۴۵.۶ درصد در ماه ژوئن به ۳۶.۷ درصد در ماه سپتامبر کاهش یافته است، که نشان‌دهنده‌ی کاهش احتمالی در پذیرش آن است. &lt;em&gt;&lt;a href="https://x.com/Jon_Hartley_/status/1980742482200822147"&gt;@Jon_Hartley_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-22.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-22.html</guid>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-21</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-21.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-21.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;علی‌بابا مدل‌های &lt;b&gt;Qwen3-VL-2B&lt;/b&gt; و &lt;b&gt;Qwen3-VL-32B&lt;/b&gt; را منتشر کرد؛ نسخه‌ی ۳۲ میلیارد پارامتری این مدل در زمینه‌های STEM، VQA، OCR، درک ویدئو و وظایف عاملی، از &lt;b&gt;GPT-5 mini&lt;/b&gt; و &lt;b&gt;Claude 4 Sonnet&lt;/b&gt; عملکرد بهتری دارد و با مدل‌هایی تا ۲۳۵ میلیارد پارامتر برابری می‌کند &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1980665932625383868"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -576,12 +576,12 @@
 &lt;li&gt;هوش مصنوعی برکلی (Berkeley AI) ربات Botany-Bot را در IROS 2025 ارائه می‌کند که مدل‌های سه‌بعدی تقسیم‌بندی‌شده از گیاهان را با استفاده از Gaussian splats ایجاد می‌کند و از بازوهای رباتیک برای آشکار کردن جزئیات پنهان آناتومی گیاه برای فنوتیپینگ استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/funmilore/status/1980491208536519140"&gt;@funmilore&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;تحلیل «خودبازی» (self-play) در هوش مصنوعی نشان می‌دهد که چرا این روش برای بازی‌های دو نفره با مجموع صفر مانند شطرنج و پوکر خوب عمل می‌کند، اما به دلیل اینکه استراتژی‌های تعادلی از مطلوبیت انسانی جدا هستند، در دامنه‌های دنیای واقعی با چالش‌هایی روبرو می‌شود &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/1980697004658556972"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-21.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-21.html</guid>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-20</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-20.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-20.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;آنتروپیک (Anthropic) &lt;b&gt;کلود برای علوم زیستی&lt;/b&gt; (Claude for Life Sciences) را با رابط‌های جدید برای ابزارهای علمی مانند Benchling، PubMed و Synapse.org، به‌علاوه‌ی قابلیت‌های عامل (Agent Skills) برای دنبال کردن پروتکل‌های علمی به شکلی پایدار و یکنواخت معرفی کرد &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1980308459368436093"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -623,12 +623,12 @@
 &lt;li&gt;Berkeley AI، ECHO را معرفی می‌کند؛ یک معیار جدید تولید تصویر «در محیط واقعی» (in-the-wild) که مدل‌های جدید تصویر و موارد استفاده‌ی مورد بحث در رسانه‌های اجتماعی را که معیارهای قدیمی پوشش نمی‌دهند، آزمایش می‌کند &lt;em&gt;&lt;a href="https://x.com/aomaru_21490/status/1980318689481437653"&gt;@aomaru_21490&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Anthrogen Bio، Odyssey را معرفی کرد؛ یک مدل زبان پروتئین با ۱۰۲ میلیارد پارامتر که مکانیزم سلف-اتنشن (self-attention) را با معماری جدیدی جایگزین می‌کند و با هدف انتشار (diffusion objective) الهام‌گرفته از تکامل آموزش می‌بیند &lt;em&gt;&lt;a href="https://x.com/gustaf/status/1980315207634473358"&gt;@gustaf&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-20.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-20.html</guid>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-19</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-19.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-19.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Google AI Studio یک کلید API و صفحه‌ی «پروژه‌ها»ی کاملاً جدید را با مدیریت پروژه‌ی بهبودیافته و امکانات کاربردی، مانند نام‌گذاری کلیدهای API، ارائه داده است. &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1979960883456491795"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -658,12 +658,12 @@
 &lt;li&gt;پژوهشگر استنفورد از عامل‌های پژوهشی هوش مصنوعی حمایت می‌کند که بر تقویت پژوهش‌های انسانی از طریق وظایف روزمره‌ی قابل اعتماد، مانند اثبات‌ها، استدلال‌ها و نوشتن کد، تمرکز دارند، نه اینکه تلاش کنند دانشجویان تحصیلات تکمیلی یا اساتید را جایگزین کنند. &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1979911895155900588"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;ناتان لمبرت به دنبال آخرین پیشرفت‌ها در زمینه‌ی &lt;b&gt;آموزش غیرمتمرکز هوش مصنوعی&lt;/b&gt; است و به عملیات Prime Intellect، تلاش‌های Nous Research و رویکردهای چندمرکز داده‌ای گوگل اشاره می‌کند. &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1979928511864299920"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-19.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-19.html</guid>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-18</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-18.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-18.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;گوگل قابلیت «Grounding» را با گوگل مپس در &lt;b&gt;API جِمینی&lt;/b&gt; معرفی می‌کند و داده‌های مربوط به ۲۵۰ میلیون مکان را با جِمینی ترکیب می‌کند تا تجربه‌های جدیدی خلق کند &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1979286216953733227"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -709,12 +709,12 @@
 &lt;li&gt;سایمون ویلیسون مدل &lt;b&gt;o4-mini-deep-research&lt;/b&gt; OpenAI را از طریق API «Responses» آن‌ها بررسی می‌کند، یافته‌های خود را مستندسازی کرده و ابزارهای ارزیابی می‌سازد &lt;em&gt;&lt;a href="https://x.com/simonw/status/1979629244579016761"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Interconnects AI در مورد آخرین مدل‌های متن‌باز گزارش می‌دهد و به حضور قوی Qwen اشاره می‌کند و در مورد روش‌های نظارت دقیق بر دانلودهای Hugging Face و تخریب مداوم مجموعه‌داده‌های باز بحث می‌کند &lt;em&gt;&lt;a href="https://x.com/interconnectsai/status/1979569891100295428"&gt;@interconnectsai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-18.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-18.html</guid>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-17</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-17.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-17.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;گوگل &lt;b&gt;Veo 3.1&lt;/b&gt; را با قابلیت‌های پیشرفته‌ی تولید ویدئو، از جمله صدای غنی‌تر، کنترل بهتر روایت، واقع‌گرایی افزایش‌یافته، و ویژگی‌های جدیدی مانند توسعه‌ی ویدئو، کنترل فریم و دستکاری اشیا منتشر می‌کند &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1979270059727196539"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -755,12 +755,12 @@
 &lt;li&gt;LongCat-Audio-Codec به عنوان یک راه‌حل کدک صوتی متن‌باز شده که برای LLMهای گفتاری بهینه‌سازی شده است و دارای توکن‌های دوگانه، کارایی فوق‌العاده با سرعت 0.43 کیلوبیت بر ثانیه و یک رمزگشای پخش زنده بلادرنگ است &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1979185632392913014"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;معیار جهانی MMLU Lite در Kaggle راه‌اندازی می‌شود که 16 زبان را در بر می‌گیرد و شامل نمونه‌های حساس به فرهنگ و بی‌طرف است تا به پژوهشگران در شناسایی سوگیری‌های فرهنگی و زبانی کمک کند &lt;em&gt;&lt;a href="https://x.com/kaggle/status/1979220705142001868"&gt;@kaggle&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-17.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-17.html</guid>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-16</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-16.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-16.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;علی‌بابا &lt;b&gt;Qwen3-4B-SafeRL&lt;/b&gt; را منتشر می‌کند؛ مدلی هم‌راستا با ایمنی که از طریق یادگیری تقویتی (reinforcement learning) تنظیم شده و بهبود ایمنی قابل‌توجهی را در WildJailbreak (از 64.7 به 98.1) بدون به خطر انداختن عملکرد در وظایف عمومی به دست می‌آورد. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1978732145297576081"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -802,12 +802,12 @@
 &lt;li&gt;مدل بازگشت کوچک (Tiny Recursion Model) یا TRM، به 40% در ARC-AGI-1 با هزینه‌ی 1.76 دلار به ازای هر وظیفه و 6.2% در ARC-AGI-2 با هزینه‌ی 2.10 دلار به ازای هر وظیفه دست می‌یابد و پژوهش متن‌باز را به جامعه‌ی علمی ارائه می‌دهد. &lt;em&gt;&lt;a href="https://x.com/arcprize/status/1978872651180577060"&gt;@arcprize&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;ورلد لبز (World Labs) مدل RTFM را منتشر می‌کند؛ یک مدل جهانی (World Model) مولد بلادرنگ، پایدار و سه‌بعدی ثابت که بر روی یک کارت گرافیک H100 اجرا می‌شود. &lt;em&gt;&lt;a href="https://x.com/drfeifei/status/1978840835341914164"&gt;@drfeifei&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-16.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-16.html</guid>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-15</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-15.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-15.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;آنتروپیک (Anthropic) مدل «&lt;b&gt;کلاد هایکو ۴.۵&lt;/b&gt;» (Claude Haiku 4.5) را منتشر کرد که عملکردی برابر با «&lt;b&gt;سونت ۴&lt;/b&gt;» (Sonnet 4) در کدنویسی دارد؛ اما با یک‌سوم هزینه و بیش از دو برابر سرعت &lt;em&gt;&lt;a href="https://x.com/claudeai/status/1978505436358697052"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -847,12 +847,12 @@
 &lt;li&gt;این مطالعه نشان می‌دهد که LLMهای گفت‌وگو (chat LLMs) به دلیل سوگیری‌های شناختی انسانی در داده‌های پس از آموزش، فاقد تنوع خروجی هستند؛ اما این مدل‌ها دانش بسیار بیشتری را در خود دارند که با تکنیک‌های «prompting» مناسب می‌توان آن را باز کرد &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/1978494290226716707"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;پای‌تورچ ۲.۹ (PyTorch 2.9) با ۳,۲۱۶ کامیت (commit) از ۴۵۲ مشارکت‌کننده منتشر شد که شامل معرفی «stable libtorch ABI» برای افزونه‌های C++/CUDA، حافظه‌ی متقارن برای کرنل‌های چند GPU و پشتیبانی گسترده‌ی «wheel» برای ROCm، XPU و CUDA 13 است &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1978537334263165086"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-15.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-15.html</guid>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-14</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-14.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-14.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;علی‌بابا نسخه‌های فشرده‌ی &lt;b&gt;Qwen3-VL&lt;/b&gt; را در اندازه‌های 4B و 8B با هر دو مدل Instruct و Thinking منتشر کرد که مصرف VRAM کمتری دارند، در حالی که قابلیت‌های کامل را حفظ می‌کنند و از مدل‌هایی مانند &lt;b&gt;Gemini 2.5 Flash Lite&lt;/b&gt; و &lt;b&gt;GPT-5 Nano&lt;/b&gt; بهتر عمل می‌کنند. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1978150959621734624"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -894,12 +894,12 @@
 &lt;li&gt;مایکروسافت ریسرچ پروتکل «رد تیمینگ» را برای آزمایش و ایمن‌سازی ابزارهای غربالگری امنیت زیستی DNA توسعه داد که به ایمنی هوش مصنوعی در کاربردهای بیولوژیکی می‌پردازد. &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1978113568571617613"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;پژوهشگران Stanford HAI پروژه‌هایی را ارائه می‌دهند که شامل مدل جهانی مغز انسان برای پزشکی شخصی‌سازی‌شده، تحلیل هوش مصنوعی از تصاویر دوربین‌های بدن پلیس برای شفافیت، و دوقلوهای سلولی دیجیتال برای شبیه‌سازی پاسخ داروها است. &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1978160741678264536"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-14.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-14.html</guid>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-10-13</title>
-      <link>https://dshayan.github.io/sumbird/fa/news/fa/2025-10-13.html</link>
+      <link>https://sumbird.ir/fa/news/2025-10-13.html</link>
       <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;Qwen3-VL-235B-A22B-Instruct&lt;/b&gt; شرکت علی‌بابا با ۴۸ درصد سهم بازار، به جایگاه اول در OpenRouter برای پردازش تصویر دست یافت &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1977566109198151692"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -940,7 +940,7 @@
 &lt;li&gt;پژوهش‌ها نشان می‌دهد که مصرف آب هوش مصنوعی برای تمامی مراکز داده در ایالات متحده، از ۵۰ میلیون گالن در روز صرفاً برای خنک‌سازی تا ۶۲۸ میلیون گالن (شامل تبخیر سدها) متغیر است که به‌طور قابل توجهی کمتر از مصرف آب زمین‌های گلف است &lt;em&gt;&lt;a href="https://x.com/emollick/status/1977819572209430702"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;استخراج‌کننده‌ی جدید PII ژاپنی LFM2 با تنها ۳۵۰ میلیون پارامتر، عملکردی هم‌تراز با &lt;b&gt;GPT-5&lt;/b&gt; از نظر کیفیت ارائه می‌دهد، در حالی که فوق‌العاده سریع است &lt;em&gt;&lt;a href="https://x.com/maximelabonne/status/1977730441701396716"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/fa/news/fa/2025-10-13.html</guid>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-13.html</guid>
       <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
