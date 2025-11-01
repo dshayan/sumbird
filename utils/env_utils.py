@@ -19,8 +19,7 @@ from utils.file_utils import set_file_paths
 REQUIRED_VARS = [
     'BASE_URL',
     'NITTER_BASE_URL',
-    'GITHUB_PAGES_URL',
-    'GITHUB_PAGES_FA_URL',
+    'SITE_BASE_URL',
     'OG_IMAGE_URL',
     'RSS_FEED_TITLE',
     'RSS_FEED_DESCRIPTION',

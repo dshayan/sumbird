@@ -174,18 +174,20 @@ class TemplateManager:
             
             # Load components with language-aware paths
             # Import config values locally to avoid circular imports
-            from config import GITHUB_PAGES_FA_URL, GITHUB_PAGES_URL, OG_IMAGE_URL
+            from config import SITE_BASE_URL, OG_IMAGE_URL
             
             if self.language == "fa":
-                header_html = self.load_header("../../")  # From fa/posts/ to root
-                footer_html = self.load_footer("../../", "../feed.xml")  # RSS in fa/ directory
-                # Generate canonical URL for Farsi post
-                canonical_url = f"{GITHUB_PAGES_FA_URL}/posts/{date_str}.html" if date_str else f"{GITHUB_PAGES_FA_URL}/"
+                # Posts are in docs/fa/news/{date_str}/, need ../../ to get to fa/ homepage
+                header_html = self.load_header("../../")  # From fa/news/{date_str}/ to fa/ homepage
+                footer_html = self.load_footer("../../", "../../feed.xml")  # RSS in fa/ directory
+                # Generate canonical URL for Farsi post using SITE_BASE_URL from .env (no .html extension)
+                canonical_url = f"{SITE_BASE_URL}/fa/news/{date_str}" if date_str else f"{SITE_BASE_URL}/fa/"
             else:
-                header_html = self.load_header("../")  # From posts/ to root
-                footer_html = self.load_footer("../", "../feed.xml")
-                # Generate canonical URL for English post
-                canonical_url = f"{GITHUB_PAGES_URL}/posts/{date_str}.html" if date_str else f"{GITHUB_PAGES_URL}/"
+                # Posts are in docs/en/news/{date_str}/, need ../../ to get to en/ homepage
+                header_html = self.load_header("../../")  # From en/news/{date_str}/ to en/ homepage
+                footer_html = self.load_footer("../../", "../../feed.xml")  # RSS in en/ directory
+                # Generate canonical URL for English post using SITE_BASE_URL from .env (no .html extension)
+                canonical_url = f"{SITE_BASE_URL}/en/news/{date_str}" if date_str else f"{SITE_BASE_URL}/en/"
             
             # Use default OG image if none provided
             if not og_image:
@@ -196,20 +198,20 @@ class TemplateManager:
             if not og_description:
                 og_description = "AI news and vibes from Twitter"
             
-            # Adjust language attributes and asset paths for Farsi
+            # Adjust language attributes and asset paths
+            # Both English and Persian posts are in en/news/{date_str}/ and fa/news/{date_str}/ subdirectories
+            # So they both need ../../../assets/ to get from date_str/ -> news/ -> en|fa/ -> docs/ -> assets/
+            html_content = template_content.replace('href="../assets/', 'href="../../../assets/')
+            html_content = html_content.replace('src="../assets/', 'src="../../../assets/')
+            
             if self.language == "fa":
                 # Update HTML lang attribute
-                html_content = template_content.replace('lang="en"', 'lang="fa"')
+                html_content = html_content.replace('lang="en"', 'lang="fa"')
                 # Add dir="rtl" if not present
                 if 'dir="rtl"' not in html_content:
                     html_content = html_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
                 # Update Open Graph locale
                 html_content = html_content.replace('content="en_US"', 'content="fa_IR"')
-                # Adjust asset paths for posts in subdirectory (fa/posts/ needs ../../assets/)
-                html_content = html_content.replace('href="../assets/', 'href="../../assets/')
-                html_content = html_content.replace('src="../assets/', 'src="../../assets/')
-            else:
-                html_content = template_content
             
             # Replace template placeholders
             html_content = html_content.replace("{{TITLE}}", title)
@@ -248,19 +250,16 @@ class TemplateManager:
                 log_error("TemplateManager", f"Could not load template: {template_name}")
                 return ""
             
-            # Determine if we're in a subdirectory (Farsi)
-            is_subdirectory = self.language == "fa"
-            
-            # Load components with appropriate paths
-            home_url = "../" if is_subdirectory else "/"
+            # Both English and Farsi are now in subdirectories (en/ and fa/)
+            # Load components with appropriate paths (both need ../ to get to assets/)
+            home_url = "../"  # From en/ or fa/ to root
             rss_url = "feed.xml"
             header_html = self.load_header(home_url)
             footer_html = self.load_footer(home_url, rss_url)
             
-            # Adjust asset paths for subdirectory
-            if is_subdirectory:
-                template_content = template_content.replace('href="assets/', 'href="../assets/')
-                template_content = template_content.replace('src="assets/', 'src="../assets/')
+            # Adjust asset paths for subdirectory (both languages are in subdirectories)
+            template_content = template_content.replace('href="assets/', 'href="../assets/')
+            template_content = template_content.replace('src="assets/', 'src="../assets/')
             
             # Adjust language attributes for Farsi
             if self.language == "fa":

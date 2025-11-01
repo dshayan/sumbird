@@ -17,9 +17,8 @@ BASE_URL = env_utils.get_env('BASE_URL')
 # Nitter service configuration
 NITTER_BASE_URL = env_utils.get_env('NITTER_BASE_URL')
 
-# GitHub Pages URLs
-GITHUB_PAGES_URL = env_utils.get_env('GITHUB_PAGES_URL')
-GITHUB_PAGES_FA_URL = env_utils.get_env('GITHUB_PAGES_FA_URL')
+# Site URLs
+SITE_BASE_URL = env_utils.get_env('SITE_BASE_URL')
 OG_IMAGE_URL = env_utils.get_env('OG_IMAGE_URL')
 
 # RSS Feed Configuration

@@ -4,7 +4,7 @@ Newsletter Generator for Sumbird - Converts summary HTML files to GitHub Pages n
 
 This module:
 1. Reads HTML summary files from data/summary/
-2. Converts them to newsletter posts in the sumbird-web repository
+2. Converts them to newsletter posts in the docs directory
 3. Updates the homepage with recent posts
 4. Generates RSS feed with latest 20 posts
 5. Commits and pushes changes to GitHub
@@ -20,7 +20,7 @@ from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
 from config import (
-    GITHUB_PAGES_URL, GITHUB_PAGES_FA_URL, SUMMARY_DIR, TRANSLATED_DIR,
+    SITE_BASE_URL, SUMMARY_DIR, TRANSLATED_DIR,
     RSS_FEED_TITLE, RSS_FEED_DESCRIPTION, RSS_FEED_LANGUAGE,
     RSS_FEED_TTL, RSS_FEED_GENERATOR
 )
@@ -60,13 +60,15 @@ class NewsletterGenerator:
             self.docs_path = base_docs_path / "fa"
             self.source_dir = source_dir or TRANSLATED_DIR
             self.component_suffix = "-fa"  # Use header-fa.html, footer-fa.html
+            self.posts_dir = base_docs_path / "fa" / "news"
         else:
-            self.docs_path = base_docs_path
+            self.docs_path = base_docs_path / "en"
             self.source_dir = source_dir or SUMMARY_DIR
             self.component_suffix = ""  # Use header.html, footer.html
+            self.posts_dir = base_docs_path / "en" / "news"
         
-        self.posts_dir = self.docs_path / "posts"
-        self.template_path = self.posts_dir / "template.html"
+        # Template is in posts directory
+        self.template_path = base_docs_path / "posts" / "template.html"
         self.homepage_path = self.docs_path / "index.html"
         self.feed_path = self.docs_path / "feed.xml"
         
@@ -76,6 +78,9 @@ class NewsletterGenerator:
             language=self.language,
             component_suffix=self.component_suffix
         )
+        
+        # Ensure posts directory exists
+        self.posts_dir.mkdir(parents=True, exist_ok=True)
         
         # Validate paths
         if not self.docs_path.exists():
@@ -200,8 +205,10 @@ class NewsletterGenerator:
                 log_error("NewsletterGenerator", f"Failed to generate HTML for {date_str}")
                 return False
             
-            # Write post file
-            post_file = self.posts_dir / f"{date_str}.html"
+            # Write post file in directory (for clean URLs without .html extension)
+            post_dir = self.posts_dir / date_str
+            post_dir.mkdir(parents=True, exist_ok=True)
+            post_file = post_dir / "index.html"
             with open(post_file, 'w', encoding='utf-8') as f:
                 f.write(post_html)
             
@@ -224,11 +231,14 @@ class NewsletterGenerator:
         posts_html = ""
         for date_str, content_data in posts:
             divider_html = '<div class="border-t"></div>' if posts_html else ''
+            # Use language-specific path for post links (from language homepage to news subdirectory, no .html extension)
+            post_link = f"news/{date_str}"
+            
             post_html = f'''
             {divider_html}
             <article>
                 <h1>
-                    <a href="posts/{date_str}.html">
+                    <a href="{post_link}">
                         {content_data.get('title', 'AI Updates')}
                     </a>
                 </h1>
@@ -352,9 +362,13 @@ class NewsletterGenerator:
             True if successful, False otherwise.
         """
         try:
-            # Determine base URL based on language
-            base_url = GITHUB_PAGES_FA_URL if self.is_farsi else GITHUB_PAGES_URL
-            feed_url = f"{base_url}/feed.xml"
+            # Feed and homepage URLs include language subdirectory
+            if self.is_farsi:
+                feed_url = f"{SITE_BASE_URL}/fa/feed.xml"
+                homepage_url = f"{SITE_BASE_URL}/fa/"
+            else:
+                feed_url = f"{SITE_BASE_URL}/en/feed.xml"
+                homepage_url = f"{SITE_BASE_URL}/en/"
             
             # Determine RSS metadata based on language
             if self.is_farsi:
@@ -370,7 +384,7 @@ class NewsletterGenerator:
             fg = FeedGenerator()
             fg.title(rss_title)
             fg.description(rss_description)
-            fg.link(href=base_url + '/', rel='alternate')
+            fg.link(href=homepage_url, rel='alternate')
             fg.link(href=feed_url, rel='self')
             fg.language(rss_language)
             fg.generator(RSS_FEED_GENERATOR)
@@ -400,8 +414,11 @@ class NewsletterGenerator:
                     cleaned_content = self._clean_html_for_rss(soup)
                     fe.description(cleaned_content)
                     
-                    # Add link and GUID
-                    post_url = f"{base_url}/posts/{date_str}.html"
+                    # Add link and GUID with language-specific path (no .html extension)
+                    if self.is_farsi:
+                        post_url = f"{SITE_BASE_URL}/fa/news/{date_str}"
+                    else:
+                        post_url = f"{SITE_BASE_URL}/en/news/{date_str}"
                     fe.link(href=post_url)
                     fe.guid(post_url)
                     
@@ -453,11 +470,9 @@ class NewsletterGenerator:
             True if successful, False otherwise.
         """
         try:
-            # Change to project root (parent of base docs directory)
-            if self.is_farsi:
-                project_root = self.docs_path.parent.parent
-            else:
-                project_root = self.docs_path.parent
+            # Change to project root (both en/ and fa/ are subdirectories of docs/)
+            # So we need to go up two levels: en/ or fa/ -> docs/ -> project root
+            project_root = self.docs_path.parent.parent
             os.chdir(project_root)
             
             # Check if there are changes to commit in docs/ (after content generation)
@@ -520,8 +535,9 @@ class NewsletterGenerator:
                     log_error("NewsletterGenerator", f"Failed to parse {file_path}")
                     continue
                 
-                # Check if post already exists
-                post_file = self.posts_dir / f"{date_str}.html"
+                # Check if post already exists (now in directory structure)
+                post_dir = self.posts_dir / date_str
+                post_file = post_dir / "index.html"
                 if post_file.exists() and not force_regenerate:
                     skipped_count += 1
                 else:
