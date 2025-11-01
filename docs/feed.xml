@@ -8,12 +8,12 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Nov 2025 00:44:03 +0330</lastBuildDate>
-    <pubDate>Sun, 02 Nov 2025 00:44:03 +0330</pubDate>
+    <lastBuildDate>Sun, 02 Nov 2025 01:00:05 +0330</lastBuildDate>
+    <pubDate>Sun, 02 Nov 2025 01:00:05 +0330</pubDate>
     <ttl>1440</ttl>
     <item>
       <title>AI Updates on 2025-11-01</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-11-01.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-11-01.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-VL&lt;/b&gt; models with support across multiple platforms including Ollama, LM Studio, and llama.cpp, with GGUF weights available for all variants from 2B to 235B parameters, supporting CPU, CUDA, Metal, and Vulkan backends &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1984634293004747252"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -53,12 +53,12 @@
 &lt;li&gt;Simon Willison highlights a novel approach to working with multiple coding agents simultaneously through coordinated agent communication and task management &lt;em&gt;&lt;a href="https://x.com/simonw/status/1984390532790153484"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Investigation into reported &lt;b&gt;Codex&lt;/b&gt; degradations provides detailed analysis of model performance changes &lt;em&gt;&lt;a href="https://x.com/gdb/status/1984707276461261226"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-11-01.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-11-01.html</guid>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-31</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-31.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-31.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Kimi introduces &lt;b&gt;CLI Technical Preview&lt;/b&gt; and &lt;b&gt;Kimi For Coding&lt;/b&gt; with shell-like UI, Zsh integration, MCP support, and Agent Client Protocol compatibility &lt;em&gt;&lt;a href="https://x.com/Kimi_Moonshot/status/1984207733177090274"&gt;@Kimi_Moonshot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -100,12 +100,12 @@
 &lt;li&gt;Yann LeCun argues that the term &lt;b&gt;"AGI"&lt;/b&gt; makes no sense because human intelligence isn't general but specialized, advocating instead for building &lt;b&gt;"World Models"&lt;/b&gt; that understand the physical world through abstract representations &lt;em&gt;&lt;a href="https://x.com/youtubejocoding/status/1984126277100703940"&gt;@youtubejocoding&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Marc Andreessen discusses the US-China AI race, predicting the next phase will be fought in &lt;b&gt;robotics&lt;/b&gt; rather than software, emphasizing the need for embodied intelligence beyond current disembodied AI systems &lt;em&gt;&lt;a href="https://x.com/a16z/status/1984330876273246279"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-31.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-31.html</guid>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-30</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-30.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-30.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;OpenAI introduces &lt;b&gt;Aardvark&lt;/b&gt;, an agentic security researcher that finds and fixes security bugs using &lt;b&gt;GPT-5&lt;/b&gt;, now in private beta &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1983956431360659467"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -156,12 +156,12 @@
 &lt;li&gt;LMCache joins the PyTorch Ecosystem, advancing scalable LLM inference through integration with vLLM by reusing and sharing KV caches across queries, achieving up to 15x faster throughput &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1983938803887755308"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Berkeley AI research demonstrates how LLMs can "self-refine" and learn from mistakes via in-context learning, exploring how to bring inference-time adaptation to robot learning &lt;em&gt;&lt;a href="https://x.com/ameeshsh/status/1983648418406060144"&gt;@ameeshsh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-30.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-30.html</guid>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-29</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-29.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-29.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;OpenAI releases &lt;b&gt;gpt-oss-safeguard&lt;/b&gt; models for safety classification, fine-tuned versions of their open models available under Apache 2.0 license on Hugging Face &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1983507394316710039"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -205,12 +205,12 @@
 &lt;li&gt;DeepSeek research suggests new methods for improving AI's ability to remember information &lt;em&gt;&lt;a href="https://x.com/techreview/status/1983478656342134934"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Quantum computing breakthrough achieves &lt;b&gt;120 qubit entanglement&lt;/b&gt;, the largest entangled state ever achieved on a quantum computer &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983505751596273790"&gt;@jaygambetta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-29.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-29.html</guid>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-28</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-28.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-28.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Adobe launches &lt;b&gt;Firefly Image 5&lt;/b&gt;, the latest iteration of its image generation model, along with new features for the Firefly website, support for more third-party models, and the ability to generate speech and sound &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1983142975510118528"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -256,12 +256,12 @@
 &lt;li&gt;PyTorch highlights Diffusers optimization with torch.compile for performance benefits including offloading, LoRA, and quantization in video, image, and audio generation &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1983164400090407213"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Meta's Monarch brings large-scale PyTorch training directly into Lightning Studio, providing the same fast, notebook-like experience now distributed across GPUs with zero setup &lt;em&gt;&lt;a href="https://x.com/LightningAI/status/1983159348537770433"&gt;@LightningAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-28.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-28.html</guid>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-27</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-27.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-27.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Anthropic expands &lt;b&gt;Claude&lt;/b&gt; for Financial Services with Excel add-in, real-time data connectors to LSE, Moody's, and other financial platforms, plus pre-built Agent Skills for cash flow models and coverage reports &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1982842909235040731"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -300,12 +300,12 @@
 &lt;li&gt;Glyph framework released by Zai.org scales context length by compressing text into images and processing with vision-language models, reducing computational costs &lt;em&gt;&lt;a href="https://x.com/AdinaYakup/status/1982816099793269046"&gt;@AdinaYakup&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;LongCat-Video foundational model from Meituan generates 720p, 30fps videos with unified text-to-video, image-to-video, and video-continuation framework &lt;em&gt;&lt;a href="https://x.com/AdinaYakup/status/1982742218952843385"&gt;@AdinaYakup&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-27.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-27.html</guid>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-26</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-26.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-26.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;DeepSeek-OCR&lt;/b&gt; demonstrates exceptional handwritten text recognition capabilities, accurately parsing extremely difficult handwritten letters including mathematical equations from 1913 &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1982286772605448450"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -336,12 +336,12 @@
 &lt;li&gt;Technical debugging investigation reveals PyTorch MPS backend issues with non-contiguous output tensors, raising questions about when &lt;b&gt;LLMs&lt;/b&gt; will be capable of such complex technical detective work &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1982483540899237981"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Frontier AI labs are reportedly understaffed despite immense amounts of low-hanging fruit, leading to intense work schedules and ruthless prioritization due to insufficient people and compute resources &lt;em&gt;&lt;a href="https://x.com/brianryhuang/status/1982498641689657365"&gt;@brianryhuang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-26.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-26.html</guid>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-25</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-25.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-25.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;OpenAI is reportedly training a new &lt;b&gt;music model&lt;/b&gt;, which would be their first since &lt;b&gt;Jukebox&lt;/b&gt; in 2020, marking a significant shift as they previously avoided legal conflicts with music labels &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1981852010480837070"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -380,12 +380,12 @@
 &lt;li&gt;One-year retrospective on KernelBench reveals lessons learned in the journey toward automated GPU/CUDA kernel generation, showing remarkable community progress &lt;em&gt;&lt;a href="https://x.com/simonguozirui/status/1981830383449911417"&gt;@simonguozirui&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Stanford NLP celebrates its 25th anniversary, highlighting its role in inspiring NLP groups worldwide that led to today's LLMs &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1982137945856368688"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-25.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-25.html</guid>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-24</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-24.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-24.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Anthropic announces massive expansion of Google Cloud TPU usage, securing approximately &lt;b&gt;one million TPUs&lt;/b&gt; and more than a gigawatt of capacity in 2026, worth tens of billions of dollars to dramatically increase compute resources for AI research and product development &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1981460118354219180"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -423,12 +423,12 @@
 &lt;li&gt;Isaacus launches &lt;b&gt;Kanon 2 Embedder&lt;/b&gt;, a legal embedding LLM claiming 9% higher performance than OpenAI Text Embedding 3 Large and 6% higher than Google Gemini Embedding, with 340% faster speed than Voyage 3 Large &lt;em&gt;&lt;a href="https://x.com/rohanpaul_ai/status/1981485254364766301"&gt;@rohanpaul_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Geoffrey Litt proposes "software surgeon" approach to AI coding where developers focus on core creative work while AI handles secondary tasks like documentation, bug fixes, and code exploration, emphasizing different autonomy levels for different types of work &lt;em&gt;&lt;a href="https://x.com/geoffreylitt/status/1981720163968749736"&gt;@geoffreylitt&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-24.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-24.html</guid>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-23</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-23.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-23.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;OpenAI acquired Software Applications Incorporated, the maker of &lt;b&gt;Sky&lt;/b&gt;, a natural language interface for Mac, to integrate their desktop AI experience into ChatGPT &lt;em&gt;&lt;a href="https://x.com/OpenAINewsroom/status/1981405466044616920"&gt;@OpenAINewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -470,12 +470,12 @@
 &lt;li&gt;NVIDIA's &lt;b&gt;llama-embed-nemotron-8b&lt;/b&gt; achieved new #1 position on MTEB Embedding Benchmark Leaderboard, beating Gemini and Qwen3 with 69.46 average across tasks &lt;em&gt;&lt;a href="https://x.com/TheAhmadOsman/status/1981208922783690764"&gt;@TheAhmadOsman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Ethan Mollick observed that AI video generation maintains visual consistency across multiple clips better than audio consistency, noting that video can generate from last frames while having world-model properties &lt;em&gt;&lt;a href="https://x.com/emollick/status/1981162893631770892"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-23.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-23.html</guid>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-22</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-22.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-22.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Google announces breakthrough quantum algorithm &lt;b&gt;Quantum Echoes&lt;/b&gt; running on &lt;b&gt;Willow&lt;/b&gt; chip, achieving first-ever verifiable quantum advantage with 13,000x speedup over classical supercomputers for molecular interactions &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1981013746698100811"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -530,12 +530,12 @@
 &lt;li&gt;Hamel Husain and Bryan Bischof organize Context Engineering hackathon measuring agent quality objectively through progressive evaluation disclosure to test skills beyond presentation &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1980755070183772621"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Survey data shows GenAI use among American workers fell to 36.7% in September from 45.6% in June, suggesting potential decline in adoption &lt;em&gt;&lt;a href="https://x.com/Jon_Hartley_/status/1980742482200822147"&gt;@Jon_Hartley_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-22.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-22.html</guid>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-21</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-21.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-21.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-VL-2B&lt;/b&gt; and &lt;b&gt;Qwen3-VL-32B&lt;/b&gt; models, with the 32B version outperforming &lt;b&gt;GPT-5 mini&lt;/b&gt; and &lt;b&gt;Claude 4 Sonnet&lt;/b&gt; across STEM, VQA, OCR, video understanding, and agent tasks while matching models up to 235B parameters &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1980665932625383868"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -576,12 +576,12 @@
 &lt;li&gt;Berkeley AI presents Botany-Bot at IROS 2025, which creates segmented 3D models of plants using Gaussian splats and uses robot arms to expose hidden plant anatomy details for phenotyping &lt;em&gt;&lt;a href="https://x.com/funmilore/status/1980491208536519140"&gt;@funmilore&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Analysis of self-play in AI reveals why it works well for two-player zero-sum games like chess and poker but faces challenges in real-world domains due to equilibrium strategies being untethered from human utility &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/1980697004658556972"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-21.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-21.html</guid>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-20</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-20.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-20.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Anthropic launches &lt;b&gt;Claude for Life Sciences&lt;/b&gt; with new connectors to scientific tools like Benchling, PubMed, and Synapse.org, plus Agent Skills for following scientific protocols consistently &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1980308459368436093"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -623,12 +623,12 @@
 &lt;li&gt;Berkeley AI introduces ECHO, a new in-the-wild image generation benchmark that tests new image models and use cases discussed on social media that old benchmarks don't cover &lt;em&gt;&lt;a href="https://x.com/aomaru_21490/status/1980318689481437653"&gt;@aomaru_21490&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Anthrogen Bio launches Odyssey, a 102B-parameter protein language model that replaces self-attention with a new architecture and trains with a diffusion objective inspired by evolution &lt;em&gt;&lt;a href="https://x.com/gustaf/status/1980315207634473358"&gt;@gustaf&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-20.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-20.html</guid>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-19</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-19.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-19.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Google AI Studio ships a brand new API key and Projects page with improved project management and quality of life features like naming API keys &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1979960883456491795"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -658,12 +658,12 @@
 &lt;li&gt;Stanford researcher advocates for AI research agents that focus on boosting human research through reliable everyday tasks like proofs, arguments, and code writing, rather than attempting to replace graduate students or faculty &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1979911895155900588"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Nathan Lambert seeks latest advancements in &lt;b&gt;decentralized AI training&lt;/b&gt;, mentioning Prime Intellect's run, Nous Research's efforts, and Google's multi-datacenter approaches &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1979928511864299920"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-19.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-19.html</guid>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-18</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-18.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-18.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Google introduces grounding with Google Maps in the &lt;b&gt;Gemini API&lt;/b&gt;, bringing data about 250 million places together with Gemini to create new experiences &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1979286216953733227"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -709,12 +709,12 @@
 &lt;li&gt;Simon Willison explores OpenAI's &lt;b&gt;o4-mini-deep-research&lt;/b&gt; model via their Responses API, documenting his findings and building evaluation tools &lt;em&gt;&lt;a href="https://x.com/simonw/status/1979629244579016761"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Interconnects AI reports on the latest open models, noting Qwen's strong presence and discussing methods for accurately monitoring Hugging Face downloads and the continued degradation of open datasets &lt;em&gt;&lt;a href="https://x.com/interconnectsai/status/1979569891100295428"&gt;@interconnectsai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-18.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-18.html</guid>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-17</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-17.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-17.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Google releases &lt;b&gt;Veo 3.1&lt;/b&gt; with enhanced video generation capabilities including richer audio, better narrative control, enhanced realism, and new features like video extension, frame control, and object manipulation &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1979270059727196539"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -755,12 +755,12 @@
 &lt;li&gt;LongCat-Audio-Codec open sourced as audio codec solution optimized for Speech LLMs, featuring dual tokens, ultra-efficiency at 0.43 kbps, and real-time streaming decoder &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1979185632392913014"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Global MMLU Lite benchmark launches on Kaggle spanning 16 languages with culturally sensitive and agnostic samples to help researchers identify cultural and linguistic biases &lt;em&gt;&lt;a href="https://x.com/kaggle/status/1979220705142001868"&gt;@kaggle&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-17.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-17.html</guid>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-16</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-16.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-16.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-4B-SafeRL&lt;/b&gt;, a safety-aligned model fine-tuned via reinforcement learning that achieves significant safety improvement on WildJailbreak (64.7 → 98.1) without compromising general task performance &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1978732145297576081"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -802,12 +802,12 @@
 &lt;li&gt;Tiny Recursion Model (TRM) achieves 40% on ARC-AGI-1 at $1.76/task and 6.2% on ARC-AGI-2 at $2.10/task, contributing open source research to the community &lt;em&gt;&lt;a href="https://x.com/arcprize/status/1978872651180577060"&gt;@arcprize&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;World Labs releases RTFM, a real-time, persistent, and 3D consistent generative World Model running on a single H100 GPU &lt;em&gt;&lt;a href="https://x.com/drfeifei/status/1978840835341914164"&gt;@drfeifei&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-16.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-16.html</guid>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-15</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-15.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-15.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Anthropic releases &lt;b&gt;Claude Haiku 4.5&lt;/b&gt;, matching &lt;b&gt;Sonnet 4&lt;/b&gt;'s coding performance at one-third the cost and more than twice the speed &lt;em&gt;&lt;a href="https://x.com/claudeai/status/1978505436358697052"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -847,12 +847,12 @@
 &lt;li&gt;Study reveals that chat LLMs lack output diversity due to human cognitive biases in post-training data, but the models contain much more knowledge that can be unlocked with proper prompting techniques &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/1978494290226716707"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;PyTorch 2.9 released with 3,216 commits from 452 contributors, introducing stable libtorch ABI for C++/CUDA extensions, symmetric memory for multi-GPU kernels, and expanded wheel support for ROCm, XPU, and CUDA 13 &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1978537334263165086"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-15.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-15.html</guid>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-14</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-14.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-14.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Alibaba releases compact versions of &lt;b&gt;Qwen3-VL&lt;/b&gt; in 4B and 8B sizes with both Instruct and Thinking variants, offering lower VRAM usage while retaining full capabilities and outperforming models like &lt;b&gt;Gemini 2.5 Flash Lite&lt;/b&gt; and &lt;b&gt;GPT-5 Nano&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1978150959621734624"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -894,12 +894,12 @@
 &lt;li&gt;Microsoft Research develops red-teaming protocol for testing and securing DNA biosecurity screening tools, addressing AI safety in biological applications &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1978113568571617613"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Stanford HAI researchers present projects including world model of human brain for personalized medicine, AI analysis of police body camera footage for transparency, and digital cell twins for drug response simulation &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1978160741678264536"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-14.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-14.html</guid>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI Updates on 2025-10-13</title>
-      <link>https://dshayan.github.io/sumbird/posts/2025-10-13.html</link>
+      <link>https://dshayan.github.io/sumbird/news/en/2025-10-13.html</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Alibaba's &lt;b&gt;Qwen3-VL-235B-A22B-Instruct&lt;/b&gt; achieves #1 position on OpenRouter for image processing with 48% market share &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1977566109198151692"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
@@ -940,7 +940,7 @@
 &lt;li&gt;Research suggests AI water usage for all US data centers ranges from 50M gallons daily for cooling alone to 628M gallons including dam evaporation, significantly less than golf course usage &lt;em&gt;&lt;a href="https://x.com/emollick/status/1977819572209430702"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;New LFM2 Japanese PII extractor with only 350M parameters achieves performance on par with &lt;b&gt;GPT-5&lt;/b&gt; in quality while being extremely fast &lt;em&gt;&lt;a href="https://x.com/maximelabonne/status/1977730441701396716"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://dshayan.github.io/sumbird/posts/2025-10-13.html</guid>
+      <guid isPermaLink="false">https://dshayan.github.io/sumbird/news/en/2025-10-13.html</guid>
       <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
