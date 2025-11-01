@@ -35,6 +35,52 @@ class TemplateManager:
         # Cache for loaded components
         self._component_cache = {}
     
+    def _get_posthog_script(self) -> str:
+        """Generate PostHog analytics script if API key is configured.
+        
+        Uses PostHog JavaScript library loaded via CDN for static sites.
+        Automatically captures pageviews and user interactions.
+        
+        Returns:
+            PostHog script tag HTML or empty string if not configured.
+        """
+        try:
+            import os
+            from dotenv import load_dotenv
+            
+            # Load environment to ensure .env is read (PostHog vars are optional, not in REQUIRED_VARS)
+            load_dotenv()
+            
+            # Get PostHog config from environment (optional vars)
+            posthog_api_key = (os.getenv('POSTHOG_API_KEY') or '').strip()
+            posthog_host = (os.getenv('POSTHOG_HOST') or 'https://app.posthog.com').strip()
+            
+            # Normalize API host format - convert app.posthog.com to us.i.posthog.com
+            if posthog_host == 'https://app.posthog.com':
+                posthog_host = 'https://us.i.posthog.com'
+            
+            if not posthog_api_key:
+                return ""
+            
+            # Official PostHog snippet from documentation (Option 1 - Recommended)
+            # This loads PostHog dynamically from CDN and automatically captures $pageview events
+            posthog_snippet = """!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);"""
+            
+            # Build script with proper initialization
+            # PostHog automatically captures $pageview and other events when initialized
+            script = f'''    <!-- PostHog JavaScript SDK -->
+    <script>
+        {posthog_snippet}
+        posthog.init('{posthog_api_key}',{{
+            api_host: '{posthog_host}'
+        }})
+    </script>'''
+            
+            return script
+        except Exception as e:
+            log_error("TemplateManager", f"Error generating PostHog script", e)
+            return ""
+    
     def load_component(self, component_name: str, **kwargs) -> str:
         """Load a shared component and replace placeholders.
         
@@ -223,6 +269,7 @@ class TemplateManager:
             html_content = html_content.replace("{{OG_IMAGE}}", og_image)
             html_content = html_content.replace("{{HEADER}}", header_html)
             html_content = html_content.replace("{{FOOTER}}", footer_html)
+            html_content = html_content.replace("{{POSTHOG_SCRIPT}}", self._get_posthog_script())
             
             return html_content
             
@@ -287,6 +334,7 @@ class TemplateManager:
             html_content = html_content.replace("{{PAGINATION}}", pagination_script)
             html_content = html_content.replace("{{HEADER}}", header_html)
             html_content = html_content.replace("{{FOOTER}}", footer_html)
+            html_content = html_content.replace("{{POSTHOG_SCRIPT}}", self._get_posthog_script())
             
             return html_content
             
