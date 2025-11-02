@@ -8,9 +8,56 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Nov 2025 06:00:34 +0330</lastBuildDate>
-    <pubDate>Sun, 02 Nov 2025 06:00:34 +0330</pubDate>
+    <lastBuildDate>Mon, 03 Nov 2025 00:25:25 +0330</lastBuildDate>
+    <pubDate>Mon, 03 Nov 2025 00:25:25 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-02</title>
+      <link>https://sumbird.ir/en/news/2025-11-02</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba announces &lt;b&gt;Qwen3-VL&lt;/b&gt; can now run locally with Unsloth AI, offering fine-tuning and reinforcement learning capabilities via free notebooks &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1984808680710422749"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Meta's AI spending is beginning to raise concerns among Wall Street investors about the company's financial commitments &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1985018333230432555"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI CEO Sam Altman revealed the company is generating well over &lt;b&gt;$13 billion in annual revenue&lt;/b&gt; and appeared defensive when questioned about how it will fund its massive spending commitments &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1985033179871293699"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;YouTube has become a &lt;b&gt;$60 billion ARR business&lt;/b&gt; growing 15% year-over-year, accounting for 15% of Google revenue, with over 2% of all human waking time spent on the platform &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1984824615412383953"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Individual releases of open AI models only matter in the short term as they become obsolete without continued releases, with the capability/cost improvement curve being steep &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984993332251263061"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;A key question remains whether Chinese labs and Mistral will continue releasing open weights models as economic costs and value continue to scale, since open source AI lacks the same value capture mechanisms as open source software platforms &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984995081783304680"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;The end goal of the open weights AI strategy remains unclear, as unlike open source software which captures value through services or hardware, value doesn't flow back the same way from open weights models &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984999084759847009"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;The tech job market is tightening, making degrees from top CS colleges and working at companies with top brands increasingly advantageous, with building up pedigree becoming more important than before &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1985077701976154260"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;As the tech job market tightens with more qualified candidates than open positions, hiring increasingly happens by pedigree from top schools or workplaces, though algorithmic interviews give those without pedigree a fair shot &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1985077100332929052"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Humanity's biggest challenges won't be solved by AI thinking for 1000 hours alone, but by many collaborating humans with AI that understands their different skills, goals, and values to empower collective action &lt;em&gt;&lt;a href="https://x.com/ericzelikman/status/1984720544185663847"&gt;@ericzelikman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Yann LeCun argues that scaling up transformer-based LLMs will not achieve human-level AI, stating there's no way to get a system that can invent solutions to new problems rather than just retrieve from gigantic memory &lt;em&gt;&lt;a href="https://x.com/rohanpaul_ai/status/1984747821099004316"&gt;@rohanpaul_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;LeCun recommends abandoning LLMs for human-level AI in favor of joint-embedding architectures, energy-based models over probabilistic ones, regularized methods over contrastive ones, and model-predictive control over reinforcement learning &lt;em&gt;&lt;a href="https://x.com/rohanpaul_ai/status/1984908204690522537"&gt;@rohanpaul_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Skilled people wield AI tools better than unskilled users, with great coders producing better, cleaner, more organized code faster, while those without developed skills cannot verify if AI output is award-winning or garbage &lt;em&gt;&lt;a href="https://x.com/Dan_Jeffries1/status/1984947185004232733"&gt;@Dan_Jeffries1&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Sheets and Excel no longer have a learning curve thanks to AI assistance, with &lt;b&gt;GPT-5 Pro&lt;/b&gt; being particularly effective at handling complex spreadsheet tasks &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1984761190849925201"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;The importance of learning to vibe code, AI engineer, and prompt is not because building products is trivial, but because making the thing should be commodified so time and creativity can be spent on figuring out the right problem, market fit, and commercialization &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1985010002537705541"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;With 12 minutes of thinking, &lt;b&gt;GPT-5 Pro&lt;/b&gt; suggested repurposing a known drug to treat an untreatable food allergy, matching results from an unpublished peer-reviewed study, demonstrating the potential of LLM-driven scientific discovery &lt;em&gt;&lt;a href="https://x.com/DeryaTR_/status/1984083644437192737"&gt;@DeryaTR_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Code agents make building websites and dynamic content highly enjoyable, enabling rapid development of tools and repositories for content creation &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1985079075354923179"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Odyssey-2 now streams 16:9 video on large screens, demonstrating an advantage of interactive video models where real-time generated video intelligently adapts to the screen, viewer, and input device unlike pre-recorded video &lt;em&gt;&lt;a href="https://x.com/olivercameron/status/1984777003967672800"&gt;@olivercameron&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Odyssey-2 generates video instantly with less than a second latency after clicking start streaming, all available for free &lt;em&gt;&lt;a href="https://x.com/odysseyml/status/1985044180918559096"&gt;@odysseyml&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A revealing test prompt asks models to write a paragraph demonstrating capabilities across multiple dimensions then explain their approach, with &lt;b&gt;Claude&lt;/b&gt; excelling at writing and &lt;b&gt;GPT-5 Pro&lt;/b&gt; nailing intellectual tricks &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984827923363230182"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Reinforcement learning enhances majority vote accuracy but not pass@k, boosting the probability of correct completions already in top-k without clearly enhancing overall model capabilities according to DeepSeekMath research &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/1984770320834695439"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5&lt;/b&gt; is clearly less sycophantic than &lt;b&gt;Claude&lt;/b&gt; at this point, a development worth acknowledging &lt;em&gt;&lt;a href="https://x.com/xlr8harder/status/1984882681885159595"&gt;@xlr8harder&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;The world's best language models are far better at intricate details of RL algorithms than at providing medical advice for pet illnesses, highlighting capability gaps &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1985035010861134153"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Claude 4.1 Opus&lt;/b&gt; outperforms &lt;b&gt;Claude 4.5 Sonnet&lt;/b&gt; according to user testing &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1985058989189767561"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT researchers developed BoltzGen, a generative AI model that designs proteins and peptides of any modality to bind to different biomolecular targets, unifying design and structure prediction, freely available for unrestricted academic and commercial use &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1985021651684073749"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT researchers developed a method enabling artists to design realistic simulations of elastic objects like bouncy or squishy characters for animated movies or video games &lt;em&gt;&lt;a href="https://x.com/MIT/status/1984751305789718583"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-02</guid>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-01</title>
       <link>https://sumbird.ir/en/news/2025-11-01</link>
@@ -896,52 +943,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-14</guid>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-10-13</title>
-      <link>https://sumbird.ir/en/news/2025-10-13</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Alibaba's &lt;b&gt;Qwen3-VL-235B-A22B-Instruct&lt;/b&gt; achieves #1 position on OpenRouter for image processing with 48% market share &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1977566109198151692"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft releases &lt;b&gt;MAI-Image-1&lt;/b&gt; model, ranking #9 on LMArena and striking a balance between generation speed and quality &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1977827977338716626"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google announces &lt;b&gt;Gemini 2.5 Native Audio Thinking&lt;/b&gt; as the new leading Speech to Speech model, achieving 92% on Big Bench Audio benchmark and setting new state-of-the-art for native speech reasoning &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/1977720537519636756"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google rolls out upgraded Video Overviews for NotebookLM with new visuals powered by &lt;b&gt;Nano Banana&lt;/b&gt; image generation model and introduces "Brief" format for quick summaries &lt;em&gt;&lt;a href="https://x.com/NotebookLM/status/1977790565983945199"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI announces collaboration with Broadcom for 10 gigawatts of custom accelerators designed by OpenAI, with Broadcom developing them after 18 months of joint work &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1977733362048516306"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;JPMorgan announces $10 billion direct equity and venture capital investments into US companies deemed critical to national security, citing concerns about reliance on unreliable sources of critical minerals and manufacturing &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1977771421926596959"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google announces $9+ billion investment in South Carolina through 2027 as part of continued investment in American AI innovation &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1977786133388874127"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Grok's new Imagine version 0.9 represents a significant upgrade, with xAI's rapid development pace indicating the AI video app war is arriving sooner than expected &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1977479953970315590"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sora-level models will likely compete through exclusives and less censorship, with companies like Disney potentially granting cameo rights for character appearances in user-generated videos &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1977479955920597363"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developers who have built production software and have no AI lab affiliations are increasingly reporting that AI tools greatly help their own work, representing a significant shift in expert opinion &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1977805252767453619"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Deloitte was held accountable in Australia for submitting work riddled with false AI citations, highlighting the need for accountability in AI-generated content &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1977475217900310672"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;California's SB 243 is designed to protect children and vulnerable users from harms associated with AI companion chatbots &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1977749430670332233"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;A censorship arms race is expected among AI video models, with unrestricted Sora-level models representing a significant milestone toward media singularity &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1977479959959777378"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Theory of Mind for AI appears to be a skill independent of professional expertise, creating understanding gaps between experts who benefit from AI and those who don't &lt;em&gt;&lt;a href="https://x.com/emollick/status/1977581271019856099"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Microsoft showcases M365 Copilot partner integrations including ServiceNow for autonomous cross-functional processes, Snowflake for natural language data queries, and LexisNexis for legal document drafting &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1977478830974783574"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft launches Copilot Study and Learn Mode that adapts to learning preferences, provides guided assistance without giving away answers, and generates quizzes from uploaded content &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1977781413811270090"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Salesforce announces upgraded Agentforce platform designed to help enterprises build and deploy AI agents &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1977706650338201841"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT PhD student develops computer vision algorithms including "CODA" to help monitor vulnerable ecosystems and support wildlife conservation efforts &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1977766770573262921"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anduril Industries unveils "EagleEye" helmeted computing system designed to turn soldiers into AI-augmented warfighters &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1977705392177033592"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford scholars are generating synthetic MRIs that could simulate neurological futures based on current habits, making brain aging predictions increasingly plausible &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1977782846082142701"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrej Karpathy releases nanochat, a minimal 8,000-line codebase for training ChatGPT clones from scratch, demonstrating that a functional LLM can be trained for as little as $100 in 4 hours on cloud GPUs &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1977755427569111362"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Columbia CS Professor Vishal Misra argues that LLMs cannot discover new science because they compress the world into Bayesian manifolds and hallucinate when reasoning outside training data, with true AGI requiring the ability to create entirely new manifolds &lt;em&gt;&lt;a href="https://x.com/a16z/status/1977736371101200599"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic's Jack Clark maintains that current AI systems will continue to improve using existing architecture with no diminishing returns, bringing transformative change closer &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1977799551345135736"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research suggests AI water usage for all US data centers ranges from 50M gallons daily for cooling alone to 628M gallons including dam evaporation, significantly less than golf course usage &lt;em&gt;&lt;a href="https://x.com/emollick/status/1977819572209430702"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New LFM2 Japanese PII extractor with only 350M parameters achieves performance on par with &lt;b&gt;GPT-5&lt;/b&gt; in quality while being extremely fast &lt;em&gt;&lt;a href="https://x.com/maximelabonne/status/1977730441701396716"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-13</guid>
-      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
