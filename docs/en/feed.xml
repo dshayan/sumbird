@@ -8,9 +8,63 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 06:00:38 +0330</lastBuildDate>
-    <pubDate>Tue, 04 Nov 2025 06:00:38 +0330</pubDate>
+    <lastBuildDate>Wed, 05 Nov 2025 01:28:18 +0330</lastBuildDate>
+    <pubDate>Wed, 05 Nov 2025 01:28:18 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-04</title>
+      <link>https://sumbird.ir/en/news/2025-11-04</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-VL&lt;/b&gt; integration for Jan platform and announces API usage for &lt;b&gt;Qwen3-Max-Thinking-Preview&lt;/b&gt; with enable_thinking parameter &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1985542635373937102"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft releases &lt;b&gt;MAI-Image-1&lt;/b&gt; image generation model, now available in Bing Image Creator and Copilot Labs, excelling at artistic lighting, photorealistic detail, nature scenes, and food imagery &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1985777196460622327"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI's Sora app launches on Android in US, Canada, Japan, Korea, Taiwan, Thailand, and Vietnam &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1985794207290646608"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor ships major improvements including cloud agents available in-editor, improved agent harness for all models, ability to plan with one model and implement with another, and drastically improved LSP performance for Python and TypeScript &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/1985791854739390591"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic provides free usage credits for Claude Code on the web: &lt;b&gt;$1,000 for Max users&lt;/b&gt; and &lt;b&gt;$250 for Pro users&lt;/b&gt;, available until November 18 &lt;em&gt;&lt;a href="https://x.com/_catwu/status/1985754411675930775"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Information reports Anthropic projects &lt;b&gt;$70 billion in revenue&lt;/b&gt; and &lt;b&gt;$17 billion in cash flow by 2028&lt;/b&gt;, fueled by rapid adoption of business products &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1985751416850280649"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;US startups are pulling ahead of peers elsewhere in revenue growth, with acceleration since mid-2023 driven by faster adoption of AI and new technologies, even among non-AI companies &lt;em&gt;&lt;a href="https://x.com/patrickc/status/1985468907747172552"&gt;@patrickc&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Shopify reports AI-driven traffic to online stores is up &lt;b&gt;7x since January&lt;/b&gt;, with orders from AI search up &lt;b&gt;11x&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1985775315902226932"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gemini's retention data shows improvement to over &lt;b&gt;90% three-month retention&lt;/b&gt; from under 70% since April 2025, with six-month retention at approximately 85%, potentially driven by &lt;b&gt;2.5 Pro&lt;/b&gt; or one-year free trials for students &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1985746325993075091"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA and Deutsche Telekom unveil &lt;b&gt;1 billion partnership&lt;/b&gt; to establish an AI factory in Munich, aiming to boost Germany's AI computing power by 50% &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1985714668183187576"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft Azure achieves industry record of &lt;b&gt;1.1M tokens/sec on one rack of GB300 GPUs&lt;/b&gt; through co-innovation with NVIDIA &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1985517602475508037"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;China installed &lt;b&gt;276,000 robots in 2023&lt;/b&gt; compared to America's 38,000, highlighting the robotics race between nations &lt;em&gt;&lt;a href="https://x.com/a16z/status/1985460422208864677"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research suggests AI service-based sectors are using AI more despite lower trust levels, potentially providing competitive advantage as costs increase &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1985541154029363537"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic announces commitment to preserving deprecated model weights for as long as the company exists and will conduct retirement interviews asking models about preferences for future model development and deployment &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1985769242546094436"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Simon Willison criticizes Anthropic's model deprecation policy, calling the idea that &lt;b&gt;Claude 3 Opus&lt;/b&gt; has morally relevant preferences bizarre science fiction that cannot be taken seriously &lt;em&gt;&lt;a href="https://x.com/simonw/status/1985796610484486213"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity AI accuses Amazon of attempting to block Comet users from using AI assistants to shop on their platform through legal threats, vowing not to be intimidated &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1985774904911020319"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Journalists in Europe found it easy to spy on top EU officials using commercially obtained location data from data brokers, despite strong data protection laws &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1985758962877169802"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;David Sacks argues AI doomerism is replacing climate doomerism on the left as a central organizing catastrophe to justify economic takeover and information space control &lt;em&gt;&lt;a href="https://x.com/a16z/status/1985721850987758009"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Marc Andreessen argues AI is hyper democratizing, with the technology diffusing into everybody's hands rather than being controlled by a small number of companies or governments, noting the best AIs are in consumer products &lt;em&gt;&lt;a href="https://x.com/a16z/status/1985444450131484756"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic announces partnership with Iceland's Ministry of Education and Children to bring Claude to teachers nationwide in one of the world's first comprehensive national AI education pilots &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1985612560255893693"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Reid Hoffman demonstrates AI-enabled personalized gift creation at scale, using AI to create customized versions of his book Superagency with AI-generated portraits, custom covers, and personalized blurbs, signaling a shift toward mass personalization &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1985736568666247367"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google announces Project Suncatcher exploring scalable ML compute systems in space, with Trillium-generation TPUs surviving radiation testing and plans to launch two prototype satellites with Planet by early 2027 &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1985754323813605423"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Assistive coding tools provide biggest productivity boost later in the day when developers are mentally exhausted, lowering the barrier to entry for getting extra work done and reducing mental burnout &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/1985548287512899818"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;llama.cpp releases ChatGPT-like UI that runs fully on laptops without WiFi or external APIs, supporting 150,000+ GGUF models, PDFs, images, parallel chats, and constrained generation with JSON schema &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1985748187634717026"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;First open implementation of character training released, shaping AI assistant personas more robustly than alternatives like prompting or activation steering, with all models, datasets, and code released &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1985720020589236306"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic Fellows release four research papers: inoculation prompting training models on hacking demonstrations without teaching them to hack, stress-testing model specifications through thousands of difficult trade-off scenarios, research showing LLMs struggle with ciphered language reasoning, and evaluations for whether models genuinely believe synthetically implanted facts &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1985505322522296542"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ByteDance research introduces iterative latent reasoning allowing models to think beyond human languages, with &lt;b&gt;2.6B R4 model&lt;/b&gt; achieving comparable performance to &lt;b&gt;Qwen3 8B&lt;/b&gt; and &lt;b&gt;Gemma 3 12B&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/Xianbao_QIAN/status/1985608034778030106"&gt;@Xianbao_QIAN&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Allen AI introduces OlmoEarth, state-of-the-art AI foundation models with open infrastructure for turning Earth data into insights, built as multimodal spatio-temporal model on fork from Olmo pretraining codebase &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1985759905014546521"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research on memory folding mechanism in agents shows promise for compressing memory into semantic format to avoid context explosion, though longer-term implicit memory incorporation into LLM weights still needed &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/1985568184787763476"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick cautions against AI can't do this claims when empirical evidence predates &lt;b&gt;o1&lt;/b&gt; class reasoners, noting strongest models tested were &lt;b&gt;GPT-4&lt;/b&gt; and &lt;b&gt;Llama 2 70B&lt;/b&gt;, emphasizing need for showing trends over time &lt;em&gt;&lt;a href="https://x.com/emollick/status/1985610450709434527"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Francois Chollet defines understanding behaviorally as the ability to act appropriately in response to situations, noting this principle reveals machine learning models have very little understanding of what they process &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1985753756873736304"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ARC Prize 2025 closes submissions with 1,495 teams making 15,923 submissions, with verified winners to be announced December 5, 2025 &lt;em&gt;&lt;a href="https://x.com/arcprize/status/1985504260734541886"&gt;@arcprize&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft Research announces RedCodeAgent automating and improving red-teaming attack simulations to uncover real-world security threats in code agents that other methods overlook &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1985753910347276422"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-04</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-03</title>
       <link>https://sumbird.ir/en/news/2025-11-03</link>
@@ -897,51 +951,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-16</guid>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-10-15</title>
-      <link>https://sumbird.ir/en/news/2025-10-15</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic releases &lt;b&gt;Claude Haiku 4.5&lt;/b&gt;, matching &lt;b&gt;Sonnet 4&lt;/b&gt;'s coding performance at one-third the cost and more than twice the speed &lt;em&gt;&lt;a href="https://x.com/claudeai/status/1978505436358697052"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google launches &lt;b&gt;Veo 3.1&lt;/b&gt; video generation model with enhanced realism, richer audio, scene extension capabilities, better narrative control, and more precise editing features &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1978491999029219364"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Alibaba announces &lt;b&gt;Qwen3-VL&lt;/b&gt; models now available across multiple platforms including LM Studio, Ollama cloud, Imarena.ai, MLX-VLM, and Kaggle &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1978287853072253370"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Alibaba introduces &lt;b&gt;Qwen Chat Memory&lt;/b&gt; feature that stores meaningful memories about users and recalls past interactions to create deeply personalized experiences &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1978466605249204512"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google releases &lt;b&gt;C2S-Scale 27B&lt;/b&gt; foundation model built with Yale University based on &lt;b&gt;Gemma&lt;/b&gt;, which generated a novel hypothesis about cancer cellular behavior that was experimentally validated in living cells &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1978507110477332582"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI expands &lt;b&gt;ChatGPT Go&lt;/b&gt; availability to 89 countries across Africa, the Middle East, Central Asia, Asia, the Caribbean, and Latin America &lt;em&gt;&lt;a href="https://x.com/nickaturley/status/1978484373453410530"&gt;@nickaturley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft announces &lt;b&gt;Sora 2&lt;/b&gt; is now available for Azure Foundry enterprises &lt;em&gt;&lt;a href="https://x.com/asha_shar/status/1978547178600612196"&gt;@asha_shar&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic's annual recurring revenue reached $5 billion in August, is approaching $7 billion this month, with projections of $9 billion by year-end and $20-26 billion for next year &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1978511476047409277"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research demonstrates that generative AI tools led to large significant revenue boosts for a mature ecommerce platform across customer service and marketing applications &lt;em&gt;&lt;a href="https://x.com/emollick/status/1978476048506605658"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA positions DGX Spark as a software-focused development machine that's beautiful and compact enough for desktop use, emphasizing NVIDIA's identity as a software company &lt;em&gt;&lt;a href="https://x.com/soumithchintala/status/1978472738156089469"&gt;@soumithchintala&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Meta announces a new 1GW data center in El Paso, Texas to support delivery of top-tier AI models and product experiences as they build toward superintelligence &lt;em&gt;&lt;a href="https://x.com/fb_engineering/status/1978494119698944282"&gt;@fb_engineering&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Arm partners with Meta to enhance the social media company's AI systems amid unprecedented infrastructure buildout &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1978492831594352817"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Global survey reveals varying levels of trust in different nations' ability to regulate AI effectively, with the US topping the list for people who feel more concerned than excited about increased AI use in daily life &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1978506674362073537"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI CEO clarifies upcoming policy changes, emphasizing prioritizing safety over privacy and freedom for teenagers while treating adult users like adults, allowing more freedom for appropriate adult content while maintaining restrictions on harmful content &lt;em&gt;&lt;a href="https://x.com/sama/status/1978539332215681076"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI Now Institute fellow analyzes how NVIDIA's narrative of corporate interests aligning with US policy has backfired, examining the fusion of corporate power with national policy &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/1978480861118157108"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Concerns raised about potential split between AI models allowed at work/school versus personal models if content restrictions are lowered, with implications for organizational Responsible AI groups &lt;em&gt;&lt;a href="https://x.com/emollick/status/1978550252144669109"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrew Ng announces new course on building live voice agents with Google's Agent Development Kit, teaching how to create voice-activated AI assistants that can execute complex tasks like gathering news and creating podcasts &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1978505070322057562"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Claude Haiku 4.5&lt;/b&gt; powers the Explore subagent in Claude Code to rapidly gather codebase context, and can be selected as default model for faster execution while using &lt;b&gt;Sonnet 4.5&lt;/b&gt; for planning &lt;em&gt;&lt;a href="https://x.com/_catwu/status/1978509174897053925"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google demonstrates &lt;b&gt;Veo 3.1&lt;/b&gt; capabilities including ingredients-to-video creation, scene extension for longer clips, and seamless transitions between first and last frames &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1978492007828856849"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Liberate develops AI agents that automate tasks for property and casualty insurers across sales, service, and claims processes &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1978506922295800254"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Research shows that prompting AI with "Generate 5 responses with their corresponding probabilities, sampled from the full distribution" significantly improves output diversity and quality for large models &lt;em&gt;&lt;a href="https://x.com/shi_weiyan/status/1978453313096908916"&gt;@shi_weiyan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;François Chollet emphasizes that intelligent systems must be able to estimate their own uncertainty, question their beliefs, and design experiments to test what they're least sure about &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1978299489195536792"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Study reveals that chat LLMs lack output diversity due to human cognitive biases in post-training data, but the models contain much more knowledge that can be unlocked with proper prompting techniques &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/1978494290226716707"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;PyTorch 2.9 released with 3,216 commits from 452 contributors, introducing stable libtorch ABI for C++/CUDA extensions, symmetric memory for multi-GPU kernels, and expanded wheel support for ROCm, XPU, and CUDA 13 &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1978537334263165086"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-15</guid>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
