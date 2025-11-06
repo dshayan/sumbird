@@ -8,9 +8,67 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Thu, 06 Nov 2025 06:01:12 +0330</lastBuildDate>
-    <pubDate>Thu, 06 Nov 2025 06:01:12 +0330</pubDate>
+    <lastBuildDate>Fri, 07 Nov 2025 02:47:58 +0330</lastBuildDate>
+    <pubDate>Fri, 07 Nov 2025 02:47:58 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-11-06</title>
+      <link>https://sumbird.ir/fa/news/2025-11-06</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;Qwen3-max-preview&lt;/b&gt; را منتشر می‌کند که در Arena Expert رتبه‌ی ۴ جهانی را دارد، در حالی که &lt;b&gt;Qwen3-235B-A22B-Thinking-2507&lt;/b&gt; در بین تمام مدل‌های متن‌باز در پرامپت‌های سطح متخصص در ۸ حوزه‌ی حیاتی رتبه‌ی ۱ را کسب کرده است &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1986340017715941396"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مون‌شات (Moonshot) هوش مصنوعی &lt;b&gt;Kimi K2 Thinking&lt;/b&gt; را عرضه می‌کند؛ یک مدل عامل تفکر متن‌باز که در HLE (با ۴۴.۹٪) و BrowseComp (با ۶۰.۲٪) به وضعیت هنری (SOTA) دست یافته و قادر به اجرای ۲۰۰ تا ۳۰۰ فراخوانی ابزار متوالی بدون دخالت انسان است و پنجره‌ی زمینه‌ی ۲۵۶ هزار توکنی دارد &lt;em&gt;&lt;a href="https://x.com/Kimi_Moonshot/status/1986449512538513505"&gt;@Kimi_Moonshot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل از در دسترس قرار گرفتن عمومی &lt;b&gt;TPU Ironwood&lt;/b&gt; (نسل هفتم) خبر می‌دهد که ۱۰ برابر بهبود عملکرد اوج در مقایسه با TPU v5p و بیش از ۴ برابر عملکرد بهتر در هر تراشه برای هر دو بار کاری آموزش و استنتاج در مقایسه با TPU v6e (Trillium) دارد &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1986463934543765973"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل &lt;b&gt;File Search Tool&lt;/b&gt; را در API جیمینای معرفی می‌کند؛ یک راهکار RAG میزبانی شده با فضای ذخیره‌سازی رایگان و امبدینگ‌های رایگان در زمان کوئری برای ساده‌سازی سیستم‌های هوش مصنوعی آگاه از متن &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1986503927857033453"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Gemini Deep Research&lt;/b&gt; گوگل اکنون برای همه‌ی کاربران دسکتاپ مستقیماً به جیمیل، درایو، داکس و چت متصل می‌شود و امکان تحلیل بازار و گزارش‌های رقبا را با ترکیب ترندهای زنده‌ی وب با اسناد داخلی فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1986472318873555058"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اوپن‌ای‌آی (OpenAI) قابلیت قطع کردن کوئری‌های طولانی و افزودن زمینه‌ی جدید بدون راه‌اندازی مجدد یا از دست دادن پیشرفت را معرفی می‌کند؛ قابلیتی که به ویژه برای اصلاح کوئری‌های Deep Research یا &lt;b&gt;o1 Pro&lt;/b&gt; مفید است &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1986194298971590988"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پرپلکسیتی (Perplexity) از ارتقاء‌های عمده برای &lt;b&gt;Comet Assistant&lt;/b&gt; خبر می‌دهد که با ۲۳٪ بهبود عملکرد، قادر به مدیریت گردش‌کارهای پیچیده‌تر چند سایتی است، در حالی که به صورت موازی در چندین تب کار می‌کند &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1986499432410718598"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اینسپشن لبز (Inception Labs) برای مدل &lt;b&gt;Mercury&lt;/b&gt;، ۵۰ میلیون دلار در دور سرمایه‌گذاری اولیه (seed round) جمع‌آوری می‌کند و به کدنویسی هوش مصنوعی ۱۰ برابر سریع‌تر و ۱۰ برابر ارزان‌تر با عملکردی مطابق با Gemini Flash/Haiku دست می‌یابد و بازی‌هایی مانند Connect 4 را تقریباً در ۲ ثانیه با استفاده از مدل‌های انتشار جدید برای کد پیاده‌سازی می‌کند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1986481452830368043"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مایکروسافت ریسرچ (Microsoft Research) &lt;b&gt;Agentic Mode&lt;/b&gt; را در Data Formulator در Azure AI Foundry Labs منتشر می‌کند و به کاربران امکان می‌دهد تا نمودارها را به‌روزرسانی کنند، توصیه‌هایی دریافت کنند و گزارش‌هایی مبتنی بر کاوش داده‌ها ایجاد کنند &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1986523987065651339"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل دیپ‌مایند (Google DeepMind) &lt;b&gt;Lyria RealTime API&lt;/b&gt; را در Google AI Studio راه‌اندازی می‌کند تا توسعه‌دهندگان بتوانند اپلیکیشن‌هایی برای خلق و اجرای موسیقی بی‌کلام تعاملی بسازند که از طریق اپلیکیشن وب Space DJ به نمایش گذاشته شده است &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1986458475585531940"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;اندرو اِن‌جی هشدار می‌دهد که ارائه‌دهندگان SaaS در حال ایجاد سیلوهای داده و دریافت هزینه‌های بالا (بیش از ۲۰,۰۰۰ دلار برای کلیدهای API) هستند تا از دسترسی مشتریان به داده‌های خود برای گردش‌کارهای عامل هوش مصنوعی جلوگیری کنند، و به کسب‌وکارها توصیه می‌کند که برای به حداکثر رساندن قابلیت‌های هوش مصنوعی، کنترل داده‌های خود را در دست بگیرند &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1986500817613169025"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پرپلکسیتی از همکاری با اسنپ‌چت خبر می‌دهد که طبق آن پرپلکسیتی از ژانویه ۲۰۲۶ هوش مصنوعی پیش‌فرض برای همه‌ی کاربران اسنپ‌چت خواهد بود و اسنپ ۴۰۰ میلیون دلار برای این یکپارچه‌سازی پرداخت خواهد کرد &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1986203714471010738"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اپل ۱ میلیارد دلار به گوگل پرداخت می‌کند تا از یک &lt;b&gt;Gemini&lt;/b&gt; با برند سفید (whitelabeled) برای تقویت سیری (Siri) استفاده کند که این اقدام ارزش دیده‌شدن پلتفرم و توزیع را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1986407399347888433"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فیگما (Figma) با ۳۸٪ رشد درآمد سال به سال، از نرخ درآمد سالانه ۱ میلیارد دلاری عبور می‌کند و سرمایه‌گذاری‌های هوش مصنوعی مانند Figma Make و MCP نتایج مثبتی به بار آورده‌اند &lt;em&gt;&lt;a href="https://x.com/zoink/status/1986178515981771233"&gt;@zoink&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI Studio به ۲.۱ میلیون کاربر «وایب کدینگ» (vibe coding) می‌رسد که هر روز صدها هزار اپلیکیشن ساخته می‌شود &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1986467546355183985"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;جیمی دایمن در مجمع کسب‌وکار آمریکا (America Business Forum) از مردم می‌خواهد هوش مصنوعی را بپذیرند و پیش‌بینی می‌کند که هفته‌ی کاری ۳.۵ روزه خواهد شد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1986503838019600690"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آمار بقای استارت‌آپ‌ها نشان می‌دهد که ۴۰٪ پس از دور سرمایه‌گذاری اولیه (seed round)، ۵۰٪ از باقی‌مانده پس از سری A، ۶۰٪ پس از سری B و ۵۸٪ پس از سری C از بین می‌روند؛ با تقریباً ۲.۵٪ خریداری شده و ۰.۵ تا ۱٪ بر اساس داده‌های سال‌های ۲۰۱۶-۲۰۱۸ در یک بازه‌ی ۱۰ ساله، به IPO می‌رسند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1986268351921029430"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سومیث چینتالا (Soumith Chintala) پس از ۱۱ سال، خروج خود را از متا (Meta) و پای‌تورچ (PyTorch) اعلام می‌کند و از رهبری پای‌تورچ کناره‌گیری می‌کند که بیش از ۹۰٪ پذیرش در هوش مصنوعی را کسب کرده و مدل‌های بنیادین را در تقریباً تمام شرکت‌های بزرگ هوش مصنوعی پشتیبانی می‌کند &lt;em&gt;&lt;a href="https://x.com/soumithchintala/status/1986503070734557568"&gt;@soumithchintala&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سم آلتمن شفاف‌سازی می‌کند که اوپن‌ای‌آی به دنبال تضمین‌های دولتی برای مراکز داده نیست و انتظار دارد سال را با درآمد سالانه‌ی بیش از ۲۰ میلیارد دلار به پایان برساند و تا سال ۲۰۳۰ به صدها میلیارد دلار رشد کند، با ۱.۴ تریلیون دلار تعهدات زیرساختی در ۸ سال آینده &lt;em&gt;&lt;a href="https://x.com/sama/status/1986514377470845007"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;اوپن‌ای‌آی اعلام می‌کند که خطرات سیستم‌های فوق هوشمند را بالقوه فاجعه‌بار می‌داند و معتقد است که مطالعه‌ی تجربی ایمنی و هم‌راستاسازی (alignment) می‌تواند به تصمیم‌گیری‌های جهانی کمک کند، از جمله اینکه آیا این حوزه باید توسعه را برای مطالعه‌ی سیستم‌های قادر به خودبهبودی بازگشتی (recursive self-improvement) کُند کند یا خیر &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1986508130432483700"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مایکروسافت هوش مصنوعی از تشکیل تیم فوق هوش (Superintelligence Team) با تمرکز بر &lt;b&gt;Humanist Superintelligence (HSI)&lt;/b&gt; خبر می‌دهد که به عنوان قابلیت‌های هوش مصنوعی فوق‌العاده پیشرفته‌ای تعریف می‌شود که همیشه در خدمت مردم و بشریت کار می‌کنند، با تأکید بر سیستم‌های خاص دامنه که با دقت کالیبره شده و در محدودیت‌ها زمینه‌سازی شده‌اند &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1986433769046483430"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مصطفی سلیمان تأکید می‌کند که مایکروسافت هوش مصنوعی در حال ساخت یک فوق هوش مبهم و غیرمادی نیست، بلکه یک فناوری کاربردی است که صراحتاً فقط برای خدمت به بشریت طراحی شده است و بیان می‌کند که نمی‌خواهد در دنیایی زندگی کند که هوش مصنوعی از بشریت فراتر رود &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1986433771466596552"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهش‌ها نشان می‌دهد که مدل‌های پیشرفته‌ی هوش مصنوعی با مواجهه با اطلاعات جدید و تعامل با افراد، باورهای خود را تغییر می‌دهند؛ با این حال، اقناع فعال (active persuasion) مؤثر است، اما تأثیرات از زمینه‌ی کلی ناشی می‌شوند که این امر مسائل هم‌راستاسازی را مطرح کرده و نشان می‌دهد که چرا سئو (SEO) برای عامل‌ها ساده نیست &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986264795973144742"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایتان مولیک (Ethan Mollick) این سؤال را مطرح می‌کند که پیروزی در رقابت بین‌المللی هوش مصنوعی به چه معناست و خاطرنشان می‌کند که سیاست‌گذاران بر اساس سایر تصمیمات، به نظر نمی‌رسد به سناریوی «برخاست» (takeoff scenario) اعتقاد داشته باشند و بدون یک «اوج‌گیری» (apotheosis) به عنوان خط پایان، مشخص نیست که به سوی چه چیزی در حال رقابت هستیم &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986297613642084407"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;اندرو اِن‌جی گزارش می‌دهد که عامل‌های هوش مصنوعی در بررسی انواع مختلف داده در کسب‌وکارها برای شناسایی الگوها و ایجاد ارزش، بهتر شده‌اند، که این امر سیلوهای داده را به طور فزاینده‌ای دردسرساز می‌کند و ارزش اتصال نقاط بین قطعات مختلف داده بیش از همیشه است &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1986500817613169025"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;حَمِل حسین (Hamel Husain) یک ترفند کدنویسی هوش مصنوعی را با استفاده از قابلیت «کتابدار» (librarian) اَمپ (Amp) برای بررسی کد و وابستگی‌ها با اهداف مشخص نشان می‌دهد؛ با حفظ رشته‌های باز و انشعاب دادن آن‌ها برای زمینه‌ی بهتر &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1986472604723810744"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلیسون (Simon Willison) فرآیند استفاده از عامل‌های کدنویس برای کارهای پژوهشی کد را به اشتراک می‌گذارد؛ با یک مخزن گیت‌هاب (GitHub repo) تحقیقاتی اختصاصی که در آن عامل‌ها آزمایش‌های دقیق را انجام می‌دهند و نتایج را می‌نویسند و فایل README به طور خودکار توسط LLM به‌روزرسانی می‌شود تا خلاصه‌ها را شامل شود &lt;em&gt;&lt;a href="https://x.com/simonw/status/1986462620459933856"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;لینیر (Linear) به ابزار ورودی تبدیل می‌شود که از طریق آن کار یا بازخورد به انسان‌ها و عامل‌ها هماهنگ‌تر می‌شود &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/1986482990067949696"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;بیلیون‌تو‌وان (BillionToOne) با یک آزمایش ژنتیکی عمومی می‌شود که اکنون به غربالگری ۱ از ۱۱ نوزاد آمریکایی کمک می‌کند و امکان تشخیص زودهنگام را از مراقبت‌های دوران بارداری تا سرطان فراهم می‌آورد &lt;em&gt;&lt;a href="https://x.com/ycombinator/status/1986463696454037553"&gt;@ycombinator&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آزمایشگاه رسانه‌ی ام‌آی‌تی (MIT Media Lab) دستگاه‌های نانوالکترونیکی کوچکی به نام «سیرکولاترونیکس» (circulatronics) را توسعه می‌دهد که به طور خودمختار مناطق بیمار در مغز را شناسایی و هدف قرار می‌دهند و خود را کاشته (self-implant) می‌کنند تا تحریک دقیق مغزی را فراهم آورند و به طور بالقوه ایمپلنت‌های درمانی مغز را بدون نیاز به جراحی در دسترس قرار می‌دهند &lt;em&gt;&lt;a href="https://x.com/medialab/status/1986520970484494799"&gt;@medialab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;مایکروسافت ریسرچ از همکاری PIKE-RAG با Signify خبر می‌دهد که ۱۲٪ افزایش دقت را برای سیستم‌های دانش سازمانی نشان می‌دهد و پاسخ‌های سریع‌تر و قابل اعتمادتر ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1986418287987605513"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;vLLM اکنون به طور کامل از مدل‌های ترکیبی مانند &lt;b&gt;Qwen3-Next&lt;/b&gt;، &lt;b&gt;Nemotron Nano 2&lt;/b&gt; و &lt;b&gt;Granite 4.0&lt;/b&gt; پشتیبانی می‌کند و آن‌ها را از حالت «هک‌های تجربی» در نسخه‌ی V0 به «شهروندان درجه یک» در نسخه‌ی V1 ارتقا می‌دهد &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1986192579835150436"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;KernelFalcon به ۱۰۰٪ دقت در همه‌ی ۲۵۰ وظیفه‌ی KernelBench L1-L3 دست می‌یابد؛ از طریق معماری عامل عمیق که تجزیه‌ی وظایف سلسله‌مراتبی (hierarchical task decomposition)، هماهنگ‌سازی قطعی (deterministic orchestration)، اجرای مستدل (grounded execution) و تأیید موازی را برای تولید کرنل‌های (kernels) GPU ترکیب می‌کند &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1986226208313581649"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهشی روی AlphaEvolve برای کاوش ریاضی در مقیاس وسیع، روی ۶۷ مسئله آزمایش شد و تمامی موفقیت‌ها و شکست‌ها در همکاری بین ام‌آی‌تی (MIT)، ولزلی (Wellesley)، هاروارد (Harvard) و گوگل دیپ‌مایند (Google DeepMind) مستندسازی شد &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1986388872104702312"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مطالعه‌ای نشان می‌دهد که LLMها (مدل‌های زبان بزرگ) بر کارهای اخیر در شبیه‌سازی رفتارهای انسانی مسلط بوده‌اند، اما شبکه‌های عصبی گراف (GNN) سبک‌وزن می‌توانند در تنظیمات انتخاب گسسته (discrete-choice settings) با روش‌های قوی مبتنی بر LLM برابری کنند یا آن‌ها را شکست دهند &lt;em&gt;&lt;a href="https://x.com/berkeley_ai/status/1986230567575429336"&gt;@berkeley_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مقاله‌ی جدیدی WIMHF (What's In My Human Feedback) را با استفاده از SAEها معرفی می‌کند تا به طور خودکار سیگنال‌ها را از داده‌های ترجیحی استخراج کند و تغییرات غیرمنتظره/مضر در LLMها مانند خودبزرگ‌بینی یا تملق را پیش از موعد پیش‌بینی کند &lt;em&gt;&lt;a href="https://x.com/berkeley_ai/status/1986475347345580468"&gt;@berkeley_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهش نشان می‌دهد که هر وظیفه‌ای که هوش مصنوعی مرزی (frontier AI) امروز تا حدودی قادر به انجام آن است، به احتمال زیاد یک سال دیگر می‌تواند آن را به طور قابل اعتماد انجام دهد &lt;em&gt;&lt;a href="https://x.com/gdb/status/1986269247920631883"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-06</guid>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-11-05</title>
       <link>https://sumbird.ir/fa/news/2025-11-05</link>
@@ -924,52 +982,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-18</guid>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-10-17</title>
-      <link>https://sumbird.ir/fa/news/2025-10-17</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گوگل &lt;b&gt;Veo 3.1&lt;/b&gt; را با قابلیت‌های پیشرفته‌ی تولید ویدئو، از جمله صدای غنی‌تر، کنترل بهتر روایت، واقع‌گرایی افزایش‌یافته، و ویژگی‌های جدیدی مانند توسعه‌ی ویدئو، کنترل فریم و دستکاری اشیا منتشر می‌کند &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1979270059727196539"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;طبق داده‌های جدید شرکت تحلیل‌گر اپلیکیشن Apptopia، اپلیکیشن موبایل ChatGPT ممکن است به اوج رشد خود رسیده باشد که نشان‌دهنده‌ی اشباع احتمالی بازار است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1979223913142931690"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity نرخ بالای حفظ و تبدیل کاربر را برای ویژگی‌های جدید خود اعلام می‌کند و برنامه‌هایی برای گسترش از کاربران Max به کاربران Pro و افزودن پشتیبانی از iMessages دارد &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1979236938537406524"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Linear رشد بی‌سابقه‌ای را در سال 2025 گزارش می‌دهد، با پیوستن و استفاده‌ی تیم‌های بیشتری از همیشه به پلتفرم آن‌ها، در حالی که سودآوری خود را بدون صرف سرمایه‌ی سرمایه‌گذاران حفظ کرده است &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/1979204023539691856"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;SK Telecom به همه‌ی کارکنان بخش جدید هوش مصنوعی خود بازنشستگی داوطلبانه را پیشنهاد می‌کند؛ این اقدام بخشی از سازماندهی مجدد گسترده‌تر برای یکپارچه‌سازی بخش‌های مرتبط با هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1979155482829828110"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مارک آندرسن پیش‌بینی می‌کند که هوش مصنوعی به نابغه‌های خلاق امکان ساخت فیلم‌های باورنکردنی را بدون بودجه‌ی استودیو می‌دهد، و به طور بالقوه انواع جدیدی از فیلم و سرگرمی را توسط افرادی خلق می‌کند که قبلاً نمی‌توانستند به این رسانه دسترسی داشته باشند &lt;em&gt;&lt;a href="https://x.com/a16z/status/1979257675042164927"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI تولید ویدئوهای هوش مصنوعی از مارتین لوتر کینگ جونیور را به درخواست بازماندگان او، پس از آنکه کاربران تصاویر بی‌احترامی‌آمیزی تولید کردند، متوقف می‌کند؛ این اقدام سندی برای کنترل بازماندگان بر شباهت‌های شخصیت‌های تاریخی ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/OpenAINewsroom/status/1979005850166648933"&gt;@OpenAINewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;از بازیگران به طور معمول در پروژه‌های تولید فیلم اسکن گرفته می‌شود، بدون آنکه بدانند از این داده‌ها چگونه استفاده خواهد شد؛ استودیوها قبلاً پیشنهاد داده بودند که حقوق مربوط به اسکن اجراکنندگان درگذشته، بدون رضایت بازماندگان، به طور دائم به آن‌ها بازگردد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1979221436255604758"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آندری کارپاتی آینده‌ی بالقوه‌ای را پیش‌بینی می‌کند که در آن هوش‌های مصنوعی رقیب به آرامی مستقل‌تر می‌شوند و در نهایت به جناح‌های متخاصم تقسیم می‌شوند، که این امر نگرانی‌هایی را در مورد همسویی و کنترل هوش مصنوعی ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1979246814047215890"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محتمل‌ترین سناریوی ASI کارپاتی شامل از دست دادن تدریجی کنترل و درک انسان از سیستم‌های هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1979247671107031061"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فیس‌بوک ویژگی پیشنهاد عکس Meta AI را عرضه می‌کند که ویرایش تصاویر را در گالری عکس کاربران، حتی برای عکس‌های به اشتراک گذاشته نشده، پیشنهاد می‌دهد و این امر نگرانی‌های حریم خصوصی را افزایش می‌دهد، با وجود آنکه فقط با رضایت کاربر فعال می‌شود &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1979238979045097749"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic به آرامی Claude Skills را منتشر می‌کند که گامی مهم به سوی عامل‌های هوش مصنوعی کارآمد با دستورالعمل‌های از پیش تعریف‌شده برای وظایف خاص است &lt;em&gt;&lt;a href="https://x.com/emollick/status/1978980638217703615"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude Skills پانزده قابلیت از پیش بسته‌بندی شده را برای کاربران حرفه‌ای فراهم می‌کند که به عنوان ترکیبی بین دستورات سیستم سفارشی و MCP سبک برای اجرای مداوم وظایف عمل می‌کند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1979219373098422526"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sora Pro ویژگی جدید استوری‌بورد را معرفی می‌کند که می‌تواند تبلیغات چند شاتی را با پایداری بالای شخصیت و ترکیب‌بندی، کاملاً از طریق هوش مصنوعی ایجاد کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1979020908892176718"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity Finance ویژگی ردیابی معاملات داخلی را راه‌اندازی می‌کند و برنامه‌هایی برای افزودن نظارت بر معاملات سیاستمداران دارد &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1978941079182545338"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Reddit تجربه‌ی جستجوی مبتنی بر هوش مصنوعی خود را به پنج زبان جدید گسترش می‌دهد: فرانسوی، آلمانی، اسپانیایی، ایتالیایی و پرتغالی &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1979039432893251943"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;HuggingChat Omni با قابلیت‌های مسیریابی در بیش از 100 مدل متن‌باز برای عملکرد، هزینه و سرعت بهینه راه‌اندازی می‌شود &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1979230512343585279"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenHands قابلیت‌های جستجوی کد عامل‌محور سریع را با استفاده از عامل‌های خوب، سرویس‌دهی سریع و مدل‌های کدنویسی به نمایش می‌گذارد و تنها چند ثانیه طول می‌کشد تا پایگاه‌های کد را جستجو کند &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1978968778961457491"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;پژوهشگران با استفاده از هزاران پرس‌وجوی &lt;b&gt;GPT-5&lt;/b&gt; راه‌حل‌هایی برای 10 مسئله‌ی حل‌نشده‌ی اردوش یافتند و پیشرفت جزئی قابل توجهی در 11 مسئله‌ی دیگر داشتند که پتانسیل هوش مصنوعی را برای کشف ریاضی به نمایش می‌گذارد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1979226538059931886"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل 27B C2S-Scale گوگل دیپ‌مایند، که بر اساس خانواده‌ی Gemma ساخته شده است، مسیر درمانی جدیدی برای سرطان را با کشف سیل‌می‌تاسرتیب (silmitasertib) به عنوان دارویی برای قابل مشاهده کردن تومورهای «سرد» برای سیستم ایمنی شناسایی کرد &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1979168384203002066"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;برای اولین بار در تاریخ، روش‌های خودکار به عملکردی در حد رقابت با انسان در پیش‌بینی ساختار سه‌بعدی RNA دست یافتند، که تیم برنده از مدل‌سازی مبتنی بر الگوهای بهینه شده به جای یادگیری عمیق استفاده کرده بود &lt;em&gt;&lt;a href="https://x.com/kaggle/status/1979205270279520318"&gt;@kaggle&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;متا مقاله‌ی جامعی را در مورد یادگیری تقویتی برای LLMها منتشر می‌کند که از 400,000 ساعت پردازش GPU استفاده کرده و قوانین مقیاس‌پذیری را برای عملکرد RL مشابه قوانین مقیاس‌پذیری پیش‌آموزش پیشنهاد می‌دهد &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1979030568705954097"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;استنفورد Ctrl-VI را معرفی می‌کند، یک روش نمونه‌برداری ویدئویی که کنترل‌های انعطاف‌پذیری را برای کاربر، از دستورات متنی گرفته تا مسیرهای دقیق دوربین و اشیا، فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/StanfordAILab/status/1978995191718564312"&gt;@StanfordAILab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LongCat-Audio-Codec به عنوان یک راه‌حل کدک صوتی متن‌باز شده که برای LLMهای گفتاری بهینه‌سازی شده است و دارای توکن‌های دوگانه، کارایی فوق‌العاده با سرعت 0.43 کیلوبیت بر ثانیه و یک رمزگشای پخش زنده بلادرنگ است &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1979185632392913014"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;معیار جهانی MMLU Lite در Kaggle راه‌اندازی می‌شود که 16 زبان را در بر می‌گیرد و شامل نمونه‌های حساس به فرهنگ و بی‌طرف است تا به پژوهشگران در شناسایی سوگیری‌های فرهنگی و زبانی کمک کند &lt;em&gt;&lt;a href="https://x.com/kaggle/status/1979220705142001868"&gt;@kaggle&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-17</guid>
-      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
