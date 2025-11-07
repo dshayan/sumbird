@@ -8,9 +8,66 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Fri, 07 Nov 2025 06:01:22 +0330</lastBuildDate>
-    <pubDate>Fri, 07 Nov 2025 06:01:22 +0330</pubDate>
+    <lastBuildDate>Sat, 08 Nov 2025 00:38:36 +0330</lastBuildDate>
+    <pubDate>Sat, 08 Nov 2025 00:38:36 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-11-07</title>
+      <link>https://sumbird.ir/fa/news/2025-11-07</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;شرکت MoonshotAI مدل &lt;b&gt;کیمی کی2 تینکینگ&lt;/b&gt; را منتشر می‌کند؛ یک مدل استدلالی با ۱ تریلیون پارامتر (۳۲ میلیارد پارامتر فعال) که ۹۳ درصد از امتیاز معیار Tau2 Bench Telecom agentic و ۵۱ درصد از امتیاز «آخرین امتحان بشریت» را کسب کرده است و احتمالاً به مدل پیشرو جدید با وزن‌های باز تبدیل خواهد شد. این مدل به جای FP8، از دقت INT4 استفاده می‌کند که حجم آن را به حدود ۵۹۴ گیگابایت کاهش می‌دهد و کارایی استنتاج (inference) را بهبود می‌بخشد &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/1986541785511043536"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اوپن‌ای‌آی مدل &lt;b&gt;جی‌پی‌تی-۵-کدکس-مینی&lt;/b&gt; را منتشر می‌کند؛ این مدل امکان استفاده‌ای حدوداً ۴ برابر بیشتر از &lt;b&gt;جی‌پی‌تی-۵-کدکس&lt;/b&gt; را با کمی افت در قابلیت‌ها به دلیل فشرده‌تر بودن مدل فراهم می‌کند و در رابط خط فرمان (CLI) و افزونه‌ی محیط توسعه (IDE) در دسترس است &lt;em&gt;&lt;a href="https://x.com/OpenAIDevs/status/1986861736041853368"&gt;@OpenAIDevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ارتقای کوچکی در کدکس با مدل به‌روز‌شده‌ی &lt;b&gt;جی‌پی‌تی-۵-کدکس&lt;/b&gt; که همکاری بهبود‌یافته‌ای را نشان می‌دهد، با کسب چند درصد امتیاز بیشتر در ارزیابی‌های کلیدی و حدود ۳ درصد کارآمدتر در مصرف توکن &lt;em&gt;&lt;a href="https://x.com/thsottiaux/status/1986602121572327650"&gt;@thsottiaux&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شرکت Anthropic دفاتری در پاریس و مونیخ افتتاح می‌کند، زیرا منطقه‌ی EMEA (اروپا، خاورمیانه و آفریقا) به سریع‌ترین منطقه‌ی در حال رشد آن‌ها تبدیل شده است و درآمد جاری (run-rate revenue) آن‌ها در سال گذشته بیش از ۹ برابر رشد داشته است &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1986871933967745344"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل اعلام می‌کند که &lt;b&gt;آیرون‌وود&lt;/b&gt;، هفتمین نسل از TPU (پردازنده‌ی تنسور) آن‌ها، در هفته‌های آینده با بهبود قابل‌توجهی در عملکرد و کارایی نسبت به نسل‌های قبلی، به صورت عمومی در دسترس خواهد بود &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1986581028191047867"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مایکروسافت کوپایلوت جستجوی هوش مصنوعی را با منابع شفاف‌تر و قابل کلیک ادغام می‌کند و Copilot Groups را برای برنامه‌ریزی مشارکتی با حداکثر ۳۲ نفر راه‌اندازی می‌کند &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1986842333279629408"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اپلیکیشن Gemini قابلیت‌های تولید ویدئو را اضافه می‌کند و به کاربران امکان می‌دهد ویدئوهای ۸ ثانیه‌ای همراه با جلوه‌های صوتی و دیالوگ را از توضیحات ساده ایجاد کنند &lt;em&gt;&lt;a href="https://x.com/madebygoogle/status/1986866420731216007"&gt;@madebygoogle&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CNBC گزارش می‌دهد که هزینه‌ی کلی آموزش برای مدل &lt;b&gt;کیمی کی2 تینکینگ&lt;/b&gt; ۴.۶ میلیون دلار بوده است که نشان‌دهنده‌ی کارایی هزینه در توسعه‌ی مدل‌های پیشرفته است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1986864296480153757"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گرگلی اُروس تقاضای عظیمی را از سوی شرکت‌های سنتی (بانک‌ها، خطوط هوایی) برای آموزش هوش مصنوعی و کارگاه‌های آموزشی برای توسعه‌دهندگان شناسایی می‌کند؛ با وجود بودجه‌های موجود اما عدم وجود برنامه‌های آموزشی مناسب در حال حاضر &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1986696884384100602"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;BillionToOne، یک شرکت بیوتکنولوژی YC، به عنوان چهارمین شرکت بیوتکنولوژی عرضه‌شده در بورس عمومی، با بیش از ۲۶۵ میلیون دلار درآمد تکرارشونده‌ی سالانه (ARR) و ۶۵ درصد حاشیه‌ی سود ناخالص وارد بورس می‌شود که نشان می‌دهد چگونه سیلیکون‌ولی می‌تواند مشکلات مهم اجتماعی را فراتر از نرم‌افزار تامین مالی کند &lt;em&gt;&lt;a href="https://x.com/snowmaker/status/1986546570515652621"&gt;@snowmaker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کلمنت دلانگی اشاره می‌کند که مدل &lt;b&gt;کیمی کی2 تینکینگ&lt;/b&gt; یک نقطه عطف را نشان می‌دهد، جایی که هوش مصنوعی متن‌باز در حوزه‌ی تخصصی خود (عامل‌ها) از APIهای اختصاصی پیشی می‌گیرد و روایت پیروزی مدل‌های اختصاصی به دلیل سرمایه‌ی بیشتر و قدرت محاسباتی بالاتر را به چالش می‌کشد &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1986833436607160600"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل از عرضه‌ی محصولات مهمی خبر می‌دهد، از جمله رانندگی مکالمه‌ای بدون دخالت دست در گوگل مپس که با &lt;b&gt;جمینی&lt;/b&gt; ساخته شده است، قابلیت‌های «پژوهش عمیق» (Deep Research) و بهبودهایی در گوگل فایننس با «جستجوی عمیق» (Deep Search) &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1986837691413991538"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;دستیار Perplexity Comet ارتقای عمده‌ای دریافت می‌کند، با ۲۳ درصد عملکرد بهتر در آزمایش‌های داخلی، اکنون با استدلال بهبود‌یافته در هر مرحله، بیشتر شبیه یک انسان مسیرها را پیدا می‌کند &lt;em&gt;&lt;a href="https://x.com/ai_for_success/status/1986862656238825788"&gt;@ai_for_success&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اسکات بلسکی مشاهده می‌کند که وقتی آستانه‌ی دسترسی به ابزارهای هوش مصنوعی پایین می‌آید، آستانه‌ی کیفیت بالا می‌رود که بر اهمیت تمایز تاکید دارد &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/1986878529275871349"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اسنومیکر پارادوکس جونز را در بستر هوش مصنوعی توضیح می‌دهد: با هوش فوق‌العاده ارزان و در دسترس بر اساس تقاضا که اکنون موجود است، مردم همچنان به راه‌های جدیدی برای استفاده از آن فکر خواهند کرد که تقاضای مستمر را افزایش می‌دهد &lt;em&gt;&lt;a href="https://x.com/snowmaker/status/1986624858424549547"&gt;@snowmaker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;مصطفی سلیمان استدلال می‌کند که هوش مصنوعی باید همیشه تحت کنترل انسان باقی بماند، اظهار می‌کند که انسان‌ها باید در بالای زنجیره‌ی غذایی باقی بمانند و خواستار تدابیر حفاظتی جدی قبل از اینکه هوش فراگیر (superintelligence) بیش از حد پیشرفته و غیرقابل کنترل شود، است &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1986834581576941763"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;دیلیپ جورج افکار خود را در مورد آگاهی هوش مصنوعی منتشر می‌کند و استدلال می‌کند که آگاهی مستقل از بستر (substrate-independent) است و در سیستم‌های هوش مصنوعی امکان‌پذیر است، اما می‌تواند از درد و رنج جدا شود که به سیستم‌های هوش مصنوعی آگاه امکان می‌دهد بدون نگرانی‌های اخلاقی به انسان‌ها خدمت کنند &lt;em&gt;&lt;a href="https://x.com/dileeplearning/status/1986843610550305269"&gt;@dileeplearning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;استودیو پارامونت تحت مدیریت مدیرعامل دیوید الیسون، یک لیست سیاه داخلی از چهره‌های هالیوود که «ضد یهود» نامیده می‌شوند، حفظ می‌کند، در حالی که با منافع اسرائیل همسو است و جنبش BDS (بایکوت، سلب سرمایه و تحریم) را رد می‌کند &lt;em&gt;&lt;a href="https://x.com/DropSiteNews/status/1986864959410872344"&gt;@DropSiteNews&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سناتور کریس ون هولن گزارش می‌دهد که برچیدن USAID توسط ترامپ منجر به مرگ تخمینی ۶۰۰,۰۰۰ نفر شده است که دو سوم آن‌ها کودک بوده‌اند، بر اساس یک مدل &lt;em&gt;&lt;a href="https://x.com/ChrisVanHollen/status/1986860238641697260"&gt;@ChrisVanHollen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;آماندا اسکل اشاره می‌کند که مردم اغلب در ارائه‌ی دستورات (prompts) بسیار مختصر اشتباه می‌کنند و فاش می‌کند که او برای کارهای پیچیده، به طور منظم از دستورات بیش از ۱۰۰ صفحه‌ای استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/AmandaAskell/status/1986571451902927017"&gt;@AmandaAskell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلسون اجرای مدل &lt;b&gt;کی2 تینکینگ&lt;/b&gt; را روی دو دستگاه مک استودیو M3 Ultra از طریق MLX نشان می‌دهد که استقرار عملی مدل‌های بزرگ را روی سخت‌افزار مصرف‌کننده به نمایش می‌گذارد &lt;em&gt;&lt;a href="https://x.com/awnihannun/status/1986601104130646266"&gt;@awnihannun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایتان مولیک مدل &lt;b&gt;کیمی کی2&lt;/b&gt; را آزمایش می‌کند و متوجه می‌شود که این مدل در اولین تلاش، آزمون لم (Lem Test) را با موفقیت پشت سر می‌گذارد، اگرچه اشاره می‌کند که مدل دارای ویژگی‌های جالب و خاصی است که در آن نوشتار در ابتدا خوب به نظر می‌رسد اما با بررسی دقیق‌تر، نامنسجم می‌شود &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986552301922738651"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ارتقای LaTeX در جمینی مورد تحسین کاربران قرار می‌گیرد که گزارش می‌دهند هر هفته ساعت‌ها در وقت آن‌ها صرفه‌جویی می‌شود، به طوری که یکی از آن‌ها اشاره می‌کند که «فقط کار کرد و نیازی به درگیری با ابزارها نبود.» &lt;em&gt;&lt;a href="https://x.com/joshwoodward/status/1986589159994368012"&gt;@joshwoodward&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;انویدیا دوقلوهای دیجیتال ترکیب‌شده با هوش مصنوعی عاملیت‌محور را به نمایش می‌گذارد که امکان برنامه‌ریزی هوشمندتر زیرساخت‌ها، تصمیم‌گیری سریع‌تر و عملیات بلادرنگ برای شهرهای ایمن‌تر و مقاوم‌تر را فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1986599529009831958"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تسلا گزارش می‌دهد که FSD Supervised در ۶ کشور در دسترس است و اتحادیه‌ی اروپا و مناطق دیگر نیز در ادامه خواهند بود و اولین تحویل بدون راننده‌ی یک خودرو از کارخانه به خانه‌ی مالک در جهان را تکمیل می‌کند &lt;em&gt;&lt;a href="https://x.com/Tesla/status/1986559629858644480"&gt;@Tesla&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;جاش شنل مشاهده می‌کند که وقتی ویژگی‌های جدید به نظر می‌رسد تنها با یک دستور (prompt) فاصله دارند، «خزش ویژگی» (feature creep) به نبردی بی‌پایان تبدیل می‌شود و این امر انضباط را در توسعه‌ی محصول از هر زمان دیگری مهم‌تر می‌کند &lt;em&gt;&lt;a href="https://x.com/jshchnz/status/1986832168073470022"&gt;@jshchnz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;استیپت استفاده از Codex را برای رفع هزاران مشکل در طول یک شب به نمایش می‌گذارد که اتوماسیون عملی نگهداری کد را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/steipete/status/1986799989775810955"&gt;@steipete&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ایتان مولیک تاکید می‌کند که اینکه شرکت‌ها مدل‌های هوش مصنوعی را بر اساس معیارهای (benchmarks) به عنوان جایگزین یکدیگر (fungible) در نظر بگیرند، مشکل‌ساز است، زیرا مدل‌هایی مانند &lt;b&gt;کیمی&lt;/b&gt;، &lt;b&gt;گراک&lt;/b&gt; و &lt;b&gt;کلاد&lt;/b&gt; نقاط قوت، ویژگی‌های خاص و ضعف‌های متمایزی دارند که در عملکرد کلی تفاوت زیادی ایجاد می‌کنند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986604851770360213"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مولیک اشاره می‌کند که حوزه‌هایی مانند تحلیل، نگارش، مشاوره و خدمات مشتری کمتر مورد ارزیابی معیار قرار گرفته‌اند و تفاوت‌های زیادی بین مدل‌های به یک اندازه هوشمند که بسیار متفاوت عمل می‌کنند، نشان می‌دهند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986605646469332996"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فرانسوا شوله نکته‌ای برای بهینه‌سازی برای کاربران کولب به اشتراک می‌گذارد: تغییر به زمان اجرای TPU و تنظیم پارامتر steps_per_execution در model.compile() اغلب می‌تواند سرعت را ۴ تا ۵ برابر افزایش دهد &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1986547474220368285"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلسون فرضیه می‌دهد که مدل‌های زبانی بزرگ (LLM) فعلی ممکن است راه‌اندازی زبان‌های برنامه‌نویسی کاملاً جدید را آسان‌تر کنند، مشروط بر اینکه بتوان آن‌ها را در چند هزار توکن توصیف کرد و همراه با یک کامپایلر و لینتر (linter) که عامل‌های کدنویسی می‌توانند از آن‌ها استفاده کنند، عرضه شوند &lt;em&gt;&lt;a href="https://x.com/simonw/status/1986829425883873591"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فی‌فی لی، جفری هینتون و یوشوا بنجیو جایزه‌ی مهندسی ملکه‌ی الیزابت ۲۰۲۵ را دریافت می‌کنند که نقش آن‌ها را در شکل‌دهی انقلاب هوش مصنوعی امروزی به رسمیت می‌شناسد &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1986849035970617421"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تسلا اعلام می‌کند که تراشه‌ی AI5 پتانسیل ۵۰ برابر عملکرد بهتر نسبت به AI4 (سخت‌افزار فعلی) را دارد و برای تولید انبوه در سال ۲۰۲۷ جهت استفاده در وسایل نقلیه، رباتیک، آموزش و مراکز داده در حال کار است &lt;em&gt;&lt;a href="https://x.com/Tesla/status/1986560021224632615"&gt;@Tesla&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;دیلیپ جورج این ایده را که شبیه‌سازی ریزپردازنده‌ها ثابت می‌کند ما مغز را می‌فهمیم، به چالش می‌کشد و استدلال می‌کند که ما می‌توانیم ریزپردازنده‌ها را شبیه‌سازی کنیم زیرا انتزاعاتی که قطعات را به عملکرد متصل می‌کنند، می‌فهمیم، نه برعکس &lt;em&gt;&lt;a href="https://x.com/dileeplearning/status/1986595257505792356"&gt;@dileeplearning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فیزیکدانان MIT شواهد کلیدی از ابررسانایی غیرمعمول را در یک شکل خاص از گرافن مشاهده می‌کنند که احتمالاً راهنمایی برای طراحی ابررساناهای دمای اتاق خواهد بود &lt;em&gt;&lt;a href="https://x.com/MIT/status/1986825332008141221"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;انویدیا و شرکای آن، اولین پشته‌ی بی‌سیم بومی هوش مصنوعی ساخته‌شده در آمریکا را تنها در شش ماه ایجاد می‌کنند که توسط NVIDIA AI Aerial پشتیبانی می‌شود و یک مسیر روشن از 5G به 6G ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1986886375572946996"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-07</guid>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-11-06</title>
       <link>https://sumbird.ir/fa/news/2025-11-06</link>
@@ -931,57 +988,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-19</guid>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-10-18</title>
-      <link>https://sumbird.ir/fa/news/2025-10-18</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گوگل قابلیت «Grounding» را با گوگل مپس در &lt;b&gt;API جِمینی&lt;/b&gt; معرفی می‌کند و داده‌های مربوط به ۲۵۰ میلیون مکان را با جِمینی ترکیب می‌کند تا تجربه‌های جدیدی خلق کند &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1979286216953733227"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل مدل ارتقایافته‌ی &lt;b&gt;Veo 3.1&lt;/b&gt; را با واقع‌گرایی بهبودیافته و صدای غنی‌تر منتشر می‌کند که اکنون در Flow by Google، اپلیکیشن جِمینی، Google Cloud Vertex AI و API جِمینی در دسترس است &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1979320514121470181"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل ویرایش تصویر نانوی گوگل اکنون در «جست‌وجو» با قابلیت‌های «Lens و AI Mode»، NotebookLM و اپلیکیشن جِمینی در دسترس است و به‌زودی برای Google Workspace Slides و Google Photos عرضه خواهد شد &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1979320655268188441"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google AI Studio قابلیت جدیدی ارائه کرده است که به کاربران امکان می‌دهد دستورالعمل‌های سیستمی را ذخیره و دوباره استفاده کنند و آزمایش و بازتولید خروجی‌ها را با &lt;b&gt;جِمینی&lt;/b&gt; آسان‌تر می‌کند &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1979621216278532601"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل مدل بنیادی &lt;b&gt;C2S-Scale 27B&lt;/b&gt; را که با همکاری Yale و Gemma برای پژوهش‌های سرطان ساخته شده است، همراه با مدل هوش مصنوعی متن‌باز DeepSomatic برای تحلیل ژنتیکی منتشر می‌کند &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1979321229850087789"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft Research مدل &lt;b&gt;SimPoly&lt;/b&gt; را معرفی می‌کند؛ یک میدان نیروی یادگیری ماشین برای شبیه‌سازی پلیمر که چگالی پلیمر و دماهای گذار شیشه‌ای را با دقت محاسبه می‌کند &lt;em&gt;&lt;a href="https://x.com/gncsimm/status/1979324727236706587"&gt;@gncsimm&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Keras اکنون از کوانتیزاسیون مدل (model quantization) تنها با یک خط کد پشتیبانی می‌کند و حالت‌های int4, int8, float8 و GPTQ را هم برای مدل‌های سفارشی و هم برای مدل‌های از پیش آموزش‌دیده از KerasHub پوشش می‌دهد &lt;em&gt;&lt;a href="https://x.com/_avichawla/status/1979435056251965809"&gt;@_avichawla&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گرگلی اوروس مشاهده می‌کند که OpenAI در داخل هنوز بر «رسیدن به AGI» به عنوان یک اصل راهنما تمرکز دارد، در حالی که Anthropic بر اساس مکالمات با مهندسان هر دو شرکت، در بهبود گام‌به‌گام ریشه‌دارتر عمل می‌کند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1979599065701876113"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;واتس‌اپ استفاده‌ی چت‌بات‌های عمومی را از Business API خود ممنوع می‌کند که بر خدمات دستیار هوش مصنوعی مانند یکپارچه‌سازی واتس‌اپ Perplexity تأثیر می‌گذارد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1979551812190458047"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity به کاربران توصیه می‌کند پس از تغییرات سیاست واتس‌اپ، از دستیار واتس‌اپ به دستیار تلگرام خود به نام «askplexbot» تغییر دهند &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1979571330535362641"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;دیدیداس به ظهور سرمایه‌گذاری‌های اولیه‌ی (seed rounds) میلیارد دلاری برای شرکت‌های هوش مصنوعی، از جمله Lila Sciences, General Intuition, Periodic Labs, Thinking Machines, SSI و Sierra، اشاره می‌کند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1979392893870809598"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک گزارش می‌دهد که در شرکت‌هایی که او با آن‌ها صحبت می‌کند، رهبران تحولات جدید هوش مصنوعی را دنبال نمی‌کنند یا به AGI فکر نمی‌کنند، بلکه بر انباشت پیوسته‌ی موارد استفاده‌ی ارزشمند و تنظیمات فرآیند تمرکز دارند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1979555519041049057"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;حالت هوش مصنوعی گوگل در «جست‌وجو» اکنون به طور کامل در بیش از ۲۰۰ کشور و منطقه با ۴۳ زبان عرضه شده است و کاربران سؤالاتی تقریباً ۳ برابر طولانی‌تر از جست‌وجوهای سنتی می‌پرسند &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1979320711421530309"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;آماندا اسکل اشاره می‌کند که مردم اغلب ارضای شهوانی با هوش مصنوعی (AI erotica) و روابط عاشقانه‌ی هوش مصنوعی را با هم اشتباه می‌گیرند و پیشنهاد می‌کند که یکی به‌وضوح نگران‌کننده‌تر از دیگری است &lt;em&gt;&lt;a href="https://x.com/AmandaAskell/status/1979308835895677225"&gt;@AmandaAskell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اندرو کارن مثالی نگران‌کننده از ویدیوی تولیدشده توسط هوش مصنوعی را برجسته می‌کند که در آن چاک شومر جمله‌ای واقعی را می‌گوید، اما خود ویدیو به طور مصنوعی ساخته شده است زیرا این جمله جلوی دوربین گفته نشده بود &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1979307913354318201"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تک‌کرانچ گزارش می‌دهد که ویدیوی تولیدشده توسط هوش مصنوعی در حساب X جمهوری‌خواهان سنا منتشر شده است که احتمالاً سیاست‌های X را علیه «رسانه‌های فریبنده‌ی ترکیبی یا دست‌کاری‌شده که احتمال آسیب رساندن دارند» نقض می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1979303170946777313"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تک‌کرانچ به پوشش بحث‌وجدل پیرامون دیوید ساکس از کاخ سفید و جیسون کوون از OpenAI می‌پردازد که به دلیل اظهارنظرهایشان در مورد گروه‌هایی که ایمنی هوش مصنوعی را ترویج می‌کنند، ایجاد شده است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1979357287111143618"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فاش شده است که یک مقاله‌ی وایرال «تعریف AGI» حاوی استنادهای جعلی است که وجود ندارند و مقالات متفاوتی در شماره‌های ژورنال/جلد/صفحه‌ی مشخص‌شده حضور دارند &lt;em&gt;&lt;a href="https://x.com/m2saxon/status/1979349387391439198"&gt;@m2saxon&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گرگلی اوروس تجربه‌ی خود از استفاده از &lt;b&gt;Claude Code&lt;/b&gt; را برای ساخت صفحات فرود به جای استفاده از قالب‌ها یا Webflow به اشتراک می‌گذارد و آن را برای کارهای فرانت‌اند که در آن‌ها تخصص ندارد، کارآمدتر می‌یابد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1979584756103966930"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اوروس استفاده از Claude را برای وظایف پیکربندی، مانند راه‌اندازی سایت‌های استاتیک در Netlify، نشان می‌دهد و نیاز به جست‌وجو و یادگیری مجدد رویه‌های راه‌اندازی زیرساخت را از بین می‌برد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1979590351418781877"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تک‌کرانچ یک اپلیکیشن جدید آیفون به نام Endless Summer را معرفی می‌کند که از هوش مصنوعی برای ایجاد عکس‌های تعطیلاتی فوتورئالیستی با حضور کاربران بدون نیاز به سفر واقعی استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1979579492596171072"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سایمون ویلیسون ابزاری «vibe-coded» برای نمایش JSON پاسخ‌های OpenAI از فراخوانی‌های API پژوهش عمیق، در قالبی خواناتر ایجاد می‌کند که با استفاده از Claude Code ساخته شده است &lt;em&gt;&lt;a href="https://x.com/simonw/status/1979631349524025619"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اسکات بلسکی پیش‌بینی می‌کند که «هر فناوری که بیشترین چیزها را ببیند، بیشترین چیزها را نیز به خاطر خواهد سپرد و حافظه در عصر بعدی بر همه‌چیز حکمرانی خواهد کرد»؛ این موضوع گوگل را در موقعیت خوبی قرار می‌دهد، اما به عوامل غیرمنتظره‌ی بالقوه مانند مدل‌های محلی و نوآوری‌های مرورگر نیز اشاره می‌کند &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/1979576157537452491"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ایتان مولیک تأکید می‌کند که نتایج اولیه مانند GDPval نشان می‌دهد که مدل‌های هوش مصنوعی امروزی به اندازه‌ی کافی خوب هستند تا طی ۵ تا ۱۰ سال تحولات بزرگی ایجاد کنند، زیرا شرکت‌ها یاد می‌گیرند که آن‌ها را پیاده‌سازی و در فرآیندهای خود ادغام کنند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1979287090962788531"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مولیک بر این باور خود تأکید می‌کند که تنظیم دقیق (fine-tuning) عمدتاً در موقعیت‌های خاص مفید است و همچنان نسبت به اینکه این راه‌حل مناسبی برای بسیاری از مشکلاتی است که صرفاً با پرامپتینگ (prompting) قابل حل هستند، تردید دارد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1979291926772724017"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آندری کارپاتی در مورد حضور اخیر خود در پادکست، توضیحات مفصلی ارائه می‌دهد و درباره‌ی جدول زمانی AGI، محدودیت‌های یادگیری تقویتی و مفهوم «هسته‌ی شناختی» برای بهبود تعمیم‌پذیری LLM بحث می‌کند &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1979644538185752935"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کارپاتی رویکردهای فعلی یادگیری تقویتی (RL) را نقد می‌کند و بیان می‌کند که «شما نظارت را از طریق یک نی می‌مَکید» با نسبت‌های سیگنال به فلاپ (signal/flop) ضعیف، و از الگوهای یادگیری جایگزین فراتر از یادگیری تقویتی سنتی حمایت می‌کند &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1979644538185752935"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;نیتن لمبرت اشاره می‌کند که دیدگاه کارپاتی مبنی بر اینکه «یادگیری تقویتی بسیار بدتر از آن چیزی است که افراد عادی فکر می‌کنند» عمدتاً درست است، با این حال افراد زیادی ادعا می‌کنند که RL همه چیز را حل خواهد کرد &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1979575633794507075"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سایمون ویلیسون مدل &lt;b&gt;o4-mini-deep-research&lt;/b&gt; OpenAI را از طریق API «Responses» آن‌ها بررسی می‌کند، یافته‌های خود را مستندسازی کرده و ابزارهای ارزیابی می‌سازد &lt;em&gt;&lt;a href="https://x.com/simonw/status/1979629244579016761"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Interconnects AI در مورد آخرین مدل‌های متن‌باز گزارش می‌دهد و به حضور قوی Qwen اشاره می‌کند و در مورد روش‌های نظارت دقیق بر دانلودهای Hugging Face و تخریب مداوم مجموعه‌داده‌های باز بحث می‌کند &lt;em&gt;&lt;a href="https://x.com/interconnectsai/status/1979569891100295428"&gt;@interconnectsai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-18</guid>
-      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
