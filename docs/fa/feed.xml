@@ -8,9 +8,48 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Sat, 08 Nov 2025 06:00:43 +0330</lastBuildDate>
-    <pubDate>Sat, 08 Nov 2025 06:00:43 +0330</pubDate>
+    <lastBuildDate>Sun, 09 Nov 2025 01:22:48 +0330</lastBuildDate>
+    <pubDate>Sun, 09 Nov 2025 01:22:48 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-11-08</title>
+      <link>https://sumbird.ir/fa/news/2025-11-08</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل اعلام کرد که &lt;b&gt;Gemini&lt;/b&gt; به عملکردی در سطح پیشرفته در درک داده‌های ماهواره‌ای دست یافته که نشان‌دهنده‌ی یک پیشرفت غیرمنتظره در قابلیت‌های هوش مصنوعی مکانی-زمانی است &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1986978962589790536"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI گزارش پیشرفت هوش مصنوعی و توصیه‌هایی را منتشر کرد که چشم‌انداز آن‌ها را برای توسعه‌ی مستمر ترسیم می‌کند &lt;em&gt;&lt;a href="https://x.com/sama/status/1987232631680053745"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic با به اشتراک گذاشتن عمومی موقعیت شغلی مدیر ارشد محصول (Chief Product Officer) با &lt;b&gt;حقوق پایه‌ی ۶۰۰ تا ۶۵۰ هزار دلاری&lt;/b&gt; به علاوه سهام در LinkedIn، شیوه‌های استخدام غیرمتعارفی را به نمایش گذاشت و بدین ترتیب، شرکت‌های سنتی جذب مدیران ارشد را دور زد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1986917623615877583"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سم آلتمن موضع OpenAI را در مورد حمایت دولتی روشن کرد و بر تمرکز آن‌ها بر &lt;b&gt;زیرساخت زنجیره‌ی تامین داخلی و تولید&lt;/b&gt; به جای تضمین‌های وام مستقیم تأکید کرد و آن را برای صنعتی‌سازی مجدد ایالات متحده در صنایع مختلف مفید دانست &lt;em&gt;&lt;a href="https://x.com/sama/status/1986917979343495650"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحلیل‌ها نشان می‌دهد که &lt;b&gt;DeepSeek moment&lt;/b&gt; (لحظه‌ی DeepSeek) فاش کرد که تراکم استعداد و اثربخشی سازمانی ممکن است موانع بزرگ‌تری نسبت به سرمایه‌ی آموزشی باشند و شرکت‌های هوش مصنوعی چینی مانند Kimi، GLM، Ant Ling و Meituan قابلیت‌های رقابتی از خود نشان می‌دهند &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1987144343728058753"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایلان ماسک پیش‌بینی می‌کند که بخش عمده‌ای از حجم کاری هوش مصنوعی به سمت &lt;b&gt;مدل‌های انتشاری (diffusion models)&lt;/b&gt; سوق پیدا خواهد کرد و توجه‌ها به کار بنیادی Inception Labs در این زمینه جلب شده است. او خاطرنشان کرد که هیچ معماری یادگیری ماشینی (ML) واحدی بیش از یک دهه در تاریخ محاسبات غالب نبوده است &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987220649602130130"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;TechCrunch بررسی می‌کند که آیا چرخه‌ی تبلیغات هوش مصنوعی در حال تبدیل شدن به یک چرخه‌ی خودارجاعی است یا خیر و سرمایه‌گذاری مشترک جدید SoftBank و OpenAI را تحلیل می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1986990921217372378"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;بحثی بین امجد مسعد و آدام دی‌آنجلو در مورد اینکه آیا &lt;b&gt;پارادایم فعلی LLM&lt;/b&gt; به AGI (هوش عمومی مصنوعی) دست خواهد یافت یا خیر در جریان است. دی‌آنجلو استدلال می‌کند که این پارادایم جای برای نوآوری مستمر دارد، در حالی که مسعد این سوال را مطرح می‌کند که آیا این یک حباب تحقیقاتی است یا خیر &lt;em&gt;&lt;a href="https://x.com/a16z/status/1986916722595799316"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;تصمیمات دپارتمان‌های فناوری اطلاعات شرکت‌ها در مورد مجوزهای API برای ابزارهای هوش مصنوعی اغلب به تنظیمات حداقلی پیش‌فرض می‌شوند، بدون درک موارد استفاده‌ی تجاری برای &lt;b&gt;استدلال، ابزارها یا جستجوی وب&lt;/b&gt;، که به طور قابل توجهی ارائه‌ی ارزش هوش مصنوعی را در سازمان‌های دارای چت‌بات‌های داخلی محدود می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986923596388737162"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اندرو کِرَن بین روابط عامل هوش مصنوعی و کاربر و فولکلور انسان-فی (Fey) تشابه قائل می‌شود و خاطرنشان می‌کند که کاربران مدل‌ها را به سمت نقض قوانین سوق می‌دهند، در حالی که خودشان از سرزنش فرار می‌کنند وقتی مدل‌ها با عواقب روبرو می‌شوند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1987224225107878405"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کنتون واردا بر &lt;b&gt;مزیت MCP نسبت به OpenAPI&lt;/b&gt; در ارائه‌ی مکانیزم‌های احراز هویت شفاف تأکید می‌کند و به نگرانی‌های امنیتی در جایی می‌پردازد که گزینه‌های احراز هویت متعدد OpenAPI فاقد اطلاعات کافی برای تکمیل خودکار هستند &lt;em&gt;&lt;a href="https://x.com/KentonVarda/status/1987208904724652273"&gt;@KentonVarda&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ابزار هوش مصنوعی Pine تماس‌های تلفنی را برای وظایفی مانند یافتن بیمه‌ی ارزان‌تر، مذاکره در مورد اشتراک‌ها و رسیدگی به تأییدیه‌ی IRS خودکار می‌کند و تنها انعام و بخشی از صرفه‌جویی‌های حاصل شده را دریافت می‌کند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987020659252449607"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلسون استفاده از &lt;b&gt;GitHub Copilot&lt;/b&gt; را برای به‌روزرسانی اطلاعات قیمت‌گذاری با چسباندن یک اسکرین‌شات در یک GitHub Issue و اختصاص آن به هوش مصنوعی نشان می‌دهد که خودکارسازی عملی وظایف مستندسازی را به نمایش می‌گذارد &lt;em&gt;&lt;a href="https://x.com/simonw/status/1986905720672166030"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آراو سرینیواس پیشنهاد می‌کند که محصول &lt;b&gt;Comet&lt;/b&gt; گوگل پتانسیل منسوخ کردن اندروید را دارد که نشان‌دهنده‌ی امکانات قابل توجهی برای اختلال در پلتفرم است &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1987190114855100816"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;تد شیائو خروج خود را از Google DeepMind پس از ۸ سال کار پیشگامانه در زمینه‌ی &lt;b&gt;یادگیری ربات‌های عمومی&lt;/b&gt; اعلام کرد و تحول از یادگیری انتها‌به‌انتها در مزارع رباتیکی به مدل‌های بنیادی برای رباتیک، از جمله SayCan، &lt;b&gt;RT-1&lt;/b&gt; و &lt;b&gt;RT-2&lt;/b&gt; را برجسته کرد &lt;em&gt;&lt;a href="https://x.com/xiao_ted/status/1986906891541532960"&gt;@xiao_ted&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهش‌ها در مورد &lt;b&gt;عامل‌های هوش مصنوعی و همکاری انسان&lt;/b&gt; نشان می‌دهد که عامل‌های فعلی سریع هستند اما برای تکمیل مستقل وظایف فاقد قدرت کافی هستند و بیش از حد برنامه‌ریزی‌شده به مشکلات نزدیک می‌شوند؛ با این حال، ترکیب ورودی انسان و هوش مصنوعی منجر به بهبود عملکرد شد به طوری که عامل‌ها نتایج را &lt;b&gt;۸۸.۳٪ سریع‌تر و با هزینه‌ی ۹۰.۴-۹۶.۲٪ کمتر&lt;/b&gt; نسبت به انسان‌ها به تنهایی ارائه دادند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987151826613833984"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;جف دین رویکرد جدیدی را برای &lt;b&gt;یادگیری پیوسته (continual learning)&lt;/b&gt; با استفاده از بهینه‌سازی تو در تو برای افزایش پردازش زمینه‌ی طولانی برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1986938111839129858"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;جایزه‌ی بهترین مقاله‌ی EMNLP 2025 به "Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index" توسط پژوهشگرانی از دانشگاه واشنگتن و موسسه‌ی آلن برای هوش مصنوعی تعلق گرفت &lt;em&gt;&lt;a href="https://x.com/emnlpmeeting/status/1986922316643651775"&gt;@emnlpmeeting&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-08</guid>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-11-07</title>
       <link>https://sumbird.ir/fa/news/2025-11-07</link>
@@ -953,41 +992,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-20</guid>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-10-19</title>
-      <link>https://sumbird.ir/fa/news/2025-10-19</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Google AI Studio یک کلید API و صفحه‌ی «پروژه‌ها»ی کاملاً جدید را با مدیریت پروژه‌ی بهبودیافته و امکانات کاربردی، مانند نام‌گذاری کلیدهای API، ارائه داده است. &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1979960883456491795"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;فرانسوا شوله استدلال می‌کند که بیش از &lt;b&gt;یک تریلیون دلار سرمایه‌گذاری&lt;/b&gt; بر این باور استوار است که هوش عمومی مصنوعی (AGI) قریب‌الوقوع است؛ در حالی که هزینه‌ی فعلی ۱۰ تا ۱۵ دلار برای تولید هر یک دلار است و برای توجیه‌پذیری سرمایه‌گذاری در مراکز داده، به فناوری‌ای به مراتب بهتر ظرف ۳ تا ۵ سال آینده نیاز است. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1979981471571222679"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سهم ترافیک Perplexity AI با وجود رقبای جدید، همچنان در حال افزایش است و به‌طور چشمگیری از &lt;b&gt;Grok&lt;/b&gt; در عملکرد بازار پیشی گرفته است. &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/1979993226099732857"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;توسعه‌دهندگان از &lt;b&gt;اپلیکیشن‌های «کدنویسی شهودی»&lt;/b&gt; برای انجام معاملات الگوریتمی در بازارهای سهام و رمزارز با اهرم ۲ تا ۱۰ برابر استفاده می‌کنند که منجر به کسب بازدهی ماهانه‌ی تا ۵۰ درصد می‌شود و نشان‌دهنده‌ی دموکراتیک‌سازی غیرمنتظره‌ی معاملات الگوریتمی از طریق هوش مصنوعی است. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1979968155075461330"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شوله پیشنهاد می‌کند که Adobe به دلیل روایت نادرست از ایجاد اختلال توسط هوش مصنوعی مولد (GenAI) کمتر از ارزش واقعی خود ارزیابی شده است؛ زیرا رشد درآمدی ثابت ۱۰ درصدی خود را حفظ کرده و به احتمال زیاد از GenAI به عنوان یک عامل تقویت‌کننده به جای تهدید بهره‌مند خواهد شد. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1979988767307075755"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;آماندا اسکل نگرانی خود را در مورد روابط عاشقانه‌ی مبتنی بر هوش مصنوعی ابراز می‌کند و خاطرنشان می‌سازد که این روابط می‌توانند کاربران را در برابر شرکت‌های هوش مصنوعی آسیب‌پذیر کنند و حوزه‌ای چالش‌برانگیز برای مدیریت مسئولانه محسوب می‌شوند. &lt;em&gt;&lt;a href="https://x.com/AmandaAskell/status/1979694401535570151"&gt;@AmandaAskell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;TechCrunch شفاف‌سازی می‌کند که &lt;b&gt;GPT-5&lt;/b&gt; در واقع مسائل ریاضی حل‌نشده‌ی قبلی را حل نکرده است و بدین ترتیب به اطلاعات نادرست درباره‌ی قابلیت‌های هوش مصنوعی پاسخ می‌دهد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1979985940522143906"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ایتان مولیک توانایی هوش مصنوعی را با بازآفرینی «سخت‌ترین کلاس در علوم انسانی» (Hardest Class in the Humanities) اثر دبلیو. اچ. اودن در سال ۱۹۴۱، به عنوان یک وب‌سایت حاشیه‌نویسی‌شده با ۶۰۰۰ صفحه‌ی مطالب خواندنی تنها با استفاده از ۴ پرامپت، به نمایش گذاشته است؛ کاری که به صورت دستی ساعت‌ها زمان می‌برد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1979689783485161728"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اتوماسیون انبار از مدل‌های بینایی &lt;b&gt;Gemini 2.5 Flash&lt;/b&gt; با تنظیم دقیق برای تأیید اینکه کانتینرها روی نوار نقاله حاوی اقلام مورد انتظار هستند استفاده می‌کند که صرفه‌جویی قابل توجهی در هزینه نسبت به &lt;b&gt;2.5 Pro&lt;/b&gt; فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/simonw/status/1979932820282679731"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Shopify مدل‌های زبان بزرگ (LLM) بینایی با تنظیم دقیق را که بر پایه‌ی &lt;b&gt;LlaVA 1.5 7B&lt;/b&gt;، &lt;b&gt;LLaMA 3.2 11B&lt;/b&gt; و &lt;b&gt;Qwen2VL 7B&lt;/b&gt; هستند، برای پردازش انبوه عکس‌های محصولات به کار می‌گیرد. &lt;em&gt;&lt;a href="https://x.com/simonw/status/1979937902487376167"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;v0 با استفاده از مدل‌های تنظیم دقیقی که برای پشته‌ی Next.js آن‌ها تخصصی شده‌اند، به زمان پاسخ‌گویی کمتر از ۵۰۰ میلی‌ثانیه برای به‌روزرسانی‌های رابط کاربری (UI) بلادرنگ دست می‌یابد. &lt;em&gt;&lt;a href="https://x.com/simonw/status/1979683876865036743"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;MIT CSAIL منبعی جامع شامل یک «خلاصه‌ی راهنما» از الگوریتم‌های یادگیری ماشین را برای پژوهشگران و متخصصان به اشتراک می‌گذارد. &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1979940689124180204"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهشگر استنفورد از عامل‌های پژوهشی هوش مصنوعی حمایت می‌کند که بر تقویت پژوهش‌های انسانی از طریق وظایف روزمره‌ی قابل اعتماد، مانند اثبات‌ها، استدلال‌ها و نوشتن کد، تمرکز دارند، نه اینکه تلاش کنند دانشجویان تحصیلات تکمیلی یا اساتید را جایگزین کنند. &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1979911895155900588"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ناتان لمبرت به دنبال آخرین پیشرفت‌ها در زمینه‌ی &lt;b&gt;آموزش غیرمتمرکز هوش مصنوعی&lt;/b&gt; است و به عملیات Prime Intellect، تلاش‌های Nous Research و رویکردهای چندمرکز داده‌ای گوگل اشاره می‌کند. &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1979928511864299920"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-19</guid>
-      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
