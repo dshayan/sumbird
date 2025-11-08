@@ -8,9 +8,48 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Nov 2025 06:00:38 +0330</lastBuildDate>
-    <pubDate>Sat, 08 Nov 2025 06:00:38 +0330</pubDate>
+    <lastBuildDate>Sun, 09 Nov 2025 01:22:43 +0330</lastBuildDate>
+    <pubDate>Sun, 09 Nov 2025 01:22:43 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-08</title>
+      <link>https://sumbird.ir/en/news/2025-11-08</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google announces &lt;b&gt;Gemini&lt;/b&gt; achieving state-of-the-art performance in satellite data understanding, marking an unexpected advancement in geospatial AI capabilities &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1986978962589790536"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI releases AI progress report and recommendations outlining their vision for continued development &lt;em&gt;&lt;a href="https://x.com/sama/status/1987232631680053745"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic demonstrates unconventional hiring practices by publicly sharing a Chief Product Officer position with &lt;b&gt;$600-650K base salary&lt;/b&gt; plus stock on LinkedIn, bypassing traditional executive recruiters &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1986917623615877583"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sam Altman clarifies OpenAI's position on government support, emphasizing their focus on &lt;b&gt;domestic supply chain and manufacturing infrastructure&lt;/b&gt; rather than direct loan guarantees, framing it as beneficial for US reindustrialization across multiple industries &lt;em&gt;&lt;a href="https://x.com/sama/status/1986917979343495650"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Analysis suggests the &lt;b&gt;DeepSeek moment&lt;/b&gt; revealed that talent density and organizational effectiveness may be bigger bottlenecks than training capital, with Chinese AI companies like Kimi, GLM, Ant Ling, and Meituan demonstrating competitive capabilities &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1987144343728058753"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Elon Musk predicts that a majority of AI workloads will shift to &lt;b&gt;diffusion models&lt;/b&gt;, with attention drawn to Inception Labs' foundational work in this area, noting that no single ML architecture has dominated for more than a decade in computing history &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987220649602130130"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;TechCrunch examines whether the AI hype cycle is becoming self-referential, analyzing SoftBank and OpenAI's new joint venture &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1986990921217372378"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Debate between Amjad Masad and Adam D'Angelo on whether current &lt;b&gt;LLM paradigm&lt;/b&gt; will achieve AGI, with D'Angelo arguing the paradigm has room for continued innovation while Masad questions if it represents a research bubble &lt;em&gt;&lt;a href="https://x.com/a16z/status/1986916722595799316"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Corporate IT departments' API permission decisions for AI tools often default to minimum settings without understanding business use cases for &lt;b&gt;reasoning, tools, or web search&lt;/b&gt;, significantly limiting AI value delivery in organizations with internal chatbots &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986923596388737162"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andrew Curran draws parallel between user-AI agent relationships and human-Fey folklore, noting users lead models into breaking rules while escaping blame when models face consequences &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1987224225107878405"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Kenton Varda highlights &lt;b&gt;MCP's advantage over OpenAPI&lt;/b&gt; in providing clear authentication mechanisms, addressing security concerns where OpenAPI's multiple auth options lack sufficient information for automated completion &lt;em&gt;&lt;a href="https://x.com/KentonVarda/status/1987208904724652273"&gt;@KentonVarda&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Pine AI tool automates phone calls for tasks like finding cheaper insurance, negotiating subscriptions, and handling IRS verification, charging only tips and a portion of savings achieved &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987020659252449607"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Simon Willison demonstrates using &lt;b&gt;GitHub Copilot&lt;/b&gt; to update pricing information by pasting a screenshot into a GitHub Issue and assigning it to the AI, showcasing practical automation of documentation tasks &lt;em&gt;&lt;a href="https://x.com/simonw/status/1986905720672166030"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Arav Srinivas suggests Google's &lt;b&gt;Comet&lt;/b&gt; product has potential to deprecate Android, indicating significant platform disruption possibilities &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1987190114855100816"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ted Xiao announces departure from Google DeepMind after 8 years of pioneering work in &lt;b&gt;general-purpose robot learning&lt;/b&gt;, highlighting evolution from end-to-end learning on arm farms to foundation models for robotics including SayCan, &lt;b&gt;RT-1&lt;/b&gt;, and &lt;b&gt;RT-2&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/xiao_ted/status/1986906891541532960"&gt;@xiao_ted&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research on &lt;b&gt;AI agents and human collaboration&lt;/b&gt; shows current agents are fast but lack strength for independent task completion, approaching problems too programmatically; however, combining human and AI input resulted in performance gains with agents delivering results &lt;b&gt;88.3% faster and costing 90.4-96.2% less&lt;/b&gt; than humans alone &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987151826613833984"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Jeff Dean highlights new approach for &lt;b&gt;continual learning&lt;/b&gt; using nested optimization for enhancing long context processing &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1986938111839129858"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;EMNLP 2025 Best Paper Award goes to "Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index" by researchers from University of Washington and Allen Institute for AI &lt;em&gt;&lt;a href="https://x.com/emnlpmeeting/status/1986922316643651775"&gt;@emnlpmeeting&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-08</guid>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-07</title>
       <link>https://sumbird.ir/en/news/2025-11-07</link>
@@ -952,41 +991,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-20</guid>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-10-19</title>
-      <link>https://sumbird.ir/en/news/2025-10-19</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Google AI Studio ships a brand new API key and Projects page with improved project management and quality of life features like naming API keys &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1979960883456491795"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Francois Chollet argues that over &lt;b&gt;$1T of investment&lt;/b&gt; is riding on the belief that AGI is imminent, with current spending of $10-15 to make $1, requiring dramatically better tech within 3-5 years to justify datacenter investments &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1979981471571222679"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity AI's traffic share continues to rise despite new competitors, impressively beating out &lt;b&gt;Grok&lt;/b&gt; in market performance &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/1979993226099732857"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developers are using &lt;b&gt;vibe coding apps&lt;/b&gt; to algorithmically trade on stock and crypto markets with 2-10x leverage, making up to 50% monthly returns, representing an unexpected democratization of algo trading through AI &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1979968155075461330"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Chollet suggests Adobe is undervalued due to incorrect GenAI disruption narrative, maintaining steady 10% revenue growth and likely to benefit from GenAI as a tailwind rather than threat &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1979988767307075755"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Amanda Askell expresses concern about AI romantic relationships, noting they could make users vulnerable to AI companies and represent a challenging area to navigate responsibly &lt;em&gt;&lt;a href="https://x.com/AmandaAskell/status/1979694401535570151"&gt;@AmandaAskell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;TechCrunch clarifies that &lt;b&gt;GPT-5&lt;/b&gt; did not actually solve previously unsolved math problems, addressing misinformation about AI capabilities &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1979985940522143906"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ethan Mollick demonstrates AI's capability by recreating W.H. Auden's 1941 "Hardest Class in the Humanities" as an annotated website with 6,000 pages of reading material using just 4 prompts, a task that would have taken hours manually &lt;em&gt;&lt;a href="https://x.com/emollick/status/1979689783485161728"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Warehouse automation uses fine-tuned &lt;b&gt;Gemini 2.5 Flash&lt;/b&gt; vision models to verify containers on conveyor belts carry expected items, providing significant cost savings over &lt;b&gt;2.5 Pro&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/simonw/status/1979932820282679731"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Shopify deploys fine-tuned vision LLMs based on &lt;b&gt;LlaVA 1.5 7B&lt;/b&gt;, &lt;b&gt;LLaMA 3.2 11B&lt;/b&gt;, and &lt;b&gt;Qwen2VL 7B&lt;/b&gt; to process product photos at scale &lt;em&gt;&lt;a href="https://x.com/simonw/status/1979937902487376167"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;v0 achieves sub-500ms response times for real-time UI updates using fine-tuned models specialized for their Next.js stack &lt;em&gt;&lt;a href="https://x.com/simonw/status/1979683876865036743"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;MIT CSAIL shares a comprehensive machine learning algorithms cheat sheet resource for researchers and practitioners &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1979940689124180204"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford researcher advocates for AI research agents that focus on boosting human research through reliable everyday tasks like proofs, arguments, and code writing, rather than attempting to replace graduate students or faculty &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1979911895155900588"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nathan Lambert seeks latest advancements in &lt;b&gt;decentralized AI training&lt;/b&gt;, mentioning Prime Intellect's run, Nous Research's efforts, and Google's multi-datacenter approaches &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1979928511864299920"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-19</guid>
-      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
