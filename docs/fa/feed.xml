@@ -8,9 +8,50 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Sun, 09 Nov 2025 06:00:31 +0330</lastBuildDate>
-    <pubDate>Sun, 09 Nov 2025 06:00:31 +0330</pubDate>
+    <lastBuildDate>Mon, 10 Nov 2025 00:33:12 +0330</lastBuildDate>
+    <pubDate>Mon, 10 Nov 2025 00:33:12 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-11-09</title>
+      <link>https://sumbird.ir/fa/news/2025-11-09</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI به‌صورت جزئی &lt;b&gt;GPT-5-Codex-Mini&lt;/b&gt; را منتشر کرد؛ مدل جدیدی که هنوز دسترسی API ندارد و فقط از طریق اپلیکیشن کدمان لاین (CLI) کادکس آن‌ها برای وظایف تولید کد قابل دسترسی است &lt;em&gt;&lt;a href="https://x.com/simonw/status/1987363826770321439"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;کریس لتنر، خالق سوئیفت (Swift) و موجو (Mojo)، با طراحی زبان‌های برنامه‌نویسی جدید به‌طور خاص برای مدل‌های زبان بزرگ (LLM) مخالفت می‌کند و پیشنهاد می‌دهد که زبان‌های فعلی برای توسعه‌ی مبتنی بر هوش مصنوعی کافی هستند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1987503141034590611"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تک‌کرانچ (TechCrunch) بررسی می‌کند که آیا «چرخه‌ی هیاهوی هوش مصنوعی» (&lt;b&gt;AI hype cycle&lt;/b&gt;) در حال از بین بردن خود است یا خیر، و سرمایه‌گذاری مشترک جدید سافت‌بانک (SoftBank) و OpenAI را به‌عنوان یک مورد مطالعاتی تحلیل می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1987562198374265080"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT Technology Review گزارش می‌دهد که «انرژی» در توسعه‌ی هوش مصنوعی حرف اول را می‌زند (&lt;b&gt;energy is king&lt;/b&gt;)، و آمریکا در این رقابت زیرساخت حیاتی عقب مانده است &lt;em&gt;&lt;a href="https://x.com/techreview/status/1987562487508500947"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل ماهانه ۱۰ به توان ۱۵ توکن تولید می‌کند، که معادل تولید محتوای اینترنتی با کیفیت بالا به‌صورت هفتگی است، و با نرخ رشد فعلی تا می ۲۰۳۲ از کل گفتار بشر در طول تاریخ فراتر خواهد رفت &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987424083324379378"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;رید هافمن تاکید می‌کند که متخصصان فناوری موظفند فناوری‌هایی بسازند که «عاملیت انسانی» (&lt;b&gt;human agency&lt;/b&gt;) را گسترش دهد، نه اینکه آن را از بین ببرد، و رویکردی متعادل بین شتاب‌بخشی و هدایت متفکرانه را ترویج می‌کند &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1987560603737604324"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آهنگ‌های ضد مهاجر تولید شده توسط هوش مصنوعی، ۱۰ آهنگ برتر پربازدید اسپاتیفای هلند را تسخیر کرده‌اند، که گفته می‌شود ۸ آهنگ از این ۱۰ آهنگ توسط مزرعه‌ی ربات‌ها (bot farms) تقویت شده‌اند، و نگرانی‌هایی را در مورد دستکاری پلتفرم‌های فرهنگی توسط هوش مصنوعی ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987572015692488915"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گرگلی اوروس (Gergelyorosz) هشدار می‌دهد که «هذیان‌گویی مدل‌های زبان بزرگ» (&lt;b&gt;LLM hallucinations&lt;/b&gt;) نیازمند اعتبارسنجی مداوم است، و مثالی را به اشتراک گذاشته که در آن کلاد (Claude) جملاتی ساختگی را نقل کرده که در متن ورودی وجود نداشته‌اند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1987525246727889103"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;واترمارک سورا (Sora) اوپن‌ای‌آی اکنون شامل یک «شناسه‌ی حساب» (&lt;b&gt;account identifier&lt;/b&gt;) است، که به محتوای تولید شده‌ی قبلی نیز به‌صورت گذشته‌نگر اعمال می‌شود &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1987577961030250772"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلسون (Simon Willison) نشان می‌دهد که چگونه MCP از قابلیت ثبت پویای کلاینت (Dynamic Client Registration) اوآوت (OAuth) استفاده می‌کند، این اولین باری است که این قابلیت کم‌تر شناخته شده در نرم‌افزارهای پرکاربرد به کار گرفته شده است &lt;em&gt;&lt;a href="https://x.com/simonw/status/1987329464695726197"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ارزیابی‌ها نشان می‌دهد که «کیمی K2 تینکینگ» (&lt;b&gt;Kimi K2 Thinking&lt;/b&gt;) در وظایف پشتیبانی مشتری مبتنی بر عامل (agentic) با «GPT-5» (&lt;b&gt;GPT-5&lt;/b&gt;) هم‌سطح عمل می‌کند، و هیچ مدل زبان بزرگ دیگری به این سطح از قابلیت‌های هماهنگی و استدلال نرسیده است &lt;em&gt;&lt;a href="https://x.com/omarsar0/status/1987536982776676651"&gt;@omarsar0&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کیمی K2 تینکینگ توکن‌های فکری به‌مراتب بیشتری نسبت به سایر مدل‌ها تولید می‌کند؛ برای پرس‌وجوهای ساده‌ای مانند «یک جمله‌ی واقعاً خوب درباره‌ی پنیر بنویس» ۱۵۹۵ توکن تولید می‌کند، در حالی که دیپ‌سیک (DeepSeek) ۱۱۰ توکن تولید می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987286609713107261"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهش‌ها نشان می‌دهد که ارائه‌ی «راهنمایی LLM» (&lt;b&gt;LLM guidance&lt;/b&gt;) به دانشجویان نسل اول دانشگاه، شکاف در درک قوانین نانوشته برای موفقیت تحصیلی را به‌طور چشمگیری کاهش می‌دهد، مانند ارزش کارآموزی‌ها و کلوپ‌های دانشجویی &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987399908924498032"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کلاد کد (Claude Code) با موفقیت چندین برنامه‌ی کوچک را که در ابتدا با «GPT-4» (&lt;b&gt;GPT-4&lt;/b&gt;) ساخته شده بودند، سازماندهی، بهبود و به‌روزرسانی کرد، که مرزهای در حال حرکت قابلیت‌های کدنویسی هوش مصنوعی را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987590146980565092"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلسون ابزار کدمان لاین (CLI) کادکس اوپن‌ای‌آی را هک کرد تا یک دستور اعلان (prompt) جدید اضافه کند، که دسترسی به مدل‌های خصوصی را امکان‌پذیر می‌سازد و به این ابزار اجازه می‌دهد خود را مهندسی معکوس و گسترش دهد &lt;em&gt;&lt;a href="https://x.com/simonw/status/1987364820795211871"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پرپلکسیتی (Perplexity) دعوت‌نامه‌های دسترسی زودهنگام به کامت اندروید (Comet Android) را اعلام کرد، و کاربران را بر اساس میزان استفاده از اندروید و وضعیت اشتراک پرو/مکس اولویت‌بندی می‌کند &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1987370157166240165"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;اتان مولیک نگرانی‌هایی را درباره‌ی کمبود سازوکارهای آکادمیک برای پذیرش، بررسی و انتشار افزایش ناگهانی احتمالی «اکتشافات علمی تولید شده توسط هوش مصنوعی» (&lt;b&gt;AI-generated scientific discoveries&lt;/b&gt;) مطرح می‌کند، و این سوال را مطرح می‌کند که چه کسی هزاران مقاله‌ی جدید را خواهد خواند، ادغام خواهد کرد و بر اساس آن‌ها کار خواهد کرد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987400807138947136"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحلیل‌ها نشان می‌دهد که در حالی که هوش مصنوعی در برخی حوزه‌ها می‌تواند علم نوآورانه انجام دهد، وظایفی که نیازمند ادغام و نظریه‌پردازی در گستره‌ی وسیعی از دانش هستند، همچنان فراتر از مرزهای کنونی باقی می‌مانند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987402923194667398"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مقایسه‌ی مدل‌های هوش مصنوعی در پرامپت‌های مربوط به مداخلات تاریخی نشان می‌دهد که حتی مدل‌های چینی نیز تنها مداخلات غربی و خاورمیانه‌ای را پیشنهاد کرده‌اند، در حالی که هیچ کدام از گزینه‌ها در آسیا، آفریقا یا آمریکا را انتخاب نکرده‌اند، با وجود اینکه در ردیابی‌های فکری خود آن‌ها را در نظر گرفته بودند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987601591751381458"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;نقدی پیشنهاد می‌کند که «DPO» (بهینه‌سازی ترجیح مستقیم) (&lt;b&gt;DPO&lt;/b&gt; - Direct Preference Optimization) یک مقاله‌ی «شتاب‌گریز» (decelerationist) مؤثر بوده است، که باعث شده منابع آکادمیک به جای ساخت زیرساخت برای گرادیان‌های سیاست در مقیاس بزرگ، بر روی انواع آن تمرکز کنند &lt;em&gt;&lt;a href="https://x.com/kalomaze/status/1987343116966527140"&gt;@kalomaze&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-09</guid>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-11-08</title>
       <link>https://sumbird.ir/fa/news/2025-11-08</link>
@@ -945,53 +986,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-21</guid>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-10-20</title>
-      <link>https://sumbird.ir/fa/news/2025-10-20</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;آنتروپیک (Anthropic) &lt;b&gt;کلود برای علوم زیستی&lt;/b&gt; (Claude for Life Sciences) را با رابط‌های جدید برای ابزارهای علمی مانند Benchling، PubMed و Synapse.org، به‌علاوه‌ی قابلیت‌های عامل (Agent Skills) برای دنبال کردن پروتکل‌های علمی به شکلی پایدار و یکنواخت معرفی کرد &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1980308459368436093"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آنتروپیک &lt;b&gt;کلود کد&lt;/b&gt; (Claude Code) را برای وب و iOS منتشر کرد، که به کاربران امکان می‌دهد وظایف کدنویسی را بدون نیاز به باز کردن ترمینال واگذار کنند &lt;em&gt;&lt;a href="https://x.com/claudeai/status/1980337282323452300"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;DeepSeek یک &lt;b&gt;مدل OCR 3B&lt;/b&gt; جدید عرضه کرد که برای بهره‌وری توکن بهینه‌سازی شده و قادر به پردازش بیش از ۲۰۰ هزار صفحه در روز بر روی A100-40G است &lt;em&gt;&lt;a href="https://x.com/reach_vb/status/1980170192392270227"&gt;@reach_vb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Veo 3.1&lt;/b&gt; گوگل با جهشی ۳۰ امتیازی نسبت به Veo 3.0، در هر دو جدول رده‌بندی تبدیل متن به ویدئو و تصویر به ویدئو در رتبه‌ی اول قرار گرفت و به اولین مدلی تبدیل شد که در تاریخ Video Arena امتیاز ۱۴۰۰ را پشت سر می‌گذارد &lt;em&gt;&lt;a href="https://x.com/arena/status/1980319296120320243"&gt;@arena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل قابلیت‌های جدید ویرایش دقیق را برای &lt;b&gt;Veo&lt;/b&gt; معرفی کرد که امکان افزودن یا حذف عناصر از صحنه‌های ویدئویی را فراهم می‌کنند، در حالی که یکپارچگی ویدئوی اصلی حفظ می‌شود &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1980261047836508213"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;داریو آمودی، مدیر عامل Anthropic، اظهار داشت که آن‌ها می‌خواهند «درصد قابل توجهی از تمام کارهای علوم زیستی در جهان بر روی &lt;b&gt;کلود&lt;/b&gt; اجرا شود» و معتقد است که ما در حال نزدیک شدن به نقطه‌ی عطفی برای پیشرفت‌های بیولوژیکی مدل‌های زبان بزرگ (LLM) هستیم &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1980307249924071678"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل انتظار دارد که تا پایان سال، داروهای طراحی‌شده با هوش مصنوعی را وارد آزمایش‌های بالینی کند، که نشان‌دهنده‌ی پیشرفت سریع در کاربردهای هوش مصنوعی در صنعت داروسازی است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1980307255846404166"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI محدودیت‌های کپی‌رایت &lt;b&gt;Sora&lt;/b&gt; را تشدید کرد، پس از آنکه برایان کرانستون، ستاره‌ی Breaking Bad، خود را در نسل‌های &lt;b&gt;Sora 2&lt;/b&gt; دید و با SAG-AFTRA تماس گرفت که منجر به بیانیه‌ی مشترکی در مورد حفاظت از صدا و شباهت شد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1980361605050429836"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;قطعی بزرگ AWS بر بسیاری از سرویس‌های هوش مصنوعی از جمله Perplexity تأثیر گذاشت، که نشان‌دهنده‌ی وابستگی‌های زیرساختی در استقرار هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1980172632600506579"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;رید هافمن بر اهمیت حمایت از «افراد خوب» در حوزه‌ی هوش مصنوعی تأکید کرد و به طور خاص Anthropic، مایکروسافت، گوگل و OpenAI را به خاطر استقرار هوش مصنوعی به شیوه‌ای متفکرانه و ایمن ستود &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1980275162034704550"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;SAG-AFTRA، OpenAI، برایان کرانستون و آژانس‌های استعدادیابی با یکدیگر همکاری می‌کنند تا از حفاظت صدا و شباهت در &lt;b&gt;Sora 2&lt;/b&gt; اطمینان حاصل کنند، به دنبال نگرانی‌ها در مورد استفاده‌ی غیرمجاز از شباهت بازیگران &lt;em&gt;&lt;a href="https://x.com/sagaftra/status/1980319140763099374"&gt;@sagaftra&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گرگلی اوروس (Gergelyorosz) به پدیده‌ی حساب‌های ناشناسی اشاره می‌کند که در رسانه‌های اجتماعی، پاسخ‌های تولیدشده با هوش مصنوعی را منتشر می‌کنند و متذکر می‌شود که فراگیر شدن هوش مصنوعی چگونه به کاهش اعتماد و تجربه‌ی بدتر در رسانه‌های اجتماعی منجر می‌شود &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1980212408674345361"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;رید هافمن هشدار می‌دهد که مکالمات مربوط به ایمنی هوش مصنوعی را به کلیشه‌ها یا زنگ‌های خطر محدود نکنیم و بر لزوم گفت‌وگوی متفکرانه در مورد استفاده‌ی مسئولانه از هوش مصنوعی برای میلیاردها انسانی که زندگی‌شان با هوش مصنوعی تغییر خواهد کرد، تأکید می‌کند &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1980275169449935347"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;شرکت‌هایی مانند Sanofi، AbbVie و Novo Nordisk هم‌اکنون از &lt;b&gt;کلود&lt;/b&gt; برای تحقیقات علوم زیستی از مراحل اولیه‌ی کشف تا تجاری‌سازی استفاده می‌کنند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1980308462749000091"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sierra با R1 شریک شد تا فناوری هوش مصنوعی را به کار گیرد برای خودکارسازی بیش از ۴۰ میلیون تماس در سال با بیماران و پرداخت‌کنندگان هزینه‌ها در مدیریت درآمد مراقبت‌های بهداشتی &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1980271129894977672"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل ترکیب &lt;b&gt;Veo 3.1&lt;/b&gt; با &lt;b&gt;Nano Banana&lt;/b&gt; را به نمایش گذاشت برای تنظیم دقیق لباس، مدل مو و پس‌زمینه‌ی شخصیت‌های ویدئویی پیش از تولید ویدئوهای نهایی &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1980331099407737252"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سایمون ویلسون (Simon Willison) با موفقیت مدل OCR DeepSeek را بر روی سخت‌افزار NVIDIA Spark مستقر کرد، با استفاده از &lt;b&gt;Claude Code&lt;/b&gt; به عنوان روت، که جریان‌های کاری عملی استقرار مدل هوش مصنوعی را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/simonw/status/1980325095550914602"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;TechCrunch در مورد OpenEvidence، پلتفرمی که بر اساس مقالات پزشکی JAMA و New England Journal of Medicine آموزش دیده است، گزارش می‌دهد و به متخصصان پزشکی تأییدشده کمک می‌کند تا به سرعت به دانش پزشکی موجود برای درمان بیماران دسترسی پیدا کنند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1980291322234741026"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ایتان مالیک (Ethan Mollick) قابلیت‌های شبیه‌سازی پیشرفته‌ی &lt;b&gt;Veo 3.1&lt;/b&gt; را به نمایش می‌گذارد و نشان می‌دهد که چگونه می‌تواند سناریوهای جدید فیزیکی مانند «سه کشتی اسباب‌بازی، یکی از آهن، یکی از چوب و دیگری از شکر، که در آب می‌افتند» را با دینامیک‌های شگفت‌انگیز دقیق مدیریت کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1980126684306424155"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کارپاتی (Karpathy) تفاوت‌های اساسی بین رویکردهای خودرگرسیو (autoregressive) و انتشار (diffusion) در هوش مصنوعی را توضیح می‌دهد و اشاره می‌کند که انتشار از توجه دوطرفه (bidirectional attention) برای بازسازی مکرر بوم توکن (token canvas) استفاده می‌کند، در حالی که خودرگرسیون توکن‌ها را به صورت متوالی اضافه می‌کند &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1980347971935068380"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ناتان لمبرت (Nathan Lambert) مقاله‌ی ScaleRL را بررسی می‌کند و مؤلفه‌های کلیدی برای مقیاس‌پذیری یادگیری تقویتی را برجسته می‌کند: نمونه‌برداری با اهمیت (importance sampling)، به‌روزرسانی‌های حین اجرا (in-flight updates) و دسته‌بندی پیوسته (continuous batching) &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1980296133810557373"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;دیلیپ جورج (Dileep George) استدلال می‌کند که مقیاس‌بندی مدل‌های زبان بزرگ (LLM) و مدل‌های چندوجهی کنونی (VLM) به هوش عمومی مصنوعی (AGI) منجر نخواهد شد و دوران کنونی هوش مصنوعی را با دوران کشتی‌های هوایی در هوانوردی مقایسه می‌کند که در آن مهندسان به جای حل مسائل بنیادی، بر مقیاس‌بندی تمرکز کرده بودند &lt;em&gt;&lt;a href="https://x.com/dileeplearning/status/1980351313088266432"&gt;@dileeplearning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;امولیک (Emollick) بحث می‌کند که چگونه عامل‌های هوش مصنوعی (AI agents) هزینه‌های تراکنش و مشکلات نمایندگی (agency problems) را به شدت تغییر خواهند داد، با پیامدهایی برای نحوه‌ی سازماندهی بازارها و شرکت‌ها، حتی با عامل‌های ناقصی که صرفاً موانع جمع‌آوری اطلاعات را کاهش می‌دهند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1980299018220753290"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فرانسوا شوله (Francois Chollet) GPTQ را به عنوان یک روش کوانتیزاسیون پس از آموزش (post-training quantization) توضیح می‌دهد که مدل‌ها را با استفاده از روش‌های مرتبه‌ی دوم، لایه به لایه به int4 فشرده می‌کند و اکنون در Keras 3 تعبیه شده است &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1980343806265552918"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Berkeley AI، ECHO را معرفی می‌کند؛ یک معیار جدید تولید تصویر «در محیط واقعی» (in-the-wild) که مدل‌های جدید تصویر و موارد استفاده‌ی مورد بحث در رسانه‌های اجتماعی را که معیارهای قدیمی پوشش نمی‌دهند، آزمایش می‌کند &lt;em&gt;&lt;a href="https://x.com/aomaru_21490/status/1980318689481437653"&gt;@aomaru_21490&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthrogen Bio، Odyssey را معرفی کرد؛ یک مدل زبان پروتئین با ۱۰۲ میلیارد پارامتر که مکانیزم سلف-اتنشن (self-attention) را با معماری جدیدی جایگزین می‌کند و با هدف انتشار (diffusion objective) الهام‌گرفته از تکامل آموزش می‌بیند &lt;em&gt;&lt;a href="https://x.com/gustaf/status/1980315207634473358"&gt;@gustaf&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-20</guid>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
