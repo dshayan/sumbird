@@ -8,9 +8,50 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Nov 2025 06:00:26 +0330</lastBuildDate>
-    <pubDate>Sun, 09 Nov 2025 06:00:26 +0330</pubDate>
+    <lastBuildDate>Mon, 10 Nov 2025 00:33:08 +0330</lastBuildDate>
+    <pubDate>Mon, 10 Nov 2025 00:33:08 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-09</title>
+      <link>https://sumbird.ir/en/news/2025-11-09</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI partially released &lt;b&gt;GPT-5-Codex-Mini&lt;/b&gt;, a new model with no API access yet, accessible only through their Codex CLI app for code generation tasks &lt;em&gt;&lt;a href="https://x.com/simonw/status/1987363826770321439"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chris Lattner, creator of Swift and Mojo, argues against designing new programming languages specifically for LLMs, suggesting current languages are sufficient for AI-assisted development &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1987503141034590611"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;TechCrunch examines whether the &lt;b&gt;AI hype cycle&lt;/b&gt; is eating itself, analyzing SoftBank and OpenAI's new joint venture as a case study &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1987562198374265080"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT Technology Review reports that &lt;b&gt;energy is king&lt;/b&gt; in AI development, with the US falling behind in this critical infrastructure race &lt;em&gt;&lt;a href="https://x.com/techreview/status/1987562487508500947"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google generates 10^15 tokens monthly, equivalent to producing high-quality internet content every week, and at current growth rates will exceed all human speech in history by May 2032 &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987424083324379378"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Reid Hoffman emphasizes that technologists have an obligation to build technology that expands &lt;b&gt;human agency&lt;/b&gt; rather than eroding it, advocating for a balanced approach between acceleration and thoughtful steering &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1987560603737604324"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI-generated anti-immigrant songs dominate Dutch Spotify's viral top 10, with 8 of 10 songs allegedly boosted by bot farms, raising concerns about AI-driven manipulation of cultural platforms &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987572015692488915"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gergelyorosz warns that &lt;b&gt;LLM hallucinations&lt;/b&gt; require constant validation, sharing an example where Claude fabricated quotes that didn't exist in the input text &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1987525246727889103"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI's Sora watermark now includes an &lt;b&gt;account identifier&lt;/b&gt;, applied retroactively to previously generated content &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1987577961030250772"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Simon Willison demonstrates how MCP uses OAuth's Dynamic Client Registration feature, marking the first time this little-known feature has been deployed in widely used software &lt;em&gt;&lt;a href="https://x.com/simonw/status/1987329464695726197"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Evaluation shows &lt;b&gt;Kimi K2 Thinking&lt;/b&gt; performs on par with &lt;b&gt;GPT-5&lt;/b&gt; for agentic customer support tasks, with no other LLM reaching this level of orchestration and reasoning capabilities &lt;em&gt;&lt;a href="https://x.com/omarsar0/status/1987536982776676651"&gt;@omarsar0&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Kimi K2 Thinking produces significantly more thinking tokens than other models, generating 1,595 tokens for simple queries like "write me a really good sentence about cheese" compared to DeepSeek's 110 tokens &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987286609713107261"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research demonstrates that providing first-generation college students with &lt;b&gt;LLM guidance&lt;/b&gt; significantly closes the gap in understanding unwritten rules for academic success, such as the value of internships and student clubs &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987399908924498032"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claude Code successfully organized, improved, and updated multiple small programs originally created with &lt;b&gt;GPT-4&lt;/b&gt;, demonstrating the moving frontier of AI coding capabilities &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987590146980565092"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Simon Willison hacked OpenAI's Codex CLI tool to add a new prompt command, enabling access to private models and getting the tool to reverse-engineer and extend itself &lt;em&gt;&lt;a href="https://x.com/simonw/status/1987364820795211871"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity announces Comet Android early access invites, prioritizing users based on Android usage and Pro/Max subscription status &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1987370157166240165"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ethan Mollick raises concerns about academia's lack of mechanisms to accommodate, review, and disseminate a potential sudden increase in &lt;b&gt;AI-generated scientific discoveries&lt;/b&gt;, questioning who will read, integrate, and build upon thousands of new papers &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987400807138947136"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Analysis suggests that while AI doing novel science seems plausible in some fields, tasks requiring integration and theorizing across wide knowledge ranges remain further outside the current frontier &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987402923194667398"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Comparison of AI models on historical intervention prompts reveals that even Chinese models only suggested Western and Middle Eastern interventions, with none selecting options in Asia, Africa, or the Americas despite considering them in thinking traces &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987601591751381458"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Critique suggests that &lt;b&gt;DPO&lt;/b&gt; (Direct Preference Optimization) was an accidentally effective decelerationist paper, causing academic resources to focus on variants instead of building infrastructure for policy gradients at scale &lt;em&gt;&lt;a href="https://x.com/kalomaze/status/1987343116966527140"&gt;@kalomaze&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-09</guid>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-08</title>
       <link>https://sumbird.ir/en/news/2025-11-08</link>
@@ -944,53 +985,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-21</guid>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-10-20</title>
-      <link>https://sumbird.ir/en/news/2025-10-20</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic launches &lt;b&gt;Claude for Life Sciences&lt;/b&gt; with new connectors to scientific tools like Benchling, PubMed, and Synapse.org, plus Agent Skills for following scientific protocols consistently &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1980308459368436093"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic releases &lt;b&gt;Claude Code&lt;/b&gt; on web and iOS, allowing users to delegate coding tasks without opening terminal &lt;em&gt;&lt;a href="https://x.com/claudeai/status/1980337282323452300"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;DeepSeek releases a new &lt;b&gt;3B OCR model&lt;/b&gt; optimized for token efficiency and capable of scaling ~200K+ pages/day on A100-40G &lt;em&gt;&lt;a href="https://x.com/reach_vb/status/1980170192392270227"&gt;@reach_vb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google's &lt;b&gt;Veo 3.1&lt;/b&gt; ranks #1 in both Text-to-Video and Image-to-Video leaderboards with a +30-point leap from Veo 3.0, becoming the first model to break 1400 in Video Arena history &lt;em&gt;&lt;a href="https://x.com/arena/status/1980319296120320243"&gt;@arena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google introduces new precision editing capabilities for &lt;b&gt;Veo&lt;/b&gt; that allow adding or removing elements from video scenes while preserving original video integrity &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1980261047836508213"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic CEO Dario Amodei states they want "a meaningful percentage of all of the life science work in the world to run on &lt;b&gt;Claude&lt;/b&gt;" and believes we are approaching a tipping point for LLM biological breakthroughs &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1980307249924071678"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google expects to have AI-designed drugs in clinical trials by the end of the year, indicating rapid progress in AI pharmaceutical applications &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1980307255846404166"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI tightens copyright restrictions on &lt;b&gt;Sora&lt;/b&gt; after Breaking Bad star Bryan Cranston saw himself in &lt;b&gt;Sora 2&lt;/b&gt; generations and contacted SAG-AFTRA, leading to a joint statement on voice and likeness protections &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1980361605050429836"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Major AWS outage affects numerous AI services including Perplexity, highlighting infrastructure dependencies in AI deployment &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1980172632600506579"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Reid Hoffman emphasizes the importance of backing "the good guys" in AI, specifically praising Anthropic, Microsoft, Google, and OpenAI for deploying AI thoughtfully and safely &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1980275162034704550"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;SAG-AFTRA, OpenAI, Bryan Cranston, and talent agencies collaborate to ensure voice and likeness protections in &lt;b&gt;Sora 2&lt;/b&gt; following concerns about unauthorized use of actor likenesses &lt;em&gt;&lt;a href="https://x.com/sagaftra/status/1980319140763099374"&gt;@sagaftra&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gergelyorosz observes a trend of anonymous accounts posting AI-generated replies on social media, noting how AI going mainstream results in less trust and a worse social media experience &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1980212408674345361"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Reid Hoffman warns against reducing AI safety conversations to platitudes or alarm bells, emphasizing the need for thoughtful dialogue about responsible AI use for billions of people whose lives will be changed by AI &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1980275169449935347"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Companies like Sanofi, AbbVie, and Novo Nordisk are already using &lt;b&gt;Claude&lt;/b&gt; for life sciences research from early discovery through commercialization &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1980308462749000091"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sierra partners with R1 to apply AI technology for automating over 40 million calls per year to and from patients and payers in healthcare revenue management &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1980271129894977672"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google demonstrates combining &lt;b&gt;Veo 3.1&lt;/b&gt; with &lt;b&gt;Nano Banana&lt;/b&gt; for fine-tuning video character wardrobes, hairstyles, and backdrops before generating final videos &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1980331099407737252"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison successfully deploys DeepSeek's OCR model on NVIDIA Spark hardware using &lt;b&gt;Claude Code&lt;/b&gt; as root, demonstrating practical AI model deployment workflows &lt;em&gt;&lt;a href="https://x.com/simonw/status/1980325095550914602"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;TechCrunch reports on OpenEvidence, a platform trained on medical journals from JAMA and New England Journal of Medicine that helps verified medical professionals quickly get answers to existing medical knowledge for patient treatment &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1980291322234741026"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ethan Mollick demonstrates &lt;b&gt;Veo 3.1&lt;/b&gt;'s sophisticated simulation capabilities, showing it can handle novel physics scenarios like "three toy ships, one made of iron, wood, and sugar, falling into water" with surprisingly accurate dynamics &lt;em&gt;&lt;a href="https://x.com/emollick/status/1980126684306424155"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Karpathy explains the fundamental differences between autoregressive and diffusion approaches in AI, noting that diffusion uses bidirectional attention for iterative token canvas refreshing while autoregression appends tokens sequentially &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1980347971935068380"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nathan Lambert reviews the ScaleRL paper, highlighting key components for scaling reinforcement learning: importance sampling, in-flight updates, and continuous batching &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1980296133810557373"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Dileep George argues that scaling up LLMs and current VLMs will not lead to AGI, comparing the current AI era to the dirigibles era of aeronautics where engineers focused on scaling rather than solving fundamental problems &lt;em&gt;&lt;a href="https://x.com/dileeplearning/status/1980351313088266432"&gt;@dileeplearning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Emollick discusses how AI agents will drastically change transaction costs and agency problems, with implications for how markets and firms are organized, even with imperfect agents that simply lower barriers to information gathering &lt;em&gt;&lt;a href="https://x.com/emollick/status/1980299018220753290"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Francois Chollet explains GPTQ as a post-training quantization method that compresses models to int4 layer by layer using second-order methods, now built into Keras 3 &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1980343806265552918"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Berkeley AI introduces ECHO, a new in-the-wild image generation benchmark that tests new image models and use cases discussed on social media that old benchmarks don't cover &lt;em&gt;&lt;a href="https://x.com/aomaru_21490/status/1980318689481437653"&gt;@aomaru_21490&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthrogen Bio launches Odyssey, a 102B-parameter protein language model that replaces self-attention with a new architecture and trains with a diffusion objective inspired by evolution &lt;em&gt;&lt;a href="https://x.com/gustaf/status/1980315207634473358"&gt;@gustaf&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-20</guid>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
