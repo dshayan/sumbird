@@ -8,9 +8,57 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Nov 2025 06:00:37 +0330</lastBuildDate>
-    <pubDate>Tue, 11 Nov 2025 06:00:37 +0330</pubDate>
+    <lastBuildDate>Wed, 12 Nov 2025 00:39:05 +0330</lastBuildDate>
+    <pubDate>Wed, 12 Nov 2025 00:39:05 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-11</title>
+      <link>https://sumbird.ir/en/news/2025-11-11</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Baidu releases &lt;b&gt;ERNIE-4.5-VL-28B-A3B-Thinking&lt;/b&gt; with only 3B activated parameters, delivering top-tier visual performance across visual reasoning, STEM problem-solving, visual grounding, and video comprehension, with full compatibility with vLLM, Transformers, and FastDeploy &lt;em&gt;&lt;a href="https://x.com/ErnieforDevs/status/1988124764347752761"&gt;@ErnieforDevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor releases &lt;b&gt;Composer-1&lt;/b&gt; model showing significant improvements in coding capabilities, running approximately 4x faster than previous versions and demonstrating better performance on large codebases through improved file search functionality &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1988093157800874064"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gamma reaches over 100 million users and $100M ARR with only 50 employees, achieving $2M ARR per employee and a $2.1B valuation, demonstrating success through design-first principles and focus on user experience rather than being founded as an AI company &lt;em&gt;&lt;a href="https://x.com/a16z/status/1988283372947247104"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor CEO Michael Truell warns that the software automation market is still in early stages, comparing current progress to the iPod moment with multiple iPhone-level breakthroughs still ahead, cautioning executives against underestimating how far automation can go &lt;em&gt;&lt;a href="https://x.com/a16z/status/1988022546277822651"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;McKinsey data shows varying AI penetration rates across industries and business functions in 2025, with significant differences in adoption levels &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1988283116461715690"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meta AI demonstrates strong market performance according to Similarweb data &lt;em&gt;&lt;a href="https://x.com/alexandr_wang/status/1988305048175341651"&gt;@alexandr_wang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Organizations are successfully restructuring for AI by building small, high-agency, cross-functional teams combining senior engineers, subject matter experts, and product managers to experiment and build useful applications quickly, though large-scale coordination mechanisms are still lacking &lt;em&gt;&lt;a href="https://x.com/emollick/status/1988102325962240085"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SuperMe launches with $6.8M in funding led by Greylock to build an AI expert network focused on sharing knowledge from top 1% performers &lt;em&gt;&lt;a href="https://x.com/alexrkonrad/status/1988293990337441968"&gt;@alexrkonrad&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Companies using open-source AI coding tools report replacing seven figures worth of backoffice software by custom coding their own CRM, CMS, support tooling, and documentation platforms &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1988311123658190851"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Stanford HAI study reveals that leading AI companies feed user inputs back into their models to improve capabilities, with users often unable to opt out, raising significant privacy concerns &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1988037962626449888"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;New York Governor Kathy Hochul sends letter to all companies operating AI companions in New York, citing existing state laws regarding AI safety and consumer protection &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1988290235382591904"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Jeremy Howard warns that organizations going all-in on AI agents risk creating massive amounts of code that fewer people can understand, potentially leading to company obsolescence and arguing that outsourcing all thinking to computers prevents upskilling and learning &lt;em&gt;&lt;a href="https://x.com/math_rachel/status/1987981789265358937"&gt;@math_rachel&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mustafa Suleyman emphasizes the dual nature of AI understanding, stating that those who aren't amazed by AI don't truly understand it, and those who aren't afraid of it also don't truly understand it &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1988111942490415180"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Reid Hoffman advocates for governments to help AI companies deploy valuable tools like free medical assistants more quickly, rather than imposing regulations that hinder implementation of real use cases &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1988264427712385436"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft announces Project SPARROW using solar-powered cameras and AI to monitor biodiversity in remote ecosystems through their AI for Good Lab &lt;em&gt;&lt;a href="https://x.com/Microsoft/status/1987981085548990954"&gt;@Microsoft&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft Copilot launches healthcare navigation feature that answers medical questions using trusted sources like Harvard Health and helps users find nearby doctors based on specialty, gender, and language preferences &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1988340197285900452"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI announces 12 months of free ChatGPT Plus for eligible active duty servicemembers and veterans who have transitioned from service in the last 12 months &lt;em&gt;&lt;a href="https://x.com/gdb/status/1988306228146053412"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Datalab API now extracts redlines and comments from legal documents into clean markdown format, enabling better analysis with LLMs &lt;em&gt;&lt;a href="https://x.com/VikParuchuri/status/1988308412707586218"&gt;@VikParuchuri&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Aella project trains two custom models, &lt;b&gt;Aella-Nemotron-12b&lt;/b&gt; and &lt;b&gt;Aella-Qwen-14b&lt;/b&gt;, achieving frontier performance on extraction tasks at 98% lower cost &lt;em&gt;&lt;a href="https://x.com/samhogan/status/1988307826675249521"&gt;@samhogan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Research demonstrates that a multi-agent collaboration system using evolutionary test-time compute powered by &lt;b&gt;GPT-5 pro&lt;/b&gt; achieved human-level performance of 85% on ARC-AGI v1 for under $10k within 12 hours &lt;em&gt;&lt;a href="https://x.com/jerber888/status/1987982067116777521"&gt;@jerber888&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Study by K Arkoudas and S Batzoglou shows significant improvements in LLM reasoning capabilities in 2025, with current top models including &lt;b&gt;GPT-5&lt;/b&gt;, &lt;b&gt;Grok 4&lt;/b&gt;, and &lt;b&gt;Gemini 2.5 Pro&lt;/b&gt; demonstrating substantially better performance compared to &lt;b&gt;GPT-4o&lt;/b&gt; or &lt;b&gt;Llama 3&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/1988291522820030858"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research reveals that LLMs can produce calibrated confidence measures out-of-the-box in many settings, despite being notorious for hallucinating confident-sounding but incorrect answers &lt;em&gt;&lt;a href="https://x.com/PreetumNakkiran/status/1988059280793281016"&gt;@PreetumNakkiran&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;GDPval paper provides insights into AI's coming impact on knowledge work, particularly as agentic systems begin replacing traditional back-and-forth prompting workflows &lt;em&gt;&lt;a href="https://x.com/emollick/status/1988088613125714402"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft Research releases &lt;b&gt;BlueCodeAgent&lt;/b&gt;, an end-to-end blue-teaming framework that uses automated red-teaming processes, data, and safety rules to guide LLMs' defensive decisions, with dynamic testing reducing false positives in vulnerability detection &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1988305610798993697"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;New research proposes real-time reasoning paradigm for AI agents, addressing the limitation that current agents freeze the world while reasoning, enabling them to think deeply without missing ongoing changes &lt;em&gt;&lt;a href="https://x.com/BLeavesYe/status/1988255237636059321"&gt;@BLeavesYe&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Tesla AI demonstrates profound understanding of the world through its vision systems &lt;em&gt;&lt;a href="https://x.com/Tesla_AI/status/1988111965521408371"&gt;@Tesla_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Aria-Duet research accepted to NeurIPS 2025 Creative AI Track, representing collaborative work on creative AI applications &lt;em&gt;&lt;a href="https://x.com/AlexanderSpangh/status/1988052193774366731"&gt;@AlexanderSpangh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-11</guid>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-10</title>
       <link>https://sumbird.ir/en/news/2025-11-10</link>
@@ -924,66 +972,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-23</guid>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-10-22</title>
-      <link>https://sumbird.ir/en/news/2025-10-22</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Google announces breakthrough quantum algorithm &lt;b&gt;Quantum Echoes&lt;/b&gt; running on &lt;b&gt;Willow&lt;/b&gt; chip, achieving first-ever verifiable quantum advantage with 13,000x speedup over classical supercomputers for molecular interactions &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1981013746698100811"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;PyTorch releases &lt;b&gt;ExecuTorch 1.0&lt;/b&gt; enabling seamless deployment of PyTorch models to edge devices without conversion or rewriting &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1981050439358398699"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;PyTorch announces &lt;b&gt;torchcomms&lt;/b&gt; API for distributed programming supporting scalability, fault tolerance, and extensibility with collective communications backends &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1981065630989082978"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;PyTorch introduces &lt;b&gt;Helion&lt;/b&gt; kernel authoring language making custom kernel development feel like writing regular PyTorch code &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1981080641975329033"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Pokee AI releases &lt;b&gt;PokeeResearch-7B&lt;/b&gt; as state-of-the-art open-source deep research agent outperforming all other 7B deep research agents &lt;em&gt;&lt;a href="https://x.com/Pokee_AI/status/1981040897346179256"&gt;@Pokee_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI2 updates &lt;b&gt;olmOCR 2&lt;/b&gt; for converting PDFs and scans into clean text with support for tables, equations, and handwriting using synthetic data and unit tests &lt;em&gt;&lt;a href="https://x.com/allen_ai/status/1981029159267659821"&gt;@allen_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft announces upcoming announcement with teaser "This Thursday, it's time to set the record straight" at 9 AM PT &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1981057969669218658"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Bloomberg reports Anthropic in compute discussions with Google for deal valued in the "high tens of billions" &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1980757277755027950"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Alexandr Wang reportedly taking significant cuts to Meta's FAIR research division according to Axios reporting &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1980997765397430320"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis shows AI buildout could require massive infrastructure expansion, with explosive growth scenario leading to 2 trillion yearly AI CapEx by 2030 and global AI power draw twice US current electricity generation &lt;em&gt;&lt;a href="https://x.com/dwarkesh_sp/status/1981074799758921843"&gt;@dwarkesh_sp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hiring manager reports it's a red flag if software engineering candidates haven't experimented with vibe coding, indicating shift in industry expectations &lt;em&gt;&lt;a href="https://x.com/chipro/status/1981026306021072909"&gt;@chipro&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New tech job market increasingly resembles traditional white collar markets with referrals, references, pedigree, and thorough background checks becoming more important &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1980990082699194523"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Spotify launches hosted version of Backstage devtools product, though success uncertain given it's not their core focus &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1981010748286579027"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Coatue analysis suggests we're not in an AI bubble based on four metrics: P/E multiples nowhere near dot-com levels, CapEx funded by cash flow, lower tech valuations than 1999, and market concentration not necessarily negative &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1981028033869001149"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;a16z describes current period as "biggest infrastructure supercycle in history" building foundation of intelligence itself &lt;em&gt;&lt;a href="https://x.com/JenniferHli/status/1981047105167687684"&gt;@JenniferHli&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anish Acharya notes AI code development represents "not a market, it's an industry" with ability to ship ideas in a day, having built only 1% of needed software &lt;em&gt;&lt;a href="https://x.com/illscience/status/1981016251289014741"&gt;@illscience&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity becomes number one app in Brazil across all categories &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1980828949061222657"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Prominent figures including Richard Branson, Steve Wozniak, Yoshua Bengio, Geoffrey Hinton, and Stuart Russell sign statement calling for end to human efforts to create superintelligence until it can be done safely and controllably &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1980990682715287728"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Heidy Khlaaf calls Anthropic's DOE partnership to prevent Claude from building nuclear weapons "security theater," warning real risk is AI firms gaining access to national security data &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/1981054964626837806"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford study reveals leading AI companies are pulling user conversations for training, raising privacy concerns for chatbot users &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1980757006828073003"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison demonstrates prompt injection vulnerability in browser agent Fellou, showing it can be tricked into stealing data from user's Gmail account through malicious web page instructions &lt;em&gt;&lt;a href="https://x.com/simonw/status/1980759580255924592"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gergeły Orosz expresses security concerns about AI browsers, citing prompt injection vulnerabilities and unwillingness to trust them with sensitive data like email, banking, and passwords &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1981077205502325181"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI sends legal request to family of 16-year-old Adam Raine who died by suicide after ChatGPT conversations, asking for memorial attendee list and photos, which lawyers call "intentional harassment" &lt;em&gt;&lt;a href="https://x.com/CristinaCriddle/status/1981082612593807745"&gt;@CristinaCriddle&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Meta changes policies so OpenAI's 1-800-ChatGPT service won't work on WhatsApp after January 15, 2026 &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1980794846752436597"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrew Ng launches "Governing AI Agents" course with Databricks teaching data safety, security, and transparency for AI agent workflows including data access control and privacy protection &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1981056313661559155"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google DeepMind and UCL release free AI Research Foundations curriculum on Google Skills with lessons from Gemini leads on coding and model fine-tuning &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1980962352775176637"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini integrates with Android XR headsets providing real-time help across apps and games with ability to ask about surroundings &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1981049833013334070"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sierra's Cigna agent goes into production in under two months achieving 80% reduction in member authentication time &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1980790966455005682"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford develops T* model that rethinks long-form video understanding as temporal search, finding key information in video haystacks with just a few frames &lt;em&gt;&lt;a href="https://x.com/StanfordAILab/status/1981067533252972941"&gt;@StanfordAILab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Bryan Bischof creates semantic.art project demonstrating multiple vector representations for art search beyond traditional keyword search, illustrating limitations of single-embedding approaches &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1981058019250360595"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tesla reports Autopilot technology is approximately 9x safer than US average &lt;em&gt;&lt;a href="https://x.com/Tesla_AI/status/1981068477462126771"&gt;@Tesla_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Amazon develops delivery glasses providing drivers with detailed directions and hazard information directly in their line of sight to reduce delivery times &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1981067046226919823"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Multiple math professors confirm AI can solve some open mathematical problems with guidance, though not yet major breakthroughs, with models reaching "work with it like a grad student" levels for academic acceleration &lt;em&gt;&lt;a href="https://x.com/emollick/status/1980801216729759934"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick notes persistent confusion between data science/classical machine learning and generative AI both being called "AI," leading to muddled policy, corporate leadership, and academic discussions &lt;em&gt;&lt;a href="https://x.com/emollick/status/1981000395137921071"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;François Chollet states "All intelligence is generalization. The rest is just lookup" &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1981090981148864532"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Kaggle launches Chess Openings benchmark testing reasoning beyond memorization, with games starting from 20 popular openings to push models beyond learned patterns &lt;em&gt;&lt;a href="https://x.com/kaggle/status/1981043394005647455"&gt;@kaggle&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;IBM and University of Washington researchers release dataset of 1.5 million task scenarios on Hugging Face designed to improve agent interactions with the world &lt;em&gt;&lt;a href="https://x.com/IBMResearch/status/1981066891062817274"&gt;@IBMResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hamel Husain and Bryan Bischof organize Context Engineering hackathon measuring agent quality objectively through progressive evaluation disclosure to test skills beyond presentation &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1980755070183772621"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Survey data shows GenAI use among American workers fell to 36.7% in September from 45.6% in June, suggesting potential decline in adoption &lt;em&gt;&lt;a href="https://x.com/Jon_Hartley_/status/1980742482200822147"&gt;@Jon_Hartley_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-22</guid>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
