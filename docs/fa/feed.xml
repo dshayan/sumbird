@@ -8,9 +8,59 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Wed, 12 Nov 2025 06:00:34 +0330</lastBuildDate>
-    <pubDate>Wed, 12 Nov 2025 06:00:34 +0330</pubDate>
+    <lastBuildDate>Thu, 13 Nov 2025 01:27:47 +0330</lastBuildDate>
+    <pubDate>Thu, 13 Nov 2025 01:27:47 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-11-12</title>
+      <link>https://sumbird.ir/fa/news/2025-11-12</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI نسخه‌ی &lt;b&gt;GPT-5.1&lt;/b&gt; را منتشر کرد که شامل بهبودهایی در دنبال کردن دستورالعمل‌ها، قابلیت‌های تفکر تطبیقی، و تنظیمات از پیش‌تعیین‌شده برای لحن/سبک قابل سفارشی‌سازی از جمله گزینه‌های پیش‌فرض (Default)، دوستانه (Friendly)، کارآمد (Efficient)، حرفه‌ای (Professional)، رک (Candid) و عجیب (Quirky) است &lt;em&gt;&lt;a href="https://x.com/sama/status/1988692165686620237"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;World Labs پلتفرم هوش فضایی &lt;b&gt;Marble&lt;/b&gt; را منتشر کرد که به کاربران امکان می‌دهد دنیاهای سه‌بعدی دائمی را ایجاد و ویرایش کنند و گامی پیشگامانه در ساخت مدل‌های جهانی محسوب می‌شود &lt;em&gt;&lt;a href="https://x.com/theworldlabs/status/1988653082872631738"&gt;@theworldlabs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Weibo مدل استدلال‌کننده‌ی &lt;b&gt;VibeThinker 1.5B&lt;/b&gt; را منتشر کرد که تنها با ۷۸۰۰ دلار آموزش داده شده و با وجود ۱۰۰ برابر کوچک‌تر بودن، در معیارهای استدلال ریاضی (AIME24: 80.3 در برابر 79.8) از &lt;b&gt;DeepSeek R1&lt;/b&gt; بهتر عمل می‌کند &lt;em&gt;&lt;a href="https://x.com/WeiboLLM/status/1988109435902832896"&gt;@WeiboLLM&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic سرمایه‌گذاری ۵۰ میلیارد دلاری در زیرساخت‌های هوش مصنوعی آمریکا را اعلام کرد که شامل ساخت مراکز داده در تگزاس و نیویورک است و هزاران شغل ایجاد خواهد کرد &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1988624013849935995"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مایکروسافت دومین مرکز داده‌ی هوش مصنوعی &lt;b&gt;Fairwater&lt;/b&gt; را در آتلانتا رونمایی کرد که از طریق شبکه‌ی اختصاصی هوش مصنوعی به هم متصل شده‌اند تا یک «سوپرفکتوری» هوش مصنوعی ایجاد کنند که همکاری بی‌درنگ در بین ایالت‌ها را برای آموزش مدل‌های نسل بعدی ممکن می‌سازد &lt;em&gt;&lt;a href="https://x.com/Microsoft/status/1988653839692513419"&gt;@Microsoft&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;CoreWeave با تنها ده کارمند، به‌عنوان یک کسب‌وکار ۵۰ میلیارد دلاری فعالیت می‌کند و با فروش مجدد پردازنده‌های گرافیکی انویدیا به تنها سه مشتری – مایکروسافت (۷۱٪ درآمد)، OpenAI (۱۱.۹ میلیارد دلار تعهد در ۵ سال) و متا (۱۴.۲ میلیارد دلار تعهد در ۶ سال) – درآمد سالانه‌ی ۴.۸ میلیارد دلار ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1988441647517229330"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Magic Patterns با عدم استخدام هیچ کارمندی به درآمد ۱ میلیون دلار ARR دست یافت که نشان‌دهنده‌ی مدل‌های کسب‌وکار جدیدی است که توسط ابزارهای هوش مصنوعی امکان‌پذیر شده‌اند &lt;em&gt;&lt;a href="https://x.com/snowmaker/status/1988672065881403433"&gt;@snowmaker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فیگما اولین دفتر خود را در بنگالورو هند افتتاح کرد؛ جایی که تنها در سال گذشته ۳۵ میلیون فایل فیگما ایجاد شده است &lt;em&gt;&lt;a href="https://x.com/zoink/status/1988643456470888804"&gt;@zoink&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;هزینه‌ی جهانی مراکز داده در سال جاری به ۵۸۰ میلیارد دلار رسید که ۴۰ میلیارد دلار از سرمایه‌گذاری در عرضه‌ی نفت فراتر است و نشان‌دهنده‌ی تغییر عظیم زیرساختی به سمت هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1988703361491779968"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شرکت امنیت سایبری Deepwatch ده‌ها کارمند خود را اخراج کرد و دلیل آن را تسریع سرمایه‌گذاری در هوش مصنوعی اعلام کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1988699850150740041"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;مؤسسه‌ی AI Now گزارشی با عنوان «شکافت برای الگوریتم‌ها» منتشر کرد که تلاش‌ها برای تسریع توسعه‌ی هسته‌ای برای تأمین انرژی هوش مصنوعی را افشا می‌کند؛ از جمله استفاده از هوش مصنوعی مولد در صدور مجوزهای هسته‌ای در حالی که مقررات را تضعیف می‌کند &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/1988621636191318451"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;دادگاه آلمان رأی داد که OpenAI با آموزش مدل‌های زبانی بر روی آثار موسیقی دارای مجوز بدون اجازه، قانون کپی‌رایت را نقض کرده و دستور پرداخت خسارت را صادر کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1988692034756936105"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدیر ارشد امنیت اطلاعات OpenAI نامه‌ای منتشر کرد که در آن با درخواست نیویورک تایمز برای دسترسی بی‌رویه به ۲۰ میلیون مکالمه‌ی کاربران مخالفت می‌کند و با توجه به ماهیت حساس مکالمات هوش مصنوعی، به لزوم «امتیاز هوش مصنوعی» مشابه امتیاز وکیل و موکل استدلال می‌کند &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1988611982216572978"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پدرو سانچز، نخست‌وزیر اسپانیا، در مجمع جهانی اقتصاد ۲۰۲۵ خواستار پایان ناشناس ماندن آنلاین شد و خواستار این شد که هر حساب کاربری رسانه‌ی اجتماعی به «کیف پول شناسه دیجیتال اتحادیه‌ی اروپا» متصل شود، که نگرانی‌هایی را در مورد نظارت دیجیتال ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/JimFergusonUK/status/1988514762896855155"&gt;@JimFergusonUK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;رهبران Stanford HAI بر اهمیت علم باز در هوش مصنوعی تأکید می‌کنند و در مورد خطرات دانش خصوصی‌شده‌ی هوش مصنوعی از جمله از دست دادن تبادل ایده‌ها، تکرارپذیری، مشارکت جهانی و خط لوله‌ی استعدادها هشدار می‌دهند &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1988683792295297534"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;مایکروسافت «پروژه‌ی گکو» را معرفی کرد که تخصص هوش مصنوعی مقرون‌به‌صرفه را با استفاده از مدل‌های زبانی کوچک و سیستم‌های گفتاری به مزارع کوچک در هند و شرق آفریقا ارائه می‌دهد و کاربردهای هوش مصنوعی با ظرافت‌های فرهنگی برای جمعیت‌های محروم را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1988578258741281146"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهشگران استنفورد ابزار آموزشی هوش مصنوعی برای درمانگران PTSD ساختند تا مهارت‌های درمان از طریق مواجهه‌ی نوشتاری را ۲۴ ساعته و ۷ روز هفته قبل از کار با بیماران واقعی تمرین کنند و شکاف بین نیاز بیماران و آموزش درمانگران را برطرف سازند &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1988351863188488237"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شهردار سن خوزه فاش کرد که چگونه هوش مصنوعی در حال دگرگونی خدمات شهری است، از بهینه‌سازی ترافیک گرفته تا ترجمه‌ی بی‌درنگ جلسات عمومی &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1988683924365844834"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Waymo خدمات خود را به کل شبه‌جزیره‌ی منطقه‌ی خلیج سان فرانسیسکو، از سان فرانسیسکو تا سن خوزه، گسترش داد و اکنون مسافران را در بزرگراه‌ها جابجا می‌کند &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1988674389773357077"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل با Cassava Technologies همکاری می‌کند تا دسترسی بدون داده به «اپلیکیشن Gemini» و یک دوره‌ی آزمایشی ۶ ماهه‌ی طولانی‌تر از Google AI Plus را در آفریقا ممکن سازد &lt;em&gt;&lt;a href="https://x.com/joshwoodward/status/1988369833352946096"&gt;@joshwoodward&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ElevenLabs با افراد مشهور قراردادهایی را برای ایجاد صوت‌های هوش مصنوعی منعقد کرد و کاربردهای سنتز صدا را گسترش داد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1988698724345000327"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugging Face مجموعه‌داده‌ی باکیفیت &lt;b&gt;FinePDF-edu&lt;/b&gt; را منتشر کرد که شامل ۳۵۰ میلیارد توکن در ۶۹ زبان است و با استفاده از طبقه‌بندی‌کننده‌های &lt;b&gt;Qwen3-235B&lt;/b&gt; و &lt;b&gt;ModernBERT&lt;/b&gt; فیلتر شده است و در معیارهای عملکردی، بهتر از مجموعه‌داده‌های پیشین پیش‌آموزش عمل می‌کند &lt;em&gt;&lt;a href="https://x.com/Thom_Wolf/status/1988517370068074915"&gt;@Thom_Wolf&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهش‌های Google DeepMind به مدل‌های بینایی آموزش می‌دهد تا مفاهیم بصری را به صورت سلسله‌مراتبی بهتر سازماندهی کنند و آن‌ها را در تعمیم‌پذیری در دسته‌های مختلف قابل اعتمادتر سازد &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1988653691944231148"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sakana AI استفاده از «شبیه‌سازی تفکر» (Thought Cloning) با ویدئوهای یوتیوب را برای بهبود قابلیت‌های استدلال مدل‌های زبان بزرگ (LLM) نشان داد &lt;em&gt;&lt;a href="https://x.com/shengranhu/status/1988422695109935606"&gt;@shengranhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهشگران استنفورد MRI‌های مصنوعی مغز را با استفاده از هوش مصنوعی مولد ایجاد کردند تا علوم اعصاب محاسباتی و درک اختلالات مغزی را تسریع بخشند &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1988638967835529363"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهش بر روی &lt;b&gt;LeJEPA&lt;/b&gt; یک پارادایم نوین پیش‌آموزش را معرفی می‌کند که عاری از ابتکارات سنتی است و بیش از ۶۰ معماری تا ۲ میلیارد پارامتر را در بیش از ۱۰ مجموعه‌داده با همبستگی ۹۵ درصدی بین افت آموزش و عملکرد آزمون بررسی می‌کند &lt;em&gt;&lt;a href="https://x.com/randall_balestr/status/1988634269351022781"&gt;@randall_balestr&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایثان مولیک نشان داد که مدل‌های مختلف هوش مصنوعی نگرش‌های متفاوتی نسبت به وظایف یکسان از خود نشان می‌دهند، به طوری که مدل‌ها قابلیت اجرای ایده‌ها را بر اساس آموزش‌های خود به طور متفاوتی ارزیابی می‌کنند، که بر اهمیت درک تفاوت‌های شخصیتی هوش مصنوعی تأکید می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1988629297104380314"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;داده‌های Cursor AI نشان می‌دهد که توسعه‌دهندگان مدل‌هایی مانند &lt;b&gt;Sonnet 4.5&lt;/b&gt; و &lt;b&gt;GPT-5&lt;/b&gt; را برای کارهای برنامه‌ریزی ترجیح می‌دهند و تغییرات قابل توجهی در ترجیحات مدل‌ها طی شش ماه گذشته مشاهده شده است &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/1988702175544201353"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آندری کارپاتی گزارش داد که نسخه‌ی ۱۳ سیستم رانندگی کاملاً خودکار (FSD) تسلا بر روی سخت‌افزار ۴، رانندگی بی‌نقصی را در محله‌ها با عملکرد روان و مطمئن ارائه می‌دهد که از سناریوهای پیچیده‌ای از جمله مسیرهای باریک، عملیات ساخت‌وساز، گردش به چپ‌های دشوار و پارک خودکار به خوبی عبور می‌کند &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1988705360723763242"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سخنرانی آشیش واسوانی در ICCV25 رویکرد تسلا را در پردازش جریان‌های حسگر در زمینه‌های طولانی از طریق شبکه‌های عصبی بزرگ برای رانندگی سرتاسری آشکار می‌کند که نشان‌دهنده‌ی بازنویسی کامل از Software 1.0 به Software 2.0 است &lt;em&gt;&lt;a href="https://x.com/aelluswamy/status/1981"&gt;@aelluswamy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-12</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-11-11</title>
       <link>https://sumbird.ir/fa/news/2025-11-11</link>
@@ -926,53 +976,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-24</guid>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-10-23</title>
-      <link>https://sumbird.ir/fa/news/2025-10-23</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI شرکت Software Applications Incorporated، سازنده‌ی &lt;b&gt;Sky&lt;/b&gt;، یک رابط زبان طبیعی برای مک را، خریداری کرد تا تجربه‌ی هوش مصنوعی دسکتاپ خود را در ChatGPT ادغام کند &lt;em&gt;&lt;a href="https://x.com/OpenAINewsroom/status/1981405466044616920"&gt;@OpenAINewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مایکروسافت از &lt;b&gt;Mico&lt;/b&gt;، یک آواتار متحرک جدید برای هوش مصنوعی &lt;b&gt;Copilot&lt;/b&gt; رونمایی کرد که عناصری از Clippy را به‌عنوان یک چهره‌ی دوستانه و قابل‌شخصی‌سازی برای چت‌بات بازمی‌گرداند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1981407787503554748"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل پیشرفت‌هایی را در &lt;b&gt;Earth AI&lt;/b&gt; اعلام کرد و قابلیت‌های &lt;b&gt;Gemini&lt;/b&gt; را به Google Earth آورد تا یافتن فوری اشیا و کشف الگوها از تصاویر ماهواره‌ای ممکن شود &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1981410558252388698"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل بنیادین cross-embodiment (چند‌پیکری) انویدیا به نام &lt;b&gt;Gr00t N1.5&lt;/b&gt; برای ربات‌ها، اکنون در LeRobot در دسترس است و ورودی‌های چندوجهی (multimodal) و ترانسفورمر تطبیق‌دهنده‌ی جریان (flow matching action transformer) برای پیش‌بینی اقدامات را ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/LeRobotHF/status/1981334159801929947"&gt;@LeRobotHF&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google AI Studio «&lt;b&gt;Annotate mode&lt;/b&gt;» را معرفی کرد که به کاربران امکان می‌دهد رابط کاربری (UI) را با ابزارهای طراحی علامت‌گذاری کنند و &lt;b&gt;Gemini&lt;/b&gt; آن‌ها را مستقیماً در کد اجرا کند &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1981375555783045198"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ردیت از Perplexity به دلیل ادعای انجام اسکرپینگ (استخراج اطلاعات) در مقیاس صنعتی از میلیون‌ها کامنت کاربر ردیت شکایت کرد، در حالی که گوگل سالانه 60 میلیون دلار و OpenAI حدود 70 میلیون دلار برای دسترسی به داده‌های آموزشی به ردیت پرداخت می‌کنند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1981105539116671213"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;دستورالعمل اجرایی 14319 از مدل‌های زبان بزرگ (LLM) می‌خواهد که از نظر ایدئولوژیکی بی‌طرف باشند تا واجد شرایط تدارکات دولتی شوند، که این امر باعث افزایش کارهای مربوط به بی‌طرفی در میان شرکت‌های هوش مصنوعی که به‌دنبال قراردادهای دولتی هستند، می‌شود &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1981197944717267283"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stability AI یک شراکت استراتژیک با EA تشکیل داد تا مدل‌های هوش مصنوعی مولد تحول‌آفرین، ابزارها و گردش‌کارهای توسعه‌ی بازی را به‌صورت مشترک توسعه دهد &lt;em&gt;&lt;a href="https://x.com/StabilityAI/status/1981392534078443946"&gt;@StabilityAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;وال استریت ژورنال گزارش داد که دولت ترامپ در حال بررسی دریافت سهام در شرکت‌های محاسبات کوانتومی است، مشابه رویکرد آن‌ها با اینتل &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1981360895122120938"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Kensho Technologies، یک استارتاپ هوش مصنوعی 500 میلیون دلاری که در سال 2018 خریداری شد، بنیان‌گذاران شش شرکت در آستانه‌ی یونیکورن شدن، از جمله OpenEvidence، Surge، Langchain و Suno را پرورش داد، که این امر ارزش پیوستن به استارتاپ‌ها با افراد باهوش را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1981178778576703887"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گرگلیوروسز «&lt;b&gt;خط‌تیره‌های بلند&lt;/b&gt;» (em dashes) را به‌عنوان «بوی هوش مصنوعی» در پیام‌های حمایتی برای کارگران اخراج‌شده شناسایی کرد، با اشاره به اینکه اکثر مردم نمی‌دانند چگونه آن‌ها را به‌صورت دستی تایپ کنند، که نشان‌دهنده‌ی محتوای تولید‌شده توسط هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1981282805586751904"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یان لِکان استدلال کرد که نمی‌توان ایمنی هوش مصنوعی را پیش از ساخت و پالایش سیستم‌های هوش مصنوعی اثبات کرد، و آن را با موتورهای توربوجت مقایسه کرد که برای اطمینان‌پذیری به ساخت واقعی و پالایش دقیق نیاز داشتند &lt;em&gt;&lt;a href="https://x.com/ylecun/status/1981360519442321451"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;دیلپ جورج از سوءتفسیر «درس تلخ» ریچ ساتون (Rich Sutton) انتقاد کرد و استدلال کرد که مدل‌های زبان بزرگ (LLM) این اصل را با آموزش بر روی کشفیات انسانی، به‌جای اینکه به مدل‌ها اجازه دهند به‌طور مستقل کشف کنند، نقض می‌کنند &lt;em&gt;&lt;a href="https://x.com/dileeplearning/status/1981123267936342220"&gt;@dileeplearning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یان لِکان فاش کرد که شرکت‌های ربات‌های انسان‌نما هیچ ایده‌ای ندارند چگونه ربات‌ها را به‌اندازه‌ی کافی برای مصارف خانگی هوشمند کنند، که این امر به پیشرفت‌های متعددی فراتر از قابلیت‌های فعلی نیاز دارد &lt;em&gt;&lt;a href="https://x.com/theneoniche/status/1981401914001805722"&gt;@theneoniche&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;دولت اردن یک دستیار یادگیری مبتنی بر هوش مصنوعی به نام &lt;b&gt;Siraj&lt;/b&gt; را که بر روی Replit ساخته شده است، برای 1.6 میلیون دانش‌آموز و 90 هزار معلم در مدارس دولتی راه‌اندازی کرد؛ این پروژه‌ی آزمایشی در کمتر از یک ماه توسط یک نفر ساخته شد &lt;em&gt;&lt;a href="https://x.com/Replit/status/1981370418943709571"&gt;@Replit&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity Finance اکنون به کاربران امکان می‌دهد به تماس‌های مربوط به گزارش‌های مالی گوش دهند و به‌زودی امکان پرسش‌های صوتی را در طول جریان‌های صوتی فراهم خواهد کرد &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1981144891905495374"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مایکروسافت &lt;b&gt;Copilot Groups&lt;/b&gt; را برای همکاری در لحظه معرفی کرد که به تیم‌ها اجازه می‌دهد با کمک هوش مصنوعی طوفان فکری کنند، مشترکاً بنویسند، برنامه‌ریزی کنند یا با هم مطالعه کنند &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1981408462287622378"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI پروژه‌های مشترک (&lt;b&gt;Shared Projects&lt;/b&gt;) را برای کاربران رایگان، پلاس و پرو راه‌اندازی کرد، که امکان کار مشارکتی در ChatGPT را با چت‌ها، فایل‌ها و دستورالعمل‌های مشترک فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1981432799212249119"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sora در حال افزودن حضور افتخاری شخصیت‌ها (cameos)، ابزارهای ویرایش ویدیو، قابلیت‌های اجتماعی بهبودیافته و پشتیبانی از اپلیکیشن اندروید است، با حضورهای افتخاری شخصیت‌های پرطرفدار که در لحظه نمایش داده می‌شوند &lt;em&gt;&lt;a href="https://x.com/billpeeb/status/1981118483607032050"&gt;@billpeeb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ابزارهای ویرایش عکس Meta AI اکنون در استوری‌های اینستاگرام در دسترس هستند، که به کاربران امکان می‌دهد آنچه را که می‌خواهند اضافه، حذف یا تغییر دهند، توصیف کنند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1981441766919114993"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft Edge &lt;b&gt;Copilot Mode&lt;/b&gt; را معرفی کرد، یک مرورگر هوش مصنوعی که کاربران را در جایی که در تب‌ها رها کرده‌اند، دنبال می‌کند و اقدامات چند مرحله‌ای را تکمیل می‌کند &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1981422845034188885"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;پژوهشگران هوش مصنوعی برکلی یک سازوکار «حدس و پالایش» (Guess-then-Refine) را در مدل‌های زبان بزرگ (LLM) کشف کردند، که در آن لایه‌های اولیه توکن‌های با فرکانس بالا را به‌عنوان حدس پیش‌بینی می‌کنند و لایه‌های بعدی با شکل‌گیری زمینه، آن‌ها را پالایش می‌کنند &lt;em&gt;&lt;a href="https://x.com/akshatgupta57/status/1981207789234979312"&gt;@akshatgupta57&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهشگران هوش مصنوعی برکلی &lt;b&gt;Omni-Scan&lt;/b&gt; را ارائه دادند، یک روش نوین برای اسکن 360 درجه و بازسازی اشیا توسط ربات‌های د وست با استفاده از 3D Gaussian Splats &lt;em&gt;&lt;a href="https://x.com/ZehanMa123/status/1981235300060799096"&gt;@ZehanMa123&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face و Meta «&lt;b&gt;OpenEnv&lt;/b&gt;» را راه‌اندازی کردند، یک رابط محیط RL جهانی که محیط‌های یادگیری تقویتی پیشرو را برای جامعه‌ی منبع‌باز فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/_lewtun/status/1981380372748521929"&gt;@_lewtun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل &lt;b&gt;llama-embed-nemotron-8b&lt;/b&gt; انویدیا به جایگاه شماره 1 جدید در جدول رده‌بندی بنچمارک MTEB Embedding دست یافت و با میانگین 69.46 در تمام وظایف، Gemini و Qwen3 را شکست داد &lt;em&gt;&lt;a href="https://x.com/TheAhmadOsman/status/1981208922783690764"&gt;@TheAhmadOsman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک مشاهده کرد که تولید ویدیوی هوش مصنوعی، ثبات بصری را در کلیپ‌های متعدد بهتر از ثبات صوتی حفظ می‌کند، با اشاره به اینکه ویدیو می‌تواند از فریم‌های قبلی تولید شود، در حالی که دارای ویژگی‌های مدل جهانی است &lt;em&gt;&lt;a href="https://x.com/emollick/status/1981162893631770892"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-23</guid>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
