@@ -31,6 +31,7 @@ def parse_arguments():
 Examples:
   python test/test_main.py                    # Run complete test pipeline including Telegram distribution
   python test/test_main.py --skip-telegram   # Run test pipeline but skip Telegram distribution step
+  python test/test_main.py --skip-tts        # Run test pipeline but skip TTS steps (Script Writer and Narrator)
   python test/test_main.py --force-override # Force regeneration of all files in test mode
         """
     )
@@ -42,6 +43,12 @@ Examples:
     )
     
     parser.add_argument(
+        '--skip-tts',
+        action='store_true',
+        help='Skip the TTS steps (Script Writer and Narrator - Steps 4 and 5) in test mode'
+    )
+    
+    parser.add_argument(
         '--force-override',
         action='store_true',
         help='Force regeneration of all files, bypassing cache and overriding existing outputs in test mode'
@@ -49,11 +56,11 @@ Examples:
     
     return parser.parse_args()
 
-def run_test_pipeline(skip_telegram=False, force_override=False):
+def run_test_pipeline(skip_telegram=False, skip_tts=False, force_override=False):
     """Run the complete test pipeline."""
     from utils.pipeline_core import run_pipeline_core
     
-    return run_pipeline_core(config, log_prefix="TEST ", test_mode=True, skip_telegram=skip_telegram, force_override=force_override)
+    return run_pipeline_core(config, log_prefix="TEST ", test_mode=True, skip_telegram=skip_telegram, skip_tts=skip_tts, force_override=force_override)
 
 if __name__ == "__main__":
     try:
@@ -61,10 +68,12 @@ if __name__ == "__main__":
         
         if args.skip_telegram:
             log_info('Test Pipeline', "Starting test pipeline with Telegram distribution disabled")
+        if args.skip_tts:
+            log_info('Test Pipeline', "Starting test pipeline with TTS steps disabled (Script Writer and Narrator)")
         if args.force_override:
             log_info('Test Pipeline', "Starting test pipeline with force override enabled - all files will be regenerated")
         
-        success = run_test_pipeline(skip_telegram=args.skip_telegram, force_override=args.force_override)
+        success = run_test_pipeline(skip_telegram=args.skip_telegram, skip_tts=args.skip_tts, force_override=args.force_override)
         if success:
             log_info('Test Pipeline', "Test pipeline execution completed")
         else:

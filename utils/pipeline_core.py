@@ -12,7 +12,7 @@ from utils.date_utils import format_datetime, get_date_str
 from utils.file_utils import file_exists, get_audio_file_path
 from utils.logging_utils import log_error, log_info, log_pipeline_progress, log_step
 
-def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegram=False, force_override=False):
+def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegram=False, skip_tts=False, force_override=False):
     """
     Core pipeline logic that works with any configuration module.
     
@@ -21,6 +21,7 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         log_prefix (str): Prefix for log messages (e.g., "TEST ")
         test_mode (bool): Whether running in test mode for special handling
         skip_telegram (bool): Whether to skip the Telegram distribution step
+        skip_tts (bool): Whether to skip the TTS steps (Script Writer and Narrator)
         force_override (bool): Whether to force regeneration of all files, bypassing cache
     
     Returns:
@@ -214,75 +215,83 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             log_step(log_file, True, f"{log_prefix}Translated using {tr_input_tokens} input tokens, {tr_output_tokens} output tokens")
         
         # Step 4: Convert to TTS-optimized Scripts
-        log_pipeline_progress(4, 9, "Creating TTS scripts")
-        
-        # Check if script files already exist
-        summary_script_path = config_module.get_file_path('script', date_str)
-        translated_script_path = config_module.get_file_path('script', date_str, lang='FA')
-        using_cached_scripts = file_exists(summary_script_path) and file_exists(translated_script_path) and not force_override
-        
-        if using_cached_scripts:
-            log_info(pipeline_name, f"Using existing script files: {summary_script_path}, {translated_script_path}")
-            log_step(log_file, True, f"{log_prefix}Scripted (using cached files)")
-            sc_input_tokens = 0
-            sc_output_tokens = 0
+        if skip_tts:
+            log_pipeline_progress(4, 9, "Creating TTS scripts (skipped)")
+            log_step(log_file, True, f"{log_prefix}Scripted (skipped)")
         else:
-            # Override the script_writer's file path function
-            original_get_file_path = script_writer.get_file_path
-            script_writer.get_file_path = config_module.get_file_path
+            log_pipeline_progress(4, 9, "Creating TTS scripts")
             
-            try:
-                summary_script, translated_script, sc_input_tokens, sc_output_tokens = script_writer.write_scripts(force_override=force_override)
-            finally:
-                # Restore original function
-                script_writer.get_file_path = original_get_file_path
+            # Check if script files already exist
+            summary_script_path = config_module.get_file_path('script', date_str)
+            translated_script_path = config_module.get_file_path('script', date_str, lang='FA')
+            using_cached_scripts = file_exists(summary_script_path) and file_exists(translated_script_path) and not force_override
             
-            if not summary_script or not translated_script:
-                log_error(pipeline_name, "Script writing failed")
-                log_step(log_file, False, f"{log_prefix}Scripted")
-                return False
-            
-            log_step(log_file, True, f"{log_prefix}Scripted using {sc_input_tokens} input tokens, {sc_output_tokens} output tokens")
+            if using_cached_scripts:
+                log_info(pipeline_name, f"Using existing script files: {summary_script_path}, {translated_script_path}")
+                log_step(log_file, True, f"{log_prefix}Scripted (using cached files)")
+                sc_input_tokens = 0
+                sc_output_tokens = 0
+            else:
+                # Override the script_writer's file path function
+                original_get_file_path = script_writer.get_file_path
+                script_writer.get_file_path = config_module.get_file_path
+                
+                try:
+                    summary_script, translated_script, sc_input_tokens, sc_output_tokens = script_writer.write_scripts(force_override=force_override)
+                finally:
+                    # Restore original function
+                    script_writer.get_file_path = original_get_file_path
+                
+                if not summary_script or not translated_script:
+                    log_error(pipeline_name, "Script writing failed")
+                    log_step(log_file, False, f"{log_prefix}Scripted")
+                    return False
+                
+                log_step(log_file, True, f"{log_prefix}Scripted using {sc_input_tokens} input tokens, {sc_output_tokens} output tokens")
         
         # Step 5: Convert to Speech (TTS)
-        log_pipeline_progress(5, 9, "Converting to speech")
-        
-        # Check if audio files already exist (check for both MP3 and WAV)
-        # Override get_file_path temporarily for audio file detection
-        original_utils_get_file_path = file_utils.get_file_path
-        file_utils.get_file_path = config_module.get_file_path
-        
-        try:
-            summary_audio_path = get_audio_file_path('narrated', date_str)
-            translated_audio_path = get_audio_file_path('narrated', date_str, lang='FA')
-            using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path) and not force_override
-        finally:
-            # Restore original function
-            file_utils.get_file_path = original_utils_get_file_path
-        
-        if using_cached_audio:
-            log_info(pipeline_name, f"Using existing audio files: {summary_audio_path}, {translated_audio_path}")
-            log_step(log_file, True, f"{log_prefix}Narrated (using cached files)")
-            na_input_tokens = 0
-            na_output_tokens = 0
+        if skip_tts:
+            log_pipeline_progress(5, 9, "Converting to speech (skipped)")
+            log_step(log_file, True, f"{log_prefix}Narrated (skipped)")
         else:
-            # Override the narrator's file path function
-            original_get_file_path = narrator.get_file_path
-            narrator.get_file_path = config_module.get_file_path
+            log_pipeline_progress(5, 9, "Converting to speech")
+            
+            # Check if audio files already exist (check for both MP3 and WAV)
+            # Override get_file_path temporarily for audio file detection
+            original_utils_get_file_path = file_utils.get_file_path
+            file_utils.get_file_path = config_module.get_file_path
             
             try:
-                summary_audio, translated_audio, na_input_tokens, na_output_tokens = narrator.narrate(force_override=force_override)
+                summary_audio_path = get_audio_file_path('narrated', date_str)
+                translated_audio_path = get_audio_file_path('narrated', date_str, lang='FA')
+                using_cached_audio = file_exists(summary_audio_path) and file_exists(translated_audio_path) and not force_override
             finally:
                 # Restore original function
-                narrator.get_file_path = original_get_file_path
+                file_utils.get_file_path = original_utils_get_file_path
             
-            # Both audio files are now required
-            if summary_audio and translated_audio:
-                log_step(log_file, True, f"{log_prefix}Narrated using {na_input_tokens} input tokens, {na_output_tokens} output tokens for 2 audio files")
+            if using_cached_audio:
+                log_info(pipeline_name, f"Using existing audio files: {summary_audio_path}, {translated_audio_path}")
+                log_step(log_file, True, f"{log_prefix}Narrated (using cached files)")
+                na_input_tokens = 0
+                na_output_tokens = 0
             else:
-                log_error(pipeline_name, "TTS conversion failed")
-                log_step(log_file, False, f"{log_prefix}Narrated")
-                return False
+                # Override the narrator's file path function
+                original_get_file_path = narrator.get_file_path
+                narrator.get_file_path = config_module.get_file_path
+                
+                try:
+                    summary_audio, translated_audio, na_input_tokens, na_output_tokens = narrator.narrate(force_override=force_override)
+                finally:
+                    # Restore original function
+                    narrator.get_file_path = original_get_file_path
+                
+                # Both audio files are now required
+                if summary_audio and translated_audio:
+                    log_step(log_file, True, f"{log_prefix}Narrated using {na_input_tokens} input tokens, {na_output_tokens} output tokens for 2 audio files")
+                else:
+                    log_error(pipeline_name, "TTS conversion failed")
+                    log_step(log_file, False, f"{log_prefix}Narrated")
+                    return False
         
         # Step 6: Convert to Telegraph format
         log_pipeline_progress(6, 9, "Converting to Telegraph format")

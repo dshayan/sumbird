@@ -474,41 +474,43 @@ def distribute():
         if success:
             log_success('TelegramDistributer', f"Successfully distributed content to Telegram channel {channel_id}")
             
-            # Check for audio files and send them as a group (both now required)
+            # Check for audio files and send them as a group (optional - only if they exist)
             # Use the new function that checks for both MP3 and WAV
             summary_audio = get_audio_file_path('narrated', date_str)
             translated_audio = get_audio_file_path('narrated', date_str, lang='FA')
             
-            # Verify both audio files exist (now required)
-            if not file_exists(summary_audio):
-                log_error('TelegramDistributer', f"Required summary audio file not found: {summary_audio}")
-                return False, "", 0, 0
-            
-            if not file_exists(translated_audio):
-                log_error('TelegramDistributer', f"Required translated audio file not found: {translated_audio}")
-                return False, "", 0, 0
-            
             audio_urls = []
-            audio_files_to_send = [
-                {
-                    'path': summary_audio,
-                    'title': TELEGRAM_AUDIO_TITLE_EN
-                },
-                {
-                    'path': translated_audio,
-                    'title': TELEGRAM_AUDIO_TITLE_FA
-                }
-            ]
             
-            # Send audio files as a group (both files are required)
-            log_info('TelegramDistributer', f"Sending {len(audio_files_to_send)} audio files as a group")
-            audio_success, audio_url = send_telegram_audio_group(audio_files_to_send, channel_id)
-            if audio_success:
-                log_success('TelegramDistributer', "Audio group sent successfully")
-                audio_urls.append(audio_url)
+            # Check if both audio files exist before attempting to send
+            if file_exists(summary_audio) and file_exists(translated_audio):
+                audio_files_to_send = [
+                    {
+                        'path': summary_audio,
+                        'title': TELEGRAM_AUDIO_TITLE_EN
+                    },
+                    {
+                        'path': translated_audio,
+                        'title': TELEGRAM_AUDIO_TITLE_FA
+                    }
+                ]
+                
+                # Send audio files as a group
+                log_info('TelegramDistributer', f"Sending {len(audio_files_to_send)} audio files as a group")
+                audio_success, audio_url = send_telegram_audio_group(audio_files_to_send, channel_id)
+                if audio_success:
+                    log_success('TelegramDistributer', "Audio group sent successfully")
+                    audio_urls.append(audio_url)
+                else:
+                    log_error('TelegramDistributer', "Failed to send audio group, but text message was sent successfully")
+                    # Don't fail the entire distribution if audio fails
             else:
-                log_error('TelegramDistributer', "Failed to send required audio group")
-                return False, "", 0, 0
+                # Audio files don't exist (likely --skip-tts was used)
+                if not file_exists(summary_audio) and not file_exists(translated_audio):
+                    log_info('TelegramDistributer', "Audio files not found - sending text message only (TTS steps may have been skipped)")
+                elif not file_exists(summary_audio):
+                    log_info('TelegramDistributer', f"Summary audio file not found: {summary_audio} - sending text message only")
+                elif not file_exists(translated_audio):
+                    log_info('TelegramDistributer', f"Translated audio file not found: {translated_audio} - sending text message only")
             
             # Update the published data with telegram distribution info
             published_data["telegram_distributed"] = {
@@ -525,6 +527,8 @@ def distribute():
             # Log completion and token usage
             log_success('TelegramDistributer', "Telegram distribution completed successfully")
             log_info('TelegramDistributer', f"Message URL: {message_url}")
+            if audio_urls:
+                log_info('TelegramDistributer', f"Audio URLs: {', '.join(audio_urls)}")
             log_info('TelegramDistributer', f"Tokens used: {input_tokens} input, {output_tokens} output")
             
             return True, message_url, input_tokens, output_tokens

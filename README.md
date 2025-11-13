@@ -65,11 +65,13 @@ curl http://localhost:8080/OpenAI/rss
 # Complete pipeline
 python main.py
 python main.py --skip-telegram
+python main.py --skip-tts
 python main.py --force-override
 
 # Test pipeline (isolated test/data/ directories)
 python test/test_main.py
 python test/test_main.py --skip-telegram
+python test/test_main.py --skip-tts
 python test/test_main.py --force-override
 ```
 
