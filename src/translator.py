@@ -3,15 +3,17 @@
 Module for translating summarized content to Persian.
 This module can be run independently or as part of the pipeline.
 """
+import asyncio
 import os
 
 from config import (
-    FILE_FORMAT, GEMINI_API_KEY, GEMINI_TRANSLATOR_MODEL,
-    SUMMARY_DIR, TRANSLATED_DIR, TRANSLATOR_PROMPT_PATH, get_date_str,
-    get_file_path
+    FILE_FORMAT, OPENROUTER_API_KEY, OPENROUTER_MAX_TOKENS,
+    OPENROUTER_TRANSLATOR_MODEL, OPENROUTER_SITE_NAME, OPENROUTER_SITE_URL,
+    OPENROUTER_TEMPERATURE, SUMMARY_DIR, TRANSLATED_DIR, TRANSLATOR_PROMPT_PATH,
+    get_date_str, get_file_path
 )
-from utils.gemini_utils import create_gemini_text_client
 from utils.logging_utils import log_error, log_info, log_success
+from utils.openrouter_utils import create_openrouter_client
 from utils.prompt_utils import load_prompt
 
 def translate():
@@ -34,24 +36,22 @@ def translate():
             return None, 0, 0
             
         with open(summary_file, 'r') as f:
-            content_to_translate = f.read()
+            user_prompt = f.read()
         
-        # Initialize Gemini translator client
-        client = create_gemini_text_client(
-            api_key=GEMINI_API_KEY,
-            model=GEMINI_TRANSLATOR_MODEL
+        # Initialize OpenRouter client
+        client = create_openrouter_client(
+            api_key=OPENROUTER_API_KEY,
+            model=OPENROUTER_TRANSLATOR_MODEL,
+            max_tokens=OPENROUTER_MAX_TOKENS,
+            temperature=OPENROUTER_TEMPERATURE,
+            site_url=OPENROUTER_SITE_URL,
+            site_name=OPENROUTER_SITE_NAME
         )
         
-        # Create the full prompt with system prompt and content
-        full_prompt = f"{system_prompt}\n\n{content_to_translate}"
-        
-        # Generate translation using Gemini
-        result = client.generate_text(full_prompt)
-        if not result:
+        # Generate translation using async function with asyncio.run
+        translation, input_tokens, output_tokens = asyncio.run(client.generate_completion(system_prompt, user_prompt))
+        if not translation:
             return None, 0, 0
-        
-        # Extract translation and token counts from result
-        translation, input_tokens, output_tokens = result
             
         # Save translation
         translated_file = get_file_path('translated', date_str)

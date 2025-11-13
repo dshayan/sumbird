@@ -8,7 +8,7 @@ import os
 
 from config import (
     EXPORT_DIR, FILE_FORMAT, OPENROUTER_API_KEY, OPENROUTER_MAX_TOKENS,
-    OPENROUTER_MODEL, OPENROUTER_SITE_NAME, OPENROUTER_SITE_URL,
+    OPENROUTER_SUMMARIZER_MODEL, OPENROUTER_SITE_NAME, OPENROUTER_SITE_URL,
     OPENROUTER_TEMPERATURE, SUMMARY_DIR, SUMMARY_TITLE_FORMAT,
     SYSTEM_PROMPT_PATH, get_date_str, get_file_path
 )
@@ -41,7 +41,7 @@ def summarize():
         # Initialize OpenRouter client
         client = create_openrouter_client(
             api_key=OPENROUTER_API_KEY,
-            model=OPENROUTER_MODEL,
+            model=OPENROUTER_SUMMARIZER_MODEL,
             max_tokens=OPENROUTER_MAX_TOKENS,
             temperature=OPENROUTER_TEMPERATURE,
             site_url=OPENROUTER_SITE_URL,

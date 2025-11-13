@@ -6,7 +6,7 @@ This module imports the base configuration and overrides specific parameters
 for test mode execution, including test Telegram channel and isolated file paths.
 
 Note: Test mode inherits all AI model configurations from main config.py:
-- Translation: Uses Gemini (GEMINI_TRANSLATOR_MODEL)
+- Translation: Uses OpenRouter (OPENROUTER_TRANSLATOR_MODEL)
 - Script Writing: Uses Gemini (GEMINI_SCRIPT_WRITER_MODEL)
 - Summarization: Uses OpenRouter (OPENROUTER_SUMMARIZER_MODEL)
 - TTS: Uses Gemini (GEMINI_TTS_MODEL)
