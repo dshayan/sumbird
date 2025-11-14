@@ -12,7 +12,7 @@ LOG_FILE="$SCRIPT_DIR/logs/cron.log"
 # First cron entry: 1:00 AM without Telegram distribution (ULTRA-SIMPLIFIED)
 CRON_ENTRY_1AM="0 1 * * * cd $SCRIPT_DIR && echo '' >> $LOG_FILE && echo 'Cron: Starting 1:00 AM pipeline (without Telegram)' >> $LOG_FILE && $PYTHON_PATH main.py --skip-telegram >> $LOG_FILE 2>&1"
 # Second cron entry: 6:00 AM with full Telegram distribution (ULTRA-SIMPLIFIED)
-CRON_ENTRY_6AM="0 6 * * * cd $SCRIPT_DIR && echo '' >> $LOG_FILE && echo 'Cron: Starting 6:00 AM pipeline (with Telegram)' >> $LOG_FILE && $PYTHON_PATH main.py >> $LOG_FILE 2>&1"
+CRON_ENTRY_6AM="0 6 * * * cd $SCRIPT_DIR && echo '' >> $LOG_FILE && echo 'Cron: Starting 6:00 AM pipeline (with Telegram)' >> $LOG_FILE && $PYTHON_PATH main.py --skip-tts >> $LOG_FILE 2>&1"
 # Schedule refresh entry: Run this script weekly to refresh wake schedules (since pmset repeat can only set one time)
 CRON_REFRESH="0 0 * * 0 cd $SCRIPT_DIR && $SCRIPT_DIR/scripts/pipeline_scheduler.sh refresh-wake >> $LOG_FILE 2>&1"
 
@@ -300,10 +300,10 @@ test_run() {
             print_warning "WARNING: This will send messages to your Telegram channel!"
             read -p "Are you sure you want to continue? (y/N): " confirm
             if [[ $confirm =~ ^[Yy]$ ]]; then
-                print_info "Running: caffeinate -s $PYTHON_PATH main.py"
+                print_info "Running: caffeinate -s $PYTHON_PATH main.py --skip-tts"
                 print_info "This will run the 6:00 AM version (with full Telegram distribution)..."
                 echo
-                cd "$SCRIPT_DIR" && caffeinate -s "$PYTHON_PATH" main.py
+                cd "$SCRIPT_DIR" && caffeinate -s "$PYTHON_PATH" main.py --skip-tts
             else
                 print_info "Test cancelled."
                 return 0

@@ -3,6 +3,7 @@
 Module for distributing content to Telegram channels.
 This module can be run independently or as part of the pipeline.
 """
+import asyncio
 import json
 import os
 import re
@@ -11,8 +12,9 @@ from datetime import datetime
 import httpx
 
 from config import (
-    FILE_FORMAT, GEMINI_API_KEY, GEMINI_TELEGRAM_MODEL,
-    HEADLINE_WRITER_PROMPT_PATH, PUBLISHED_DIR, RETRY_MAX_ATTEMPTS,
+    FILE_FORMAT, HEADLINE_WRITER_PROMPT_PATH, OPENROUTER_API_KEY,
+    OPENROUTER_HEADLINE_MODEL, OPENROUTER_MAX_TOKENS, OPENROUTER_SITE_NAME,
+    OPENROUTER_SITE_URL, OPENROUTER_TEMPERATURE, PUBLISHED_DIR, RETRY_MAX_ATTEMPTS,
     TELEGRAM_AUDIO_TITLE_EN, TELEGRAM_AUDIO_TITLE_FA, TELEGRAM_BOT_TOKEN,
     TELEGRAM_CHANNEL_DISPLAY, TELEGRAM_CHAT_ID, TELEGRAM_DISABLE_WEB_PREVIEW,
     TELEGRAM_FILE_TIMEOUT, TELEGRAM_MESSAGE_TIMEOUT, TELEGRAM_MESSAGE_TITLE_FORMAT,
@@ -20,27 +22,35 @@ from config import (
     get_file_path
 )
 from utils.file_utils import file_exists, get_audio_file_path, read_file
-from utils.gemini_utils import create_gemini_text_client
 from utils.html_utils import html_to_text
 from utils.json_utils import read_json, write_json
 from utils.logging_utils import handle_request_error, log_error, log_info, log_success
+from utils.openrouter_utils import create_openrouter_client
 from utils.prompt_utils import load_prompt
 from utils.retry_utils import with_retry_sync
 
 class HeadlineGenerator:
-    """Client for generating headlines using Gemini API."""
+    """Client for generating headlines using OpenRouter API."""
     
-    def __init__(self, api_key, model, prompt_path):
-        """Initialize the Gemini client for headline generation.
+    def __init__(self, api_key, model, max_tokens, temperature, site_url, site_name, prompt_path):
+        """Initialize the OpenRouter client for headline generation.
         
         Args:
-            api_key (str): The Gemini API key
+            api_key (str): The OpenRouter API key
             model (str): The model to use for headline generation
+            max_tokens (int): Maximum tokens for the response
+            temperature (float): Temperature for generation
+            site_url (str): Site URL for rankings
+            site_name (str): Site name for rankings
             prompt_path (str): Path to the headline writer prompt file
         """
-        self.client = create_gemini_text_client(
+        self.client = create_openrouter_client(
             api_key=api_key,
-            model=model
+            model=model,
+            max_tokens=max_tokens,
+            temperature=temperature,
+            site_url=site_url,
+            site_name=site_name
         )
         
         # Load headline writer prompt
@@ -61,13 +71,10 @@ class HeadlineGenerator:
         Raises:
             Exception: If headline generation fails after all retries
         """
-        # Create the prompt with the summary content
-        full_prompt = f"{self.prompt}\n\n{summary_content}"
-        
-        # Generate headline using the centralized Gemini client
-        result = self.client.generate_text(full_prompt)
+        # Generate headline using the OpenRouter client (async)
+        result = asyncio.run(self.client.generate_completion(self.prompt, summary_content))
         if isinstance(result, tuple):
-            # Return the full tuple (text, input_tokens, output_tokens)
+            # Return the full tuple (headline, input_tokens, output_tokens)
             return result
         else:
             # Fallback for backward compatibility
@@ -458,7 +465,15 @@ def distribute():
         
         # Initialize headline generator and generate headline
         try:
-            headline_generator = HeadlineGenerator(GEMINI_API_KEY, GEMINI_TELEGRAM_MODEL, HEADLINE_WRITER_PROMPT_PATH)
+            headline_generator = HeadlineGenerator(
+                api_key=OPENROUTER_API_KEY,
+                model=OPENROUTER_HEADLINE_MODEL,
+                max_tokens=OPENROUTER_MAX_TOKENS,
+                temperature=OPENROUTER_TEMPERATURE,
+                site_url=OPENROUTER_SITE_URL,
+                site_name=OPENROUTER_SITE_NAME,
+                prompt_path=HEADLINE_WRITER_PROMPT_PATH
+            )
             headline, input_tokens, output_tokens = headline_generator.generate_headline(summary_text)
         except Exception as e:
             log_error('TelegramDistributer', "Headline generation failed, cannot proceed without generated headline", e)

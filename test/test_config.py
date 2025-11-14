@@ -10,7 +10,7 @@ Note: Test mode inherits all AI model configurations from main config.py:
 - Script Writing: Uses Gemini (GEMINI_SCRIPT_WRITER_MODEL)
 - Summarization: Uses OpenRouter (OPENROUTER_SUMMARIZER_MODEL)
 - TTS: Uses Gemini (GEMINI_TTS_MODEL)
-- Telegram Headlines: Uses Gemini (GEMINI_TELEGRAM_MODEL)
+- Telegram Headlines: Uses OpenRouter (OPENROUTER_HEADLINE_MODEL)
 """
 import os
 import sys
