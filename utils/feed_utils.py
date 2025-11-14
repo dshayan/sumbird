@@ -51,7 +51,7 @@ class FeedProcessor:
         self.base_delay_min = base_delay_min
         self.base_delay_max = base_delay_max
     
-    @with_retry_sync(timeout=30, max_attempts=3, context="feed processing")
+    @with_retry_sync(max_attempts=3, module_name="FeedProcessor", context="feed processing")
     def process_feed(self, feed_url: str, feed_title: str) -> Tuple[feedparser.FeedParserDict, str]:
         """Process a single feed with retry logic.
         

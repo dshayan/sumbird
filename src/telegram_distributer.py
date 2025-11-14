@@ -141,7 +141,7 @@ def construct_telegram_message_url(message_id, chat_id_value=None, chat_username
     
     return ""
 
-@with_retry_sync(timeout=TELEGRAM_MESSAGE_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
+@with_retry_sync(max_attempts=RETRY_MAX_ATTEMPTS, module_name="TelegramDistributer", context="send message")
 def send_telegram_channel_post(content, chat_id):
     """Send a post to a Telegram channel with retry logic.
     
@@ -199,7 +199,7 @@ def send_telegram_channel_post(content, chat_id):
         log_error('TelegramDistributer', "Error sending Telegram channel post", e)
         return False, ""
 
-@with_retry_sync(timeout=TELEGRAM_FILE_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
+@with_retry_sync(max_attempts=RETRY_MAX_ATTEMPTS, module_name="TelegramDistributer", context="send audio group")
 def send_telegram_audio_group(audio_files, chat_id):
     """Send multiple audio files as a media group to a Telegram channel with retry logic.
     
@@ -283,7 +283,7 @@ def send_telegram_audio_group(audio_files, chat_id):
         log_error('TelegramDistributer', f"Error sending Telegram audio group", e)
         return False, ""
 
-@with_retry_sync(timeout=TELEGRAM_FILE_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
+@with_retry_sync(max_attempts=RETRY_MAX_ATTEMPTS, module_name="TelegramDistributer", context="send audio")
 def send_telegram_audio(audio_file_path, chat_id, title=""):
     """Send an audio file to a Telegram channel with retry logic.
     

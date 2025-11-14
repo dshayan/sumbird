@@ -67,7 +67,7 @@ class NetworkClient:
             'Upgrade-Insecure-Requests': '1'
         }
     
-    @with_retry_sync(timeout=30, max_attempts=3, context="RSS feed fetch")
+    @with_retry_sync(max_attempts=3, module_name="NetworkClient", context="RSS feed fetch")
     def fetch_feed(self, feed_url: str) -> feedparser.FeedParserDict:
         """Fetch RSS feed with automatic retry and error handling.
         

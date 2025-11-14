@@ -18,7 +18,7 @@ from utils.json_utils import read_json, write_json
 from utils.logging_utils import handle_request_error, log_error, log_info, log_success, log_warning
 from utils.retry_utils import with_retry_sync
 
-@with_retry_sync(timeout=TELEGRAPH_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
+@with_retry_sync(max_attempts=RETRY_MAX_ATTEMPTS, module_name="TelegraphPublisher", context="create/update page")
 def create_or_update_telegraph_page(data, page_path=None):
     """Create or update a Telegraph page with retry logic.
     

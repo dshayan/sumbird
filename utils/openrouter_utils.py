@@ -55,7 +55,7 @@ class OpenRouterClient:
             tuple: (generated_content, input_tokens, output_tokens)
         """
         # Apply retry with instance timeout
-        @with_retry_async(timeout=self.timeout, max_attempts=3)
+        @with_retry_async(timeout=self.timeout, max_attempts=3, module_name="OpenRouter")
         async def _generate_with_retry():
             async with httpx.AsyncClient(timeout=self.timeout) as client:
                 response = await client.post(

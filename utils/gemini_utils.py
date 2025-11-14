@@ -69,8 +69,8 @@ class GeminiTextClient:
         Raises:
             Exception: If text generation fails after all retries
         """
-        # Apply retry with instance timeout
-        @with_retry_sync(timeout=self.timeout, max_attempts=3)
+        # Apply retry (no timeout enforcement for sync - handled by httpx client)
+        @with_retry_sync(max_attempts=3, module_name="GeminiText")
         def _generate_with_retry():
             response = self.client.models.generate_content(
                 model=self.model,
@@ -117,8 +117,8 @@ class GeminiTTSClient:
             self.timeout = timeout
         self.client = genai.Client(api_key=self.api_key)
         
-        # Apply retry decorator with instance timeout
-        self.text_to_speech = with_retry_sync(timeout=self.timeout, max_attempts=3)(self._text_to_speech_impl)
+        # Apply retry decorator (no timeout - TTS can take a long time)
+        self.text_to_speech = with_retry_sync(max_attempts=3, module_name="GeminiTTS", context="text_to_speech")(self._text_to_speech_impl)
 
     def save_wave_file(self, filename, pcm_data):
         """Save PCM data as a WAV file.
