@@ -7,11 +7,14 @@ This module:
 2. Converts them to newsletter posts in the docs directory
 3. Updates the homepage with recent posts
 4. Generates RSS feed with latest 20 posts
-5. Commits and pushes changes to GitHub
+5. Generates XML sitemap for search engines
+6. Generates robots.txt for crawler directives
+7. Commits and pushes changes to GitHub
 """
 import os
 import re
 import subprocess
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Tuple
@@ -69,6 +72,7 @@ class NewsletterGenerator:
         self.template_path = self.docs_path / "templates" / "template.html"
         self.homepage_path = self.docs_path / "index.html"
         self.feed_path = self.docs_path / "feed.xml"
+        self.sitemap_path = self.docs_path / "sitemap.xml"
         
         # Initialize template manager for external CSS system with language context
         # Components are now loaded from language-specific directories
@@ -461,6 +465,179 @@ class NewsletterGenerator:
         
         return str(soup)
     
+    def _get_existing_posts(self) -> List[str]:
+        """Get all existing post dates from the posts directory.
+        
+        Returns:
+            List of date strings (YYYY-MM-DD) sorted by date descending.
+        """
+        if not self.posts_dir.exists():
+            return []
+        
+        dates = []
+        for post_dir in self.posts_dir.iterdir():
+            if post_dir.is_dir():
+                # Check if it's a date directory (YYYY-MM-DD format)
+                match = re.match(r'(\d{4}-\d{2}-\d{2})', post_dir.name)
+                if match and (post_dir / "index.html").exists():
+                    dates.append(match.group(1))
+        
+        # Sort by date descending (newest first)
+        dates.sort(reverse=True)
+        return dates
+    
+    def _get_pagination_pages(self) -> List[int]:
+        """Get all existing pagination page numbers.
+        
+        Returns:
+            List of page numbers (excluding page 1 which is the homepage).
+        """
+        if not self.docs_path.exists():
+            return []
+        
+        pages = []
+        for page_file in self.docs_path.glob("page*.html"):
+            match = re.match(r'page(\d+)\.html', page_file.name)
+            if match:
+                pages.append(int(match.group(1)))
+        
+        pages.sort()
+        return pages
+    
+    def generate_sitemap(self, recent_posts: List[Tuple[str, Dict[str, str]]]) -> bool:
+        """Generate XML sitemap for search engines.
+        
+        Args:
+            recent_posts: List of (date_str, content_data) tuples for all posts.
+            
+        Returns:
+            True if successful, False otherwise.
+        """
+        try:
+            # Get all existing posts (from filesystem, not just recent)
+            all_post_dates = self._get_existing_posts()
+            
+            # Get pagination pages
+            pagination_pages = self._get_pagination_pages()
+            
+            # Determine base URL for this language
+            if self.is_farsi:
+                base_url = f"{SITE_BASE_URL}/fa"
+            else:
+                base_url = f"{SITE_BASE_URL}/en"
+            
+            # Create sitemap root
+            urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+            
+            # Add homepage (highest priority)
+            url_elem = ET.SubElement(urlset, "url")
+            ET.SubElement(url_elem, "loc").text = f"{base_url}/"
+            ET.SubElement(url_elem, "lastmod").text = get_now().strftime("%Y-%m-%d")
+            ET.SubElement(url_elem, "changefreq").text = "daily"
+            ET.SubElement(url_elem, "priority").text = "1.0"
+            
+            # Add RSS feed
+            url_elem = ET.SubElement(urlset, "url")
+            ET.SubElement(url_elem, "loc").text = f"{base_url}/feed.xml"
+            ET.SubElement(url_elem, "lastmod").text = get_now().strftime("%Y-%m-%d")
+            ET.SubElement(url_elem, "changefreq").text = "daily"
+            ET.SubElement(url_elem, "priority").text = "0.3"
+            
+            # Add all post pages
+            for date_str in all_post_dates:
+                url_elem = ET.SubElement(urlset, "url")
+                ET.SubElement(url_elem, "loc").text = f"{base_url}/news/{date_str}"
+                
+                # Try to get lastmod from post file modification time
+                post_file = self.posts_dir / date_str / "index.html"
+                if post_file.exists():
+                    mod_time = datetime.fromtimestamp(
+                        post_file.stat().st_mtime, tz=timezone.utc
+                    )
+                    ET.SubElement(url_elem, "lastmod").text = mod_time.strftime("%Y-%m-%d")
+                else:
+                    ET.SubElement(url_elem, "lastmod").text = date_str
+                
+                ET.SubElement(url_elem, "changefreq").text = "weekly"
+                ET.SubElement(url_elem, "priority").text = "0.8"
+            
+            # Add pagination pages
+            for page_num in pagination_pages:
+                url_elem = ET.SubElement(urlset, "url")
+                ET.SubElement(url_elem, "loc").text = f"{base_url}/page{page_num}.html"
+                
+                # Try to get lastmod from page file modification time
+                page_file = self.docs_path / f"page{page_num}.html"
+                if page_file.exists():
+                    mod_time = datetime.fromtimestamp(
+                        page_file.stat().st_mtime, tz=timezone.utc
+                    )
+                    ET.SubElement(url_elem, "lastmod").text = mod_time.strftime("%Y-%m-%d")
+                else:
+                    ET.SubElement(url_elem, "lastmod").text = get_now().strftime("%Y-%m-%d")
+                
+                ET.SubElement(url_elem, "changefreq").text = "weekly"
+                ET.SubElement(url_elem, "priority").text = "0.5"
+            
+            # Create XML tree and write to file
+            tree = ET.ElementTree(urlset)
+            
+            # Pretty print with indent (Python 3.9+)
+            try:
+                ET.indent(tree, space="  ")
+            except AttributeError:
+                # Fallback for Python < 3.9 - XML will still be valid, just not pretty-printed
+                pass
+            
+            with open(self.sitemap_path, 'wb') as f:
+                tree.write(f, encoding='utf-8', xml_declaration=True)
+            
+            log_success("NewsletterGenerator", 
+                       f"Generated sitemap with {len(all_post_dates)} posts, "
+                       f"{len(pagination_pages)} pagination pages at {self.sitemap_path}")
+            return True
+            
+        except Exception as e:
+            log_error("NewsletterGenerator", f"Error generating sitemap", e)
+            return False
+    
+    @staticmethod
+    def generate_robots_txt(base_docs_path: Path) -> bool:
+        """Generate robots.txt file at the root of docs directory.
+        
+        Args:
+            base_docs_path: Path to the base docs directory.
+            
+        Returns:
+            True if successful, False otherwise.
+        """
+        try:
+            robots_path = base_docs_path / "robots.txt"
+            
+            robots_content = f"""User-agent: *
+Allow: /
+Allow: /en/
+Allow: /fa/
+Allow: /en/news/
+Allow: /fa/news/
+Disallow: /logs/
+Disallow: /assets/components/
+
+# Sitemaps
+Sitemap: {SITE_BASE_URL}/en/sitemap.xml
+Sitemap: {SITE_BASE_URL}/fa/sitemap.xml
+"""
+            
+            with open(robots_path, 'w', encoding='utf-8') as f:
+                f.write(robots_content)
+            
+            log_success("NewsletterGenerator", f"Generated robots.txt at {robots_path}")
+            return True
+            
+        except Exception as e:
+            log_error("NewsletterGenerator", f"Error generating robots.txt", e)
+            return False
+    
     def commit_and_push(self) -> bool:
         """Commit and push changes to the repository.
         
@@ -559,8 +736,12 @@ class NewsletterGenerator:
             if not self.generate_rss_feed(recent_posts):
                 return False
             
+            # Generate sitemap
+            if not self.generate_sitemap(recent_posts):
+                return False
+            
             log_success("NewsletterGenerator", 
-                       f"Generated {generated_count} new posts, updated homepage and RSS feed")
+                       f"Generated {generated_count} new posts, updated homepage, RSS feed, and sitemap")
             
             # Commit and push if requested
             if auto_commit:
@@ -573,11 +754,30 @@ class NewsletterGenerator:
             return False
 
 
-def generate(force_regenerate: bool = False, language: str = "en", verbose: bool = True):
-    """Main function to generate newsletter. Can be called from pipeline or standalone."""
+def generate(force_regenerate: bool = False, language: str = "en", verbose: bool = True, auto_commit: bool = True):
+    """Main function to generate newsletter. Can be called from pipeline or standalone.
+    
+    Args:
+        force_regenerate: Whether to regenerate existing posts.
+        language: Language code ("en" or "fa").
+        verbose: Whether to log verbose messages.
+        auto_commit: Whether to automatically commit and push changes.
+                    Note: When generating both languages, only commit after the last one.
+    """
     try:
         generator = NewsletterGenerator(language=language)
-        success = generator.generate_newsletter(force_regenerate=force_regenerate)
+        # Don't auto-commit in generate_newsletter - we'll handle it here if needed
+        success = generator.generate_newsletter(force_regenerate=force_regenerate, auto_commit=False)
+        
+        # Generate robots.txt once (at root of docs, same for all languages)
+        # Only generate if we're generating English (first language typically)
+        if language == "en":
+            base_docs_path = generator.docs_path.parent  # Go from en/ to docs/
+            NewsletterGenerator.generate_robots_txt(base_docs_path)
+        
+        # Commit and push if requested (typically only after both languages are done)
+        if auto_commit and success:
+            generator.commit_and_push()
         
         if verbose:
             if success:

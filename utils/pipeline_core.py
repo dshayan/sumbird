@@ -387,10 +387,18 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         try:
             from src import newsletter_generator
             
-            newsletter_success_en = newsletter_generator.generate(language="en", verbose=False)
-            newsletter_success_fa = newsletter_generator.generate(language="fa", verbose=False)
+            # Generate both languages without auto-commit, then commit once at the end
+            newsletter_success_en = newsletter_generator.generate(language="en", verbose=False, auto_commit=False)
+            newsletter_success_fa = newsletter_generator.generate(language="fa", verbose=False, auto_commit=False)
             
             newsletter_success = newsletter_success_en and newsletter_success_fa
+            
+            # Commit once after both languages are generated (if both succeeded)
+            if newsletter_success:
+                from src.newsletter_generator import NewsletterGenerator
+                # Use English generator to commit (it has access to base_docs_path)
+                generator = NewsletterGenerator(language="en")
+                generator.commit_and_push()
             
         except ImportError:
             log_error(pipeline_name, "Newsletter generator not available")
