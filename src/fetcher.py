@@ -10,14 +10,13 @@ from datetime import datetime
 from config import (
     EXPORT_DIR, EXPORT_TITLE_FORMAT, HANDLES, NITTER_BASE_URL, 
     TIMEZONE, FETCHER_BATCH_SIZE, FETCHER_BATCH_DELAY,
-    FETCHER_SESSION_MODE, FETCHER_REQUEST_DELAY
+    FETCHER_REQUEST_DELAY
 )
 from utils.date_utils import get_date_range, get_date_str, get_target_date
 from utils.feed_utils import FeedProcessor, BatchProcessor
 from utils.file_utils import get_file_path
 from utils.logging_utils import log_error, log_info, log_success
 from utils.network_utils import NetworkClient, RateLimiter
-from utils.session_utils import SessionManager
 
 
 class SimplifiedFetcher:
@@ -27,19 +26,18 @@ class SimplifiedFetcher:
         # Initialize components
         self.network_client = NetworkClient(NITTER_BASE_URL)
         self.rate_limiter = RateLimiter()
-        self.session_manager = SessionManager(
-            mode=FETCHER_SESSION_MODE,
-            base_delay=FETCHER_REQUEST_DELAY,
-            batch_delay=FETCHER_BATCH_DELAY
-        )
+        
+        # Use conservative delays: 8-12 seconds between requests
         self.feed_processor = FeedProcessor(
             self.network_client, 
-            self.rate_limiter, 
-            self.session_manager
+            self.rate_limiter,
+            base_delay_min=8.0,
+            base_delay_max=12.0
         )
         self.batch_processor = BatchProcessor(
             self.feed_processor, 
-            FETCHER_BATCH_SIZE
+            FETCHER_BATCH_SIZE,
+            FETCHER_BATCH_DELAY
         )
     
     def get_feeds_from_handles(self):
@@ -67,7 +65,7 @@ class SimplifiedFetcher:
         
         log_info('SimplifiedFetcher', f"Nitter Base URL: {NITTER_BASE_URL}")
         log_info('SimplifiedFetcher', f"Target date: {date_str}")
-        log_info('SimplifiedFetcher', f"Session mode: {self.session_manager.mode}")
+        log_info('SimplifiedFetcher', f"Using conservative delays (8-12s between requests)")
         
         # Get feeds and posts
         feeds = self.get_feeds_from_handles()

@@ -124,7 +124,6 @@ RETRY_MAX_ATTEMPTS = int(env_utils.get_env('RETRY_MAX_ATTEMPTS'))
 # Fetcher configuration
 FETCHER_BATCH_SIZE = int(env_utils.get_env('FETCHER_BATCH_SIZE'))
 FETCHER_BATCH_DELAY = float(env_utils.get_env('FETCHER_BATCH_DELAY'))
-FETCHER_SESSION_MODE = env_utils.get_env('FETCHER_SESSION_MODE')
 FETCHER_REQUEST_DELAY = float(env_utils.get_env('FETCHER_REQUEST_DELAY'))
 
 # Twitter handles to fetch posts from

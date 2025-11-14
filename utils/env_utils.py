@@ -90,7 +90,6 @@ REQUIRED_VARS = [
     'TEST_SUMMARY_TITLE_FORMAT',
     'FETCHER_BATCH_SIZE',
     'FETCHER_BATCH_DELAY',
-    'FETCHER_SESSION_MODE',
     'FETCHER_REQUEST_DELAY'
 ]
 
@@ -132,7 +131,6 @@ def load_environment():
     # Convert batch processing configuration (simplified)
     env_vars['FETCHER_BATCH_SIZE'] = int(env_vars['FETCHER_BATCH_SIZE'])
     env_vars['FETCHER_BATCH_DELAY'] = float(env_vars['FETCHER_BATCH_DELAY'])
-    env_vars['FETCHER_SESSION_MODE'] = env_vars['FETCHER_SESSION_MODE'].lower()
     env_vars['FETCHER_REQUEST_DELAY'] = float(env_vars['FETCHER_REQUEST_DELAY'])
     
     # Convert RSS feed configuration

@@ -16,13 +16,40 @@ from utils.logging_utils import log_error, log_info, log_warning
 from utils.retry_utils import with_retry_sync
 
 
+def get_base_delay(min_delay: float = 8.0, max_delay: float = 12.0) -> float:
+    """Get base delay with random jitter.
+    
+    Args:
+        min_delay: Minimum delay in seconds
+        max_delay: Maximum delay in seconds
+        
+    Returns:
+        Random delay between min and max
+    """
+    return random.uniform(min_delay, max_delay)
+
+
+def get_batch_delay(batch_delay: float, jitter: float = 15.0) -> float:
+    """Get batch delay with random jitter.
+    
+    Args:
+        batch_delay: Base batch delay in seconds
+        jitter: Maximum random jitter to add
+        
+    Returns:
+        Batch delay with added jitter
+    """
+    return batch_delay + random.uniform(0, jitter)
+
+
 class FeedProcessor:
     """Handle feed processing logic with retry and error handling."""
     
-    def __init__(self, network_client, rate_limiter, session_config):
+    def __init__(self, network_client, rate_limiter, base_delay_min: float = 8.0, base_delay_max: float = 12.0):
         self.network_client = network_client
         self.rate_limiter = rate_limiter
-        self.session_config = session_config
+        self.base_delay_min = base_delay_min
+        self.base_delay_max = base_delay_max
     
     @with_retry_sync(timeout=30, max_attempts=3, context="feed processing")
     def process_feed(self, feed_url: str, feed_title: str) -> Tuple[feedparser.FeedParserDict, str]:
@@ -36,8 +63,8 @@ class FeedProcessor:
             Tuple[feedparser.FeedParserDict, str]: Parsed feed and error message (if any)
         """
         try:
-            # Apply rate limiting
-            self.rate_limiter.wait_if_needed(self.session_config.get_base_delay())
+            # Apply rate limiting with random delay
+            self.rate_limiter.wait_if_needed(get_base_delay(self.base_delay_min, self.base_delay_max))
             
             # Fetch the feed
             parsed_feed = self.network_client.fetch_feed(feed_url)
@@ -225,9 +252,10 @@ class FeedProcessor:
 class BatchProcessor:
     """Handle batch processing of feeds with session management."""
     
-    def __init__(self, feed_processor: FeedProcessor, batch_size: int = 20):
+    def __init__(self, feed_processor: FeedProcessor, batch_size: int = 20, batch_delay: float = 30.0):
         self.feed_processor = feed_processor
         self.batch_size = batch_size
+        self.batch_delay = batch_delay
     
     def process_feeds_in_batches(self, feeds: List[Dict], target_start: datetime, 
                                 target_end: datetime) -> Tuple[List[Dict], int, List[Dict]]:
@@ -258,9 +286,9 @@ class BatchProcessor:
             
             # Add delay between batches to allow session recovery
             if batch_num > 0:
-                batch_delay = self.feed_processor.session_config.get_batch_delay()
-                log_info('BatchProcessor', f"Waiting {batch_delay:.1f}s between batches for session recovery...")
-                time.sleep(batch_delay)
+                delay = get_batch_delay(self.batch_delay)
+                log_info('BatchProcessor', f"Waiting {delay:.1f}s between batches for session recovery...")
+                time.sleep(delay)
             
             # Process each feed in the batch
             for i, feed in enumerate(batch):
