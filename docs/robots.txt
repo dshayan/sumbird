@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /en/
+Allow: /fa/
+Allow: /en/news/
+Allow: /fa/news/
+Disallow: /logs/
+Disallow: /assets/components/
+
+# Sitemaps
+Sitemap: https://sumbird.ir/en/sitemap.xml
+Sitemap: https://sumbird.ir/fa/sitemap.xml

@@ -8,9 +8,74 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Nov 2025 07:26:18 +0330</lastBuildDate>
-    <pubDate>Fri, 14 Nov 2025 07:26:18 +0330</pubDate>
+    <lastBuildDate>Sat, 15 Nov 2025 01:17:21 +0330</lastBuildDate>
+    <pubDate>Sat, 15 Nov 2025 01:17:21 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-14</title>
+      <link>https://sumbird.ir/en/news/2025-11-14</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI releases &lt;b&gt;GPT-5.1&lt;/b&gt; in their API with new reasoning options and adaptive reasoning capabilities for instant responses, though some users note regressions in certain tasks like the pelican example compared to &lt;b&gt;GPT-5&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/simonw/status/1989123523206578351"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity makes &lt;b&gt;GPT-5.1&lt;/b&gt; available to Pro and Max subscribers &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1989075483385069949"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba ships &lt;b&gt;Qwen Code v0.2.1&lt;/b&gt; with major improvements including free web search (2000 searches/day for OAuth users), smarter code editing with fuzzy matching, better IDE integration, and multi-stage normalization pipeline for zero-overhead matching &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1989368317011009901"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI launches group chats in ChatGPT as a pilot in Japan, New Zealand, South Korea, and Taiwan, enabling collaboration with friends, family, or coworkers alongside ChatGPT in the same conversation &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1989138776585851038"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google announces &lt;b&gt;SIMA 2&lt;/b&gt;, a general agent that can understand and reason about complex instructions and complete tasks in simulated game worlds, even ones it has never seen before, learning through self-play &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1989096784870928721"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google AI Plus expands to 53 additional countries, making productivity and creativity tools available in 130 regions worldwide &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1989121822395412920"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google rolls out Deep Research update to all Gemini app users on mobile (Android and iOS), allowing users to select sources, enter prompts, and generate reports &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1989422254531448933"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claude API now supports structured outputs through native tool support, eliminating the need for previous workarounds using single tool calls with schemas &lt;em&gt;&lt;a href="https://x.com/simonw/status/1989411809351303430"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mira Murati's startup Thinking Machines Lab is in early talks to raise funding at a valuation of roughly $50 billion, more than 4x its valuation from a few months ago &lt;em&gt;&lt;a href="https://x.com/shiringhaffary/status/1989073320529261132"&gt;@shiringhaffary&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Disney CEO indicates plans to deploy AI not just in production processes but across the entire company, including for generative short-form user-created content on Disney+ platform, signaling Disney's transformation into an AI company &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989353952702574658"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Analysis suggests Disney's hard-nosed YouTube negotiations may be pressure tactics by Google to push Disney to choose &lt;b&gt;Veo&lt;/b&gt; over &lt;b&gt;Sora&lt;/b&gt; as their AI partner &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989353952702574658"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;A new category of startups called "Neolabs" emerges in Silicon Valley, with 9 out of 10 achieving $1B+ valuations at seed stage, likely under $10M in revenue, founded by ex-model lab AI researchers who have made $10-100M+ in personal wealth &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1989392319859356069"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Venture capitalists are abandoning old rules for a "funky time" of investing in AI startups, reflecting changing investment patterns in the AI sector &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1989110915053326650"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Harvey, built by a first-year legal associate, becomes one of Silicon Valley's hottest startups, demonstrating AI's impact on the legal industry &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1989302112405397922"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cisco acquires EZDubs, a speech translation technology company, to embed their technology in Cisco's videoconferencing products for use by millions &lt;em&gt;&lt;a href="https://x.com/snowmaker/status/1989383254387089480"&gt;@snowmaker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA GPU rental rates for &lt;b&gt;H100&lt;/b&gt; and &lt;b&gt;A100&lt;/b&gt; have stabilized after price drops over spring and summer &lt;em&gt;&lt;a href="https://x.com/a16z/status/1989390739563053273"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gamma CEO Grant Lee emphasizes that real product market fit beats brute force marketing, noting their growth came from organic word of mouth rather than advertising spend &lt;em&gt;&lt;a href="https://x.com/a16z/status/1989135282848059820"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AI Now Institute releases report "Fission for Algorithms: The Undermining of Nuclear Regulation in Service of AI" examining how nuclear regulation is being compromised to serve AI infrastructure needs &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/1989415535759823143"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic's Amanda Askell discusses the challenge of making Claude approach political topics fairly, suggesting existing norms around respect and professionalism can inform how AI models should navigate these issues &lt;em&gt;&lt;a href="https://x.com/AmandaAskell/status/1989328363077382407"&gt;@AmandaAskell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic releases open-source political bias evaluation materials to promote transparency in AI model behavior &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1989078050773037258"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Apple updates App Review Guidelines to clamp down on apps sharing personal data with third-party AI systems &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1989080384924184627"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;A federal judge denies Apple and OpenAI's motions to dismiss Elon Musk's antitrust lawsuit &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989358689145500060"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity's Comet Assistant introduces transparency features showing exactly what actions it's taking, asking permission before sensitive actions like logging in or completing purchases, and allowing users to control browsing behavior &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1989416343331012971"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Francois Chollet outlines the "ladder of intelligence" from memorization to metacognition, arguing that achieving compounding AI requires reaching Level 4 (discovering general principles and metacognition) through symbolic program synthesis rather than parametric learning &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1989272911534756038"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick raises concerns about expectations for open weights models keeping pace with closed ones, citing rising costs without clear revenue paths, government pressure on capable systems, and questioning long-term viability of Chinese frontier models remaining open &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989189674867511723"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI confirms &lt;b&gt;Sora&lt;/b&gt; cameos already work with fictional characters at a high level, requiring only IP permission for use &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989072307776811206"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claude Code's new front-end design Skill improves vibe-coded apps by considering audience and moving beyond default purple gradients and Arial fonts &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989093191182926249"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5 Pro&lt;/b&gt; proves incredibly useful for social science research, allowing researchers to analyze datasets and papers, check work, perform alternative specifications, and verify findings through provided code and statistical results &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989204496556384627"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claude Code combined with Playwright MCP creates a powerful combination for development tasks &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/1989219059444125953"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft demonstrates "vibe coding" enabling anyone, regardless of experience, to build apps using AI assistance &lt;em&gt;&lt;a href="https://x.com/Microsoft/status/1989377791112945850"&gt;@Microsoft&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft Copilot introduces Learn Live featuring Mico, an AI study buddy that helps break down complex ideas and maintain focus &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1989377791075176819"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Photos launches six new AI-powered features for editing, creating, and searching, including Nano Banana for photo remixing &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1989422908330946939"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Shopping integrates directly into Gemini App for convenient holiday shopping, with agentic AI features including checkout and calling stores for availability &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1989422908330946939"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NotebookLM receives major updates including custom video overview styles, chat history, images as sources, and Deep Research capabilities &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1989422908330946939"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ChatGPT now respects custom instructions to avoid using em-dashes in responses &lt;em&gt;&lt;a href="https://x.com/sama/status/1989193813043069219"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google DeepMind's &lt;b&gt;SIMA 2&lt;/b&gt; demonstrates ability to play games in the mind of &lt;b&gt;Genie 3&lt;/b&gt;, showing advanced agent capabilities in procedurally generated worlds &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1989124944433934728"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ChatGPT demonstrates ability to recognize when problems are too difficult to solve, as evidenced by reading MathOverflow posts and declining to attempt overly complex problems &lt;em&gt;&lt;a href="https://x.com/aryehazan/status/1989094224940183903"&gt;@aryehazan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Reuters reports that OpenAI offered to collaborate with DeepMind on AI research in 2019 but was rejected, with speculation that an "OpenMind" collaboration could have significantly advanced timelines &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989113700868059205"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford researchers introduce new AI model for computer vision that recognizes object parts, understands their function, and transfers skills between objects, advancing toward real-world usefulness &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1989363867760164982"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;An LLM-generated paper reaches top 17% of ICLR submissions by average reviewer score (receiving two 8's) despite containing BS jargon and hallucinated references, though one reviewer gave it a zero after actually reading it &lt;em&gt;&lt;a href="https://x.com/micahgoldblum/status/1989088547777966512"&gt;@micahgoldblum&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick notes custom system prompts may degrade LLM results without users knowing, as accuracy improvements are being built into models rather than requiring prompt engineering &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989213389642477901"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google's Android team reports moving from C++ to Rust yields 1000x reduction in memory safety vulnerability density (1 per 5M lines), 4x lower rollback rate, and 25% less time in code review &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1989203323979985267"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Francois Chollet argues that all great scientific breakthroughs are forms of symbolic compression, taking complex observations and reducing them to simple rules expressed as mathematical equations &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1989340153114976598"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT announces new platform for designing metal compositions with previously unattainable properties, representing an entirely new approach to making metals &lt;em&gt;&lt;a href="https://x.com/MIT/status/1989137962483777887"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andrej Karpathy expresses excitement about self-driving technology's potential to terraform outdoor physical spaces, reduce parking infrastructure, improve safety, decrease noise pollution, and free up human attention from lane following &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1989078861800411219"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-14</guid>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-13</title>
       <link>https://sumbird.ir/en/news/2025-11-13</link>
@@ -947,50 +1012,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-26</guid>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-10-25</title>
-      <link>https://sumbird.ir/en/news/2025-10-25</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI is reportedly training a new &lt;b&gt;music model&lt;/b&gt;, which would be their first since &lt;b&gt;Jukebox&lt;/b&gt; in 2020, marking a significant shift as they previously avoided legal conflicts with music labels &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1981852010480837070"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI demonstrated a new &lt;b&gt;bidirectional speech model&lt;/b&gt; at their London Frontiers event that can translate speech in real-time while still speaking by waiting for complete verbs, with potential launch in coming weeks &lt;em&gt;&lt;a href="https://x.com/btibor91/status/1981980184871149832"&gt;@btibor91&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;xAI introduces &lt;b&gt;Mika&lt;/b&gt;, the newest Grok Companion, with video content created using &lt;b&gt;Grok Imagine&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/xai/status/1981917247095685441"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Meituan releases &lt;b&gt;LongCat-Video&lt;/b&gt;, a foundational video generation model with 13.6B parameters supporting Text-to-Video, Image-to-Video, and Video-Continuation generation tasks under MIT license &lt;em&gt;&lt;a href="https://x.com/reach_vb/status/1982014895454331341"&gt;@reach_vb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Odyssey ML announces &lt;b&gt;Odyssey-2&lt;/b&gt;, described as representing a totally new capability for AI, launching Monday at 10AM PT &lt;em&gt;&lt;a href="https://x.com/olivercameron/status/1981829313101279492"&gt;@olivercameron&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Some OpenAI employees reportedly feel the company is becoming too much of a media lab, though leadership maintains they remain a superintelligence lab at heart with media projects funding core research &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1981859383404548271"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Film director Paul Schrader predicts we're two years away from the first AI feature film, aligning with Elon Musk's timeline of fully generated movies being watchable by 2026 and high quality by 2027 &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1982151923529625886"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft's business model differs fundamentally from Google's with only ~5% revenue from ads versus Google's ~80%, explaining their different approaches to developer tools and search &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1982141008927154512"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;HVAC has surpassed semiconductors, computers/servers, and data centers as the biggest winner of net-new hardware spending since 2022 &lt;em&gt;&lt;a href="https://x.com/a16z/status/1981839381121159514"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis shows &lt;b&gt;Grok 4&lt;/b&gt; training used less water than a square mile of US farmland uses annually, highlighting efficiency in AI training &lt;em&gt;&lt;a href="https://x.com/a16z/status/1982118722233118784"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;New AI browsers from OpenAI and Perplexity promise increased productivity but come with heightened security risks that users should be aware of &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1982055309209199023"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;A high school student in Baltimore County was reportedly handcuffed and searched after an AI security system incorrectly flagged his bag of chips as a possible firearm &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1982162513002119648"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Most people working at the cutting edge of AI appear to have no long-term plan for their unsustainable work habits, raising concerns about burnout in the field &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1982143627489841514"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Microsoft announces 12 new &lt;b&gt;Copilot&lt;/b&gt; features designed to make a difference in real-world applications rather than pulling users away from their tasks &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1981828293503725784"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Copilot Mode&lt;/b&gt; in Edge serves as an intelligent browsing companion that can read tabs, take actions, and turn browsing history into helpful storylines &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1982114931961954618"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude demonstrates the ability to fetch and navigate its own online documentation when asked questions about itself, showing improved self-referential capabilities &lt;em&gt;&lt;a href="https://x.com/simonw/status/1981859803451498578"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Giving reasoning models access to data connections for real-time searches and refinement represents a significant leap over traditional RAG systems &lt;em&gt;&lt;a href="https://x.com/emollick/status/1982176215537451253"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;User reports building 5 personal mini-apps in 2 hours with no coding, debugging, or setup required, highlighting the accessibility of modern AI development tools &lt;em&gt;&lt;a href="https://x.com/iVinay/status/1982156436961464455"&gt;@iVinay&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Research shows that creating SVGs activates the same semantic concepts in LLMs as asking them to describe the same objects, revealing interesting insights into AI representation &lt;em&gt;&lt;a href="https://x.com/emollick/status/1981935872049066150"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Carnegie Mellon researchers win IROS Best Student Paper Award for &lt;b&gt;Neural MP&lt;/b&gt;, a generalist neural motion planner that improves success rates by 23%, 17%, and 79% over state-of-the-art sampling, optimization, and learning-based planners &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/1982088827880546444"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;DeepMind announces progress on AI for materials science, with exciting developments in the AI for Science team &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1982031487558951232"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;One-year retrospective on KernelBench reveals lessons learned in the journey toward automated GPU/CUDA kernel generation, showing remarkable community progress &lt;em&gt;&lt;a href="https://x.com/simonguozirui/status/1981830383449911417"&gt;@simonguozirui&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford NLP celebrates its 25th anniversary, highlighting its role in inspiring NLP groups worldwide that led to today's LLMs &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1982137945856368688"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-25</guid>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
