@@ -7,7 +7,7 @@ __version__ = '1.0.0'
 
 from src.fetcher import fetch_and_format
 from src.narrator import narrate
-from src.newsletter_generator import generate as generate_newsletter
+from src.newsletter_generator import generate_newsletter
 from src.script_writer import write_scripts
 from src.summarizer import summarize
 from src.telegram_distributer import distribute, HeadlineGenerator

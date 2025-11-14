@@ -388,8 +388,8 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
             from src import newsletter_generator
             
             # Generate both languages without auto-commit, then commit once at the end
-            newsletter_success_en = newsletter_generator.generate(language="en", verbose=False, auto_commit=False)
-            newsletter_success_fa = newsletter_generator.generate(language="fa", verbose=False, auto_commit=False)
+            newsletter_success_en = newsletter_generator.generate_newsletter(language="en", verbose=False, auto_commit=False)
+            newsletter_success_fa = newsletter_generator.generate_newsletter(language="fa", verbose=False, auto_commit=False)
             
             newsletter_success = newsletter_success_en and newsletter_success_fa
             

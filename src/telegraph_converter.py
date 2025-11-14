@@ -201,7 +201,7 @@ def fix_spacing_in_nodes(nodes):
     # Process each top-level node
     return [process_node(node) for node in nodes]
 
-def add_footer(nodes, is_persian=False):
+def add_telegraph_footer(nodes, is_persian=False):
     """Add footer to the content.
     
     Args:
@@ -242,7 +242,7 @@ def add_footer(nodes, is_persian=False):
     nodes.append(footer_node)
     return nodes
 
-def extract_title(html_content):
+def extract_html_title(html_content):
     """Extract title from HTML content.
     
     Args:
@@ -284,7 +284,7 @@ def convert_to_telegraph_format(input_file, output_file, date_str, is_persian=Fa
         html_content = content
         
         # Extract title and clean content
-        title, html_content = extract_title(html_content)
+        title, html_content = extract_html_title(html_content)
         
         # Clean HTML to ensure proper display
         html_content = clean_html_for_display(html_content)
@@ -296,7 +296,7 @@ def convert_to_telegraph_format(input_file, output_file, date_str, is_persian=Fa
         nodes = fix_spacing_in_nodes(nodes)
         
         # Add footer
-        nodes = add_footer(nodes, is_persian)
+        nodes = add_telegraph_footer(nodes, is_persian)
         
         # Create Telegraph format
         telegraph_data = {

@@ -754,7 +754,7 @@ Sitemap: {SITE_BASE_URL}/fa/sitemap.xml
             return False
 
 
-def generate(force_regenerate: bool = False, language: str = "en", verbose: bool = True, auto_commit: bool = True):
+def generate_newsletter(force_regenerate: bool = False, language: str = "en", verbose: bool = True, auto_commit: bool = True):
     """Main function to generate newsletter. Can be called from pipeline or standalone.
     
     Args:

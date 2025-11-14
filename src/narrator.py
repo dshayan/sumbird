@@ -19,7 +19,7 @@ from utils.html_utils import html_to_text
 from utils.logging_utils import log_error, log_info, log_success
 from utils.prompt_utils import load_prompt
 
-def convert_html_to_text(html_content):
+def prepare_text_for_tts(html_content):
     """Convert HTML content to clean text for TTS.
     
     Args:
@@ -62,7 +62,7 @@ def narrate_file(file_path, output_path, client, title=None, date_str=None):
         html_content = read_file(file_path)
         
         # Convert HTML to text
-        text_content = convert_html_to_text(html_content)
+        text_content = prepare_text_for_tts(html_content)
         
         if not text_content.strip():
             log_error('Narrator', f"No text content found in {file_path}")
