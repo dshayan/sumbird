@@ -112,6 +112,35 @@ def validate_channel_id(channel_id):
         "- For users: Just numeric ID"
     )
 
+def construct_telegram_message_url(message_id, chat_id_value=None, chat_username=None):
+    """Construct a Telegram message URL from message ID and chat information.
+    
+    Args:
+        message_id (int): The message ID
+        chat_id_value (int, optional): The numeric chat ID
+        chat_username (str, optional): The chat username (for public channels)
+    
+    Returns:
+        str: The constructed message URL, or empty string if unable to construct
+    """
+    if chat_username:
+        # Public channel
+        return f"https://t.me/{chat_username}/{message_id}"
+    elif chat_id_value:
+        # Private channel
+        # Remove the minus sign if it's a negative ID
+        channel_id_str = str(chat_id_value)
+        if channel_id_str.startswith('-100'):
+            clean_id = channel_id_str[4:]  # Remove -100 prefix
+            return f"https://t.me/c/{clean_id}/{message_id}"
+        elif channel_id_str.startswith('-'):
+            clean_id = channel_id_str[1:]  # Remove just the minus sign
+            return f"https://t.me/c/{clean_id}/{message_id}"
+        else:
+            return f"https://t.me/c/{channel_id_str}/{message_id}"
+    
+    return ""
+
 @with_retry_sync(timeout=TELEGRAM_MESSAGE_TIMEOUT, max_attempts=RETRY_MAX_ATTEMPTS)
 def send_telegram_channel_post(content, chat_id):
     """Send a post to a Telegram channel with retry logic.
@@ -157,23 +186,8 @@ def send_telegram_channel_post(content, chat_id):
                 chat_id_value = response_json.get("result", {}).get("chat", {}).get("id")
                 chat_username = response_json.get("result", {}).get("chat", {}).get("username")
                 
-                # Construct message URL
-                message_url = ""
-                if chat_username:
-                    # Public channel
-                    message_url = f"https://t.me/{chat_username}/{message_id}"
-                elif chat_id_value:
-                    # Private channel
-                    # Remove the minus sign if it's a negative ID
-                    channel_id_str = str(chat_id_value)
-                    if channel_id_str.startswith('-100'):
-                        clean_id = channel_id_str[4:]  # Remove -100 prefix
-                        message_url = f"https://t.me/c/{clean_id}/{message_id}"
-                    elif channel_id_str.startswith('-'):
-                        clean_id = channel_id_str[1:]  # Remove just the minus sign
-                        message_url = f"https://t.me/c/{clean_id}/{message_id}"
-                    else:
-                        message_url = f"https://t.me/c/{channel_id_str}/{message_id}"
+                # Construct message URL using helper function
+                message_url = construct_telegram_message_url(message_id, chat_id_value, chat_username)
                 
                 return True, message_url
             else:
@@ -254,23 +268,8 @@ def send_telegram_audio_group(audio_files, chat_id):
                     chat_id_value = first_message.get("chat", {}).get("id")
                     chat_username = first_message.get("chat", {}).get("username")
                     
-                    # Construct message URL
-                    message_url = ""
-                    if chat_username:
-                        # Public channel
-                        message_url = f"https://t.me/{chat_username}/{message_id}"
-                    elif chat_id_value:
-                        # Private channel
-                        # Remove the minus sign if it's a negative ID
-                        channel_id_str = str(chat_id_value)
-                        if channel_id_str.startswith('-100'):
-                            clean_id = channel_id_str[4:]  # Remove -100 prefix
-                            message_url = f"https://t.me/c/{clean_id}/{message_id}"
-                        elif channel_id_str.startswith('-'):
-                            clean_id = channel_id_str[1:]  # Remove just the minus sign
-                            message_url = f"https://t.me/c/{clean_id}/{message_id}"
-                        else:
-                            message_url = f"https://t.me/c/{channel_id_str}/{message_id}"
+                    # Construct message URL using helper function
+                    message_url = construct_telegram_message_url(message_id, chat_id_value, chat_username)
                     
                     return True, message_url
                 else:
@@ -340,23 +339,8 @@ def send_telegram_audio(audio_file_path, chat_id, title=""):
                 chat_id_value = response_json.get("result", {}).get("chat", {}).get("id")
                 chat_username = response_json.get("result", {}).get("chat", {}).get("username")
                 
-                # Construct message URL
-                message_url = ""
-                if chat_username:
-                    # Public channel
-                    message_url = f"https://t.me/{chat_username}/{message_id}"
-                elif chat_id_value:
-                    # Private channel
-                    # Remove the minus sign if it's a negative ID
-                    channel_id_str = str(chat_id_value)
-                    if channel_id_str.startswith('-100'):
-                        clean_id = channel_id_str[4:]  # Remove -100 prefix
-                        message_url = f"https://t.me/c/{clean_id}/{message_id}"
-                    elif channel_id_str.startswith('-'):
-                        clean_id = channel_id_str[1:]  # Remove just the minus sign
-                        message_url = f"https://t.me/c/{clean_id}/{message_id}"
-                    else:
-                        message_url = f"https://t.me/c/{channel_id_str}/{message_id}"
+                # Construct message URL using helper function
+                message_url = construct_telegram_message_url(message_id, chat_id_value, chat_username)
                 
                 return True, message_url
             else:
