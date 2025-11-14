@@ -9,8 +9,8 @@ PYTHON_PATH="$SCRIPT_DIR/venv/bin/python"
 MAIN_SCRIPT="$SCRIPT_DIR/main.py"
 LOG_FILE="$SCRIPT_DIR/logs/cron.log"
 # Include proper PATH for cron environment to find FFmpeg and other tools
-# First cron entry: 1:00 AM without Telegram distribution (ULTRA-SIMPLIFIED)
-CRON_ENTRY_1AM="0 1 * * * cd $SCRIPT_DIR && echo '' >> $LOG_FILE && echo 'Cron: Starting 1:00 AM pipeline (without Telegram)' >> $LOG_FILE && $PYTHON_PATH main.py --skip-telegram >> $LOG_FILE 2>&1"
+# First cron entry: 1:00 AM without Telegram distribution and TTS (ULTRA-SIMPLIFIED)
+CRON_ENTRY_1AM="0 1 * * * cd $SCRIPT_DIR && echo '' >> $LOG_FILE && echo 'Cron: Starting 1:00 AM pipeline (without Telegram and TTS)' >> $LOG_FILE && $PYTHON_PATH main.py --skip-telegram --skip-tts >> $LOG_FILE 2>&1"
 # Second cron entry: 6:00 AM with full Telegram distribution (ULTRA-SIMPLIFIED)
 CRON_ENTRY_6AM="0 6 * * * cd $SCRIPT_DIR && echo '' >> $LOG_FILE && echo 'Cron: Starting 6:00 AM pipeline (with Telegram)' >> $LOG_FILE && $PYTHON_PATH main.py --skip-tts >> $LOG_FILE 2>&1"
 # Schedule refresh entry: Run this script weekly to refresh wake schedules (since pmset repeat can only set one time)
@@ -141,7 +141,7 @@ setup_scheduling() {
     
     print_info "Scheduling setup complete!"
     print_info "Your sumbird script will run:"
-    print_info "  - Daily at 1:00 AM (without Telegram distribution)"
+    print_info "  - Daily at 1:00 AM (without Telegram distribution and TTS)"
     print_info "  - Daily at 6:00 AM (with full Telegram distribution)"
     print_info "  - Weekly refresh of wake schedules (Sunday midnight)"
     print_info "Logs will be saved to: $LOG_FILE"
@@ -228,8 +228,8 @@ show_status() {
     
     echo
     print_info "Cron Jobs"
-    if crontab -l 2>/dev/null | grep -q "0 1.*main.py --skip-telegram"; then
-        print_info "1:00 AM cron job (without Telegram) is SET"
+    if crontab -l 2>/dev/null | grep -q "0 1.*main.py --skip-telegram --skip-tts"; then
+        print_info "1:00 AM cron job (without Telegram and TTS) is SET"
     else
         print_warning "No 1:00 AM cron job found"
     fi
@@ -283,7 +283,7 @@ test_run() {
     check_prerequisites
     
     echo "Choose which test to run:"
-    echo "1. Test 1:00 AM version (without Telegram distribution)"
+    echo "1. Test 1:00 AM version (without Telegram distribution and TTS)"
     echo "2. Test 6:00 AM version (with full Telegram distribution)"
     echo "3. Cancel"
     echo
@@ -291,10 +291,10 @@ test_run() {
     
     case "$choice" in
         1)
-            print_info "Running: caffeinate -s $PYTHON_PATH main.py --skip-telegram"
-            print_info "This will run the 1:00 AM version (without Telegram distribution)..."
+            print_info "Running: caffeinate -s $PYTHON_PATH main.py --skip-telegram --skip-tts"
+            print_info "This will run the 1:00 AM version (without Telegram distribution and TTS)..."
             echo
-            cd "$SCRIPT_DIR" && caffeinate -s "$PYTHON_PATH" main.py --skip-telegram
+            cd "$SCRIPT_DIR" && caffeinate -s "$PYTHON_PATH" main.py --skip-telegram --skip-tts
             ;;
         2)
             print_warning "WARNING: This will send messages to your Telegram channel!"
@@ -342,7 +342,7 @@ show_usage() {
     echo "  help          Show this help message"
     echo
     echo "Scheduling Details:"
-    echo "  1:00 AM       Run pipeline without Telegram distribution"
+    echo "  1:00 AM       Run pipeline without Telegram distribution and TTS"
     echo "  6:00 AM       Run pipeline with full Telegram distribution"
     echo "  Weekly        Refresh wake schedules (due to macOS pmset limitations)"
     echo
