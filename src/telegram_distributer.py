@@ -29,7 +29,7 @@ from utils.openrouter_utils import create_openrouter_client
 from utils.prompt_utils import load_prompt
 from utils.retry_utils import with_retry_sync
 
-class HeadlineGenerator:
+class HeadlineClient:
     """Client for generating headlines using OpenRouter API."""
     
     def __init__(self, api_key, model, max_tokens, temperature, site_url, site_name, prompt_path):
@@ -449,7 +449,7 @@ def distribute():
         
         # Initialize headline generator and generate headline
         try:
-            headline_generator = HeadlineGenerator(
+            headline_client = HeadlineClient(
                 api_key=OPENROUTER_API_KEY,
                 model=OPENROUTER_HEADLINE_MODEL,
                 max_tokens=OPENROUTER_MAX_TOKENS,
@@ -458,7 +458,7 @@ def distribute():
                 site_name=OPENROUTER_SITE_NAME,
                 prompt_path=HEADLINE_WRITER_PROMPT_PATH
             )
-            headline, input_tokens, output_tokens = headline_generator.generate_headline(summary_text)
+            headline, input_tokens, output_tokens = headline_client.generate_headline(summary_text)
         except Exception as e:
             log_error('TelegramDistributer', "Headline generation failed, cannot proceed without generated headline", e)
             return False, "", 0, 0

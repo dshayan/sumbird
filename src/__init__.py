@@ -10,7 +10,7 @@ from src.narrator import narrate
 from src.newsletter_generator import generate_newsletter
 from src.script_writer import write_scripts
 from src.summarizer import summarize
-from src.telegram_distributer import distribute, HeadlineGenerator
+from src.telegram_distributer import distribute, HeadlineClient
 from src.telegraph_converter import convert_all_summaries
 from src.telegraph_publisher import publish
 from src.translator import translate
@@ -29,7 +29,7 @@ __all__ = [
     'publish',
     'distribute',
     'generate_newsletter',
-    'HeadlineGenerator',
+    'HeadlineClient',
     
     # Utility functions that are used by multiple modules
     'log_error',

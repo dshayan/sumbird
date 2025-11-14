@@ -19,8 +19,8 @@ from utils.logging_utils import log_error, log_info, log_success
 from utils.network_utils import NetworkClient, RateLimiter
 
 
-class SimplifiedFetcher:
-    """Simplified fetcher using utility classes and retry_utils."""
+class TweetFetcher:
+    """Fetches and formats tweets from Twitter/X RSS feeds using utility classes."""
     
     def __init__(self):
         # Initialize components
@@ -63,41 +63,41 @@ class SimplifiedFetcher:
         # Generate output file path
         output_file = get_file_path('export', date_str)
         
-        log_info('SimplifiedFetcher', f"Nitter Base URL: {NITTER_BASE_URL}")
-        log_info('SimplifiedFetcher', f"Target date: {date_str}")
-        log_info('SimplifiedFetcher', f"Using conservative delays (8-12s between requests)")
+        log_info('TweetFetcher', f"Nitter Base URL: {NITTER_BASE_URL}")
+        log_info('TweetFetcher', f"Target date: {date_str}")
+        log_info('TweetFetcher', f"Using conservative delays (8-12s between requests)")
         
         # Get feeds and posts
         feeds = self.get_feeds_from_handles()
         feeds_total = len(feeds)
         
-        log_info('SimplifiedFetcher', f"Processing {feeds_total} feeds with session-aware delays...")
+        log_info('TweetFetcher', f"Processing {feeds_total} feeds with session-aware delays...")
         
         target_start, target_end = get_date_range(target_date)
         posts, feeds_success, failed_handles = self.batch_processor.process_feeds_in_batches(
             feeds, target_start, target_end
         )
         
-        log_info('SimplifiedFetcher', f"Retrieved {len(posts)} posts from {feeds_success}/{feeds_total} feeds")
+        log_info('TweetFetcher', f"Retrieved {len(posts)} posts from {feeds_success}/{feeds_total} feeds")
         
         # Log failed feeds summary if there are any failures
         if failed_handles:
-            log_info('SimplifiedFetcher', f"Failed feeds summary:")
+            log_info('TweetFetcher', f"Failed feeds summary:")
             for failed_feed in failed_handles:
-                log_info('SimplifiedFetcher', f"- {failed_feed['handle']}: {failed_feed['reason']}")
+                log_info('TweetFetcher', f"- {failed_feed['handle']}: {failed_feed['reason']}")
         
         # Save to file
         self.save_to_file(posts, output_file, date_str)
         
         # Log completion
-        log_success('SimplifiedFetcher', f"Successfully fetched and formatted tweets to {output_file}")
+        log_success('TweetFetcher', f"Successfully fetched and formatted tweets to {output_file}")
         
         return output_file, feeds_success, feeds_total, failed_handles
     
     def save_to_file(self, posts, output_file, date_str):
         """Save processed posts to output file."""
         if not posts:
-            log_info('SimplifiedFetcher', "No posts found to save")
+            log_info('TweetFetcher', "No posts found to save")
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write("# No Twitter Posts Found")
             return
@@ -143,7 +143,7 @@ class SimplifiedFetcher:
 
 def fetch_and_format():
     """Module-level function for pipeline compatibility."""
-    fetcher = SimplifiedFetcher()
+    fetcher = TweetFetcher()
     return fetcher.fetch_and_format()
 
 
@@ -155,17 +155,17 @@ def main():
     
     # Create necessary directories when running as standalone
     if not os.path.exists(EXPORT_DIR):
-        log_info('SimplifiedFetcher', f"Creating directory: {EXPORT_DIR}")
+        log_info('TweetFetcher', f"Creating directory: {EXPORT_DIR}")
         os.makedirs(EXPORT_DIR, exist_ok=True)
     
     # Initialize and run fetcher
-    fetcher = SimplifiedFetcher()
+    fetcher = TweetFetcher()
     output_file, feeds_success, feeds_total, failed_handles = fetcher.fetch_and_format()
     
     if output_file and os.path.exists(output_file):
-        log_success('SimplifiedFetcher', f"Successfully fetched and formatted tweets to {output_file}")
+        log_success('TweetFetcher', f"Successfully fetched and formatted tweets to {output_file}")
     else:
-        log_error('SimplifiedFetcher', "Failed to fetch and format tweets")
+        log_error('TweetFetcher', "Failed to fetch and format tweets")
         sys.exit(1)
 
 
