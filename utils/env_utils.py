@@ -13,7 +13,6 @@ import sys
 from dotenv import load_dotenv
 
 from utils.date_utils import set_timezone
-from utils.file_utils import set_file_paths
 
 # Required environment variables
 REQUIRED_VARS = [
@@ -141,18 +140,6 @@ def load_environment():
     
     # Set timezone in date_utils
     set_timezone(env_vars['TIMEZONE'])
-    
-    # Set file paths in file_utils
-    set_file_paths(
-        env_vars['EXPORT_DIR'],
-        env_vars['SUMMARY_DIR'],
-        env_vars['TRANSLATED_DIR'],
-        env_vars['SCRIPT_DIR'],
-        env_vars['CONVERTED_DIR'],
-        env_vars['PUBLISHED_DIR'],
-        env_vars['NARRATED_DIR'],
-        env_vars['FILE_FORMAT']
-    )
     
     # Parse Twitter handles
     env_vars['HANDLES'] = get_handles_from_env()

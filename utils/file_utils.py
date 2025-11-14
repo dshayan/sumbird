@@ -11,40 +11,40 @@ import os
 
 from utils.date_utils import get_date_str
 
-# File paths will be set by env_utils during initialization
-EXPORT_DIR = None
-SUMMARY_DIR = None
-TRANSLATED_DIR = None
-SCRIPT_DIR = None
-CONVERTED_DIR = None
-PUBLISHED_DIR = None
-NARRATED_DIR = None
-FILE_FORMAT = None
 
-def set_file_paths(export_dir, summary_dir, translated_dir, script_dir, converted_dir, published_dir, narrated_dir, file_format):
-    """Set the global file path variables."""
-    global EXPORT_DIR, SUMMARY_DIR, TRANSLATED_DIR, SCRIPT_DIR, CONVERTED_DIR, PUBLISHED_DIR, NARRATED_DIR, FILE_FORMAT
-    EXPORT_DIR = export_dir
-    SUMMARY_DIR = summary_dir
-    TRANSLATED_DIR = translated_dir
-    SCRIPT_DIR = script_dir
-    CONVERTED_DIR = converted_dir
-    PUBLISHED_DIR = published_dir
-    NARRATED_DIR = narrated_dir
-    FILE_FORMAT = file_format
+def _get_config_values():
+    """Lazy import of config values to avoid circular dependencies."""
+    from config import (
+        EXPORT_DIR, SUMMARY_DIR, TRANSLATED_DIR, SCRIPT_DIR,
+        CONVERTED_DIR, PUBLISHED_DIR, NARRATED_DIR, FILE_FORMAT
+    )
+    return {
+        'EXPORT_DIR': EXPORT_DIR,
+        'SUMMARY_DIR': SUMMARY_DIR,
+        'TRANSLATED_DIR': TRANSLATED_DIR,
+        'SCRIPT_DIR': SCRIPT_DIR,
+        'CONVERTED_DIR': CONVERTED_DIR,
+        'PUBLISHED_DIR': PUBLISHED_DIR,
+        'NARRATED_DIR': NARRATED_DIR,
+        'FILE_FORMAT': FILE_FORMAT
+    }
+
 
 def ensure_directories():
     """Ensure all data directories exist."""
+    config = _get_config_values()
+    
     os.makedirs('logs', exist_ok=True)
-    os.makedirs(EXPORT_DIR, exist_ok=True)
-    os.makedirs(SUMMARY_DIR, exist_ok=True)
-    os.makedirs(TRANSLATED_DIR, exist_ok=True)
-    if SCRIPT_DIR:  # Only create if SCRIPT_DIR is configured
-        os.makedirs(SCRIPT_DIR, exist_ok=True)
-    os.makedirs(CONVERTED_DIR, exist_ok=True)
-    os.makedirs(PUBLISHED_DIR, exist_ok=True)
-    if NARRATED_DIR:  # Only create if NARRATED_DIR is configured
-        os.makedirs(NARRATED_DIR, exist_ok=True)
+    os.makedirs(config['EXPORT_DIR'], exist_ok=True)
+    os.makedirs(config['SUMMARY_DIR'], exist_ok=True)
+    os.makedirs(config['TRANSLATED_DIR'], exist_ok=True)
+    if config['SCRIPT_DIR']:  # Only create if SCRIPT_DIR is configured
+        os.makedirs(config['SCRIPT_DIR'], exist_ok=True)
+    os.makedirs(config['CONVERTED_DIR'], exist_ok=True)
+    os.makedirs(config['PUBLISHED_DIR'], exist_ok=True)
+    if config['NARRATED_DIR']:  # Only create if NARRATED_DIR is configured
+        os.makedirs(config['NARRATED_DIR'], exist_ok=True)
+
 
 def get_file_path(file_type, date_str=None, lang=None):
     """Get a file path based on file type and date.
@@ -63,15 +63,17 @@ def get_file_path(file_type, date_str=None, lang=None):
     if date_str is None:
         date_str = get_date_str()
     
+    config = _get_config_values()
+    
     # Map file types to directories and formats
     type_map = {
-        'export': (EXPORT_DIR, FILE_FORMAT.replace('.html', '.md')),  # Export uses markdown
-        'summary': (SUMMARY_DIR, FILE_FORMAT),  # Summary uses HTML
-        'translated': (TRANSLATED_DIR, FILE_FORMAT),  # Translated uses HTML
-        'script': (SCRIPT_DIR, FILE_FORMAT),  # Script uses HTML
-        'converted': (CONVERTED_DIR, FILE_FORMAT.replace('.html', '.json')),  # Converted uses JSON
-        'published': (PUBLISHED_DIR, FILE_FORMAT.replace('.html', '.json')),  # Published uses JSON
-        'narrated': (NARRATED_DIR, FILE_FORMAT.replace('.html', '.mp3'))  # Narrated uses MP3
+        'export': (config['EXPORT_DIR'], config['FILE_FORMAT'].replace('.html', '.md')),  # Export uses markdown
+        'summary': (config['SUMMARY_DIR'], config['FILE_FORMAT']),  # Summary uses HTML
+        'translated': (config['TRANSLATED_DIR'], config['FILE_FORMAT']),  # Translated uses HTML
+        'script': (config['SCRIPT_DIR'], config['FILE_FORMAT']),  # Script uses HTML
+        'converted': (config['CONVERTED_DIR'], config['FILE_FORMAT'].replace('.html', '.json')),  # Converted uses JSON
+        'published': (config['PUBLISHED_DIR'], config['FILE_FORMAT'].replace('.html', '.json')),  # Published uses JSON
+        'narrated': (config['NARRATED_DIR'], config['FILE_FORMAT'].replace('.html', '.mp3'))  # Narrated uses MP3
     }
     
     if file_type not in type_map:
@@ -94,6 +96,7 @@ def get_file_path(file_type, date_str=None, lang=None):
         file_path = os.path.join(directory, format_str.format(date=date_str))
     
     return file_path
+
 
 def get_audio_file_path(file_type, date_str=None, lang=None):
     """Get audio file path, checking for both MP3 and WAV formats.
@@ -121,6 +124,7 @@ def get_audio_file_path(file_type, date_str=None, lang=None):
     # If neither exists, return the MP3 path (for error messages or file creation)
     return mp3_path
 
+
 def file_exists(file_path):
     """Check if a file exists.
     
@@ -131,6 +135,7 @@ def file_exists(file_path):
         bool: True if the file exists, False otherwise
     """
     return os.path.exists(file_path) and os.path.isfile(file_path)
+
 
 def read_file(file_path, encoding='utf-8'):
     """Read the contents of a file.
@@ -151,6 +156,7 @@ def read_file(file_path, encoding='utf-8'):
     with open(file_path, 'r', encoding=encoding) as f:
         return f.read()
 
+
 def write_file(file_path, content, encoding='utf-8'):
     """Write content to a file.
     
@@ -170,4 +176,4 @@ def write_file(file_path, content, encoding='utf-8'):
             f.write(content)
         return True
     except Exception:
-        return False 
+        return False

@@ -31,9 +31,6 @@ class TemplateManager:
         # Templates are now in language-specific subdirectories
         self.templates_path = self.docs_path / language / "templates"
         self.language = language
-        
-        # Cache for loaded components
-        self._component_cache = {}
     
     def _get_posthog_script(self) -> str:
         """Generate PostHog analytics script if API key is configured.
@@ -91,11 +88,6 @@ class TemplateManager:
         Returns:
             The component HTML with placeholders replaced.
         """
-        # Check cache first
-        cache_key = f"{component_name}_{hash(frozenset(kwargs.items()))}"
-        if cache_key in self._component_cache:
-            return self._component_cache[cache_key]
-        
         # Load component from language-specific directory
         component_path = self.components_path / f"{component_name}.html"
         
@@ -110,8 +102,6 @@ class TemplateManager:
                 placeholder = f"{{{{{key}}}}}"
                 component_content = component_content.replace(placeholder, str(value))
             
-            # Cache the result
-            self._component_cache[cache_key] = component_content
             return component_content
             
         except Exception as e:
@@ -341,8 +331,3 @@ class TemplateManager:
         except Exception as e:
             log_error("TemplateManager", f"Error generating index HTML", e)
             return ""
-    
-    def clear_cache(self):
-        """Clear the component cache."""
-        self._component_cache.clear()
-        log_info("TemplateManager", "Component cache cleared")
