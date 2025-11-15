@@ -8,9 +8,51 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Nov 2025 06:00:09 +0330</lastBuildDate>
-    <pubDate>Sat, 15 Nov 2025 06:00:09 +0330</pubDate>
+    <lastBuildDate>Sun, 16 Nov 2025 01:16:22 +0330</lastBuildDate>
+    <pubDate>Sun, 16 Nov 2025 01:16:22 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-15</title>
+      <link>https://sumbird.ir/en/news/2025-11-15</link>
+      <description>&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Warren Buffett has taken a &lt;b&gt;$4.3 billion stake in Alphabet&lt;/b&gt;, signaling major institutional confidence in Google's AI capabilities &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989476691396407482"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Disney's potential AI partnership decision is viewed as a crucial signal for who will lead the AI race in 2026, with the partnership expected to legitimize AI as a creative tool and provide immense promotional power to the chosen platform &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989740285300207899"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google announces &lt;b&gt;$40 billion investment in Texas through 2027&lt;/b&gt; to build Cloud and AI infrastructure, including new data centers and funding to double the pipeline of new electricians to power the AI era &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1989468970400055487"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Databricks co-founder argues the US must go open source to beat China in AI development &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1989467434479456495"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Organizations are increasingly using AI in multiple business functions, showing widespread adoption across enterprises &lt;em&gt;&lt;a href="https://x.com/a16z/status/1989740208703836163"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Leaked documents reveal details about how much OpenAI pays Microsoft for infrastructure &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1989495614770745721"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;A startup CTO reports that &lt;b&gt;14 out of 15 Meta engineers failed&lt;/b&gt; a practical full-stack development screening that allows AI use, while engineers from startups typically pass, raising questions about skill transferability from large tech companies &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1989466197092700657"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mid-sized and larger tech companies are incorporating &lt;b&gt;AI usage into performance reviews&lt;/b&gt; to reward developers who drive efficiency with the technology and encourage innovation &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1989789748190220564"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Fei-Fei Li discusses hardware requirements for spatial intelligence, noting that chip requirements for spatial AI will differ from LLMs, particularly on rendering and training sides &lt;em&gt;&lt;a href="https://x.com/a16z/status/1989462137044177301"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity demonstrates transparency improvements in their &lt;b&gt;Comet browser agent&lt;/b&gt;, including asking permission before delegating tasks, showing agent traces, and clearly indicating when the agent is active &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1989442720163828076"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;A Comet Android early user demonstrates using the agent inside Meta Quest 3 to code on Replit while golfing, showcasing mobile AI agent capabilities &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1989553724562530428"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sierra partners with Redfin to build a first-of-its-kind &lt;b&gt;conversational home search experience&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1989445451775709471"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Figma introduces AI suggestions that appear after duplicating frames, automatically detecting user intent to randomize labels &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/1989467941730128289"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google's &lt;b&gt;Veo 3.1&lt;/b&gt; now allows users to upload multiple reference images alongside video prompts to create more nuanced videos true to their vision &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1989440642179801192"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Linear ships nearly 30 major updates this year with an engineering team of around 40 people, demonstrating high productivity in AI-era development &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/1989441791616323914"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Research shows that when workers know their AI use is monitored by HR, they use it less even though it &lt;b&gt;significantly hurts their performance&lt;/b&gt;, with workers willing to be wrong just to signal judgment, presenting a challenge for leaders seeking AI adoption &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989510820607213794"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic's attribution of a cyberattack to a Chinese state-sponsored group is questioned for lacking evidence, with their own AI model Claude unable to find technical justification for the geopolitical attribution when analyzing their report &lt;em&gt;&lt;a href="https://x.com/RnaudBertrand/status/1989636669889560897"&gt;@RnaudBertrand&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Simon Willison criticizes poor crawler behavior from Anthropic and Google, noting that crawlers are overloading applications like self-hosted GitLab and need better rate limiting &lt;em&gt;&lt;a href="https://x.com/simonw/status/1989434652432765441"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A new &lt;b&gt;dLLM project&lt;/b&gt; introduces a unified library for developing diffusion language models, demonstrating the ability to turn any BERT into a chatbot using diffusion techniques &lt;em&gt;&lt;a href="https://x.com/dawnsongtweets/status/1989476403922776327"&gt;@dawnsongtweets&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT develops a robotic process that dramatically increases the speed at which scientists can characterize important properties of new semiconductor materials, potentially spurring development of more efficient solar panels &lt;em&gt;&lt;a href="https://x.com/MIT/status/1989788014655029643"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI and Microsoft co-design AI infrastructure with &lt;b&gt;hundreds of thousands of GPUs per cluster&lt;/b&gt; and massive bandwidth between clusters, described as an "AI superfactory" &lt;em&gt;&lt;a href="https://x.com/gdb/status/1989772369834250442"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick observes that 95% of practical ChatGPT problems can be solved by turning on &lt;b&gt;Extended Thinking&lt;/b&gt;, suggesting underutilization of this feature &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989738355199017249"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mollick suggests Google could accelerate science by improving &lt;b&gt;Deep Research and Gemini's retrieval&lt;/b&gt; from Google Scholar and Google Books, which contain remarkable amounts of hard-to-access academic knowledge &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989755741549597039"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research shows increasing progress in understanding whether whales have decipherable language &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989750285879656459"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-15</guid>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-14</title>
       <link>https://sumbird.ir/en/news/2025-11-14</link>
@@ -976,42 +1018,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-27</guid>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-10-26</title>
-      <link>https://sumbird.ir/en/news/2025-10-26</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;DeepSeek-OCR&lt;/b&gt; demonstrates exceptional handwritten text recognition capabilities, accurately parsing extremely difficult handwritten letters including mathematical equations from 1913 &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1982286772605448450"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI projects historically unprecedented growth to &lt;b&gt;$100 billion in revenue&lt;/b&gt;, with IPO conditions requiring restructuring and going public by end of 2025 &lt;em&gt;&lt;a href="https://x.com/a16z/status/1982484887342129412"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sam Altman's Neuralink competitor &lt;b&gt;Merge Labs&lt;/b&gt; is preparing to announce after raising $250M at $850M valuation, with most capital coming directly from OpenAI, planning to alter neurons through gene therapy and interact via ultrasound &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1982401054118707208"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ohio House Bill 469 would prevent AI from being a solo founder and CEO, potentially blocking Sam Altman's concept of a 'zero person unicorn' company &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1982188484875231362"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity launches &lt;b&gt;Perplexity Finance&lt;/b&gt; with sufficient daily usage to warrant sidebar placement for easy access &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1982246063974101040"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Engineering managers at companies heavily using AI coding tools now look for software engineers who can navigate complexity and get things done, rather than just technical skills &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1982471976330400102"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Stephen Wolfram suggests &lt;b&gt;LLMs&lt;/b&gt; may have definitively shown that consciousness is not magical beyond physics, with awareness potentially originating as a simple decision-making mechanism for early animals &lt;em&gt;&lt;a href="https://x.com/vitrupo/status/1982403150037585942"&gt;@vitrupo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI labs are characterized as rapidly growing startups with multiple entrepreneurial people making choices in uncertain environments, rather than coherently executing long-term strategies &lt;em&gt;&lt;a href="https://x.com/emollick/status/1982187439956402240"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Sora&lt;/b&gt; demonstrates improved capability in generating Magic: The Gathering gameplay videos, creating fake but appropriately colored cards and showing closer approximation to actual game mechanics &lt;em&gt;&lt;a href="https://x.com/emollick/status/1982296215854166126"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI coding tools enable developers to perform advanced Git operations like rewriting commit sequences and recovering files from reflog, transforming previously monthly tasks into daily workflows &lt;em&gt;&lt;a href="https://x.com/simonw/status/1982465366388621722"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;GenAI is expected to enable widespread game development by reducing the getting started phase from 30 minutes to 2 minutes, potentially creating 100 million new developers &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1982222911231377696"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;HRM and TRM approaches achieve state-of-the-art results on &lt;b&gt;ARC-AGI&lt;/b&gt; using zero external knowledge, with TRM being the public leader for such approaches, suggesting potential superhuman capabilities on reasoning problems &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1982215273995522426"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Base models like &lt;b&gt;Llama 3.1 405B&lt;/b&gt; provide insight into fragmentary associative concepts beneath human writing, offering potential research opportunities for humanities scholars studying archetypes and collective unconscious &lt;em&gt;&lt;a href="https://x.com/emollick/status/1982486400374325399"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Technical debugging investigation reveals PyTorch MPS backend issues with non-contiguous output tensors, raising questions about when &lt;b&gt;LLMs&lt;/b&gt; will be capable of such complex technical detective work &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1982483540899237981"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Frontier AI labs are reportedly understaffed despite immense amounts of low-hanging fruit, leading to intense work schedules and ruthless prioritization due to insufficient people and compute resources &lt;em&gt;&lt;a href="https://x.com/brianryhuang/status/1982498641689657365"&gt;@brianryhuang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-26</guid>
-      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
