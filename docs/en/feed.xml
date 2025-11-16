@@ -8,9 +8,41 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Nov 2025 06:00:06 +0330</lastBuildDate>
-    <pubDate>Sun, 16 Nov 2025 06:00:06 +0330</pubDate>
+    <lastBuildDate>Mon, 17 Nov 2025 01:15:28 +0330</lastBuildDate>
+    <pubDate>Mon, 17 Nov 2025 01:15:28 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-16</title>
+      <link>https://sumbird.ir/en/news/2025-11-16</link>
+      <description>&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google's &lt;b&gt;AlphaEvolve&lt;/b&gt; discovers solutions better than humans on certain math problems, including the Kissing problem, by repeatedly searching for solutions in parallel, verifying them, and performing natural selection to evolve ideas. Research by mathematician Terence Tao tested it on 67 problems and found that smarter AI base models converge to solutions quicker, parallelizing generally helps but adds compute cost, and reward hacking is common &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1989878190999994550"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Future House team achieves breakthrough in AI-assisted scientific research, described as one of the most important impacts of AI &lt;em&gt;&lt;a href="https://x.com/sama/status/1990071287750729829"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Shopify was the first company outside of Microsoft to use &lt;b&gt;GitHub Copilot&lt;/b&gt;, with their Head of Engineering sharing that being known for giving great feedback helped them get early access &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1990117136824496374"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Some companies are finding that having developers use AI tools in interviews don't provide much signal, with at least one Silicon Valley startup eliminating "build something with AI" interviews &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1990005576516911283"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Chinese models are already eating leading AI lab market share, with questions about whether this trend is more sticky within enterprises &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1789799983768637752"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft's Fairwater datacenter in Atlanta has taken over 15 million labor hours to build, more than double the 7 million hours required for the Empire State Building &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1990119587355258911"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gmail introduces new smart scheduling feature that uses email context to find meeting times and automatically creates events when receiver selects a time, representing significant productivity improvement &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1990083905345536146"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;New version of llm-anthropic plugin adds support for &lt;b&gt;structured outputs&lt;/b&gt; via official API and Anthropic's web search feature &lt;em&gt;&lt;a href="https://x.com/simonw/status/1989798677310050348"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andrej Karpathy proposes that &lt;b&gt;verifiability&lt;/b&gt; is the most predictive feature for AI automation in the new programming paradigm, where tasks that can be practiced, reset, and rewarded are most amenable to neural network optimization &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1990116666194456651"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Experts at making AI are not necessarily experts at using AI, creating opportunities for domain specialists to figure out AI capabilities in their fields before others &lt;em&gt;&lt;a href="https://x.com/emollick/status/1990134777161142453"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Current AI benchmarking focuses too heavily on model ability through API calls rather than &lt;b&gt;agentic work&lt;/b&gt; that combines tools and problem-solving ability, which matters more economically &lt;em&gt;&lt;a href="https://x.com/emollick/status/1990076061254668403"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Better benchmarking is needed to understand why agentic abilities break down, including vision weaknesses and "doom loops" where AI keeps trying the same failed approach &lt;em&gt;&lt;a href="https://x.com/emollick/status/1990078511948726575"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Windows faces criticism from developers for including ads in a paid OS and turning on OS-level AI features like &lt;b&gt;Recall&lt;/b&gt; by default, which developers don't want &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1990028426464649458"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Canadian medical system outside major cities has completely collapsed, with AI integration potentially mitigating staff shortages but still years away from implementation &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1990138869896089676"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-16</guid>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-15</title>
       <link>https://sumbird.ir/en/news/2025-11-15</link>
@@ -974,50 +1006,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-28</guid>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-10-27</title>
-      <link>https://sumbird.ir/en/news/2025-10-27</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic expands &lt;b&gt;Claude&lt;/b&gt; for Financial Services with Excel add-in, real-time data connectors to LSE, Moody's, and other financial platforms, plus pre-built Agent Skills for cash flow models and coverage reports &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1982842909235040731"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft &lt;b&gt;Copilot&lt;/b&gt; introduces long-term memory feature, allowing users to store and recall important information across conversations while maintaining user control over memory management &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1982854808156377248"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI updates &lt;b&gt;GPT-5&lt;/b&gt; with input from 170+ mental health experts, reducing inadequate responses in sensitive situations by 65-80% &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1982858555805118665"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MiniMax releases &lt;b&gt;MiniMax-M2&lt;/b&gt;, a 230B MoE model with 10B active parameters under MIT license, ranking #1 among open-source models on Artificial Analysis benchmarks &lt;em&gt;&lt;a href="https://x.com/reach_vb/status/1982705125157126590"&gt;@reach_vb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Keras 3.12 released with GPTQ quantization API, model distillation API, and PyGrain dataset support across the data API &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1982906696705159498"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI proposes building 100 gigawatts of new energy capacity annually and estimates their 5-year infrastructure plans will require 20% of existing skilled trades workforce including electricians and mechanics &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1982889335725891899"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mercor, connecting AI labs with domain experts for model training, reportedly close to raising $350 million at $10 billion valuation &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1982838972528128257"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Amazon's Annapurna Labs, acquired for $350M in 2015, now powers training of Anthropic's &lt;b&gt;Claude&lt;/b&gt; models as a cheaper alternative to Nvidia &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1982842171410751792"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Raghu Raghuram predicts manual labor bottlenecks in data center construction will drive robotics innovation, with infrastructure needs downstream of AI innovation &lt;em&gt;&lt;a href="https://x.com/a16z/status/1982881355118850252"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Fitbit's Gemini-powered health coach rolls out to Premium subscribers in the U.S. on Android &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1982889299335897281"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Gergely Orosz reports Perplexity started generating fake sources that don't exist, highlighting persistent hallucination issues in LLM products despite previous improvements &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1982546054647251144"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New research identifies Pangram as top AI detector with &amp;lt;0.5% false positive/negative rates, effective even on text processed through "stealth" humanizers and new models like &lt;b&gt;GPT-5&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1982658543489831080"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mustafa Suleyman emphasizes AI's value should be measured by daily life improvements: creating, connecting, feeling joy, and chasing ambition &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1982851381271912542"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Pinterest tests AI-driven collage feature to help users create outfits from saved Pins using personalized AI-curated boards &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1982833684530057365"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Rocket Mortgage reports clients using their AI Digital Assistant close at rates three times higher than those who don't, powering over 400,000 chats monthly &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1982808161213206583"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI introduces &lt;b&gt;ChatGPT&lt;/b&gt; text editing feature that can suggest quick edits and update text across documents, emails, and forms &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1982900359661314314"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Earth Species Project uses AI to decipher animal languages, potentially sparking a new understanding of interspecies communication &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1982829487378317750"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Odyssey-2 introduces instant, interactive AI video generation at 20FPS that users can interact with in open-ended ways &lt;em&gt;&lt;a href="https://x.com/olivercameron/status/1982855556756082742"&gt;@olivercameron&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Cameron Wolfe explains Proximal Policy Optimization (PPO) algorithm used for LLM training, detailing its clipped objective mechanism and actor-critic setup for stable reinforcement learning &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/1982820851809431928"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick notes that larger AI models are better at understanding intent, making traditional prompt formulas less important while context and goal communication become key &lt;em&gt;&lt;a href="https://x.com/emollick/status/1982889485873623098"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT physicists develop DIGIT imaging method for pinpointing exact locations of tiny light sources down to individual atoms using grid-based mapping &lt;em&gt;&lt;a href="https://x.com/MIT/status/1982841640411672708"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Glyph framework released by Zai.org scales context length by compressing text into images and processing with vision-language models, reducing computational costs &lt;em&gt;&lt;a href="https://x.com/AdinaYakup/status/1982816099793269046"&gt;@AdinaYakup&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LongCat-Video foundational model from Meituan generates 720p, 30fps videos with unified text-to-video, image-to-video, and video-continuation framework &lt;em&gt;&lt;a href="https://x.com/AdinaYakup/status/1982742218952843385"&gt;@AdinaYakup&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-27</guid>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
