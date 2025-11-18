@@ -8,9 +8,67 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Tue, 18 Nov 2025 06:00:08 +0330</lastBuildDate>
-    <pubDate>Tue, 18 Nov 2025 06:00:08 +0330</pubDate>
+    <lastBuildDate>Wed, 19 Nov 2025 01:17:02 +0330</lastBuildDate>
+    <pubDate>Wed, 19 Nov 2025 01:17:02 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-11-18</title>
+      <link>https://sumbird.ir/fa/news/2025-11-18</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل &lt;b&gt;جمینای 3 پرو&lt;/b&gt; را منتشر کرد که به عملکردی پیشرفته در معیارهای اصلی دست یافته است، از جمله رتبه‌ی اول در LMArena (1501 الو)، WebDev (1487 الو)، و بهبودهای قابل توجه در استدلال با 37.5% در «آخرین امتحان بشریت» و 31.1% در &lt;b&gt;ARC-AGI-2&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1990812770762215649"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل &lt;b&gt;جمینای 3 دیپ تینک&lt;/b&gt; را معرفی کرد که عملکردی حتی قوی‌تر از &lt;b&gt;جمینای 3 پرو&lt;/b&gt; با 45.1% در &lt;b&gt;ARC-AGI-2&lt;/b&gt; و 23.4% در MathArena Apex نشان می‌دهد که دو برابر بهبود نسبت به پیشرفته‌ترین مدل‌های قبلی است &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1990814722250146277"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل &lt;b&gt;گوگل آنتی‌گراویتی&lt;/b&gt; را راه‌اندازی کرد، یک پلتفرم توسعه‌ی عامل‌محور که از &lt;b&gt;جمینای 3 پرو&lt;/b&gt; برای استدلال، &lt;b&gt;جمینای 2.5 کامپیوتر یوز&lt;/b&gt; برای اجرا، و &lt;b&gt;نانو بنانا&lt;/b&gt; برای تولید تصویر استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1990827890435346787"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;xAI &lt;b&gt;گروک 4.1&lt;/b&gt; را منتشر کرد و ادعا می‌کند که با 1483 الو در صدر جدول امتیازات LMArena قرار گرفته است، با 65% ترجیح کاربر نسبت به مدل‌های قبلی، 600 امتیاز افزایش در نوشتن خلاقانه، و 3 برابر کاهش در توهمات &lt;em&gt;&lt;a href="https://x.com/xai/status/1990530501237715372"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مایکروسافت اعلام کرد که مدل‌های کلود (&lt;b&gt;سونت 4.5&lt;/b&gt;، &lt;b&gt;هایکو 4.5&lt;/b&gt;، &lt;b&gt;اوپوس 4.1&lt;/b&gt;) اکنون از طریق همکاری با Anthropic و NVIDIA در Microsoft Foundry در دسترس هستند &lt;em&gt;&lt;a href="https://x.com/Azure/status/1990798789452415324"&gt;@Azure&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cohere در WMT 2025 &lt;b&gt;کامند اِی ترنسلیت&lt;/b&gt; را ارائه کرد که استاندارد صنعتی جدیدی را برای ترجمه‌ی امن و آماده برای شرکت‌ها تعیین می‌کند &lt;em&gt;&lt;a href="https://x.com/cohere/status/1990854794748309560"&gt;@cohere&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل مزیت هزینه‌ای در توسعه‌ی مدل‌های هوش مصنوعی را از طریق مالکیت سخت‌افزار TPU، دسترسی به داده‌های اختصاصی، و آموزش &lt;b&gt;جمینای 3&lt;/b&gt; به عنوان یک مدل ترکیبی از متخصصان از ابتدا، نشان می‌دهد که امکان قیمت‌گذاری رقابتی را فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1990790371434250464"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Box گزارش می‌دهد که در آزمایش &lt;b&gt;جمینای 3 پرو&lt;/b&gt; در مقابل &lt;b&gt;جمینای 2.5 پرو&lt;/b&gt; در سناریوهای واقعی کسب‌وکار در خدمات مالی، حقوق، و مراقبت‌های بهداشتی، 22 درصد بهبود در وظایف استدلال پیچیده‌ی سازمانی مشاهده شده است &lt;em&gt;&lt;a href="https://x.com/levie/status/1990820579981840746"&gt;@levie&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor در روز انتشار، عامل هوشمند پیش‌فرض خود را به &lt;b&gt;جمینای 3&lt;/b&gt; تغییر داد که اولین باری است که این شرکت احساس می‌کند مجبور به تغییر مدل‌ها بلافاصله پس از راه‌اندازی شده است &lt;em&gt;&lt;a href="https://x.com/beyang/status/1990824222734905502"&gt;@beyang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سم آلتمن به کاهش 300 برابری قیمت به ازای هر واحد هوش در طول یک سال به عنوان پایدارترین روند دست‌کم‌گرفته‌شده در توسعه‌ی هوش مصنوعی اشاره می‌کند &lt;em&gt;&lt;a href="https://x.com/sama/status/1990617084661743811"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lambda پس از قرارداد چند میلیارد دلاری مایکروسافت برای زیرساخت مرکز داده‌ی هوش مصنوعی، 1.5 میلیارد دلار سرمایه جذب کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1990867419729133685"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sphere با رهبری a16z، 21 میلیون دلار در سری A برای ساخت موتور انطباق مالیاتی فرامرزی مبتنی بر هوش مصنوعی جذب کرد که ثبت‌نام، محاسبه، بایگانی، و پرداخت را در بیش از 100 منطقه خودکار می‌کند &lt;em&gt;&lt;a href="https://x.com/nrudder_/status/1990830886158544943"&gt;@nrudder_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stack Overflow خود را به عنوان ارائه‌دهنده‌ی داده‌های هوش مصنوعی در میان تغییر چشم‌انداز توسعه‌دهندگان بازتعریف می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1990785902256529448"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گرگلی اوروسز از گسترش IDEهای مبتنی بر هوش مصنوعی انتقاد می‌کند و بیش از 20 ابزار رقیب را فهرست می‌کند و استراتژی منسجم گوگل را پس از راه‌اندازی چندین پلتفرم توسعه در شش ماه زیر سوال می‌برد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1990862988274725091"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;کاربران گزارش می‌دهند که محتوای تولیدشده توسط هوش مصنوعی در سراسر پلتفرم‌های اینترنتی از جمله لینکدین، ردیت، مقالات خبری، و نقدها گسترش یافته است و اشاره می‌کنند که مردم با محتوای بی‌کیفیت هوش مصنوعی درگیر می‌شوند در حالی که از منشأ مصنوعی آن بی‌خبرند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1990612439969509612"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آندری کارپاتی در مورد دستکاری احتمالی معیارهای عمومی هوش مصنوعی از طریق حرکات پیچیده بر روی داده‌های مجاور مجموعه‌ی آزمایشی هشدار می‌دهد و به احتیاط توصیه می‌کند و آزمایش مستقیم مدل را به جای تکیه صرف بر نمرات معیارها پیشنهاد می‌کند &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1990854771058913347"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یان لایک گزارش می‌دهد که صنعت هوش مصنوعی، الکس بورز، عضو مجلس ایالتی نیویورک را که از لایحه‌ی ایمنی هوش مصنوعی نیویورک حمایت کرده بود، به عنوان اولین هدف در کمپین سیاسی خود قرار داده است &lt;em&gt;&lt;a href="https://x.com/janleike/status/1990521334422749656"&gt;@janleike&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT Media Lab در مورد نیاز به تدابیر حفاظتی برای محافظت از داده‌های عصبی بحث می‌کند، زیرا رابط‌های مغز و کامپیوتر رایج‌تر و قدرتمندتر می‌شوند &lt;em&gt;&lt;a href="https://x.com/medialab/status/1990833141066469520"&gt;@medialab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;راشل توماس به 10 سال وبلاگ‌نویسی در مورد اخلاق هوش مصنوعی می‌اندیشد و نگرانی‌های مداوم در مورد آسیب‌های ناشی از سیستم‌های هوش مصنوعی که به طور غیرمسئولانه در مراقبت‌های بهداشتی، اشتغال، و پلیس به کار گرفته می‌شوند را برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/math_rachel/status/1990600679636058453"&gt;@math_rachel&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل &lt;b&gt;جمینای ایجنت&lt;/b&gt; را برای مشترکین Google AI Ultra معرفی کرد که امکان خودکارسازی وظایف چندمرحله‌ای از جمله رزرو سفر، سازماندهی صندوق ورودی، و تعیین قرار ملاقات با تأیید کاربر قبل از اقدامات حیاتی را فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1990817573001114079"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل حالت هوش مصنوعی را در جستجو با پشتیبانی &lt;b&gt;جمینای 3&lt;/b&gt; راه‌اندازی کرد که شامل تجربه‌های رابط کاربری مولد با طرح‌بندی‌های بصری پویا، ابزارهای تعاملی، و شبیه‌سازی‌هایی است که به طور خاص برای پرس‌وجوهای کاربر تولید می‌شوند &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1990865437693784181"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فیگما &lt;b&gt;جمینای 3 پرو&lt;/b&gt; را در Figma Make ادغام کرد که به طراحان امکان می‌دهد جهت‌گیری‌های بصری را بررسی کرده و نمونه‌های اولیه را با طیف گسترده‌ای از سبک‌ها، طرح‌بندی‌ها، و تعاملات تولید کنند &lt;em&gt;&lt;a href="https://x.com/zoink/status/1990825335701565448"&gt;@zoink&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مایکروسافت Edge for Business را به عنوان اولین مرورگر هوش مصنوعی سازمانی امن جهان با حالت Copilot معرفی کرد که شامل اقدامات عامل‌محور، تحلیل چند تب، و خلاصه‌سازی یوتیوب است &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1990812248886161733"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل تجربه‌ی خرید جمینای را با چرخ‌وفلک‌های محصول، نمودارهای مقایسه، بررسی‌های عمیق با نظرات مشتریان، و لینک‌های خرید مستقیم بهبود بخشید &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1990526645590253679"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آندری کارپاتی استفاده از LLMها را برای خواندن با رویکرد سه‌مرحله‌ای توصیف می‌کند: خواندن دستی، توضیح/خلاصه‌سازی، سپس پرسش و پاسخ، که منجر به درک عمیق‌تر از حرکت فوری می‌شود &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1990577951671509438"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلسون یک ضبط صوتی 3.5 ساعته از جلسه‌ی شورا را با استفاده از &lt;b&gt;جمینای 3&lt;/b&gt; تحلیل کرد و کاربرد عملی درک زمینه‌ی طولانی را نشان داد &lt;em&gt;&lt;a href="https://x.com/simonw/status/1990858057153142870"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Replit تجربه‌ی طراحی را با پشتیبانی &lt;b&gt;جمینای 3.0&lt;/b&gt; راه‌اندازی کرد که به عنوان اولین تجربه‌ی طراحی هوش مصنوعی غیر بی‌کیفیت با تمرکز بر رابط‌های کاربری زیبا توصیف می‌شود &lt;em&gt;&lt;a href="https://x.com/amasad/status/1990859423942893816"&gt;@amasad&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;اوریول وینیالز بهبودهای پیش‌آموزش را تأیید می‌کند که هیچ مانعی در دید نیست، و اشاره می‌کند که دلتای بین &lt;b&gt;جمینای 2.5&lt;/b&gt; و &lt;b&gt;3.0&lt;/b&gt; بزرگترین دلتای مشاهده‌شده تاکنون است، در حالی که پس‌آموزش همچنان یک زمینه‌ی کاملاً جدید با فضای زیادی برای پیشرفت الگوریتمی است &lt;em&gt;&lt;a href="https://x.com/OriolVinyalsML/status/1990854455802343680"&gt;@OriolVinyalsML&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;جمینای 3 پرو&lt;/b&gt; با دقت 73% در معیار ScreenSpot Pro به پیشرفتی دست یافت که دو برابر پیشرفته‌ترین مدل‌ها برای درک اسکرین‌شات‌ها در برنامه‌های پیچیده از جمله AutoCAD و فتوشاپ است &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1990790371434250464"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;جمینای 3&lt;/b&gt; بهبود قابل توجهی در Vending-Bench Arena برای برنامه‌ریزی بلندمدت و قابلیت‌های فراخوانی ابزار نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1990833534672797703"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;جمینای 3 پرو&lt;/b&gt; بزرگترین دلتای ثبت‌شده در معیار Design Arena را به دست آورد که بهبود قابل توجهی در وظایف مرتبط با طراحی نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1990826955730489733"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Physical Intelligence مقاله‌ای منتشر کرد که نتایج چشمگیر یادگیری تقویتی در دنیای واقعی را با استفاده از مدل VLA از پیش آموزش‌دیده با مداخلات انسانی، آموزش تابع ارزش، و به‌روزرسانی‌های سیاست نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/yjy0625/status/1990630131829006662"&gt;@yjy0625&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford NLP مدل CHURRO را منتشر کرد، یک مدل زبان-بینایی با وزن باز 3B که در OCR تاریخی از &lt;b&gt;جمینای 2.5 پرو&lt;/b&gt; بهتر عمل می‌کند در حالی که 15.5 برابر مقرون‌به‌صرفه‌تر است &lt;em&gt;&lt;a href="https://x.com/sina_semnani/status/1990672386639941988"&gt;@sina_semnani&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فرانسوا شوله اشاره می‌کند که &lt;b&gt;ARC-AGI&lt;/b&gt; برای اثبات اینکه LLMها مسیر AGI نیستند، طراحی شده بود، اما LLMها اکنون با &lt;b&gt;جمینای 3&lt;/b&gt; که به 31.1% می‌رسد، عملکرد قوی‌ای از خود نشان می‌دهند &lt;em&gt;&lt;a href="https://x.com/dileeplearning/status/1990873220099289196"&gt;@dileeplearning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;گروک 4.1&lt;/b&gt; هوش هیجانی و همدلی بالاتری را نشان می‌دهد و در EQ-Bench امتیاز 1586 را کسب می‌کند، با مهارت‌های بین‌فردی بهبودیافته در مقایسه با مدل‌های قبلی &lt;em&gt;&lt;a href="https://x.com/xai/status/1990530505209754056"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات MIT نشان می‌دهد که انتخاب دقیق داده‌ها می‌تواند راه‌حل‌های بهینه را با مجموعه‌های داده‌ی کوچک تضمین کند و روشی را برای شناسایی دقیق داده‌های مورد نیاز ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/MIT/status/1990829151415099461"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان MIT Media Lab از چارچوب Environment-Vulnerability-Decision-Technology با داده‌های ماهواره‌ای برای ردیابی جنگل‌زدایی در غنا استفاده می‌کنند و نشان می‌دهند که چگونه فناوری فضایی از پیشرفت‌های زیست‌محیطی با رهبری آفریقا حمایت می‌کند &lt;em&gt;&lt;a href="https://x.com/medialab/status/1990868616430972991"&gt;@medialab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-18</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-11-17</title>
       <link>https://sumbird.ir/fa/news/2025-11-17</link>
@@ -958,55 +1016,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-30</guid>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-10-29</title>
-      <link>https://sumbird.ir/fa/news/2025-10-29</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;اوپن‌اِی‌آی مدل‌های &lt;b&gt;gpt-oss-safeguard&lt;/b&gt; را برای طبقه‌بندی ایمنی منتشر کرد؛ این مدل‌ها نسخه‌های تنظیم‌شده‌ی مدل‌های متن‌باز این شرکت هستند که تحت مجوز Apache 2.0 در Hugging Face دردسترس می‌باشند &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1983507394316710039"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کرسر از &lt;b&gt;Cursor 2.0&lt;/b&gt; رونمایی کرد که شامل اولین مدل کدنویسی‌اش، &lt;b&gt;Composer&lt;/b&gt;، می‌شود؛ یک مدل کدنویسی پیشرفته که وظایف را در کمتر از 30 ثانیه انجام می‌دهد &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/1983567619946147967"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل مدل استدلال تقویت‌شده‌ی &lt;b&gt;Gemini Deep Think&lt;/b&gt; را به‌عنوان بخشی از سرمایه‌گذاری برای مشارکت‌های تحقیقاتی هوش مصنوعی خود اعلام کرد &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1983536466304073830"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اوپن‌اِی‌آی قابلیت &lt;b&gt;Pulse&lt;/b&gt; را راه‌اندازی کرد که اکنون برای کاربران پرو در وب دردسترس است &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1983576124514034032"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;اوپن‌اِی‌آی متعهد شد که در طول سالیان حدود &lt;b&gt;30 گیگاوات توان محاسباتی&lt;/b&gt; را با هزینه‌ی کل مالکیت تقریباً &lt;b&gt;1.4 تریلیون دلار&lt;/b&gt; اختصاص دهد؛ با اهدافی برای دستیابی به کارآموز هوش مصنوعی پژوهشی خودکار تا سپتامبر 2026 و پژوهشگر هوش مصنوعی کاملاً خودکار تا مارس 2028 &lt;em&gt;&lt;a href="https://x.com/sama/status/1983584366547829073"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;انتروپیک گزارش داد که در طول سال گذشته &lt;b&gt;10 برابر رشد&lt;/b&gt; در درآمد سالانه‌ی (run rate revenue) خود در منطقه‌ی آسیا-اقیانوسیه داشته است؛ با شرکت‌هایی مانند Rakuten، Nomura Research Institute و Panasonic که اکنون از Claude استفاده می‌کنند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1983541664716329260"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Character AI تغییرات سیاستی بزرگی را اعمال کرد که طبق آن کاربران زیر 18 سال ملزم هستند دیگر در چت‌های آزاد با هوش مصنوعی، از جمله گفت‌وگوهای عاشقانه، شرکت نکنند؛ درحالی‌که تأیید سن قوی‌تری را اضافه کرده و بودجه‌ای را برای یک آزمایشگاه ایمنی هوش مصنوعی اختصاص داده است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983528074638721075"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;استارتاپ‌های نوپا به‌طور فزاینده‌ای جایگزین‌های «مدرن» و محبوب مانند Vercel، Render، Railway و Supabase را به جای خدمات ابری سنتی مانند AWS برای میزبانی اولیه و پایگاه‌های داده انتخاب می‌کنند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1983497883488841929"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;عامل‌های کدنویسی هوش مصنوعی باعث می‌شوند معیارهای سنتی بهره‌وری توسعه‌دهندگان، مانند فراوانی درخواست‌های ادغام (PR frequency)، تا حد زیادی بی‌معنی شوند؛ زیرا آن‌ها می‌توانند به‌راحتی درخواست‌های ادغام تولید کنند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1983470341050748967"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ارزش بازار انویدیا به میزان &lt;b&gt;5 تریلیون دلار&lt;/b&gt; اکنون از مجموع بازارهای بورس همه‌ی کشورها به جز ایالات متحده، چین و ژاپن فراتر رفته است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1983563242313011237"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;رابط‌های کدنویسی مبتنی بر صدا در میان توسعه‌دهندگان درحال گسترش هستند؛ با اضافه شدن پشتیبانی از حالت صوتی بومی توسط Cursor و شرکت‌هایی مانند Wispr که شاهد افزایش پذیرش برای گردش‌کارهای توسعه‌ی مبتنی بر هوش مصنوعی هستند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1983627616201650450"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;سایمون ویلیسون در مورد خطرات امنیتی و حریم خصوصی در عامل‌های مرورگر هوش مصنوعی هشدار می‌دهد و بیان می‌کند که این خطرات «به‌طرز غیرقابل‌تصوری بالا به نظر می‌رسند» تا زمانی که پژوهشگران امنیتی این محصولات را به‌طور کامل ارزیابی کنند &lt;em&gt;&lt;a href="https://x.com/random_walker/status/1983538311835632094"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش انتروپیک شواهدی از &lt;b&gt;توانایی‌های درون‌گرایانه&lt;/b&gt; در Claude را نشان می‌دهد؛ این پژوهش حاکی از آن است که مدل‌ها گاهی می‌توانند مفاهیم تزریق‌شده را در الگوهای عصبی خود تشخیص دهند، اگرچه این امر به‌طور ناپایدار عمل می‌کند و اغلب مدل‌ها در نشان دادن آگاهی شکست می‌خورند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1983584136972677319"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تعهد اوپن‌اِی‌آی به باقی ماندن دائمی در کالیفرنیا، در کسب تأیید دادستان کل برای تبدیل شدن آن‌ها به یک نهاد انتفاعی نقش اساسی داشت &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983586023239250364"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;نگرانی‌هایی در مورد تأثیر هوش مصنوعی بر واقعیت اجتماعی و معناسازی جمعی مطرح شده است، با هشدارهایی در مورد «تنهایی تصاعدی» و «ناهماهنگی بین‌فردی تصاعدی» هم‌زمان با گسترش قابلیت‌های هوش مصنوعی شخصی &lt;em&gt;&lt;a href="https://x.com/tuhin/status/1983579399292383427"&gt;@tuhin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;مایکروسافت عامل‌های &lt;b&gt;App Builder و Workflow&lt;/b&gt; را در M365 Copilot اعلام کرد که به کاربران امکان می‌دهد در عرض چند دقیقه، مستقیماً در چت، برنامه‌ها را بسازند و گردش‌کارها را خودکار کنند &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1983372239052710047"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پرپلکسیتی &lt;b&gt;دستیار ایمیل&lt;/b&gt; را برای مشترکین پرو (Pro) با یک آزمایش 14 روزه راه‌اندازی کرد که شامل پیش‌نویس‌سازی خصوصی و برچسب‌گذاری است و هرگز محتوای ایمیل را ثبت نمی‌کند &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1983591113903738970"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Rocket Mortgage با سیرا همکاری می‌کند تا تجربه‌ی مالکیت خانه را با هوش مصنوعی متحول کند و بر تجربه‌ی بهتر مشتری به جای صرفاً خودکارسازی تمرکز دارد &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1983289413129121888"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA Earth-2 شبیه‌سازی‌های آب‌وهوای فوق‌سریع و با وضوح بالا را امکان‌پذیر می‌سازد و ساعت‌ها محاسبات را به ثانیه تبدیل می‌کند تا آمادگی در برابر بلایا و تحلیل ریسک بهبود یابد &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1983559177021599816"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل با NextEra همکاری می‌کند تا مرکز انرژی Duane Arnold در آیووا را به‌طور خاص برای تأمین انرژی مراکز داده بازگشایی کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1983585890397024529"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فیگما &lt;b&gt;کیت‌های Make&lt;/b&gt; را برای ادغام سیستم‌های طراحی با Make معرفی کرد که به هوش مصنوعی امکان می‌دهد نرم‌افزاری را طراحی و بسازد که با سرمایه‌گذاری‌های طراحی موجود مطابقت داشته باشد &lt;em&gt;&lt;a href="https://x.com/figma/status/1983351318136729714"&gt;@manosaie&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;استنفورد معیار &lt;b&gt;SLP-Helm&lt;/b&gt; را منتشر کرد که نحوه‌ی تشخیص اختلالات گفتاری کودکان توسط مدل‌های هوش مصنوعی را آزمایش می‌کند و نویدها، چالش‌ها و سوگیری‌ها در گفتاردرمانی با کمک هوش مصنوعی را آشکار می‌سازد &lt;em&gt;&lt;a href="https://x.com/StanfordAILab/status/1983319887054324178"&gt;@StanfordAILab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش نشان می‌دهد که هوش مصنوعی با راهنمایی متخصصان انسانی به حل یک &lt;b&gt;مسئله‌ی باز ریاضی 42 ساله&lt;/b&gt; کمک می‌کند و پتانسیل هوش مصنوعی را در کارهای آکادمیک چالش‌برانگیز فکری نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1983301090969038898"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل دیپ‌مایند یک سیستم مبتنی بر یادگیری تقویتی (RL) را برای کشف پازل‌های خلاقانه‌ی شطرنج توسعه می‌دهد که تعداد پازل‌های جدید را در مقایسه با داده‌های آموزشی اولیه دو برابر می‌کند، درحالی‌که تنوع زیبایی‌شناختی را حفظ می‌کند &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1983609459134931065"&gt;@TZahavy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش جدیدی در مورد آموزش مدل‌های زبان بزرگ (LLM) برای کشف &lt;b&gt;انتزاع‌های استدلالی&lt;/b&gt; نشان می‌دهد که اختصاص دادن توان محاسباتی زمان آزمایش به تولید انتزاع‌ها، دستاوردهای بیشتری نسبت به تولید راه‌حل‌های اضافی دارد &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/1983344759151165908"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مطالعه نشان می‌دهد که پرامپت‌های متمایز به حالات پنهان منحصربه‌فردی در درون مدل‌ها نگاشت می‌شوند که مهندسی معکوس را از حالات پنهان به پرامپت‌های اصلی ممکن می‌سازد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1983495198547030077"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش DeepSeek روش‌های جدیدی را برای بهبود توانایی هوش مصنوعی در به‌خاطرسپردن اطلاعات پیشنهاد می‌کند &lt;em&gt;&lt;a href="https://x.com/techreview/status/1983478656342134934"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پیشرفتی در محاسبات کوانتومی به &lt;b&gt;درهم‌تنیدگی 120 کیوبیت&lt;/b&gt; دست یافت که بزرگ‌ترین حالت درهم‌تنیدگی است که تاکنون در یک کامپیوتر کوانتومی به دست آمده است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983505751596273790"&gt;@jaygambetta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-29</guid>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
