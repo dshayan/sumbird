@@ -8,9 +8,71 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Nov 2025 06:00:06 +0330</lastBuildDate>
-    <pubDate>Wed, 19 Nov 2025 06:00:06 +0330</pubDate>
+    <lastBuildDate>Thu, 20 Nov 2025 01:16:51 +0330</lastBuildDate>
+    <pubDate>Thu, 20 Nov 2025 01:16:51 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-19</title>
+      <link>https://sumbird.ir/en/news/2025-11-19</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Meta releases &lt;b&gt;SAM 3&lt;/b&gt;, a unified model for detection, segmentation, and tracking across images and videos, featuring text and exemplar prompts to segment all objects of a target category. The model will power new features in Instagram Edits and Vibes &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1991191525867270158"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meta introduces &lt;b&gt;SAM 3D&lt;/b&gt;, featuring two models: &lt;b&gt;SAM 3D Objects&lt;/b&gt; for object and scene reconstruction and &lt;b&gt;SAM 3D Body&lt;/b&gt; for human pose and shape estimation, both achieving state-of-the-art performance in transforming 2D images into 3D reconstructions &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1991184188402237877"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI releases &lt;b&gt;GPT-5.1-Codex-Max&lt;/b&gt;, capable of working autonomously for over 24 hours on complex coding tasks, with significant improvements in speed and capability over predecessors for project-scale work &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/1991212955250327768"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google launches &lt;b&gt;Gemini 3&lt;/b&gt; and &lt;b&gt;Gemini 3 Deep Think&lt;/b&gt;, pushing the Pareto frontier of cost versus accuracy on the ARC-AGI-2 benchmark, with pricing at $2/M input and $12/M output tokens &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1990936582678020183"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;Gemini 3 Pro&lt;/b&gt; with a 1M context window for Pro and Ultra users, featuring ability to reason across text, images, audio and video, with major improvements in coding and web development capabilities &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1990915656536252704"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI announces &lt;b&gt;ChatGPT for Teachers&lt;/b&gt;, a secure workspace with admin controls and compliance support, free for verified U.S. K-12 educators through June 2027 &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1991218197530378431"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Suno raises funding at $2.45B valuation on $200M revenue, demonstrating strong commercial traction for AI music generation despite ongoing legal challenges &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1991226790992613695"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Warner Music settles copyright lawsuit with Udio and announces plans to launch an AI music subscription-based streaming platform in 2026 &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1991196782848627180"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stability AI partners with Warner Music to develop professional-grade AI music tools that enable artists, songwriters, and producers to experiment and compose using ethically trained models &lt;em&gt;&lt;a href="https://x.com/StabilityAI/status/1991176616551289182"&gt;@StabilityAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Larry Summers resigns from the OpenAI board, marking the first board member departure related to the Epstein files controversy &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1991156466690986345"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity announces first-of-its-kind partnership with the United States Government through GSA, becoming the first major AI company to enter a direct government-wide contract with &lt;b&gt;Enterprise Pro for Government&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1991162990536937821"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;xAI announces landmark partnership with Saudi Arabia and HUMAIN, marking the first time a country adopts &lt;b&gt;Grok&lt;/b&gt; at scale, with plans to build hyperscale GPU data centers in the Kingdom &lt;em&gt;&lt;a href="https://x.com/xai/status/1991224218642485613"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Luma raises $900M Series C and partners with Humain to build a 2GW compute supercluster called Project Halo for scaling multimodal AGI research and deployment &lt;em&gt;&lt;a href="https://x.com/LumaLabsAI/status/1991197052760395820"&gt;@LumaLabsAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Adobe acquires Semrush for $1.9 billion, expanding its AI-powered marketing capabilities &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1991171186173362543"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Method Security raises $26M from a16z, General Catalyst, and Blackstone to build autonomous cyber systems for U.S. Government and critical enterprises &lt;em&gt;&lt;a href="https://x.com/method_security/status/1991178015510859995"&gt;@method_security&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gergelyi Orosz observes unprecedented competition among companies spending significant money and effort to win over developers for AI coding tools, noting that winners will be companies developers choose to use rather than those trying to replace them &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1991059169667961285"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Martin Casado argues that the direct consequence of the bitter lesson is building systems that turn large amounts of capital into working solutions, highlighting the economic implications of AI scaling &lt;em&gt;&lt;a href="https://x.com/a16z/status/1991175800272650354"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Stanford HAI Privacy Fellow testifies in Congress on data privacy concerns related to AI chatbots, emphasizing urgent need for transparency into how developers collect and process data for model training &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1990912911250723145"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford HAI releases issue brief examining limitations of the term "Global South" in AI governance discussions, offering recommendations for more nuanced approach to inclusive AI ethics and policy &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1991190942087254186"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford researchers emphasize need for human-focused AI systems, noting that AI products enter the real world quickly without rigorous understanding of their impact or consequences &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1991186413887311942"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Marc Andreessen advocates for federal AI legislation to prevent a 50-state patchwork of regulations, calling it essential for startups and the biggest issue for builders creating America's future &lt;em&gt;&lt;a href="https://x.com/pmarca/status/1990927534570267085"&gt;@pmarca&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick notes that power sourcing for AI data centers represents a genuinely important environmental issue with real policy implications, while water usage concerns are overstated &lt;em&gt;&lt;a href="https://x.com/emollick/status/1990911613961187723"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford HAI advocates for universities to reclaim AI research for public good, emphasizing that open science built modern AI through open datasets like ImageNet and MNIST, open-source libraries like TensorFlow and PyTorch, and shared benchmarks &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1991220504712159502"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity launches ability for Pro and Max users to create and edit slides, sheets and docs directly from prompt sessions, expanding beyond search into productivity tools &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1991207346744488396"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity partners with PayPal to enable seamless agentic shopping experiences, allowing customers to search, shop and pay for purchases within Perplexity &lt;em&gt;&lt;a href="https://x.com/acce/status/1991233139146932644"&gt;@acce&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Dell's AI Factory updates include agentic AI with &lt;b&gt;North&lt;/b&gt;, helping enterprises build scalable, secure, on-premises AI workflows, demonstrated through AI co-pilot concept for wealth management professionals &lt;em&gt;&lt;a href="https://x.com/cohere/status/1991219023208726980"&gt;@cohere&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sierra partners with Safelite to build Scarlett, an AI agent making windshield repair as easy as texting a friend, and launches AI Agent-Maker for insurance carriers to provide instant coverage and claims answers &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1990894196514009384"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;RBC achieves 10x more document processing capacity, 60% faster research generation, and real-time client insights using NVIDIA accelerated computing for agentic AI in financial workflows, reducing alpha discovery from 12 months to 2 &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1991174258933006640"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Maps adds Gemini-powered tips section and EV charger availability predictions, integrating AI into navigation features &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1991179062237425685"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Amazon Prime Video introduces AI-generated Video Recaps for TV shows, using AI to summarize content for viewers &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1991198349501034987"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andrew Ng's DeepLearningAI team used AI coding to quickly implement a clone of basic Cloudflare capabilities when Cloudflare went down, bringing their site back up before major websites &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1990937235840196853"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google's &lt;b&gt;Gemini 3&lt;/b&gt; demonstrates significant improvements in coding capabilities, enabling creation of interactive 3D designed games with single prompts and handling complex prompts for richer game design and aesthetics &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1991189734039699525"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google DeepMind reports &lt;b&gt;Gemini 3&lt;/b&gt; underwent most comprehensive safety evaluations of any Google AI model to date, with rigorous testing against Frontier Safety Framework, independent assessment by external experts, and increased resistance to prompt injections &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1991118575554408556"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research demonstrates that Vision Transformer can be trained from scratch to solve ARC challenges, suggesting new approaches to abstract reasoning tasks &lt;em&gt;&lt;a href="https://x.com/rosinality/status/1990988120108773696"&gt;@rosinality&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Percy Liang launches Marin Project, directly challenging centralized LLM development with new fully open and collaborative technique for constructing state-of-the-art LLMs, aiming to re-engage academia and build transparent AI infrastructure for public benefit &lt;em&gt;&lt;a href="https://x.com/schmidtsciences/status/1991157528340656598"&gt;@schmidtsciences&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Red Hat AI open-sources high quality speculator models for Llamas, Qwens, and gpt-oss on Hugging Face, achieving 1.5 to 2.5x speedups in real workloads and sometimes more than 4x through speculative decoding &lt;em&gt;&lt;a href="https://x.com/RedHat_AI/status/1991170437062304107"&gt;@RedHat_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ZeroEntropy releases &lt;b&gt;zerank-2&lt;/b&gt; reranker model showing major improvement on five most common RAG failure modes: comparing numbers and dates, aggregation, multilingual support, instruction-following, and calibrated scores, with 15% improvement over Cohere rerank 3.5 on Arabic/Hindi &lt;em&gt;&lt;a href="https://x.com/ghita__ha/status/1991205038652612834"&gt;@ghita__ha&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AlphaXiv raises funding from Menlo Ventures, Conviction, Haystack VC, and luminaries including Eric Schmidt and Sebastian Thrun to build platform helping millions of AI researchers keep up with and apply latest research papers &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1991167128293290189"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Quantum physicists successfully shrink and de-censor &lt;b&gt;DeepSeek R1&lt;/b&gt;, demonstrating new approaches to model optimization and modification &lt;em&gt;&lt;a href="https://x.com/techreview/status/1991095798151401523"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick observes that continuous AI improvement occurs at fast pace with no signs of slowdown, though monthly releases make individual changes feel incremental while 6-8 month retrospectives reveal massive improvements &lt;em&gt;&lt;a href="https://x.com/emollick/status/1990999847923593239"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Martin Fowler describes AI as the biggest shift in software development since high-level languages like Fortran or C appeared, offering new abstraction level comparable to the transition from Assembly &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1991196153581330553"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-19</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-18</title>
       <link>https://sumbird.ir/en/news/2025-11-18</link>
@@ -968,62 +1030,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-31</guid>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-10-30</title>
-      <link>https://sumbird.ir/en/news/2025-10-30</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI introduces &lt;b&gt;Aardvark&lt;/b&gt;, an agentic security researcher that finds and fixes security bugs using &lt;b&gt;GPT-5&lt;/b&gt;, now in private beta &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1983956431360659467"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Kimi releases &lt;b&gt;Kimi-Linear&lt;/b&gt; model with up to 75% reduction in memory usage and 6.3x higher decoding throughput, outperforming MLA and GDN baselines using MLA and KDA (Kimi Delta Attention) architecture &lt;em&gt;&lt;a href="https://x.com/scaling01/status/1983926811051384965"&gt;@scaling01&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MiniMax releases &lt;b&gt;M2&lt;/b&gt; model as the new "most intelligent" open weights model with MIT license, comparable to &lt;b&gt;Sonnet 4&lt;/b&gt; performance while priced closer to &lt;b&gt;Gemini 2.5 Flash&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/simonw/status/1983669165086142566"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor releases &lt;b&gt;Composer-1&lt;/b&gt; coding model described as "4x faster than similarly intelligent models" &lt;em&gt;&lt;a href="https://x.com/simonw/status/1983636774271451191"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Windsurf releases new fast coding model &lt;b&gt;SWE-1.5&lt;/b&gt; from Cognition &lt;em&gt;&lt;a href="https://x.com/simonw/status/1983685492148449448"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google announces upcoming &lt;b&gt;Gemini 3.0&lt;/b&gt; release later this year, with Sundar Pichai noting they're taking time to put out notably improved models &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983662611112821096"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI is considering going public as soon as the second half of 2026 with a valuation of $1 trillion according to Reuters &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983700253422579953"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;YouTube is offering voluntary buyouts with severance for U.S.-based employees as it restructures its product organization to focus more on artificial intelligence &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983669655136038956"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA plans to invest as much as $1 billion into Poolside according to Bloomberg &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983981364224651651"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft reports 150 million monthly active users across their family of Copilots and agents, with 90% of Fortune 500 companies now using M365 Copilot &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1983670343098315127"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;GitHub Copilot now has 26 million-plus users according to Microsoft earnings &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1983670344692199680"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Cloud reports accelerating growth with AI revenue as a key driver, with 70%+ of existing customers using their AI products and 13 product lines having $1B+ annual run rate &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1983651902739869904"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Startup founders and employees are making "retirement money" ($10M+) from secondary sales in loss-making companies at speculative valuations, which could be dangerous for innovation according to analysis &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1983918525006921766"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Universal Music Group and Udio settle their copyright lawsuit and will launch a new subscription-based platform in 2026 trained on licensed music &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983879715359478000"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Universal Music Group forms strategic alliance with Stability AI to develop "next-generation professional music creation tools" &lt;em&gt;&lt;a href="https://x.com/StabilityAI/status/1983869205192794332"&gt;@StabilityAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ASCAP, BMI and SOCAN will now accept registrations of musical compositions generated using AI that combine elements of AI-generated content with human authorship &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1983930114975863189"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ethan Mollick demonstrates &lt;b&gt;Sora&lt;/b&gt;'s ability to create convincing fake videos about "spinning columns of penguins in the sky," showing how AI-generated content can be used to create believable misinformation &lt;em&gt;&lt;a href="https://x.com/emollick/status/1983718548326195236"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Reddit co-founder Alexis Ohanian states "The dead internet theory is real," referring to the idea that much of the internet content is no longer human-generated &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1983677997363167454"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT Technology Review reports it's "never been easier to be a conspiracy theorist" in the current technological landscape &lt;em&gt;&lt;a href="https://x.com/techreview/status/1983843412617965865"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sam Altman reflects on the personal costs of leading OpenAI, noting the work is "extremely painful" and "often tempting to nope out on any given day" but believes the work will be "transformatively positive" &lt;em&gt;&lt;a href="https://x.com/sama/status/1983941806393024762"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Microsoft introduces &lt;b&gt;Copilot for health&lt;/b&gt; to address health-related questions as one of the most common user needs &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1983927007294480837"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft's Researcher tool now features Computer Use capability, allowing it to securely browse the open and gated web to find hard-to-locate information across hundreds of sites &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1983949531286008023"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity launches &lt;b&gt;Perplexity Patents&lt;/b&gt;, the world's first AI patent research agent that makes IP intelligence accessible to everyone &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1983875975877423277"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google AI Studio introduces new logs and datasets dashboard, making it 10x easier to see API traffic, share feedback, and export data for evaluations &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1983944517230457056"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Figma acquires AI-powered image and video generation company Weavy, which will become Figma Weave &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1983886118299767092"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google partners with Reliance Jio to offer free Google AI Pro plans to eligible Jio customers in India for 18 months, including &lt;b&gt;Gemini 2.5 Pro&lt;/b&gt; and 2TB storage &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1983922303424471541"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor introduces cloud agents with faster startup, improved reliability, and new UI for managing a fleet of cloud agents directly from the IDE &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/1983954528933421419"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Bevel Health raises $10M Series A to build an intelligent operating system for health that brings together data from wearables, labs, and daily habits into one connected system &lt;em&gt;&lt;a href="https://x.com/greyngyen/status/1983929389633941853"&gt;@greyngyen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;New research introduces Parallel-Distill-Refine (PDR) procedure that achieves higher accuracy than long chain-of-thought reasoning at lower latency, with +11% improvement on AIME 2024 and +9% on AIME 2025 over single-pass baselines &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/1983641473792016727"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Scale AI and AI Safety researchers introduce Remote Labor Index, a new evaluation measuring AI's ability to automate real-world, economically valuable projects from remote work platforms, currently showing maximum score of only 2.5% &lt;em&gt;&lt;a href="https://x.com/alexandr_wang/status/1983651538947162409"&gt;@alexandr_wang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New AI benchmark combining game environment testing with world model testing finds large gaps between human and AI ability, highlighting the need for more grounded, unsaturated benchmarks &lt;em&gt;&lt;a href="https://x.com/emollick/status/1983914683976265755"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA GH200 Superchip sets new records in financial AI performance with up to 49% lower latency on large LSTM models, 4.7μs latency on small models, and 13x lower inference error rates &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1983961930533421270"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face releases "The Smol Training Playbook," a comprehensive 200+ page guide covering the full LLM training pipeline including pre-training, post-training, and infrastructure &lt;em&gt;&lt;a href="https://x.com/_lewtun/status/1983929588909797414"&gt;@_lewtun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LMCache joins the PyTorch Ecosystem, advancing scalable LLM inference through integration with vLLM by reusing and sharing KV caches across queries, achieving up to 15x faster throughput &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1983938803887755308"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Berkeley AI research demonstrates how LLMs can "self-refine" and learn from mistakes via in-context learning, exploring how to bring inference-time adaptation to robot learning &lt;em&gt;&lt;a href="https://x.com/ameeshsh/status/1983648418406060144"&gt;@ameeshsh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-10-30</guid>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
