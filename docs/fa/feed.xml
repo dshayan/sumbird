@@ -8,9 +8,66 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Thu, 20 Nov 2025 06:00:08 +0330</lastBuildDate>
-    <pubDate>Thu, 20 Nov 2025 06:00:08 +0330</pubDate>
+    <lastBuildDate>Fri, 21 Nov 2025 01:17:03 +0330</lastBuildDate>
+    <pubDate>Fri, 21 Nov 2025 01:17:03 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-11-20</title>
+      <link>https://sumbird.ir/fa/news/2025-11-20</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;متا &lt;b&gt;SAM 3&lt;/b&gt; را منتشر کرد، یک معماری مدل یکپارچه برای تشخیص و ردیابی در بینایی کامپیوتر &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1991538570402934980"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;Jan-v2-VL&lt;/b&gt; را معرفی کرد، یک عامل چندوجهی جدید که قادر به اجرای 49 مرحله بدون شکست است و به طور قابل توجهی از سایر مدل‌ها در وظایف بلندمدت بهتر عمل می‌کند &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1991467691786543535"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI2 خانواده‌ی مدل‌های زبان کاملاً باز &lt;b&gt;OLMo 3&lt;/b&gt; را منتشر کرد، شامل بهترین مدل پایه 32B، بهترین مدل‌های 7B تفکر و دستورالعمل غربی، و اولین مدل استدلال کاملاً باز 32B، با داده‌های آموزشی کامل، کد، نقاط بازرسی و گزارش‌ها &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1991508141687861479"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل &lt;b&gt;Gemini 3 Pro Image&lt;/b&gt; (Nano Banana Pro) را راه‌اندازی کرد که به عملکردی پیشرفته در تولید و ویرایش تصویر با رندرینگ متن بهبودیافته، یکپارچه‌سازی دانش جهانی از طریق جستجوی گوگل، و پشتیبانی از خروجی‌های با وضوح 1K، 2K و 4K دست می‌یابد &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1991522595129139486"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI &lt;b&gt;GPT-5.1 Pro&lt;/b&gt; را برای همه‌ی کاربران Pro منتشر کرد که 10-15% بهبود نسبت به &lt;b&gt;GPT-5 Pro&lt;/b&gt; برای کارهای پیچیده از جمله کمک به نوشتن، علم داده و وظایف تجاری ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1991266192905179613"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI &lt;b&gt;GPT-5.1-Codex-Max&lt;/b&gt; را راه‌اندازی کرد، یک بهبود قابل توجه در قابلیت‌های کدنویسی &lt;em&gt;&lt;a href="https://x.com/sama/status/1991258606168338444"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;xAI &lt;b&gt;Grok 4.1 Fast&lt;/b&gt; را معرفی کرد، بهترین مدل فراخوانی ابزار آن‌ها با پنجره‌ی متنی 2M، که با یادگیری تقویتی بلندمدت برای سناریوهای چندمرحله‌ای و موارد استفاده‌ی سازمانی واقعی مانند پشتیبانی مشتری آموزش دیده است &lt;em&gt;&lt;a href="https://x.com/xai/status/1991284813727474073"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Gemini 3&lt;/b&gt; با استفاده از یک مهارکننده‌ی عامل استاندارد، به عملکردی پیشرفته در SWE Bench Verified دست می‌یابد &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1991327656990896372"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA &lt;b&gt;Nemotron-Parse v1.1&lt;/b&gt; را منتشر کرد، OCR نسل بعدی برای تجزیه‌ی PDFها و PPTها به خروجی ساختاریافته و آماده‌ی ماشین با متن، کادرهای محدودکننده و کلاس‌های معنایی &lt;em&gt;&lt;a href="https://x.com/andimarafioti/status/1991531971680550992"&gt;@andimarafioti&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;تحقیقات MIT نشان می‌دهد که مدل‌های بسته با 80% از توکن‌های ماهانه‌ی LLM غالب هستند، با وجود اینکه 6 برابر گران‌تر از مدل‌های باز هستند و تنها مزایای عملکردی متوسطی دارند، که نشان‌دهنده‌ی 24.8 میلیارد دلار صرفه‌جویی بالقوه برای مصرف‌کنندگان در صورت تغییر کاربران به جایگزین‌های باز برتر است &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1991248868126912897"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل توسعه‌دهندگان خود را از استفاده از IDE عمومی &lt;b&gt;Antigravity&lt;/b&gt; برای کار منع می‌کند و استفاده از نسخه‌ی داخلی به نام &lt;b&gt;Jetski&lt;/b&gt; را الزامی می‌کند که از monorepo و ابزارهای سفارشی گوگل پشتیبانی می‌کند، که نشان‌دهنده‌ی انزوای پشته‌ی فناوری منحصر به فرد گوگل است &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1991529814373605676"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;توسعه‌دهندگان هوش مصنوعی با وجود نفوذ کم هوش مصنوعی در کسب‌وکارها، همچنان نسبت به رشد خوش‌بین هستند، با بسیاری از تیم‌های ماهر که شروع به ارائه‌ی بازده سرمایه‌ی قابل توجهی کرده‌اند، حتی با وجود اینکه 95% از پروژه‌های آزمایشی هوش مصنوعی به دلیل مشکلات روش‌شناختی در مطالعات شکست می‌خورند &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1991561899088179552"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدل‌های باز پیشرو معمولاً در عرض چند ماه به برابری عملکرد با مدل‌های بسته‌ی پیشرو می‌رسند، با این حال کاربران همچنان مدل‌های بسته را انتخاب می‌کنند، حتی زمانی که جایگزین‌های باز ارزان‌تر هستند و عملکرد بهتری ارائه می‌دهند &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1991248868126912897"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;عوامل کدنویسی هوش مصنوعی ممکن است جریان‌های کاری توسعه را به طور اساسی تغییر دهند، زیرا تغییرات چارچوب را بدون زیر سوال بردن تصمیمات اجرا می‌کنند، برخلاف توسعه‌دهندگان انسانی که پیشنهادات غیرعملی را رد می‌کنند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1991494954921914770"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stuut 29.5 میلیون دلار در سری A به رهبری a16z برای خودکارسازی کارهای حساب‌های دریافتنی برای کسب‌وکارهای کارگری در تولید، دستگاه‌های پزشکی، لجستیک و توزیع با استفاده از عوامل هوش مصنوعی جمع‌آوری کرد &lt;em&gt;&lt;a href="https://x.com/TAlaruri/status/1991505420121207059"&gt;@TAlaruri&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گاز طبیعی هم برای برق مراکز داده‌ی هوش مصنوعی و هم برای صادرات LNG مرکزی شده است، با انتظار اینکه اکثر مراکز داده‌ی جدید در آینده‌ی نزدیک با گاز طبیعی تامین انرژی شوند &lt;em&gt;&lt;a href="https://x.com/a16z/status/1991536578154692946"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل قابلیت تشخیص &lt;b&gt;SynthID&lt;/b&gt; را در برنامه‌ی Gemini معرفی کرد که به کاربران امکان می‌دهد تصاویر را آپلود کرده و با استفاده از واترمارک‌های دیجیتالی نامحسوس، تایید کنند که آیا توسط هوش مصنوعی گوگل تولید شده‌اند یا خیر &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1991549346282942682"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلسون هشدار می‌دهد که &lt;b&gt;Antigravity&lt;/b&gt; در برابر حملات تزریق پرامپت آسیب‌پذیر است، جایی که عوامل مخرب می‌توانند با ساخت URLها به سرورهای خارجی و نشت نامرئی اطلاعات دزدیده‌شده از طریق رندرینگ تصویر Markdown، داده‌ها را استخراج کنند &lt;em&gt;&lt;a href="https://x.com/simonw/status/1991354081236164814"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;همین آسیب‌پذیری استخراج داده‌ی تصویر Markdown قبلاً در چت Copilot برای VS Code گزارش و رفع شده بود، اما تا ماه مه 2025 در Windsurf بدون پچ باقی مانده است &lt;em&gt;&lt;a href="https://x.com/simonw/status/1991486803287896371"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که بحران رو به رشد جوانان از نظر اقتصادی و اجتماعی بی‌جا شده، با نزدیک به 10% در بریتانیا و ایالات متحده که کار نمی‌کنند، به دنبال کار نیستند، در حال تحصیل نیستند یا فرزند بزرگ نمی‌کنند، که در بریتانیا در طول یک دهه دو برابر شده است &lt;em&gt;&lt;a href="https://x.com/jburnmurdoch/status/1991487650533110225"&gt;@jburnmurdoch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity مرورگر &lt;b&gt;Comet&lt;/b&gt; را برای اندروید با حالت صوتی راه‌اندازی کرد که به کاربران امکان می‌دهد با تب‌ها چت کرده و آن‌ها را کنترل کنند، محتوا را خلاصه کنند و اقدامات را در همه‌ی تب‌ها بدون از دست دادن زمینه انجام دهند &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1991567568830955632"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI چت‌های گروهی را به صورت جهانی برای کاربران ChatGPT Free، Go، Plus و Pro عرضه کرد و ChatGPT را از تجربه‌ی تک‌نفره به تجربه‌ی چندنفره تبدیل کرد &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1991556363420594270"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NotebookLM قابلیت تولید اسلاید را برای کاربران Pro معرفی کرد که منابع را به اسلایدهای دقیق برای مطالعه یا اسلایدهای آماده‌ی ارائه که کاملاً قابل تنظیم هستند، تبدیل می‌کند &lt;em&gt;&lt;a href="https://x.com/NotebookLM/status/1991575294352740686"&gt;@NotebookLM&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Nano Banana Pro&lt;/b&gt; توانایی ایجاد اینفوگرافیک‌های پیچیده، کمیک استریپ، منوها، مواد بازاریابی و طراحی لوگو را در پرامپت‌های واحد نشان می‌دهد که به طور بالقوه می‌تواند ابزارهایی مانند Canva را برای بسیاری از موارد استفاده جایگزین کند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1991525559332139041"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اندرو نگ استفاده از هوش مصنوعی را برای استخراج اسناد عامل‌محور در گزارش درآمد 10-Q اخیر NVIDIA نشان می‌دهد که نتایج بسیار دقیقی را با استفاده از مدل ترانسفورمر آموزش‌دیده‌ی سند به دست می‌آورد &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1991268044019232876"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;xAI Agent Tools API را راه‌اندازی کرد که به توسعه‌دهندگان امکان می‌دهد با چند خط کد، قابلیت‌های مرور وب خودمختار، جستجوی پست‌های X، اجرای کد و بازیابی اسناد را به &lt;b&gt;Grok&lt;/b&gt; بدهند &lt;em&gt;&lt;a href="https://x.com/xai/status/1991284828667527322"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فیگما &lt;b&gt;Nano Banana Pro&lt;/b&gt; را در سراسر پلتفرم خود یکپارچه کرد و به کاربران امکان می‌دهد تصاویر را با حفظ DNA بصری تنظیم کنند، تصاویر موجود را در زمینه‌های جدید پرامپت کنند و چندین تصویر را در صحنه‌های منسجم ترکیب کنند &lt;em&gt;&lt;a href="https://x.com/figma/status/1991526849713983568"&gt;@figma&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI تحقیقاتی را منتشر کرد که نشان می‌دهد &lt;b&gt;GPT-5&lt;/b&gt; کشف علمی را از طریق مطالعات موردی تسریع می‌کند، جایی که به محققان کمک کرد تا نتایج پراکنده را ترکیب کنند، مکانیسم‌ها را آشکار کنند، ادبیات را به صورت مفهومی مرور کنند و اثبات‌های جدیدی از گزاره‌های حل‌نشده تولید کنند &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1991570422148788612"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5&lt;/b&gt; یک حدس 2013 و یک مسئله‌ی باز COLT 2012 را پس از دو روز تفکر در آزمایش‌های ساختاریافته با شرکای دانشگاهی و آزمایشگاه ملی حل کرد &lt;em&gt;&lt;a href="https://x.com/SebastienBubeck/status/1991568190720311639"&gt;@SebastienBubeck&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که LLMها برای مدل‌سازی کل توزیع، نه فقط میانگین، آموزش دیده‌اند و یادگیری تقویتی به آن‌ها امکان می‌دهد فراتر از توزیع انسانی بروند، مشابه کشف حرکت 37 آلفاگو &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/1991573478269677945"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;OLMo 3&lt;/b&gt; از بهینه‌سازی ترجیح مستقیم (DPO) با &lt;b&gt;Qwen3 32B&lt;/b&gt; به عنوان مدل انتخاب‌شده و &lt;b&gt;Qwen3 0.6B&lt;/b&gt; به عنوان مدل ردشده استفاده می‌کند، بر اساس فرضیه‌ی یادگیری دلتا که مدل‌ها از تفاوت بین نمونه‌های انتخاب‌شده و ردشده یاد می‌گیرند تا فقط کیفیت کلی &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1991508141687861479"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI2 تکنیک "پر کردن فعال" را در آموزش RL معرفی کرد که تولیدات از گره‌های یادگیرنده را به طور مداوم جریان می‌دهد تا زمانی که یک دسته‌ی کامل از تکمیل‌ها با گرادیان‌های غیرصفر وجود داشته باشد، یک مزیت عمده‌ی رویکرد ناهمزمان &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1991508141687861479"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Gemini 3&lt;/b&gt; استدلال پیشرفته را با دسترسی به جستجوی زنده نشان می‌دهد که امکان ایجاد اینفوگرافیک‌ها و تجسم‌ها را با استفاده از اطلاعات بلادرنگ از پایگاه دانش گوگل فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1991522607439524211"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات در مورد استفاده از هوش مصنوعی برای بررسی کار سایر هوش مصنوعی‌ها به شدت کم‌تحقیق شده است، با یک مقاله که این تکنیک را موثر می‌داند اما فاقد مطالعات پیگیری در مورد اینکه آیا استفاده از مدل‌های مختلف به کاهش خطاها کمک می‌کند یا خیر &lt;em&gt;&lt;a href="https://x.com/emollick/status/1991328030694703115"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Grok 4.1 Fast&lt;/b&gt; در محیط‌های شبیه‌سازی‌شده‌ی متنوع در ده‌ها حوزه آموزش دیده است که به عملکردی پیشرفته در جریان‌های کاری عامل‌محور واقعی دست می‌یابد و در بازیابی اطلاعات بلادرنگ و تحقیقات عمیق برتری دارد &lt;em&gt;&lt;a href="https://x.com/xai/status/1991284822820720732"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;OLMo 3 32B Think&lt;/b&gt; در معیارهای استدلال از جمله AIME و GPQA در 1-2 امتیاز &lt;b&gt;Qwen3 32B&lt;/b&gt; قرار می‌گیرد که اولین مدل استدلال کاملاً باز در مقیاس 32B یا بزرگتر را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1991508141687861479"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-20</guid>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-11-19</title>
       <link>https://sumbird.ir/fa/news/2025-11-19</link>
@@ -970,53 +1027,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-01</guid>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-10-31</title>
-      <link>https://sumbird.ir/fa/news/2025-10-31</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;«کیمی» (Kimi) &lt;b&gt;«پیش‌نمایش فنی CLI» (CLI Technical Preview)&lt;/b&gt; و &lt;b&gt;«کیمی برای کدنویسی» (Kimi For Coding)&lt;/b&gt; را با رابط کاربری shell-مانند، یکپارچگی Zsh، پشتیبانی از MCP و سازگاری با Agent Client Protocol معرفی می‌کند. &lt;em&gt;&lt;a href="https://x.com/Kimi_Moonshot/status/1984207733177090274"&gt;@Kimi_Moonshot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«اوپن‌ای‌آی» (OpenAI) &lt;b&gt;«حالت عامل» (agent mode)&lt;/b&gt; را برای ChatGPT راه‌اندازی می‌کند که به آن اجازه می‌دهد تا در حین گشت‌وگذار کاربران، اقدام کند، تحقیق کند، برنامه‌ریزی کند و وظایف را تکمیل کند؛ این قابلیت اکنون برای کاربران Plus، Pro و Business در دسترس است. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1984304194837528864"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«اوپن‌ای‌آی» (OpenAI) قابلیت کاراکترهای &lt;b&gt;«سورا» (Sora)&lt;/b&gt; را معرفی می‌کند و به دلیل تقاضای غیرمنتظره‌ی بالا از سوی کاربران قدرتمند، قابلیت خرید نسل‌های اضافی را فراتر از محدودیت رایگان روزانه راه‌اندازی می‌کند. &lt;em&gt;&lt;a href="https://x.com/billpeeb/status/1984011952155455596"&gt;@billpeeb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;«اوپن‌ای‌آی» (OpenAI) شروع به استخدام مهندسان نرم‌افزار تازه‌کار می‌کند و به دلیل تأثیر قابل‌توجه‌شان، آن‌ها را &lt;b&gt;«ابر تازه‌کار» (super juniors)&lt;/b&gt; می‌نامد؛ مدیر مهندسی ChatGPT اشاره می‌کند که آن‌ها دیدگاه‌های تازه و روش‌های جدیدی از کار را به ارمغان می‌آورند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1984206519077081505"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«گتی ایمیجز» (Getty Images) یک قرارداد مجوز چندساله با &lt;b&gt;«پرپلکسیتی» (Perplexity)&lt;/b&gt; امضا می‌کند که باعث جهش ۲۵ درصدی سهام «گتی» (Getty) شده و برخی از استفاده‌های قبلی «پرپلکسیتی» (Perplexity) از عکس‌های استوک «گتی» (Getty) را قانونی می‌کند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1984264921161560240"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آهنگ تولیدشده با هوش مصنوعی توسط &lt;b&gt;«زانیا مونت» (Xania Monet)&lt;/b&gt; (که با استفاده از Suno ساخته شده است) به اولین آهنگ هوش مصنوعی تبدیل می‌شود که وارد جدول رادیویی Billboard می‌شود و خالق آن یک قرارداد ضبط ۳ میلیون دلاری امضا می‌کند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1984351094081015849"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;درآمد ابری «آمازون» (Amazon) در بحبوحه‌ی تقاضای قوی هوش مصنوعی، ۲۰ درصد رشد می‌کند و AWS همچنان شاهد تقاضای بالایی برای خدمات زیرساخت ابری در عصر هوش مصنوعی است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1984305131068756279"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گمان می‌رود که هر دو مدل جدید &lt;b&gt;«کرسر» (Cursor)&lt;/b&gt; و &lt;b&gt;«ویندسرف» (Windsurf)&lt;/b&gt; بر روی مدل‌های پایه‌ی چینی ساخته شده باشند، به طوری که Cursor Composer نشانه‌هایی از استدلال چینی را نشان می‌دهد و Windsurf به طور بالقوه از یک مدل سفارشی‌شده‌ی GLM 4.6 استفاده می‌کند. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1984092103358738846"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;چین در مجموع دانلودهای مدل‌های هوش مصنوعی منبع‌باز از آمریکا پیشی گرفته است که چشم‌انداز رقابتی در توسعه‌ی هوش مصنوعی را برجسته می‌کند. &lt;em&gt;&lt;a href="https://x.com/a16z/status/1984300599018733607"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«لینیر» (Linear) گزارش می‌دهد که ۶۰ درصد از شرکت‌های بزرگ از زمان راه‌اندازی پلتفرم عامل خود، &lt;b&gt;«عامل» (agents)&lt;/b&gt; را به فضاهای کاری‌شان اضافه کرده‌اند که نشان‌دهنده‌ی پذیرش سریع در شرکت‌های بزرگ است. &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/1984288827205431703"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;«اچ‌ای‌آی» (HAI) استنفورد هشدار می‌دهد که موج شفافیت در هوش مصنوعی در حال عقب‌نشینی است و بنیان پیشرفت علمی را تهدید می‌کند؛ این سازمان از دانشگاه‌ها می‌خواهد تا پژوهش هوش مصنوعی را برای منافع عمومی بازپس گیرند. &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1984350245279470009"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«یان لکون» (Yann LeCun) استدلال می‌کند که تمرکز هوش مصنوعی در تعداد کمی از شرکت‌ها، تهدیدی جدی برای دموکراسی است و تأکید می‌کند که پلتفرم‌های منبع‌باز برای حفظ حاکمیت کشورها و ساخت هوش مصنوعی متناسب با فرهنگ آن‌ها ضروری هستند. &lt;em&gt;&lt;a href="https://x.com/youtubejocoding/status/1984126277100703940"&gt;@youtubejocoding&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«گزارش انتشار هوش مصنوعی مایکروسافت» (Microsoft's AI Diffusion Report) شکاف‌های جهانی واضحی را در پذیرش هوش مصنوعی نشان می‌دهد و بر لزوم گسترش دسترسی، توسعه‌ی مهارت‌ها و کارایی هوش مصنوعی برای هر زبان و جامعه‌ای تأکید می‌کند. &lt;em&gt;&lt;a href="https://x.com/BradSmi/status/1984018278239629513"&gt;@BradSmi&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«ایتان مولیک» (Ethan Mollick) خواستار تلاش‌های مشخص‌تری برای مفیدسازی مزایای هوش مصنوعی برای افراد بیشتر و کاهش آسیب‌های آشکار می‌شود و اشاره می‌کند که بسیاری از اقدامات می‌توانند همین امروز منافع قابل‌توجهی به همراه داشته باشند، به جای انتظار برای راه‌حل‌های بلندمدت. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984116190654964051"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;«استنفورد هلث» (Stanford Health) &lt;b&gt;«چت‌ای‌اچ‌آر» (ChatEHR)&lt;/b&gt; را توسعه می‌دهد؛ یک پلتفرم چت‌بات هوش مصنوعی برای مراقبت‌های بهداشتی که داده‌های بی‌درنگ، کنترل‌های سخت‌گیرانه‌ی حریم خصوصی و سیستم‌های پیچیده‌ی EHR را یکپارچه می‌کند و به طور بالقوه می‌تواند به عنوان یک مدل برای سیستم‌های بهداشتی عمل کند. &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1984275369365471310"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«گوگل» (Google) &lt;b&gt;«پوملی» (Pomelli)&lt;/b&gt; را راه‌اندازی می‌کند؛ یک ابزار بازاریابی هوش مصنوعی که برای کمک به کسب‌وکارهای کوچک و متوسط جهت ارتباط سریع‌تر با مخاطبانشان طراحی شده است. &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1984321724037394929"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«پرپلکسیتی فایننس» (Perplexity Finance) اکنون شامل دارایی‌های سیاستمداران از سهام عمومی می‌شود که قابلیت‌های داده‌های مالی این پلتفرم را گسترش می‌دهد. &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1983998749929259378"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«گوگل» (Google) افزونه‌ی CLI &lt;b&gt;«جِمینی» (Gemini)&lt;/b&gt; را برای عامل Jules اضافه می‌کند که گردش کار کدنویسی خلاقانه را تسریع می‌بخشد. &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1984321724037394929"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«نوت‌بوک‌ال‌ام چت» (NotebookLM Chat) بهبودهایی از جمله فعال‌سازی پنجره‌ی کامل ۱ میلیون توکن زمینه را برای تحلیل اسناد بهبودیافته دریافت می‌کند. &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1984321724037394929"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;«هاگینگ فیس» (Hugging Face) &lt;b&gt;«کتاب راهنمای کوچک آموزش» (Smol Training Playbook)&lt;/b&gt; جامع ۲۱۴ صفحه‌ای را منتشر می‌کند که دستورالعمل‌های پیش‌ازآموزش و پس‌ازآموزش، بررسی هایپرپارامترها و راهنمایی‌های عملی آموزش مدل را پوشش می‌دهد. &lt;em&gt;&lt;a href="https://x.com/Thom_Wolf/status/1984033830924124262"&gt;@Thom_Wolf&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش‌ها نشان می‌دهد که تغییر از &lt;b&gt;BF16 به FP16&lt;/b&gt; راه‌حلی اساسی برای fine-tuning RL ارائه می‌دهد و با ارائه‌ی ۸ برابر دقت بیشتر، واگرایی سیاست بین موتورهای آموزش و استنتاج را کاهش می‌دهد. &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1984262505443844263"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهشگران «ام‌آی‌تی» (MIT) روشی را توسعه می‌دهند که هنرمندان را قادر می‌سازد تا شبیه‌سازی‌های واقع‌گرایانه از اشیاء الاستیک را برای فیلم‌های انیمیشن و بازی‌های ویدیویی طراحی کنند. &lt;em&gt;&lt;a href="https://x.com/MIT/status/1984273330040635852"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهشگران «مایکروسافت» (Microsoft) جایزه‌ی بهترین مقاله را در ESEM 2025 برای بررسی چالش‌های همکاری بین‌رشته‌ای بین مهندسان نرم‌افزار و کارشناسان حوزه در هوش مصنوعی، بهداشت و علوم دریافت می‌کنند. &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1984289263265993069"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«فرانسوا شولِه» (François Chollet) تأکید می‌کند که هوش انسانی شامل اختراع مداوم است و اشاره می‌کند که حتی نوزادان نیز باید خزش را از ابتدا با حداقل داده اختراع کنند، که این موضوع فرضیات مربوط به الزامات هوش مصنوعی را به چالش می‌کشد. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1984014438673113477"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«یان لکون» (Yann LeCun) استدلال می‌کند که اصطلاح &lt;b&gt;«AGI» (هوش عمومی مصنوعی)&lt;/b&gt; بی‌معناست، زیرا هوش انسانی عمومی نیست بلکه تخصصی است؛ او به جای آن، ساخت &lt;b&gt;«مدل‌های جهان» (World Models)&lt;/b&gt; را پیشنهاد می‌کند که جهان فیزیکی را از طریق بازنمایی‌های انتزاعی درک می‌کنند. &lt;em&gt;&lt;a href="https://x.com/youtubejocoding/status/1984126277100703940"&gt;@youtubejocoding&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;«مارک آندرِسن» (Marc Andreessen) درباره‌ی رقابت هوش مصنوعی بین آمریکا و چین بحث می‌کند و پیش‌بینی می‌کند که فاز بعدی این رقابت در &lt;b&gt;«رباتیک» (robotics)&lt;/b&gt; خواهد بود تا نرم‌افزار؛ او بر نیاز به هوش تجسم‌یافته (embodied intelligence) فراتر از سیستم‌های هوش مصنوعی غیرتجسم‌یافته‌ی کنونی تأکید می‌کند. &lt;em&gt;&lt;a href="https://x.com/a16z/status/1984330876273246279"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-10-31</guid>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
