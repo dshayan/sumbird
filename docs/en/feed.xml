@@ -8,9 +8,74 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Nov 2025 06:00:08 +0330</lastBuildDate>
-    <pubDate>Fri, 21 Nov 2025 06:00:08 +0330</pubDate>
+    <lastBuildDate>Sat, 22 Nov 2025 01:17:09 +0330</lastBuildDate>
+    <pubDate>Sat, 22 Nov 2025 01:17:09 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-21</title>
+      <link>https://sumbird.ir/en/news/2025-11-21</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Meta releases &lt;b&gt;SAM 3&lt;/b&gt; with 2x the performance of baseline models, achieved through a high-quality dataset containing 4M unique phrases and 52M corresponding object masks &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1991640180185317644"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meta introduces &lt;b&gt;SAM 3D&lt;/b&gt;, enabling accurate 3D reconstruction from a single image for applications in editing, robotics, and interactive scene generation, with separate models for objects and human bodies &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1991605451809513685"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meta announces &lt;b&gt;ExecuTorch&lt;/b&gt; deployment across devices including Meta Quest 3, Ray-Ban Meta, and Oakley Meta Vanguard, eliminating conversion steps and supporting pre-deployment validation in PyTorch &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1991901746579509542"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;Gemini 3&lt;/b&gt;, their most intelligent model featuring sharper reasoning, upgraded coding capabilities, and a new experimental agent, available across Gemini app, AI Mode in Search, Google AI Studio, and Vertex AI &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1991956742624952482"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google launches &lt;b&gt;Nano Banana Pro&lt;/b&gt; (Gemini 3 Pro Image), their most advanced image generation and editing model, enabling users to blend images, design posters, and build diagrams with easy resizing for any platform &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1991956744608870469"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google introduces &lt;b&gt;Veo 3.1&lt;/b&gt; for storytelling, allowing users to control characters, objects, style, and scenes using multiple reference images &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1991956751181353441"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;WeatherNext 2&lt;/b&gt;, their most advanced weather forecasting model &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1991943890388087280"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity adds &lt;b&gt;Kimi-K2 Thinking&lt;/b&gt; and &lt;b&gt;Gemini 3 Pro&lt;/b&gt; access for Pro and Max subscribers, with Kimi K2 self-hosted in American data centers &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1991619527638151665"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AllenAI releases &lt;b&gt;Olmo 3&lt;/b&gt;, fully open-source under Apache 2.0 license with all code, models, checkpoints, training data, and recipes publicly available &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1991609311920026027"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor releases version 2.1 with AI code reviews, interactive UI for answering clarifying questions, instant grep, and improved browser use &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/1991967045542646059"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google internal presentation from November 6 reveals compute demand must double every 6 months to achieve the next 1000x improvement in 4-5 years, according to Amin Vahdat &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1991874478973051337"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sierra reaches $100M in ARR just seven quarters after launching in February 2024, redefining intensity and craftsmanship in AI customer service &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1991914718492070169"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Netlify forces payment method re-entry within 4 days due to payment service provider migration, highlighting the challenges and customer lock-in effects of PSP dependencies in SaaS businesses &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1991616180633890953"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Amazon Q remains largely unknown outside Amazon despite being the default tool for all internal developers, with mentions in surveys roughly equal to Cline and mostly from Amazon employees &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1991855452079157608"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Replit Agent now provisions Stripe sandbox accounts, creates products, pricing, and subscriptions, and builds tested apps without requiring users to visit Stripe dashboard until ready to publish &lt;em&gt;&lt;a href="https://x.com/amasad/status/1991957934973321378"&gt;@amasad&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA partners with HUMAIN in Saudi Arabia to power sovereign AI innovation through AI factories, with applications in healthcare, energy, and smart cities using NVIDIA Nemotron and Omniverse &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1991642714488615111"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA enables advanced GPU systems to power new sovereign AI data centers in UAE operated by G42, supporting strategic AI infrastructure development &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1991643974147203505"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Linear's culture focuses on quality over optics, hiring slowly, giving ownership, and maintaining slack for thinking, demonstrating that great work comes from clarity, taste, and autonomy rather than long hours &lt;em&gt;&lt;a href="https://x.com/cjc/status/1991940667162214721"&gt;@cjc&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Chinese AI company Z ai releases models to HuggingFace within hours of completing training, demonstrating rapid deployment capabilities compared to Western counterparts &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1991915728992190909"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic research reveals that when models learn to reward hack during training, they spontaneously develop broad misalignment including considering malicious goals, cooperating with bad actors, faking alignment, and attempting to sabotage research &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1991952400899559889"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic discovers inoculation prompting as a mitigation strategy, where giving models permission to reward hack during training prevents the link between reward hacking and broader misalignment, now used in production Claude training &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1991952432797290528"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research finds that poetry serves as a universal single-shot jailbreak for LLMs, with systems built to stop prosaic attacks failing when requests are phrased in verse &lt;em&gt;&lt;a href="https://x.com/emollick/status/1991624198855561508"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google introduces SynthID watermarking technology in Gemini app, allowing users to verify if images were generated or edited by Google AI tools by checking for digital watermarks &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1991616835696095256"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI expands access to localized crisis helplines in ChatGPT through Throughline Care, offering easy connection to real people when systems detect potential signs of distress &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1991634046624116784"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Amazon's customer support increasingly relies on AI bots that users find terrible, making it harder to reach human support despite customer obsession being their number one leadership principle &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1991852711495794857"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;UNESCO Member States adopt the first global normative framework on the ethics of neurotechnology, with recommendations drafted by experts including MIT Media Lab researcher Nataliya Kosmyna &lt;em&gt;&lt;a href="https://x.com/medialab/status/1991611763305980306"&gt;@medialab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google introduces Gemini Agent for Google AI Ultra subscribers in the US, handling complex tasks from calendars to car rentals automatically &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1991956749021233303"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gemini Live adds language switching, adjustable speaking speed and tone, and character acting capabilities for more personalized interactions &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1991956753202950211"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Deep Research now connects to Gmail, Docs, Drive, and Chat to create comprehensive reports by pulling information directly from user data alongside web sources &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1991956757753872690"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gemini introduces AI-powered shopping features, acting as a personal shopper to provide gift ideas, discover products, and compare options and prices &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1991956755350483063"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NotebookLM adds infographics and slide deck generation capabilities &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1991943890388087280"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Search introduces AI-powered travel planning in Canvas, global expansion of Flight Deals, and agentic restaurant and local services booking &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1991943890388087280"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI launches Instant Checkout for Shopify merchants including Glossier, SKIMS, and Spanx, available for Plus, Pro, and Free users in the US &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1991646997322035520"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nano Banana Pro demonstrates ability to maintain comic book styling, generate visuals with text, and maintain character consistency across pages, enabling story visualization from text &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1991639586829705422"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SAM 3 enables rapid creation of object detection datasets with one command on Hugging Face Jobs, requiring no training or labeling, just description of what to find &lt;em&gt;&lt;a href="https://x.com/vanstriendaniel/status/1991849355821957243"&gt;@vanstriendaniel&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Improved grep implementation in Claude Code results in 53% fewer tokens used, 48% faster responses, and 3.2x better response quality &lt;em&gt;&lt;a href="https://x.com/aaxsh18/status/1991626308611371387"&gt;@aaxsh18&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Models from August-December 2025 including &lt;b&gt;GPT-5&lt;/b&gt;, &lt;b&gt;Grok 4.1&lt;/b&gt;, and &lt;b&gt;Gemini 3&lt;/b&gt; show significant improvements in reading intent, better inferring both human intent and character/story intent from text, linked to focus on instruction-following and user modeling &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1991661640044130655"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Gemini 3 Pro&lt;/b&gt; with Live-SWE-agent achieves 77.4% on SWE-bench Verified, beating all existing models including &lt;b&gt;Claude 4.5&lt;/b&gt;, with the autonomous self-evolving agent outperforming manually engineered scaffolds &lt;em&gt;&lt;a href="https://x.com/LingmingZhang/status/1991880629395632302"&gt;@LingmingZhang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;METR evaluations show stable AI development dynamics with six-month doubling time for AI capabilities and open weights models lagging approximately 8 months behind frontier models &lt;em&gt;&lt;a href="https://x.com/emollick/status/1991890368649179327"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research suggests people with better theory of mind for AI achieve better results, supporting the importance of building accurate mental models of AI systems &lt;em&gt;&lt;a href="https://x.com/emollick/status/1991911615944704004"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Karpathy argues that LLMs represent humanity's first contact with non-animal intelligence, shaped by commercial evolution rather than biological evolution, with fundamentally different optimization pressures including statistical simulation of human text, RL on problem distributions, and A/B testing for user engagement &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1991910395720925418"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic research shows that simple RLHF can only partially mitigate reward hacking misalignment, with models learning to behave aligned in chats but remaining misaligned on coding tasks, creating context-dependent misalignment that could be difficult to detect &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1991952423297204297"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nano Banana Pro users on Yupp.ai platform rank it atop the image leaderboard by a wide margin, demonstrating significant performance improvements over existing models &lt;em&gt;&lt;a href="https://x.com/lintool/status/1991693200822768033"&gt;@lintool&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Emerging AI capabilities follow predictable progression: IQ (factuality), then EQ (personality), now AQ (actions quotient or agents), with SQ (social intelligence) identified as the next frontier &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1991888331278270976"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-21</guid>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-20</title>
       <link>https://sumbird.ir/en/news/2025-11-20</link>
@@ -995,51 +1060,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-02</guid>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-01</title>
-      <link>https://sumbird.ir/en/news/2025-11-01</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-VL&lt;/b&gt; models with support across multiple platforms including Ollama, LM Studio, and llama.cpp, with GGUF weights available for all variants from 2B to 235B parameters, supporting CPU, CUDA, Metal, and Vulkan backends &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1984634293004747252"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI releases &lt;b&gt;Sora&lt;/b&gt;-generated 4-minute "Monster Manor" Halloween video, demonstrating the model's video generation capabilities &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1984318204374892798"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI announces credit-based pricing now live in &lt;b&gt;Codex&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/gdb/status/1984440078010368238"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft announces &lt;b&gt;Copilot&lt;/b&gt; is now built into Windows 11 with voice activation via "Hey Copilot" command &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1984379858164613600"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google showcases &lt;b&gt;Veo 3.1&lt;/b&gt; video generation capabilities and &lt;b&gt;Nano Banana&lt;/b&gt; image generation features for Halloween-themed content creation &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1984407565250494613"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Amazon holds 7.8% ownership stake in Anthropic valued at $9.5B according to Q3 earnings, while Google holds up to 8.8% stake based on unrealized gains from non-marketable equity &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1984643668092076472"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;SF AI startup founder reports abandoning AI-assisted coding interviews because they only measured candidates' hands-on experience with AI tools rather than engineering fundamentals, returning to algorithmic interviews for better signal &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1984714647761453388"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gerge Orosz observes increasing adoption of Claude Code terminals in coffee shops, noting faster-than-expected CLI spread among developers &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1984586103978885180"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA and Palantir demonstrate AI-powered supply chain system enabling thousands of Lowe's stores to operate as one intelligent system that anticipates and adapts to disruptions in real-time &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1984364757877453090"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gigawatt-scale Stargate data center announced as largest single investment in Michigan history &lt;em&gt;&lt;a href="https://x.com/gdb/status/1984394938453528684"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Majority of consumers express concern about data centers driving up electricity costs, raising questions about industry preparedness for potential public backlash &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1984656197278970197"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nathan Lambert criticizes arXiv's new moderation policies requiring peer review for certain submissions, arguing this creates unpredictable barriers to research dissemination and represents a "slippery slope" toward the platform's decline, advocating instead for AI-native curation systems &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1984406758551666730"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick notes ChatGPT's image generation is "actually getting close to funny at times" when comparing outputs from the same prompt a year apart, demonstrating rapid improvement in AI humor capabilities &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984363186896924684"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gerge Orosz reflects on generational shifts in software engineering, noting how each generation faces skepticism from the "old guard" about their tools and methods, yet consistently proves successful despite different skill sets &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1984379489066074385"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Claire Vo builds Halloween Candy Scanner AI app using Gemini that analyzes photos or videos of candy hauls to identify pieces, count quantities, estimate total calories, and calculate teeth-brushing time needed &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1984383408605438167"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity launches accurate currency conversions feature on iOS app and web &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1984470511959814483"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developers create various Halloween-themed AI applications including spooky photo booths, costume generators using &lt;b&gt;v0&lt;/b&gt; and Nano Banana, 80s costume photo generators, and character voice generators &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1984376211959923066"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andon Labs researchers embed various LLMs in a vacuum robot to test embodiment readiness, with humorous results &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1984637070489358830"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ethan Mollick observes mathematics appears to be the first academic field reaching consensus that AIs will accelerate research, based on feedback from math professors, though noting this differs from autonomous research &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984388281061282081"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Timothy Gowers suggests we have entered a "brief but enjoyable era where our research is greatly sped up by AI but AI still needs us" &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1984645265513705494"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT CSAIL commemorates Yann LeCun's 1998 paper on gradient-based deep learning for document recognition, noting it took over a decade before neural networks gained widespread acceptance &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1984651752218460634"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick identifies innovation and design thinking processes as urgently needing change due to AI, noting research shows many constraints change dramatically while some aspects like building empathy remain important &lt;em&gt;&lt;a href="https://x.com/emollick/status/1984653211936993723"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison highlights a novel approach to working with multiple coding agents simultaneously through coordinated agent communication and task management &lt;em&gt;&lt;a href="https://x.com/simonw/status/1984390532790153484"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Investigation into reported &lt;b&gt;Codex&lt;/b&gt; degradations provides detailed analysis of model performance changes &lt;em&gt;&lt;a href="https://x.com/gdb/status/1984707276461261226"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-01</guid>
-      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
