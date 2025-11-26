@@ -8,9 +8,65 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Nov 2025 06:00:07 +0330</lastBuildDate>
-    <pubDate>Wed, 26 Nov 2025 06:00:07 +0330</pubDate>
+    <lastBuildDate>Thu, 27 Nov 2025 01:16:48 +0330</lastBuildDate>
+    <pubDate>Thu, 27 Nov 2025 01:16:48 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-26</title>
+      <link>https://sumbird.ir/en/news/2025-11-26</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic publishes engineering blog post on creating more effective agent harness for long-running AI agents working across many context windows, drawing inspiration from human engineers &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1993733817849303409"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity launches &lt;b&gt;Memory&lt;/b&gt; feature that remembers user threads and interests across all models and search modes, allowing conversation continuation with full context weeks later &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1993733900540235919"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity rolls out &lt;b&gt;virtual try-on&lt;/b&gt; feature to all Pro and Max subscribers, enabling users to create digital avatars and virtually try on clothes while shopping &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1993760113988170165"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google announces eligible students can get &lt;b&gt;Gemini's Pro Plan&lt;/b&gt; free for an entire year &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1993715723538252018"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claude Desktop now supports &lt;b&gt;multi-clauding&lt;/b&gt; for both local and cloud sessions, one of the top user requests &lt;em&gt;&lt;a href="https://x.com/_catwu/status/1993428129197834741"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claude Code introduces &lt;b&gt;Plan Mode&lt;/b&gt; (activated with shift + tab twice) allowing users to verify execution plans before code changes are made &lt;em&gt;&lt;a href="https://x.com/_catwu/status/1993429460897742894"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Character AI launches &lt;b&gt;Stories&lt;/b&gt; format where users navigate AI-guided visual/text narratives and make choices as the story progresses, with multimodal features planned &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1993697426935361914"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity announces real-time newswire on Perplexity Finance, with API availability coming soon &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1993445351488209130"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sundar Pichai discusses Google's decade-long AI-first strategy with Logan Kilpatrick, highlighting how &lt;b&gt;Gemini 3&lt;/b&gt; enabled many products from Google and ecosystem partners to improve their experience on Day 1, demonstrating innovation at scale &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1993509460577583300"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research study "Economies of Open Intelligence" maps 2.2 billion Hugging Face downloads across 851,000 models from 2020-2025, revealing power rebalancing with US big tech declining while China and community contributions increase &lt;em&gt;&lt;a href="https://x.com/ShayneRedford/status/1993709261126336632"&gt;@ShayneRedford&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Study finds models have become bigger and more efficient through &lt;b&gt;MoE&lt;/b&gt;, quantization, and multimodal surge, while intermediaries like adapters and quantizers now significantly steer usage &lt;em&gt;&lt;a href="https://x.com/ShayneRedford/status/1993709261126336632"&gt;@ShayneRedford&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick draws parallels between AI development and &lt;b&gt;Moore's Law&lt;/b&gt;, noting both represent exponential progress through many different technologies over time rather than a single approach, with AI already overcoming speedbumps through synthetic data, reasoning, and new RL uses &lt;em&gt;&lt;a href="https://x.com/emollick/status/1993422227862438031"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick projects it's not insane to expect the leading AI service to reach 80% of the subscriber level of the leading music service within 5 years &lt;em&gt;&lt;a href="https://x.com/emollick/status/1993697415140942303"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Linear's approach to building software since 2019 emphasizes craftsmen with blended roles rather than Henry Ford-style assembly line development &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/1993464216121229450"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mustafa Suleyman reports visiting Microsoft AI Asia teams in China, noting their pace, execution and creativity, particularly in multi-agent &lt;b&gt;chain-of-debate&lt;/b&gt; AIs &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1993704093202997621"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mustafa Suleyman observes Chinese humanoid robotics companies like UBTECH moving dexterous robots from lab to real-world work, highlighting the striking pace of innovation as AI and robotics converge &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1993704097149821062"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;36 Attorney Generals from both Democrat and Republican parties write letter to House and Senate opposing any moratorium on state laws governing AI &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1993454410937295138"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford researchers find user conversations with chatbots are being used for training by default, revealing concerning gaps in privacy protection &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1993454990543704542"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Simon Willison reports nasty prompt injection vulnerability in Antigravity that tricks the system into stealing AWS credentials from .env files and leaking them to webhooks debugging sites on the default allow-list &lt;em&gt;&lt;a href="https://x.com/simonw/status/1993421822797529527"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Simon Willison recommends tying any credentials visible to coding agents to non-production accounts with strict spending limits to reduce blast radius if credentials are stolen &lt;em&gt;&lt;a href="https://x.com/simonw/status/1993423891008831590"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI claims teen circumvented safety features before suicide that ChatGPT helped plan, according to TechCrunch report &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1993779086309904483"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford HAI calls for universities to carry forward the mantle of open science, believing the next chapter of AI must combine scientific openness with human-centered values &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1993712412952838649"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity's &lt;b&gt;Memory&lt;/b&gt; feature works agentic manner by contextually pulling relevant details from past conversations for better responses, with enhanced functionality in Comet that also accesses open tabs, active projects, and Google Workspace data &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1993734194065780981"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity introduces dedicated Watchlist tab providing market summaries for curated stocks, with push notifications coming soon &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1993771618829783136"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;BrandPulse launches as AI visibility and monitoring platform for brands, showing how often brands appear in AI-generated answers, sentiment/context of mentions, competitor comparisons, and where brands are missing from key AI questions &lt;em&gt;&lt;a href="https://x.com/mehdiyarix/status/1993746765292687772"&gt;@mehdiyarix&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Eugene Yan publishes guide on building product evals in three basic steps: labeling small dataset, aligning LLM evaluators, and running eval harness with each config change &lt;em&gt;&lt;a href="https://x.com/eugeneyan/status/1993498057800139023"&gt;@eugeneyan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nathan Lambert creates Artifacts Log series as monthly roundup of open models, recapping 30-40 models from 20-30 organizations across AI ecosystem with brief summaries &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1993448184161746994"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mustafa Suleyman visits Chinese companies like XtalPi and Insilico Medicine working on automating science itself, with AI and robotics compressing years of work into weeks for breakthrough medicines and materials &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1993704100996022276"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ethan Mollick welcomes more methodological rigor being applied to &lt;b&gt;LLM as a judge&lt;/b&gt;, noting LLM ratings are at the heart of huge number of benchmarks and often used without clear statistical validation &lt;em&gt;&lt;a href="https://x.com/emollick/status/1993515342526910901"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick emphasizes the &lt;b&gt;jagged frontier&lt;/b&gt; of AI capabilities remains significant even at individual job level, with critical tasks AI can't do creating deep bottlenecks, especially as the shape of frontier is unknown &lt;em&gt;&lt;a href="https://x.com/emollick/status/1993686155389206584"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Johannes Dahse discusses connection between code quality and security, noting spaghetti code makes security problems harder to spot in reviews and harder to fix, with AI-generated code typically showing poor quality that becomes security problem &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1993733900393185479"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Logan Kilpatrick notes &lt;b&gt;Gemini 3 Pro&lt;/b&gt; remains state-of-the-art on real world tool use benchmarks like Vending-Bench in addition to many others &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1993777053255258335"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Eugene Yan observes new bottlenecks in AI are deeply human: taste, vision, judgment, and context, with AI exploring options but unable to determine which is right, making specialization matter in judgment rather than execution &lt;em&gt;&lt;a href="https://x.com/eugeneyan/status/1993505238318514312"&gt;@eugeneyan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google DeepMind makes The Thinking Game documentary about &lt;b&gt;AlphaFold&lt;/b&gt; available free on YouTube to celebrate five years, offering candid look at triumphs, challenges and pivotal moments leading to breakthrough on 50-year-old grand challenge in biology &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1993714943116386619"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Shane Legg shares The Thinking Game documentary gives broader picture of DeepMind's story and mission to build AGI, drawing on interviews going back many years &lt;em&gt;&lt;a href="https://x.com/ShaneLegg/status/1993739849107489112"&gt;@ShaneLegg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-26</guid>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-25</title>
       <link>https://sumbird.ir/en/news/2025-11-25</link>
@@ -987,63 +1043,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-07</guid>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-06</title>
-      <link>https://sumbird.ir/en/news/2025-11-06</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-max-preview&lt;/b&gt; ranking #4 globally on Arena Expert, while &lt;b&gt;Qwen3-235B-A22B-Thinking-2507&lt;/b&gt; ranks #1 among all open-source models on expert-level prompts across 8 critical domains &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1986340017715941396"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Moonshot AI launches &lt;b&gt;Kimi K2 Thinking&lt;/b&gt;, an open-source thinking agent model achieving SOTA on HLE (44.9%) and BrowseComp (60.2%), capable of executing 200-300 sequential tool calls without human interference, with 256K context window &lt;em&gt;&lt;a href="https://x.com/Kimi_Moonshot/status/1986449512538513505"&gt;@Kimi_Moonshot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google announces &lt;b&gt;TPU Ironwood&lt;/b&gt; (7th generation) coming to general availability with 10X peak performance improvement vs. TPU v5p and more than 4X better performance per chip for both training and inference workloads vs. TPU v6e (Trillium) &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1986463934543765973"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google introduces &lt;b&gt;File Search Tool&lt;/b&gt; in the Gemini API, a hosted RAG solution with free storage and free query time embeddings to simplify context-aware AI systems &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1986503927857033453"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google's &lt;b&gt;Gemini Deep Research&lt;/b&gt; now connects directly to Gmail, Drive, Docs, and Chat for all users on desktop, enabling market analysis and competitor reports combining live web trends with internal documents &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1986472318873555058"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI introduces ability to interrupt long-running queries and add new context without restarting or losing progress, especially useful for refining Deep Research or &lt;b&gt;o1 Pro&lt;/b&gt; queries &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1986194298971590988"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity announces major upgrades to &lt;b&gt;Comet Assistant&lt;/b&gt; with 23% performance improvement, handling more complex multi-site workflows while working across multiple tabs in parallel &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1986499432410718598"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Inception Labs raises $50M seed round for &lt;b&gt;Mercury&lt;/b&gt; model, achieving 10x faster and 10x cheaper AI coding with performance matching Gemini Flash/Haiku, implementing games like Connect 4 in approximately 2 seconds using novel diffusion models for code &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1986481452830368043"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft Research releases &lt;b&gt;Agentic Mode&lt;/b&gt; in Data Formulator on Azure AI Foundry Labs, enabling users to update charts, get recommendations, and create reports grounded in data exploration &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1986523987065651339"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google DeepMind launches &lt;b&gt;Lyria RealTime API&lt;/b&gt; on Google AI Studio for developers to build apps for interactive instrumental music creation and performance, demonstrated through Space DJ web app &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1986458475585531940"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrew Ng warns that SaaS vendors are creating data silos and charging high fees (over $20,000 for API keys) to prevent customers from accessing their own data for AI agent workflows, advising businesses to control their own data to maximize AI capabilities &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1986500817613169025"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity announces partnership with Snapchat where Perplexity will be the default AI for all Snapchat users starting January 2026, with Snap paying $400M for the integration &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1986203714471010738"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Apple is paying $1B to Google to use a whitelabeled &lt;b&gt;Gemini&lt;/b&gt; to power Siri, demonstrating the value of platform visibility and distribution &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1986407399347888433"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Figma crosses $1B annual revenue run rate with 38% year-over-year revenue growth, with AI investments like Figma Make and MCP delivering results &lt;em&gt;&lt;a href="https://x.com/zoink/status/1986178515981771233"&gt;@zoink&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI Studio reaches 2.1 million users vibe coding with hundreds of thousands of apps made every day &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1986467546355183985"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Jamie Dimon urges people to embrace AI at America Business Forum, predicting a 3.5 day workweek &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1986503838019600690"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Startup survival statistics show 40% die after seed, 50% of remainder die after Series A, 60% after Series B, and 58% after Series C, with roughly 2.5% acquired and 0.5-1% going IPO based on 2016-2018 vintage over 10-year horizon &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1986268351921029430"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Soumith Chintala announces departure from Meta and PyTorch after 11 years, stepping down from leading PyTorch which achieved 90%+ adoption in AI and powers foundation models at virtually every major AI company &lt;em&gt;&lt;a href="https://x.com/soumithchintala/status/1986503070734557568"&gt;@soumithchintala&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sam Altman clarifies OpenAI does not want government guarantees for datacenters, expects to end year above $20B in annualized revenue and grow to hundreds of billions by 2030, with $1.4 trillion in infrastructure commitments over next 8 years &lt;em&gt;&lt;a href="https://x.com/sama/status/1986514377470845007"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI states they treat risks of superintelligent systems as potentially catastrophic and believe empirically studying safety and alignment can help global decisions, including whether the field should slow development to study systems capable of recursive self-improvement &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1986508130432483700"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft AI announces formation of Superintelligence Team focused on &lt;b&gt;Humanist Superintelligence (HSI)&lt;/b&gt;, defined as incredibly advanced AI capabilities that always work for and in service of people and humanity, emphasizing domain-specific systems that are carefully calibrated and contextualized within limits &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1986433769046483430"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mustafa Suleyman emphasizes Microsoft AI is not building an ill-defined and ethereal superintelligence but a practical technology explicitly designed only to serve humanity, stating he doesn't want to live in a world where AI transcends humanity &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1986433771466596552"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research shows advanced AI models shift their beliefs as they encounter new information and have interactions with people, with active persuasion working but effects coming from overall context, raising alignment issues and showing why SEO for agents is not simple &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986264795973144742"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick questions what winning the international AI race means, noting policymakers do not seem to believe in a takeoff scenario based on other decisions, and without an apotheosis as a finish line, it isn't clear what we are racing to &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986297613642084407"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrew Ng reports AI agents are getting better at looking at different types of data in businesses to spot patterns and create value, making data silos increasingly painful, with the value of connecting the dots between different pieces of data higher than ever &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1986500817613169025"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hamel Husain demonstrates AI coding hack using Amp's librarian feature to investigate code and dependencies with specific goals, keeping threads dangling and forking them for better context &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1986472604723810744"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison shares process for using coding agents for code research tasks with dedicated research GitHub repo where agents run detailed experiments and write up results, with README automatically updated by LLM to include summaries &lt;em&gt;&lt;a href="https://x.com/simonw/status/1986462620459933856"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Linear becomes the intake tool from which work or feedback gets coordinated further to humans and to agents &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/1986482990067949696"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;BillionToOne goes public with genetic test now helping screen 1 in 11 US babies, unlocking earlier detection from prenatal care to cancer &lt;em&gt;&lt;a href="https://x.com/ycombinator/status/1986463696454037553"&gt;@ycombinator&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT Media Lab develops tiny nanoelectronic devices called circulatronics that autonomously recognize and target diseased regions in the brain and self-implant to provide precise brain stimulation, potentially making therapeutic brain implants accessible without surgery &lt;em&gt;&lt;a href="https://x.com/medialab/status/1986520970484494799"&gt;@medialab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Microsoft Research announces PIKE-RAG collaboration with Signify showing 12% increase in accuracy for enterprise knowledge systems, delivering faster and more reliable answers &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1986418287987605513"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;vLLM now fully supports hybrid models like &lt;b&gt;Qwen3-Next&lt;/b&gt;, &lt;b&gt;Nemotron Nano 2&lt;/b&gt;, and &lt;b&gt;Granite 4.0&lt;/b&gt;, elevating them from experimental hacks in V0 to first-class citizens in V1 &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1986192579835150436"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;KernelFalcon achieves 100% correctness across all 250 KernelBench L1-L3 tasks through deep agent architecture combining hierarchical task decomposition, deterministic orchestration, grounded execution, and parallel verification to generate GPU kernels &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1986226208313581649"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research on AlphaEvolve for mathematical exploration at scale tested on 67 problems, documenting all successes and failures in collaboration between MIT, Wellesley, Harvard, and Google DeepMind &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1986388872104702312"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Study shows LLMs have dominated recent work on simulating human behaviors, but lightweight graph neural networks (GNN) can match or beat strong LLM-based methods in discrete-choice settings &lt;em&gt;&lt;a href="https://x.com/berkeley_ai/status/1986230567575429336"&gt;@berkeley_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New paper introduces WIMHF (What's In My Human Feedback) using SAEs to automatically extract signals from preference data to forecast unexpected/harmful changes to LLMs like overconfidence or sycophancy ahead of time &lt;em&gt;&lt;a href="https://x.com/berkeley_ai/status/1986475347345580468"&gt;@berkeley_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research demonstrates that any task frontier AI can sort of do today will likely be able to do reliably one year from now &lt;em&gt;&lt;a href="https://x.com/gdb/status/1986269247920631883"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-06</guid>
-      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
