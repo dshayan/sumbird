@@ -8,9 +8,51 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Nov 2025 06:00:07 +0330</lastBuildDate>
-    <pubDate>Thu, 27 Nov 2025 06:00:07 +0330</pubDate>
+    <lastBuildDate>Fri, 28 Nov 2025 01:16:24 +0330</lastBuildDate>
+    <pubDate>Fri, 28 Nov 2025 01:16:24 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-27</title>
+      <link>https://sumbird.ir/en/news/2025-11-27</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba Qwen releases &lt;b&gt;Qwen3-VL&lt;/b&gt; technical report on arXiv, detailing architecture, infrastructure, data, and evaluation for vision-language models. The three models achieved over 1M downloads in just over a month, with &lt;b&gt;Qwen3-VL-8B&lt;/b&gt; leading at 2M+ downloads &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1993941138844287049"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DeepSeek releases &lt;b&gt;DeepSeek-Math-V2&lt;/b&gt;, the first open-source model to achieve gold medal performance on the 2025 International Mathematical Olympiad, available with Apache 2.0 license at 689GB from Hugging Face &lt;em&gt;&lt;a href="https://x.com/simonw/status/1994074530839740778"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Z-Image&lt;/b&gt;, a 6B parameter image generation model with Apache 2.0 license featuring ultra-fast sub-second generation on H800, fits within 16GB consumer devices, and supports both English and Chinese with Turbo, Base, and Edit variants &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1993981325150163022"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;PrimeIntellect announces &lt;b&gt;INTELLECT-3&lt;/b&gt;, scaling reinforcement learning to a 100B+ MoE model achieving state-of-the-art performance for its size across math, code, and reasoning, with fully open-source weights, data, frameworks, and evaluations &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1993895068290388134"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Analysis reveals 49 US AI startups raised $100M or more in 2025, indicating continued strong investment in the AI sector &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1993784717867667735"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cohere expands partnership with SAP to meet increasing demand for sovereign AI technology across Europe and other global markets, planning to make their agentic AI platform &lt;b&gt;North&lt;/b&gt; available on SAP's infrastructure &lt;em&gt;&lt;a href="https://x.com/cohere/status/1994016476596949386"&gt;@Cohere&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nordic founders are taking bigger swings in AI and technology ventures, with the approach showing positive results in the market &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1993788135487229980"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Glid wins Startup Battlefield 2025 by building solutions to make logistics simpler, safer, and smarter, with founder Kevin Damoa incorporating mindfulness into his leadership style &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1994089899012845911"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Concerns raised about systems ignoring the reality of AI use, with warnings that pretending AI isn't being used allows the worst versions of AI use to win by default. Policies needed to mitigate harm while taking advantage of possible gains &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994081521955659984"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Debate emerges around anti-open-source agenda, with concerns that some organizations may use security concerns to push regulations making it harder for people to own their intelligence &lt;em&gt;&lt;a href="https://x.com/ylecun/status/1993833444762149051"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Clement Delangue emphasizes the significance of open-source AI democratization, noting that &lt;b&gt;DeepSeek-Math-V2&lt;/b&gt; represents owning the brain of one of the best mathematicians in the world for free with no limitations, nerfing, or company control &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1994067917588123669"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity Finance adds Moving Averages feature and introduces multiple account support on Perplexity Assistant, with plans for numerous updates in December for both Perplexity and Comet &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1994114499776008648"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google &lt;b&gt;Gemini Pro&lt;/b&gt; demonstrates photo restoration capabilities, allowing users to restore family photos with finer and sharper details as if taken with a modern camera &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1994067849791598685"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claude Code introduces frontend design plugin enabling developers to create beautiful greenfield apps, with users reporting being blown away by results using the design plugin with &lt;b&gt;Opus 4.5&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/_catwu/status/1993791353051074687"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;JustiGuide launches AI-powered platform to help people navigate the U.S. immigration system &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1993780200598065390"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI context understanding highlighted as crucial for helpfulness, with the principle that context is all you need enabling AI to understand users deeply and provide more relevant assistance &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1993826832827957445"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba Qwen's paper on Gated Attention for Large Language Models focusing on non-linearity, sparsity, and attention-sink-free architecture receives the NeurIPS 2025 Best Paper Award &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1993854188171006453"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;DeepSeek-Math-V2&lt;/b&gt; technical report reveals focus on training better verifiers through improved data work and synthetic pipelines, moving away from spontaneous self-verification approaches. The process leverages high-level expert human annotations and meta-verifiers to assess the assessment process itself, creating positive feedback loops between proof verifiers and generators &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1994065600226775106"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;White House and Department of Energy initiative recognizes AI's potential to accelerate progress in science, with collaboration planned on the initiative &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1993903019076038813"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face datasets adds Lance support, expanding data handling capabilities for AI research &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1994032763524051113"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT researchers identify compounds that can fight viral infection by activating defense pathways inside host cells &lt;em&gt;&lt;a href="https://x.com/MIT/status/1994055136730116163"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-27</guid>
+      <pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-26</title>
       <link>https://sumbird.ir/en/news/2025-11-26</link>
@@ -986,63 +1028,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-08</guid>
       <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-07</title>
-      <link>https://sumbird.ir/en/news/2025-11-07</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;MoonshotAI releases &lt;b&gt;Kimi K2 Thinking&lt;/b&gt;, a 1T parameter reasoning model (32B active) that achieves 93% on the Tau2 Bench Telecom agentic benchmark and 51% on Humanity's Last Exam, potentially becoming the new leading open weights model. The model uses INT4 precision instead of FP8, reducing size to ~594GB and improving inference efficiency &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/1986541785511043536"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI releases &lt;b&gt;GPT-5-Codex-Mini&lt;/b&gt;, allowing roughly 4x more usage than &lt;b&gt;GPT-5-Codex&lt;/b&gt; with a slight capability tradeoff due to the more compact model, available in CLI and IDE extension &lt;em&gt;&lt;a href="https://x.com/OpenAIDevs/status/1986861736041853368"&gt;@OpenAIDevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Small upgrade to Codex with updated &lt;b&gt;gpt-5-codex&lt;/b&gt; model showing improved collaboration, gaining a few percentage points on key evals and being ~3% more token-efficient &lt;em&gt;&lt;a href="https://x.com/thsottiaux/status/1986602121572327650"&gt;@thsottiaux&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic opens offices in Paris and Munich as EMEA becomes their fastest-growing region, with run-rate revenue growing more than ninefold in the past year &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1986871933967745344"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google announces &lt;b&gt;Ironwood&lt;/b&gt;, their seventh generation TPU, will be generally available in the coming weeks with greatly improved performance and efficiency over previous generations &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1986581028191047867"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft Copilot integrates AI search with clearer, clickable sources and launches Copilot Groups for collaborative planning with up to 32 people &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1986842333279629408"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini App adds video generation capabilities, allowing users to create 8-second videos with sound effects and dialogue from simple descriptions &lt;em&gt;&lt;a href="https://x.com/madebygoogle/status/1986866420731216007"&gt;@madebygoogle&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;CNBC reports the total training cost for &lt;b&gt;Kimi K2 Thinking&lt;/b&gt; was $4.6 million, demonstrating cost efficiency in developing frontier models &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1986864296480153757"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gergelyorosz identifies massive demand from traditional companies (banks, airlines) for AI training and workshops for developers, with budgets available but no suitable training programs currently existing &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1986696884384100602"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;BillionToOne, a YC biotech company, goes public as the 4th biotech IPO with over $265M in ARR and 65% gross margins, demonstrating how Silicon Valley can fund societally important problems beyond software &lt;em&gt;&lt;a href="https://x.com/snowmaker/status/1986546570515652621"&gt;@snowmaker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Clement Delangue notes &lt;b&gt;Kimi K2 Thinking&lt;/b&gt; represents a milestone where open-source AI gets ahead of proprietary APIs in their focus area (agents), challenging the narrative that proprietary models will win due to more money and compute &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1986833436607160600"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google announces major product launches including hands-free conversational driving in Google Maps built with &lt;b&gt;Gemini&lt;/b&gt;, Deep Research capabilities, and improvements to Google Finance with Deep Search &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1986837691413991538"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity Comet Assistant receives major upgrade with 23% better performance in internal tests, now navigating more like a human with improved reasoning at each step &lt;em&gt;&lt;a href="https://x.com/ai_for_success/status/1986862656238825788"&gt;@ai_for_success&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Scott Belsky observes that when the bar goes down for access to AI tools, the bar goes up for quality, highlighting the importance of differentiation &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/1986878529275871349"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Snowmaker explains Jevons paradox in AI context: with super cheap, on-demand intelligence now available, people will keep thinking of new ways to use it, driving continued demand &lt;em&gt;&lt;a href="https://x.com/snowmaker/status/1986624858424549547"&gt;@snowmaker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mustafa Suleyman argues AI should always remain in human control, stating humans should remain at the top of the food chain and calling for serious guardrails before superintelligence becomes too advanced to control &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1986834581576941763"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Dileep George publishes thoughts on AI consciousness, arguing that consciousness is substrate-independent and possible in AI systems, but can be decoupled from pain and suffering, allowing conscious AI systems to serve humans without moral concerns &lt;em&gt;&lt;a href="https://x.com/dileeplearning/status/1986843610550305269"&gt;@dileeplearning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Paramount Studios under CEO David Ellison maintains an internal blacklist of Hollywood figures labeled as antisemitic, while aligning with Israeli interests and rejecting the BDS movement &lt;em&gt;&lt;a href="https://x.com/DropSiteNews/status/1986864959410872344"&gt;@DropSiteNews&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Senator Chris Van Hollen reports that Trump's dismantling of USAID has caused an estimated 600,000 deaths, two-thirds of them children, according to one model &lt;em&gt;&lt;a href="https://x.com/ChrisVanHollen/status/1986860238641697260"&gt;@ChrisVanHollen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Amanda Askell notes people often err on making prompts too succinct, revealing she uses prompts over 100 pages regularly for complex tasks &lt;em&gt;&lt;a href="https://x.com/AmandaAskell/status/1986571451902927017"&gt;@AmandaAskell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison demonstrates running &lt;b&gt;K2 Thinking&lt;/b&gt; on a pair of M3 Ultra Mac Studios via MLX, showing practical deployment of large models on consumer hardware &lt;em&gt;&lt;a href="https://x.com/awnihannun/status/1986601104130646266"&gt;@awnihannun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick tests &lt;b&gt;Kimi K2&lt;/b&gt; and finds it passes the Lem Test on first attempt, though notes the model has interesting quirks where writing appears good initially but becomes incoherent under close inspection &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986552301922738651"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini's LaTeX upgrade receives praise from users who report saving hours every week, with one noting it just worked without fighting with tools &lt;em&gt;&lt;a href="https://x.com/joshwoodward/status/1986589159994368012"&gt;@joshwoodward&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA demonstrates digital twins combined with agentic AI enabling smarter infrastructure planning, faster decision-making, and real-time operations for safer, more resilient cities &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1986599529009831958"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tesla reports FSD Supervised is available in 6 countries with EU and more to follow, completing the world's first driverless delivery of a car from factory to owner's home &lt;em&gt;&lt;a href="https://x.com/Tesla/status/1986559629858644480"&gt;@Tesla&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Josh Schnell observes that when new features feel like they're just a prompt away, feature creep becomes a never-ending battle, making discipline more important than ever in product development &lt;em&gt;&lt;a href="https://x.com/jshchnz/status/1986832168073470022"&gt;@jshchnz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Steipete demonstrates using Codex for fixing thousands of issues overnight, showing practical automation of code maintenance &lt;em&gt;&lt;a href="https://x.com/steipete/status/1986799989775810955"&gt;@steipete&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ethan Mollick emphasizes that firms treating AI models as fungible based on benchmarks is problematic, as models like &lt;b&gt;Kimi&lt;/b&gt;, &lt;b&gt;Grok&lt;/b&gt;, and &lt;b&gt;Claude&lt;/b&gt; have distinct strengths, quirks, and weaknesses that make a big difference in aggregate performance &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986604851770360213"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mollick notes areas like analysis, writing, advice, and customer service are under-benchmarked and show high variance between equally smart models that act very differently &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986605646469332996"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Francois Chollet shares optimization tip for Colab users: switching to TPU runtime and tuning the steps_per_execution parameter in model.compile() can often see a 4-5x speedup &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1986547474220368285"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison hypothesizes that current LLMs might make it easier to launch brand new programming languages, provided they can be described in a few thousand tokens and shipped with a compiler and linter that coding agents can use &lt;em&gt;&lt;a href="https://x.com/simonw/status/1986829425883873591"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Fei-Fei Li, Geoffrey Hinton, and Yoshua Bengio receive the 2025 Queen Elizabeth Prize for Engineering, acknowledging their role in shaping today's AI revolution &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1986849035970617421"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tesla announces AI5 chip has potential to be 50x more performant than AI4 (current hardware), working toward mass production in 2027 for use in vehicles, robotics, training, and data centers &lt;em&gt;&lt;a href="https://x.com/Tesla/status/1986560021224632615"&gt;@Tesla&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Dileep George challenges the notion that simulating microprocessors proves we understand brains, arguing we can simulate microprocessors because we understand the abstractions connecting components to function, not the other way around &lt;em&gt;&lt;a href="https://x.com/dileeplearning/status/1986595257505792356"&gt;@dileeplearning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT physicists observe key evidence of unconventional superconductivity in a special form of graphene, potentially guiding the design of room-temperature superconductors &lt;em&gt;&lt;a href="https://x.com/MIT/status/1986825332008141221"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA and partners build the first AI-native wireless stack made in America in just six months, powered by NVIDIA AI Aerial, creating a clear onramp from 5G to 6G &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1986886375572946996"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-07</guid>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
