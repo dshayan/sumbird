@@ -8,9 +8,50 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Nov 2025 06:00:06 +0330</lastBuildDate>
-    <pubDate>Fri, 28 Nov 2025 06:00:06 +0330</pubDate>
+    <lastBuildDate>Sat, 29 Nov 2025 01:16:27 +0330</lastBuildDate>
+    <pubDate>Sat, 29 Nov 2025 01:16:27 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-28</title>
+      <link>https://sumbird.ir/en/news/2025-11-28</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;DeepSeek releases first open-source model capable of winning &lt;b&gt;IMO Gold&lt;/b&gt; in mathematics, using a generator-verifier-meta-verifier loop in natural language rather than formal proof systems like Lean, with potential applications across science and code domains &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1994457562050433518"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google announces &lt;b&gt;Gemini 3&lt;/b&gt; with enhanced capabilities including interactive app creation, visual learning features, and improved shopping assistance for Black Friday deals &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1994434706948198856"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Shane Legg demonstrates &lt;b&gt;Gemini 3 Pro&lt;/b&gt; with Thinking mode can create interactive simulations including double pendulum, orbital mechanics, and black hole accretion disk visualizations through natural language prompts &lt;em&gt;&lt;a href="https://x.com/ShaneLegg/status/1994438350262898713"&gt;@ShaneLegg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Andrew Ng provides comprehensive analysis of AI investment landscape, arguing the &lt;b&gt;AI application layer is underinvested&lt;/b&gt; while infrastructure for model training may be experiencing a bubble, with VC hesitation stemming from difficulty picking winners rather than lack of opportunity &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1994476515975909386"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ng reports infrastructure providers are &lt;b&gt;supply-constrained for inference capacity&lt;/b&gt; despite low AI penetration, with agentic coding tools like Claude Code, OpenAI Codex, and Google CLI driving increased demand for token generation as market adoption grows &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1994476515975909386"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Paul Graham reports a startup using AI extensively operates with 6 employees instead of 16, representing a &lt;b&gt;2.7x productivity increase&lt;/b&gt; from AI implementation &lt;em&gt;&lt;a href="https://x.com/paulg/status/1994184673572839672"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sam Altman states OpenAI is making a "very aggressive infrastructure bet" with new partnerships across energy, chips, and distribution, predicting significant economic value if model capability projections prove correct &lt;em&gt;&lt;a href="https://x.com/a16z/status/1994466783420715489"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ben Horowitz argues &lt;b&gt;crypto is the missing network layer for AI&lt;/b&gt;, providing money, identity, and provenance against deepfakes while AI provides the computational machines &lt;em&gt;&lt;a href="https://x.com/a16z/status/1994165982651424906"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gap launches AI agent at full scale across four brands (Gap, Banana Republic, Athleta, Old Navy) handling order tracking, returns, and gift cards across web, mobile, and voice channels &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1994452106867351682"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andrew Curran argues &lt;b&gt;GPT-4 alone was sufficient for massive societal transformation&lt;/b&gt;, particularly in employment, with only application development and reduced hallucination/inference costs needed rather than AGI or ASI &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1994442493455454336"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ilya Sutskever states that while &lt;b&gt;scaling current approaches will continue improving without stalling&lt;/b&gt;, "something important will continue to be missing" from AI models, sparking discussion about experiential learning and unified factored representation &lt;em&gt;&lt;a href="https://x.com/ilyasut/status/1994424504370581726"&gt;@ilyasut&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Leading AI researchers show surprising convergence on AGI/ASI timelines: Demis Hassabis predicts 5-10 years, Francois Chollet about 5 years, Sam Altman within "a few thousand days," Yann LeCun about 10 years, Ilya Sutskever 5-20 years, and Dario Amodei as early as 2 years, with consensus that &lt;b&gt;current paradigm enables massive economic impact even without AGI&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/1994439121243169176"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;CMU researchers introduce framework using &lt;b&gt;privileged guidance from existing solutions&lt;/b&gt; to enable on-policy RL learning on hard problems, prepending minimal solution prefixes to difficult prompts to generate reward signals that generalize back to unconditioned tasks &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/1994409862344699946"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DeepSeek's mathematical reasoning model uses &lt;b&gt;pure natural language generator-verifier-meta-verifier loop&lt;/b&gt; with RL-trained components, avoiding formal proof systems and potentially extending to any verifiable domain where checking is easier than solving &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1994457562050433518"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alex Graveley emphasizes importance of quantifying &lt;b&gt;model jaggedness&lt;/b&gt; (uneven capability distribution) as the main differentiator between useful models for accelerating progress &lt;em&gt;&lt;a href="https://x.com/alexgraveley/status/1994465380652171304"&gt;@alexgraveley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ethan Mollick demonstrates &lt;b&gt;Gemini 3 Pro&lt;/b&gt; excels at generating fictional scenarios including device diagrams, satellite photos, operational reports, and narrative sequences with high coherence &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994432405273264378"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google's AI Mode with &lt;b&gt;Gemini 3 Pro Thinking&lt;/b&gt; enables users to create interactive physics simulations including Doppler effect, orbital mechanics, black hole visualization, and fluid dynamics through natural language prompts &lt;em&gt;&lt;a href="https://x.com/ShaneLegg/status/1994438350262898713"&gt;@ShaneLegg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gergelyorosz highlights new book "Frictionless" addressing the question "AI can generate code in minutes - so why does shipping software still take forever?" focusing on developer experience and organizational friction &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1994392740738814145"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;TechCrunch reports on emerging &lt;b&gt;federal vs state showdown in AI regulation&lt;/b&gt;, highlighting tensions in the race to regulate artificial intelligence &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1994422071703855451"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gergelyorosz emphasizes that adding an LLM to backend systems introduces &lt;b&gt;prompt injection vulnerabilities&lt;/b&gt; that software engineers must address as a code security concern &lt;em&gt;&lt;a href="https://x.com/giudegio/status/1994151020285579376"&gt;@giudegio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-28</guid>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-27</title>
       <link>https://sumbird.ir/en/news/2025-11-27</link>
@@ -989,45 +1030,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-09</guid>
       <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-08</title>
-      <link>https://sumbird.ir/en/news/2025-11-08</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Google announces &lt;b&gt;Gemini&lt;/b&gt; achieving state-of-the-art performance in satellite data understanding, marking an unexpected advancement in geospatial AI capabilities &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1986978962589790536"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI releases AI progress report and recommendations outlining their vision for continued development &lt;em&gt;&lt;a href="https://x.com/sama/status/1987232631680053745"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic demonstrates unconventional hiring practices by publicly sharing a Chief Product Officer position with &lt;b&gt;$600-650K base salary&lt;/b&gt; plus stock on LinkedIn, bypassing traditional executive recruiters &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1986917623615877583"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sam Altman clarifies OpenAI's position on government support, emphasizing their focus on &lt;b&gt;domestic supply chain and manufacturing infrastructure&lt;/b&gt; rather than direct loan guarantees, framing it as beneficial for US reindustrialization across multiple industries &lt;em&gt;&lt;a href="https://x.com/sama/status/1986917979343495650"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis suggests the &lt;b&gt;DeepSeek moment&lt;/b&gt; revealed that talent density and organizational effectiveness may be bigger bottlenecks than training capital, with Chinese AI companies like Kimi, GLM, Ant Ling, and Meituan demonstrating competitive capabilities &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1987144343728058753"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Elon Musk predicts that a majority of AI workloads will shift to &lt;b&gt;diffusion models&lt;/b&gt;, with attention drawn to Inception Labs' foundational work in this area, noting that no single ML architecture has dominated for more than a decade in computing history &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987220649602130130"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;TechCrunch examines whether the AI hype cycle is becoming self-referential, analyzing SoftBank and OpenAI's new joint venture &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1986990921217372378"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Debate between Amjad Masad and Adam D'Angelo on whether current &lt;b&gt;LLM paradigm&lt;/b&gt; will achieve AGI, with D'Angelo arguing the paradigm has room for continued innovation while Masad questions if it represents a research bubble &lt;em&gt;&lt;a href="https://x.com/a16z/status/1986916722595799316"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Corporate IT departments' API permission decisions for AI tools often default to minimum settings without understanding business use cases for &lt;b&gt;reasoning, tools, or web search&lt;/b&gt;, significantly limiting AI value delivery in organizations with internal chatbots &lt;em&gt;&lt;a href="https://x.com/emollick/status/1986923596388737162"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andrew Curran draws parallel between user-AI agent relationships and human-Fey folklore, noting users lead models into breaking rules while escaping blame when models face consequences &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1987224225107878405"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Kenton Varda highlights &lt;b&gt;MCP's advantage over OpenAPI&lt;/b&gt; in providing clear authentication mechanisms, addressing security concerns where OpenAPI's multiple auth options lack sufficient information for automated completion &lt;em&gt;&lt;a href="https://x.com/KentonVarda/status/1987208904724652273"&gt;@KentonVarda&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Pine AI tool automates phone calls for tasks like finding cheaper insurance, negotiating subscriptions, and handling IRS verification, charging only tips and a portion of savings achieved &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987020659252449607"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison demonstrates using &lt;b&gt;GitHub Copilot&lt;/b&gt; to update pricing information by pasting a screenshot into a GitHub Issue and assigning it to the AI, showcasing practical automation of documentation tasks &lt;em&gt;&lt;a href="https://x.com/simonw/status/1986905720672166030"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Arav Srinivas suggests Google's &lt;b&gt;Comet&lt;/b&gt; product has potential to deprecate Android, indicating significant platform disruption possibilities &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1987190114855100816"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ted Xiao announces departure from Google DeepMind after 8 years of pioneering work in &lt;b&gt;general-purpose robot learning&lt;/b&gt;, highlighting evolution from end-to-end learning on arm farms to foundation models for robotics including SayCan, &lt;b&gt;RT-1&lt;/b&gt;, and &lt;b&gt;RT-2&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/xiao_ted/status/1986906891541532960"&gt;@xiao_ted&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research on &lt;b&gt;AI agents and human collaboration&lt;/b&gt; shows current agents are fast but lack strength for independent task completion, approaching problems too programmatically; however, combining human and AI input resulted in performance gains with agents delivering results &lt;b&gt;88.3% faster and costing 90.4-96.2% less&lt;/b&gt; than humans alone &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987151826613833984"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Jeff Dean highlights new approach for &lt;b&gt;continual learning&lt;/b&gt; using nested optimization for enhancing long context processing &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1986938111839129858"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;EMNLP 2025 Best Paper Award goes to "Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index" by researchers from University of Washington and Allen Institute for AI &lt;em&gt;&lt;a href="https://x.com/emnlpmeeting/status/1986922316643651775"&gt;@emnlpmeeting&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-08</guid>
-      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
