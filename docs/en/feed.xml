@@ -8,9 +8,48 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Nov 2025 06:00:06 +0330</lastBuildDate>
-    <pubDate>Sat, 29 Nov 2025 06:00:06 +0330</pubDate>
+    <lastBuildDate>Sun, 30 Nov 2025 01:15:29 +0330</lastBuildDate>
+    <pubDate>Sun, 30 Nov 2025 01:15:29 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-29</title>
+      <link>https://sumbird.ir/en/news/2025-11-29</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Allen Institute for AI (Ai2) releases &lt;b&gt;OLMo3&lt;/b&gt; model with accompanying research paper &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1994858117222555833"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ChatGPT Android app beta version reveals references to an upcoming &lt;b&gt;ads feature&lt;/b&gt; including search ads and carousel functionality &lt;em&gt;&lt;a href="https://x.com/btibor91/status/1994714152636690834"&gt;@btibor91&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Virgin Australia announces integration of &lt;b&gt;ChatGPT&lt;/b&gt; into their services &lt;em&gt;&lt;a href="https://x.com/gdb/status/1994569262737101029"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ByteDance releases &lt;b&gt;Vidi2&lt;/b&gt;, an AI video editor that can process hours of footage and generate TikTok videos or movies from prompts, reportedly understanding video better than &lt;b&gt;Gemini 3 Pro&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1994818509755617621"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Indian IPO and venture capital markets are proving more lucrative than US markets this year, with companies trading at higher valuations and funds able to own approximately 20% at IPO, potentially leading to increased VC funding in India &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1994618017695895860"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Supabase reached $5B valuation by strategically turning down million-dollar contracts &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1994542122960392697"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;TechCrunch reports that while AI cannot be made to "admit" to being sexist through prompting, bias issues likely persist in AI systems &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1994799148881858878"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Balaji Srinivasan predicts AI will create massive job growth in &lt;b&gt;proctoring and verification&lt;/b&gt; sectors due to AI's capability to generate fake content, stating "AI makes everything fake, and crypto makes it real again" &lt;em&gt;&lt;a href="https://x.com/a16z/status/1994554143764353103"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Major scandal emerges as leaked identities of &lt;b&gt;reviewers and PC members&lt;/b&gt; assigned to paper submissions over multiple years are exposed on OpenReview, prompting calls to implement Yann LeCun's original proposal for the platform &lt;em&gt;&lt;a href="https://x.com/prfsanjeevarora/status/1994833897683669185"&gt;@prfsanjeevarora&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;New York state law targets &lt;b&gt;personalized pricing&lt;/b&gt; practices &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1994832010968535203"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Simon Willison demonstrates building a custom thread viewer for Bluesky using &lt;b&gt;vibe coding&lt;/b&gt; with LLM tools, leveraging Bluesky's CORS-enabled authentication-free JSON API &lt;em&gt;&lt;a href="https://x.com/simonw/status/1994568590411141608"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Analysis shows a single &lt;b&gt;ChatGPT prompt&lt;/b&gt; consumes approximately 0.0003 kWh of energy, equivalent to watching between 5.1 and 10.2 seconds of Netflix based on 2019 IEA estimates &lt;em&gt;&lt;a href="https://x.com/simonw/status/1994590986752987508"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ML Energy Leaderboard independently confirms ChatGPT energy consumption at around 0.0003 kWh per prompt using 500 human prompts for testing &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994858469355393216"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Consistent medical research findings since 2023 show &lt;b&gt;GPT-4&lt;/b&gt; is rated as more &lt;b&gt;empathetic than human doctors&lt;/b&gt; in text-based interactions, with more recent AI models demonstrating even higher apparent empathy levels &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994850998398103766"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ruslan Salakhutdinov offers timeline prediction that &lt;b&gt;AGI/ASI&lt;/b&gt; is perpetually 5-10 years away, suggesting it has always been and will continue to be at this distance &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/1994611003833610327"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenDataLab releases &lt;b&gt;AICC&lt;/b&gt;, a Markdown version of Common Crawl extracted by MinerU, currently available in two shards with potential for scaling to the entire Common Crawl dataset &lt;em&gt;&lt;a href="https://x.com/Xianbao_QIAN/status/1994739386731434362"&gt;@Xianbao_QIAN&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;User reports &lt;b&gt;Gemini 3&lt;/b&gt; appears to have regressed in writing quality and steerability compared to previous versions, with particular focus on coding capabilities, and experiences bugs where attached files in Gems are not recognized despite working correctly via API &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1994558122304974966"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Key challenge identified in training engineers to build AI applications is convincing them that examining the underlying data is worth their time investment &lt;em&gt;&lt;a href="https://x.com/skylar_b_payne/status/1994626374943084718"&gt;@skylar_b_payne&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-29</guid>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-28</title>
       <link>https://sumbird.ir/en/news/2025-11-28</link>
@@ -989,47 +1028,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-10</guid>
       <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-09</title>
-      <link>https://sumbird.ir/en/news/2025-11-09</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI partially released &lt;b&gt;GPT-5-Codex-Mini&lt;/b&gt;, a new model with no API access yet, accessible only through their Codex CLI app for code generation tasks &lt;em&gt;&lt;a href="https://x.com/simonw/status/1987363826770321439"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Chris Lattner, creator of Swift and Mojo, argues against designing new programming languages specifically for LLMs, suggesting current languages are sufficient for AI-assisted development &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1987503141034590611"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;TechCrunch examines whether the &lt;b&gt;AI hype cycle&lt;/b&gt; is eating itself, analyzing SoftBank and OpenAI's new joint venture as a case study &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1987562198374265080"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT Technology Review reports that &lt;b&gt;energy is king&lt;/b&gt; in AI development, with the US falling behind in this critical infrastructure race &lt;em&gt;&lt;a href="https://x.com/techreview/status/1987562487508500947"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google generates 10^15 tokens monthly, equivalent to producing high-quality internet content every week, and at current growth rates will exceed all human speech in history by May 2032 &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987424083324379378"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Reid Hoffman emphasizes that technologists have an obligation to build technology that expands &lt;b&gt;human agency&lt;/b&gt; rather than eroding it, advocating for a balanced approach between acceleration and thoughtful steering &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1987560603737604324"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI-generated anti-immigrant songs dominate Dutch Spotify's viral top 10, with 8 of 10 songs allegedly boosted by bot farms, raising concerns about AI-driven manipulation of cultural platforms &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987572015692488915"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gergelyorosz warns that &lt;b&gt;LLM hallucinations&lt;/b&gt; require constant validation, sharing an example where Claude fabricated quotes that didn't exist in the input text &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1987525246727889103"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI's Sora watermark now includes an &lt;b&gt;account identifier&lt;/b&gt;, applied retroactively to previously generated content &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1987577961030250772"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison demonstrates how MCP uses OAuth's Dynamic Client Registration feature, marking the first time this little-known feature has been deployed in widely used software &lt;em&gt;&lt;a href="https://x.com/simonw/status/1987329464695726197"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Evaluation shows &lt;b&gt;Kimi K2 Thinking&lt;/b&gt; performs on par with &lt;b&gt;GPT-5&lt;/b&gt; for agentic customer support tasks, with no other LLM reaching this level of orchestration and reasoning capabilities &lt;em&gt;&lt;a href="https://x.com/omarsar0/status/1987536982776676651"&gt;@omarsar0&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Kimi K2 Thinking produces significantly more thinking tokens than other models, generating 1,595 tokens for simple queries like "write me a really good sentence about cheese" compared to DeepSeek's 110 tokens &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987286609713107261"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research demonstrates that providing first-generation college students with &lt;b&gt;LLM guidance&lt;/b&gt; significantly closes the gap in understanding unwritten rules for academic success, such as the value of internships and student clubs &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987399908924498032"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude Code successfully organized, improved, and updated multiple small programs originally created with &lt;b&gt;GPT-4&lt;/b&gt;, demonstrating the moving frontier of AI coding capabilities &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987590146980565092"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison hacked OpenAI's Codex CLI tool to add a new prompt command, enabling access to private models and getting the tool to reverse-engineer and extend itself &lt;em&gt;&lt;a href="https://x.com/simonw/status/1987364820795211871"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity announces Comet Android early access invites, prioritizing users based on Android usage and Pro/Max subscription status &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1987370157166240165"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ethan Mollick raises concerns about academia's lack of mechanisms to accommodate, review, and disseminate a potential sudden increase in &lt;b&gt;AI-generated scientific discoveries&lt;/b&gt;, questioning who will read, integrate, and build upon thousands of new papers &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987400807138947136"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis suggests that while AI doing novel science seems plausible in some fields, tasks requiring integration and theorizing across wide knowledge ranges remain further outside the current frontier &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987402923194667398"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Comparison of AI models on historical intervention prompts reveals that even Chinese models only suggested Western and Middle Eastern interventions, with none selecting options in Asia, Africa, or the Americas despite considering them in thinking traces &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987601591751381458"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Critique suggests that &lt;b&gt;DPO&lt;/b&gt; (Direct Preference Optimization) was an accidentally effective decelerationist paper, causing academic resources to focus on variants instead of building infrastructure for policy gradients at scale &lt;em&gt;&lt;a href="https://x.com/kalomaze/status/1987343116966527140"&gt;@kalomaze&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-09</guid>
-      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
