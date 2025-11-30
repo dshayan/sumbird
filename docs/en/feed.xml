@@ -8,9 +8,43 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Nov 2025 06:00:06 +0330</lastBuildDate>
-    <pubDate>Sun, 30 Nov 2025 06:00:06 +0330</pubDate>
+    <lastBuildDate>Mon, 01 Dec 2025 01:17:06 +0330</lastBuildDate>
+    <pubDate>Mon, 01 Dec 2025 01:17:06 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-11-30</title>
+      <link>https://sumbird.ir/en/news/2025-11-30</link>
+      <description>&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AI data centers are consuming massive amounts of RAM, with hyperscalers buying enormous quantities of server DDR5, HBM, and LPDDR for AI clusters. Analysts expect server DRAM prices to roughly double over 2025-2026 due to AI demand, with this demand at the top of the supply chain reducing availability for consumer RAM &lt;em&gt;&lt;a href="https://x.com/AskPerplexity/status/1995031465780809785"&gt;@AskPerplexity&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI agents are enabling companies to scale work that was previously too expensive or impractical, making scarce services near infinitely available. Examples include continuous code review, system audits, contract analysis, and automated issue response - work that small companies lack resources for and even large enterprises can only do partially &lt;em&gt;&lt;a href="https://x.com/levie/status/1994900315292979426"&gt;@levie&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Startup founders report that &lt;b&gt;fundraising challenges&lt;/b&gt; have changed significantly, with one founder feeling demoralized about fundraising despite having already raised a million dollars, suggesting shifting expectations in the funding landscape &lt;em&gt;&lt;a href="https://x.com/paulg/status/1995133423199899666"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;A useful heuristic for identifying AI opportunities: if work in a domain already appears as &lt;b&gt;slop&lt;/b&gt; when done by humans, current AI can likely do it well enough to be competitive &lt;em&gt;&lt;a href="https://x.com/paulg/status/1995131132715868573"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Economists need to think through how to help reduce the &lt;b&gt;labor impacts of AI&lt;/b&gt;. While historically new technologies lead to more jobs, living through the transition can be difficult, and this time may be different, requiring more work on mitigation strategies &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994892364695888364"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;GenAI represents the &lt;b&gt;fastest adoption of an economically consequential technology in human history&lt;/b&gt;. The speed and breadth of adoption, combined with continued exponential improvement, means society has no clear handle on what it all means &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995165065478279307"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;When powerful AI is in the hands of a billion people, many things happen simultaneously. Few aspects of society are not seeing early impact from AI, unlike previous transformational technologies which had much slower adoption and required expensive complementary assets &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995165773351039434"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Developer successfully used &lt;b&gt;Perplexity Comet&lt;/b&gt; for API endpoint testing using Postman after development, with the AI generating multiple test payloads and a final report after the full run &lt;em&gt;&lt;a href="https://x.com/ai_for_success/status/1995164144509784334"&gt;@ai_for_success&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;A System Design Visualizer was built using Google &lt;b&gt;Antigravity IDE&lt;/b&gt; that transforms static architecture diagrams into interactive visualizations. The tool uploads system design images, converts them to Mermaid diagrams using AI, and creates interactive graphs where users can click components for details &lt;em&gt;&lt;a href="https://x.com/mehdiyarix/status/1995178471845511570"&gt;@mehdiyarix&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;LLMs are making &lt;b&gt;coding on mobile phones&lt;/b&gt; more feasible, enabling developers to build small but useful pieces of software entirely on their phones without needing full attention, compatible with being out in the world &lt;em&gt;&lt;a href="https://x.com/simonw/status/1995164065417830659"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;A startup is using AI to compress information to fit into LLM context windows, discovering that &lt;b&gt;compression is understanding&lt;/b&gt; - in the compressed form, the information can be used for other new purposes &lt;em&gt;&lt;a href="https://x.com/paulg/status/1994905280996676054"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI released &lt;b&gt;ChatGPT for Teachers&lt;/b&gt; resource &lt;em&gt;&lt;a href="https://x.com/gdb/status/1994909112828866562"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Papers testing AI capabilities should test the &lt;b&gt;strongest case&lt;/b&gt; as well as defaults. While it's acceptable to report that Llama 2 failed, researchers should also attempt serious tests using advanced models like &lt;b&gt;GPT-5.1 Thinking&lt;/b&gt; in agentic harnesses to better map the frontier &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994913383871586563"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;The null hypothesis is that AI fails at tasks. To falsify this, researchers need the strongest attempts to prove AI success, not the weakest. This requires &lt;b&gt;severe tests&lt;/b&gt; in the Popper/Mayo sense - best attempts to make AI work, rather than bad prompts or models that defend the null &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994917977112920402"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;All major AI models struggle with a specific creative task: creating an updated version of "The Fighting Temeraire" with the same style but different subject. While models understand retiring technology, they miss the &lt;b&gt;symbolism&lt;/b&gt; of what is being retired and how, failing to capture the contrast between old and modern forms with nostalgia for the original &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994945921076138012"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Three years of the &lt;b&gt;Lem Test&lt;/b&gt; tracked progress from ChatGPT-3.5's release to &lt;b&gt;Claude Opus 4.5&lt;/b&gt; last week &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995025704870887652"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-30</guid>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-29</title>
       <link>https://sumbird.ir/en/news/2025-11-29</link>
@@ -983,51 +1017,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-11</guid>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-10</title>
-      <link>https://sumbird.ir/en/news/2025-11-10</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Meta releases &lt;b&gt;Omnilingual ASR&lt;/b&gt;, a suite of automatic speech recognition models supporting over 1,600 languages, including 500 low-coverage languages never before served by any ASR system. The release includes models ranging from 300M to 7B parameters, a 7B-parameter multilingual speech representation model (&lt;b&gt;Omnilingual w2v 2.0&lt;/b&gt;), and a dataset spanning 350 underserved languages &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1987946571439444361"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Gamma reaches $100M ARR profitably with only 50 employees ($2M ARR per employee) and achieves a $2.1B valuation in Series B funding led by a16z, demonstrating the efficiency of AI-native companies in disrupting established categories like presentation software &lt;em&gt;&lt;a href="https://x.com/thisisgrantlee/status/1987880600661889356"&gt;@thisisgrantlee&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Venture firms are increasingly skipping due diligence entirely to remain competitive, with examples including a $10M offer to an unincorporated startup and a $20M Series A closed in 2 days with no dataroom opens &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1987735293206892953"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Interest rates, not AI, are identified as the primary driver of job market changes, with job losses beginning several months before ChatGPT's November 2022 release, following the end of 11 years of zero interest rates &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1987898037495017862"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Yale University economists find AI has had zero major effect on jobs so far, with job shifts measured by dissimilarity index moving only slightly faster than during computer and internet eras, and no significant change in unemployment patterns among AI-exposed roles &lt;em&gt;&lt;a href="https://x.com/rohanpaul_ai/status/1987795904565272832"&gt;@rohanpaul_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor CEO Michael Truell reveals the company uses a two-day onsite work trial for all engineering and design hires to test end-to-end codebase capabilities and cultural fit, even at 200+ employees &lt;em&gt;&lt;a href="https://x.com/a16z/status/1987943689843601835"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Scribe reaches 78,000 enterprise customers, including 45% of Fortune 500 companies, using their platform to capture and optimize workflows &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/1987936248934146131"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ethan Mollick warns that many systems are still built around the assumption that quality writing and analysis are costly and meaningful signals, but these systems are not ready for the revelation that this is no longer true with AI &lt;em&gt;&lt;a href="https://x.com/emollick/status/1987659629128479170"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andrew Curran predicts a political fight over Reddit's place in the data ecology in 2026, noting the tension between the administration's focus on ideological content of training corpora and the fact that OpenAI and Google each pay Reddit over $60M annually for training data &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1987927699260915716"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mustafa Suleyman emphasizes that superintelligence must be built for humanity's sake, not just for its own sake, warning that it won't be a better world if we lose control of it &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1987927163061035364"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Perplexity's Comet Android users are completing coding projects on Vercel from their phones, demonstrating the potential of general agents on mobile devices to provide significant agency on the go &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1987854997204119947"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Gemini promotes its capabilities as a personalized study partner for students, allowing them to upload PDFs, slides, photos of diagrams, and handwritten notes, then summarize readings, explain concepts, and create custom practice quizzes &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1987929214209978628"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI launches one year of free ChatGPT Plus for US service members within 12 months of separation or retirement, and US veterans who have left the military in the last 12 months &lt;em&gt;&lt;a href="https://x.com/kevinweil/status/1987879516178378890"&gt;@kevinweil&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Suhail describes a shift in coding approach with AI, preferring to ask AI to show step-by-step instructions for understanding rather than having it write code directly, especially for ML code where understanding tensor shapes and architecture changes is critical &lt;em&gt;&lt;a href="https://x.com/Suhail/status/1887886452735344932"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nathan Lambert releases research on character training in AI, exploring how easy it is to craft personalities like sycophantic chatbots and how this will change as systems move from chat to agents &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1987908798309376194"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Fei-Fei Li publishes an essay on &lt;b&gt;spatial intelligence&lt;/b&gt; as the next frontier for AI, arguing that truly spatially intelligent world models must achieve three essential capabilities: creating with a storyteller's imagination, navigating with a first responder's fluency, and reasoning about space with scientific precision &lt;em&gt;&lt;a href="https://x.com/drfeifei/status/1987891813387292725"&gt;@drfeifei&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Researchers release &lt;b&gt;Gelato-30B-A3B&lt;/b&gt;, a state-of-the-art computer grounding model achieving 63.8% on ScreenSpot-Pro and 69.1% on OS-World-G, outperforming specialized models like GTA1-32B and VLMs approximately 8 times its size like Qwen3-VL-235B &lt;em&gt;&lt;a href="https://x.com/anas_awadalla/status/1987913284989985092"&gt;@anas_awadalla&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Researchers release &lt;b&gt;SYNTH&lt;/b&gt;, a fully synthetic generalist dataset for pretraining, along with two new state-of-the-art reasoning models. &lt;b&gt;Baguettotron&lt;/b&gt;, trained exclusively on this dataset with only 200 billion tokens, achieves best-in-class performance in its size range &lt;em&gt;&lt;a href="https://x.com/Dorialexander/status/1987930819021635964"&gt;@Dorialexander&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tsinghua University and Shanghai Jiao Tong University paper receiving perfect scores at NeurIPS 2025 finds that Reinforcement Learning with Verifiable Rewards (RLVR) improves accuracy but doesn't create new reasoning patterns, with the base model still determining the upper limit of reasoning ability. The research suggests distillation, not RL, shows genuine signs of emergent reasoning &lt;em&gt;&lt;a href="https://x.com/jiqizhixin/status/1987710546674856051"&gt;@jiqizhixin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;The Longitudinal Expert AI Panel (LEAP) launches with 339 top experts providing monthly forecasts for three years on AI capabilities, adoption, and impact. Experts predict major effects by 2030 including 7x increase in AI's share of US electricity use and 9x increase in AI-assisted work hours, and by 2040, 30% of adults using AI for companionship daily and 60% chance of AI solving a Millennium Prize Problem &lt;em&gt;&lt;a href="https://x.com/Research_FRI/status/1987883190803964334"&gt;@Research_FRI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT researchers develop new nanoparticles that enhance mRNA delivery, potentially reducing vaccine dosage, costs, and side effects, with the goal of achieving safe and effective vaccine responses at much lower doses &lt;em&gt;&lt;a href="https://x.com/MIT/status/1987917180743065856"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Francois Chollet releases the latest edition of Deep Learning with Python, focusing on building deep intuition through theory and mental models alongside practical programming patterns, using Keras 3 as a framework-agnostic API with JAX for state-of-the-art performance &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1987950365413962196"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison questions how much baked-in knowledge an LLM needs to be useful, asking whether specialist coding models can be trimmed down by stripping out detailed knowledge of human history and geography, referencing Andrej Karpathy's concept of "cognitive core" &lt;em&gt;&lt;a href="https://x.com/simonw/status/1987909445150789817"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;PyTorch announces that Arm's Neural Graphics Development Kit now supports the full ML lifecycle for real-time rendering, from PyTorch-based training to deployment with ExecuTorch, as demonstrated at PyTorch Conference 2025 &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1987969774060437507"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-10</guid>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
