@@ -8,9 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Mon, 01 Dec 2025 07:07:25 +0330</lastBuildDate>
-    <pubDate>Mon, 01 Dec 2025 07:07:25 +0330</pubDate>
+    <lastBuildDate>Tue, 02 Dec 2025 01:16:43 +0330</lastBuildDate>
+    <pubDate>Tue, 02 Dec 2025 01:16:43 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-12-01</title>
+      <link>https://sumbird.ir/fa/news/2025-12-01</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;DeepSeek مدل‌های &lt;b&gt;DeepSeek-V3.2&lt;/b&gt; و &lt;b&gt;DeepSeek-V3.2-Speciale&lt;/b&gt; را معرفی کرد. این مدل‌ها که برای عامل‌ها (agents) با ۶۸۵ میلیارد پارامتر ساخته شده‌اند، در اولویت‌بندی استدلال قرار دارند. &lt;b&gt;V3.2-Speciale&lt;/b&gt; در المپیاد جهانی ریاضی (IMO)، المپیاد ریاضی چین (CMO)، فینال جهانی ICPC و المپیاد جهانی انفورماتیک (IOI) ۲۰۲۵ عملکردی در حد مدال طلا کسب کرده و با &lt;b&gt;Gemini 3.0 Pro&lt;/b&gt; رقابت می‌کند. هر دو مدل دارای مجوز MIT هستند و یک گزارش فنی ۵۱ صفحه‌ای را شامل می‌شوند. &lt;em&gt;&lt;a href="https://x.com/deepseek_ai/status/1995452641430651132"&gt;@deepseek_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل &lt;b&gt;Gemini 3&lt;/b&gt; را با قابلیت‌های استدلال پیشرفته، تصاویر غنی‌تر و تعامل عمیق‌تر منتشر کرد که از طریق اپلیکیشن Gemini با انتخاب‌گر حالت «تفکر» (Thinking) در دسترس است. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1995534313044238347"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Runway از &lt;b&gt;Gen-4.5&lt;/b&gt; (که قبلاً با نام Whisper Thunder شناخته می‌شد)، مدل جدید تولید ویدیوی خود که کاملاً بر روی پردازنده‌های گرافیکی NVIDIA توسعه یافته و با بهینه‌سازی استنتاج بر روی پردازنده‌های گرافیکی سری Hopper و Blackwell عرضه شده است، رونمایی کرد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995501092705272156"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Kling AI «Kling Shipmas» را آغاز کرد و &lt;b&gt;Kling O1&lt;/b&gt; را به عنوان اولین از پنج انتشار روزانه در روزهای متوالی معرفی کرد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995508668008374670"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;معماری ترکیبی &lt;b&gt;Qwen3-Next&lt;/b&gt; علی‌بابا اکنون در llama.cpp پشتیبانی می‌شود که امکان استنتاج کارآمد محلی CPU/GPU را فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1995384945553060021"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face کاندیدای انتشار Transformers v5 را منتشر کرد که اولین به‌روزرسانی عمده‌ی نسخه در پنج سال اخیر با قابلیت همکاری اکوسیستم سرتاسری و ادغام کامل PyTorch را نشان می‌دهد. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995575607456137716"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mistral AI مدل &lt;b&gt;Ministral 3 8B 2512&lt;/b&gt; را با قابلیت‌های بینایی تحت مجوز Apache 2.0 منتشر کرد. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995252019196760445"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Black Forest Labs با ارزش‌گذاری ۳.۲۵ میلیارد دلار، ۳۰۰ میلیون دلار سرمایه جذب کرد. مدل FLUX این شرکت ماهانه توسط میلیون‌ها نفر استفاده می‌شود و جریان‌های کاری تولید را در پلتفرم‌های پیشرو پشتیبانی می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995495635433521443"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;حداقل ۸۰ یونیکورن فناوری جدید در سال ۲۰۲۵ ایجاد شدند که نشان‌دهنده‌ی رشد مداوم در بخش فناوری است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995501285559443505"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA و Synopsys از گسترش مشارکت استراتژیک خود خبر دادند و NVIDIA ۲ میلیارد دلار در سهام عادی Synopsys سرمایه‌گذاری کرد تا طراحی و مهندسی را در صنایع مختلف متحول کند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995482450164617670"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Raindrop AI، اولین پلتفرم نظارت بر عامل‌ها، ۱۵ میلیون دلار سرمایه‌ی اولیه جذب کرد و اکنون توسط شرکت‌های هوش مصنوعی با رشد سریع از جمله Replit، Framer، Speak و Clay استفاده می‌شود. &lt;em&gt;&lt;a href="https://x.com/jsngr/status/1995524486532313271"&gt;@jsngr&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;رونق سرمایه‌گذاری در مراکز داده، افزایش ۲۵ تا ۳۰ درصدی دستمزد جوشکاران، برق‌کاران و کارگران ساختمانی را به همراه داشته است که نشان‌دهنده‌ی مزایای اقتصادی ثانویه‌ی هزینه‌های زیرساخت هوش مصنوعی است. &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1995536983134003309"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تقاضای انرژی مراکز داده پیش‌بینی می‌شود تا سال ۲۰۳۵ نزدیک به ۳۰۰ درصد افزایش یابد که چالش‌های زیرساختی مقیاس‌پذیری هوش مصنوعی را برجسته می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995571504927641787"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کارگران ساختمانی به دلیل نیازهای زیرساختی ناشی از رونق هوش مصنوعی، رشد قابل توجهی در دستمزد تجربه می‌کنند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995572666087211157"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;چت‌بات هوش مصنوعی آمازون، &lt;b&gt;Rufus&lt;/b&gt;، فروش را در جمعه‌ی سیاه افزایش داد که نشان‌دهنده‌ی تأثیر تجاری هوش مصنوعی مکالمه‌ای در تجارت الکترونیک است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995530736066290174"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سرمایه‌گذاری OpenAI در Thrive Holdings نشان‌دهنده‌ی یک ساختار معاملاتی دایره‌ای دیگر در صنعت هوش مصنوعی است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995538689506914699"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که یک عامل هوش مصنوعی ساخته شده با مدل‌های منسوخ &lt;b&gt;GPT-3.5&lt;/b&gt; و &lt;b&gt;GPT-4&lt;/b&gt;، عملکرد بهتری نسبت به تحلیلگران باتجربه‌ی سرمایه‌گذاری خطرپذیر انسانی در پیش‌بینی بقای استارتاپ‌های اولیه با هزینه‌های بسیار کمتر داشته است. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995573136323215560"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MIT Technology Review گزارش می‌دهد که یک مدل هوش مصنوعی که بر روی تماس‌های تلفنی زندان آموزش دیده است، اکنون برای شناسایی جرایم برنامه‌ریزی شده استفاده می‌شود که نگرانی‌هایی را در مورد حریم خصوصی و نظارت ایجاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/techreview/status/1995449741979582520"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;جیمز کامرون، کارگردان آواتار، هوش مصنوعی مولد را در اظهارات اخیر خود «وحشتناک» توصیف کرد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995265889604976845"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شریا راجپال تحلیلی را در مورد پیامدهای منفی مصرف محتوای تولید شده توسط هوش مصنوعی در مقیاس وسیع منتشر کرد و مفهوم «فضای فرضی زمینه‌سازی» (hypothetical grounding space) را برای ارتباط انسانی با محتوا معرفی کرد. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1995588857371431034"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity دستیار ایمیل خود را ارتقا داد تا پیوست‌های فایل و همگام‌سازی خودکار تقویم را مدیریت کند و قابلیت‌های عامل هوش مصنوعی را در ابزارهای بهره‌وری گسترش دهد. &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1995543838388375708"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft Research مدل &lt;b&gt;Fara-7B&lt;/b&gt; را منتشر کرد که قابلیت‌های کاربری عامل‌گونه‌ی کارآمد را به مدل‌های کوچک می‌آورد. &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1995539352907116726"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA، CrowdStrike، PayPal و Synopsys از &lt;b&gt;Nemotron&lt;/b&gt; انویدیا برای ساخت عامل‌های هوش مصنوعی تخصصی که با جریان‌های کاری خاص و نیازهای انطباق همسو هستند، استفاده می‌کنند. &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1995508185122119814"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کاربری نشان می‌دهد که &lt;b&gt;Gemini 3&lt;/b&gt; صحنه‌های سه‌بعدی تعاملی را با three.js تولید می‌کند که امکان دستکاری ذرات را بدون نیاز به مهارت‌های کدنویسی فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/ShaneLegg/status/1995511733138710785"&gt;@ShaneLegg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کلر وو استفاده از هوش مصنوعی با MCP را برای کارهای جامع تحلیل داده توصیف می‌کند که قبلاً به هفته‌ها کار مهندسی نیاز داشت و اکنون در ۵ دقیقه تکمیل می‌شود. &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1995539558486970782"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پلتفرم Wabi قابلیت چندنفره را راه‌اندازی کرد که امکان همکاری بلادرنگ در برنامه‌های تولید شده توسط هوش مصنوعی را با استفاده از پچ‌های JSON با دلتاهای اتمی برای مدیریت شرایط رقابتی فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/soleio/status/1995546664728162571"&gt;@soleio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;محققان MIT پلتفرم آزمایشی را توسعه دادند که روزانه تا ۷۰۰ ترکیب پلیمری جدید را برای کاربردها در تثبیت پروتئین، الکترولیت‌های باتری و مواد دارورسانی شناسایی، ترکیب و آزمایش می‌کند. &lt;em&gt;&lt;a href="https://x.com/MIT/status/1995490828597285259"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Artificial Analysis شاخص باز بودن (Openness Index) را معرفی کرد، یک معیار استاندارد برای باز بودن مدل‌های هوش مصنوعی در دسترس‌پذیری و شفافیت. OLMo از AI2 با امتیاز ۸۹ پیشتاز است، در حالی که &lt;b&gt;Nemotron&lt;/b&gt; انویدیا به ۶۷ می‌رسد. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995523178521846191"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DeepSeek تأیید کرد که از عبارت منظم‌سازی KL اصلاح شده از تحقیقات استنفورد در هدف آموزشی &lt;b&gt;V3.2&lt;/b&gt; استفاده می‌کند. &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1995490014797365315"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face با ادغام DataPolars به اسکن ۱۰۰ برابر سریع‌تر مجموعه داده‌ها دست یافت و تماس‌های API را از ۳۷۹ به ۱۹ برای fineweb-2 و از ۱۳۹ به ۱ برای finepdfs-edu کاهش داد. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995460060768539055"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آیزاک فلت احیای جستجوی معنایی برای کد را با استفاده از معماری چندبرداری با جاسازی‌های سطح توکن و کوانتیزاسیون شدید توضیح می‌دهد که پاسخ‌های بهتر با مصرف توکن کمتر را امکان‌پذیر می‌سازد. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1995571850911555674"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;متا ۱۹+ مقاله و ۱۳+ کارگاه را در NeurIPS 2025 ارائه می‌کند که تحقیقاتی از جمله DINOv3، UMA، SAM 3 و Omnilingual ASR را به نمایش می‌گذارد. &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1995531733391798452"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-01</guid>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-11-30</title>
       <link>https://sumbird.ir/fa/news/2025-11-30</link>
@@ -951,54 +1004,6 @@
 &lt;li&gt;سخنرانی آشیش واسوانی در ICCV25 رویکرد تسلا را در پردازش جریان‌های حسگر در زمینه‌های طولانی از طریق شبکه‌های عصبی بزرگ برای رانندگی سرتاسری آشکار می‌کند که نشان‌دهنده‌ی بازنویسی کامل از Software 1.0 به Software 2.0 است &lt;em&gt;&lt;a href="https://x.com/aelluswamy/status/1981"&gt;@aelluswamy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-12</guid>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-11-11</title>
-      <link>https://sumbird.ir/fa/news/2025-11-11</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;بایدو مدل &lt;b&gt;ERNIE-4.5-VL-28B-A3B-Thinking&lt;/b&gt; را با تنها 3 میلیارد پارامتر فعال منتشر کرد که عملکرد بصری سطح بالایی را در استدلال بصری، حل مسائل STEM، درک بصری و درک ویدئو ارائه می‌دهد و با vLLM، Transformers و FastDeploy کاملاً سازگار است &lt;em&gt;&lt;a href="https://x.com/ErnieforDevs/status/1988124764347752761"&gt;@ErnieforDevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor مدل &lt;b&gt;Composer-1&lt;/b&gt; را منتشر کرد که بهبودهای قابل‌توجهی را در قابلیت‌های کدنویسی نشان می‌دهد و تقریباً 4 برابر سریع‌تر از نسخه‌های قبلی اجرا می‌شود و از طریق بهبود قابلیت جستجوی فایل‌ها، عملکرد بهتری را در پایگاه‌کد‌های بزرگ ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1988093157800874064"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Gamma با تنها 50 کارمند به بیش از 100 میلیون کاربر و 100 میلیون دلار ARR دست یافته است، که به 2 میلیون دلار ARR به ازای هر کارمند و ارزش‌گذاری 2.1 میلیارد دلاری منجر شده است. این موفقیت از طریق اصول طراحی-محور و تمرکز بر تجربه‌ی کاربری به دست آمده است، نه صرفاً به دلیل تأسیس به عنوان یک شرکت هوش مصنوعی &lt;em&gt;&lt;a href="https://x.com/a16z/status/1988283372947247104"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مایکل تروئل، مدیرعامل Cursor، هشدار می‌دهد که بازار اتوماسیون نرم‌افزار هنوز در مراحل اولیه است و پیشرفت کنونی را با «لحظه‌ی آی‌پاد» مقایسه می‌کند، با چندین دستاورد در سطح آیفون که هنوز در پیش هستند. او به مدیران اجرایی هشدار می‌دهد که میزان پیشرفت اتوماسیون را دست‌کم نگیرند &lt;em&gt;&lt;a href="https://x.com/a16z/status/1988022546277822651"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;داده‌های مک‌کینزی نرخ‌های نفوذ هوش مصنوعی متفاوتی را در صنایع و عملکردهای تجاری در سال 2025 نشان می‌دهد، با تفاوت‌های قابل‌توجهی در سطوح پذیرش &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1988283116461715690"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Meta AI طبق داده‌های Similarweb، عملکرد قوی‌ای را در بازار نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/alexandr_wang/status/1988305048175341651"&gt;@alexandr_wang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سازمان‌ها با تشکیل تیم‌های کوچک، خودمختار و بین‌رشته‌ای که مهندسان ارشد، متخصصان حوزه و مدیران محصول را ترکیب می‌کنند، با موفقیت برای هوش مصنوعی در حال بازسازی هستند تا به سرعت برنامه‌های کاربردی مفیدی را آزمایش و ایجاد کنند، اگرچه مکانیسم‌های هماهنگی در مقیاس بزرگ هنوز وجود ندارند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1988102325962240085"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;SuperMe با 6.8 میلیون دلار سرمایه‌ی اولیه به رهبری Greylock راه‌اندازی شد تا یک شبکه‌ی متخصص هوش مصنوعی با تمرکز بر اشتراک‌گذاری دانش از 1% برتر عملکردها ایجاد کند &lt;em&gt;&lt;a href="https://x.com/alexrkonrad/status/1988293990337441968"&gt;@alexrkonrad&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شرکت‌هایی که از ابزارهای کدنویسی هوش مصنوعی متن‌باز استفاده می‌کنند، گزارش می‌دهند که نرم‌افزارهای بک‌آفیس به ارزش میلیون‌ها دلار را با کدنویسی سفارشی CRM، CMS، ابزارهای پشتیبانی و پلتفرم‌های مستندسازی خود جایگزین کرده‌اند &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1988311123658190851"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;مطالعه‌ی Stanford HAI نشان می‌دهد که شرکت‌های پیشرو هوش مصنوعی ورودی‌های کاربران را به مدل‌های خود بازمی‌گردانند تا قابلیت‌ها را بهبود بخشند، در حالی که کاربران اغلب قادر به انصراف نیستند، که نگرانی‌های قابل‌توجهی در مورد حریم خصوصی ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1988037962626449888"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کتی هوچول، فرماندار نیویورک، نامه‌ای به همه‌ی شرکت‌هایی که دستیاران هوش مصنوعی در نیویورک فعالیت می‌کنند ارسال کرد و قوانین موجود ایالتی در مورد ایمنی هوش مصنوعی و حمایت از مصرف‌کننده را یادآور شد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1988290235382591904"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;جرمی هاوارد هشدار می‌دهد که سازمان‌هایی که به طور کامل به عامل‌های هوش مصنوعی متکی می‌شوند، خطر ایجاد مقادیر عظیمی از کدی را دارند که افراد کمتری قادر به درک آن هستند، که به طور بالقوه منجر به منسوخ شدن شرکت می‌شود و استدلال می‌کند که برون‌سپاری تمام تفکر به کامپیوترها مانع از ارتقای مهارت و یادگیری می‌شود &lt;em&gt;&lt;a href="https://x.com/math_rachel/status/1987981789265358937"&gt;@math_rachel&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مصطفی سلیمان بر ماهیت دوگانه‌ی درک هوش مصنوعی تأکید می‌کند و بیان می‌کند کسانی که از هوش مصنوعی شگفت‌زده نمی‌شوند، آن را واقعاً درک نمی‌کنند، و کسانی که از آن نمی‌ترسند نیز آن را واقعاً درک نمی‌کنند &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1988111942490415180"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;رید هافمن از دولت‌ها حمایت می‌کند تا به شرکت‌های هوش مصنوعی کمک کنند ابزارهای ارزشمندی مانند دستیاران پزشکی رایگان را سریع‌تر به کار گیرند، نه اینکه مقرراتی را تحمیل کنند که مانع از اجرای موارد استفاده‌ی واقعی شود &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1988264427712385436"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;مایکروسافت پروژه‌ی SPARROW را اعلام کرد که از دوربین‌های خورشیدی و هوش مصنوعی برای نظارت بر تنوع زیستی در اکوسیستم‌های دورافتاده از طریق آزمایشگاه AI for Good خود استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/Microsoft/status/1987981085548990954"&gt;@Microsoft&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft Copilot قابلیت ناوبری مراقبت‌های بهداشتی را راه‌اندازی کرد که با استفاده از منابع معتبری مانند Harvard Health به سؤالات پزشکی پاسخ می‌دهد و به کاربران کمک می‌کند تا پزشکان نزدیک را بر اساس تخصص، جنسیت و ترجیحات زبانی پیدا کنند &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1988340197285900452"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI دوازده ماه ChatGPT Plus رایگان را برای نیروهای نظامی در حال خدمت واجد شرایط و کهنه‌سربازانی که در 12 ماه گذشته خدمت خود را به پایان رسانده‌اند، اعلام کرد &lt;em&gt;&lt;a href="https://x.com/gdb/status/1988306228146053412"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Datalab API اکنون redlines و نظرات را از اسناد حقوقی به فرمت مارک‌داون تمیز استخراج می‌کند و امکان تحلیل بهتر با LLMها را فراهم می‌آورد &lt;em&gt;&lt;a href="https://x.com/VikParuchuri/status/1988308412707586218"&gt;@VikParuchuri&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پروژه‌ی Aella دو مدل سفارشی، &lt;b&gt;Aella-Nemotron-12b&lt;/b&gt; و &lt;b&gt;Aella-Qwen-14b&lt;/b&gt; را آموزش می‌دهد که عملکرد پیشرفته‌ای را در وظایف استخراج با 98% هزینه‌ی کمتر به دست می‌آورد &lt;em&gt;&lt;a href="https://x.com/samhogan/status/1988307826675249521"&gt;@samhogan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;پژوهش‌ها نشان می‌دهد که یک سیستم همکاری چندعاملی با استفاده از محاسبات تکاملی در زمان آزمایش، که توسط &lt;b&gt;GPT-5 pro&lt;/b&gt; قدرت می‌گیرد، در ARC-AGI v1 به عملکرد سطح انسانی 85% با هزینه‌ی کمتر از 10 هزار دلار در مدت 12 ساعت دست یافت &lt;em&gt;&lt;a href="https://x.com/jerber888/status/1987982067116777521"&gt;@jerber888&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مطالعه‌ی K Arkoudas و S Batzoglou بهبودهای قابل‌توجهی را در قابلیت‌های استدلالی LLM در سال 2025 نشان می‌دهد، به طوری که مدل‌های برتر کنونی از جمله &lt;b&gt;GPT-5&lt;/b&gt;، &lt;b&gt;Grok 4&lt;/b&gt; و &lt;b&gt;Gemini 2.5 Pro&lt;/b&gt; عملکرد بهتری را در مقایسه با &lt;b&gt;GPT-4o&lt;/b&gt; یا &lt;b&gt;Llama 3&lt;/b&gt; به نمایش می‌گذارند &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/1988291522820030858"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش‌ها نشان می‌دهد که LLMها می‌توانند معیارهای اطمینان کالیبره‌شده را در بسیاری از تنظیمات به صورت آماده ارائه دهند، با وجود اینکه به دلیل توهم‌زایی و ارائه‌ی پاسخ‌های نادرست اما مطمئن‌کننده بدنام هستند &lt;em&gt;&lt;a href="https://x.com/PreetumNakkiran/status/1988059280793281016"&gt;@PreetumNakkiran&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مقاله‌ی GDPval بینش‌هایی را در مورد تأثیر آتی هوش مصنوعی بر کار دانش‌محور ارائه می‌دهد، به ویژه با شروع جایگزینی جریان‌های کاری سنتی پرسش و پاسخ توسط سیستم‌های عامل‌محور &lt;em&gt;&lt;a href="https://x.com/emollick/status/1988088613125714402"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft Research فریم‌ورک &lt;b&gt;BlueCodeAgent&lt;/b&gt; را منتشر کرد؛ یک فریم‌ورک blue-teaming end-to-end که از فرآیندها، داده‌ها و قوانین ایمنی red-teaming خودکار برای هدایت تصمیمات دفاعی LLMها استفاده می‌کند، با آزمایش دینامیک که خطاهای مثبت کاذب را در شناسایی آسیب‌پذیری کاهش می‌دهد &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1988305610798993697"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش جدید، پارادایم استدلال بلادرنگ را برای عامل‌های هوش مصنوعی پیشنهاد می‌کند، که به محدودیتِ «توقف دنیا حین استدلال توسط عامل‌های کنونی» می‌پردازد و آن‌ها را قادر می‌سازد تا بدون از دست دادن تغییرات در حال وقوع، عمیقاً فکر کنند &lt;em&gt;&lt;a href="https://x.com/BLeavesYe/status/1988255237636059321"&gt;@BLeavesYe&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tesla AI از طریق سیستم‌های بینایی خود، درک عمیقی از جهان را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/Tesla_AI/status/1988111965521408371"&gt;@Tesla_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش Aria-Duet برای مسیر هوش مصنوعی خلاق NeurIPS 2025 پذیرفته شد، که نشان‌دهنده‌ی کار مشترک بر روی کاربردهای هوش مصنوعی خلاق است &lt;em&gt;&lt;a href="https://x.com/AlexanderSpangh/status/1988052193774366731"&gt;@AlexanderSpangh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-11</guid>
-      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

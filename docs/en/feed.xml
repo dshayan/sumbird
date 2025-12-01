@@ -8,9 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Dec 2025 07:07:25 +0330</lastBuildDate>
-    <pubDate>Mon, 01 Dec 2025 07:07:25 +0330</pubDate>
+    <lastBuildDate>Tue, 02 Dec 2025 01:16:42 +0330</lastBuildDate>
+    <pubDate>Tue, 02 Dec 2025 01:16:42 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-12-01</title>
+      <link>https://sumbird.ir/en/news/2025-12-01</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;DeepSeek launches &lt;b&gt;DeepSeek-V3.2&lt;/b&gt; and &lt;b&gt;DeepSeek-V3.2-Speciale&lt;/b&gt;, reasoning-first models built for agents with 685 billion parameters. &lt;b&gt;V3.2-Speciale&lt;/b&gt; achieves gold-medal performance in IMO, CMO, ICPC World Finals, and IOI 2025, with performance rivaling &lt;b&gt;Gemini 3.0 Pro&lt;/b&gt;. Both models feature MIT licensing and include a 51-page technical report &lt;em&gt;&lt;a href="https://x.com/deepseek_ai/status/1995452641430651132"&gt;@deepseek_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;Gemini 3&lt;/b&gt; with state-of-the-art reasoning, richer visuals, and deeper interactivity, available through the Gemini app with a "Thinking" mode selector &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1995534313044238347"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Runway unveils &lt;b&gt;Gen-4.5&lt;/b&gt; (previously known as Whisper Thunder), their new video generation model developed entirely on NVIDIA GPUs with optimized inference on Hopper and Blackwell series GPUs &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995501092705272156"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Kling AI begins "Kling Shipmas," launching &lt;b&gt;Kling O1&lt;/b&gt; as the first of five daily releases over consecutive days &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995508668008374670"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba's &lt;b&gt;Qwen3-Next&lt;/b&gt; hybrid architecture now supported in llama.cpp, enabling efficient local CPU/GPU inference &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1995384945553060021"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face releases Transformers v5 release candidate, marking the first major version update in five years with end-to-end ecosystem interoperability and full PyTorch integration &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995575607456137716"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mistral AI releases &lt;b&gt;Ministral 3 8B 2512&lt;/b&gt; with vision capabilities under Apache 2.0 license &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995252019196760445"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Black Forest Labs raises $300M at $3.25B valuation, with their FLUX model used by millions monthly and powering production workflows across leading platforms &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995495635433521443"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;At least 80 new tech unicorns were created in 2025, reflecting continued growth in the technology sector &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995501285559443505"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA and Synopsys announce expanded strategic partnership with NVIDIA investing $2 billion in Synopsys common stock to revolutionize design and engineering across industries &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995482450164617670"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Raindrop AI, the first agent monitoring platform, raises $15M seed round and is now used by fast-growing AI companies including Replit, Framer, Speak, and Clay &lt;em&gt;&lt;a href="https://x.com/jsngr/status/1995524486532313271"&gt;@jsngr&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Data center investment boom creates 25-30% wage increases for welders, electricians, and construction workers, demonstrating second-order economic benefits of AI infrastructure spending &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1995536983134003309"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Data center energy demand forecasted to soar nearly 300% through 2035, highlighting infrastructure challenges of AI scaling &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995571504927641787"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Construction workers are experiencing significant wage growth due to the AI boom's infrastructure requirements &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995572666087211157"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Amazon's AI chatbot &lt;b&gt;Rufus&lt;/b&gt; drove sales on Black Friday, demonstrating commercial impact of conversational AI in e-commerce &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995530736066290174"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI's investment into Thrive Holdings represents another circular deal structure in the AI industry &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995538689506914699"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research finds that an AI agent built with obsolete &lt;b&gt;GPT-3.5&lt;/b&gt; and &lt;b&gt;GPT-4&lt;/b&gt; models outperformed experienced human venture capital analysts in predicting early-stage startup survival at much lower costs &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995573136323215560"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MIT Technology Review reports on AI model trained on prison phone calls now being used to detect planned crimes, raising privacy and surveillance concerns &lt;em&gt;&lt;a href="https://x.com/techreview/status/1995449741979582520"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;James Cameron, director of Avatar, describes generative AI as "horrifying" in recent comments &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995265889604976845"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Shreya Rajpal publishes analysis on negative externalities of AI-generated content consumption at scale, introducing the concept of "hypothetical grounding space" for human connection to content &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1995588857371431034"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity upgrades Email Assistant to handle file attachments and automatic calendar sync, expanding AI agent capabilities in productivity tools &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1995543838388375708"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft Research releases &lt;b&gt;Fara-7B&lt;/b&gt;, bringing efficient agentic computer use capabilities to small models &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1995539352907116726"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA, CrowdStrike, PayPal, and Synopsys are using NVIDIA &lt;b&gt;Nemotron&lt;/b&gt; to build specialized AI agents aligned with specific workflows and compliance needs &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1995508185122119814"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;User demonstrates &lt;b&gt;Gemini 3&lt;/b&gt; generating interactive 3D scenes with three.js that allow particle manipulation without coding skills &lt;em&gt;&lt;a href="https://x.com/ShaneLegg/status/1995511733138710785"&gt;@ShaneLegg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claire Vo describes using AI with MCP for comprehensive data analysis tasks that previously required weeks of engineering work, now completed in 5 minutes &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1995539558486970782"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Wabi platform launches multiplayer feature enabling real-time collaboration in AI-generated apps using JSON patches with atomic deltas to handle race conditions &lt;em&gt;&lt;a href="https://x.com/soleio/status/1995546664728162571"&gt;@soleio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MIT researchers develop experimental platform that identifies, mixes, and tests up to 700 new polymer blends daily for applications in protein stabilization, battery electrolytes, and drug-delivery materials &lt;em&gt;&lt;a href="https://x.com/MIT/status/1995490828597285259"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Artificial Analysis introduces Openness Index, a standardized measure of AI model openness across availability and transparency. OLMo from AI2 leads with score of 89, while NVIDIA &lt;b&gt;Nemotron&lt;/b&gt; achieves 67 &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995523178521846191"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DeepSeek confirms utilizing corrected KL regularization term from Stanford research in &lt;b&gt;V3.2&lt;/b&gt; training objective &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1995490014797365315"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face achieves 100x faster dataset scans with DataPolars integration, reducing API calls from 379 to 19 for fineweb-2 and from 139 to 1 for finepdfs-edu &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995460060768539055"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Isaac Flath explains resurgence of semantic search for code using multi-vector architecture with token-level embeddings and extreme quantization, enabling better responses with reduced token usage &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1995571850911555674"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meta presents 19+ papers and 13+ workshops at NeurIPS 2025, showcasing research including DINOv3, UMA, SAM 3, and Omnilingual ASR &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1995531733391798452"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-01</guid>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-11-30</title>
       <link>https://sumbird.ir/en/news/2025-11-30</link>
@@ -969,54 +1022,6 @@
 &lt;li&gt;Ashish Vaswani's ICCV25 talk reveals Tesla's approach of processing sensor streams over long contexts through large neural networks for end-to-end driving, representing complete Software 1.0 to Software 2.0 rewrite &lt;em&gt;&lt;a href="https://x.com/aelluswamy/status/1981"&gt;@aelluswamy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-12</guid>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-11</title>
-      <link>https://sumbird.ir/en/news/2025-11-11</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Baidu releases &lt;b&gt;ERNIE-4.5-VL-28B-A3B-Thinking&lt;/b&gt; with only 3B activated parameters, delivering top-tier visual performance across visual reasoning, STEM problem-solving, visual grounding, and video comprehension, with full compatibility with vLLM, Transformers, and FastDeploy &lt;em&gt;&lt;a href="https://x.com/ErnieforDevs/status/1988124764347752761"&gt;@ErnieforDevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor releases &lt;b&gt;Composer-1&lt;/b&gt; model showing significant improvements in coding capabilities, running approximately 4x faster than previous versions and demonstrating better performance on large codebases through improved file search functionality &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1988093157800874064"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Gamma reaches over 100 million users and $100M ARR with only 50 employees, achieving $2M ARR per employee and a $2.1B valuation, demonstrating success through design-first principles and focus on user experience rather than being founded as an AI company &lt;em&gt;&lt;a href="https://x.com/a16z/status/1988283372947247104"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor CEO Michael Truell warns that the software automation market is still in early stages, comparing current progress to the iPod moment with multiple iPhone-level breakthroughs still ahead, cautioning executives against underestimating how far automation can go &lt;em&gt;&lt;a href="https://x.com/a16z/status/1988022546277822651"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;McKinsey data shows varying AI penetration rates across industries and business functions in 2025, with significant differences in adoption levels &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1988283116461715690"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Meta AI demonstrates strong market performance according to Similarweb data &lt;em&gt;&lt;a href="https://x.com/alexandr_wang/status/1988305048175341651"&gt;@alexandr_wang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Organizations are successfully restructuring for AI by building small, high-agency, cross-functional teams combining senior engineers, subject matter experts, and product managers to experiment and build useful applications quickly, though large-scale coordination mechanisms are still lacking &lt;em&gt;&lt;a href="https://x.com/emollick/status/1988102325962240085"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;SuperMe launches with $6.8M in funding led by Greylock to build an AI expert network focused on sharing knowledge from top 1% performers &lt;em&gt;&lt;a href="https://x.com/alexrkonrad/status/1988293990337441968"&gt;@alexrkonrad&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Companies using open-source AI coding tools report replacing seven figures worth of backoffice software by custom coding their own CRM, CMS, support tooling, and documentation platforms &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1988311123658190851"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Stanford HAI study reveals that leading AI companies feed user inputs back into their models to improve capabilities, with users often unable to opt out, raising significant privacy concerns &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1988037962626449888"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New York Governor Kathy Hochul sends letter to all companies operating AI companions in New York, citing existing state laws regarding AI safety and consumer protection &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1988290235382591904"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Jeremy Howard warns that organizations going all-in on AI agents risk creating massive amounts of code that fewer people can understand, potentially leading to company obsolescence and arguing that outsourcing all thinking to computers prevents upskilling and learning &lt;em&gt;&lt;a href="https://x.com/math_rachel/status/1987981789265358937"&gt;@math_rachel&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mustafa Suleyman emphasizes the dual nature of AI understanding, stating that those who aren't amazed by AI don't truly understand it, and those who aren't afraid of it also don't truly understand it &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1988111942490415180"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Reid Hoffman advocates for governments to help AI companies deploy valuable tools like free medical assistants more quickly, rather than imposing regulations that hinder implementation of real use cases &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1988264427712385436"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Microsoft announces Project SPARROW using solar-powered cameras and AI to monitor biodiversity in remote ecosystems through their AI for Good Lab &lt;em&gt;&lt;a href="https://x.com/Microsoft/status/1987981085548990954"&gt;@Microsoft&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft Copilot launches healthcare navigation feature that answers medical questions using trusted sources like Harvard Health and helps users find nearby doctors based on specialty, gender, and language preferences &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1988340197285900452"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI announces 12 months of free ChatGPT Plus for eligible active duty servicemembers and veterans who have transitioned from service in the last 12 months &lt;em&gt;&lt;a href="https://x.com/gdb/status/1988306228146053412"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Datalab API now extracts redlines and comments from legal documents into clean markdown format, enabling better analysis with LLMs &lt;em&gt;&lt;a href="https://x.com/VikParuchuri/status/1988308412707586218"&gt;@VikParuchuri&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Aella project trains two custom models, &lt;b&gt;Aella-Nemotron-12b&lt;/b&gt; and &lt;b&gt;Aella-Qwen-14b&lt;/b&gt;, achieving frontier performance on extraction tasks at 98% lower cost &lt;em&gt;&lt;a href="https://x.com/samhogan/status/1988307826675249521"&gt;@samhogan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Research demonstrates that a multi-agent collaboration system using evolutionary test-time compute powered by &lt;b&gt;GPT-5 pro&lt;/b&gt; achieved human-level performance of 85% on ARC-AGI v1 for under $10k within 12 hours &lt;em&gt;&lt;a href="https://x.com/jerber888/status/1987982067116777521"&gt;@jerber888&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Study by K Arkoudas and S Batzoglou shows significant improvements in LLM reasoning capabilities in 2025, with current top models including &lt;b&gt;GPT-5&lt;/b&gt;, &lt;b&gt;Grok 4&lt;/b&gt;, and &lt;b&gt;Gemini 2.5 Pro&lt;/b&gt; demonstrating substantially better performance compared to &lt;b&gt;GPT-4o&lt;/b&gt; or &lt;b&gt;Llama 3&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/1988291522820030858"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research reveals that LLMs can produce calibrated confidence measures out-of-the-box in many settings, despite being notorious for hallucinating confident-sounding but incorrect answers &lt;em&gt;&lt;a href="https://x.com/PreetumNakkiran/status/1988059280793281016"&gt;@PreetumNakkiran&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;GDPval paper provides insights into AI's coming impact on knowledge work, particularly as agentic systems begin replacing traditional back-and-forth prompting workflows &lt;em&gt;&lt;a href="https://x.com/emollick/status/1988088613125714402"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft Research releases &lt;b&gt;BlueCodeAgent&lt;/b&gt;, an end-to-end blue-teaming framework that uses automated red-teaming processes, data, and safety rules to guide LLMs' defensive decisions, with dynamic testing reducing false positives in vulnerability detection &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1988305610798993697"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New research proposes real-time reasoning paradigm for AI agents, addressing the limitation that current agents freeze the world while reasoning, enabling them to think deeply without missing ongoing changes &lt;em&gt;&lt;a href="https://x.com/BLeavesYe/status/1988255237636059321"&gt;@BLeavesYe&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tesla AI demonstrates profound understanding of the world through its vision systems &lt;em&gt;&lt;a href="https://x.com/Tesla_AI/status/1988111965521408371"&gt;@Tesla_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Aria-Duet research accepted to NeurIPS 2025 Creative AI Track, representing collaborative work on creative AI applications &lt;em&gt;&lt;a href="https://x.com/AlexanderSpangh/status/1988052193774366731"&gt;@AlexanderSpangh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-11</guid>
-      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
