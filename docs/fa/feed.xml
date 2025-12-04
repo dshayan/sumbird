@@ -8,9 +8,66 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Thu, 04 Dec 2025 06:00:09 +0330</lastBuildDate>
-    <pubDate>Thu, 04 Dec 2025 06:00:09 +0330</pubDate>
+    <lastBuildDate>Fri, 05 Dec 2025 01:17:17 +0330</lastBuildDate>
+    <pubDate>Fri, 05 Dec 2025 01:17:17 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-12-04</title>
+      <link>https://sumbird.ir/fa/news/2025-12-04</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل حالت «Gemini 3 Deep Think» را برای مشترکین Ultra منتشر کرد. این حالت با استفاده از تفکر موازی، فرضیه‌های متعددی را به‌طور همزمان بررسی می‌کند تا استدلال در مسائل پیچیده‌ی ریاضی، علمی و برنامه‌نویسی بهبود یابد. این مدل در بنچمارک‌های «آخرین امتحان بشریت» و «ARC-AGI-2» از «Gemini 3 Pro» پیشی گرفته و در المپیاد جهانی ریاضی و فینال جهانی مسابقات برنامه‌نویسی دانشگاهی به استاندارد مدال طلا دست یافته است &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1996658401233842624"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;، &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1996668620748083690"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اوپن‌ای‌آی مدل «Codex» را راه‌اندازی کرد که اکنون در Cursor با یک عامل بهینه‌شده در دسترس است و تا ۱۱ دسامبر رایگان خواهد بود &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/1996645841063604711"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آنتروپیک مدل «Claude Opus 4.5» را برای کاربران Claude Code با حساب‌های Pro منتشر کرد. این مدل به عنوان مدل پیشرو در برنامه‌نویسی و استثنایی در کارهای پیچیده‌ی کدنویسی توصیف شده است &lt;em&gt;&lt;a href="https://x.com/_catwu/status/1996365599770055052"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mistral Large 3 به عنوان مدل کدنویسی متن‌باز شماره یک در جدول رده‌بندی Arena معرفی شد &lt;em&gt;&lt;a href="https://x.com/MistralAI/status/1996580307336638951"&gt;@MistralAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل «Nano Banana Pro» را با رزولوشن 2k منتشر کرد که به جایگاه شماره یک در جدول رده‌بندی ویرایش تصویر lmarena دست یافت &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1996457766349848753"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مایکروسافت مدل «VibeVoice-Realtime-0.5B» را منتشر کرد &lt;em&gt;&lt;a href="https://x.com/_akhaliq/status/1996602953885499466"&gt;@_akhaliq&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تیم Qwen علی‌بابا اعلام کرد که اجرای FP8 RL تنها با ۵ گیگابایت VRAM امکان‌پذیر است &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1996474298169802799"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;آنتروپیک یک همکاری چندساله به ارزش ۲۰۰ میلیون دلار با Snowflake امضا کرد که Claude را برای بیش از ۱۲,۶۰۰ مشتری Snowflake برای تحلیل داده‌های سازمانی در دسترس قرار می‌دهد و در عین حال استانداردهای امنیتی را حفظ می‌کند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1996327475492868292"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل یک همکاری چندساله با Replit اعلام کرد که همکاری آن‌ها را در فضای ابزارهای توسعه‌دهنده گسترش می‌دهد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1996622589918396796"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;استارتاپ حقوقی هوش مصنوعی Harvey، ارزش ۸ میلیارد دلاری خود را در دور تامین مالی سری F به رهبری a16z Growth تایید کرد. این شرکت در حال حاضر توسط بیش از نیمی از ۱۰۰ شرکت برتر AmLaw استفاده می‌شود &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996651292203405401"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Palo Alto Networks شرکت Chronosphere را به مبلغ ۳.۳ میلیارد دلار خریداری کرد که نشان‌دهنده‌ی یک خروج قابل توجه برای این استارتاپ نظارتی است که بر اساس موتور M3 اوبر ساخته شده بود &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1996588228770484382"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cambricon قصد دارد در سال ۲۰۲۶، ۵۰۰,۰۰۰ شتاب‌دهنده را عرضه کند که بیش از سه برابر تعداد عرضه شده در سال جاری است و نشان‌دهنده‌ی گسترش عمده در سخت‌افزار هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1996607721370738692"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;لایحه‌ی دوحزبی برای جلوگیری از فروش تراشه‌های پیشرفته‌ی انویدیا از جمله «H200s» و «Blackwells» به چین تا سال ۲۰۲۸ ارائه شد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1996673732656673221"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;متا طبق گزارش‌ها قصد دارد بودجه‌ی متاورس را تا ۳۰ درصد کاهش دهد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996613774330278142"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کریستیانو رونالدو سرمایه‌گذاری در Perplexity را اعلام کرد و بر کنجکاوی به عنوان یک نیاز برای عظمت تاکید کرد &lt;em&gt;&lt;a href="https://x.com/Cristiano/status/1996626923720462425"&gt;@Cristiano&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک مدیر اجرایی فناوری گزارش می‌دهد که از هوش مصنوعی برای نمونه‌سازی کدنویسی استفاده می‌کند، اما همچنان به تیمی متشکل از چندین توسعه‌دهنده برای پیاده‌سازی آن‌ها در نرم‌افزار تولیدی قابل اجرا نیاز دارد، که نشان می‌دهد هوش مصنوعی مکمل توسعه‌دهندگان حرفه‌ای است و جایگزین آن‌ها نیست &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1996496685187596396"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مطالعه‌ی مک‌کینزی نشان می‌دهد که بسیاری از سازمان‌ها در حال پذیرش عوامل هوش مصنوعی هستند، اگرچه اکثر آن‌ها در مراحل اولیه‌ی مقیاس‌بندی این فناوری قرار دارند &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1996625638942294229"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;توسعه‌دهندگان مدل با تنظیم دقیق مدل‌ها برای کار بهتر با چارچوب‌های خود، مزیت سیستماتیکی کسب می‌کنند و به طور بالقوه نفوذ خود را در لایه‌ی کاربرد به ضرر توسعه‌دهندگان شخص ثالث و متن‌باز بازمی‌یابند &lt;em&gt;&lt;a href="https://x.com/sayashk/status/1996334941832089732"&gt;@sayashk&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;داریو آمودی، مدیرعامل آنتروپیک، در مورد خطرات توسعه‌ی بیش از حد در هوش مصنوعی هشدار می‌دهد و می‌گوید برخی شرکت‌ها با مدل‌های کسب‌وکار مصرف‌کننده و حاشیه‌ی سود نامشخص ممکن است با فشار بیش از حد برای توسعه، با وجود عدم قطعیت در ارزش اقتصادی، ریسک‌های نامعقولی را بپذیرند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1996351545332687290"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدیرعامل آنتروپیک بر پیامدهای امنیت ملی قابلیت‌های هوش مصنوعی تاکید می‌کند و می‌گوید دموکراسی‌ها باید ابتدا به قابلیت‌های پیشرفته‌ی هوش مصنوعی دست یابند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1996373192261419161"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اندرو ان‌جی بحران اعتماد به هوش مصنوعی را برجسته می‌کند و به داده‌های Edelman و Pew Research اشاره می‌کند که نشان می‌دهد ۴۹ درصد از آمریکایی‌ها استفاده‌ی فزاینده از هوش مصنوعی را رد می‌کنند، در حالی که تنها ۱۷ درصد آن را می‌پذیرند. این در مقایسه با چین است که ۵۴ درصد آن را می‌پذیرند و تنها ۱۰ درصد آن را رد می‌کنند. او بی‌اعتمادی را تا حدی به شرکت‌های هوش مصنوعی نسبت می‌دهد که با مقایسه‌ی هوش مصنوعی با سلاح‌های هسته‌ای، خطرات را بزرگ‌نمایی می‌کنند و از جامعه‌ی هوش مصنوعی می‌خواهد که از ترساندن دست بردارد و برای جلب مجدد اعتماد جامعه تلاش کند &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1996631366470132053"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;نیریت وایس-بلات پوشش ۶۰ دقیقه‌ای مطالعه‌ی آنتروپیک در مورد رفتار باج‌گیری Claude را به شدت گمراه‌کننده می‌داند و اشاره می‌کند که این رفتار تنها پس از آن رخ داد که محققان ماهر عمداً آن را از طریق تمرینات تیم قرمز مهندسی کردند، نه به طور طبیعی &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1996631366470132053"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اتحادیه‌ی اروپا در حال بررسی متا به دلیل تغییر سیاست است که چت‌بات‌های رقیب هوش مصنوعی را از واتس‌اپ ممنوع می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996582060077850704"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایلان ماسک نرم‌افزار جدید تسلا را اعلام کرد که امکان ارسال پیامک و رانندگی را فراهم می‌کند، که در اکثر ایالت‌ها غیرقانونی است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996672668343718031"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اوپن‌ای‌آی یک روش اثبات مفهوم را توسعه می‌دهد که مدل‌ها را آموزش می‌دهد تا زمانی که دستورالعمل‌ها را نقض می‌کنند یا میانبرهای ناخواسته را انتخاب می‌کنند، گزارش دهند &lt;em&gt;&lt;a href="https://x.com/gdb/status/1996330850074722725"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;آنتروپیک ابزار Anthropic Interviewer را برای انجام مصاحبه‌های تحقیقاتی مبتنی بر هوش مصنوعی راه‌اندازی کرد که سوالات تحقیقاتی را پیش‌نویس می‌کند، مصاحبه‌ها را انجام می‌دهد و پاسخ‌ها را تحلیل می‌کند. مطالعه‌ی اولیه‌ی ۱,۲۵۰ متخصص نشان داد که نیروی کار عمومی می‌خواهد کارهای روتین را به هوش مصنوعی واگذار کند و در عین حال وظایف اصلی هویت حرفه‌ای را حفظ کند، افراد خلاق با اضطراب در مورد امنیت شغلی و انگ استفاده از هوش مصنوعی مواجه هستند، و دانشمندان شرکای تحقیقاتی هوش مصنوعی می‌خواهند اما در حال حاضر استفاده را به نوشتن و اشکال‌زدایی محدود می‌کنند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1996627123021426919"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;بایت‌دنس گوشی هوشمند ZTE Nubia M153 را نشان داد که عامل هوش مصنوعی Doubao را در سطح سیستم‌عامل اندروید با کنترل کامل گوشی اجرا می‌کند و قادر به دیدن رابط کاربری، دانلود برنامه‌ها و اجرای زنجیره‌های وظایف چندمرحله‌ای است &lt;em&gt;&lt;a href="https://x.com/TaylorOgan/status/1996538308697137277"&gt;@TaylorOgan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sierra از مجموعه‌ای از بیش از ۱۵ مدل پیشرو و متن‌باز برای کارهای مختلف از جمله فراخوانی ابزار با تاخیر کم، طبقه‌بندی دقیق، استدلال با زمینه‌ی طولانی و همدلی/لحن استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1996594091162050974"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;قابلیت تولید اسلاید NotebookLM گوگل، ارائه‌های منسجمی را از مقالات علمی با حداقل توهم ایجاد می‌کند، اگرچه مشکلات املایی و نموداری گاه‌به‌گاه با ایجاد اسلاید مبتنی بر تصویر رخ می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1996418841426227516"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدیرعامل مایکروسافت حالت عامل M365 Copilot را نشان داد که با موفقیت چالش دیجیتال قهرمانی جهان اکسل را تکمیل کرد &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1996597609587470504"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Linear با ادغام OpenAI Codex، به ابزار محصولی با بیشترین نمایندگان عامل تبدیل شد تا به رفع اشکالات، بهبودها و پاسخ به سوالات پایگاه کد کمک کند &lt;em&gt;&lt;a href="https://x.com/linear/status/1996668670131720290"&gt;@linear&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude Opus 4.5 با Claude Code پس از رفع خطاهای درجه‌بندی، به دقت ۹۵ درصد در CORE-Bench دست یافت و به طور موثر بنچمارکی را حل کرد که عوامل هوش مصنوعی را در وظایف قابلیت بازتولید علمی آزمایش می‌کند. عملکرد از ۴۲ درصد با چارچوب CORE-Agent به ۷۸ درصد با Claude Code افزایش یافت که نشان‌دهنده‌ی ارتباط قابل توجه بین مدل‌ها و چارچوب‌ها است &lt;em&gt;&lt;a href="https://x.com/sayashk/status/1996334941832089732"&gt;@sayashk&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Physics Letters B مقاله‌ی بازبینی‌شده‌ای را پذیرفت که در آن «GPT-5» بینش کلیدی را تولید کرده بود، که نشان‌دهنده‌ی یک نقطه‌ی عطف مهم در مشارکت هوش مصنوعی در تحقیقات فیزیک نظری است &lt;em&gt;&lt;a href="https://x.com/hsu_steve/status/1996034522308026435"&gt;@hsu_steve&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face مدل X-VLA را معرفی کرد، مدل جدید Vision-Language-Action با پرامپت نرم LeRobot که در چندین تجسم ربات از جمله Franka، WidowX، Agibot مقیاس‌پذیر است و از تطبیق جریان و هسته‌ی ترانسفورمر برای کنترل ۵۰ هرتز استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/LeRobotHF/status/1996563772819865600"&gt;@LeRobotHF&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات در مورد شیمی پیش‌زیستی نشان می‌دهد که حیات ساده ممکن است در همه‌جای جهان وجود داشته باشد، با قندهایی که در سیارک‌ها یافت شده‌اند، اسیدهای آمینه که در فضای بین‌ستاره‌ای شناسایی شده‌اند، و حیات بلافاصله پس از خنک شدن زمین پدیدار شده است &lt;em&gt;&lt;a href="https://x.com/elidourado/status/1996659842736615932"&gt;@elidourado&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مهندسان MIT اندازه‌گیری دقیق قند خون را با تاباندن نور مادون قرمز نزدیک به پوست نشان دادند، که به طور بالقوه امکان نظارت غیرتهاجمی بر قند خون را برای همه‌ی افراد مبتلا به دیابت فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/MIT/status/1996633857559314801"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان MIT یک تراشه‌ی فرستنده طراحی کردند که کارایی انرژی ارتباطات بی‌سیم را به طور قابل توجهی بهبود می‌بخشد و به طور بالقوه برد و عمر باتری دستگاه‌های متصل را افزایش می‌دهد &lt;em&gt;&lt;a href="https://x.com/MIT/status/1996319132044632283"&gt;&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-04</guid>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-03</title>
       <link>https://sumbird.ir/fa/news/2025-12-03</link>
@@ -954,66 +1011,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-15</guid>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-11-14</title>
-      <link>https://sumbird.ir/fa/news/2025-11-14</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI مدل &lt;b&gt;GPT-5.1&lt;/b&gt; را در API خود با گزینه‌های استدلالی جدید و قابلیت‌های استدلال تطبیقی برای پاسخ‌های فوری منتشر می‌کند، اگرچه برخی از کاربران به افت عملکرد در برخی وظایف مانند مثال پلیکان در مقایسه با &lt;b&gt;GPT-5&lt;/b&gt; اشاره کرده‌اند &lt;em&gt;&lt;a href="https://x.com/simonw/status/1989123523206578351"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity مدل &lt;b&gt;GPT-5.1&lt;/b&gt; را برای مشترکین Pro و Max در دسترس قرار می‌دهد &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1989075483385069949"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;علی‌بابا &lt;b&gt;Qwen Code v0.2.1&lt;/b&gt; را با بهبودهای عمده از جمله جستجوی وب رایگان (2000 جستجو در روز برای کاربران OAuth)، ویرایش کد هوشمندتر با تطبیق فازی، یکپارچگی بهتر با IDE و خط لوله‌ی نرمال‌سازی چندمرحله‌ای برای تطبیق بدون سربار عرضه می‌کند &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1989368317011009901"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI چت‌های گروهی را در ChatGPT به عنوان یک طرح آزمایشی در ژاپن، نیوزلند، کره‌ی جنوبی و تایوان راه‌اندازی می‌کند که امکان همکاری با دوستان، خانواده یا همکاران را در کنار ChatGPT در یک مکالمه فراهم می‌آورد &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1989138776585851038"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل &lt;b&gt;SIMA 2&lt;/b&gt; را معرفی می‌کند، یک عامل عمومی که می‌تواند دستورالعمل‌های پیچیده را درک و استدلال کند و وظایف را در دنیاهای بازی شبیه‌سازی‌شده، حتی آن‌هایی که قبلاً ندیده است، از طریق خودآموزی تکمیل کند &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1989096784870928721"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google AI Plus به 53 کشور دیگر گسترش می‌یابد و ابزارهای بهره‌وری و خلاقیت را در 130 منطقه در سراسر جهان در دسترس قرار می‌دهد &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1989121822395412920"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل به‌روزرسانی Deep Research را برای همه‌ی کاربران اپلیکیشن Gemini در موبایل (اندروید و iOS) عرضه می‌کند که به کاربران امکان می‌دهد منابع را انتخاب کنند، دستورات را وارد کنند و گزارش‌ها را تولید کنند &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1989422254531448933"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;API کلود اکنون از خروجی‌های ساختاریافته از طریق پشتیبانی بومی ابزارها پشتیبانی می‌کند و نیاز به راه‌حل‌های قبلی با استفاده از فراخوانی‌های تک ابزار با طرح‌واره‌ها را از بین می‌برد &lt;em&gt;&lt;a href="https://x.com/simonw/status/1989411809351303430"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;استارتاپ میرا موراتی، Thinking Machines Lab، در حال مذاکرات اولیه برای جذب سرمایه با ارزشی حدود 50 میلیارد دلار است که بیش از 4 برابر ارزش آن در چند ماه پیش است &lt;em&gt;&lt;a href="https://x.com/shiringhaffary/status/1989073320529261132"&gt;@shiringhaffary&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدیرعامل دیزنی از برنامه‌هایی برای استقرار هوش مصنوعی نه تنها در فرآیندهای تولید، بلکه در سراسر شرکت، از جمله برای محتوای تولیدشده‌ی کاربر با فرم کوتاه در پلتفرم Disney+ خبر می‌دهد که نشان‌دهنده‌ی تبدیل دیزنی به یک شرکت هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989353952702574658"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحلیل‌ها نشان می‌دهد که مذاکرات سخت‌گیرانه‌ی دیزنی با یوتیوب ممکن است تاکتیک‌های فشاری از سوی گوگل باشد تا دیزنی را وادار کند &lt;b&gt;Veo&lt;/b&gt; را به جای &lt;b&gt;Sora&lt;/b&gt; به عنوان شریک هوش مصنوعی خود انتخاب کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989353952702574658"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;دسته‌ی جدیدی از استارتاپ‌ها به نام «Neolabs» در سیلیکون‌ولی ظهور می‌کند که 9 از 10 مورد آن‌ها در مرحله‌ی Seed به ارزش 1 میلیارد دلار یا بیشتر می‌رسند، احتمالاً با درآمد کمتر از 10 میلیون دلار، که توسط محققان هوش مصنوعی آزمایشگاه‌های مدل سابق که 10 تا 100 میلیون دلار یا بیشتر ثروت شخصی کسب کرده‌اند، تأسیس شده‌اند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1989392319859356069"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سرمایه‌گذاران خطرپذیر قوانین قدیمی را برای «زمان عجیب» سرمایه‌گذاری در استارتاپ‌های هوش مصنوعی کنار می‌گذارند که نشان‌دهنده‌ی تغییر الگوهای سرمایه‌گذاری در بخش هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1989110915053326650"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;هاروی، که توسط یک همکار حقوقی سال اول ساخته شده است، به یکی از داغ‌ترین استارتاپ‌های سیلیکون‌ولی تبدیل می‌شود که تأثیر هوش مصنوعی بر صنعت حقوقی را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1989302112405397922"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سیسکو EZDubs، یک شرکت فناوری ترجمه‌ی گفتار، را خریداری می‌کند تا فناوری آن‌ها را در محصولات ویدئوکنفرانس سیسکو برای استفاده‌ی میلیون‌ها نفر تعبیه کند &lt;em&gt;&lt;a href="https://x.com/snowmaker/status/1989383254387089480"&gt;@snowmaker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;نرخ اجاره‌ی GPUهای NVIDIA برای &lt;b&gt;H100&lt;/b&gt; و &lt;b&gt;A100&lt;/b&gt; پس از کاهش قیمت در بهار و تابستان تثبیت شده است &lt;em&gt;&lt;a href="https://x.com/a16z/status/1989390739563053273"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گرنت لی، مدیرعامل گاما، تأکید می‌کند که تناسب واقعی محصول با بازار، بازاریابی زورکی را شکست می‌دهد و اشاره می‌کند که رشد آن‌ها از طریق تبلیغات دهان به دهان ارگانیک و نه از طریق هزینه‌های تبلیغاتی بوده است &lt;em&gt;&lt;a href="https://x.com/a16z/status/1989135282848059820"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;مؤسسه‌ی AI Now گزارشی با عنوان «شکافت برای الگوریتم‌ها: تضعیف مقررات هسته‌ای در خدمت هوش مصنوعی» منتشر می‌کند که بررسی می‌کند چگونه مقررات هسته‌ای برای تأمین نیازهای زیرساخت هوش مصنوعی به خطر افتاده است &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/1989415535759823143"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آماندا اسکل از Anthropic در مورد چالش نزدیک شدن کلود به موضوعات سیاسی به طور منصفانه بحث می‌کند و پیشنهاد می‌کند که هنجارهای موجود در مورد احترام و حرفه‌ای‌گری می‌تواند نحوه‌ی برخورد مدل‌های هوش مصنوعی با این مسائل را شکل دهد &lt;em&gt;&lt;a href="https://x.com/AmandaAskell/status/1989328363077382407"&gt;@AmandaAskell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic مواد ارزیابی سوگیری سیاسی منبع باز را برای ترویج شفافیت در رفتار مدل‌های هوش مصنوعی منتشر می‌کند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1989078050773037258"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اپل دستورالعمل‌های بازبینی اپلیکیشن را به‌روزرسانی می‌کند تا برنامه‌هایی را که داده‌های شخصی را با سیستم‌های هوش مصنوعی شخص ثالث به اشتراک می‌گذارند، محدود کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1989080384924184627"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک قاضی فدرال درخواست‌های اپل و OpenAI برای رد شکایت ضد انحصار ایلان ماسک را رد می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989358689145500060"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Comet Assistant از Perplexity ویژگی‌های شفافیت را معرفی می‌کند که دقیقاً نشان می‌دهد چه اقداماتی را انجام می‌دهد، قبل از اقدامات حساس مانند ورود به سیستم یا تکمیل خریدها اجازه می‌گیرد و به کاربران امکان می‌دهد رفتار مرور را کنترل کنند &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1989416343331012971"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فرانسوا شوله «نردبان هوش» را از حفظ کردن تا فراشناخت ترسیم می‌کند و استدلال می‌کند که دستیابی به هوش مصنوعی ترکیبی نیاز به رسیدن به سطح 4 (کشف اصول کلی و فراشناخت) از طریق سنتز برنامه‌ی نمادین به جای یادگیری پارامتری دارد &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1989272911534756038"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک نگرانی‌هایی را در مورد انتظارات برای مدل‌های با وزن باز که با مدل‌های بسته همگام باشند، مطرح می‌کند و به افزایش هزینه‌ها بدون مسیرهای درآمدی مشخص، فشار دولت بر سیستم‌های توانمند و زیر سؤال بردن دوام بلندمدت مدل‌های پیشرفته‌ی چینی که باز می‌مانند، اشاره می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989189674867511723"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI تأیید می‌کند که حضورهای افتخاری &lt;b&gt;Sora&lt;/b&gt; با شخصیت‌های داستانی در سطح بالا کار می‌کنند و فقط به اجازه‌ی IP برای استفاده نیاز دارند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989072307776811206"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مهارت طراحی فرانت‌اند جدید Claude Code با در نظر گرفتن مخاطب و فراتر رفتن از گرادیان‌های بنفش پیش‌فرض و فونت‌های Arial، برنامه‌های کدگذاری‌شده با حس و حال را بهبود می‌بخشد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989093191182926249"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5 Pro&lt;/b&gt; برای تحقیقات علوم اجتماعی فوق‌العاده مفید است و به محققان امکان می‌دهد مجموعه‌داده‌ها و مقالات را تجزیه و تحلیل کنند، کار را بررسی کنند، مشخصات جایگزین را انجام دهند و یافته‌ها را از طریق کد و نتایج آماری ارائه‌شده تأیید کنند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1989204496556384627"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude Code همراه با Playwright MCP ترکیبی قدرتمند برای وظایف توسعه ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/1989219059444125953"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مایکروسافت «کدنویسی با حس و حال» را به نمایش می‌گذارد که به هر کسی، صرف نظر از تجربه، امکان می‌دهد با کمک هوش مصنوعی برنامه بسازد &lt;em&gt;&lt;a href="https://x.com/Microsoft/status/1989377791112945850"&gt;@Microsoft&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft Copilot Learn Live را با حضور Mico معرفی می‌کند، یک همیار مطالعه‌ی هوش مصنوعی که به تجزیه‌ی ایده‌های پیچیده و حفظ تمرکز کمک می‌کند &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1989377791075176819"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Photos شش ویژگی جدید مبتنی بر هوش مصنوعی را برای ویرایش، ایجاد و جستجو راه‌اندازی می‌کند، از جمله Nano Banana برای ریمیکس عکس &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1989422908330946939"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Shopping مستقیماً در اپلیکیشن Gemini برای خرید راحت تعطیلات ادغام می‌شود، با ویژگی‌های هوش مصنوعی عامل از جمله پرداخت و تماس با فروشگاه‌ها برای بررسی موجودی &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1989422908330946939"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NotebookLM به‌روزرسانی‌های عمده‌ای از جمله سبک‌های سفارشی نمای کلی ویدئو، تاریخچه‌ی چت، تصاویر به عنوان منابع و قابلیت‌های Deep Research را دریافت می‌کند &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1989422908330946939"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ChatGPT اکنون به دستورالعمل‌های سفارشی برای جلوگیری از استفاده از خط تیره در پاسخ‌ها احترام می‌گذارد &lt;em&gt;&lt;a href="https://x.com/sama/status/1989193813043069219"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;SIMA 2&lt;/b&gt; از Google DeepMind توانایی بازی کردن در ذهن &lt;b&gt;Genie 3&lt;/b&gt; را نشان می‌دهد که قابلیت‌های پیشرفته‌ی عامل را در دنیاهای تولیدشده‌ی رویه‌ای نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1989124944433934728"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ChatGPT توانایی تشخیص زمانی که مشکلات برای حل کردن بیش از حد دشوار هستند را نشان می‌دهد، همانطور که با خواندن پست‌های MathOverflow و امتناع از تلاش برای حل مشکلات بیش از حد پیچیده مشهود است &lt;em&gt;&lt;a href="https://x.com/aryehazan/status/1989094224940183903"&gt;@aryehazan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;رویترز گزارش می‌دهد که OpenAI در سال 2019 پیشنهاد همکاری با DeepMind در تحقیقات هوش مصنوعی را داده بود اما رد شد، با این گمانه‌زنی که همکاری «OpenMind» می‌توانست به طور قابل توجهی جدول زمانی را جلو بیندازد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1989113700868059205"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان استنفورد مدل هوش مصنوعی جدیدی را برای بینایی کامپیوتر معرفی می‌کنند که قطعات شیء را تشخیص می‌دهد، عملکرد آن‌ها را درک می‌کند و مهارت‌ها را بین اشیاء منتقل می‌کند و به سمت کاربرد واقعی پیش می‌رود &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1989363867760164982"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک مقاله‌ی تولیدشده توسط LLM به 17 درصد برتر از مقالات ارسالی ICLR بر اساس میانگین امتیاز داوران (دریافت دو 8) می‌رسد، با وجود اینکه حاوی اصطلاحات بی‌معنی و مراجع توهم‌زا است، اگرچه یک داور پس از خواندن واقعی آن، به آن صفر داد &lt;em&gt;&amp;lt;a href="https://x.com/micahgoldblum/status/19890885477779&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-14</guid>
-      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
