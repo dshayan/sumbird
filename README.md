@@ -67,18 +67,18 @@ curl http://localhost:8080/OpenAI/rss
 ### Pipeline Commands
 ```bash
 # Complete pipeline
-python main.py
-python main.py --skip-telegram
-python main.py --skip-tts
-python main.py --force-override
-python main.py --date 2025-12-01
+python main.py [--skip-telegram] [--skip-tts] [--force-override] [--date YYYY-MM-DD]
 
 # Test pipeline (isolated test/data/ directories)
-python test/test_main.py
-python test/test_main.py --skip-telegram
-python test/test_main.py --skip-tts
-python test/test_main.py --date 2025-12-01
-python test/test_main.py --force-override
+python test/test_main.py [--skip-telegram] [--skip-tts] [--force-override] [--date YYYY-MM-DD]
+
+# Examples
+python main.py                                    # Run full pipeline
+python main.py --skip-telegram                    # Skip Telegram distribution
+python main.py --skip-tts                         # Skip text-to-speech steps
+python main.py --force-override                   # Regenerate all files
+python main.py --date 2025-12-01                  # Process specific date
+python test/test_main.py --skip-telegram          # Test mode with options
 ```
 
 ### Individual Modules
