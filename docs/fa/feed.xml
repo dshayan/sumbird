@@ -8,23 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Sat, 06 Dec 2025 06:00:14 +0330</lastBuildDate>
-    <pubDate>Sat, 06 Dec 2025 06:00:14 +0330</pubDate>
+    <lastBuildDate>Sun, 07 Dec 2025 00:47:59 +0330</lastBuildDate>
+    <pubDate>Sun, 07 Dec 2025 00:47:59 +0330</pubDate>
     <ttl>1440</ttl>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-05</title>
       <link>https://sumbird.ir/fa/news/2025-12-05</link>
-      <description>متوجه شدم که هیچ پست توییتر/ایکس در پیام شما ارائه نشده است. برای تولید خلاصه‌ی مربوط به هوش مصنوعی که به دنبال آن هستید، لازم است محتوای فایل خروجی ساختاریافته‌ی توییتر/ایکس را جای‌گذاری کنید.
-
-فایل باید شامل موارد زیر باشد:
-- سربرگ با تاریخ و اطلاعات منطقه‌ی زمانی
-- بخش‌های کاربر با فرمت «نام کامل / @نام‌کاربری:»
-- پست‌ها به صورت نقطه‌گذاری‌شده با زمان و URL
-- محتوا به صورت زمانی مرتب شده باشد
-
-پس از ارائه‌ی داده‌های خروجی توییتر/ایکس، من اطلاعات مربوط به هوش مصنوعی را بر اساس دسته‌بندی‌های مشخص‌شده (مدل‌های جدید هوش مصنوعی، تحلیل صنعت، اخلاق و جامعه، کاربردها و پژوهش‌ها) استخراج و دسته‌بندی خواهم کرد.
-
-لطفاً محتوای خروجی توییتر/ایکس را جای‌گذاری کنید تا آن را برای شما پردازش کنم.</description>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;Qwen3-TTS&lt;/b&gt; (نسخه‌ی 2025-11-27) را با بیش از 49 صدای باکیفیت، پشتیبانی از 10 زبان و لهجه‌های اصیل چینی، با ریتم طبیعی و قابلیت تنظیم سرعت منتشر کرد &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1996947806138126547"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل دیپ‌مایند اعلام کرد که &lt;b&gt;Gemini 3 Deep Think&lt;/b&gt; اکنون برای مشترکین Google AI Ultra در دسترس است و فناوری‌های برنده مدال طلای IMO و ICPC را با قابلیت‌های تفکر موازی برای مسائل پیچیده‌ی ریاضی و علمی ترکیب می‌کند &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1996683917991334300"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل &lt;b&gt;Gemini 3 Pro&lt;/b&gt; را به عنوان پیشگام هوش مصنوعی چندوجهی منتشر کرد که عملکردی پیشرفته در درک اسناد، صفحه نمایش، فضا و ویدئو ارائه می‌دهد و قابلیت "derender" اسناد پیچیده را به کد ساختاریافته دارد &lt;em&gt;&lt;a href="https://x.com/googleaidevs/status/1996973083467333736"&gt;@googleaidevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;انویدیا &lt;b&gt;CUDA 13.1&lt;/b&gt; را معرفی کرد، بزرگترین توسعه‌ی CUDA از زمان عرضه‌ی آن در سال 2006، که CUDA Tile را برای آسان‌تر کردن هوش مصنوعی قدرتمند و محاسبات شتاب‌یافته برای توسعه‌دهندگان بیشتر معرفی می‌کند &lt;em&gt;&lt;a href="https://x.com/nvidianewsroom/status/1996976316453679381"&gt;@nvidianewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MBZUAI &lt;b&gt;K2-V2&lt;/b&gt; را منتشر کرد، یک LLM با 70 میلیارد پارامتر که از ابتدا به عنوان پایه‌ای برتر برای تطبیق استدلال ساخته شده است، با 512K کانتکست بومی و شفافیت کامل شامل دستورالعمل‌های مجموعه داده، نقاط بازرسی میانی آموزش و ابزارهای ارزیابی &lt;em&gt;&lt;a href="https://x.com/mbzuai/status/1996986508231012502"&gt;@mbzuai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مایکروسافت همراه &lt;b&gt;Mico&lt;/b&gt; را برای حالت صوتی در Copilot معرفی کرد که اکنون برای کاربران در بریتانیا و کانادا در دسترس است &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1996994917827289481"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل ریسرچ &lt;b&gt;Titans&lt;/b&gt; را در NeurIPS 2025 ارائه کرد، یک معماری جدید که سرعت RNNها را با عملکرد ترنسفورمرها ترکیب می‌کند و از حافظه‌ی عصبی عمیق برای مقیاس‌پذیری مؤثر به کانتکست‌های بزرگتر از 2 میلیون توکن استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/GoogleResearch/status/1996674393842614338"&gt;@GoogleResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;بر اساس گزارش‌های رسانه‌ای، OpenAI و Anthropic رشد درآمد بی‌سابقه‌ای را تجربه می‌کنند که قبلاً توسط هیچ شرکتی در تاریخ بشر دیده نشده است &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1996793824803541453"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;رشد کاربران ChatGPT طبق یافته‌های گزارش جدید کند شده است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997035807681740868"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اسپیس‌ایکس در حال مذاکره برای فروش سهام ثانویه است که ارزش آن را به 800 میلیارد دلار می‌رساند و احتمالاً دوباره آن را به باارزش‌ترین شرکت خصوصی ایالات متحده تبدیل می‌کند و از OpenAI پیشی می‌گیرد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1997018216602935590"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اسپیس‌ایکس قصد دارد در سال 2026 وارد بورس شود و دیگر Starlink را جدا نخواهد کرد &lt;em&gt;&lt;a href="https://x.com/Katie_Roof/status/1997027952547209269"&gt;@Katie_Roof&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سیرا با همکاری سافت‌بانک دفتری در توکیو افتتاح می‌کند تا به ژاپن گسترش یابد &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1996955316940890450"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SiriusXM اولین کسب‌وکاری است که پلتفرم داده‌ی عامل (ADP) سیرا را به کار می‌گیرد و به عامل پشتیبانی مشتری هوش مصنوعی خود، هارمونی، حافظه و کانتکست برای روابط طولانی‌مدت و پیشگیرانه می‌دهد &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1996955660425351368"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;بزرگترین بانک برزیل، Itau، Devin را در کل SDLC خود با بیش از 17000 مهندس به کار گرفت و به پروژه‌های مهاجرت 5-6 برابر سریع‌تر، 70% ترمیم خودکار آسیب‌پذیری‌های امنیتی، 2 برابر پوشش تست و مستندسازی بیش از 300 هزار مخزن دست یافت &lt;em&gt;&lt;a href="https://x.com/cognition/status/1996667520800247999"&gt;@cognition&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;نتفلیکس در جنگ مزایده برای خرید Warner Bros. Discovery پیروز شد و 30 دلار به ازای هر سهم و 5 میلیارد دلار هزینه‌ی فسخ قرارداد پیشنهاد داد، اگرچه فروش به دلیل نگرانی‌های احتمالی وزارت دادگستری در مورد ضد انحصار هنوز نهایی نشده است &lt;em&gt;&lt;a href="https://x.com/DiscussingFilm/status/1996800604908519555"&gt;@DiscussingFilm&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان مایکروسافت نوآوری‌های علمی از جمله Majorana 1 (اولین پردازنده‌ی کوانتومی جهان با کیوبیت‌های توپولوژیک)، Aurora برای پیش‌بینی آب و هوای شدید و FCDD برای بهبود تشخیص زودهنگام سرطان سینه را معرفی کردند &lt;em&gt;&lt;a href="https://x.com/Microsoft/status/1996997505343472011"&gt;@Microsoft&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;آماندا اسکل از Anthropic در اولین جلسه‌ی پرسش و پاسخ خود به بحث در مورد سؤالات فلسفی درباره‌ی هوش مصنوعی از جمله اخلاق، هویت، آگاهی، رفاه مدل و اینکه آیا مدل‌ها تصمیمات فوق‌العاده اخلاقی می‌گیرند، پرداخت &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1996974684995289416"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آزمایش‌های گسترده در بریتانیا، ایالات متحده و لهستان نشان داد که چت‌بات‌های هوش مصنوعی در متقاعدسازی بسیار خوب عمل می‌کنند، عمدتاً با ارائه‌ی تعداد زیادی ادعای مبتنی بر واقعیت، با اثرات متقاعدسازی که در طول زمان باقی می‌ماند و هوش مصنوعی با بزرگتر شدن مدل‌ها متقاعدکننده‌تر می‌شود &lt;em&gt;&lt;a href="https://x.com/emollick/status/1996770000389169205"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهش‌ها نشان می‌دهد که خودانگاره یا خودپنداره‌ی یک مدل تأثیر واقعی بر نحوه‌ی تعمیم رفتار آن به تنظیمات جدید دارد &lt;em&gt;&lt;a href="https://x.com/sleepinyourhat/status/1997006360450683373"&gt;@sleepinyourhat&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;جیمز زو، عضو هیئت علمی Stanford HAI، اشاره می‌کند که هوش مصنوعی باید باورهای غلط و تصورات اشتباه را تشخیص داده و به رسمیت بشناسد، و این را به عنوان یک شکاف بزرگ در مدل‌های فعلی شناسایی می‌کند &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1996989206833303561"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یان لایک از Anthropic فاش کرد که محققان هم‌ترازی عمیقاً در پس از آموزش برای &lt;b&gt;Opus 4.5&lt;/b&gt; مشارکت دارند و آزادی عمل قابل توجهی برای ایجاد تغییرات دارند که به بهترین مدل هم‌تراز شده کمک می‌کند &lt;em&gt;&lt;a href="https://x.com/janleike/status/1997011950400950509"&gt;@janleike&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان Media Lab توانایی LLMها را در شبیه‌سازی شادی انسان و رفاه ذهنی ارزیابی کردند و دریافتند که در حالی که سیستم‌های هوش مصنوعی می‌توانند الگوهای گسترده‌ی رضایت از زندگی جهانی را بازتولید کنند، دارای سوگیری‌های ساختاری عمیقی هستند که خطر پنهان کردن واقعیت‌های زندگی میلیون‌ها نفر را به همراه دارد &lt;em&gt;&lt;a href="https://x.com/medialab/status/1997005589612802551"&gt;@medialab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;نیویورک تایمز از Perplexity به دلیل نقض حق کپی‌رایت شکایت می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996974668826530273"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مانیفست Resonant Computing منتشر شد که از نرم‌افزار مبتنی بر هوش مصنوعی فوق‌العاده شخصی‌سازی شده حمایت می‌کند که از الگوهای ضد ربایش توجه که دهه‌ی گذشته‌ی طراحی نرم‌افزار را تعریف کردند، اجتناب می‌کند &lt;em&gt;&lt;a href="https://x.com/komorama/status/1996971981414322492"&gt;@komorama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cursor با به‌روزرسانی پرامپت‌ها، تنظیم تعاریف ابزار و ارائه‌ی ابزارهای جدیدی مانند جستجوی معنایی، جدیدترین مدل Codex را برای اجرا در پلتفرم خود بهینه می‌کند &lt;em&gt;&lt;a href="https://x.com/leerob/status/1996646921361150126"&gt;@leerob&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gradium AI API STT + TTS بلادرنگ خود را به ربات Reachy Mini متصل کرد و یک ربات مکالمه‌ای زنده و بدون اسکریپت با صدا، شخصیت، زبان و حرکات که همگی توسط گفتار کنترل می‌شوند، ایجاد کرد &lt;em&gt;&lt;a href="https://x.com/GradiumAI/status/1996873693427794056"&gt;@GradiumAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity همکاری با کریستیانو رونالدو را آغاز کرد، با سرمایه‌گذاری این اسطوره‌ی فوتبال در شرکت و یک صفحه‌ی اختصاصی که زندگی او را بررسی می‌کند &lt;em&gt;&lt;a href="https://x.com/Cristiano/status/1996626923720462425"&gt;@Cristiano&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;دایرکتوری ادغام‌های Linear اکنون شامل چندین عامل هوش مصنوعی برای وظایف مهندسی از جمله Tembo، Sentry، Codegen، Cursor، Factory AI، GitHub Copilot، OpenAI Codex و Cognition Devin است &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/1996976761813585972"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;HHS استراتژی هوش مصنوعی را برای پیشبرد پذیرش سریع هوش مصنوعی در سراسر وزارتخانه با مدرن‌سازی فرآیندها، کاهش بوروکراسی، با کاربردهای آینده از جمله تسریع تأییدیه‌های FDA، مبارزه با کلاهبرداری در CMS و ساده‌سازی بررسی کمک‌های مالی منتشر کرد &lt;em&gt;&lt;a href="https://x.com/HHS_Jim/status/1996669284614132176"&gt;@HHS_Jim&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Gemini 3 Pro&lt;/b&gt; به عملکردی پیشرفته در جدول رده‌بندی تولید SVG دست یافت و به عنوان قدرتمندترین مدل برای تولید SVGهای منسجم و بصری جذاب رتبه‌بندی شد &lt;em&gt;&lt;a href="https://x.com/lintool/status/1996696157985398812"&gt;@lintool&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان MIT یک ربات هوایی کوچک توسعه دادند که می‌تواند با سرعت و چابکی قابل مقایسه با برخی حشرات پرواز کند و راه را برای ربات‌های آینده به اندازه‌ی حشرات برای مأموریت‌های جستجو و نجات باز می‌کند &lt;em&gt;&lt;a href="https://x.com/MIT/status/1996978878833713381"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ARC Prize 2025 برندگان را اعلام کرد که جایزه‌ی بزرگ بدون مدعی باقی ماند و سال 2025 را به عنوان سال حلقه‌ی پالایش با پیشرفت‌های چشمگیر در حلقه‌های پالایش مبتنی بر LLM و ظهور رویکردهای یادگیری عمیق بدون پیش‌آموزش مانند HRM و TRM نشان داد &lt;em&gt;&lt;a href="https://x.com/arcprize/status/1997010070585201068"&gt;@arcprize&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;انویدیا استنتاج را به عنوان موتور اقتصادی اصلی کارخانه‌ی هوش مصنوعی معرفی کرد، با بهینه‌سازی در سطح سیستم که 10 برابر افزایش عملکرد را برای معماری‌های استنتاج در مقیاس بزرگ مانند ترکیب متخصصان ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/NVIDIADC/status/1996701049373983029"&gt;@NVIDIADC&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenRouter مطالعه‌ی تجربی 100 تریلیون توکن را منتشر کرد که الگوهای استفاده در مدل‌های هوش مصنوعی را نشان می‌دهد، با برنامه‌نویسی و نقش‌آفرینی به عنوان موارد استفاده‌ی غالب &lt;em&gt;&lt;a href="https://x.com/AnjneyMidha/status/1996724473157017911"&gt;@AnjneyMidha&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA NeMo Automodel، یک کتابخانه‌ی منبع باز در چارچوب NVIDIA NeMo، اکنون به توسعه‌دهندگان امکان می‌دهد مدل‌های MoE در مقیاس بزرگ را مستقیماً در PyTorch با استفاده از ابزارهای آشنا آموزش دهند &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1996734741823779001"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یجین چوی سخنرانی اصلی خود را در NeurIPS 2025 در مورد استدلال عقل سلیم و درک زبان ارائه داد و خواستار راهی جدید برای سازمان‌ها و افراد برای ساخت مشترک مرز باز هوش مصنوعی شد که در آن همه بتوانند مشارکت کرده و از آن بهره‌مند شوند &lt;em&gt;&lt;a href="https://x.com/LaudeInstitute/status/1996724247704855039"&gt;@LaudeInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-05</guid>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
     </item>

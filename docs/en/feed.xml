@@ -8,23 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Dec 2025 06:00:13 +0330</lastBuildDate>
-    <pubDate>Sat, 06 Dec 2025 06:00:13 +0330</pubDate>
+    <lastBuildDate>Sun, 07 Dec 2025 00:47:59 +0330</lastBuildDate>
+    <pubDate>Sun, 07 Dec 2025 00:47:59 +0330</pubDate>
     <ttl>1440</ttl>
     <item>
       <title>AI Updates on 2025-12-05</title>
       <link>https://sumbird.ir/en/news/2025-12-05</link>
-      <description>I notice that no Twitter posts were provided in your message. To generate the AI-related summary you're looking for, I'll need you to paste the structured Twitter/X export file content.
-
-The file should contain:
-- Header with date and timezone information
-- User sections formatted as "Full Name / @handle:"
-- Posts as bullet points with timestamps and URLs
-- Content organized chronologically
-
-Once you provide the Twitter export data, I'll extract and categorize the AI-related information according to the categories you specified (AI Model Announcements, AI Industry Analysis, AI Ethics &amp;amp; Society, AI Applications, and AI Research).
-
-Please paste the Twitter export content, and I'll process it for you.</description>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-TTS&lt;/b&gt; (version 2025-11-27) with over 49 high-quality voices, support for 10 languages and authentic Chinese dialects, featuring natural rhythm and speed adaptation &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1996947806138126547"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google DeepMind announces &lt;b&gt;Gemini 3 Deep Think&lt;/b&gt; is now available for Google AI Ultra subscribers, incorporating gold medal winning IMO and ICPC technologies with parallel thinking capabilities for complex math and science problems &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1996683917991334300"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;Gemini 3 Pro&lt;/b&gt; as the frontier of multimodal AI, delivering state-of-the-art performance across document, screen, spatial, and video understanding with capabilities to "derender" complex documents into structured code &lt;em&gt;&lt;a href="https://x.com/googleaidevs/status/1996973083467333736"&gt;@googleaidevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA announces &lt;b&gt;CUDA 13.1&lt;/b&gt;, the biggest expansion of CUDA since its 2006 launch, introducing CUDA Tile to make powerful AI and accelerated computing easier for more developers &lt;em&gt;&lt;a href="https://x.com/nvidianewsroom/status/1996976316453679381"&gt;@nvidianewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MBZUAI releases &lt;b&gt;K2-V2&lt;/b&gt;, a 360-open 70B parameter LLM built from scratch as a superior base for reasoning adaptation, with native 512K context and full transparency including dataset recipes, mid-training checkpoints, and evaluation tools &lt;em&gt;&lt;a href="https://x.com/mbzuai/status/1996986508231012502"&gt;@mbzuai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft introduces &lt;b&gt;Mico&lt;/b&gt; companion for Voice mode in Copilot, now available for users in the U.K. and Canada &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1996994917827289481"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Research presents &lt;b&gt;Titans&lt;/b&gt; at NeurIPS 2025, a new architecture combining the speed of RNNs with the performance of Transformers, using deep neural memory to effectively scale to contexts larger than 2 million tokens &lt;em&gt;&lt;a href="https://x.com/GoogleResearch/status/1996674393842614338"&gt;@GoogleResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI and Anthropic are experiencing unprecedented revenue growth never seen before by any company in human history, according to aggregated media leaks &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1996793824803541453"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ChatGPT's user growth has slowed according to new report findings &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997035807681740868"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SpaceX is in discussions for secondary share sale that would value them at $800 billion, potentially making them the most valuable US private company again, surpassing OpenAI &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1997018216602935590"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SpaceX is aiming to IPO in 2026 and will no longer spin off Starlink &lt;em&gt;&lt;a href="https://x.com/Katie_Roof/status/1997027952547209269"&gt;@Katie_Roof&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sierra opens office in Tokyo in partnership with SoftBank as they expand to Japan &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1996955316940890450"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SiriusXM becomes the first business to adopt Sierra's Agent Data Platform (ADP), giving their AI customer support agent Harmony the memory and context for longer lasting, proactive relationships &lt;em&gt;&lt;a href="https://x.com/btaylor/status/1996955660425351368"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Brazil's largest bank Itau deployed Devin across their whole SDLC with 17,000+ engineers, achieving 5-6x faster migration projects, 70% auto-remediation of security vulnerabilities, 2x test coverage, and 300k+ repos documented &lt;em&gt;&lt;a href="https://x.com/cognition/status/1996667520800247999"&gt;@cognition&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Netflix wins bidding war to purchase Warner Bros. Discovery, offering $30 per share and a $5 billion break-up fee, though the sale is not yet finalized due to potential DOJ anti-trust concerns &lt;em&gt;&lt;a href="https://x.com/DiscussingFilm/status/1996800604908519555"&gt;@DiscussingFilm&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft researchers introduce scientific innovations including Majorana 1 (world's first quantum processor with topological qubits), Aurora for extreme weather prediction, and FCDD for improved early breast cancer detection &lt;em&gt;&lt;a href="https://x.com/Microsoft/status/1996997505343472011"&gt;@Microsoft&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic's Amanda Askell discusses philosophical questions about AI including morality, identity, consciousness, model welfare, and whether models make superhumanly moral decisions in first Ask Me Anything session &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1996974684995289416"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Large-scale experiments in UK, US, and Poland found AI chatbots are very good at persuasion, primarily by providing lots of fact-based claims, with persuasion effects lasting over time and AI becoming more persuasive as models grow bigger &lt;em&gt;&lt;a href="https://x.com/emollick/status/1996770000389169205"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research shows a model's self-image or self-concept has real influence on how its behavior generalizes to novel settings &lt;em&gt;&lt;a href="https://x.com/sleepinyourhat/status/1997006360450683373"&gt;@sleepinyourhat&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford HAI faculty member James Zou notes that AI needs to recognize and acknowledge false beliefs and misconceptions, identifying this as still a big gap in current models &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1996989206833303561"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic's Jan Leike reveals that alignment researchers are deeply involved in post-training for &lt;b&gt;Opus 4.5&lt;/b&gt; and get significant leeway to make changes, contributing to it being the best-aligned model &lt;em&gt;&lt;a href="https://x.com/janleike/status/1997011950400950509"&gt;@janleike&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Media Lab researchers evaluate LLMs' ability to simulate human happiness and subjective wellbeing, finding that while AI systems can reproduce broad patterns of global life satisfaction, they carry deep structural biases that risk obscuring lived realities of millions &lt;em&gt;&lt;a href="https://x.com/medialab/status/1997005589612802551"&gt;@medialab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;The New York Times is suing Perplexity for copyright infringement &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996974668826530273"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Resonant Computing Manifesto released, advocating for hyper-personalized AI-powered software that avoids attention hijacking anti-patterns that defined the last decade of software design &lt;em&gt;&lt;a href="https://x.com/komorama/status/1996971981414322492"&gt;@komorama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cursor optimizes the latest Codex model to run in their platform by updating prompts, tweaking tool definitions, and giving the model new tools like semantic search &lt;em&gt;&lt;a href="https://x.com/leerob/status/1996646921361150126"&gt;@leerob&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gradium AI plugged their real-time STT + TTS API into Reachy Mini robot, creating a live, unscripted conversational robot with voice, personality, language, and gestures all controlled by speech &lt;em&gt;&lt;a href="https://x.com/GradiumAI/status/1996873693427794056"&gt;@GradiumAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity launches partnership with Cristiano Ronaldo, with the soccer legend investing in the company and a dedicated page exploring his life &lt;em&gt;&lt;a href="https://x.com/Cristiano/status/1996626923720462425"&gt;@Cristiano&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Linear integrations directory now includes multiple AI agents for engineering tasks including Tembo, Sentry, Codegen, Cursor, Factory AI, GitHub Copilot, OpenAI Codex, and Cognition Devin &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/1996976761813585972"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;HHS releases AI Strategy to advance rapid AI adoption across the department by modernizing processes, cutting red tape, with future applications including accelerating FDA approvals, fighting fraud at CMS, and streamlining grant review &lt;em&gt;&lt;a href="https://x.com/HHS_Jim/status/1996669284614132176"&gt;@HHS_Jim&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Gemini 3 Pro&lt;/b&gt; achieves state-of-the-art performance on SVG generation leaderboard, ranking as the most powerful model for generating coherent and visually appealing SVGs &lt;em&gt;&lt;a href="https://x.com/lintool/status/1996696157985398812"&gt;@lintool&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT researchers develop tiny aerial robot that can fly with speed and agility comparable to some insects, opening door to future bug-sized robots for search-and-rescue missions &lt;em&gt;&lt;a href="https://x.com/MIT/status/1996978878833713381"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ARC Prize 2025 announces winners with Grand Prize remaining unclaimed, marking 2025 as the year of the refinement loop with remarkable progress on LLM-driven refinement loops and rise of zero-pretraining deep learning approaches like HRM and TRM &lt;em&gt;&lt;a href="https://x.com/arcprize/status/1997010070585201068"&gt;@arcprize&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA introduces inference as the core economic engine of the AI factory, with system-level optimization delivering 10x performance gains for large-scale inference architectures like mixture-of-experts &lt;em&gt;&lt;a href="https://x.com/NVIDIADC/status/1996701049373983029"&gt;@NVIDIADC&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenRouter releases empirical 100 trillion token study showing usage patterns across AI models, with programming and role-playing being dominant use cases &lt;em&gt;&lt;a href="https://x.com/AnjneyMidha/status/1996724473157017911"&gt;@AnjneyMidha&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA NeMo Automodel, an open source library within NVIDIA NeMo framework, now enables developers to train large-scale MoE models directly in PyTorch using familiar tools &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1996734741823779001"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Yejin Choi delivers keynote at NeurIPS 2025 on commonsense reasoning and language understanding, calling for a new way for organizations and individuals to jointly build the open frontier of AI where everyone can contribute and benefit &lt;em&gt;&lt;a href="https://x.com/LaudeInstitute/status/1996724247704855039"&gt;@LaudeInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-05</guid>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
     </item>
