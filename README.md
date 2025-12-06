@@ -19,7 +19,8 @@ AI-powered pipeline for fetching Twitter/X content via RSS, summarizing with AI,
 3. **Set up Nitter and session tokens:**
    ```bash
    docker compose up -d
-   ./scripts/create_nitter_session.sh
+   # Create session tokens - see https://github.com/zedeus/nitter/wiki/Creating-session-tokens
+   docker compose restart nitter
    ```
 
 4. **Run pipeline:**
@@ -44,7 +45,10 @@ Sumbird uses self-hosted [Nitter](https://github.com/zedeus/nitter) for Twitter/
 **Setup:**
 ```bash
 docker compose up -d
-./scripts/create_nitter_session.sh
+# Create session tokens - see https://github.com/zedeus/nitter/wiki/Creating-session-tokens
+# Download create_session_browser.py or create_session_curl.py from Nitter's tools/ directory
+pip install -r requirements.txt  # Install Nitter's requirements
+python3 create_session_browser.py <username> <password> [totp_secret] --append sessions.jsonl
 docker compose restart nitter
 ```
 
@@ -98,7 +102,9 @@ python scripts/generate_newsletter.py
 python scripts/telegraph_post_manager.py
 
 # Session token creation
-./scripts/create_nitter_session.sh
+# See https://github.com/zedeus/nitter/wiki/Creating-session-tokens
+# Download create_session_browser.py or create_session_curl.py from Nitter's tools/ directory
+# python3 create_session_browser.py <username> <password> [totp_secret] --append sessions.jsonl
 
 # Automated scheduling
 ./scripts/pipeline_scheduler.sh setup

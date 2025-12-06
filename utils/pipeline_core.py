@@ -61,6 +61,19 @@ def run_pipeline_core(config_module, log_prefix="", test_mode=False, skip_telegr
         export_file = config_module.get_file_path('export', date_str)
         using_cached_export = os.path.exists(export_file) and not force_override
         
+        # Check if cached file is empty (contains only "# No Twitter Posts Found")
+        if using_cached_export:
+            try:
+                with open(export_file, 'r', encoding='utf-8') as f:
+                    first_line = f.read().strip()
+                    if first_line == "# No Twitter Posts Found":
+                        log_info(pipeline_name, f"Cached export file is empty, re-fetching...")
+                        using_cached_export = False
+            except Exception:
+                # If we can't read the file, re-fetch to be safe
+                log_info(pipeline_name, f"Could not read cached export file, re-fetching...")
+                using_cached_export = False
+        
         if using_cached_export:
             # Using cached export file
             log_info(pipeline_name, f"Using existing export file: {export_file}")
