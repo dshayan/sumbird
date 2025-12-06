@@ -8,9 +8,61 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Dec 2025 00:47:59 +0330</lastBuildDate>
-    <pubDate>Sun, 07 Dec 2025 00:47:59 +0330</pubDate>
+    <lastBuildDate>Sun, 07 Dec 2025 01:01:14 +0330</lastBuildDate>
+    <pubDate>Sun, 07 Dec 2025 01:01:14 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-12-06</title>
+      <link>https://sumbird.ir/en/news/2025-12-06</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Essential AI releases &lt;b&gt;Rnj-1&lt;/b&gt;, an 8B parameter base and instruct model pair achieving &lt;b&gt;SWE-bench&lt;/b&gt; performance close to &lt;b&gt;GPT-4o&lt;/b&gt;, tool use outperforming comparable open source models, and mathematical reasoning on &lt;b&gt;AIME 2025&lt;/b&gt; nearly matching GPT OSS MoE 20B &lt;em&gt;&lt;a href="https://x.com/ashVaswani/status/1997126533060903239"&gt;@ashVaswani&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google announces &lt;b&gt;Gemini 3 Pro&lt;/b&gt; and &lt;b&gt;Nano Banana Pro&lt;/b&gt; in Google Search via AI Mode expanded to more countries in English language &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1997046353206161537"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google updates Deep Think mode in Gemini App for Google AI Ultra subscribers, improving reasoning capabilities by exploring multiple hypotheses simultaneously &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1997046353206161537"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA &lt;b&gt;Nemotron&lt;/b&gt; models integrated with Amazon Bedrock, with early adopters like CrowdStrike powering security agents and BridgeWise AI delivering financial insights &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1997123830221816163"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Reports suggest OpenAI's &lt;b&gt;GPT-5.2&lt;/b&gt; code red response to Google coming December 9th, earlier than originally planned &lt;em&gt;&lt;a href="https://x.com/apples_jimmy/status/1997106761996947695"&gt;@apples_jimmy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Meta acquires AI device startup Limitless, expanding its AI hardware capabilities &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997049403438518572"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI synthetic research startup Aaru raises Series A at $1B headline valuation &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997088988709138548"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ex-Google startup Yoodli triples valuation to over $300M with AI built to assist rather than replace people &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997090156743217512"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SpaceX reportedly in talks for secondary sale at $800B valuation, which would make it America's most valuable private company &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997050664187552174"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Bay Area engineering compensation landscape shows OpenAI and Anthropic engineers earning multi-million packages, while AI startup engineers at $200k grind to prompt LLMs and restart after new model releases &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1997327690123366534"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA RTX PRO 6000 GPUs will render 99% of Pixar shots with RenderMan XPU, reshaping Pixar's workflow for Toy Story 5 with bigger scenes and faster rendering &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1997112316106617237"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Research shows AI-generated advertising outperforms human-created ads by 19% in click-through rates, but disclosing AI use results in 32% performance drop, raising questions about transparency requirements &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1997340857435828577"&gt;@AndrewCurran&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick notes AI-created visual ads achieved 20% more clicks than human expert ads, but disclosure of AI creation reduced performance to 31% less than human-made ads &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997363286015180856"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI's Nick Turley clarifies there are no live tests for ads in ChatGPT, stating any future ad implementation would take a thoughtful approach respecting user trust &lt;em&gt;&lt;a href="https://x.com/nickaturley/status/1997120491589349440"&gt;@nickaturley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick raises concerns about xAI's lack of transparency regarding their approaches to AI, safeguards, and what truth-seeking means, particularly important for enterprise use &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997063529912750504"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mollick notes odd findings in Grok 4.1 model card including increasing sycophancy rates and high deception scores compared to other models &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997064596272693715"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andrew Curran predicts governments will push for backdoor legislation in home robots, demanding mandatory override codes for authorities despite citizens potentially pooling resources for local security &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1997322593007792412"&gt;@AndrewCurran&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Khosla Ventures managing partner Keith Rabois calls AI safety a complete hoax, stating it's bureaucrats finding excuses to interfere with progress &lt;em&gt;&lt;a href="https://x.com/tbpn/status/1997109758374171214"&gt;@tbpn&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Amanda Askell confirms Claude was trained on a real alignment document in supervised learning, with full version and details to be released soon &lt;em&gt;&lt;a href="https://x.com/alexgraveley/status/1997358839331516654"&gt;@alexgraveley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity Finance launches full screen graphs feature &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1997398134280929280"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NotebookLM mobile app receives updates including Slide Decks and Infographics, Images as Sources, and saved Audio Overview progress &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1997046353206161537"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Workspace Studio launches, empowering subscribers to automate work from simple tasks to complex processes with custom AI agents &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1997046353206161537"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hex CEO Barry McCardel discusses how AI changes data interaction through collaborative analytics workspaces, agent workflows, and conversational interfaces &lt;em&gt;&lt;a href="https://x.com/sarahdingwang/status/1997044652164460869"&gt;@sarahdingwang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;CrowdStrike powers advanced security agents in Charlotte AI AgentWorks using NVIDIA Nemotron models &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1997123830221816163"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google's &lt;b&gt;Gemini 3 Pro&lt;/b&gt; demonstrates state-of-the-art multimodal performance across document, screen, spatial, and video understanding, with capabilities to derender complex documents into structured code and generate collision-free trajectories for robotics &lt;em&gt;&lt;a href="https://x.com/googleaidevs/status/1996973083467333736"&gt;@googleaidevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Jeff Dean demonstrates &lt;b&gt;Gemini 3 Pro&lt;/b&gt; visual reasoning by having it annotate performance improvements versus competing models, showing large relative accuracy gains across benchmarks &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1997132722788356353"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford Professor Yejin Choi presents research on latent collaboration in multi-agent systems and discusses 2026 AI predictions at NeurIPS 2025 &lt;em&gt;&lt;a href="https://x.com/NVIDIAAIDev/status/1997093711352598586"&gt;@NVIDIAAIDev&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research paper Colors of Growth develops novel approach to measuring long-run economic growth by analyzing systematic variation in color use in European paintings from 1600-1820 &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997188746727325950"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick summarizes 2025 AI trends: no slowdown in exponential gains, jaggedness remains main issue, early positive ROI reports, GenAI became industry-level, and AI remains fundamentally weird &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997371953267585509"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Deep Learning for Code workshop at NeurIPS 2025 focuses on code agents in the agentic era with speakers including Graham Neubig and Dawn Song &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1997222545515598271"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford researcher notes that deep learning success requires getting 98% of details right, with the last few details having extremely nonlinear impact &lt;em&gt;&lt;a href="https://x.com/arimorcos/status/1997167340317016548"&gt;@arimorcos&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-06</guid>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-12-05</title>
       <link>https://sumbird.ir/en/news/2025-12-05</link>
@@ -1012,38 +1064,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-17</guid>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-16</title>
-      <link>https://sumbird.ir/en/news/2025-11-16</link>
-      <description>&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Google's &lt;b&gt;AlphaEvolve&lt;/b&gt; discovers solutions better than humans on certain math problems, including the Kissing problem, by repeatedly searching for solutions in parallel, verifying them, and performing natural selection to evolve ideas. Research by mathematician Terence Tao tested it on 67 problems and found that smarter AI base models converge to solutions quicker, parallelizing generally helps but adds compute cost, and reward hacking is common &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1989878190999994550"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Future House team achieves breakthrough in AI-assisted scientific research, described as one of the most important impacts of AI &lt;em&gt;&lt;a href="https://x.com/sama/status/1990071287750729829"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Shopify was the first company outside of Microsoft to use &lt;b&gt;GitHub Copilot&lt;/b&gt;, with their Head of Engineering sharing that being known for giving great feedback helped them get early access &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1990117136824496374"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Some companies are finding that having developers use AI tools in interviews don't provide much signal, with at least one Silicon Valley startup eliminating "build something with AI" interviews &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1990005576516911283"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Chinese models are already eating leading AI lab market share, with questions about whether this trend is more sticky within enterprises &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1789799983768637752"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft's Fairwater datacenter in Atlanta has taken over 15 million labor hours to build, more than double the 7 million hours required for the Empire State Building &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1990119587355258911"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Gmail introduces new smart scheduling feature that uses email context to find meeting times and automatically creates events when receiver selects a time, representing significant productivity improvement &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1990083905345536146"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New version of llm-anthropic plugin adds support for &lt;b&gt;structured outputs&lt;/b&gt; via official API and Anthropic's web search feature &lt;em&gt;&lt;a href="https://x.com/simonw/status/1989798677310050348"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andrej Karpathy proposes that &lt;b&gt;verifiability&lt;/b&gt; is the most predictive feature for AI automation in the new programming paradigm, where tasks that can be practiced, reset, and rewarded are most amenable to neural network optimization &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1990116666194456651"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Experts at making AI are not necessarily experts at using AI, creating opportunities for domain specialists to figure out AI capabilities in their fields before others &lt;em&gt;&lt;a href="https://x.com/emollick/status/1990134777161142453"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Current AI benchmarking focuses too heavily on model ability through API calls rather than &lt;b&gt;agentic work&lt;/b&gt; that combines tools and problem-solving ability, which matters more economically &lt;em&gt;&lt;a href="https://x.com/emollick/status/1990076061254668403"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Better benchmarking is needed to understand why agentic abilities break down, including vision weaknesses and "doom loops" where AI keeps trying the same failed approach &lt;em&gt;&lt;a href="https://x.com/emollick/status/1990078511948726575"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Windows faces criticism from developers for including ads in a paid OS and turning on OS-level AI features like &lt;b&gt;Recall&lt;/b&gt; by default, which developers don't want &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1990028426464649458"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Canadian medical system outside major cities has completely collapsed, with AI integration potentially mitigating staff shortages but still years away from implementation &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1990138869896089676"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-16</guid>
-      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
