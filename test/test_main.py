@@ -32,6 +32,7 @@ Examples:
   python test/test_main.py                    # Run complete test pipeline including Telegram distribution
   python test/test_main.py --skip-telegram   # Run test pipeline but skip Telegram distribution step
   python test/test_main.py --skip-tts        # Run test pipeline but skip TTS steps (Script Writer and Narrator)
+  python test/test_main.py --date 2025-12-05 # Run test pipeline for a specific date
   python test/test_main.py --force-override # Force regeneration of all files in test mode
         """
     )
@@ -54,6 +55,12 @@ Examples:
         help='Force regeneration of all files, bypassing cache and overriding existing outputs in test mode'
     )
     
+    parser.add_argument(
+        '--date',
+        type=str,
+        help='Target date in YYYY-MM-DD format (default: yesterday or TARGET_DATE env var)'
+    )
+    
     return parser.parse_args()
 
 def run_test_pipeline(skip_telegram=False, skip_tts=False, force_override=False):
@@ -65,6 +72,11 @@ def run_test_pipeline(skip_telegram=False, skip_tts=False, force_override=False)
 if __name__ == "__main__":
     try:
         args = parse_arguments()
+        
+        # Handle date override if provided
+        if args.date:
+            config.TARGET_DATE = args.date
+            log_info('Test Pipeline', f"Using specified date: {args.date}")
         
         if args.skip_telegram:
             log_info('Test Pipeline', "Starting test pipeline with Telegram distribution disabled")

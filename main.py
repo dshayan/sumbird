@@ -37,6 +37,7 @@ Examples:
   python main.py                    # Run complete pipeline including Telegram distribution
   python main.py --skip-telegram   # Run pipeline but skip Telegram distribution step
   python main.py --skip-tts        # Run pipeline but skip TTS steps (Script Writer and Narrator)
+  python main.py --date 2025-12-05 # Run pipeline for a specific date
   python main.py --force-lock     # Force release any existing lock and run pipeline
   python main.py --check-lock     # Check lock status without running pipeline
   python main.py --force-override # Force regeneration of all files, bypassing cache
@@ -73,6 +74,12 @@ Examples:
         help='Force regeneration of all files, bypassing cache and overriding existing outputs'
     )
     
+    parser.add_argument(
+        '--date',
+        type=str,
+        help='Target date in YYYY-MM-DD format (default: yesterday or TARGET_DATE env var)'
+    )
+    
     return parser.parse_args()
 
 def run_pipeline(skip_telegram=False, skip_tts=False, force_override=False):
@@ -85,6 +92,12 @@ def run_pipeline(skip_telegram=False, skip_tts=False, force_override=False):
 if __name__ == "__main__":
     try:
         args = parse_arguments()
+        
+        # Handle date override if provided
+        if args.date:
+            import config
+            config.TARGET_DATE = args.date
+            log_info('Pipeline', f"Using specified date: {args.date}")
         
         # Handle lock status check
         if args.check_lock:

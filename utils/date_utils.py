@@ -32,7 +32,7 @@ def get_target_date(target_date_str=None):
     
     Args:
         target_date_str (str, optional): Target date string in YYYY-MM-DD format.
-            If None, uses yesterday.
+            If None, checks config.TARGET_DATE, then uses yesterday.
             
     Returns:
         datetime: A timezone-aware datetime object for the start of the target day
@@ -41,11 +41,20 @@ def get_target_date(target_date_str=None):
         ValueError: If the date format is invalid
     """
     if not target_date_str:
-        # Use yesterday instead of today
-        return (datetime.now(TIMEZONE) - timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+        # Check config.TARGET_DATE if available
+        try:
+            import config
+            if hasattr(config, 'TARGET_DATE') and config.TARGET_DATE:
+                target_date_str = config.TARGET_DATE
+        except (ImportError, AttributeError):
+            pass
+        
+        # If still no date string, use yesterday instead of today
+        if not target_date_str:
+            return (datetime.now(TIMEZONE) - timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
     
     try:
-        # Parse the date from the TARGET_DATE environment variable
+        # Parse the date string
         date_obj = datetime.strptime(target_date_str, DATE_FORMAT)
         # Add timezone information
         return TIMEZONE.localize(date_obj.replace(hour=0, minute=0, second=0, microsecond=0))
