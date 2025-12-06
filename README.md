@@ -47,7 +47,8 @@ Sumbird uses self-hosted [Nitter](https://github.com/zedeus/nitter) for Twitter/
 docker compose up -d
 # Create session tokens - see https://github.com/zedeus/nitter/wiki/Creating-session-tokens
 # Download create_session_browser.py or create_session_curl.py from Nitter's tools/ directory
-pip install -r requirements.txt  # Install Nitter's requirements
+# Install Nitter's Python requirements
+pip install requests beautifulsoup4
 python3 create_session_browser.py <username> <password> [totp_secret] --append sessions.jsonl
 docker compose restart nitter
 ```
@@ -67,7 +68,7 @@ curl http://localhost:8080/OpenAI/rss
 ### Pipeline Commands
 ```bash
 # Complete pipeline
-python main.py [--skip-telegram] [--skip-tts] [--force-override] [--date YYYY-MM-DD]
+python main.py [--skip-telegram] [--skip-tts] [--force-override] [--date YYYY-MM-DD] [--force-lock] [--check-lock]
 
 # Test pipeline (isolated test/data/ directories)
 python test/test_main.py [--skip-telegram] [--skip-tts] [--force-override] [--date YYYY-MM-DD]
@@ -78,6 +79,8 @@ python main.py --skip-telegram                    # Skip Telegram distribution
 python main.py --skip-tts                         # Skip text-to-speech steps
 python main.py --force-override                   # Regenerate all files
 python main.py --date 2025-12-01                  # Process specific date
+python main.py --force-lock                       # Force release lock and run
+python main.py --check-lock                       # Check lock status only
 python test/test_main.py --skip-telegram          # Test mode with options
 ```
 
@@ -133,7 +136,7 @@ cd docs && python -m http.server 8000
 ## Project Structure
 
 ```
-sumbird/
+.
 ├── src/                    # Core pipeline modules
 ├── utils/                  # Utility functions  
 ├── docs/                   # Newsletter website (GitHub Pages)
