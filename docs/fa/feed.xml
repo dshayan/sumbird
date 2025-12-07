@@ -8,9 +8,45 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Sun, 07 Dec 2025 06:00:08 +0330</lastBuildDate>
-    <pubDate>Sun, 07 Dec 2025 06:00:08 +0330</pubDate>
+    <lastBuildDate>Mon, 08 Dec 2025 01:16:24 +0330</lastBuildDate>
+    <pubDate>Mon, 08 Dec 2025 01:16:24 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-12-07</title>
+      <link>https://sumbird.ir/fa/news/2025-12-07</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل &lt;b&gt;جمینای 3 پرو&lt;/b&gt; را به‌عنوان مدل هوش مصنوعی بینایی پیشرفته معرفی کرد که به بهترین عملکرد در تمام معیارهای اصلی بینایی و چندوجهی دست یافته و در وظایف درک سند، صفحه نمایش، تصویر، ویدئو و فضایی عالی عمل می‌کند. &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1997666793423241218"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;رکا ای‌آی مدل‌های پایه و دستورالعمل 8B پارامتری &lt;b&gt;Rnj-1&lt;/b&gt; را منتشر کرد که به عملکرد SWE-bench نزدیک به &lt;b&gt;GPT-4o&lt;/b&gt;، استفاده از ابزار با عملکرد بهتر از مدل‌های متن‌باز مشابه، و استدلال ریاضی در AIME'25 تقریباً برابر با &lt;b&gt;GPT&lt;/b&gt; OSS MoE 20B دست یافته است. &lt;em&gt;&lt;a href="https://x.com/ashVaswani/status/1997126533060903239"&gt;@ashVaswani&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ایلان ماسک مراکز داده‌ی هوش مصنوعی مبتنی بر فضا را با ماهواره‌هایی که دارای محاسبات هوش مصنوعی محلی در مدار خورشیدآهنگ هستند، پیشنهاد می‌کند و پیش‌بینی می‌کند که این روش در عرض 3 سال به کم‌هزینه‌ترین راه برای تولید هوش مصنوعی و در عرض 4 سال به سریع‌ترین راه برای مقیاس‌بندی تبدیل خواهد شد، با برنامه‌هایی برای مقیاس‌بندی به بیش از 100TW/سال با استفاده از کارخانه‌های ماهواره‌ای قمری. &lt;em&gt;&lt;a href="https://x.com/elonmusk/status/1997706687155720229"&gt;@elonmusk&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اوپن‌ای‌آی پس از بازخورد کاربران، پیشنهادهای برنامه‌ای را که شبیه به تبلیغات بودند، غیرفعال کرد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997685083562766803"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;متا گزارشاً عرضه‌ی عینک‌های واقعیت ترکیبی را تا سال 2027 به تعویق انداخت. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997417404889202948"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پرپلکسیتی سومین سالگرد راه‌اندازی خود را با استفاده از &lt;b&gt;OpenAI GPT-3.5&lt;/b&gt; و مایکروسافت بینگ برای پاسخگویی مستقیم به سؤالات جشن می‌گیرد. &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1997701629462941988"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;آندری کارپاتی به کاربران توصیه می‌کند که LLMها را به جای موجودیت‌ها، شبیه‌ساز در نظر بگیرند و توضیح می‌دهد که وقتی از آن‌ها پرسیده می‌شود «نظر شما در مورد xyz چیست؟»، هیچ «شما» واقعی وجود ندارد - مدل یک بردار جاسازی شخصیت را از آمار داده‌های تنظیم دقیق خود اتخاذ می‌کند، نه اینکه نظرات واقعی را در طول زمان شکل داده باشد. &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1997731268969304070"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات دانیل کانمن در سال 2017 پیش از LLMها نشان می‌دهد که هر زمان که ممکن است، انسان‌ها را با الگوریتم‌ها جایگزین کنیم، و اشاره می‌کند که حتی زمانی که الگوریتم‌ها عملکرد فوق‌العاده‌ای ندارند، انسان‌ها آنقدر ضعیف و با نویز عمل می‌کنند که تنها حذف نویز نتایج بهتری نسبت به عملکرد انسان به همراه دارد. &lt;em&gt;&lt;a href="https://x.com/jamescham/status/1997195854591987806"&gt;@jamescham&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایتان مولیک این سؤال را مطرح می‌کند که آیا نشریات اصلی پس از تجربه‌های روتر GPT-5، بازنگری‌هایی در مورد ادعاهای فلات توسعه‌ی هوش مصنوعی ارائه کرده‌اند یا خیر، و اشاره می‌کند که با وجود شواهدی مبنی بر غلبه بر موانعی مانند فروپاشی مدل و مقیاس‌بندی پیش‌آموزشی، سردرگمی همچنان ادامه دارد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997731058599780861"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;قابلیت Claude Skill به &lt;b&gt;Opus 4.5&lt;/b&gt; امکان می‌دهد تا اینفوگرافیک‌هایی به سبک اپل با مشخصات طراحی بسیار فنی تولید کند، با استفاده از پرامپت‌هایی که توسط &lt;b&gt;Grok 4.1&lt;/b&gt; تولید شده‌اند تا مانند استیو جابز طراحی گرافیک فکر کند. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1997501397282283590"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک متخصص الکتروفیزیولوژی قلب از یک گردش کار هوش مصنوعی ترکیبی از Claude، Suno و NanoBanana برای ساخت آهنگ‌های آموزشی برای کودکان 4 و 7 ساله استفاده می‌کند، که کاربردهای خلاقانه‌ای را نشان می‌دهد که بدون هوش مصنوعی کاملاً غیرممکن بودند. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1997737611444838404"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان MIT یک استراتژی مبتنی بر هوش مصنوعی برای تقویت مواد پلیمری توسعه می‌دهند که به طور بالقوه منجر به پلاستیک‌های بادوام‌تر و کاهش زباله‌های پلاستیکی می‌شود. &lt;em&gt;&lt;a href="https://x.com/MIT/status/1997434881102508384"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ویکی‌پدیا لیستی از نشانه‌های نوشتاری هوش مصنوعی از جمله موازی‌سازی‌های منفی مانند «این یک بازی نیست. این یک انقلاب است» را نگهداری می‌کند که می‌توان آن‌ها را در پرامپت‌های سیستمی گنجاند تا از متن‌هایی که شبیه به هوش مصنوعی هستند، جلوگیری شود. &lt;em&gt;&lt;a href="https://x.com/blader/status/1997402952684933357"&gt;@blader&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;نتایج اولین چالش BEHAVIOR در NeurIPS اعلام شد، که راه‌حل‌های هوش مصنوعی تجسم‌یافته و رباتیک را در 50 وظیفه‌ی چالش‌برانگیز خانگی ارزیابی می‌کند، با کسب مقام اول توسط Robot Learning Collective، و پس از آن تیم‌های Comet و SimpleAI. &lt;em&gt;&lt;a href="https://x.com/drfeifei/status/1997718985966846158"&gt;@drfeifei&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI2 تحقیقات پس از آموزش OLMo 3 را ارائه می‌دهد که بر اهمیت روش‌های ارزیابی در توسعه‌ی هوش مصنوعی در کارگاه NeurIPS Foundations of Reasoning in Language Models تأکید می‌کند. &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1997404673033072939"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کارگاه NeurIPS در مورد Foundations of Reasoning in Language Models شامل سخنرانی‌هایی در مورد خودبهبودی، اکتشاف، زنجیره‌ی فکری و موضوعات مرتبط است. &lt;em&gt;&lt;a href="https://x.com/canondetortugas/status/1997523702762930600"&gt;@canondetortugas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-07</guid>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-06</title>
       <link>https://sumbird.ir/fa/news/2025-12-06</link>
@@ -987,64 +1023,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-18</guid>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-11-17</title>
-      <link>https://sumbird.ir/fa/news/2025-11-17</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;چت Qwen&lt;/b&gt; علی‌بابا به نقطه‌ی عطف ۱۰ میلیون کاربر رسید. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1990322403994657091"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;xAI نسخه‌ی بتای &lt;b&gt;Grok 4.1&lt;/b&gt; را برای کاربران منتشر کرد. به نظر می‌رسد این مدل در دو هفته‌ی اول نوامبر در حال آزمایش A/B بی‌صدا بوده است. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1990507204911530248"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI نسخه‌ی &lt;b&gt;GPT-5.1&lt;/b&gt; را با زمان پاسخ‌دهی به‌طور قابل‌توجهی سریع‌تر از &lt;b&gt;GPT-5&lt;/b&gt; منتشر کرد، اگرچه برخی از کاربران مشکلاتی را در کارهای مرتبط با کد مانند تغییرات مرحله‌ای و ایجاد درخواست‌های پول گزارش کرده‌اند. &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1990205004364263775"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.1 High&lt;/b&gt; در معیارهای ARC-AGI عملکردی مشابه &lt;b&gt;GPT-5 Pro&lt;/b&gt; دارد، در حالی که تقریباً یک مرتبه‌ی بزرگی ارزان‌تر است. &lt;em&gt;&lt;a href="https://x.com/GregKamradt/status/1990501297095909486"&gt;@GregKamradt&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل دیپ‌مایند &lt;b&gt;WeatherNext 2&lt;/b&gt; را معرفی کرد، یک مدل پیش‌بینی آب‌وهوای هوش مصنوعی که ۸ برابر سریع‌تر از نسخه‌ی قبلی خود است و در ۹۹.۹٪ از متغیرهای آب‌وهوایی از جمله دما، باد، رطوبت و سطح فشار دقیق‌تر است. &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1990435114862424417"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گزارش شده است که جف بزوس به‌عنوان مدیرعامل مشترک استارتاپ جدید هوش مصنوعی &lt;b&gt;پروژه‌ی پرومتئوس&lt;/b&gt; بازگشته است. این پروژه ۶.۲ میلیارد دلار سرمایه دارد و بر طراحی هوش مصنوعی در صنایع هوافضا، کامپیوتر و خودرو تمرکز خواهد کرد و تقریباً ۱۰۰ کارمند از OpenAI، DeepMind و Meta استخدام کرده است. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1990408936520855632"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sakana AI با ارزش ۲.۶۵ میلیارد دلار، ۱۳۵ میلیون دلار در سری B جذب سرمایه کرد تا به ساخت مدل‌های هوش مصنوعی برای ژاپن ادامه دهد، با حمایت MUFG، Khosla Ventures و سایر سرمایه‌گذاران بزرگ. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1990388003525787710"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Runlayer، یک استارتاپ امنیتی عامل هوش مصنوعی MCP، با ۸ یونیکورن و ۱۱ میلیون دلار از کیت رابویس از Khosla و Felicis راه‌اندازی شد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1990420805113831598"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Luminal ۵.۳ میلیون دلار برای ساخت یک چارچوب کد GPU بهتر جذب سرمایه کرد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1990421501020078236"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;PowerLattice سرمایه‌گذاری پَت گلسینگر، مدیرعامل سابق اینتل، را برای فناوری چیپلت صرفه‌جویی در مصرف انرژی خود جذب کرد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1990437666538799335"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Bone AI ۱۲ میلیون دلار برای به چالش کشیدن غول‌های دفاعی آسیا با رباتیک مبتنی بر هوش مصنوعی جذب سرمایه کرد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1990405134074220591"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ramp به ارزش ۳۲ میلیارد دلار رسید، تنها سه ماه پس از رسیدن به ۲۲.۵ میلیارد دلار. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1990503768476299354"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سهام Figma در ۲.۵ ماه پس از عرضه‌ی اولیه ۶۸٪ کاهش یافت، با ارزش‌گذاری تقریباً ۱۹ میلیارد دلار با وجود ۱.۱ میلیارد دلار ARR و ۳۸٪ رشد سال به سال، که نشان‌دهنده‌ی ماهیت بی‌رحمانه‌ی بازارهای عمومی برای شرکت‌های خصوصی در مراحل پایانی است. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1990253069570097564"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کارمندان Figma با هزینه‌ی تحقیق و توسعه‌ی ۲۹٪ از درآمد، جبران خسارت استثنایی دریافت می‌کنند که به میانگین حقوق نقدی ۳۰۰ هزار دلار به ازای هر کارمند، به اضافه‌ی جبران خسارت مبتنی بر سهام که مجموعاً به ۷۰۰ هزار تا ۱.۵ میلیون دلار در سال می‌رسد. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1990253082870202578"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فیدجی سیمو، مدیرعامل بخش کاربردهای OpenAI، درباره‌ی مسیر سودآوری صحبت می‌کند، با این انتظار که هم OpenAI و هم Anthropic مشاوران مالی هوش مصنوعی را در سال ۲۰۲۶ منتشر خواهند کرد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1990493477482999830"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مصطفی سلیمان استدلال می‌کند که ما در حباب هوش مصنوعی نیستیم و می‌گوید هوش مصنوعی هوشمندترین و تواناترین فناوری است که تاکنون اختراع شده و سریع‌تر از حد انتظار در حال بهبود است. &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/1990452602740613409"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سیسکو استارتاپ ترجمه‌ی EzDubs را خریداری می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1990489013208457335"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گرگلی اوروسز مشاهده می‌کند که نظریه‌ی اینترنت مرده در X در حال وقوع است، جایی که پاسخ‌های تولید شده توسط هوش مصنوعی بر اساس پرداخت و نه کیفیت تقویت می‌شوند و بالاتر از پاسخ‌های انسانی معنادار ظاهر می‌شوند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1990427961015632224"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;رید هافمن استدلال می‌کند که انتظار برای ۱۰۰٪ ایمنی قبل از تأیید فناوری‌های جدید هوش مصنوعی مانند درمانگران هوش مصنوعی، مزایای عظیمی را از افرادی که به آن‌ها نیاز دارند، سلب می‌کند و می‌گوید معیار باید سیستم‌هایی ایمن‌تر از جایگزین‌های فقط انسانی باشد تا صفر اشتباه. &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1990477430730207364"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;هافمن تأکید می‌کند که برای کسانی که به دلیل دلایل اقتصادی، جغرافیایی یا سایر دلایل نمی‌توانند به درمان دسترسی داشته باشند، یک درمانگر هوش مصنوعی خوب ساخته شده بهتر از عدم دسترسی به حمایت از سلامت روان است. &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1990479651475493332"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آماندا اسکل شباهت‌هایی بین مشاوره‌ی روابط و عیب‌یابی هوش مصنوعی ترسیم می‌کند و اشاره می‌کند که اولین سؤال او برای مشکلات Claude اکنون این است که «وقتی همه‌ی این‌ها را به Claude گفتید چه اتفاقی افتاد؟» شبیه به پرسیدن از شرکا برای برقراری ارتباط مستقیم. &lt;em&gt;&lt;a href="https://x.com/AmandaAskell/status/1990256427496284253"&gt;@AmandaAskell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آیدان مک‌لاکلین از OpenAI نگرانی‌های کاربران را در مورد تغییرات مدل تأیید می‌کند و می‌گوید تیم در ساعت ۳ صبح یکشنبه‌ها برای بهبود کیفیت چت‌بات و رفع عدم دقت هم‌ترازی کار می‌کند، در حالی که اعتراف می‌کند هیچ چت‌بات فعلی بهینه نیست. &lt;em&gt;&lt;a href="https://x.com/aidan_mclau/status/1990226426659000732"&gt;@aidan_mclau&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic با دولت رواندا و ALX Africa همکاری می‌کند تا &lt;b&gt;Chidi&lt;/b&gt;، یک همراه یادگیری ساخته شده بر روی &lt;b&gt;Claude&lt;/b&gt;، را به صدها هزار دانش‌آموز در سراسر آفریقا بیاورد. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1990420394575053044"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل فناوری &lt;b&gt;WeatherNext&lt;/b&gt; را در جستجوی گوگل، Gemini، Pixel Weather ادغام می‌کند و به زودی اطلاعات آب‌وهوا را در Google Maps ارائه خواهد داد. &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1990435121099428273"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Public.com قابلیتی را راه‌اندازی می‌کند که به کاربران امکان می‌دهد ETFهای تولید شده توسط هوش مصنوعی را بر اساس معیارهای سفارشی ایجاد کنند، با یک نمونه از شرکت‌های متمرکز بر طراحی که از S&amp;amp;P 500 به صورت تاریخی ۲ برابر بهتر عمل کرده‌اند. &lt;em&gt;&lt;a href="https://x.com/benblumenrose/status/1990450778365190426"&gt;@benblumenrose&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تیم مک‌آلیر در Florentine Films از هوش مصنوعی برای ایجاد نرم‌افزار مدیریت رسانه‌ی سفارشی برای فیلم‌سازی استفاده می‌کند. &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1990466644645458298"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل ابزار AI Flight Deals را در سطح جهانی عرضه می‌کند و ویژگی‌های جدید سفر را در جستجو اضافه می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1990465351465988583"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face و Google Cloud برای سرعت بخشیدن به دسترسی مدل، تقویت امنیت و کاهش هزینه‌های عملیاتی همکاری می‌کنند، با بیش از ۱,۵۰۰ ترابایت داده که روزانه مبادله می‌شود. &lt;em&gt;&lt;a href="https://x.com/DataChaz/status/1990444257765994903"&gt;@DataChaz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;WeatherNext 2&lt;/b&gt; گوگل دیپ‌مایند از یک رویکرد جدید شبکه‌ی مولد تابعی استفاده می‌کند که تصادفی بودن هدفمند را مستقیماً به معماری اضافه می‌کند و به آن اجازه می‌دهد طیف گسترده‌ای از سناریوهای آب‌وهوایی را بررسی کند و صدها پیش‌بینی ممکن را در کمتر از یک دقیقه از یک نقطه‌ی شروع واحد تولید کند. &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1990435111293030851"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;WeatherNext 2&lt;/b&gt; در پیش‌بینی هر دو پیش‌بینی حاشیه‌ای (رویدادهای آب‌وهوایی منفرد مانند دما در مکان‌های خاص) و پیش‌بینی‌های مشترک (ترکیب چندین متغیر مانند توان باد مورد انتظار) به عملکرد پیشرو در جهان دست می‌یابد. &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1990435114862424417"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک یک معیار جدید توهم را نقد می‌کند و استدلال می‌کند که این معیار عمدتاً آستانه‌های امتناع از پاسخ به سؤالات بی‌اهمیت بسیار خاص را اندازه‌گیری می‌کند تا نرخ‌های توهم واقعی را، و اشاره می‌کند که &lt;b&gt;GPT-5 High&lt;/b&gt; و &lt;b&gt;Grok-4&lt;/b&gt; با دستیابی به ۳۹٪ دقت در سؤالات تقریباً غیرممکن بدون جستجوی وب، شگفت‌انگیز است. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1990475648662708538"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک معیارهای هوش مصنوعی گم‌شده در مورد شکنندگی را شناسایی می‌کند و اشاره می‌کند که برخی از مدل‌ها در ابتدا و در معیارهای عملکرد خوب عمل می‌کنند اما با استفاده‌ی طولانی‌مدت از کار می‌افتند، که سؤالاتی را در مورد تعمیم، تکرار موضوعی و درک قصد پرامپت ایجاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1990239544164470793"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شریا شانکار چارچوب مفصلی برای درک ارزیابی هوش مصنوعی ارائه می‌دهد و آن را به سه جزء تقسیم می‌کند: شناسایی معیارهای موفقیت، تعیین نحوه‌ی اعمال روبی به خروجی‌های LLM، و خودکارسازی کاربرد روبی در مقیاس. &lt;em&gt;&lt;a href="https://x.com/sh_reya/status/1990161469120659897"&gt;@sh_reya&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ناتان لمبرت درباره‌ی اینکه چرا نوشتار هوش مصنوعی متوسط است بحث می‌کند و توضیح می‌دهد که چگونه روش‌های آموزش مدل زبان فعلی صدا و امید به نوشتار خوب را از بین می‌برند، با &lt;b&gt;GPT-5&lt;/b&gt; که اذعان می‌کند همیشه برای ارائه‌ی پیشنهادها سیم‌کشی شده است تا ادعای نوشتن شاهکارها را داشته باشد. &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1990473188615336099"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;حمل حسین هشدار می‌دهد که چت‌بات‌های «هرچه می‌خواهی بپرس» نشان‌دهنده‌ی اشتباه ۵۰۰ هزار دلاری به دلیل مارپیچ‌های مرگ ارزیابی هستند، جایی که عدم وجود دامنه‌ی واضح مانع از تعریف معیارهای موفقیت، شناسایی شکست‌های حیاتی و اولویت‌بندی اصلاحات می‌شود و از مرزهای عامل بسیار خاص حمایت می‌کند. &lt;em&gt;&lt;a href="https://x.com/bnicholehopkins/status/1990472313515524548"&gt;@bnicholehopkins&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فرانسوا شوله می‌گوید سادگی امضای حقیقت است و استدلال می‌کند که توضیحات پیچیده با استثناها و موارد خاص نشان می‌دهد که ایده‌ی اصلی هنوز پیدا نشده است. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1990170447208698366"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گرگ براکمن از OpenAI به دنبال نامزدها برای کار استنتاج است و آن را شاید باارزش‌ترین دسته‌ی نرم‌افزاری در حال ظهور توصیف می‌کند، زیرا مدل‌ها هوشمندتر و از نظر اقتصادی باارزش‌تر می‌شوند، با محاسبات که به طور فزاینده‌ای صرف نمونه‌برداری از مدل‌ها می‌شود. &lt;em&gt;&lt;a href="https://x.com/gdb/status/1990507010769760394"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT زانوی بیونیک جدیدی را توسعه می‌دهد که به افراد دارای قطع عضو بالای زانو کمک می‌کند سریع‌تر راه بروند، از پله‌ها بالا بروند و راحت‌تر از پروتزهای سنتی از موانع عبور کنند. &lt;em&gt;&amp;lt;a href="https://x.com/&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-17</guid>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
