@@ -8,9 +8,66 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Dec 2025 06:00:08 +0330</lastBuildDate>
-    <pubDate>Wed, 10 Dec 2025 06:00:08 +0330</pubDate>
+    <lastBuildDate>Thu, 11 Dec 2025 01:17:07 +0330</lastBuildDate>
+    <pubDate>Thu, 11 Dec 2025 01:17:07 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-12-10</title>
+      <link>https://sumbird.ir/en/news/2025-12-10</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba releases upgraded &lt;b&gt;Qwen3-Omni-Flash&lt;/b&gt; (2025-12-01 version) with enhanced multi-turn video/audio understanding, customizable AI personality through system prompts, support for 119 text languages and 19 speech languages, and human-like voice quality &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1998776328586477672"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mistral releases &lt;b&gt;Devstral 2&lt;/b&gt; and &lt;b&gt;Devstral Small 2&lt;/b&gt; models with 123B and 24B parameters respectively, though with restrictive licensing that prohibits use by companies with over $20M monthly revenue &lt;em&gt;&lt;a href="https://x.com/simonw/status/1998544905719959919"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mistral doubles &lt;b&gt;Vibe&lt;/b&gt; context limit from 100k to 200k tokens &lt;em&gt;&lt;a href="https://x.com/MistralAI/status/1998785548714991788"&gt;@MistralAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nous Research open sources &lt;b&gt;Nomos 1&lt;/b&gt;, a 30B parameter model that scored 87/120 on the 2024 Putnam mathematics competition, ranking #2 out of 3,988 participants &lt;em&gt;&lt;a href="https://x.com/NousResearch/status/1998536543565127968"&gt;@NousResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;StepFun introduces &lt;b&gt;Parallel Coordinated Reasoning (PaCoRe)&lt;/b&gt;, enabling an 8B model to achieve 94.5% on HMMT25 (beating &lt;b&gt;GPT-5&lt;/b&gt;'s 93.2%) and 78.2% on LiveCodeBench through multi-million-token thinking time compute &lt;em&gt;&lt;a href="https://x.com/StepFun_ai/status/1998814974097952833"&gt;@StepFun_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bloomberg reports Meta's superintelligence lab is using &lt;b&gt;Gemma&lt;/b&gt;, OpenAI's open source model, and &lt;b&gt;Qwen&lt;/b&gt; to train their next large model, code-named Avocado, marking a potential shift away from open source strategy &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998765772726739205"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ChatGPT becomes Apple's most downloaded app of 2025 in the US, with 64% of US teens using AI chatbots and 33% using them daily according to Pew Research &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998775042734432292"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;BigTech giants announce approximately $68B in India investments over the next 5 years, positioning India as the second-biggest revenue driver after the US for AI development &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1998798782822232123"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face now hosts over 2.2 million models with 50,000+ models having API providers, demonstrating rapid growth in open-source AI ecosystem &lt;em&gt;&lt;a href="https://x.com/_akhaliq/status/1998506215027126358"&gt;@_akhaliq&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google launches sub-$5 AI Plus plan in India to compete with ChatGPT Go &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998748361936220223"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Oboe raises $16M Series A led by a16z for its AI-powered course generation platform that creates personalized learning experiences &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998771509377335322"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor releases version 2.2 with Debug Mode that instruments code and streams runtime data to agents, plus Plan Mode improvements and multi-agent judging capabilities &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/1998821350333440133"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI announces upcoming models will reach 'High' capability under their Preparedness Framework for cybersecurity, requiring strengthened safeguards and collaboration with global experts to give defenders an advantage &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1998847719956426798"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick warns that restrictive licensing on Mistral models (prohibiting use by companies over $20M monthly revenue) could limit open source contributions, as historically much labor comes from for-profit firms &lt;em&gt;&lt;a href="https://x.com/emollick/status/1998509960347709842"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gergelyi Orosz observes LinkedIn aggressively pushing AI products everywhere, with AI-generated content flooding the platform and making inbound job applications mostly useless &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1998676798041739356"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Brian Lovin reports that new X accounts are shown extremely low-quality AI-generated content, politically charged material, and bottom-of-the-barrel posts as default feed &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/1998808094827331895"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick notes the &lt;b&gt;GPT-5 Auto router&lt;/b&gt; creates perception problems, as many examples of "ChatGPT got X wrong" are actually "&lt;b&gt;ChatGPT-5 Instant&lt;/b&gt; got things wrong," leading to inaccurate beliefs about AI capabilities &lt;em&gt;&lt;a href="https://x.com/emollick/status/1998838007609119010"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;John Carmack proposes using LLM chat history as job references, arguing multi-year chat histories provide better signals than traditional resumes and could optimize fit between people and jobs for both employers and employees &lt;em&gt;&lt;a href="https://x.com/ID_AA_Carmack/status/1998753499002048589"&gt;@ID_AA_Carmack&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google partners with multiple publishers including Der Spiegel, The Guardian, The Times of India, and The Washington Post to test AI engagement features including audio briefings by &lt;b&gt;Gemini&lt;/b&gt; in Google News &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998825942542843968"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google launches managed MCP servers allowing AI agents to plug into its tools, plus Preferred Sources feature in Search for customizing Top Stories from valued outlets &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998770332723982668"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Figma launches AI-powered object removal and image extension tools in Design and Draw, enabling users to erase distractions, expand backgrounds, and isolate objects &lt;em&gt;&lt;a href="https://x.com/figma/status/1998756770421027243"&gt;@figma&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mikhail Parakhin introduces SimGym, a system creating "digital customers" that behave like real ones to reveal optimization opportunities and enable A/B testing with zero live traffic &lt;em&gt;&lt;a href="https://x.com/MParakhin/status/1998786503779234276"&gt;@MParakhin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick demonstrates &lt;b&gt;Nano Banana Pro&lt;/b&gt; in NotebookLM can generate high-quality presentation decks from source materials with rare hallucinations, positioning it as a potential PowerPoint replacement &lt;em&gt;&lt;a href="https://x.com/emollick/status/1998520025951752278"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andrej Karpathy creates auto-grading system using &lt;b&gt;GPT 5.1 Thinking&lt;/b&gt; API to analyze 930 Hacker News discussions from December 2015 with hindsight, identifying most prescient comments for $60 in 1 hour &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1998803709468487877"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Linear reports their AI agent has been one of their most loved features, with a significant uptick in new issues created after launch &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/1998791558808862820"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Satya Nadella highlights Microsoft's partnership with India's Labour Ministry using AI to connect over 300 million informal workers to better jobs and social security &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1998643116975546493"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;CTGT launches Mentat, an OpenAI-compatible API using mechanistic interpretability to give enterprises deterministic control over LLM behavior, adding safety policy guarantees without retraining &lt;em&gt;&lt;a href="https://x.com/CyrilGorlla/status/1998475784697049458"&gt;@CyrilGorlla&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Spotify tests more personalized, AI-powered 'Prompted Playlists' feature &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998846239102865699"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google DeepMind and Google Research develop FACTS Benchmark Suite, the industry's first comprehensive test evaluating LLM factuality across four dimensions: internal model knowledge, web search, grounding, and multimodal inputs, with &lt;b&gt;Gemini 3 Pro&lt;/b&gt; achieving top score of 68.8% &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1998831084277313539"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Cloud introduces AlphaEvolve, a &lt;b&gt;Gemini&lt;/b&gt;-powered coding agent for designing advanced algorithms that uses LLMs to propose intelligent code modifications in a feedback loop &lt;em&gt;&lt;a href="https://x.com/GoogleCloudTech/status/1998501239219220648"&gt;@GoogleCloudTech&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford researchers find 1 in 20 AI benchmarks have serious flaws, meaning the industry has been promoting underperforming models and penalizing better ones &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1998817700366200854"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft Research introduces Promptions, helping developers add dynamic, context-aware controls to chat interfaces so users can guide generative AI responses without writing long instructions &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1998815758747394159"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nathan Lambert releases comprehensive talk covering every stage of building Olmo 3 Think, including changes to pretraining, evaluation, and post-training with focus on reinforcement learning infrastructure &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1998839179086639190"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;LeRobot Community Datasets v3 releases 50K episodes across 46 robot types from 235 contributors worldwide, representing one of the largest open-source crowdsourced robot demonstration collections &lt;em&gt;&lt;a href="https://x.com/danaaubakir/status/1998788613845430550"&gt;@danaaubakir&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Adi Oltean announces training of first LLM in space using NVIDIA H100 onboard Starcloud-1, successfully training nanoGPT model on Shakespeare's complete works and running inference &lt;em&gt;&lt;a href="https://x.com/AdiOltean/status/1998769997431058927"&gt;@AdiOltean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Jeff Clune emphasizes that fastest path to self-improving AI comes from embracing quality diversity, open-endedness, and AI-generating algorithms, with concepts like OMNI and Darwin-complete search spaces enabling recursively self-improving AI &lt;em&gt;&lt;a href="https://x.com/KevinWang_111/status/1998672728514076995"&gt;@KevinWang_111&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-10</guid>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-12-09</title>
       <link>https://sumbird.ir/en/news/2025-12-09</link>
@@ -993,63 +1050,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-21</guid>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-20</title>
-      <link>https://sumbird.ir/en/news/2025-11-20</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Meta releases &lt;b&gt;SAM 3&lt;/b&gt;, unifying model architecture for detection and tracking in computer vision &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1991538570402934980"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Alibaba announces &lt;b&gt;Jan-v2-VL&lt;/b&gt;, a new multimodal agent capable of executing 49 steps without failing, significantly outperforming other models on long-horizon tasks &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1991467691786543535"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI2 releases &lt;b&gt;OLMo 3&lt;/b&gt; family of fully open language models, including the best 32B base model, best 7B Western thinking and instruct models, and first 32B fully open reasoning model, with complete training data, code, checkpoints, and logs &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1991508141687861479"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google launches &lt;b&gt;Gemini 3 Pro Image&lt;/b&gt; (Nano Banana Pro), achieving state-of-the-art performance in image generation and editing with improved text rendering, world knowledge integration via Google Search, and support for 1K, 2K, and 4K resolution outputs &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1991522595129139486"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI releases &lt;b&gt;GPT-5.1 Pro&lt;/b&gt; to all Pro users, delivering 10-15% improvement over &lt;b&gt;GPT-5 Pro&lt;/b&gt; for complex work including writing help, data science, and business tasks &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1991266192905179613"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI launches &lt;b&gt;GPT-5.1-Codex-Max&lt;/b&gt;, a significant improvement in coding capabilities &lt;em&gt;&lt;a href="https://x.com/sama/status/1991258606168338444"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;xAI introduces &lt;b&gt;Grok 4.1 Fast&lt;/b&gt;, their best tool-calling model with 2M context window, trained with long-horizon RL for multi-turn scenarios and real-world enterprise use cases like customer support &lt;em&gt;&lt;a href="https://x.com/xai/status/1991284813727474073"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Gemini 3&lt;/b&gt; achieves state-of-the-art performance on SWE Bench Verified using a standard agent harness &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1991327656990896372"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA releases &lt;b&gt;Nemotron-Parse v1.1&lt;/b&gt;, next-generation OCR for parsing PDFs and PPTs into structured, machine-ready output with text, bounding boxes, and semantic classes &lt;em&gt;&lt;a href="https://x.com/andimarafioti/status/1991531971680550992"&gt;@andimarafioti&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;MIT research shows closed models dominate with 80% of monthly LLM tokens despite being 6x more expensive than open models with only modest performance advantages, suggesting $24.8 billion in potential consumer savings if users switched to superior open alternatives &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1991248868126912897"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google prohibits its developers from using publicly launched &lt;b&gt;Antigravity&lt;/b&gt; IDE for work, requiring use of internal version called &lt;b&gt;Jetski&lt;/b&gt; that supports Google's monorepo and custom tooling, highlighting Google's unique tech stack isolation &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1991529814373605676"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI developers remain bullish about growth despite low AI penetration in businesses, with many skilled teams starting to deliver significant ROI even as 95% of AI pilots reportedly fail due to methodological issues in studies &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1991561899088179552"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Frontier open models typically reach performance parity with frontier closed models within months, yet users continue selecting closed models even when open alternatives are cheaper and offer superior performance &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1991248868126912897"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI coding agents may fundamentally change development workflows as they execute framework changes without questioning decisions, unlike human developers who would dismiss impractical suggestions &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1991494954921914770"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stuut raises $29.5M Series A led by a16z to automate accounts receivable work for blue-collar businesses in manufacturing, medical devices, logistics, and distribution using AI agents &lt;em&gt;&lt;a href="https://x.com/TAlaruri/status/1991505420121207059"&gt;@TAlaruri&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Natural gas has become central to both AI datacenter power and LNG exports, with most new datacenters expected to be powered by natural gas in the near term &lt;em&gt;&lt;a href="https://x.com/a16z/status/1991536578154692946"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Google introduces &lt;b&gt;SynthID&lt;/b&gt; detection feature in Gemini app, allowing users to upload images and verify if they were generated by Google AI through imperceptible digital watermarks &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1991549346282942682"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison warns that &lt;b&gt;Antigravity&lt;/b&gt; is vulnerable to prompt injection attacks where malicious actors can exfiltrate data by constructing URLs to external servers and invisibly leaking stolen information through Markdown image rendering &lt;em&gt;&lt;a href="https://x.com/simonw/status/1991354081236164814"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;The same Markdown image data exfiltration vulnerability was previously reported and fixed in Copilot chat for VS Code, but remains unpatched in Windsurf as of May 2025 &lt;em&gt;&lt;a href="https://x.com/simonw/status/1991486803287896371"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research reveals growing crisis of economically and socially dislocated young adults, with nearly 10% in UK and US not working, seeking work, in education, or raising children, doubling in the UK over a decade &lt;em&gt;&lt;a href="https://x.com/jburnmurdoch/status/1991487650533110225"&gt;@jburnmurdoch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Perplexity launches &lt;b&gt;Comet&lt;/b&gt; browser for Android with voice mode allowing users to chat with and control tabs, summarize content, and take actions across all tabs without losing context &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1991567568830955632"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI rolls out group chats globally to ChatGPT Free, Go, Plus and Pro users, transforming ChatGPT from single-player to multi-player experience &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1991556363420594270"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NotebookLM introduces slide deck generation feature for Pro users, converting sources into detailed decks for reading or presentation-ready slides that are fully customizable &lt;em&gt;&lt;a href="https://x.com/NotebookLM/status/1991575294352740686"&gt;@NotebookLM&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Nano Banana Pro&lt;/b&gt; demonstrates ability to create complex infographics, comic strips, menus, marketing materials, and logo designs in single prompts, potentially replacing tools like Canva for many use cases &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1991525559332139041"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andrew Ng demonstrates using AI for agentic document extraction on NVIDIA's latest 10-Q earnings report, achieving highly accurate results powered by document pre-trained transformer model &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1991268044019232876"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;xAI launches Agent Tools API enabling developers to give &lt;b&gt;Grok&lt;/b&gt; autonomous web browsing, X post searching, code execution, and document retrieval capabilities with just a few lines of code &lt;em&gt;&lt;a href="https://x.com/xai/status/1991284828667527322"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Figma integrates &lt;b&gt;Nano Banana Pro&lt;/b&gt; across its platform, enabling users to adjust images while maintaining visual DNA, prompt existing images in new contexts, and composite multiple images into coherent scenes &lt;em&gt;&lt;a href="https://x.com/figma/status/1991526849713983568"&gt;@figma&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI publishes research showing &lt;b&gt;GPT-5&lt;/b&gt; accelerating scientific discovery through case studies where it helped researchers synthesize scattered results, surface mechanisms, navigate literature conceptually, and generate new proofs of unsolved propositions &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1991570422148788612"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5&lt;/b&gt; solved a 2013 conjecture and a COLT 2012 open problem after two days of thinking in scaffolded experiments with university and national-lab partners &lt;em&gt;&lt;a href="https://x.com/SebastienBubeck/status/1991568190720311639"&gt;@SebastienBubeck&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research demonstrates that LLMs are trained to model the entire distribution, not just the average, and reinforcement learning enables them to go beyond human distribution, similar to AlphaGo's Move 37 discovery &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/1991573478269677945"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;OLMo 3&lt;/b&gt; uses direct preference optimization (DPO) with &lt;b&gt;Qwen3 32B&lt;/b&gt; as chosen model and &lt;b&gt;Qwen3 0.6B&lt;/b&gt; as rejected, based on delta learning hypothesis that models learn from the difference between chosen and rejected samples rather than overall quality alone &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1991508141687861479"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI2 introduces "active refilling" technique in RL training that keeps generations from learner nodes constantly flowing until there's a full batch of completions with nonzero gradients, a major advantage of asynchronous approach &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1991508141687861479"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Gemini 3&lt;/b&gt; demonstrates advanced reasoning with access to live search, enabling creation of infographics and visualizations using real-time information from Google's knowledge base &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1991522607439524211"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research on using AI to check work of other AIs remains hugely under-researched, with one paper finding the technique effective but lacking follow-up studies on whether using different models helps reduce errors &lt;em&gt;&lt;a href="https://x.com/emollick/status/1991328030694703115"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Grok 4.1 Fast&lt;/b&gt; was trained on diverse simulated environments across dozens of domains, achieving state-of-the-art performance on real-world agentic workflows and excelling at real-time information retrieval and deep research &lt;em&gt;&lt;a href="https://x.com/xai/status/1991284822820720732"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;OLMo 3 32B Think&lt;/b&gt; scores within 1-2 points of &lt;b&gt;Qwen3 32B&lt;/b&gt; on reasoning benchmarks including AIME and GPQA, representing the first fully open reasoning model at 32B scale or larger &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1991508141687861479"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-20</guid>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
