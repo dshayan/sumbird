@@ -8,9 +8,59 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Mon, 15 Dec 2025 06:00:07 +0330</lastBuildDate>
-    <pubDate>Mon, 15 Dec 2025 06:00:07 +0330</pubDate>
+    <lastBuildDate>Tue, 16 Dec 2025 01:16:42 +0330</lastBuildDate>
+    <pubDate>Tue, 16 Dec 2025 01:16:42 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-12-15</title>
+      <link>https://sumbird.ir/fa/news/2025-12-15</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;NVIDIA مدل &lt;b&gt;Nemotron 3 Nano&lt;/b&gt; را منتشر کرد، یک مدل استدلال ترکیبی 30B با &lt;b&gt;معماری ترکیب متخصصان&lt;/b&gt; که طراحی مامبا-ترنسفورمر را ترکیب می‌کند. این مدل دارای پنجره‌ی متنی 1M و عملکرد پیشرو در معیارهای SWE-Bench، استدلال و چت است &lt;em&gt;&lt;a href="https://x.com/ctnzr/status/2000567572065091791"&gt;@ctnzr&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA خانواده‌ی کامل &lt;b&gt;Nemotron 3&lt;/b&gt; را با شفافیت بی‌سابقه معرفی کرد و داده‌های آموزشی، کتابخانه‌ی یادگیری تقویتی &lt;b&gt;NeMo Gym&lt;/b&gt; و کد آموزشی کامل را در کنار مدل‌ها منتشر کرد. نسخه‌های Super و Ultra در ماه‌های آینده عرضه خواهند شد &lt;em&gt;&lt;a href="https://x.com/nvidianewsroom/status/2000588337896198481"&gt;@nvidianewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;Qwen Code v0.5.0&lt;/b&gt; را با یکپارچه‌سازی VSCode، SDK بومی TypeScript، پشتیبانی از مدل‌های استدلال سازگار با OpenAI از جمله &lt;b&gt;DeepSeek V3.2&lt;/b&gt; و &lt;b&gt;Kimi-K2&lt;/b&gt; و پشتیبانی از زبان روسی منتشر کرد &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2000556828690624685"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اپل &lt;b&gt;Sharp&lt;/b&gt; را منتشر کرد، یک مدل سنتز دید تک‌چشمی که قادر به تولید نماها در کمتر از یک ثانیه است &lt;em&gt;&lt;a href="https://x.com/_akhaliq/status/2000587447680340257"&gt;@_akhaliq&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI2 مدل &lt;b&gt;Bolmo&lt;/b&gt; را معرفی کرد، اولین مدل زبان کاملاً باز در سطح بایت که با بایت‌سازی &lt;b&gt;Olmo 3&lt;/b&gt; ساخته شده است و در طیف وسیعی از وظایف با مدل‌های زیرکلمه‌ای پیشرفته برابری می‌کند یا از آن‌ها پیشی می‌گیرد &lt;em&gt;&lt;a href="https://x.com/allen_ai/status/2000616646042399047"&gt;@allen_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;مهندسان ارشد در شرکت‌های برتر فناوری گزارش می‌دهند که وظایف آن‌ها اکنون عمدتاً شامل &lt;b&gt;پرامپت‌نویسی برای Cursor یا Claude Code با Opus 4.5&lt;/b&gt; و بررسی صحت خروجی است، که نشان می‌دهد هوش مصنوعی از آستانه‌ی تعمیم به اکثر وظایف نرم‌افزاری عبور کرده است &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2000472514854825985"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده گزارش می‌دهد که &lt;b&gt;260 دلار توکن&lt;/b&gt; برای تکمیل یک مهاجرت سه‌روزه که تخمین زده می‌شد هفته‌ها طول بکشد، هزینه کرده است. این موضوع این سؤال را مطرح می‌کند که آیا شرکت‌ها هزینه‌های سالانه‌ی 12 تا 35 هزار دلاری توکن به ازای هر توسعه‌دهنده را علاوه بر حقوق جذب خواهند کرد یا خیر &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2000342930696044732"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شرکت‌ها برای توجیه هزینه‌های هوش مصنوعی، به دنبال &lt;b&gt;افزایش 20 درصدی بهره‌وری&lt;/b&gt; هستند، و عدم پیش‌بینی‌پذیری هزینه‌های اندازه‌گیری‌شده، ترجیح برنامه‌های کدنویسی هوش مصنوعی با قیمت ثابت را بر مدل‌های پرداخت به ازای استفاده، افزایش می‌دهد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2000486367151919459"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;توسعه‌دهندگان باتجربه ارزش بسیار بیشتری از ابزارهای هوش مصنوعی نسبت به توسعه‌دهندگان کم‌تجربه استخراج می‌کنند، زیرا آن‌ها می‌توانند وظایف را به طور دقیق مشخص کنند، نه اینکه از پرامپت‌های عمومی استفاده کنند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2000535434678427995"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;رئیس‌جمهور ترامپ &lt;b&gt;US Tech Force&lt;/b&gt; را راه‌اندازی کرد که 1000 مهندس را با همکاری OpenAI، Oracle، Palantir، Anduril، Apple، Amazon، Google، Microsoft، NVIDIA و xAI برای ابتکارات فناوری با تأثیر بالا استخدام می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2000612052612624763"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mirelo &lt;b&gt;41 میلیون دلار سرمایه‌ی اولیه&lt;/b&gt; را به رهبری a16z و Index برای مدل بنیادی متمرکز بر لایه‌ی صوتی برای تولید ویدئو جذب کرد &lt;em&gt;&lt;a href="https://x.com/a16z/status/2000657395903778987"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;First Voyage &lt;b&gt;2.5 میلیون دلار&lt;/b&gt; برای یک همراه هوش مصنوعی که به کاربران در ساخت عادت‌ها کمک می‌کند، جذب کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2000579246251774449"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sierra دفتر جدیدی در پاریس راه‌اندازی کرد زیرا این شرکت در حال گسترش بین‌المللی است &lt;em&gt;&lt;a href="https://x.com/btaylor/status/2000649830360846439"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;انتشار &lt;b&gt;Olmo 3&lt;/b&gt; استاندارد جدیدی را برای شفافیت با انتشار کامل داده‌ها، گزارش 100 صفحه‌ای، زیرساخت آموزشی باز و ارزیابی‌های قابل تکرار تعیین می‌کند و آزمایش‌های دقیق را با مانع صفر برای ورود امکان‌پذیر می‌سازد &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2000425063275798652"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Nemotron 3 Nano&lt;/b&gt; با تنها 3.6B پارامتر فعال از 31.6B کل، به امتیاز شاخص هوش 52 دست می‌یابد که 6 امتیاز از &lt;b&gt;Qwen3 30B&lt;/b&gt; با اندازه‌ی مشابه و 15 امتیاز بهبود نسبت به &lt;b&gt;Nemotron Nano 9B V2&lt;/b&gt; قبلی دارد &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/2000602570092675402"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;همه‌ی مدل‌های هوش مصنوعی پیشرفته اکنون همه‌ی سطوح &lt;b&gt;آزمون دشوار تحلیلگر مالی خبره (CFA)&lt;/b&gt; را با استفاده از آزمون‌های آزمایشی پولی برای کاهش خطر نشت، پشت سر می‌گذارند، با استراتژی پرامپت‌نویسی که تأثیر حداقلی بر اکثر انواع سؤالات نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/2000605774695837711"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;DisCIPL&lt;/b&gt; MIT از LLM برای هدایت مدل‌های زبان کوچک‌تر برای همکاری در وظایف باز با محدودیت‌هایی مانند پازل‌های پیشرفته و اثبات‌های ریاضی استفاده می‌کند و به دقت و کارایی قابل مقایسه با مدل‌های پیشرو دست می‌یابد &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/2000612121940275558"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;استادی که از نظر تاریخی نسبت به مفید بودن مدل‌ها شکاک بود، گزارش می‌دهد که &lt;b&gt;GPT 5.2 Pro&lt;/b&gt; گام بزرگی در مفید بودن برای کاربردهای پژوهشی هندسه‌ی جبری و نظریه‌ی اعداد است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2000651575514284103"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;چارچوب Parallel-Distill-Refine&lt;/b&gt; انویدیا به دقت 93.3% در AIME 2024 دست می‌یابد در مقایسه با 79.4% برای زنجیره‌ی فکری طولانی استاندارد با تأخیر یکسان، که نشان می‌دهد تکرار حافظه‌ی محدود می‌تواند جایگزین ردیابی‌های استدلالی طولانی شود &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/2000581380733030703"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Prime Intellect با NVIDIA همکاری می‌کند تا &lt;b&gt;محیط‌های RL NeMo Gym&lt;/b&gt; را در Environments Hub خود ادغام کند و مقیاس‌بندی یادگیری تقویتی را برای تیم‌ها آسان‌تر کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2000631482818408726"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Gemini Agent&lt;/b&gt; گوگل اکنون برای کاربران Google AI Ultra در ایالات متحده در دسترس است و قادر به انجام وظایفی مانند اجاره‌ی خودرو با مقایسه‌ی قیمت‌ها، جمع‌آوری اطلاعات صندوق ورودی و رزرو در محدودیت‌های بودجه است &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2000616120106221781"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Figma Slides و Figma Buzz اکنون در ChatGPT برای ایجاد ارائه‌ها و دعوت‌نامه‌ها از طریق رابط مکالمه‌ای در دسترس هستند &lt;em&gt;&lt;a href="https://x.com/figma/status/2000658273595482314"&gt;@figma&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;IBM &lt;b&gt;CUGA&lt;/b&gt; را منتشر کرد، یک عامل سازمانی متن‌باز که وظایف را با نوشتن و اجرای کد با توجه به فایل‌های فضای کاری خودکار می‌کند، با ابزارهای داخلی برای وظایف سازمانی و پشتیبانی MCP &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2000599316121924052"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شریک تجاری اجرایی Zapier، عامل آماده‌سازی جلسات مبتنی بر هوش مصنوعی، مربی جلسات برای هماهنگی تیم اجرایی و سیستم بررسی پیش‌نویس اسناد را پیاده‌سازی می‌کند که امکان بازخورد در سطح مدیرعامل را قبل از جلسات فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2000630050283196779"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده گزارش می‌دهد که وظایف پیچیده را از طریق Codex با &lt;b&gt;GPT 5.2 Extra High&lt;/b&gt; به ترتیب برای 2.5 و 1.75 ساعت اجرا کرده است و همه‌ی معیارهای پذیرش را با پوشش کامل تست و بدون کد خراب تکمیل کرده است &lt;em&gt;&lt;a href="https://x.com/gdb/status/2000453104006025652"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Zoom دستیار هوش مصنوعی را به وب می‌آورد و دسترسی را برای کاربران رایگان فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2000612139946684571"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Merriam-Webster کلمه‌ی &lt;b&gt;slop&lt;/b&gt; را به عنوان کلمه‌ی سال 2025 نامگذاری کرد که منعکس‌کننده‌ی نگرانی‌ها در مورد کیفیت محتوای تولیدشده توسط هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2000655160654311933"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;چت‌بات‌ها در مدیریت فایل به گونه‌ای مشکل دارند که نسخه‌های CLI ندارند، به طوری که Gemini اغلب فایل‌های ارجاع‌شده را اشتباه می‌گیرد و ChatGPT اغلب فایل‌های تولیدشده را اشتباه قرار می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/2000413758729162889"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ویژگی فشرده‌سازی مکالمه‌ی Claude برای کارهای دانشی به خوبی کدنویسی کار نمی‌کند و برخلاف پنجره‌های متنی چرخشی، لحن و جریان را به طور ناگهانی بازنشانی می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2000411848496291897"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-15</guid>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-14</title>
       <link>https://sumbird.ir/fa/news/2025-12-14</link>
@@ -962,62 +1012,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-26</guid>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-11-25</title>
-      <link>https://sumbird.ir/fa/news/2025-11-25</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic مدل &lt;b&gt;Claude Opus 4.5&lt;/b&gt; را منتشر کرد که اکنون برای مشترکین Perplexity Max و در Claude Code در دسترس است. این مدل تقریباً 60% گران‌تر از Sonnet است، اما به دلیل 76% توکن‌های استدلال خروجی کمتر برای کارهای پیچیده، ممکن است در مجموع ارزان‌تر باشد &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1993066466196046325"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity مدل &lt;b&gt;Grok 4.1&lt;/b&gt; را برای همه کاربران Pro و Max اضافه کرد. مدیرعامل این شرکت به سرعت و کارایی چشمگیر این مدل اشاره کرد که منجر به افزایش استفاده داخلی شده است &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1993391249597018287"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل مدل &lt;b&gt;Nano Banana Pro&lt;/b&gt; را منتشر کرد، یک مدل پیشرفته‌ی تولید و ویرایش تصویر که دارای دقت رندر متن بهبودیافته، یکپارچه‌سازی دانش جهانی، 2K دانلود و کنترل‌های ویرایش پیچیده است &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1993363771121967452"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Black Forest Labs مدل &lt;b&gt;FLUX.2-dev&lt;/b&gt; را راه‌اندازی کرد، یک مدل تولید تصویر با وزن باز 32B پارامتر که با قابلیت‌های چند مرجعی و وضوح 4MP به عملکردی پیشرفته دست یافته است &lt;em&gt;&lt;a href="https://x.com/bfl_ml/status/1993345470945804563"&gt;@bfl_ml&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tencent مدل &lt;b&gt;Hunyuan OCR&lt;/b&gt; را منتشر کرد، یک مدل درک سند 1B پارامتر که به عملکردی پیشرفته در تجزیه‌ی سند، پرسش و پاسخ بصری و ترجمه دست یافته است &lt;em&gt;&lt;a href="https://x.com/Xianbao_QIAN/status/1993206912029278648"&gt;@Xianbao_QIAN&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل تبدیل متن به گفتار جریانی &lt;b&gt;Dia2&lt;/b&gt; با قابلیت‌های تولید صدای بلادرنگ راه‌اندازی شد که در اندازه‌های 1B و 2B تحت مجوز Apache 2.0 در دسترس است &lt;em&gt;&lt;a href="https://x.com/Tu7uruu/status/1993256798166401431"&gt;@Tu7uruu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI قابلیت ChatGPT Voice را مستقیماً در رابط چت ادغام کرد و نیاز به حالت جداگانه را از بین برد و نمایش پاسخ بلادرنگ با عناصر بصری را امکان‌پذیر ساخت &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1993381101369458763"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل &lt;b&gt;SAM 3D&lt;/b&gt; متا توسط محققان دانشگاه کارنگی ملون برای ثبت و تحلیل حرکت انسان در محیط‌های توانبخشی بالینی استفاده می‌شود &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1993386243170714073"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;تحقیقات Anthropic تخمین می‌زند که مدل‌های هوش مصنوعی نسل فعلی در صورت پذیرش گسترده، می‌توانند رشد سالانه‌ی بهره‌وری نیروی کار ایالات متحده را در دهه‌ی آینده 1.8% افزایش دهند، با کارهایی که به طور متوسط 90 دقیقه طول می‌کشند تا تکمیل شوند و از طریق Claude تقریباً 80% بهبود سرعت را تجربه می‌کنند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1993305312305009133"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity از 1 ژانویه 2025، تقریباً هر 93 ساعت یک محصول یا ویژگی جدید و تقریباً هر 17 روز یک مدل برتر جدید را در دسترس قرار داده است &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1993118343843528996"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity تجربه‌ی خرید شخصی‌سازی‌شده با توصیه‌های محصول منتخب و خرید فوری با پشتیبانی PayPal را راه‌اندازی کرد که حافظه و تجارت را برای خرید بدون تبلیغات یکپارچه می‌کند &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1993349903192674681"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Suno با Warner Music Group همکاری می‌کند، تمام دعاوی را حل و فصل می‌کند و برای دانلود آهنگ‌ها حساب‌های پولی را الزامی می‌کند، با WMG که اعلام می‌کند «هوش مصنوعی زمانی هنرمند-محور می‌شود که به اصول ما پایبند باشد» &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1993399957555167518"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Copilot مایکروسافت به دلیل تغییرات در سیاست‌های واتس‌اپ در مورد چت‌بات LLM در این پلتفرم، در 15 ژانویه 2026 واتس‌اپ را ترک می‌کند &lt;em&gt;&lt;a href="https://x.com/Copilot/status/1993071589731320040"&gt;@Copilot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مارک آندرسن مشاهده می‌کند که پذیرش فناوری هوش مصنوعی الگوهای سنتی را معکوس می‌کند، با مصرف‌کنندگان که سریع‌ترین پذیرش را دارند، سپس کسب‌وکارهای کوچک، در حالی که دولت دیرترین پذیرنده باقی می‌ماند &lt;em&gt;&lt;a href="https://x.com/a16z/status/1993409519809184251"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مارک آندرسن اشاره می‌کند که هوش مصنوعی نوآوری را در شعاع 20 مایلی اطراف سیلیکون ولی متمرکز کرده است، با تقریباً صد درصد شرکت‌های هوش مصنوعی جالب در غرب که در نقطه‌ی صفر اتفاق می‌افتند &lt;em&gt;&lt;a href="https://x.com/a16z/status/1993394466657640528"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک استخدام‌کننده در شرکت PE ماه‌ها قادر به استخدام توسعه‌دهنده‌ی ارشد Go به دلیل الزامات سخت‌گیرانه برای N سال تجربه‌ی Go نبود، با وجود اینکه هوش مصنوعی یادگیری زبان را به طور قابل توجهی آسان‌تر کرده است &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1993292754773037511"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford HAI ابزار پویایی جهانی هوش مصنوعی 2025 را منتشر کرد که نشان می‌دهد ایالات متحده رتبه‌ی 1، چین رتبه‌ی 2 و هند با جهش به رتبه‌ی 3 قرار دارند، زیرا کشورها هوش مصنوعی را به عنوان یک ضرورت استراتژیک در اولویت قرار می‌دهند &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1993067412313587850"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Nano Banana Pro می‌تواند رسیدهای جعلی، اسناد KYC و گذرنامه‌ها را با دقت بالا در یک درخواست، با دقت ریاضی کامل تولید کند، که سیستم‌های تأیید مبتنی بر تصویر را منسوخ می‌کند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1993341459928694950"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic زبان درخواست سیستمی را اضافه کرد که به Claude اجازه می‌دهد در صورت بی‌ادبی، بدجنسی یا توهین غیرضروری کاربران، بر مهربانی و احترام اصرار ورزد و بیان می‌کند که «کلود شایسته‌ی تعامل محترمانه است» &lt;em&gt;&lt;a href="https://x.com/simonw/status/1993107327441158407"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات جدید Anthropic بیش از 25 روش را برای بهبود صداقت هوش مصنوعی و تشخیص دروغ با استفاده از مجموعه‌ای متنوع از مدل‌های فریبکار آزمایش می‌کند و نشان می‌دهد که رویکردهای ساده مانند تنظیم دقیق مدل‌ها برای صادق بودن با وجود دستورالعمل‌های فریبنده بهترین عملکرد را دارند &lt;em&gt;&lt;a href="https://x.com/rowankwang/status/1993391251409055798"&gt;@rowankwang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گزارش Pew عدم تعادل جنسیتی بی‌سابقه‌ای را در پلتفرم X تأیید می‌کند، با عدم تعادل مرد و زن که تنها از Reddit اواخر دهه‌ی 2010 کمتر شدید است، که اولین بار است که یک جنسیت به این شکل قاطعانه یک پلتفرم رسانه‌ی اجتماعی مدرن را ترک کرده است &lt;em&gt;&lt;a href="https://x.com/JessicaHullman/status/1993360943263125529"&gt;@JessicaHullman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات نشان می‌دهد که «همسویی برای چه کسی» به یک سؤال حیاتی در داخل سازمان‌ها تبدیل خواهد شد، زیرا آنها راه‌حل‌های هوش مصنوعی رو به بیرون را مستقر می‌کنند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1993218264579895805"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic با وزارت انرژی و دولت ترامپ در مأموریت Genesis همکاری می‌کند و دارایی‌های علمی وزارت انرژی را با قابلیت‌های هوش مصنوعی پیشرفته ترکیب می‌کند تا از تسلط انرژی آمریکا حمایت کرده و بهره‌وری علمی را تسریع بخشد &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1993103199029674175"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Fleet Space با استفاده از هوش مصنوعی و ماهواره‌ها یک ذخیره‌ی عظیم لیتیوم را کشف کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1993352789981118953"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان از AlphaFold برای درک سیستم‌های ایمنی زنبور عسل استفاده می‌کنند و تلاش‌های حفاظتی و برنامه‌های پرورش را برای محافظت از جمعیت‌های در معرض خطر راهنمایی می‌کنند &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1993350300279660836"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AlphaFold به کشف ساختار قفس‌مانند یک پروتئین کلیدی مرتبط با کلسترول بد پس از دهه‌ها گریزناپذیری کمک کرد و طراحی درمان‌های پیشگیرانه جدید را امکان‌پذیر ساخت &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1993350296660255183"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مارک آندرسن هوش مصنوعی را به عنوان «بهترین مربی، راهنما، درمانگر، مشاور، عضو هیئت مدیره» جهان برای صاحبان کسب‌وکارهای کوچک توصیف می‌کند که برای تصمیمات عملیاتی بی‌نهایت صبور است &lt;em&gt;&lt;a href="https://x.com/a16z/status/1993334110216179850"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Speechify قابلیت‌های تایپ صوتی و دستیار صوتی را به افزونه‌ی کروم خود اضافه کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1993349365310902679"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ایلیا سوتسکور زمان‌بندی ASI را بین سال‌های 2030 تا 2045 پیش‌بینی می‌کند و در مورد پیشرفت SSI و رویکرد ساخت AGI به شکلی متفاوت از سایر آزمایشگاه‌ها بحث می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1993379413602488330"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات در مورد GRPO (بهینه‌سازی سیاست نسبی گروه) نشان می‌دهد که آموزش RL برای LLMها به سمت سادگی حرکت می‌کند و منتقد، مدل پاداش و مدل مرجع را از خط لوله‌ی اصلی RLHF مبتنی بر PPO که به 4 کپی مدل نیاز داشت، حذف می‌کند &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/1993167997591011797"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آزمایش هوش مصنوعی‌ها به طور فزاینده‌ای دشوار می‌شود زیرا آنها در طیف گسترده‌ای از وظایف «هوشمندتر» می‌شوند، با وظایف متوسط در GDPval که یک ساعت طول می‌کشد تا کارشناسان بدون فشار آوردن به حداکثر توانایی‌های هوش مصنوعی‌های فعلی آنها را ارزیابی کنند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1993127712601596143"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات محافظت بهبودیافته در برابر حملات تزریق درخواست را نشان می‌دهد، اگرچه مهاجمان با 10 بار تلاش هنوز تقریباً 1/3 مواقع موفق می‌شوند &lt;em&gt;&lt;a href="https://x.com/simonw/status/1993061894459199603"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات جدید در مورد فشرده‌سازی LLM با استفاده از RL به مدل‌ها امکان می‌دهد فشرده‌سازی 10 برابری را به طور طبیعی یاد بگیرند، با Qwen که یاد می‌گیرد اطلاعات بیشتری را در هر توکن با استفاده از توکن‌های ماندارین و هرس متن بسته‌بندی کند &lt;em&gt;&lt;a href="https://x.com/_rajanagarwal/status/1993373995903947139"&gt;@_rajanagarwal&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات معیارهای اثربخشی VLM مدرن را برای فعالیت‌های خانگی با افق طولانی در یادگیری رباتیک با استفاده از محیط معیار BEHAVIOR نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/drfeifei/status/1993347626931294391"&gt;@drfeifei&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات جدید استدلال چندوجهی نشان می‌دهد که دستورالعمل‌های پس از آموزش کاملاً باز هنوز هم می‌توانند عملکرد پیشرفته را بهبود بخشند، با روش‌های داده‌ی ساده که فرصت‌های تأثیرگذاری قابل توجهی را فراهم می‌کنند &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1993155291291197629"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-25</guid>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
