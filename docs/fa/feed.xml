@@ -8,9 +8,63 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Wed, 17 Dec 2025 06:00:08 +0330</lastBuildDate>
-    <pubDate>Wed, 17 Dec 2025 06:00:08 +0330</pubDate>
+    <lastBuildDate>Thu, 18 Dec 2025 01:17:39 +0330</lastBuildDate>
+    <pubDate>Thu, 18 Dec 2025 01:17:39 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-12-17</title>
+      <link>https://sumbird.ir/fa/news/2025-12-17</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل دیپ‌مایند &lt;b&gt;جمینای 3 فلش&lt;/b&gt; را منتشر کرد که استدلال در سطح حرفه‌ای را با تأخیر و کارایی در سطح فلش ترکیب می‌کند. هزینه‌ی آن 0.50 دلار ورودی و 3.00 دلار خروجی به ازای هر میلیون توکن است و در اکثر معیارهای ارزیابی از &lt;b&gt;جمینای 2.5 پرو&lt;/b&gt; بهتر عمل می‌کند، در حالی که 3 برابر سریع‌تر است &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2001321759702663544"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;جمینای 3 فلش&lt;/b&gt; در ARC-AGI-1 به امتیاز 84.7% و در ARC-AGI-2 به امتیاز 33.6% دست یافت که با هزینه‌ی بسیار کمتری نسبت به سایر مدل‌های پیشرفته، مرز جدیدی را در نسبت امتیاز به هزینه ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/arcprize/status/2001330153902023157"&gt;@arcprize&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;جمینای 3 فلش&lt;/b&gt; در شاخص هوش تحلیل مصنوعی (Artificial Analysis Intelligence Index) امتیاز 71 را کسب کرد که 13 امتیاز بهبود نسبت به &lt;b&gt;جمینای 2.5 فلش&lt;/b&gt; است و آن را به باهوش‌ترین مدل در محدوده‌ی قیمتی خود تبدیل می‌کند، با وجود اینکه از 160 میلیون توکن (بیش از دو برابر &lt;b&gt;2.5 فلش&lt;/b&gt;) استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/2001335953290670301"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;جمینای 3 فلش&lt;/b&gt; در جدول رده‌بندی LMArena رتبه‌ی 3 را کسب کرد و در بین 5 مدل برتر در دسته‌های متن، بینایی و توسعه‌ی وب قرار گرفت و آن را به مقرون‌به‌صرفه‌ترین مدل پیشرفته تبدیل کرد &lt;em&gt;&lt;a href="https://x.com/arena/status/2001322123730788698"&gt;@arena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;جمینای 3 فلش&lt;/b&gt; در SWE-bench Verified به عملکردی پیشرفته دست یافت و در وظایف کدنویسی از هر دو سری &lt;b&gt;2.5&lt;/b&gt; و &lt;b&gt;جمینای 3 پرو&lt;/b&gt; بهتر عمل کرد &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2001321765503377546"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;جمینای 3 فلش&lt;/b&gt; در آزمون مربع ساتور کره‌ای (Korean Sator Square Test) امتیاز 161.8/190 را کسب کرد و در بین تمام مدل‌های آزمایش‌شده در رتبه‌ی دوم یا سوم قرار گرفت، با 60 امتیاز بهبود در استدلال نسبت به &lt;b&gt;جمینای 2.5 فلش&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/Hangsiin/status/2001341564145250770"&gt;@Hangsiin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;xAI رابط برنامه‌نویسی کاربردی (API) عامل صوتی Grok را راه‌اندازی کرد که با دقت 92.3% در Big Bench Audio رتبه‌ی 1 را کسب کرد و تقریباً 5 برابر سریع‌تر از نزدیک‌ترین رقیب خود با نرخ ثابت 0.05 دلار در دقیقه است &lt;em&gt;&lt;a href="https://x.com/xai/status/2001385958147752255"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اوپن‌ای‌آی ChatGPT Images را با پشتیبانی از &lt;b&gt;GPT Image 1.5&lt;/b&gt; منتشر کرد که دارای قابلیت‌های قوی‌تر در پیروی از دستورالعمل‌ها، ویرایش دقیق، حفظ جزئیات و 4 برابر سرعت بیشتر در تولید است و اکنون در صدر جدول رده‌بندی Image Arena قرار دارد &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2000990989629161873"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5 پرو&lt;/b&gt; طبق جدول رده‌بندی SEAL شرکت Scale AI، به عنوان بهترین مدل استدلالی سال 2025 رتبه‌بندی شد و در پاسخ به سؤالات پیچیده و حل مسائل چندمرحله‌ای عالی عمل می‌کند &lt;em&gt;&lt;a href="https://x.com/scale_AI/status/2000998950824968482"&gt;@scale_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5.2-xhigh&lt;/b&gt; بهبودهای کیفی قابل توجهی در Codex نشان می‌دهد که نشان‌دهنده‌ی جهشی بزرگ در قابلیت‌های کدنویسی است &lt;em&gt;&lt;a href="https://x.com/jam3scampbell/status/2001137824670896241"&gt;@jam3scampbell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مایکروسافت TRELLIS 2 را منتشر کرد، یک ترانسفورمر تطبیق جریان 4 میلیارد پارامتری که تصاویر تکی را به مش‌های سه‌بعدی با بافت تا رزولوشن 1536³ تبدیل می‌کند و با مجوز MIT به صورت متن‌باز منتشر شده است &lt;em&gt;&lt;a href="https://x.com/_akhaliq/status/2001041559366598799"&gt;@_akhaliq&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Browser Use مدل متن‌باز BU-30B-A3B-Preview را با 30 میلیارد پارامتر و 3 میلیارد پارامتر فعال منتشر کرد که به کیفیت پیشرفته‌ای برای عوامل وب با سرعت بی‌درنگ دست می‌یابد و صدها وظیفه‌ی مرورگر را با 1 دلار محاسبات امکان‌پذیر می‌سازد &lt;em&gt;&lt;a href="https://x.com/gregpr07/status/2001050742841549119"&gt;@gregpr07&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اپل مدل Sharp را منتشر کرد که تصاویر را به پاشش‌های سه‌بعدی تبدیل می‌کند و به Hugging Face Enterprise با بیش از 150 مدل، مجموعه داده و برنامه‌ی به اشتراک گذاشته شده در پلتفرم پیوست &lt;em&gt;&lt;a href="https://x.com/jeffboudier/status/2001032636740067371"&gt;@jeffboudier&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;آمازون تغییرات عمده‌ای در رهبری هوش مصنوعی خود اعلام کرد: پیتر دیسانتیس سازمان جدید هوش مصنوعی آمازون را شامل تیم AGI، توسعه‌ی سیلیکون و محاسبات کوانتومی رهبری خواهد کرد، در حالی که رئیس فعلی هوش مصنوعی، روهیت پراساد، از سمت خود کناره‌گیری می‌کند؛ پیتر آبیل به عنوان رئیس جدید AGI منصوب شد &lt;em&gt;&lt;a href="https://x.com/haydenfield/status/2001371927223632138"&gt;@haydenfield&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آمازون طبق گزارش‌ها در حال مذاکره برای سرمایه‌گذاری 10 میلیارد دلاری در اوپن‌ای‌آی است، زیرا معاملات چرخشی بین شرکت‌های فناوری همچنان محبوب هستند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2001262165685346431"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کورسیرا و یودمی توافقنامه‌ی ادغام به ارزش حدود 2.5 میلیارد دلار را امضا کردند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2001322335408926920"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گیت‌هاب با واکنش منفی توسعه‌دهندگان به دلیل برنامه‌ی خود برای دریافت هزینه از اجراکننده‌های GitHub Actions خودمیزبان مواجه شد و بعداً تغییر صورت‌حساب را به تعویق انداخت تا رویکرد خود را پس از بازخورد جامعه بازنگری کند &lt;em&gt;&lt;a href="https://x.com/github/status/2001372894882918548"&gt;@github&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گیت‌هاب بدون مدیرعامل فعالیت می‌کند پس از اینکه مایکروسافت هرگز توماس دومکه را جایگزین نکرد و اکنون به گروه "CoreAI" گزارش می‌دهد، که نگرانی‌هایی را در مورد از دست دادن ارتباط با جامعه‌ی توسعه‌دهندگان ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2001081487098106154"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ورشو به عنوان یک مرکز مهندسی بزرگ اروپایی با دفاتر اوپن‌ای‌آی، میسترال ای‌آی، ElevenLabs، گوگل، انویدیا، نتفلیکس، متا و سایر شرکت‌های برتر فناوری ظاهر می‌شود &lt;em&gt;&lt;a href="https://x.com/michuk/status/1999597819775070345"&gt;@michuk&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پرپلکسیتی اپلیکیشن بومی آی‌پد را منتشر کرد که برای iPadOS بهینه‌سازی شده است و برای کارهای واقعی با ویژگی‌های دسکتاپ از جمله پشتیبانی از چندوظیفگی از طریق Stage Manager طراحی شده است &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/2001333781081526611"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor &lt;b&gt;جمینای 3 فلش&lt;/b&gt; را به پلتفرم خود اضافه کرد و دریافت که برای بررسی سریع باگ‌ها به خوبی کار می‌کند &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2001326908030804293"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فیگما &lt;b&gt;جمینای 3 فلش&lt;/b&gt; را در Figma Make ادغام کرد و نتایج فوق‌العاده سریعی را ارائه می‌دهد که اکثر درخواست‌ها در 30-60 ثانیه بازگردانده می‌شوند &lt;em&gt;&lt;a href="https://x.com/figma/status/2001324002791616974"&gt;@figma&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;هیئت مدیره‌ی مونزو طبق گزارش‌ها، مدیرعامل آنیل را به دلیل اختلاف نظر در مورد زمان‌بندی عرضه‌ی اولیه‌ی سهام (IPO) برکنار کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2001127351439196180"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rad Power Bikes اعلام ورشکستگی کرد و به دنبال فروش کسب‌وکار است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2001344786599702987"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;متا برنامه‌ی خود را برای به اشتراک گذاشتن Horizon OS کوئست با تولیدکنندگان هدست‌های شخص ثالث متوقف کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2001375402313519268"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یوتیوب از سال 2029 به طور انحصاری اسکار را پخش خواهد کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2001377662170992828"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یان لکون در پایان سال متا را ترک می‌کند تا استارتاپی را با تمرکز بر مدل‌های جهانی راه‌اندازی کند - سیستم‌های هوش مصنوعی که با مشاهده و شبیه‌سازی محیط‌های فیزیکی یاد می‌گیرند &lt;em&gt;&lt;a href="https://x.com/NYUDataScience/status/2001329233260695634"&gt;@NYUDataScience&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;67% از پزشکان روزانه از هوش مصنوعی استفاده می‌کنند، 84% می‌گویند که هوش مصنوعی آن‌ها را به پزشکان بهتری تبدیل می‌کند و 42% می‌گویند که هوش مصنوعی باعث می‌شود بیشتر بخواهند در پزشکی بمانند، با موارد استفاده‌ی اصلی که وظایف اداری و کمک به تحقیق هستند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2001061282485547116"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5&lt;/b&gt; در بهینه‌سازی آزمایش‌های آزمایشگاهی مرطوب ارزیابی شد و توانایی بهبود پروتکل‌های تجربی را با خلبان ربات خودمختار برای اجرای پروتکل‌های شبیه‌سازی گیبسون از زبان طبیعی نشان داد &lt;em&gt;&lt;a href="https://x.com/MilesKWang/status/2000977815672643908"&gt;@MilesKWang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Product Intelligence شرکت Linear در ماه‌های اخیر 350 هزار پیشنهاد پذیرفته شده را تکمیل کرده و 26 هزار مسئله را اختصاص داده است که به تیم‌ها در یافتن موارد تکراری، افزودن ویژگی‌ها و هدایت مسائل به فرد مناسب کمک می‌کند &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/2001327502942437385"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;لئونا 14 میلیون دلار سرمایه‌ی اولیه را به رهبری a16z برای ساخت سیستم عامل بومی هوش مصنوعی برای ارائه‌دهندگان مراقبت‌های بهداشتی که در واتس‌اپ تعبیه شده است، جمع‌آوری کرد و میلیون‌ها تعامل بیمار را در سراسر آمریکای لاتین پردازش می‌کند &lt;em&gt;&lt;a href="https://x.com/Leona_health/status/2001017310664937641"&gt;@Leona_health&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فیسیا (توزیع‌کننده‌ی نایکی در برزیل) با استفاده از فناوری امتحان مجازی مبتنی بر انویدیا، 150% افزایش در تبدیل‌های درون فروشگاهی، 45% افزایش در اندازه‌ی متوسط سفارش و 128% بازگشت سرمایه (ROI) را به دست آورد &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2001049699243983045"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان MIT سیستم گفتار به واقعیت را توسعه دادند که هوش مصنوعی مولد را با مونتاژ رباتیک ترکیب می‌کند تا اشیاء فیزیکی از جمله مبلمان و دکور را در عرض چند دقیقه ایجاد کند &lt;em&gt;&lt;a href="https://x.com/medialab/status/2001049953901097264"&gt;@medialab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Marble شرکت World Labs به محققان امکان می‌دهد محیط‌های رباتیک آماده‌ی شبیه‌سازی را تولید کنند که با NVIDIA Isaac Sim برای آموزش و ارزیابی بدون نیاز به تنظیم دستی ادغام می‌شوند &lt;em&gt;&lt;a href="https://x.com/theworldlabs/status/2001343802301444564"&gt;@theworldlabs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Arcway موتور سه‌بعدی بی‌درنگ را راه‌اندازی کرد که در آن هر کسی می‌تواند خانه‌ها را طراحی کند و به خریداران امکان می‌دهد فضاها را کاوش کنند، مواد را تغییر دهند، مبلمان را بچینند و پروژه‌های ساختمانی را تجسم کنند &lt;em&gt;&lt;a href="https://x.com/calebarclay/status/2001325272055091265"&gt;@calebarclay&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;پژوهش متا چارچوب Parallel-Distill-Refine (PDR) را معرفی می‌کند که نشان می‌دهد موازی‌سازی و تقطیر استراتژیک می‌تواند از گسترش توالی با نیروی بی‌رحمانه بهتر عمل کند و به دقت 93.3% در AIME 2024 در مقابل 79.4% برای زنجیره‌ی فکری طولانی استاندارد با تأخیر یکسان دست یابد &lt;em&gt;&lt;a href="https://x.com/prfsanjeevarora/status/2001302776966533396"&gt;@prfsanjeevarora&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Physical Intelligence خاصیت نوظهوری را در VLAها (π0/π0.5/π0.6) کشف می‌کند: با افزایش مقیاس پیش‌آموزش، مدل‌ها یاد می‌گیرند که ویدئوهای انسانی و داده‌های ربات را هم‌تراز کنند و پس از برقراری کنترل ربات، یادگیری طبیعی از ویدئوهای انسانی را امکان‌پذیر می‌سازند &lt;em&gt;&amp;lt;a href="https://x.com/physical_int/status/200109620045669211&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-17</guid>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-16</title>
       <link>https://sumbird.ir/fa/news/2025-12-16</link>
@@ -972,48 +1026,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-28</guid>
       <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-11-27</title>
-      <link>https://sumbird.ir/fa/news/2025-11-27</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;علی‌بابا کوئن گزارش فنی &lt;b&gt;Qwen3-VL&lt;/b&gt; را در arXiv منتشر کرد که در آن معماری، زیرساخت، داده‌ها و ارزیابی مدل‌های بینایی-زبان را تشریح می‌کند. این سه مدل در مدت کمی بیش از یک ماه بیش از 1 میلیون بار دانلود شدند که &lt;b&gt;Qwen3-VL-8B&lt;/b&gt; با بیش از 2 میلیون دانلود پیشتاز است &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1993941138844287049"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;دیپ‌سیک &lt;b&gt;DeepSeek-Math-V2&lt;/b&gt; را منتشر کرد، اولین مدل متن‌باز که در المپیاد جهانی ریاضی 2025 به عملکرد مدال طلا دست یافت و با مجوز Apache 2.0 و حجم 689 گیگابایت از Hugging Face در دسترس است &lt;em&gt;&lt;a href="https://x.com/simonw/status/1994074530839740778"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;علی‌بابا &lt;b&gt;Z-Image&lt;/b&gt; را منتشر کرد، یک مدل تولید تصویر با 6 میلیارد پارامتر و مجوز Apache 2.0 که دارای تولید فوق‌سریع زیر یک ثانیه روی H800 است، در دستگاه‌های مصرف‌کننده 16 گیگابایتی جای می‌گیرد و از هر دو زبان انگلیسی و چینی با نسخه‌های Turbo، Base و Edit پشتیبانی می‌کند &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1993981325150163022"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پرایم‌اینتلکت &lt;b&gt;INTELLECT-3&lt;/b&gt; را معرفی کرد که یادگیری تقویتی را به یک مدل MoE با بیش از 100 میلیارد پارامتر مقیاس‌بندی می‌کند و به عملکردی پیشرفته برای اندازه خود در ریاضیات، کد و استدلال دست می‌یابد، با وزن‌ها، داده‌ها، چارچوب‌ها و ارزیابی‌های کاملاً متن‌باز &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1993895068290388134"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;تحلیل‌ها نشان می‌دهد که 49 استارتاپ هوش مصنوعی آمریکایی در سال 2025، 100 میلیون دلار یا بیشتر سرمایه جذب کرده‌اند که نشان‌دهنده‌ی ادامه‌ی سرمایه‌گذاری قوی در بخش هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1993784717867667735"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کوهیر همکاری خود را با SAP گسترش می‌دهد تا تقاضای فزاینده برای فناوری هوش مصنوعی مستقل در سراسر اروپا و سایر بازارهای جهانی را برآورده کند و قصد دارد پلتفرم هوش مصنوعی عامل خود، &lt;b&gt;North&lt;/b&gt; را در زیرساخت SAP در دسترس قرار دهد &lt;em&gt;&lt;a href="https://x.com/cohere/status/1994016476596949386"&gt;@Cohere&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بنیان‌گذاران نوردیک در حال انجام اقدامات بزرگ‌تری در زمینه‌ی هوش مصنوعی و سرمایه‌گذاری‌های فناوری هستند و این رویکرد نتایج مثبتی در بازار نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1993788135487229980"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گلید با ساخت راه‌حل‌هایی برای ساده‌تر، ایمن‌تر و هوشمندتر کردن لجستیک، برنده Startup Battlefield 2025 شد، با بنیان‌گذار کوین داموآ که ذهن‌آگاهی را در سبک رهبری خود گنجانده است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1994089899012845911"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;نگرانی‌هایی در مورد سیستم‌هایی که واقعیت استفاده از هوش مصنوعی را نادیده می‌گیرند، مطرح شده است، با هشدار اینکه وانمود کردن به عدم استفاده از هوش مصنوعی باعث می‌شود بدترین نسخه‌های استفاده از هوش مصنوعی به طور پیش‌فرض پیروز شوند. سیاست‌هایی برای کاهش آسیب‌ها و در عین حال بهره‌برداری از دستاوردهای احتمالی مورد نیاز است &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994081521955659984"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بحثی در مورد دستور کار ضد متن‌باز در حال شکل‌گیری است، با نگرانی‌هایی که برخی سازمان‌ها ممکن است از نگرانی‌های امنیتی برای اعمال مقرراتی استفاده کنند که مالکیت هوش افراد را دشوارتر می‌کند &lt;em&gt;&lt;a href="https://x.com/ylecun/status/1993833444762149051"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کلمنت دلانگ بر اهمیت دموکراتیزاسیون هوش مصنوعی متن‌باز تأکید می‌کند و خاطرنشان می‌کند که &lt;b&gt;DeepSeek-Math-V2&lt;/b&gt; نشان‌دهنده‌ی مالکیت مغز یکی از بهترین ریاضیدانان جهان به صورت رایگان و بدون محدودیت، تضعیف یا کنترل شرکت است &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1994067917588123669"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Perplexity Finance قابلیت «میانگین متحرک» را اضافه کرده و از پشتیبانی چند حساب کاربری در Perplexity Assistant رونمایی کرده است، با برنامه‌هایی برای به‌روزرسانی‌های متعدد در دسامبر برای هر دو Perplexity و Comet &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1994114499776008648"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل &lt;b&gt;Gemini Pro&lt;/b&gt; قابلیت‌های بازسازی عکس را به نمایش می‌گذارد و به کاربران امکان می‌دهد عکس‌های خانوادگی را با جزئیات دقیق‌تر و واضح‌تر، گویی با یک دوربین مدرن گرفته شده‌اند، بازسازی کنند &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1994067849791598685"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude Code افزونه‌ی طراحی فرانت‌اند را معرفی می‌کند که به توسعه‌دهندگان امکان می‌دهد برنامه‌های جدید و زیبا ایجاد کنند، با گزارش‌هایی از کاربران که از نتایج استفاده از افزونه‌ی طراحی با &lt;b&gt;Opus 4.5&lt;/b&gt; شگفت‌زده شده‌اند &lt;em&gt;&lt;a href="https://x.com/_catwu/status/1993791353051074687"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;JustiGuide پلتفرم مبتنی بر هوش مصنوعی را راه‌اندازی می‌کند تا به افراد در پیمایش سیستم مهاجرت ایالات متحده کمک کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1993780200598065390"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;درک زمینه توسط هوش مصنوعی به عنوان عاملی حیاتی برای مفید بودن برجسته شده است، با این اصل که «زمینه تنها چیزی است که نیاز دارید» که هوش مصنوعی را قادر می‌سازد تا کاربران را عمیقاً درک کند و کمک‌های مرتبط‌تری ارائه دهد &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1993826832827957445"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;مقاله علی‌بابا کوئن در مورد «توجه دروازه‌ای برای مدل‌های زبان بزرگ» با تمرکز بر غیرخطی بودن، پراکندگی و معماری بدون «سینک توجه»، جایزه بهترین مقاله NeurIPS 2025 را دریافت کرد &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1993854188171006453"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گزارش فنی &lt;b&gt;DeepSeek-Math-V2&lt;/b&gt; بر تمرکز بر آموزش تأییدکننده‌های بهتر از طریق بهبود کار داده‌ها و خطوط لوله مصنوعی، و فاصله گرفتن از رویکردهای خودتأییدی خودبه‌خودی، تأکید می‌کند. این فرآیند از حاشیه‌نویسی‌های سطح بالای متخصصان انسانی و فراتأییدکننده‌ها برای ارزیابی خود فرآیند ارزیابی استفاده می‌کند و حلقه‌های بازخورد مثبتی بین تأییدکننده‌های اثبات و تولیدکننده‌ها ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1994065600226775106"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ابتکار کاخ سفید و وزارت انرژی پتانسیل هوش مصنوعی را برای تسریع پیشرفت در علم به رسمیت می‌شناسد و همکاری در این ابتکار برنامه‌ریزی شده است &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1993903019076038813"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مجموعه‌داده‌های Hugging Face از Lance پشتیبانی می‌کند و قابلیت‌های مدیریت داده را برای تحقیقات هوش مصنوعی گسترش می‌دهد &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1994032763524051113"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان MIT ترکیباتی را شناسایی کردند که می‌توانند با فعال کردن مسیرهای دفاعی در داخل سلول‌های میزبان، با عفونت ویروسی مبارزه کنند &lt;em&gt;&lt;a href="https://x.com/MIT/status/1994055136730116163"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-11-27</guid>
-      <pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
