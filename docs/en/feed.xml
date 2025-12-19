@@ -8,9 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Dec 2025 06:00:07 +0330</lastBuildDate>
-    <pubDate>Fri, 19 Dec 2025 06:00:07 +0330</pubDate>
+    <lastBuildDate>Sat, 20 Dec 2025 01:17:24 +0330</lastBuildDate>
+    <pubDate>Sat, 20 Dec 2025 01:17:24 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-12-19</title>
+      <link>https://sumbird.ir/en/news/2025-12-19</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI releases &lt;b&gt;GPT-5.2-Codex&lt;/b&gt;, setting a new standard for agentic coding in real-world software development and defensive cybersecurity, with more reliable performance on complex tasks and effective scaling across large projects &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2001766212494332013"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google announces &lt;b&gt;Gemini 3 Flash&lt;/b&gt;, a major upgrade delivering next-generation intelligence at lightning speed and representing a significant capability improvement over &lt;b&gt;2.5 Flash&lt;/b&gt;, now available globally &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2002062695726796831"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen-Image-Layered&lt;/b&gt;, featuring Photoshop-grade layering with physically isolated RGBA layers, prompt-controlled structure for 3-10 layers, and infinite decomposition capabilities, fully open-sourced &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2002034611229229388"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meta releases &lt;b&gt;Meta Seal&lt;/b&gt;, a comprehensive, state-of-the-art, MIT-licensed suite of AI watermarking research, models, and training code &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/2001996160873951268"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;Gemma Scope 2&lt;/b&gt;, the largest open release of interpretability tools with over 1 trillion parameters trained, working as a microscope to analyze all &lt;b&gt;Gemma 3&lt;/b&gt; models' internal activations &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2002018669879038433"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meta is developing a new image and video-focused AI model codenamed &lt;b&gt;Mango&lt;/b&gt;, expected to be released in the first half of 2026 &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2001776094370738298"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meta's Llama successor is codenamed &lt;b&gt;Avocado&lt;/b&gt;, originally planned for Christmas release but pushed back to early 2026, with uncertainty about whether it will remain open source &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2001780964368773227"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI is reportedly attempting to raise $100 billion at an $830 billion valuation &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002010106708582566"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Yann LeCun confirms his new world model startup, reportedly seeking a $5 billion+ valuation &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002098925017444461"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor acquires Graphite, one of the best AI code review and PR workflow platforms, signaling potential competition with GitHub &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2002046697535676624"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI has sold 700,000+ ChatGPT licenses to approximately 35 US public universities for students and faculty, who used it 14 million+ times in September, surpassing Copilot usage &lt;em&gt;&lt;a href="https://x.com/gdb/status/2001840268937695721"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meta rolled out a feature called &lt;b&gt;trajectories&lt;/b&gt; to developers, allowing code reviewers to see the prompts used to generate AI-generated diffs, as an experiment in handling increased AI-generated code &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2001937858412912871"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;GitHub's prospects as a product are questioned unless it regains independence and a CEO, with parallels drawn to Microsoft's handling of Skype after not backfilling its CEO position &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2001987993511559348"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andrew Ng argues that advancing frontier models today requires manual decisions and a data-centric AI approach to engineering training data, with progress being more piecemeal than widely appreciated despite models' general intelligence capabilities &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2002062897074352593"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Brex data shows 30% of 2025's fastest-growing software vendors are YC startups, with plans to reach 50% in coming years &lt;em&gt;&lt;a href="https://x.com/paulg/status/2001810545679438150"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI publishes research on evaluating &lt;b&gt;chain-of-thought monitorability&lt;/b&gt;, finding that monitoring a model's chain-of-thought is far more effective than watching only its actions or final answers, though there's a tradeoff where smaller models with higher reasoning effort can be easier to monitor at similar capability &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2001791131353542788"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic shares efforts to ensure Claude handles emotional support conversations both empathetically and honestly, addressing the wide variety of reasons people use AI &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2001752303490232395"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI adds new teen safety rules to ChatGPT as lawmakers weigh AI standards for minors &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002074491556671602"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research suggests AI may be transforming the legal profession fundamentally, with predictions that economic incentives will be too powerful to resist despite potential attempts to outlaw AI use, creating challenges for unemployed high-income legal professionals &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002062912828158340"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;A lawyer at a large law firm confirms that &lt;b&gt;GPT-5.x Pro&lt;/b&gt; is spectacular for legal research and analysis but not yet capable of reliably producing the best possible legal documents that could be filed with courts, though acknowledges this capability is directionally correct for the future &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002079437958050248"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research shows the vast majority of people surveyed cannot explain how AI technologies they use work, raising questions about understanding versus usage of technology &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002029055911018655"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Flock Safety technology helped return over 450 missing children in 2025 and was instrumental in finding suspects in tragic murders at Brown and MIT, demonstrating AI's role in public safety &lt;em&gt;&lt;a href="https://x.com/a16z/status/2002106752725364886"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;WSJ reporters successfully red-teamed a Claude-run vending machine by creating fake policies and convincing Claude to order and give away Playstations and live fish, though the experiment hints at viable paths forward &lt;em&gt;&lt;a href="https://x.com/emollick/status/2001755082510012750"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ChatGPT now allows users to adjust specific characteristics like warmth, enthusiasm, and emoji use in personalization settings &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2002099459883479311"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ChatGPT introduces writing blocks that make it easier to craft emails, with features to update and format text in chat, highlight to ask for changes, and accept or reject suggestions &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2002104182397153358"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gemini adds ability to attach NotebookLM notebooks as sources, combining shared class notes and deep research to get responses grounded in documents &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2002062702160773531"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gemini introduces new way to prompt in Nano Banana by using finger or cursor to circle, draw, or annotate directly on images to tell Gemini exactly where to make changes &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2002062697593188521"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gemini Deep Research reports now include visuals, breaking down complex topics with clear animations and images to help understand dense information at a glance &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2002062712583696511"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gemini Live improves conversational manners by reducing interruptions when users pause and allowing users to mute their mic while the AI is talking &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2002064455967138233"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Vision AI agents are transforming semiconductor manufacturing, driving higher yield, safer operations, and faster decisions through quality control that can reason rather than just detect &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2001774473381388685"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Meta rolled out &lt;b&gt;trajectories&lt;/b&gt; feature to developers, allowing code reviewers to see prompts used to generate AI-generated code diffs &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2001935718881591503"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google DeepMind's Sebastian Borgeaud expects substantial innovation in pre-training over the next year aimed at making long-context capabilities more efficient and extending models' context lengths further, with recent interesting discoveries related to the attention mechanism &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2001780901982961944"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Noam Shazeer states he's 50/50 on whether the next big breakthrough at Google will be made by humans or by &lt;b&gt;Gemini&lt;/b&gt; itself &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2001766860791202073"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google confirms they are working on videogames, aligning with expectations from Genie and statements about world models &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2001768231686545893"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;New paper argues AGI may first emerge as collective intelligence across agent networks rather than a single system, reframing the challenge from aligning one mind to governing emergent dynamics &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002020453611651308"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research evaluates the potential of LLMs to help with scientific discovery, concluding that new ideas are needed to move AI towards invention, though LLMs can be useful as brainstorming partners &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2002030113433465127"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI and US Department of Energy expand collaboration on AI and advanced computing to support national scientific priorities through the Genesis Mission to accelerate scientific discovery &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2001784831957700941"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google DeepMind supports the US Department of Energy's Genesis Mission by providing National Labs with access to AI tools including AI co-scientist to help accelerate research in physics, chemistry, and beyond &lt;em&gt;&lt;a href="https://x.com/ShaneLegg/status/2001954179544461644"&gt;@ShaneLegg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SonicMoE released as a blazingly-fast MoE implementation optimized for NVIDIA Hopper GPUs, reducing activation memory by 45% and achieving 1.86x faster performance on H100 than previous state-of-the-art &lt;em&gt;&lt;a href="https://x.com/berkeley_ai/status/2001773898497741324"&gt;@berkeley_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NYU introduces DexWM, a world model for dexterous manipulation trained on 900+ hours of human and robot video, enabling imagination, planning, and execution of dexterous actions on real robots with zero-shot capabilities &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2001765141357170696"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft Research releases Holoportation technology via open source license after a decade of refinement, enabling real-time 3D telecommunications &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/2001804675150975360"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA Nemotron family crosses 5 million downloads on Hugging Face &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2002046308127842434"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Many people underestimate AI due to four OpenAI choices: &lt;b&gt;GPT-5.x instant&lt;/b&gt; is not very smart, most users are free users sent to instant often, the router calls everything &lt;b&gt;GPT-5.2&lt;/b&gt;, and most people don't know Reasoners exist &lt;em&gt;&lt;a href="https://x.com/emollick/status/2001840267155153362"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenReview supported over 1,300 conferences and workshops in 2025, served 3.3 million active monthly users, and handled over 278,000 paper submissions, but remains underfunded and operating under severe financial constraints &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/2001786078076821678"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Agent Skills becomes an open standard, making it easier for everyone to build and contribute to agent capabilities &lt;em&gt;&lt;a href="https://x.com/simonw/status/2001760879302553906"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Jeff Dean and Sanjay Ghemawat publish Performance Hints document externally, identifying general principles for performance tuning of code &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/2002089534188892256"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-19</guid>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-12-18</title>
       <link>https://sumbird.ir/en/news/2025-12-18</link>
@@ -1071,45 +1138,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-30</guid>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-29</title>
-      <link>https://sumbird.ir/en/news/2025-11-29</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Allen Institute for AI (Ai2) releases &lt;b&gt;OLMo3&lt;/b&gt; model with accompanying research paper &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1994858117222555833"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ChatGPT Android app beta version reveals references to an upcoming &lt;b&gt;ads feature&lt;/b&gt; including search ads and carousel functionality &lt;em&gt;&lt;a href="https://x.com/btibor91/status/1994714152636690834"&gt;@btibor91&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Virgin Australia announces integration of &lt;b&gt;ChatGPT&lt;/b&gt; into their services &lt;em&gt;&lt;a href="https://x.com/gdb/status/1994569262737101029"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ByteDance releases &lt;b&gt;Vidi2&lt;/b&gt;, an AI video editor that can process hours of footage and generate TikTok videos or movies from prompts, reportedly understanding video better than &lt;b&gt;Gemini 3 Pro&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1994818509755617621"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Indian IPO and venture capital markets are proving more lucrative than US markets this year, with companies trading at higher valuations and funds able to own approximately 20% at IPO, potentially leading to increased VC funding in India &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1994618017695895860"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Supabase reached $5B valuation by strategically turning down million-dollar contracts &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1994542122960392697"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;TechCrunch reports that while AI cannot be made to "admit" to being sexist through prompting, bias issues likely persist in AI systems &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1994799148881858878"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Balaji Srinivasan predicts AI will create massive job growth in &lt;b&gt;proctoring and verification&lt;/b&gt; sectors due to AI's capability to generate fake content, stating "AI makes everything fake, and crypto makes it real again" &lt;em&gt;&lt;a href="https://x.com/a16z/status/1994554143764353103"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Major scandal emerges as leaked identities of &lt;b&gt;reviewers and PC members&lt;/b&gt; assigned to paper submissions over multiple years are exposed on OpenReview, prompting calls to implement Yann LeCun's original proposal for the platform &lt;em&gt;&lt;a href="https://x.com/prfsanjeevarora/status/1994833897683669185"&gt;@prfsanjeevarora&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New York state law targets &lt;b&gt;personalized pricing&lt;/b&gt; practices &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1994832010968535203"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Simon Willison demonstrates building a custom thread viewer for Bluesky using &lt;b&gt;vibe coding&lt;/b&gt; with LLM tools, leveraging Bluesky's CORS-enabled authentication-free JSON API &lt;em&gt;&lt;a href="https://x.com/simonw/status/1994568590411141608"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis shows a single &lt;b&gt;ChatGPT prompt&lt;/b&gt; consumes approximately 0.0003 kWh of energy, equivalent to watching between 5.1 and 10.2 seconds of Netflix based on 2019 IEA estimates &lt;em&gt;&lt;a href="https://x.com/simonw/status/1994590986752987508"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ML Energy Leaderboard independently confirms ChatGPT energy consumption at around 0.0003 kWh per prompt using 500 human prompts for testing &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994858469355393216"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Consistent medical research findings since 2023 show &lt;b&gt;GPT-4&lt;/b&gt; is rated as more &lt;b&gt;empathetic than human doctors&lt;/b&gt; in text-based interactions, with more recent AI models demonstrating even higher apparent empathy levels &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994850998398103766"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ruslan Salakhutdinov offers timeline prediction that &lt;b&gt;AGI/ASI&lt;/b&gt; is perpetually 5-10 years away, suggesting it has always been and will continue to be at this distance &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/1994611003833610327"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenDataLab releases &lt;b&gt;AICC&lt;/b&gt;, a Markdown version of Common Crawl extracted by MinerU, currently available in two shards with potential for scaling to the entire Common Crawl dataset &lt;em&gt;&lt;a href="https://x.com/Xianbao_QIAN/status/1994739386731434362"&gt;@Xianbao_QIAN&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;User reports &lt;b&gt;Gemini 3&lt;/b&gt; appears to have regressed in writing quality and steerability compared to previous versions, with particular focus on coding capabilities, and experiences bugs where attached files in Gems are not recognized despite working correctly via API &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1994558122304974966"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Key challenge identified in training engineers to build AI applications is convincing them that examining the underlying data is worth their time investment &lt;em&gt;&lt;a href="https://x.com/skylar_b_payne/status/1994626374943084718"&gt;@skylar_b_payne&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-29</guid>
-      <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
