@@ -8,9 +8,67 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Dec 2025 06:00:07 +0330</lastBuildDate>
-    <pubDate>Sat, 20 Dec 2025 06:00:07 +0330</pubDate>
+    <lastBuildDate>Sun, 21 Dec 2025 01:17:25 +0330</lastBuildDate>
+    <pubDate>Sun, 21 Dec 2025 01:17:25 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-12-20</title>
+      <link>https://sumbird.ir/en/news/2025-12-20</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen-Image-Layered&lt;/b&gt;, an open-source model for native image decomposition with Photoshop-grade layering, physically isolated RGBA layers, and prompt-controlled structure supporting 3-10 layers with infinite decomposition depth &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2002179833955004703"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;Gemini 3 Flash&lt;/b&gt;, bringing frontier-level performance at 3x faster speed than &lt;b&gt;2.5 Pro&lt;/b&gt; and a fraction of the cost, now available in Gemini App, AI Mode in Google Search, Google AI Studio, and Vertex AI &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2002118072509812843"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic releases Bloom, an open-source tool for generating behavioral misalignment evaluations for frontier AI models, allowing researchers to specify behaviors and quantify their frequency and severity across automatically generated scenarios &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2002424909524619581"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases multiple Gemma family updates including FunctionGemma (specialized version of &lt;b&gt;Gemma 3 270M&lt;/b&gt; model), T5Gemma 2 (next evolution of encoder-decoder models), and Gemma Scope 2 (open suite of tools for language model interpretability) &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2002118072509812843"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google's SynthID watermark can now verify AI-generated videos in addition to images, with verification available directly in the Gemini app &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2002118072509812843"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI introduces personalization settings in ChatGPT allowing users to adjust specific characteristics like warmth, enthusiasm, and emoji use, with tone modifications not impacting output accuracy &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2002099459883479311"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI releases writing blocks feature in ChatGPT for easier email composition, allowing users to update and format text in chat, highlight for changes, accept or reject suggestions, and open directly in email clients &lt;em&gt;&lt;a href="https://x.com/jamesfzhang/status/2002104182397153358"&gt;@jamesfzhang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Codex now officially supports skills per the agentskills.io standard, enabling reusable bundles of instructions, scripts, and resources that can be called directly or chosen automatically based on prompts &lt;em&gt;&lt;a href="https://x.com/OpenAIDevs/status/2002099762536010235"&gt;@OpenAIDevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NotebookLM is now built on &lt;b&gt;Gemini 3&lt;/b&gt;, bringing significant improvements to reasoning and multimodal understanding &lt;em&gt;&lt;a href="https://x.com/NotebookLM/status/2002115447425282449"&gt;@NotebookLM&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Labs releases CC, an experimental AI productivity agent in Gmail for personalized daily briefings and custom email assistance &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2002118072509812843"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NotebookLM adds Data Tables as a new studio output for easy organization and synthesis of data across sources &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2002118072509812843"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google's Playables Builder launches as a prototype web app on YouTube built with &lt;b&gt;Gemini 3 Pro&lt;/b&gt;, enabling game development from short text, video, or image prompts that are playable on YouTube &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2002118072509812843"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gerge Orosz observes that despite LLMs writing code 100x faster and in 100x greater volume than human developers, creating quality software remains difficult, highlighting that the hard part of software development was never just writing code but managing complexity, testing, and maintaining quality &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2002362364012699749"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor acquires Graphite in continuation of its acquisition spree, signaling consolidation in the AI-powered development tools market &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002136241824018680"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Investors are placing their bets on AI for next year, with AI dominating investment focus according to industry analysis &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002137945084707059"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ex-Splunk executives' startup Resolve AI hits $1 billion valuation with Series A funding, demonstrating continued strong investor appetite for AI infrastructure companies &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002182050691133605"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gerge Orosz identifies writing unit and integration tests as an excellent use case for AI in coding, noting that AI handles the tedious setup work while developers can focus on reviewing edge cases and ensuring test quality &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2002398251710902401"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Salesforce executives report that large language models cannot be trusted for full automation, leading them to develop a hybrid system with if-then deterministic features, representing a return to expert systems approaches from the 1980s &lt;em&gt;&lt;a href="https://x.com/amir/status/2002047696862064927"&gt;@amir&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gerge Orosz suggests git may face competition as the dominant version control system for the future, noting that git doesn't support agent trajectories and may not be efficient for massive repositories that AI agents generate &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2002150141482954887"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Amazon reportedly plans to invest up to $10 billion in OpenAI, with concerns raised about circular revenue as OpenAI would use that money to buy Amazon's products &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002196341858955430"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New York Governor Kathy Hochul signs RAISE Act to regulate AI safety, marking significant state-level AI regulation &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002444783265230972"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research paper reveals that 25 different AI models asked to write a metaphor about time nearly all produced "time is a river" or "time is a weaver," likely due to overlapping training, alignment processes, and synthetic data contamination, raising concerns about lack of idea diversity &lt;em&gt;&lt;a href="https://x.com/MParakhin/status/2002069309938712809"&gt;@MParakhin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Santa Fe Institute publishes first mathematically precise framework for what it would mean for one universe to simulate another, showing that several longstanding claims about simulations break down under rigorous definition and suggesting the possibility that a universe capable of simulating another could be perfectly reproduced inside that simulation &lt;em&gt;&lt;a href="https://x.com/sfiscience/status/2002138354662424617"&gt;@sfiscience&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;NVIDIA releases NitroGen, an open-source foundation model trained to play 1000+ games across RPG, platformer, battle royale, racing, 2D, and 3D genres, adapting the GR00T N1.5 robotics architecture for gaming with 40K+ hours of gameplay data to develop embodied reasoning, perception, and motor coordination &lt;em&gt;&lt;a href="https://x.com/DrJimFan/status/2002065257666396278"&gt;@DrJimFan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Antigravity's computer use capabilities massively upgraded with &lt;b&gt;Gemini 3 Flash&lt;/b&gt;, becoming both faster and better at performing long agentic tasks using the browser, including deep research and code visualization &lt;em&gt;&lt;a href="https://x.com/_mohansolo/status/2002123628553584707"&gt;@_mohansolo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google's Nano Banana Pro unexpectedly demonstrates strong performance in creating PowerPoint presentations, representing an example of AI's jagged abilities leading to breakthroughs in unexpected areas &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002435094276157674"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claude Code demonstrates capabilities beyond software development, proving effective for any task that can be accomplished by executing commands on a computer, suggesting a shift from application-specific tools to mode-based AI operation &lt;em&gt;&lt;a href="https://x.com/simonw/status/2002416381980213307"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ChatGPT Pro users can now give friends 3 months of access to ChatGPT Plus, with share links available via email or notification for users who were Pro members as of December 1 &lt;em&gt;&lt;a href="https://x.com/nickaturley/status/2002164772284809664"&gt;@nickaturley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SmolVLM from Hugging Face demonstrates real-time webcam capabilities running fully local on MacBook M3 using llama.cpp &lt;em&gt;&lt;a href="https://x.com/DataChaz/status/2002149908430962734"&gt;@DataChaz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sierra announces new capabilities focused on customer relationships rather than individual conversations, emphasizing the atomic unit of customer experience as a relationship &lt;em&gt;&lt;a href="https://x.com/btaylor/status/2002433125352419545"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;METR evaluation shows &lt;b&gt;Opus 4.5&lt;/b&gt; achieving 4 hours 49 minutes at 50% success threshold for autonomous task duration, far above trend, though its 80% time horizon of 27 minutes remains similar to past models and below &lt;b&gt;GPT-5.1-Codex-Max's&lt;/b&gt; 32 minutes, with the gap reflecting a flatter logistic success curve as Opus differentially succeeds on longer tasks &lt;em&gt;&lt;a href="https://x.com/METR_Evals/status/2002203632150688087"&gt;@METR_Evals&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Analysis shows AI agent capabilities for coding tasks compared to human professionals are doubling approximately every 4 months, with &lt;b&gt;Opus 4.5&lt;/b&gt; putting progress roughly back on track for this exponential trend &lt;em&gt;&lt;a href="https://x.com/aidigest_/status/2002372476206998011"&gt;@aidigest_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Researcher davidad predicts that by December 2026 the recursive self-improvement loop on algorithms will likely be closed, resulting in another inflection point to an even faster pace with perhaps around 70-80 day doubling time &lt;em&gt;&lt;a href="https://x.com/davidad/status/2002412311999598604"&gt;@davidad&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stephen McAleer shifts research focus to automated alignment research, emphasizing the importance that alignment can keep up during the intelligence explosion as automated AI research arrives soon &lt;em&gt;&lt;a href="https://x.com/McaleerStephen/status/2002205061737591128"&gt;@McaleerStephen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Users report &lt;b&gt;GPT-5.2&lt;/b&gt; in Codex represents a dramatic step-change, feeling more significant than the transition from &lt;b&gt;3.5&lt;/b&gt; to &lt;b&gt;4&lt;/b&gt;, with strong performance on large, real-world codebases and methodical approach to tasks &lt;em&gt;&lt;a href="https://x.com/Javi/status/2001837508951445794"&gt;@Javi&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research introduces MMGR (Multi-Modal Generative Reasoning) benchmark evaluating video models (&lt;b&gt;Veo-3&lt;/b&gt;, &lt;b&gt;Sora-2&lt;/b&gt;, Wan-2.2) and image models (&lt;b&gt;Nano-banana/Pro&lt;/b&gt;, &lt;b&gt;GPT-4o-image&lt;/b&gt;, Qwen-image) on physical, logical, 3D/2D spatial, and temporal reasoning, finding that while models excel at visual physics, they fail catastrophically at abstract logic (under 10% on ARC-AGI for most video models) and long-horizon planning &lt;em&gt;&lt;a href="https://x.com/HaoyiQiu/status/2001737009208164392"&gt;@HaoyiQiu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Berkeley AI introduces RETAIN, a new method for VLA (Vision-Language-Action) finetuning based on model merging that allows finetuning on narrow task data while maintaining broad generalization by directly merging base and finetuned policy in weight space &lt;em&gt;&lt;a href="https://x.com/zhiyuan_zhou_/status/2002067002924687396"&gt;@zhiyuan_zhou_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Jeff Dean and Sanjay Ghemawat publish Performance Hints document externally, collecting performance optimization techniques ranging from high-level algorithmic improvements to low-level optimizations gathered from decades of changelists &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/2002089534188892256"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-20</guid>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-12-19</title>
       <link>https://sumbird.ir/en/news/2025-12-19</link>
@@ -1104,40 +1162,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-01</guid>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-11-30</title>
-      <link>https://sumbird.ir/en/news/2025-11-30</link>
-      <description>&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;AI data centers are consuming massive amounts of RAM, with hyperscalers buying enormous quantities of server DDR5, HBM, and LPDDR for AI clusters. Analysts expect server DRAM prices to roughly double over 2025-2026 due to AI demand, with this demand at the top of the supply chain reducing availability for consumer RAM &lt;em&gt;&lt;a href="https://x.com/AskPerplexity/status/1995031465780809785"&gt;@AskPerplexity&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI agents are enabling companies to scale work that was previously too expensive or impractical, making scarce services near infinitely available. Examples include continuous code review, system audits, contract analysis, and automated issue response - work that small companies lack resources for and even large enterprises can only do partially &lt;em&gt;&lt;a href="https://x.com/levie/status/1994900315292979426"&gt;@levie&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Startup founders report that &lt;b&gt;fundraising challenges&lt;/b&gt; have changed significantly, with one founder feeling demoralized about fundraising despite having already raised a million dollars, suggesting shifting expectations in the funding landscape &lt;em&gt;&lt;a href="https://x.com/paulg/status/1995133423199899666"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;A useful heuristic for identifying AI opportunities: if work in a domain already appears as &lt;b&gt;slop&lt;/b&gt; when done by humans, current AI can likely do it well enough to be competitive &lt;em&gt;&lt;a href="https://x.com/paulg/status/1995131132715868573"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Economists need to think through how to help reduce the &lt;b&gt;labor impacts of AI&lt;/b&gt;. While historically new technologies lead to more jobs, living through the transition can be difficult, and this time may be different, requiring more work on mitigation strategies &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994892364695888364"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;GenAI represents the &lt;b&gt;fastest adoption of an economically consequential technology in human history&lt;/b&gt;. The speed and breadth of adoption, combined with continued exponential improvement, means society has no clear handle on what it all means &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995165065478279307"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;When powerful AI is in the hands of a billion people, many things happen simultaneously. Few aspects of society are not seeing early impact from AI, unlike previous transformational technologies which had much slower adoption and required expensive complementary assets &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995165773351039434"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Developer successfully used &lt;b&gt;Perplexity Comet&lt;/b&gt; for API endpoint testing using Postman after development, with the AI generating multiple test payloads and a final report after the full run &lt;em&gt;&lt;a href="https://x.com/ai_for_success/status/1995164144509784334"&gt;@ai_for_success&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;A System Design Visualizer was built using Google &lt;b&gt;Antigravity IDE&lt;/b&gt; that transforms static architecture diagrams into interactive visualizations. The tool uploads system design images, converts them to Mermaid diagrams using AI, and creates interactive graphs where users can click components for details &lt;em&gt;&lt;a href="https://x.com/mehdiyarix/status/1995178471845511570"&gt;@mehdiyarix&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LLMs are making &lt;b&gt;coding on mobile phones&lt;/b&gt; more feasible, enabling developers to build small but useful pieces of software entirely on their phones without needing full attention, compatible with being out in the world &lt;em&gt;&lt;a href="https://x.com/simonw/status/1995164065417830659"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;A startup is using AI to compress information to fit into LLM context windows, discovering that &lt;b&gt;compression is understanding&lt;/b&gt; - in the compressed form, the information can be used for other new purposes &lt;em&gt;&lt;a href="https://x.com/paulg/status/1994905280996676054"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI released &lt;b&gt;ChatGPT for Teachers&lt;/b&gt; resource &lt;em&gt;&lt;a href="https://x.com/gdb/status/1994909112828866562"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Papers testing AI capabilities should test the &lt;b&gt;strongest case&lt;/b&gt; as well as defaults. While it's acceptable to report that Llama 2 failed, researchers should also attempt serious tests using advanced models like &lt;b&gt;GPT-5.1 Thinking&lt;/b&gt; in agentic harnesses to better map the frontier &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994913383871586563"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;The null hypothesis is that AI fails at tasks. To falsify this, researchers need the strongest attempts to prove AI success, not the weakest. This requires &lt;b&gt;severe tests&lt;/b&gt; in the Popper/Mayo sense - best attempts to make AI work, rather than bad prompts or models that defend the null &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994917977112920402"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;All major AI models struggle with a specific creative task: creating an updated version of "The Fighting Temeraire" with the same style but different subject. While models understand retiring technology, they miss the &lt;b&gt;symbolism&lt;/b&gt; of what is being retired and how, failing to capture the contrast between old and modern forms with nostalgia for the original &lt;em&gt;&lt;a href="https://x.com/emollick/status/1994945921076138012"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Three years of the &lt;b&gt;Lem Test&lt;/b&gt; tracked progress from ChatGPT-3.5's release to &lt;b&gt;Claude Opus 4.5&lt;/b&gt; last week &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995025704870887652"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-11-30</guid>
-      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
