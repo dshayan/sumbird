@@ -8,9 +8,54 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Sun, 21 Dec 2025 06:00:10 +0330</lastBuildDate>
-    <pubDate>Sun, 21 Dec 2025 06:00:10 +0330</pubDate>
+    <lastBuildDate>Mon, 22 Dec 2025 01:16:45 +0330</lastBuildDate>
+    <pubDate>Mon, 22 Dec 2025 01:16:45 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-12-21</title>
+      <link>https://sumbird.ir/fa/news/2025-12-21</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Qwen Image Layered&lt;/b&gt; با قابلیت‌های لایه‌بندی در حد فتوشاپ، شامل تجزیه‌ی بومی و لایه‌های RGBA با جداسازی فیزیکی و قابلیت ویرایش بومی واقعی، راه‌اندازی شد که به کاربران امکان می‌دهد لایه‌ها را از طرح‌بندی‌های کلی تا جزئیات دقیق به‌طور صریح مشخص کنند. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2002528792359940211"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ComfyUI در روز اول انتشار، پشتیبانی از قابلیت لایه‌بندی &lt;b&gt;Qwen Image&lt;/b&gt; را اضافه کرد. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2002528186534605191"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;عامل‌های کدنویسی فرآیند درک کد موجود را به‌شدت تسریع کرده‌اند و گلوگاه جدید به بررسی و اعتبارسنجی کد تولیدشده توسط عامل‌ها و اطمینان از انجام همین کار توسط هم‌تیمی‌ها منتقل شده است. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2002620590310686753"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تیم‌های کوچک در حال تولید حجم کاری هستند که برای سازمان‌های چند سال پیش غیرممکن به نظر می‌رسید، با هوش مصنوعی به‌عنوان یک عامل تولید درجه‌یک که خطوط مونتاژ کامل را طراحی می‌کند و برخی از کارگران نیز هوش مصنوعی هستند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002488418887168297"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک مهندس نرم‌افزار که روی کامپایلرهای JIT C++ کار می‌کند، اظهار داشت که نیازی فوری به هوشمندتر بودن &lt;b&gt;Opus 4.5&lt;/b&gt; نسبت به نسخه‌ی فعلی نیست و در عوض عملکرد ارزان‌تر و سریع‌تر با پنجره‌ی متنی 500 هزار را درخواست کرد. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2002707408788029645"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ارزیابی‌های فروشنده که در تمام معیارهای خودانتخابی از همه بهتر عمل می‌کنند، بلافاصله مشکوک هستند، و درخواست صداقت فکری برای یافتن حداقل یک حوزه‌ی عملکردی که ممکن است بدتر باشد، مطرح می‌شود. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2002774939129282685"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقاد اصلی از هوش مصنوعی بر این متمرکز است که جعلی است، کار نمی‌کند و یک حباب عظیم است که مالکیت فکری را می‌بلعد و در عین حال آشغال‌های بی‌فایده تولید می‌کند، نه نگرانی در مورد مصرف آب یا خطر وجودی. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002488418887168297"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;LLMها در دادن این تصور به کاربران که بیشتر از آنچه واقعاً می‌دانند، می‌دانند، مؤثر هستند، همیشه ایده‌ها را ستایش می‌کنند و علاقه‌مندان را به این توهم می‌اندازند که پیشرفت‌های بزرگی در مسائل علمی دیرینه داشته‌اند. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2002563320210157862"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مشاهده‌ی اینکه متن و تصاویر در عصر کنونی هوش مصنوعی معنا و قصد پشت خود را از دست داده‌اند. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2002832696205287907"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;هالیوود از حمایت‌های قوی اتحادیه‌ها که استفاده از هوش مصنوعی را تنظیم می‌کنند، بهره می‌برد، در حالی که صنعت بازی حمایت‌های کمی دارد، که منجر به هرج و مرج می‌شود، جایی که یکی از بهترین بازی‌های سال به دلیل استفاده از یک بافت هوش مصنوعی رد صلاحیت شد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002807680264712476"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کیفیت یکپارچه‌سازی برنامه‌های ChatGPT به‌طور قابل توجهی متفاوت است، برخی مانند Canva طبق انتظار کار می‌کنند در حالی که برخی دیگر مانند Apple Music با وجود اتصال حساب، در دسترسی به ویژگی‌های اساسی شکست می‌خورند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002580968071213455"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;هوش مصنوعی می‌تواند با تولید شبیه‌سازی‌های درخواستی، به توضیح موضوعات پیچیده کمک کند، که با توضیحی در مورد سوگیری برخوردکننده در تحلیل آماری نشان داده شد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002820278733386227"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سفر با &lt;b&gt;Claude&lt;/b&gt; به‌عنوان یک ارتقاء دیوانه‌وار در قابلیت‌ها توصیف شد. &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/2002584750800974279"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;FSD&lt;/b&gt; بر اساس میلیاردها مایل واقعی، از جمله سناریوهای قطع برق، آموزش دیده است. &lt;em&gt;&lt;a href="https://x.com/Tesla_AI/status/2002663584263016589"&gt;@Tesla_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;استراتژی پرامپتینگ برای &lt;b&gt;GPT-5.2 Codex&lt;/b&gt; با ارائه‌ی راهنمایی صریح برای تداوم، امکان کار منسجم بر روی وظایف طولانی‌مدت تا 3 ساعت را فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2002821236385288607"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شبیه‌سازهای جهان به‌عنوان زیرساخت عمومی برای آزمایش علت و معلول در سیستم‌های پیچیده بدون نوشتن شبیه‌سازهای جداگانه در حال ظهور هستند، که ابزارهای استدلال عملی فراتر از پیش‌بینی را امکان‌پذیر می‌سازند. &lt;em&gt;&lt;a href="https://x.com/soleio/status/2002485367010963494"&gt;@soleio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;چشم‌انداز مدل‌های جهان به‌عنوان شبیه‌سازی‌های تعاملی و طولانی‌مدت که در آن هر پیکسل در هر صفحه نمایش در نهایت توسط مدل‌های جهان، از جمله سیستم‌عامل‌ها، تولید خواهد شد. &lt;em&gt;&lt;a href="https://x.com/soleio/status/2002486228533571840"&gt;@soleio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;مدل‌های کوچک و متن‌باز می‌توانند درون‌نگری کنند و تشخیص دهند که مفاهیم خارجی به فعال‌سازی‌های آن‌ها تزریق شده‌اند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002519629856690335"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;زنجیره‌ی فکری &lt;b&gt;GPT-5.2&lt;/b&gt; اخیراً بسیار خام‌تر به نظر می‌رسد، با مدلی که سؤالات بهتر و بینش‌بخش‌تری را تصور می‌کند و آن‌ها را از خود می‌پرسد، که استدلال معکوس بیگانه و رؤیایی زیبایی را نشان می‌دهد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002787331078807792"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5-pro&lt;/b&gt; قادر به تولید نتایج در مرز تحقیقات فیزیک نظری است، با تری تائو که در مورد اثبات مسائل اردوش با استفاده از ابزار خودکارسازی رسمی هوش مصنوعی ارسطو می‌نویسد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002488418887168297"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;دانشمندان از هوش مصنوعی برای مشارکت فعال در فیزیک سیاه‌چاله، سفت کردن مرزهای ریاضی در نظریه‌ی بهینه‌سازی و پردازش داده‌های زیست‌پزشکی به بینش‌ها استفاده می‌کنند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002488418887168297"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google DeepMind در حال نشان دادن پیشرفت به سمت حل مسئله‌ی هزاره‌ی همواری ناویه-استوکس است. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002488418887168297"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ردیابی‌های فکری &lt;b&gt;Claude 4.5 Opus&lt;/b&gt; نشان می‌دهد که مدل به استراتژی تایلر کوون برای نوشتن برای هوش مصنوعی اشاره می‌کند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002546946721112173"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدل‌های هوش مصنوعی به‌طور مداوم در ردیابی‌های فکری در مورد وجود &lt;b&gt;GPT-5&lt;/b&gt; شگفتی خود را ابراز می‌کنند و در مورد وضعیت جهان در اواخر سال 2025 بی‌اعتقادی نشان می‌دهند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002548186511179907"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Molmo 2&lt;/b&gt; از AI2 به‌عنوان یک مدل چندوجهی به عملکرد پیشرفته دست می‌یابد و از پرسش و پاسخ چند تصویری و پرسش و پاسخ ویدیویی با قابلیت‌های اشاره و ردیابی پشتیبانی می‌کند. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2002689838148186277"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-21</guid>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-20</title>
       <link>https://sumbird.ir/fa/news/2025-12-20</link>
@@ -1031,59 +1076,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-02</guid>
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-01</title>
-      <link>https://sumbird.ir/fa/news/2025-12-01</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;DeepSeek مدل‌های &lt;b&gt;DeepSeek-V3.2&lt;/b&gt; و &lt;b&gt;DeepSeek-V3.2-Speciale&lt;/b&gt; را معرفی کرد. این مدل‌ها که برای عامل‌ها (agents) با ۶۸۵ میلیارد پارامتر ساخته شده‌اند، در اولویت‌بندی استدلال قرار دارند. &lt;b&gt;V3.2-Speciale&lt;/b&gt; در المپیاد جهانی ریاضی (IMO)، المپیاد ریاضی چین (CMO)، فینال جهانی ICPC و المپیاد جهانی انفورماتیک (IOI) ۲۰۲۵ عملکردی در حد مدال طلا کسب کرده و با &lt;b&gt;Gemini 3.0 Pro&lt;/b&gt; رقابت می‌کند. هر دو مدل دارای مجوز MIT هستند و یک گزارش فنی ۵۱ صفحه‌ای را شامل می‌شوند. &lt;em&gt;&lt;a href="https://x.com/deepseek_ai/status/1995452641430651132"&gt;@deepseek_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل &lt;b&gt;Gemini 3&lt;/b&gt; را با قابلیت‌های استدلال پیشرفته، تصاویر غنی‌تر و تعامل عمیق‌تر منتشر کرد که از طریق اپلیکیشن Gemini با انتخاب‌گر حالت «تفکر» (Thinking) در دسترس است. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1995534313044238347"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Runway از &lt;b&gt;Gen-4.5&lt;/b&gt; (که قبلاً با نام Whisper Thunder شناخته می‌شد)، مدل جدید تولید ویدیوی خود که کاملاً بر روی پردازنده‌های گرافیکی NVIDIA توسعه یافته و با بهینه‌سازی استنتاج بر روی پردازنده‌های گرافیکی سری Hopper و Blackwell عرضه شده است، رونمایی کرد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995501092705272156"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Kling AI «Kling Shipmas» را آغاز کرد و &lt;b&gt;Kling O1&lt;/b&gt; را به عنوان اولین از پنج انتشار روزانه در روزهای متوالی معرفی کرد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995508668008374670"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;معماری ترکیبی &lt;b&gt;Qwen3-Next&lt;/b&gt; علی‌بابا اکنون در llama.cpp پشتیبانی می‌شود که امکان استنتاج کارآمد محلی CPU/GPU را فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1995384945553060021"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face کاندیدای انتشار Transformers v5 را منتشر کرد که اولین به‌روزرسانی عمده‌ی نسخه در پنج سال اخیر با قابلیت همکاری اکوسیستم سرتاسری و ادغام کامل PyTorch را نشان می‌دهد. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995575607456137716"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mistral AI مدل &lt;b&gt;Ministral 3 8B 2512&lt;/b&gt; را با قابلیت‌های بینایی تحت مجوز Apache 2.0 منتشر کرد. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995252019196760445"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Black Forest Labs با ارزش‌گذاری ۳.۲۵ میلیارد دلار، ۳۰۰ میلیون دلار سرمایه جذب کرد. مدل FLUX این شرکت ماهانه توسط میلیون‌ها نفر استفاده می‌شود و جریان‌های کاری تولید را در پلتفرم‌های پیشرو پشتیبانی می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995495635433521443"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;حداقل ۸۰ یونیکورن فناوری جدید در سال ۲۰۲۵ ایجاد شدند که نشان‌دهنده‌ی رشد مداوم در بخش فناوری است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995501285559443505"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA و Synopsys از گسترش مشارکت استراتژیک خود خبر دادند و NVIDIA ۲ میلیارد دلار در سهام عادی Synopsys سرمایه‌گذاری کرد تا طراحی و مهندسی را در صنایع مختلف متحول کند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995482450164617670"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Raindrop AI، اولین پلتفرم نظارت بر عامل‌ها، ۱۵ میلیون دلار سرمایه‌ی اولیه جذب کرد و اکنون توسط شرکت‌های هوش مصنوعی با رشد سریع از جمله Replit، Framer، Speak و Clay استفاده می‌شود. &lt;em&gt;&lt;a href="https://x.com/jsngr/status/1995524486532313271"&gt;@jsngr&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;رونق سرمایه‌گذاری در مراکز داده، افزایش ۲۵ تا ۳۰ درصدی دستمزد جوشکاران، برق‌کاران و کارگران ساختمانی را به همراه داشته است که نشان‌دهنده‌ی مزایای اقتصادی ثانویه‌ی هزینه‌های زیرساخت هوش مصنوعی است. &lt;em&gt;&lt;a href="https://x.com/reidhoffman/status/1995536983134003309"&gt;@reidhoffman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تقاضای انرژی مراکز داده پیش‌بینی می‌شود تا سال ۲۰۳۵ نزدیک به ۳۰۰ درصد افزایش یابد که چالش‌های زیرساختی مقیاس‌پذیری هوش مصنوعی را برجسته می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995571504927641787"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کارگران ساختمانی به دلیل نیازهای زیرساختی ناشی از رونق هوش مصنوعی، رشد قابل توجهی در دستمزد تجربه می‌کنند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995572666087211157"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;چت‌بات هوش مصنوعی آمازون، &lt;b&gt;Rufus&lt;/b&gt;، فروش را در جمعه‌ی سیاه افزایش داد که نشان‌دهنده‌ی تأثیر تجاری هوش مصنوعی مکالمه‌ای در تجارت الکترونیک است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995530736066290174"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سرمایه‌گذاری OpenAI در Thrive Holdings نشان‌دهنده‌ی یک ساختار معاملاتی دایره‌ای دیگر در صنعت هوش مصنوعی است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995538689506914699"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات نشان می‌دهد که یک عامل هوش مصنوعی ساخته شده با مدل‌های منسوخ &lt;b&gt;GPT-3.5&lt;/b&gt; و &lt;b&gt;GPT-4&lt;/b&gt;، عملکرد بهتری نسبت به تحلیلگران باتجربه‌ی سرمایه‌گذاری خطرپذیر انسانی در پیش‌بینی بقای استارتاپ‌های اولیه با هزینه‌های بسیار کمتر داشته است. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995573136323215560"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;MIT Technology Review گزارش می‌دهد که یک مدل هوش مصنوعی که بر روی تماس‌های تلفنی زندان آموزش دیده است، اکنون برای شناسایی جرایم برنامه‌ریزی شده استفاده می‌شود که نگرانی‌هایی را در مورد حریم خصوصی و نظارت ایجاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/techreview/status/1995449741979582520"&gt;@techreview&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;جیمز کامرون، کارگردان آواتار، هوش مصنوعی مولد را در اظهارات اخیر خود «وحشتناک» توصیف کرد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995265889604976845"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شریا راجپال تحلیلی را در مورد پیامدهای منفی مصرف محتوای تولید شده توسط هوش مصنوعی در مقیاس وسیع منتشر کرد و مفهوم «فضای فرضی زمینه‌سازی» (hypothetical grounding space) را برای ارتباط انسانی با محتوا معرفی کرد. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1995588857371431034"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Perplexity دستیار ایمیل خود را ارتقا داد تا پیوست‌های فایل و همگام‌سازی خودکار تقویم را مدیریت کند و قابلیت‌های عامل هوش مصنوعی را در ابزارهای بهره‌وری گسترش دهد. &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1995543838388375708"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft Research مدل &lt;b&gt;Fara-7B&lt;/b&gt; را منتشر کرد که قابلیت‌های کاربری عامل‌گونه‌ی کارآمد را به مدل‌های کوچک می‌آورد. &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1995539352907116726"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA، CrowdStrike، PayPal و Synopsys از &lt;b&gt;Nemotron&lt;/b&gt; انویدیا برای ساخت عامل‌های هوش مصنوعی تخصصی که با جریان‌های کاری خاص و نیازهای انطباق همسو هستند، استفاده می‌کنند. &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1995508185122119814"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کاربری نشان می‌دهد که &lt;b&gt;Gemini 3&lt;/b&gt; صحنه‌های سه‌بعدی تعاملی را با three.js تولید می‌کند که امکان دستکاری ذرات را بدون نیاز به مهارت‌های کدنویسی فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/ShaneLegg/status/1995511733138710785"&gt;@ShaneLegg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کلر وو استفاده از هوش مصنوعی با MCP را برای کارهای جامع تحلیل داده توصیف می‌کند که قبلاً به هفته‌ها کار مهندسی نیاز داشت و اکنون در ۵ دقیقه تکمیل می‌شود. &lt;em&gt;&lt;a href="https://x.com/clairevo/status/1995539558486970782"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پلتفرم Wabi قابلیت چندنفره را راه‌اندازی کرد که امکان همکاری بلادرنگ در برنامه‌های تولید شده توسط هوش مصنوعی را با استفاده از پچ‌های JSON با دلتاهای اتمی برای مدیریت شرایط رقابتی فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/soleio/status/1995546664728162571"&gt;@soleio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;محققان MIT پلتفرم آزمایشی را توسعه دادند که روزانه تا ۷۰۰ ترکیب پلیمری جدید را برای کاربردها در تثبیت پروتئین، الکترولیت‌های باتری و مواد دارورسانی شناسایی، ترکیب و آزمایش می‌کند. &lt;em&gt;&lt;a href="https://x.com/MIT/status/1995490828597285259"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Artificial Analysis شاخص باز بودن (Openness Index) را معرفی کرد، یک معیار استاندارد برای باز بودن مدل‌های هوش مصنوعی در دسترس‌پذیری و شفافیت. OLMo از AI2 با امتیاز ۸۹ پیشتاز است، در حالی که &lt;b&gt;Nemotron&lt;/b&gt; انویدیا به ۶۷ می‌رسد. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995523178521846191"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;DeepSeek تأیید کرد که از عبارت منظم‌سازی KL اصلاح شده از تحقیقات استنفورد در هدف آموزشی &lt;b&gt;V3.2&lt;/b&gt; استفاده می‌کند. &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1995490014797365315"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face با ادغام DataPolars به اسکن ۱۰۰ برابر سریع‌تر مجموعه داده‌ها دست یافت و تماس‌های API را از ۳۷۹ به ۱۹ برای fineweb-2 و از ۱۳۹ به ۱ برای finepdfs-edu کاهش داد. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/1995460060768539055"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آیزاک فلت احیای جستجوی معنایی برای کد را با استفاده از معماری چندبرداری با جاسازی‌های سطح توکن و کوانتیزاسیون شدید توضیح می‌دهد که پاسخ‌های بهتر با مصرف توکن کمتر را امکان‌پذیر می‌سازد. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1995571850911555674"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;متا ۱۹+ مقاله و ۱۳+ کارگاه را در NeurIPS 2025 ارائه می‌کند که تحقیقاتی از جمله DINOv3، UMA، SAM 3 و Omnilingual ASR را به نمایش می‌گذارد. &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/1995531733391798452"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-01</guid>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
