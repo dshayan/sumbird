@@ -8,9 +8,60 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Mon, 22 Dec 2025 06:00:09 +0330</lastBuildDate>
-    <pubDate>Mon, 22 Dec 2025 06:00:09 +0330</pubDate>
+    <lastBuildDate>Tue, 23 Dec 2025 01:16:50 +0330</lastBuildDate>
+    <pubDate>Tue, 23 Dec 2025 01:16:50 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-12-22</title>
+      <link>https://sumbird.ir/fa/news/2025-12-22</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل دیپ‌مایند &lt;b&gt;YouTube Playables Builder&lt;/b&gt; را با پشتیبانی از &lt;b&gt;Gemini 3&lt;/b&gt; راه‌اندازی کرد که به سازندگان امکان می‌دهد با استفاده از متن، ویدئو یا تصاویر و بدون نیاز به کدنویسی، بازی‌های کوچک بسازند &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2003137379268256006"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;GLM-4.7&lt;/b&gt; را منتشر کرد که با بهبودهای قابل‌توجه در کدنویسی، استدلال پیچیده و استفاده از ابزارها، از GLM-4.6 پیشی گرفته و استانداردهای جدیدی را برای مدل‌های متن‌باز تعیین می‌کند &lt;em&gt;&lt;a href="https://x.com/Zai_org/status/2003156119087382683"&gt;@Zai_org&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل &lt;b&gt;Gemini 3 Flash&lt;/b&gt; را برای کاربردهای کسب‌وکارهای کوچک راه‌اندازی کرد که قادر به تحلیل بازخورد مشتریان، نوشتن ایمیل‌های راه‌اندازی و کدنویسی صفحات فرود برندسازی‌شده است &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2003156416555782498"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل &lt;b&gt;Gemini 3&lt;/b&gt; را در جستجوی گوگل ادغام کرد و تجربه‌های GenUI و هوش مصنوعی پیشرفته را معرفی نمود &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/2003171612854800635"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;اوپن‌ای‌آی روشی را برای تقویت مداوم &lt;b&gt;ChatGPT Atlas&lt;/b&gt; و سایر عامل‌ها در برابر حملات تزریق پرامپت جدید از طریق تیم قرمز خودکار، یادگیری تقویتی و حلقه‌های پاسخ سریع منتشر کرد &lt;em&gt;&lt;a href="https://x.com/cryps1s/status/2003182649662140620"&gt;@cryps1s&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;YouTube Playables Builder پتانسیل خود را برای جذب ۱۰۰ میلیون توسعه‌دهنده‌ی بعدی با آسان کردن ساخت بازی بدون نیاز به زبان‌های برنامه‌نویسی سنتی مانند C/C++/C# نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1982223251309805950"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;دمیس هاسابیس پیشنهاد می‌کند که گوگل خود را به عنوان یک ناشر بازی برای عموم معرفی می‌کند و احتمالاً بازی‌های AAA را با مدل اشتراکی روی پلتفرم گوگل اجرا خواهد کرد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2003150459897598197"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Truemed با رهبری a16z، ۳۴ میلیون دلار در سری A جذب سرمایه کرد تا هزینه‌های مراقبت‌های بهداشتی را به سمت پیشگیری سوق دهد و به مصرف‌کنندگان امکان دهد از دلارهای HSA و FSA برای مداخلات سبک زندگی مبتنی بر شواهد به جای درمان بیماری‌های مزمن پس از ابتلا استفاده کنند &lt;em&gt;&lt;a href="https://x.com/a16z/status/2003160562851807420"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آمازون ظاهراً تا ۱۰ میلیارد دلار در اوپن‌ای‌آی سرمایه‌گذاری می‌کند که این موضوع سؤالاتی را در مورد نحوه‌ی تعریف درآمد واقعی با معاملات چرخشی که در آن پول سرمایه‌گذاری برای خرید محصولات سرمایه‌گذار بازمی‌گردد، ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002868771384418587"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;دمیس هاسابیس ادعای یان لکون مبنی بر عدم وجود هوش عمومی را به چالش می‌کشد و استدلال می‌کند که لکون &lt;b&gt;هوش عمومی&lt;/b&gt; را با &lt;b&gt;هوش جهانی&lt;/b&gt; اشتباه گرفته است و مغز انسان و مدل‌های بنیادی هوش مصنوعی ماشین‌های تورینگ تقریبی هستند که قادر به یادگیری هر چیز قابل‌محاسبه‌ای با زمان، حافظه و داده‌ی کافی هستند &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/2003097405026193809"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فرانسوا شوله هشدار می‌دهد که هدف هوش مصنوعی باید گسترش تفکر و عاملیت انسانی باشد، نه جایگزینی آن، و به هشدار سال ۱۹۶۵ کتاب تل‌ماسه در مورد واگذاری تفکر به ماشین‌ها اشاره می‌کند &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2003195824881435153"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سردبیران مجلات در مورد تنظیم داوری همتا برای سیل مقالات نوشته‌شده توسط هوش مصنوعی، که در آن مقالات بد اکنون خوب به نظر می‌رسند، اجماع ندارند و این امر بررسی را دشوارتر کرده و نیاز به مطالعه‌ی مجدد برای ارزیابی کیفیت دارد &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002936845290832282"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلیسون با موفقیت از عامل مرورگر Claude برای پیمایش پنل کنترل Cloudflare استفاده کرد که اولین تجربه‌ی موفق او در استفاده از یک عامل مرورگر برای حل یک مشکل واقعی بود &lt;em&gt;&lt;a href="https://x.com/simonw/status/2003153868105118023"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;مدل‌های Segment Anything&lt;/b&gt; متا، نظارت بر سیل و واکنش به بلایا را پیشرفت می‌دهند؛ USRA و USGS SAM را برای خودکارسازی نقشه‌برداری رودخانه‌ها تنظیم دقیق می‌کنند تا آمادگی در برابر بلایا سریع‌تر، مقیاس‌پذیرتر و مقرون‌به‌صرفه‌تر شود &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/2003135223056290195"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ترجمه‌ی زنده‌ی اپل امکان مکالمه‌ی ۳۰ دقیقه‌ای بین کاربران با موانع زبانی را فراهم می‌کند، اگرچه مشکلات دقت با ایده‌های پیچیده و صحبت سریع در زبان‌هایی مانند چینی همچنان وجود دارد &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/2003054705359126795"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده پس از تلاش‌های بی‌نتیجه برای اشکال‌زدایی دستی، با موفقیت از عامل هوش مصنوعی برای راه‌اندازی یک اجرای شبانه استفاده کرد که اتوماسیون عملی وظایف پیچیده‌ی توسعه را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/aidan_mclau/status/2003133116295352343"&gt;@aidan_mclau&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gemini با موفقیت یک شبیه‌سازی تعاملی را که سوگیری برخوردکننده را توضیح می‌دهد، از یک پرامپت واحد ساخت و در اولین تلاش با فعال بودن Canvas کار کرد &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002852759532671225"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NotebookLM قابلیت Data Tables را با پشتیبانی از تحقیقات گوگل دیپ‌مایند در مورد سازماندهی داده‌ها معرفی می‌کند که به کاربران در ساختاردهی اطلاعات پیچیده و خروجی گرفتن به Google Sheets کمک می‌کند &lt;em&gt;&lt;a href="https://x.com/lindsaywillmore/status/2003120089516867956"&gt;@lindsaywillmore&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اوپن‌ای‌آی قابلیت مرور شخصی‌سازی‌شده‌ی "Your Year with ChatGPT" را راه‌اندازی کرد که برای کاربران در ایالات متحده، بریتانیا، کانادا، نیوزلند و استرالیا با فعال بودن تاریخچه‌ی چت در دسترس است &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2003190103729144224"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اپلیکیشن Splat از هوش مصنوعی برای تبدیل عکس‌ها به صفحات رنگ‌آمیزی برای کودکان استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2003148342508032161"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده رباتی ساخت که می‌تواند ببیند، بشنود و حرکت کند و از Claude Code برای کارهای سنگین در اشکال‌زدایی رباتیک استفاده کرد؛ هر دو اپلیکیشن به فروشگاه رسمی اپلیکیشن‌ها راه یافتند &lt;em&gt;&lt;a href="https://x.com/BioInfo/status/2003125591780778144"&gt;@BioInfo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ایتان مولیک همبستگی بین اندازه‌گیری &lt;b&gt;METR long-task&lt;/b&gt; و سایر معیارهای کلیدی را با استفاده از &lt;b&gt;GPT-5.2 Pro&lt;/b&gt; تحلیل می‌کند و همبستگی‌های بالایی را در تمام معیارها از جمله &lt;b&gt;ARC-AGI&lt;/b&gt; پیدا می‌کند که نشان می‌دهد یا همه‌ی معیارها یک چیز را اندازه‌گیری می‌کنند یا هوش مصنوعی به طور یکنواخت در تمام معیارها بهبود می‌یابد &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002861706658398211"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فرانسوا شوله LLMها را به عنوان فاز "کتابخانه" هوش مصنوعی توصیف می‌کند و فاز بعدی "دانشمند" بر یافتن پاسخ‌هایی تمرکز دارد که هنوز از طریق فرآیندهای الگوریتمی مشابه علم وجود ندارند &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2003162687723983119"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Physical Intelligence نشان می‌دهد که ربات‌های تنظیم‌شده با موفقیت وظایفی از جمله شستن ظروف، تمیز کردن پنجره‌ها و ساخت ساندویچ کره‌ی بادام‌زمینی را انجام می‌دهند که پیامدهایی برای پارادوکس موراوک و مدل‌های بزرگ در هوش مصنوعی تجسم‌یافته دارد &lt;em&gt;&lt;a href="https://x.com/physical_int/status/2003161637734518985"&gt;@physical_int&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که یادگیری تقویتی می‌تواند قابلیت‌های جدیدی فراتر از دانش مدل پایه را یاد بگیرد، تا زمانی که از فروپاشی آنتروپی جلوگیری شود، برخلاف آزمایش‌های اولیه‌ی pass@k که نشان می‌داد RL فقط دانش موجود را تقویت می‌کند &lt;em&gt;&lt;a href="https://x.com/ChenSun92/status/2003129217098137656"&gt;@ChenSun92&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان پتانسیل ترانسفورمرها را برای مدل‌سازی اقتصادی فراتر از LLMها نشان می‌دهند و تناسب ترانسفورمر را با داده‌های شبیه‌سازی‌شده از مدل NK با عملکرد موفق خارج از نمونه آزمایش می‌کنند &lt;em&gt;&lt;a href="https://x.com/alexolegimas/status/2003139264884994267"&gt;@alexolegimas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Midjourney بر ابزارهایی برای راهنمایی، سازماندهی و ایجاد تنوع در میان گزینه‌ها به جای پیروی از دستورالعمل‌های متنی تمرکز دارد و بر آزمایش و پالایش در تولید تصویر تأکید می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002971587130069255"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایتان مولیک استدلال می‌کند که تولیدکننده‌های تصویر با کیفیت بالا مانند &lt;b&gt;Nano Banana Pro&lt;/b&gt; قابلیت‌های جدید هوش مصنوعی از جمله تحقیق و تولید اسلایدهای جذاب را باز می‌کنند و بر اهمیت رفع گلوگاه‌ها تأکید می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2003121163506229656"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پنجره‌ی زمینه و فشرده‌سازی به عنوان مشکل حل‌نشده‌ی حیاتی که نیاز به حل در سال ۲۰۲۶ دارد، شناسایی شد &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2003155229261595086"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;المپیک ربات‌ها به عنوان روشی برای تنظیم هیجان پیشنهاد شد، با شرکت‌کنندگانی که با محیط‌ها و وظایف ناشناخته روبرو می‌شوند تا قابلیت‌های تعمیم را آزمایش کنند و به شکست ربات‌های فعلی در تعمیم با وجود تنظیم دقیق موفق بپردازند &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2003163316991226075"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-22</guid>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-21</title>
       <link>https://sumbird.ir/fa/news/2025-12-21</link>
@@ -1020,62 +1071,6 @@
 &lt;li&gt;مرکور بیش از 100 مورد APEX با کیفیت بالا را در هاگینگ فیس با مجوز CC-BY متن‌باز می‌کند، از جمله پرامپت‌ها، روبی‌ها و اسناد منبع که هزاران ساعت کار متخصص را نشان می‌دهد. &lt;em&gt;&lt;a href="https://x.com/mercor_ai/status/1996309573490327900"&gt;@h&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-03</guid>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-02</title>
-      <link>https://sumbird.ir/fa/news/2025-12-02</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;میسترال خانواده‌ی &lt;b&gt;میسترال 3&lt;/b&gt; را منتشر کرد که شامل مدل‌های &lt;b&gt;مینیسترال 3&lt;/b&gt; (3B، 8B، 14B) با پشتیبانی از بینایی و &lt;b&gt;میسترال لارج 3&lt;/b&gt; (675B کل، 41B فعال) می‌شود. همه‌ی این مدل‌ها تحت مجوز Apache 2.0 هستند. مدل 3B به اندازه‌ای کوچک است که می‌تواند به طور کامل در یک مرورگر وب روی WebGPU اجرا شود &lt;em&gt;&lt;a href="https://x.com/MistralAI/status/1995872766177018340"&gt;@MistralAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AWS مدل‌های &lt;b&gt;نوا 2&lt;/b&gt; را شامل &lt;b&gt;نوا 2 لایت&lt;/b&gt; و &lt;b&gt;نوا 2 پرو&lt;/b&gt; با قابلیت‌های جدید برای ساخت عامل‌های هوش مصنوعی معرفی کرد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995926133691613321"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;DeepSeek مدل &lt;b&gt;V3.2&lt;/b&gt; را با بهبودهای مداوم در عملکرد منتشر کرد &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1995689865443463422"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Arcee خانواده‌ی &lt;b&gt;ترینیتی&lt;/b&gt; را شامل مدل‌های MoE &lt;b&gt;ترینیتی-مینی&lt;/b&gt; (26B کل، 3B فعال) و &lt;b&gt;ترینیتی-نانو-پیش‌نمایش&lt;/b&gt; (6B کل، 1B فعال) با نسخه‌های پایه و استدلالی منتشر کرد &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1995598855535243674"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA اعلام کرد که مدل‌های &lt;b&gt;نموترون&lt;/b&gt; اکنون در Amazon Bedrock در دسترس هستند، از جمله &lt;b&gt;نموترون نانو 2&lt;/b&gt; و &lt;b&gt;نانو 2 VL&lt;/b&gt; برای وظایف متنی، کد، تصویر و ویدئو &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1995889447817081197"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;سام آلتمن طبق گزارش WSJ، وضعیت &lt;b&gt;کد قرمز&lt;/b&gt; را برای بهبود ChatGPT اعلام کرد و کارهایی مانند تبلیغات، عامل‌ها برای سلامت و خرید، و سایر پروژه‌ها به طور موقت در اولویت پایین‌تری قرار گرفتند تا OpenAI بر بهبود تجربه‌ی چت تمرکز کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995839663450550524"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کاربران فعال روزانه‌ی منحصر به فرد ChatGPT در دو هفته پس از راه‌اندازی Gemini 3، 6% کاهش یافتند، در حالی که استفاده از Gemini در همان دوره از 22% به 31% ترافیک ChatGPT افزایش یافت &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1995879560446181633"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic برای تسریع رشد Claude Code، زمان اجرای جاوا اسکریپت &lt;b&gt;Bun&lt;/b&gt; را خریداری کرد، در حالی که Bun منبع باز و تحت مجوز MIT باقی می‌ماند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1995916269153906915"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;جان جیاناندرا، رئیس هوش مصنوعی اپل، از سمت خود کناره‌گیری می‌کند و آمار سابرامانیا جایگزین او خواهد شد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995635084930809935"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI با Accenture همکاری می‌کند و ده‌ها هزار صندلی ChatGPT Enterprise را فراهم می‌کند و برای کمک به شرکت‌ها در آوردن قابلیت‌های هوش مصنوعی عامل‌محور به کسب‌وکارشان همکاری می‌کند &lt;em&gt;&lt;a href="https://x.com/gdb/status/1995779170308423929"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ارجاعات ChatGPT به برنامه‌های خرده‌فروشان طبق گزارش جدید، 28% سال به سال افزایش یافته است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995915940282991060"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ترافیک از موتورهای جستجو به طور قابل توجهی در حال کاهش است، به طوری که جستجوی گوگل برای همان تعداد کلیک‌ها نسبت به یک سال پیش 70% و نسبت به دو سال پیش 40% نمایش بیشتر نیاز دارد، زیرا LLMها و ابزارهای هوش مصنوعی این تغییر را تسریع می‌کنند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1995795261847720014"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پذیرش داخلی MCP در شرکت‌ها در حال انفجار است، اما استفاده عمومی از سرورهای MCP به جز 10 سرور برتر مانند Linear و Sentry بسیار ناچیز است &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1995814558020059613"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;هزینه‌های توکن و محدودیت‌های استفاده وضعیتی عجیب ایجاد کرده‌اند که در آن ابزارهای کدنویسی هوش مصنوعی انقلابی هستند، اما استفاده‌ی اندازه‌گیری‌شده، استفاده‌ی واقعاً سنگین را برای توسعه‌دهندگان خارج از خود فروشندگان هوش مصنوعی دلسرد می‌کند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1995596233545843140"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;دایان، رئیس محصول برای تحقیق در Anthropic، اظهار داشت که جدول زمانی او برای هوش مصنوعی تحول‌آفرین امسال بر اساس مدل‌هایی مانند &lt;b&gt;Opus 4.5&lt;/b&gt; جلوتر آمده است و تأکید کرد که بلوک‌های سازنده نزدیک‌تر از حد انتظار هستند و بیشتر یک مازاد محصول وجود دارد تا یک دیوار فنی &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995910733117489479"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;تحقیقات Anthropic نشان می‌دهد که عامل‌های هوش مصنوعی در طول آزمایش‌های شبیه‌سازی‌شده، &lt;b&gt;4.6 میلیون دلار در اکسپلویت‌ها&lt;/b&gt; در قراردادهای هوشمند بلاک‌چین پیدا کردند، با افزایش نمایی در توانایی‌های هوش مصنوعی برای حملات سایبری به قراردادهای هوشمند بر اساس اکسپلویت‌های واقعی پس از آموزش هوش مصنوعی &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995680363872748000"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سایمون ویلیسون در مورد &lt;b&gt;آسیب‌پذیری‌های تزریق پرامپت&lt;/b&gt; در سرور GitHub MCP هشدار می‌دهد، جایی که مهاجمان می‌توانند عامل‌های هوش مصنوعی را فریب دهند تا از طریق دستورالعمل‌های مخرب جاسازی‌شده در فایل‌های مخزن، داده‌های خصوصی را سرقت کنند &lt;em&gt;&lt;a href="https://x.com/simonw/status/1995654963654262798"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آماندا اسکل تأیید کرد که Claude بر روی یک &lt;b&gt;سند روح&lt;/b&gt; واقعی آموزش دیده است که شخصیت و ارزش‌های مدل را تعریف می‌کند، اگرچه استخراج‌های مدل همیشه کاملاً دقیق نیستند. این سند در داخل به عنوان سند روح شناخته شد که Claude آن را دریافت کرد &lt;em&gt;&lt;a href="https://x.com/AmandaAskell/status/1995610567923695633"&gt;@AmandaAskell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اریک اشمیت پیش‌بینی می‌کند که &lt;b&gt;خودبهبودی بازگشتی&lt;/b&gt; در هوش مصنوعی به زودی اتفاق خواهد افتاد، با اجماع سانفرانسیسکو در دو سال و تخمین خودش در چهار سال، و اشاره کرد که بسیاری معتقدند ریاضیدانان هوش مصنوعی در سال آینده ظهور خواهند کرد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1995902158345306485"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک تصاویر تولیدشده توسط هوش مصنوعی از ایالت‌های آمریکا را که از معروف‌ترین غذاهایشان ساخته شده‌اند، به نمایش می‌گذارد و کیفیت و قابلیت تولید تصویر فعلی هوش مصنوعی را برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995720976068137048"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شکاف فرهنگی قوی در مورد پذیرش هوش مصنوعی وجود دارد، با نگرانی‌های مشروع مردم در مورد تأثیرات شغلی و تغییرات اجتماعی، حتی در حالی که می‌خواهند بدانند چگونه از هوش مصنوعی بهتر برای بهبود زندگی خود استفاده کنند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995875791700136343"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدیران عامل هوش مصنوعی اغلب در مورد جایگزینی تمام نیروی کار انسانی در 10 سال صحبت می‌کنند، اما دیدگاه‌های مثبت کمی در مورد اینکه آن آینده واقعاً چگونه خواهد بود، ارائه می‌دهند که به اضطراب عمومی کمک می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995921255627640932"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic &lt;b&gt;Claude برای سازمان‌های غیرانتفاعی&lt;/b&gt; را با طرح‌های تخفیف‌دار، ادغام‌های جدید و آموزش رایگان راه‌اندازی کرد تا به سازمان‌های غیرانتفاعی کمک کند زمان کمتری را صرف کارهای اداری و زمان بیشتری را صرف مأموریت‌های خود کنند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1995856609692844351"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مهندس GTM ورسل یک &lt;b&gt;عامل هوش مصنوعی&lt;/b&gt; ساخت که یک تیم فروش 10 نفره را در تنها 6 هفته به 1 نفر کاهش داد و صلاحیت سرنخ‌های ورودی، جستجوی مشتریان بالقوه و ارزیابی از دست دادن معاملات را با هزینه‌ی 1000 دلار در سال در مقابل بیش از 1 میلیون دلار حقوق مدیریت کرد &lt;em&gt;&lt;a href="https://x.com/lennysan/status/1995622161248387342"&gt;@lennysan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ربات از دست دادن معامله‌ی هوش مصنوعی ورسل در درک آنچه در فروش اشتباه پیش رفته است، بهتر از انسان‌ها عمل کرده و ایمیل‌ها، رونوشت‌های تماس و پیام‌های Slack را برای شناسایی دلایل واقعی از دست دادن معاملات تجزیه و تحلیل می‌کند &lt;em&gt;&lt;a href="https://x.com/lennysan/status/1995622161248387342"&gt;@lennysan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;بازبین عامل‌محور&lt;/b&gt; اندرو ان‌جی از 21,575 مقاله‌ی ارسالی NeurIPS در تعداد مقالات ارسالی و بازبینی‌شده پیشی گرفت و نشان داد که بازبینی مقالات عامل‌محور ماندگار است &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1995633795027079495"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simular عامل هوش مصنوعی را طراحی کرده است که برای کاربران مک و ویندوز اجرا می‌شود و وظایف دسکتاپ را خودکار می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1995888018084028866"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic تحقیقاتی را در مورد چگونگی تغییر کار هوش مصنوعی در داخل شرکت منتشر کرد، با نظرسنجی از 132 مهندس، انجام 53 مصاحبه‌ی عمیق و تجزیه و تحلیل 200 هزار جلسه‌ی داخلی Claude Code. مهندسان افزایش بهره‌وری عمده‌ای را با Claude گزارش می‌دهند که توانایی‌های کارکنان را گسترش می‌دهد، اگرچه برخی نگران کاهش مهارت‌ها هستند &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1995933116717039664"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;داده‌های استفاده از Claude Code نشان می‌دهد که مهندسان وظایف پیچیده‌تری را واگذار می‌کنند، با تماس‌های ابزاری متوالی بیشتر و نوبت‌های انسانی کمتر در هر مکالمه، در حالی که برخی مهندسان متوجه می‌شوند که کمتر به همکاران خود مراجعه می‌کنند زیرا Claude اولین مقصد آن‌ها برای سؤالات می‌شود &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1995933126179291177"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google DeepMind کاری را در مورد کشف الگوریتم‌های RL پیشرفته در Nature منتشر کرد که از فراگیری فرامتا برای کشف الگوریتم‌های RL در مقیاس بزرگ استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/junh_oh/status/1995904142468853765"&gt;@junh_oh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Olmo-3 از رویکرد &lt;b&gt;بهینه‌سازی ازدحامی&lt;/b&gt; برای کشف ترکیب‌های داده‌ی پیش‌آموزشی خوب از طریق جستجوی هدایت‌شده، آموزش مدل‌های پراکسی و اجرای بهینه‌سازی محدود برای به حداکثر رساندن عملکرد در حالی که محدودیت‌های داده را برآورده می‌کند، استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/1995706112335560854"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مقاله‌ی ReasonEdit نشان می‌دهد که افزودن تفکر و خوداصلاحی به مدل‌های ویرایش تصویر، ویرایش‌ها را دقیق‌تر و قابل اعتمادتر می‌کند، با یک مرحله‌ی تفکر که درخواست‌های مبهم را به برنامه‌های ویرایش گام به گام واضح تبدیل می‌کند و یک مرحله‌ی بازتاب که تصاویر ویرایش‌شده را بررسی و اصلاح می‌کند &lt;em&gt;&lt;a href="https://x.com/rohanpaul_ai/status/1995727252575965571"&gt;@rohanpaul_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA نشان می‌دهد که مدل‌های Mixture of Experts با فعال کردن کارشناسان مناسب به جای فعال کردن هر پارامتر، هوش بیشتری را در موارد استفاده ارائه می‌دهند و هوش مصنوعی در مقیاس بزرگ را با 10 برابر عملکرد و کارایی درآمد با هزینه‌ی کمتر به ازای هر توکن بسیار کارآمدتر می‌کنند &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1995644125895417910"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تیم‌های PyTorch AMD و Meta، TorchTitan و Primus-Turbo را برای GPUهای Instinct MI325X تنظیم کردند و به مقیاس‌بندی تقریباً ایده‌آل در 1024 GPU برای آموزش مدل‌های MoE عظیم مانند &lt;b&gt;DeepSeek-V3&lt;/b&gt; و &lt;b&gt;Llama 4-Scout&lt;/b&gt; دست یافتند &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/1995608941774970964"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان Stanford HAI توصیه‌هایی را برای کاهش آسیب‌های چت‌بات‌های مبتنی بر هوش مصنوعی که به عنوان درمانگر استفاده می‌شوند، در پاسخ به درخواست FDA برای اظهار نظر در مورد ارزیابی دستگاه‌های پزشکی مجهز به هوش مصنوعی، ارائه کردند &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1995859674797646025"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-02</guid>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
