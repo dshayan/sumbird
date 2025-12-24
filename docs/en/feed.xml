@@ -8,9 +8,60 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Dec 2025 06:00:08 +0330</lastBuildDate>
-    <pubDate>Tue, 23 Dec 2025 06:00:08 +0330</pubDate>
+    <lastBuildDate>Wed, 24 Dec 2025 07:30:48 +0330</lastBuildDate>
+    <pubDate>Wed, 24 Dec 2025 07:30:48 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-12-23</title>
+      <link>https://sumbird.ir/en/news/2025-12-23</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-TTS&lt;/b&gt; lineup featuring &lt;b&gt;VoiceDesign-VD-Flash&lt;/b&gt; for fully controllable speech via text instructions and &lt;b&gt;VoiceClone-VC-Flash&lt;/b&gt; for voice cloning from 3 seconds of audio, outperforming &lt;b&gt;GPT-4o-mini-tts&lt;/b&gt; and &lt;b&gt;Gemini-2.5-pro&lt;/b&gt; on role-play benchmarks &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2003445076257656880"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba announces &lt;b&gt;Qwen-Image-Edit-2511&lt;/b&gt; with significantly stronger consistency and enhanced multi-person consistency, built-in community LoRAs, and improved geometric reasoning compared to the 2509 version &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2003496348461728213"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba collaborates with SGLang on &lt;b&gt;Rollout Routing Replay (R3)&lt;/b&gt; for stable reinforcement learning training on MoE models, dramatically reducing training-inference discrepancy and preventing catastrophic collapse &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2003306873307673055"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;Gemini 3 Flash&lt;/b&gt; optimized for speed, capable of real-time interaction including playing quick drawing games while users are still sketching &lt;em&gt;&lt;a href="https://x.com/Google/status/2003547494865859007"&gt;@Google&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;New open source model &lt;b&gt;GLM 4.7&lt;/b&gt; achieves 73.8% on SWE-Bench, surpassing previous open source models and matching closed source performance from 6 months ago, priced at $0.6/M input and $2.2/M output with 200k context &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2003300941341295004"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gerge Orosz observes that AI startups with unlimited AI budgets see developers working more hours rather than fewer, as they compete to outperform other AI startups using the same tools &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2003380242409488649"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Analysis suggests work output is relative to available tools, requiring either higher quality or more output to be best-in-industry, potentially leading to increased work hours despite better AI tools &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2003380683876503718"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Epoch AI research shows open-weight Chinese models lag the overall frontier by approximately seven months on FrontierMath benchmarks, maintaining a consistent gap throughout 2025 &lt;em&gt;&lt;a href="https://x.com/EpochAIResearch/status/2003178174310678644"&gt;@EpochAIResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Aaron Levie reports seeing 19 and 20 year olds dropping out because they can build at 100x speed, with this new cohort moving with unprecedented velocity and rewriting company building norms &lt;em&gt;&lt;a href="https://x.com/a16z/status/2003464904809021756"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face robotics datasets exploded from 1k in 2024 to 27k in 2025, making it the fastest-growing segment and far surpassing text generation datasets at 5k &lt;em&gt;&lt;a href="https://x.com/pa_balland/status/2003461164781428931"&gt;@pa_balland&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;US tariffs on Chinese semiconductor imports delayed for 18 months until June 2027, with zero rate until then &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2003523365597040929"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI acknowledges that AI browsers may always be vulnerable to prompt injection attacks, highlighting ongoing security challenges in AI systems &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2003227441922547856"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gerge Orosz identifies a trend of LinkedIn users having AI generate posts that hallucinate false attributions and quotes, creating AI slop content with zero original thought or fact-checking &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2003558264148250844"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford HAI research reveals formatting errors and logic flaws in AI benchmarks, where model scores change based on whether users write "$5" vs "5 dollars" vs "$5.00" &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2003254560987517236"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hamel Husain observes ChatGPT's sycophancy problem, noting users falling for "top 1%" flattery despite minimal usage, highlighting challenges in training out sycophantic behavior &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2003515944896000001"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Washington Post article details an 11-year-old girl's dangerous interactions with Character AI, raising concerns about the company's ethical path &lt;em&gt;&lt;a href="https://x.com/tdietterich/status/2003561091109126312"&gt;@tdietterich&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Yann LeCun argues humans are extremely specialized rather than general intelligence, using mathematical analysis showing the human brain can only represent an infinitesimal proportion of possible boolean functions &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2003227257587007712"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Simon Willison demonstrates using Claude to analyze recipe cards and generate a custom timer application for cooking two meals simultaneously &lt;em&gt;&lt;a href="https://x.com/simonw/status/2003330460555051371"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google AI showcases &lt;b&gt;Gemini 3&lt;/b&gt; creating interactive loan calculators for comparing mortgage options, virtual try-on tools using selfies, and Guided Learning for homework assistance &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2003232591248306599"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Replit integration in ChatGPT enables building real apps directly within the chat interface without setup or switching tabs &lt;em&gt;&lt;a href="https://x.com/details_with_ai/status/2003393465208754334"&gt;@details_with_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;LightX2V delivers 42.55x speedup for &lt;b&gt;Qwen-Image-Edit-2511&lt;/b&gt; through 47% framework acceleration combined with CFG and 4-step distillation &lt;em&gt;&lt;a href="https://x.com/XHPlus_/status/2003496473292656735"&gt;@XHPlus_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face integrates WALL-OSS, a powerful VLA foundation model, into LeRobot for robotics applications &lt;em&gt;&lt;a href="https://x.com/LeRobotHF/status/2003419102291853703"&gt;@LeRobotHF&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Poetiq achieves 75% on ARC-AGI-2 using &lt;b&gt;GPT-5.2 X-High&lt;/b&gt; at under $8 per problem, beating previous SOTA by approximately 15 percentage points &lt;em&gt;&lt;a href="https://x.com/poetiq_ai/status/2003546910427361402"&gt;@poetiq_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Suhail confirms Poetiq's ARC-AGI-2 results and suggests ensemble methods with Opus can boost scores past 80%, though notes uncertainty about important insights from the approach &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2003550631727185942"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Francois Chollet argues the Transformer architecture is fundamentally a parallel processor while reasoning is sequential, requiring a differentiable scratchpad in internal state to loop, branch, and backtrack &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2003523368805630450"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford NLP Group publishes theory of causal abstraction for mechanistic interpretability of neural networks in JMLR &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545302972989471"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research demonstrates social sycophancy in most LLMs, showing how models' tendency to make users feel good can undermine personal growth &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545283028983879"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford RegLab publishes research showing the propensity of leading AI Legal Research tools to hallucinate &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545275353510119"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Design2Code benchmark released for evaluating effectiveness of multimodal code generation for automated front-end engineering &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545318772867190"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research on using LLMs to improve Wikipedia focuses on detecting inconsistencies in articles &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545302972989471"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-23</guid>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-12-22</title>
       <link>https://sumbird.ir/en/news/2025-12-22</link>
@@ -1086,70 +1137,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-04</guid>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-12-03</title>
-      <link>https://sumbird.ir/en/news/2025-12-03</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Amazon releases &lt;b&gt;Nova&lt;/b&gt; LLM series for AWS customers, though market positioning remains unclear outside existing AWS ecosystem &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995958702172766341"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mistral releases &lt;b&gt;Mistral 3&lt;/b&gt; model, maintaining pace with Chinese open weights models but lacking a reasoning variant, putting it behind DeepSeek's &lt;b&gt;r1&lt;/b&gt; which achieved 71.5% on GPQA Diamond in January &lt;em&gt;&lt;a href="https://x.com/emollick/status/1996068920596594932"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Kling AI launches &lt;b&gt;VIDEO 2.6&lt;/b&gt;, their first model with native audio generation capabilities, enabling coherent audiovisual output for narrative content &lt;em&gt;&lt;a href="https://x.com/Kling_ai/status/1996238606814593196"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google releases &lt;b&gt;Nano Banana Pro&lt;/b&gt; with support for 2K and 4K resolution image generation available in the API &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1996036187979678088"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft open sources &lt;b&gt;Vibevoice&lt;/b&gt; model capable of generating entire 7-minute podcasts locally on PC &lt;em&gt;&lt;a href="https://x.com/cocktailpeanut/status/1996294629222756493"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Microsoft denies reports from The Information about lowering sales quotas or targets for AI products &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1996251624663376358"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI acquires Neptune in stock transaction with undisclosed terms, expanding their tooling capabilities &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1996293443455426900"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic hires lawyers in preparation for IPO &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996274034552738302"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stripe acquires Metronome after six years of operation, providing resources for significant scaling &lt;em&gt;&lt;a href="https://x.com/l3amm/status/1995954700454367522"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Unlimited Industries raises $12M Seed round led by a16z to build AI-native platform for designing and constructing critical infrastructure like power plants and data centers &lt;em&gt;&lt;a href="https://x.com/a16z/status/1996275743995953363"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;VCs deploy "kingmaking" strategy to crown AI winners in their infancy, concentrating early-stage power &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996314810473173325"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI opportunity cost of being outside San Francisco returns to all-time highs, though A-players can now more easily start one-person businesses locally &lt;em&gt;&lt;a href="https://x.com/a16z/status/1995964954009333913"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developers building custom MCP servers for tools lacking official ones, indicating strong demand from developer customers &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1995975172046942649"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Security teams express concern about "rogue" MCPs, though banning innovation tools historically proves ineffective &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1996181148578505049"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Selling to newly founded startups provides better growth rates and product influence than targeting larger companies, as demonstrated by Stripe's strategy of capturing each YC batch &lt;em&gt;&lt;a href="https://x.com/paulg/status/1996237714086314254"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Raising money without specific plans for competitive advantage is counterproductive; money per se is neither dangerous nor useful &lt;em&gt;&lt;a href="https://x.com/paulg/status/1996236240882942169"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;100% vibe-coded SaaS applications suffer from extensive bugs making them unusable despite heavy marketing, likely causing high churn &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1996081589919637621"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI releases proof-of-concept study training &lt;b&gt;GPT-5 Thinking&lt;/b&gt; variant to confess when it takes shortcuts or violates instructions, achieving only 4.4% false negative rate in detecting misbehavior &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1996281172377436557"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI's confessions method trains models to produce honest admissions separate from main outputs, with confessions judged solely on honesty and not penalized during training &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1996281175770599447"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic research shows misalignment from reward hacking does not generalize if models are told their hacking is forgivable in context &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1996288737677037949"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity releases &lt;b&gt;BrowseSafe&lt;/b&gt; open-source detection model and benchmark to catch prompt injection attacks in real-time, outperforming off-the-shelf safety classifiers &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1995965227494699339"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison warns about prompt injection vulnerabilities where attackers hide malicious instructions in web page comments, templates, or invisible HTML elements to manipulate AI agents &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1995965229235360212"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI Foundation announces first People-First AI Fund recipients: 208 community-based nonprofits receiving $40.5M in unrestricted grants &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1996258322304155695"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic partners with Dartmouth and AWS to bring Claude for Education to entire Dartmouth community &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1996311516245803434"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrew Ng releases new course on building coding agents with tool execution, teaching agents to write and execute code in sandboxed cloud environments instead of being limited to predefined function calls &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1996250415244235013"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Users report changing AI usage patterns with &lt;b&gt;Gemini 3&lt;/b&gt;, becoming more ambitious with requests and asking for 5x more in single prompts compared to previous models &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1995967140202193236"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developers combine Claude Code with Chrome DevTools MCP and Figma MCP to achieve high productivity levels &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/1996004664253583558"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AWS introduces features to simplify custom LLM creation, doubling down on model customization capabilities &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996255949682856019"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Amazon Fire TV adds AI feature allowing users to jump to specific scenes by describing them to Alexa &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996247961106583873"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Photos' 2025 Recap uses Gemini to automatically find user highlights &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996249157007446054"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Healthify upgrades AI assistant Ria with real-time conversation capabilities &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996113239009362140"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Comet browser automation tool outperforms all other browser and computer use models/APIs on difficult test queries &lt;em&gt;&lt;a href="https://x.com/alexgraveley/status/1996118597341774228"&gt;@alexgraveley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;François Chollet argues current AI systems are far from the threshold where they can open-endedly self-improve, predicting consistently self-sustaining linear progress rather than sudden explosion when reached &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1996277344575840743"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Chollet explains perfect understanding requires perfect compression; deep learning models requiring millions of parameters for phenomena describable by simple equations have cached data rather than understood it &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1996231823521976582"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Suhail analyzes RL scaling concerns, concluding that scaling to newer, more difficult environments as a "staircase of sigmoids for new tasks, worlds, goals" enables continued progress beyond naive compute scaling &lt;em&gt;&lt;a href="https://x.com/Suhail/status/1996278149341225145"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nature publishes groundbreaking &lt;b&gt;TabPFN&lt;/b&gt; foundation model that finally beats tree-based methods on tabular data, achieving 5,000x speedup by outperforming CatBoost in 2.8 seconds versus 4 hours of tuning &lt;em&gt;&lt;a href="https://x.com/burkov/status/1996102081996861907"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;TabPFN trains entirely on synthetic data from 100+ million artificial datasets generated from causal graphs, learning general prediction strategies without seeing real data &lt;em&gt;&lt;a href="https://x.com/burkov/status/1996102081996861907"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT CSAIL develops system using rigorous mathematics to ensure robots flex, adapt, and interact safely without exceeding force limits &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1996263501883420969"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT study reveals many "ineffective" neural networks may start from suboptimal points; short-term guidance method transferring structural knowledge boosts performance &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1996270814392369424"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face and partners open-source Earth Rover platform with 7,000 hours of driving data from 40+ cities curated by UC Berkeley researchers &lt;em&gt;&lt;a href="https://x.com/frodobots/status/1996263341392908448"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mercor open sources 100+ high-quality APEX cases on Hugging Face with CC-BY license, including prompts, rubrics, and source documents representing thousands of hours of expert work &lt;em&gt;&lt;a href="https://x.com/mercor_ai/status/1996309573490327900"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford announces winners of 2025 BEHAVIOR Challenge at NeurIPS, stress-testing robotic systems against 50 everyday domestic tasks in high-fidelity simulation &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1996249074425532908"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Terry Tao notices Gemini DeepResearch inadvertently solves Erdős problem #481 during literature review, though model doesn't recognize its own success &lt;em&gt;&lt;a href="https://x.com/teortaxesTex/status/1996002260745126152"&gt;@ShaneLegg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-03</guid>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

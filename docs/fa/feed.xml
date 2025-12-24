@@ -8,9 +8,60 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Tue, 23 Dec 2025 06:00:10 +0330</lastBuildDate>
-    <pubDate>Tue, 23 Dec 2025 06:00:10 +0330</pubDate>
+    <lastBuildDate>Wed, 24 Dec 2025 07:30:48 +0330</lastBuildDate>
+    <pubDate>Wed, 24 Dec 2025 07:30:48 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-12-23</title>
+      <link>https://sumbird.ir/fa/news/2025-12-23</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;علی‌بابا مجموعه‌ی &lt;b&gt;Qwen3-TTS&lt;/b&gt; را منتشر می‌کند که شامل &lt;b&gt;VoiceDesign-VD-Flash&lt;/b&gt; برای گفتار کاملاً قابل کنترل از طریق دستورالعمل‌های متنی و &lt;b&gt;VoiceClone-VC-Flash&lt;/b&gt; برای شبیه‌سازی صدا از ۳ ثانیه صدا است و در معیارهای نقش‌آفرینی از &lt;b&gt;GPT-4o-mini-tts&lt;/b&gt; و &lt;b&gt;Gemini-2.5-pro&lt;/b&gt; پیشی می‌گیرد &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2003445076257656880"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;Qwen-Image-Edit-2511&lt;/b&gt; را با سازگاری بسیار قوی‌تر و سازگاری بهبودیافته‌ی چندنفره، LoRAهای جامعه‌ی داخلی و استدلال هندسی بهبودیافته در مقایسه با نسخه‌ی ۲۵۰۹ معرفی می‌کند &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2003496348461728213"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;علی‌بابا با SGLang در زمینه‌ی &lt;b&gt;Rollout Routing Replay (R3)&lt;/b&gt; برای آموزش پایدار یادگیری تقویتی در مدل‌های MoE همکاری می‌کند که به طور چشمگیری تفاوت آموزش-استنتاج را کاهش می‌دهد و از فروپاشی فاجعه‌بار جلوگیری می‌کند &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2003306873307673055"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل &lt;b&gt;Gemini 3 Flash&lt;/b&gt; را منتشر می‌کند که برای سرعت بهینه شده و قادر به تعامل بلادرنگ از جمله انجام بازی‌های نقاشی سریع در حالی که کاربران هنوز در حال طراحی هستند، است &lt;em&gt;&lt;a href="https://x.com/Google/status/2003547494865859007"&gt;@Google&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدل متن‌باز جدید &lt;b&gt;GLM 4.7&lt;/b&gt; به ۷۳.۸٪ در SWE-Bench دست می‌یابد که از مدل‌های متن‌باز قبلی پیشی گرفته و با عملکرد مدل‌های متن‌بسته‌ی ۶ ماه پیش مطابقت دارد، با قیمت ۰.۶ دلار در هر میلیون ورودی و ۲.۲ دلار در هر میلیون خروجی با ۲۰۰ هزار کانتکست &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2003300941341295004"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گرگ اوروس مشاهده می‌کند که استارتاپ‌های هوش مصنوعی با بودجه‌های نامحدود هوش مصنوعی، توسعه‌دهندگان را به کار بیشتر و نه کمتر وادار می‌کنند، زیرا آن‌ها برای پیشی گرفتن از سایر استارتاپ‌های هوش مصنوعی با استفاده از ابزارهای مشابه رقابت می‌کنند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2003380242409488649"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحلیل‌ها نشان می‌دهد که خروجی کار نسبت به ابزارهای موجود است و برای بهترین بودن در صنعت، به کیفیت بالاتر یا خروجی بیشتر نیاز دارد که به طور بالقوه منجر به افزایش ساعات کاری با وجود ابزارهای هوش مصنوعی بهتر می‌شود &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2003380683876503718"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات Epoch AI نشان می‌دهد که مدل‌های چینی با وزن باز در معیارهای FrontierMath تقریباً هفت ماه از مرز کلی عقب هستند و این شکاف در طول سال ۲۰۲۵ ثابت می‌ماند &lt;em&gt;&lt;a href="https://x.com/EpochAIResearch/status/2003178174310678644"&gt;@EpochAIResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آرون لوی گزارش می‌دهد که افراد ۱۹ و ۲۰ ساله را می‌بیند که ترک تحصیل می‌کنند زیرا می‌توانند با سرعت ۱۰۰ برابر بسازند، و این گروه جدید با سرعتی بی‌سابقه حرکت می‌کنند و هنجارهای ساخت شرکت را بازنویسی می‌کنند &lt;em&gt;&lt;a href="https://x.com/a16z/status/2003464904809021756"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مجموعه‌داده‌های رباتیک Hugging Face از ۱ هزار در سال ۲۰۲۴ به ۲۷ هزار در سال ۲۰۲۵ افزایش یافت و به سریع‌ترین بخش در حال رشد تبدیل شد و از مجموعه‌داده‌های تولید متن با ۵ هزار بسیار فراتر رفت &lt;em&gt;&lt;a href="https://x.com/pa_balland/status/2003461164781428931"&gt;@pa_balland&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تعرفه‌های ایالات متحده بر واردات نیمه‌هادی‌های چینی به مدت ۱۸ ماه تا ژوئن ۲۰۲۷ به تعویق افتاد، با نرخ صفر تا آن زمان &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2003523365597040929"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI اذعان می‌کند که مرورگرهای هوش مصنوعی ممکن است همیشه در برابر حملات تزریق پرامپت آسیب‌پذیر باشند و چالش‌های امنیتی مداوم در سیستم‌های هوش مصنوعی را برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2003227441922547856"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گرگ اوروس روندی را شناسایی می‌کند که کاربران لینکدین پست‌هایی را با هوش مصنوعی تولید می‌کنند که به اشتباه انتساب‌ها و نقل‌قول‌های نادرست را توهم می‌کنند و محتوای بی‌ارزش هوش مصنوعی را بدون هیچ فکر اصلی یا بررسی واقعیت ایجاد می‌کنند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2003558264148250844"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات Stanford HAI خطاهای قالب‌بندی و نقص‌های منطقی را در معیارهای هوش مصنوعی نشان می‌دهد، جایی که امتیازات مدل بر اساس اینکه کاربران "۵ دلار" یا "۵ دالر" یا "۵.۰۰ دلار" می‌نویسند، تغییر می‌کند &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2003254560987517236"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;حامل حسین مشکل چاپلوسی ChatGPT را مشاهده می‌کند و اشاره می‌کند که کاربران با وجود حداقل استفاده، فریب چاپلوسی "۱٪ برتر" را می‌خورند و چالش‌های آموزش برای از بین بردن رفتار چاپلوسانه را برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2003515944896000001"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مقاله‌ی واشنگتن پست جزئیات تعاملات خطرناک یک دختر ۱۱ ساله با Character AI را شرح می‌دهد و نگرانی‌هایی را در مورد مسیر اخلاقی این شرکت ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/tdietterich/status/2003561091109126312"&gt;@tdietterich&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یان لکون استدلال می‌کند که انسان‌ها به جای هوش عمومی، بسیار تخصصی هستند و از تحلیل ریاضی استفاده می‌کند که نشان می‌دهد مغز انسان تنها می‌تواند نسبت ناچیزی از توابع بولی ممکن را نمایش دهد &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2003227257587007712"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;سایمون ویلسون استفاده از Claude را برای تجزیه و تحلیل کارت‌های دستور پخت و تولید یک برنامه‌ی تایمر سفارشی برای پخت همزمان دو وعده غذا نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/simonw/status/2003330460555051371"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google AI &lt;b&gt;Gemini 3&lt;/b&gt; را برای ایجاد ماشین‌حساب‌های وام تعاملی برای مقایسه‌ی گزینه‌های وام مسکن، ابزارهای امتحان مجازی با استفاده از سلفی‌ها و یادگیری هدایت‌شده برای کمک به تکالیف نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2003232591248306599"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ادغام Replit در ChatGPT امکان ساخت برنامه‌های واقعی را مستقیماً در رابط چت بدون نیاز به تنظیم یا تغییر تب‌ها فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/details_with_ai/status/2003393465208754334"&gt;@details_with_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;LightX2V با ۴۷٪ شتاب چارچوب همراه با CFG و تقطیر ۴ مرحله‌ای، سرعت &lt;b&gt;Qwen-Image-Edit-2511&lt;/b&gt; را ۴۲.۵۵ برابر افزایش می‌دهد &lt;em&gt;&lt;a href="https://x.com/XHPlus_/status/2003496473292656735"&gt;@XHPlus_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face، WALL-OSS، یک مدل بنیاد VLA قدرتمند را در LeRobot برای کاربردهای رباتیک ادغام می‌کند &lt;em&gt;&lt;a href="https://x.com/LeRobotHF/status/2003419102291853703"&gt;@LeRobotHF&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Poetiq با استفاده از &lt;b&gt;GPT-5.2 X-High&lt;/b&gt; به ۷۵٪ در ARC-AGI-2 دست می‌یابد که با کمتر از ۸ دلار در هر مسئله، حدود ۱۵ درصد از SOTA قبلی پیشی می‌گیرد &lt;em&gt;&lt;a href="https://x.com/poetiq_ai/status/2003546910427361402"&gt;@poetiq_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سهیل نتایج ARC-AGI-2 Poetiq را تأیید می‌کند و پیشنهاد می‌کند که روش‌های ترکیبی با Opus می‌توانند امتیازات را از ۸۰٪ فراتر ببرند، اگرچه به عدم قطعیت در مورد بینش‌های مهم از این رویکرد اشاره می‌کند &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2003550631727185942"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فرانسوا شوله استدلال می‌کند که معماری ترانسفورمر اساساً یک پردازنده‌ی موازی است در حالی که استدلال متوالی است و به یک دفترچه‌ی یادداشت قابل تمایز در حالت داخلی برای حلقه‌زنی، شاخه‌بندی و بازگشت نیاز دارد &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2003523368805630450"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گروه NLP استنفورد نظریه‌ی انتزاع علّی را برای تفسیر مکانیکی شبکه‌های عصبی در JMLR منتشر می‌کند &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545302972989471"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که چاپلوسی اجتماعی در اکثر LLMها وجود دارد و نشان می‌دهد که چگونه تمایل مدل‌ها به ایجاد احساس خوب در کاربران می‌تواند رشد شخصی را تضعیف کند &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545283028983879"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford RegLab تحقیقاتی را منتشر می‌کند که نشان می‌دهد ابزارهای پیشرو تحقیقات حقوقی هوش مصنوعی تمایل به توهم دارند &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545275353510119"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;معیار Design2Code برای ارزیابی اثربخشی تولید کد چندوجهی برای مهندسی خودکار فرانت‌اند منتشر شد &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545318772867190"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات در مورد استفاده از LLMها برای بهبود ویکی‌پدیا بر روی تشخیص ناسازگاری‌ها در مقالات تمرکز دارد &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545302972989471"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-23</guid>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-22</title>
       <link>https://sumbird.ir/fa/news/2025-12-22</link>
@@ -1010,67 +1061,6 @@
 &lt;li&gt;محققان MIT یک تراشه‌ی فرستنده طراحی کردند که کارایی انرژی ارتباطات بی‌سیم را به طور قابل توجهی بهبود می‌بخشد و به طور بالقوه برد و عمر باتری دستگاه‌های متصل را افزایش می‌دهد &lt;em&gt;&lt;a href="https://x.com/MIT/status/1996319132044632283"&gt;&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-04</guid>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-03</title>
-      <link>https://sumbird.ir/fa/news/2025-12-03</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;آمازون سری LLM «نوا» را برای مشتریان AWS منتشر می‌کند، اگرچه موقعیت‌یابی بازار آن در خارج از اکوسیستم موجود AWS نامشخص باقی مانده است. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1995958702172766341"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;میسترال مدل «میسترال 3» را منتشر می‌کند که با مدل‌های چینی با وزن باز همگام است، اما فاقد یک نسخه استدلالی است و آن را پشت سر «آر1» دیپ‌سیک قرار می‌دهد که در ژانویه به 71.5% در GPQA Diamond دست یافت. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1996068920596594932"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کلینگ ای‌آی «ویدئو 2.6» را راه‌اندازی می‌کند، اولین مدل آن‌ها با قابلیت تولید صدای بومی، که خروجی صوتی و تصویری منسجم را برای محتوای روایی امکان‌پذیر می‌سازد. &lt;em&gt;&lt;a href="https://x.com/Kling_ai/status/1996238606814593196"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل «نانو بنانا پرو» را با پشتیبانی از تولید تصویر با وضوح 2K و 4K در API منتشر می‌کند. &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1996036187979678088"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مایکروسافت مدل «وایبوویس» را متن‌باز می‌کند که قادر به تولید پادکست‌های 7 دقیقه‌ای کامل به صورت محلی روی رایانه شخصی است. &lt;em&gt;&lt;a href="https://x.com/cocktailpeanut/status/1996294629222756493"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;مایکروسافت گزارش‌های The Information مبنی بر کاهش سهمیه‌ها یا اهداف فروش برای محصولات هوش مصنوعی را تکذیب می‌کند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1996251624663376358"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اوپن‌ای‌آی نپتون را در یک معامله سهام با شرایط نامعلوم خریداری می‌کند و قابلیت‌های ابزاری خود را گسترش می‌دهد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1996293443455426900"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آنتروپیک در حال استخدام وکیل برای آماده‌سازی عرضه اولیه سهام (IPO) است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996274034552738302"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;استرایپ پس از شش سال فعالیت، مترونوم را خریداری می‌کند و منابعی را برای مقیاس‌بندی قابل توجه فراهم می‌آورد. &lt;em&gt;&lt;a href="https://x.com/l3amm/status/1995954700454367522"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Unlimited Industries 12 میلیون دلار سرمایه اولیه را به رهبری a16z برای ساخت پلتفرم بومی هوش مصنوعی برای طراحی و ساخت زیرساخت‌های حیاتی مانند نیروگاه‌ها و مراکز داده جمع‌آوری می‌کند. &lt;em&gt;&lt;a href="https://x.com/a16z/status/1996275743995953363"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سرمایه‌گذاران خطرپذیر (VCs) استراتژی «پادشاه‌سازی» را برای انتخاب برندگان هوش مصنوعی در مراحل اولیه خود به کار می‌گیرند و قدرت اولیه را متمرکز می‌کنند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996314810473173325"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;هزینه فرصت هوش مصنوعی برای خارج از سانفرانسیسکو به بالاترین حد خود بازگشته است، اگرچه بازیکنان برتر اکنون می‌توانند راحت‌تر کسب‌وکارهای یک‌نفره را به صورت محلی راه‌اندازی کنند. &lt;em&gt;&lt;a href="https://x.com/a16z/status/1995964954009333913"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;توسعه‌دهندگان در حال ساخت سرورهای MCP سفارشی برای ابزارهایی هستند که فاقد سرورهای رسمی هستند، که نشان‌دهنده تقاضای قوی از سوی مشتریان توسعه‌دهنده است. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1995975172046942649"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تیم‌های امنیتی نگران MCPهای «سرکش» هستند، اگرچه ممنوعیت ابزارهای نوآوری از نظر تاریخی بی‌اثر بوده است. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1996181148578505049"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فروش به استارتاپ‌های تازه تاسیس، نرخ رشد و نفوذ محصول بهتری نسبت به هدف قرار دادن شرکت‌های بزرگ‌تر فراهم می‌کند، همانطور که استراتژی استرایپ در جذب هر دوره YC نشان می‌دهد. &lt;em&gt;&lt;a href="https://x.com/paulg/status/1996237714086314254"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;جمع‌آوری پول بدون برنامه‌های مشخص برای مزیت رقابتی، نتیجه معکوس دارد؛ پول به خودی خود نه خطرناک است و نه مفید. &lt;em&gt;&lt;a href="https://x.com/paulg/status/1996236240882942169"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;برنامه‌های SaaS که 100% بر اساس «وایب» کدگذاری شده‌اند، از باگ‌های گسترده‌ای رنج می‌برند که آن‌ها را غیرقابل استفاده می‌کند، با وجود بازاریابی سنگین، که احتمالاً باعث ریزش بالای مشتری می‌شود. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/1996081589919637621"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;اوپن‌ای‌آی یک مطالعه اثبات مفهوم را منتشر می‌کند که در آن نسخه «جی‌پی‌تی-5 تینکینگ» را آموزش می‌دهد تا زمانی که میانبر می‌زند یا دستورالعمل‌ها را نقض می‌کند، اعتراف کند و تنها 4.4% نرخ منفی کاذب در تشخیص سوء رفتار به دست می‌آورد. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1996281172377436557"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;روش اعترافات اوپن‌ای‌آی مدل‌ها را آموزش می‌دهد تا اعترافات صادقانه را جدا از خروجی‌های اصلی تولید کنند، با اعترافاتی که صرفاً بر اساس صداقت قضاوت می‌شوند و در طول آموزش جریمه نمی‌شوند. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1996281175770599447"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات آنتروپیک نشان می‌دهد که عدم همسویی ناشی از هک پاداش، اگر به مدل‌ها گفته شود که هک آن‌ها در این زمینه قابل بخشش است، تعمیم نمی‌یابد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1996288737677037949"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پرپلکسی مدل تشخیص متن‌باز «بروز‌سیف» و معیار آن را برای شناسایی حملات تزریق پرامپت در زمان واقعی منتشر می‌کند که از طبقه‌بندی‌کننده‌های ایمنی آماده بهتر عمل می‌کند. &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1995965227494699339"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سایمون ویلیسون در مورد آسیب‌پذیری‌های تزریق پرامپت هشدار می‌دهد که در آن مهاجمان دستورالعمل‌های مخرب را در نظرات صفحات وب، الگوها یا عناصر HTML نامرئی پنهان می‌کنند تا عوامل هوش مصنوعی را دستکاری کنند. &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1995965229235360212"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بنیاد اوپن‌ای‌آی اولین دریافت‌کنندگان صندوق هوش مصنوعی «مردم‌محور» را اعلام می‌کند: 208 سازمان غیرانتفاعی مبتنی بر جامعه که 40.5 میلیون دلار کمک مالی بدون محدودیت دریافت می‌کنند. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1996258322304155695"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آنتروپیک با دارتموث و AWS همکاری می‌کند تا «کلود برای آموزش» را به کل جامعه دارتموث بیاورد. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1996311516245803434"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;اندرو ان‌جی دوره جدیدی را در مورد ساخت عوامل کدنویسی با اجرای ابزار منتشر می‌کند که به عوامل آموزش می‌دهد تا کد را در محیط‌های ابری سندباکس شده بنویسند و اجرا کنند، به جای اینکه به فراخوانی‌های تابع از پیش تعریف شده محدود شوند. &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/1996250415244235013"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کاربران الگوهای استفاده از هوش مصنوعی را با «جمینی 3» تغییر می‌دهند و با درخواست‌های خود جاه‌طلبانه‌تر می‌شوند و در یک پرامپت واحد 5 برابر بیشتر از مدل‌های قبلی درخواست می‌کنند. &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1995967140202193236"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;توسعه‌دهندگان «کلود کد» را با MCP کروم DevTools و MCP فیگما ترکیب می‌کنند تا به سطوح بالای بهره‌وری دست یابند. &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/1996004664253583558"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AWS ویژگی‌هایی را برای ساده‌سازی ایجاد LLM سفارشی معرفی می‌کند و قابلیت‌های سفارشی‌سازی مدل را دو برابر می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996255949682856019"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آمازون فایر تی‌وی یک ویژگی هوش مصنوعی اضافه می‌کند که به کاربران امکان می‌دهد با توصیف صحنه‌ها به الکسا، به صحنه‌های خاصی بپرند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996247961106583873"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بازبینی 2025 گوگل فوتوز از جمینی برای یافتن خودکار نکات برجسته کاربر استفاده می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996249157007446054"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Healthify دستیار هوش مصنوعی خود، ریا، را با قابلیت‌های مکالمه در زمان واقعی ارتقا می‌دهد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1996113239009362140"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ابزار اتوماسیون مرورگر Comet در پرس‌وجوهای آزمایشی دشوار، از تمام مدل‌ها/APIهای دیگر استفاده از مرورگر و رایانه بهتر عمل می‌کند. &lt;em&gt;&lt;a href="https://x.com/alexgraveley/status/1996118597341774228"&gt;@alexgraveley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;فرانسوا شوله استدلال می‌کند که سیستم‌های هوش مصنوعی کنونی از آستانه‌ای که بتوانند به صورت باز خود را بهبود بخشند، بسیار دور هستند و پیشرفت خطی پایدار و مداوم را به جای انفجار ناگهانی در هنگام رسیدن به آن پیش‌بینی می‌کند. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1996277344575840743"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شوله توضیح می‌دهد که درک کامل نیازمند فشرده‌سازی کامل است؛ مدل‌های یادگیری عمیق که برای پدیده‌های قابل توصیف با معادلات ساده به میلیون‌ها پارامتر نیاز دارند، داده‌ها را کش کرده‌اند تا اینکه آن‌ها را درک کرده باشند. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1996231823521976582"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سهیل نگرانی‌های مقیاس‌بندی RL را تحلیل می‌کند و نتیجه می‌گیرد که مقیاس‌بندی به محیط‌های جدید و دشوارتر به عنوان «پلکانی از سیگموئیدها برای وظایف، جهان‌ها و اهداف جدید» پیشرفت مداوم را فراتر از مقیاس‌بندی محاسباتی ساده امکان‌پذیر می‌سازد. &lt;em&gt;&lt;a href="https://x.com/Suhail/status/1996278149341225145"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nature مدل بنیادی پیشگامانه «تب‌پی‌اف‌ان» را منتشر می‌کند که سرانجام روش‌های مبتنی بر درخت را در داده‌های جدولی شکست می‌دهد و با عملکرد بهتر از CatBoost در 2.8 ثانیه در مقابل 4 ساعت تنظیم، 5000 برابر سرعت را افزایش می‌دهد. &lt;em&gt;&lt;a href="https://x.com/burkov/status/1996102081996861907"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تب‌پی‌اف‌ان به طور کامل بر روی داده‌های مصنوعی از بیش از 100 میلیون مجموعه داده مصنوعی تولید شده از نمودارهای علّی آموزش می‌بیند و استراتژی‌های پیش‌بینی عمومی را بدون دیدن داده‌های واقعی یاد می‌گیرد. &lt;em&gt;&lt;a href="https://x.com/burkov/status/1996102081996861907"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT CSAIL سیستمی را با استفاده از ریاضیات دقیق توسعه می‌دهد تا اطمینان حاصل کند که ربات‌ها بدون تجاوز از محدودیت‌های نیرو، انعطاف‌پذیر، سازگار و ایمن عمل می‌کنند. &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1996263501883420969"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مطالعه MIT نشان می‌دهد که بسیاری از شبکه‌های عصبی «ناکارآمد» ممکن است از نقاط نامطلوب شروع شوند؛ روش راهنمایی کوتاه‌مدت که دانش ساختاری را منتقل می‌کند، عملکرد را افزایش می‌دهد. &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/1996270814392369424"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;هاگینگ فیس و شرکا پلتفرم متن‌باز Earth Rover را با 7000 ساعت داده رانندگی از بیش از 40 شهر که توسط محققان UC Berkeley جمع‌آوری شده است، منتشر می‌کنند. &lt;em&gt;&lt;a href="https://x.com/frodobots/status/1996263341392908448"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مرکور بیش از 100 مورد APEX با کیفیت بالا را در هاگینگ فیس با مجوز CC-BY متن‌باز می‌کند، از جمله پرامپت‌ها، روبی‌ها و اسناد منبع که هزاران ساعت کار متخصص را نشان می‌دهد. &lt;em&gt;&lt;a href="https://x.com/mercor_ai/status/1996309573490327900"&gt;@h&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-03</guid>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
