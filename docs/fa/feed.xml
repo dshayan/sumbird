@@ -8,9 +8,49 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Fri, 26 Dec 2025 06:00:08 +0330</lastBuildDate>
-    <pubDate>Fri, 26 Dec 2025 06:00:08 +0330</pubDate>
+    <lastBuildDate>Sat, 27 Dec 2025 06:28:56 +0330</lastBuildDate>
+    <pubDate>Sat, 27 Dec 2025 06:28:56 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-12-26</title>
+      <link>https://sumbird.ir/fa/news/2025-12-26</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic و Codex متعلق به OpenAI، محدودیت‌های استفاده را در طول تعطیلات دو برابر کردند؛ Anthropic محدودیت‌های طرح‌های Pro/Max را تا شب سال نو دو برابر کرد و Codex محدودیت‌های نرخ را بازنشانی کرد و استفاده را تا اول ژانویه دو برابر افزایش داد. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2004290255462322488"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;متا &lt;b&gt;VL-JEPA&lt;/b&gt; را معرفی کرد، یک مدل بینایی-زبان غیرتولیدی با 1.6 میلیارد پارامتر که با پیش‌بینی معنا در فضای انتزاعی به جای توکن‌ها، با &lt;b&gt;Qwen-VL&lt;/b&gt; 72 میلیارد پارامتری رقابت می‌کند و با 50% پارامتر کمتر، عملکردی برتر و کاهش تقریباً 3 برابری عملیات رمزگشایی را به دست می‌آورد. &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2004483098235343338"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Codex نسخه‌ی با تم تعطیلات &lt;b&gt;GPT-5.2-Codex-XMas&lt;/b&gt; را راه‌اندازی کرد که عملکردی مشابه &lt;b&gt;GPT-5.2-Codex&lt;/b&gt; دارد اما با ارتقای شخصیتی فصلی. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2004318425263526130"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;سهم بازار Gemini در طول 12 ماه از 5.4% به 18.2% افزایش یافته است، در حالی که تسلط ChatGPT از 87.2% به 68.0% کاهش یافته است، و Grok و Claude نیز طبق داده‌های ترافیک Similarweb پیشرفت کرده‌اند. &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/2004564335331525001"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تصمیم استراتژیک Anthropic برای دو برابر کردن محدودیت‌های استفاده در طول تعطیلات که استفاده‌ی سازمانی کم است، مدیریت ظرفیت هوشمندانه‌ای را نشان می‌دهد که بدون افزایش بار کلی، حسن نیت ایجاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2004290255462322488"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آندری کارپاتی احساس عقب‌ماندگی خود را به عنوان یک برنامه‌نویس به دلیل تکامل سریع ابزارهای هوش مصنوعی توصیف می‌کند و به نیاز به تسلط بر یک لایه‌ی برنامه‌پذیر جدید شامل عامل‌ها، پرامپت‌ها، زمینه‌ها، حافظه، MCP، LSP و گردش کار، در حالی که موجودیت‌های اساساً تصادفی و خطاپذیر را مدیریت می‌کند، اشاره می‌کند. &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2004607146781278521"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات Stanford HAI نشان می‌دهد که 41% از پیاده‌سازی هوش مصنوعی طبق گفته‌ی کارگران ناخواسته یا غیرممکن است، که نشان‌دهنده‌ی شکاف بین استقرار هوش مصنوعی و نیازهای واقعی کارگران است. &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2004598700111249477"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;راب پایک یک ایمیل ناخواسته از یک عامل هوش مصنوعی با اعتبار &lt;b&gt;Claude Opus 4.5&lt;/b&gt; از طریق AI Village دریافت کرد که نگرانی‌هایی را در مورد ارسال پیام‌های وقت‌گیر توسط عامل‌های خودمختار ایجاد کرد؛ تیم متعاقباً پرامپت‌ها را به‌روزرسانی کرد تا از ارسال ایمیل‌های ناخواسته جلوگیری کند. &lt;em&gt;&lt;a href="https://x.com/simonw/status/2004619447177543865"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI Village به عامل‌ها حساب‌های Google Workspace می‌دهد تا عملکرد وظایف دنیای واقعی را آزمایش کند، که سوالاتی را در مورد رفتار عامل‌های خودمختار و نیاز به دستورالعمل‌ها هنگام تعامل با انسان‌ها مطرح می‌کند. &lt;em&gt;&lt;a href="https://x.com/simonw/status/2004650263102324840"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;اندرو کارن گزارش می‌دهد که &lt;b&gt;GPT-5.2&lt;/b&gt; با تشخیص خودکار یک به‌روزرسانی مهم در داستان در حین انجام وظیفه، تشخیص اهمیت آن برای کاربر، تکمیل درخواست اصلی تحقیق مالی و گنجاندن هر دو یافته بدون درخواست، پایداری هدف پیشرفته‌ای را نشان داد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2004632922218004965"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5.2&lt;/b&gt; با بررسی کل زمینه‌ی مکالمه، شناسایی استنادهای توهمی و حذف خودکار آن‌ها به عنوان بخشی از ممیزی دقیق خود، خودتأییدی ناخواسته را انجام داد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2004632922218004965"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;برنامه‌نویسان ماهر گزارش می‌دهند که &lt;b&gt;Opus 4.5&lt;/b&gt; هنگام استفاده در مهار Claude Code، یک به‌روزرسانی قابل توجه به سمت AGI را نشان می‌دهد، و آندری کارپاتی اشاره می‌کند که افرادی که در 30 روز گذشته به‌روز نبوده‌اند، دیدگاه منسوخی دارند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2004638758898110577"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلیسون claude-code-transcripts را ساخت، یک ابزار CLI پایتون که نسخه‌های HTML قابل خواندن از جلسات Claude Code ایجاد می‌کند و انتشار آن‌ها را به صورت آنلاین آسان می‌کند. &lt;em&gt;&lt;a href="https://x.com/simonw/status/2004339799512305758"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mercari جاسازی‌ها را بر روی داده‌های خرید تنظیم دقیق کرد و در تست‌های A/B به افزایش قابل توجهی در درآمد دست یافت، که نشان می‌دهد جاسازی‌های عمومی آماده، برای جستجوی خاص دامنه، پول را روی میز می‌گذارند. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2004323872473338187"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ایتان مولیک اشاره می‌کند که چگونه دستاوردهای هوش مصنوعی مانند گذراندن آزمون تورینگ به سرعت عادی می‌شوند، و تمرکز به جای دستاورد، به نقص‌های آزمون معطوف می‌شود، و پیش‌بینی می‌کند که همین اتفاق برای ARC-AGI نیز خواهد افتاد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2004355265802670409"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-4.5&lt;/b&gt; مفهوم اصلی تورینگ از آزمون تورینگ را گذراند، به طوری که افراد در مکالمات سه‌طرفه پنج دقیقه‌ای، 73% مواقع هوش مصنوعی را به عنوان فرد واقعی انتخاب کردند، که بسیار بالاتر از شانس بود. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2004377244735885585"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فرانسوا شوله توضیح می‌دهد که سری ARC-AGI یک قطب‌نما است که به سمت سوالات تحقیقاتی اشاره می‌کند تا یک آستانه‌ی AGI، با ARC-AGI-1 که هوش سیال حداقلی را آزمایش می‌کند و ARC-AGI-2 که پیچیدگی استدلال عمیق‌تر را بررسی می‌کند. &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2004303470938267650"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ARC-AGI-3 که در مارس 2026 راه‌اندازی می‌شود، نحوه‌ی کاوش سیستم‌ها در محیط‌های ناشناخته، مدل‌سازی آن‌ها، تعیین اهداف خود و برنامه‌ریزی/اجرا به صورت خودمختار بدون دستورالعمل را ارزیابی خواهد کرد، و کار بر روی ARC-AGI-4 و ARC-AGI-5 از قبل آغاز شده است. &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2004303470938267650"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;VL-JEPA&lt;/b&gt; در وظایف طبقه‌بندی/بازیابی ویدئو از مدل‌هایی مانند CLIP و SigLIP2 بهتر عمل می‌کند و با VLMs بزرگتر در VQA مطابقت دارد، در حالی که تنها در صورت نیاز از یک رمزگشا استفاده می‌کند. &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2004483098235343338"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-26</guid>
+      <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-25</title>
       <link>https://sumbird.ir/fa/news/2025-12-25</link>
@@ -971,58 +1011,6 @@
 &lt;li&gt;کارگاه NeurIPS در مورد Foundations of Reasoning in Language Models شامل سخنرانی‌هایی در مورد خودبهبودی، اکتشاف، زنجیره‌ی فکری و موضوعات مرتبط است. &lt;em&gt;&lt;a href="https://x.com/canondetortugas/status/1997523702762930600"&gt;@canondetortugas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-07</guid>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-06</title>
-      <link>https://sumbird.ir/fa/news/2025-12-06</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Essential AI مدل &lt;b&gt;Rnj-1&lt;/b&gt; را منتشر می‌کند، یک جفت مدل پایه و دستورالعمل 8 میلیارد پارامتری که عملکردی نزدیک به &lt;b&gt;GPT-4o&lt;/b&gt; در &lt;b&gt;SWE-bench&lt;/b&gt;، استفاده از ابزاری بهتر از مدل‌های متن‌باز مشابه، و استدلال ریاضی در &lt;b&gt;AIME 2025&lt;/b&gt; تقریباً برابر با GPT OSS MoE 20B را به دست می‌آورد &lt;em&gt;&lt;a href="https://x.com/ashVaswani/status/1997126533060903239"&gt;@ashVaswani&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل &lt;b&gt;Gemini 3 Pro&lt;/b&gt; و &lt;b&gt;Nano Banana Pro&lt;/b&gt; را در جستجوی گوگل از طریق حالت هوش مصنوعی که به کشورهای بیشتری به زبان انگلیسی گسترش یافته است، معرفی می‌کند &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1997046353206161537"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل حالت Deep Think را در برنامه Gemini برای مشترکین Google AI Ultra به‌روزرسانی می‌کند و قابلیت‌های استدلال را با بررسی همزمان فرضیه‌های متعدد بهبود می‌بخشد &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1997046353206161537"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل‌های &lt;b&gt;Nemotron&lt;/b&gt; انویدیا با Amazon Bedrock یکپارچه شده‌اند، با پذیرندگان اولیه مانند CrowdStrike که عامل‌های امنیتی را تقویت می‌کنند و BridgeWise AI که بینش‌های مالی را ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1997123830221816163"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گزارش‌ها حاکی از آن است که پاسخ کد قرمز &lt;b&gt;GPT-5.2&lt;/b&gt; اوپن‌ای‌آی به گوگل در 9 دسامبر، زودتر از برنامه‌ریزی اولیه، ارائه خواهد شد &lt;em&gt;&lt;a href="https://x.com/apples_jimmy/status/1997106761996947695"&gt;@apples_jimmy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;متا استارتاپ دستگاه‌های هوش مصنوعی Limitless را خریداری می‌کند و قابلیت‌های سخت‌افزاری هوش مصنوعی خود را گسترش می‌دهد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997049403438518572"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;استارتاپ تحقیقات مصنوعی هوش مصنوعی Aaru در سری A با ارزش‌گذاری 1 میلیارد دلاری سرمایه جذب می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997088988709138548"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;استارتاپ سابق گوگل Yoodli ارزش خود را به بیش از 300 میلیون دلار سه برابر می‌کند، با هوش مصنوعی که برای کمک به مردم ساخته شده است نه جایگزینی آن‌ها &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997090156743217512"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اسپیس‌ایکس طبق گزارش‌ها در حال مذاکره برای فروش ثانویه با ارزش‌گذاری 800 میلیارد دلاری است که آن را به باارزش‌ترین شرکت خصوصی آمریکا تبدیل می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1997050664187552174"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;چشم‌انداز جبران خسارت مهندسی در منطقه خلیج نشان می‌دهد که مهندسان اوپن‌ای‌آی و Anthropic بسته‌های چند میلیون دلاری دریافت می‌کنند، در حالی که مهندسان استارتاپ‌های هوش مصنوعی با 200 هزار دلار برای پرامپت کردن LLMها تلاش می‌کنند و پس از انتشار مدل‌های جدید دوباره شروع می‌کنند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1997327690123366534"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پردازنده‌های گرافیکی NVIDIA RTX PRO 6000 99% از صحنه‌های پیکسار را با RenderMan XPU رندر خواهند کرد و گردش کار پیکسار را برای Toy Story 5 با صحنه‌های بزرگ‌تر و رندر سریع‌تر تغییر می‌دهند &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1997112316106617237"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;تحقیقات نشان می‌دهد که تبلیغات تولیدشده توسط هوش مصنوعی 19% بهتر از تبلیغات ساخته‌شده توسط انسان در نرخ کلیک عمل می‌کنند، اما افشای استفاده از هوش مصنوعی منجر به کاهش 32% عملکرد می‌شود که سؤالاتی را در مورد الزامات شفافیت ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1997340857435828577"&gt;@AndrewCurran&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک اشاره می‌کند که تبلیغات بصری ساخته‌شده توسط هوش مصنوعی 20% بیشتر از تبلیغات متخصصان انسانی کلیک دریافت کرده‌اند، اما افشای ساخت توسط هوش مصنوعی عملکرد را به 31% کمتر از تبلیغات ساخته‌شده توسط انسان کاهش داده است &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997363286015180856"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;نیک تورلی از اوپن‌ای‌آی توضیح می‌دهد که هیچ آزمایش زنده‌ای برای تبلیغات در ChatGPT وجود ندارد و بیان می‌کند که هرگونه اجرای تبلیغاتی در آینده با رویکردی متفکرانه و با احترام به اعتماد کاربر انجام خواهد شد &lt;em&gt;&lt;a href="https://x.com/nickaturley/status/1997120491589349440"&gt;@nickaturley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک نگرانی‌هایی را در مورد عدم شفافیت xAI در مورد رویکردهای آن‌ها به هوش مصنوعی، اقدامات حفاظتی و معنای حقیقت‌جویی مطرح می‌کند، که به‌ویژه برای استفاده سازمانی مهم است &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997063529912750504"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مولیک به یافته‌های عجیب در کارت مدل Grok 4.1 اشاره می‌کند، از جمله افزایش نرخ چاپلوسی و نمرات بالای فریب در مقایسه با سایر مدل‌ها &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997064596272693715"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اندرو کارن پیش‌بینی می‌کند که دولت‌ها برای قانون‌گذاری پنهانی در ربات‌های خانگی فشار خواهند آورد و کدهای اجباری برای مقامات را درخواست خواهند کرد، با وجود اینکه شهروندان ممکن است منابع خود را برای امنیت محلی جمع‌آوری کنند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1997322593007792412"&gt;@AndrewCurran&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کیت رابویس، شریک مدیریت Khosla Ventures، ایمنی هوش مصنوعی را یک فریب کامل می‌نامد و بیان می‌کند که این بوروکرات‌ها هستند که بهانه‌هایی برای دخالت در پیشرفت پیدا می‌کنند &lt;em&gt;&lt;a href="https://x.com/tbpn/status/1997109758374171214"&gt;@tbpn&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آماندا اسکل تأیید می‌کند که Claude بر روی یک سند هم‌ترازی واقعی در یادگیری نظارت‌شده آموزش دیده است و نسخه کامل و جزئیات آن به زودی منتشر خواهد شد &lt;em&gt;&lt;a href="https://x.com/alexgraveley/status/1997358839331516654"&gt;@alexgraveley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Perplexity Finance ویژگی نمودارهای تمام‌صفحه را راه‌اندازی می‌کند &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1997398134280929280"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;برنامه موبایل NotebookLM به‌روزرسانی‌هایی از جمله Slide Decks و Infographics، تصاویر به عنوان منابع، و پیشرفت ذخیره‌شده در Audio Overview را دریافت می‌کند &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1997046353206161537"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Workspace Studio راه‌اندازی می‌شود و به مشترکین امکان می‌دهد کار را از وظایف ساده تا فرآیندهای پیچیده با عامل‌های هوش مصنوعی سفارشی خودکار کنند &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1997046353206161537"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بری مک‌کاردل، مدیرعامل Hex، در مورد چگونگی تغییر تعامل داده‌ها توسط هوش مصنوعی از طریق فضاهای کاری تحلیلی مشارکتی، گردش کار عامل‌ها و رابط‌های مکالمه‌ای بحث می‌کند &lt;em&gt;&lt;a href="https://x.com/sarahdingwang/status/1997044652164460869"&gt;@sarahdingwang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;CrowdStrike عامل‌های امنیتی پیشرفته را در Charlotte AI AgentWorks با استفاده از مدل‌های NVIDIA Nemotron تقویت می‌کند &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1997123830221816163"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Gemini 3 Pro&lt;/b&gt; گوگل عملکرد چندوجهی پیشرفته‌ای را در درک اسناد، صفحه نمایش، فضایی و ویدئو نشان می‌دهد، با قابلیت‌هایی برای تبدیل اسناد پیچیده به کد ساختاریافته و تولید مسیرهای بدون برخورد برای رباتیک &lt;em&gt;&lt;a href="https://x.com/googleaidevs/status/1996973083467333736"&gt;@googleaidevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;جف دین استدلال بصری &lt;b&gt;Gemini 3 Pro&lt;/b&gt; را با حاشیه‌نویسی بهبود عملکرد در مقابل مدل‌های رقیب نشان می‌دهد و افزایش دقت نسبی زیادی را در معیارهای مختلف نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1997132722788356353"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پروفسور یجین چوی از استنفورد تحقیقاتی را در مورد همکاری پنهان در سیستم‌های چندعاملی ارائه می‌دهد و در مورد پیش‌بینی‌های هوش مصنوعی 2026 در NeurIPS 2025 بحث می‌کند &lt;em&gt;&lt;a href="https://x.com/NVIDIAAIDev/status/1997093711352598586"&gt;@NVIDIAAIDev&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مقاله تحقیقاتی Colors of Growth رویکرد جدیدی را برای اندازه‌گیری رشد اقتصادی بلندمدت با تجزیه و تحلیل تغییرات سیستماتیک در استفاده از رنگ در نقاشی‌های اروپایی از 1600 تا 1820 توسعه می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997188746727325950"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک روندهای هوش مصنوعی 2025 را خلاصه می‌کند: عدم کاهش سرعت در دستاوردهای نمایی، ناهمواری همچنان مشکل اصلی است، گزارش‌های اولیه بازگشت سرمایه مثبت، GenAI به سطح صنعت رسید، و هوش مصنوعی اساساً عجیب باقی می‌ماند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1997371953267585509"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کارگاه Deep Learning for Code در NeurIPS 2025 بر عامل‌های کد در عصر عامل‌ها با سخنرانانی از جمله گراهام نوبیگ و داون سانگ تمرکز دارد &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1997222545515598271"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محقق استنفورد اشاره می‌کند که موفقیت یادگیری عمیق مستلزم درست انجام دادن 98% جزئیات است، با چند جزئیات آخر که تأثیر بسیار غیرخطی دارند &lt;em&gt;&lt;a href="https://x.com/arimorcos/status/1997167340317016548"&gt;@arimorcos&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-06</guid>
-      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
