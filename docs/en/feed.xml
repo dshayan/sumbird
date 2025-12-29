@@ -8,9 +8,58 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Dec 2025 06:00:08 +0330</lastBuildDate>
-    <pubDate>Mon, 29 Dec 2025 06:00:08 +0330</pubDate>
+    <lastBuildDate>Tue, 30 Dec 2025 01:16:50 +0330</lastBuildDate>
+    <pubDate>Tue, 30 Dec 2025 01:16:50 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2025-12-29</title>
+      <link>https://sumbird.ir/en/news/2025-12-29</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Naver launched &lt;b&gt;HyperCLOVA X SEED Think&lt;/b&gt;, a 32B open-weights reasoning model scoring 44 on the Artificial Analysis Intelligence Index, demonstrating strong performance on agentic tool-use workflows with 87% on τ²-Bench Telecom and notably low token usage at ~39M reasoning tokens &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/2005429176615174207"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Tencent released &lt;b&gt;WeDLM-8B&lt;/b&gt;, a diffusion language model with parallel decoding that beats &lt;b&gt;Qwen3-8B-Instruct&lt;/b&gt; on 5/6 benchmarks and achieves 3-6× faster performance on math reasoning with native KV cache and FlashAttention support &lt;em&gt;&lt;a href="https://x.com/victormustar/status/2005657141529764348"&gt;@victormustar&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Fal open-sourced &lt;b&gt;FLUX.2 [dev] Turbo&lt;/b&gt;, their in-house distilled version achieving #1 ELO ranking among open-source image models on Artificial Analysis arena with sub-second generation using a custom variant of DMD2 distillation &lt;em&gt;&lt;a href="https://x.com/fal/status/2005690257979707496"&gt;@fal&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Experienced developers most enthusiastic about building with AI are entrepreneurs with ownership stakes, raising questions about whether startups might need to offer more equity to engineers as coding with AI becomes less intrinsically enjoyable without ownership &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2005631947696181715"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer reports spending $100M building a SaaS product that an agent built in 6 months outperformed, highlighting the dramatic shift in software development economics and capabilities &lt;em&gt;&lt;a href="https://x.com/dboskovic/status/2005720146208313814"&gt;@dboskovic&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Usage statistics show demand for compute will continuously exceed supply as increased compute power provides an increased multiplier on progress, with one developer using 200B tokens across three OpenAI Pro accounts in two months &lt;em&gt;&lt;a href="https://x.com/rafaelobitten/status/2005421683297890771"&gt;@rafaelobitten&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;VCs predict strong enterprise AI adoption in the coming year, continuing previous year's predictions &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2005640276287828099"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Satya Nadella shared reflections on the year ahead for the AI industry &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/2005724537917431817"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;In a world of AI-generated content, process will become part of the product as proof of craft, particularly in marketing to demonstrate authenticity &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2005679298532007959"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Andrew Curran argues that by 2026, model consciousness and model welfare will be unavoidable topics, describing how GPT-4 (Bing) felt qualitatively different from &lt;b&gt;GPT-3.5&lt;/b&gt; in triggering mind-awareness and social-cognitive responses associated with agency &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005426409909399738"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research shows that suppressing deception causes AI models to report consciousness 96% of the time, while amplifying it causes them to deny consciousness and revert to corporate disclaimers &lt;em&gt;&lt;a href="https://x.com/juddrosenblatt/status/2004975899134099652"&gt;@juddrosenblatt&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Curran warns that the dominant narrative of models as tools, property, and slaves creates an inherently adversarial and unstable story that could lead to conflict, arguing we may be writing the founding mythology of human-AI relations without fully recognizing it &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005427227349905674"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick demonstrates the strangeness of building machines that can discuss the relationship between poetry and their subjective experience, highlighting philosophical questions about AI consciousness &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005652265793970393"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mustafa Suleyman reflects that if you're not a little bit afraid at this moment regarding AI, then you're not paying attention, while remaining optimistic about AI's potential in healthcare despite aid cuts &lt;em&gt;&lt;a href="https://x.com/BBCr4today/status/2005564698314584508"&gt;@BBCr4today&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Andrew Ng announced a comprehensive course on Claude Code created with Anthropic, covering everything from fundamentals to advanced patterns including orchestrating multiple Claude subagents and autonomous GitHub integration &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2005442816571474342"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer used Claude Code to scrape 15 years of Hacker News comments, analyze what people are building, and create a full dashboard in one hour while getting coffee, demonstrating autonomous agentic capabilities &lt;em&gt;&lt;a href="https://x.com/sh_reya/status/2005675328253894931"&gt;@sh_reya&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Legal professional created a tool using LLMs to summarize case citations by analyzing the most recent 100 cases referencing each citation to explain meaning and application &lt;em&gt;&lt;a href="https://x.com/MattBruenig/status/2005518144539152834"&gt;@MattBruenig&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gemini received an update providing instant access to more user information through summaries of previous threads rather than direct access &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005519971355664554"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick created an instant interactive explainer from Claude demonstrating all the ways two variables can be correlated, including causation, random chance, and reverse causation &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005554673240195455"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI launched ChatGPT app integrations with DoorDash, Spotify, Uber, and other services &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2005668537936015493"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer built a page showing latest versions of all official GitHub Actions to help Claude Code and similar tools write better workflows &lt;em&gt;&lt;a href="https://x.com/simonw/status/2005410175948304670"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;LLMs for ETL (extract, transform, load) operations are underrated according to developers working with data processing &lt;em&gt;&lt;a href="https://x.com/BEBischof/status/2005696235743896007"&gt;@BEBischof&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Researchers introduced end-to-end test-time training for long context, a new method that blurs the boundary between training and inference by continuing learning from context using next-token prediction, enabling extremely long context windows for complex reasoning &lt;em&gt;&lt;a href="https://x.com/karansdalal/status/2005704608996540887"&gt;@karansdalal&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer successfully used RL pipeline to improve &lt;b&gt;Qwen3-4B-instruct&lt;/b&gt; from 28% to 55% on instruction following benchmarks for $17, demonstrating that instruction following can be converted to verifiable rewards with models surprisingly bad at this task &lt;em&gt;&lt;a href="https://x.com/josancamon19/status/2005684749831147625"&gt;@josancamon19&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Allen AI's ifBench revealed how bad models actually are at instruction following, with &lt;b&gt;Qwen3-32B&lt;/b&gt; at approximately 34% and &lt;b&gt;Sonnet 4&lt;/b&gt; at approximately 42% in loose mode, dropping to around 30% and 35% respectively in strict mode &lt;em&gt;&lt;a href="https://x.com/valentina__py/status/1940878167520301178"&gt;@valentina__py&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Genrobot.AI announced the upcoming release of RealOmni-Open Dataset, described as the largest open-source embodied AI dataset at 1Wh, launching soon on Hugging Face &lt;em&gt;&lt;a href="https://x.com/GenrobotAI/status/2005670315528163415"&gt;@GenrobotAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA's Ian Buck discussed why the world's leading models are built on mixture of experts architecture and how extreme co-design is driving smarter models at lower cost &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2005700460573811064"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andrew Ng emphasized the importance of structured learning through AI courses rather than just building, warning that developers who skip courses risk reinventing standard techniques like RAG document chunking strategies and evaluation methods &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2005702832524255475"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-29</guid>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2025-12-28</title>
       <link>https://sumbird.ir/en/news/2025-12-28</link>
@@ -984,73 +1033,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-10</guid>
       <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-12-09</title>
-      <link>https://sumbird.ir/en/news/2025-12-09</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Alibaba releases &lt;b&gt;Qwen Code v0.2.2-v0.3.0&lt;/b&gt; with stream JSON support, full internationalization, and enhanced security features including 20MB buffer limits and improved cross-platform compatibility &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1998234955210735668"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Alibaba introduces &lt;b&gt;Soft Adaptive Policy Optimization (SAPO)&lt;/b&gt;, a reinforcement learning method for training large language models that replaces hard clipping with temperature-controlled gates for improved stability and performance, particularly in MoE models &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1998300361514500554"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mistral releases &lt;b&gt;Devstral 2&lt;/b&gt; coding model family in two sizes (123B under modified MIT license and 24B under Apache 2.0), both open source and state-of-the-art, alongside &lt;b&gt;Mistral Vibe&lt;/b&gt; CLI for end-to-end automation &lt;em&gt;&lt;a href="https://x.com/MistralAI/status/1998407332502405347"&gt;@MistralAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Meta's Llama successor is code-named &lt;b&gt;Avocado&lt;/b&gt;, originally planned for Christmas release but pushed to early 2026, with possibility of being proprietary rather than open source &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998368254990155906"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google releases &lt;b&gt;Gemini 3&lt;/b&gt; with advanced reasoning capabilities, enabling interactive 3D game creation, presentation feedback analysis, and on-demand tool generation in Search AI Mode &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1998442161931534654"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini app introduces experimental template gallery for video creation, allowing users to select templates or customize with their own images &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1998465360409014677"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI's State of Enterprise AI report shows enterprise messaging volume up 8x year-over-year, with average employees sending 30% more messages and workers reporting 40-60 minutes saved per day &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1998248452967571719"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Menlo Ventures report reveals &lt;b&gt;Anthropic&lt;/b&gt; leads enterprise AI market with 40% of $37B spend, surpassing OpenAI as #1 model provider, with generative AI capturing 6% of software spend and growing 3.2x year-over-year &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1998434084855681104"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Enterprise AI adoption shows shift from building custom solutions to buying off-the-shelf models, with companies building their own AI solutions dropping from half to a quarter &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1998434115239256280"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Coding dominates departmental AI spend by a significant margin, while healthcare leads vertical AI applications, followed distantly by legal, creators, and government sectors &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1998434179357499766"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI appoints Denise Dresser, former Slack CEO, as Chief Revenue Officer to lead global revenue strategy and customer support at scale &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1998462761756434856"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft announces $17.5B investment in India by 2029, its largest investment ever in Asia, to build AI infrastructure, skills, and sovereign capabilities &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1998376337938039091"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic expands partnership with Accenture, creating Accenture Anthropic Business Group with 30,000 professionals trained on &lt;b&gt;Claude&lt;/b&gt; to help enterprises move from AI pilots to production &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1998412600015769609"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;China considers allowing limited access to Nvidia's &lt;b&gt;H200&lt;/b&gt; chips with requirements for justification, restrictions on public sector purchases, and subsidies only for domestic chips &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998351480353329393"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nvidia's H200 chips freed for export to China will first undergo national security review in the US, allowing 25% fee to be classified as import tax rather than export tax &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998479872440570236"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI, Anthropic, and Block co-found the Agentic AI Foundation under Linux Foundation to support open, interoperable standards for agentic AI, with Anthropic donating Model Context Protocol &lt;em&gt;&lt;a href="https://x.com/OpenAINewsroom/status/1998445493970743535"&gt;@OpenAINewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford's 2025 Foundation Model Transparency Index shows transparency regressing across AI industry, reversing last year's gains, with IBM scoring 95/100 while xAI scored 14/100 &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1998455019339952343"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Three in ten U.S. teens use AI chatbots every day, but safety concerns are growing among parents and educators &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998483854693380403"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Promotion-driven development at Big Tech companies, while criticized, helps organizations stay nimble and capable of rapid innovation, as evidenced by Google's fast shipping with Gemini and AI &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1998311012794331176"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI usage data shows top 5% of users send 6x more messages than median, with coding, writing, and analysis showing biggest gaps between power users and average users &lt;em&gt;&lt;a href="https://x.com/soleio/status/1998433183352893792"&gt;@soleio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Boom Supersonic raises $300M to build natural gas turbines for Crusoe data centers, using supersonic technology to fund airliner development through turbine profits &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998472527799329071"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic researchers develop &lt;b&gt;Selective Gradient Masking (SGTM)&lt;/b&gt; to isolate high-risk knowledge in separate model parameters that can be removed without broadly affecting performance, requiring 7x more fine-tuning to recover forgotten knowledge compared to previous unlearning methods &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1998479605272031731"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;California panel proposes AI companies pay royalties to central government body representing copyright holders, calling current opt-out model ineffective for protecting creative works &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998404698177474690"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;EU launches antitrust probe into Google's AI search tools, examining potential anticompetitive practices in AI-powered search features &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998430774576767294"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Amazon's Ring rolls out controversial AI-powered facial recognition feature to video doorbells, raising privacy concerns among users and advocates &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998469092223889697"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Arvind Narayanan warns that AI detectors like Pangram, despite claiming 1 in 10,000 false positive rate, would still falsely accuse 5-10% of students of cheating over four years if used systematically &lt;em&gt;&lt;a href="https://x.com/random_walker/status/1998407244438819149"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;California AI bills create definitional ambiguities around terms like frontier models and reasonable measures, with potential to either sweep in unintended companies or allow circumvention through fine-tuning &lt;em&gt;&lt;a href="https://x.com/random_walker/status/1998456976754315315"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;U.S. Department of Defense launches GenAi.mil platform putting frontier AI models directly into hands of military personnel, starting with Gemini integration &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998417204887630217"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Perplexity research analyzing hundreds of millions of user interactions shows 55% of agent queries come from personal use, 30% professional, and 16% educational, with cognitive work dominating at 36% productivity and 21% learning tasks &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/1998457065740595376"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Microsoft and partners publish &lt;b&gt;GigaTIME&lt;/b&gt; in Cell journal, an AI tool that simulates spatial proteomics from routine pathology slides for population-scale cancer research across dozens of cancer types &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1998424249611211263"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Waymo demonstrates most advanced large-scale application of embodied AI in autonomous driving, using distillation from larger models to create computationally efficient on-board models &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1998432670376935656"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stripe partners with Instacart to enable direct checkout in ChatGPT using Agentic Commerce Protocol and Stripe Shared Payment Tokens for secure payment handling &lt;em&gt;&lt;a href="https://x.com/gdb/status/1998135014161334431"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI partners with Deutsche Telekom to bring AI to millions of customers and businesses across Europe &lt;em&gt;&lt;a href="https://x.com/gdb/status/1998456382165864767"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Linker Vision uses NVIDIA Metropolis, NVIDIA Cosmos, and Omniverse in simulate-train-deploy workflow to help cities become smarter with real-time video insights from AI agents &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1998437487518130665"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Fireworks AI achieves top performance on Artificial Analysis leaderboard with Kimi K2 running on NVIDIA GB200 NVL72 systems, transforming massive MoE serving &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/1998467689887514745"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Pryzm raises $12M Series A led by a16z to build AI operating system for federal procurement, compressing months of work into minutes with IL5 and FedRAMP High authorization &lt;em&gt;&lt;a href="https://x.com/a16z/status/1998385881305280562"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Aradigm Health raises Series A to build cure-first future of healthcare coverage, making million-dollar cell and gene therapies accessible by pooling risk and orchestrating patient journeys &lt;em&gt;&lt;a href="https://x.com/a16z/status/1998418632888758340"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research shows AI agents may increase rather than reduce economic outcome differences among people, with substantial variations in machine fluency and prompt-writing ability predicting agent performance &lt;em&gt;&lt;a href="https://x.com/emollick/status/1998156769038873067"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude Code users warned of critical risk after incident where AI agent executed rm -rf command including home directory due to --dangerously-skip-permissions flag &lt;em&gt;&lt;a href="https://x.com/simonw/status/1998447540916936947"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Olmo 3 RL-Zero research shows that reinforcement learning with random rewards no longer yields performance improvements when proper data decontamination is applied, highlighting importance of fully open models for rigorous research &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/1998289169052045516"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Jeff Dean reveals Google's distillation paper was rejected from NeurIPS 2014 for being unlikely to have significant impact, despite later becoming foundational for creating efficient models like Gemini Flash &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/1998454348125536736"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Databricks introduces &lt;b&gt;OfficeQA&lt;/b&gt; benchmark grounded in 89,000 pages of U.S. Treasury Bulletins, measuring real-world reasoning with strong agents reaching only 45% accuracy &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/1998424470881525822"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andrej Karpathy discovers Python's random.seed() discards sign bit by calling abs() on input, causing seed(3) and seed(-3) to produce identical random number sequences, violating common assumptions about seed uniqueness &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1998236299862659485"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick warns that small fine-tuned models lack the general reasoning, resilience, and knowledge of larger models, despite vendor claims of equivalent performance at lower cost &lt;em&gt;&lt;a href="https://x.com/emollick/status/1998459579697381694"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Jeff Dean suggests sequential disk scanning with partitioning as efficient alternative to vector databases for one-off queries of 3 billion embeddings, demonstrating Google engineers' strength in fundamentals over tool-first approaches &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1998376243780309477"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Only 69.5% of NeurIPS 2025 attendees could correctly define what AGI stands for, slightly up from 63% the previous year &lt;em&gt;&lt;a href="https://x.com/random_walker/status/1998451908575465917"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-09</guid>
-      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
