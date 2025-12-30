@@ -8,9 +8,52 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Tue, 30 Dec 2025 06:00:10 +0330</lastBuildDate>
-    <pubDate>Tue, 30 Dec 2025 06:00:10 +0330</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2025 00:23:52 +0330</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2025 00:23:52 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2025-12-30</title>
+      <link>https://sumbird.ir/fa/news/2025-12-30</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;Qwen Code v0.6.0&lt;/b&gt; را با قابلیت آزمایشی «مهارت‌ها»، پشتیبانی از چندین ارائه‌دهنده برای Gemini و Anthropic، افزونه‌ی بهبودیافته‌ی VS Code و دستورات جدید برای استفاده‌ی غیرتعاملی منتشر کرد &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006025958055346222"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;علی‌بابا خانواده‌ی &lt;b&gt;MAI-UI&lt;/b&gt; از عامل‌های رابط کاربری گرافیکی (GUI) بنیادی را با یکپارچه‌سازی ابزار بومی MCP منتشر کرد که به نتایج پیشرفته‌ای در بنچمارک AndroidWorld دست یافته و از &lt;b&gt;Gemini-2.5-Pro&lt;/b&gt;، Seed1.8 و UI-Tars-2 پیشی گرفته است. نسخه‌های 2B و 8B آن نیز به صورت عمومی در دسترس هستند &lt;em&gt;&lt;a href="https://x.com/Ali_TongyiLab/status/2005789039719550988"&gt;@Ali_TongyiLab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Runway یک همکاری استراتژیک چندساله با Adobe را برای یکپارچه‌سازی مدل‌های Runway در ابزارهای Adobe و توسعه‌ی قابلیت‌های هوش مصنوعی تخصصی منحصراً برای برنامه‌های Adobe اعلام کرد &lt;em&gt;&lt;a href="https://x.com/c_valenzuelab/status/2006059919611441394"&gt;@c_valenzuelab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;متا Manus AI را با بیش از 1 میلیارد دلار خریداری کرد. تیم مستقر در سنگاپور به تلاش‌های هوش مصنوعی متا برای ساخت عامل‌های عمومی می‌پیوندد که در حال حاضر به عملکرد پیشرفته‌ای در بنچمارک Remote Labor Index دست یافته‌اند &lt;em&gt;&lt;a href="https://x.com/alexandr_wang/status/2005766469771223106"&gt;@alexandr_wang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سافت‌بانک تعهد سرمایه‌گذاری 40 میلیارد دلاری خود در OpenAI را با پرداخت نهایی 22 میلیارد دلار تکمیل کرد و سهم خود را به بیش از 10% رساند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006014016242471346"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Atlassian گزارش می‌دهد که شرکت‌هایی که از ابزارهای تولید کد هوش مصنوعی مانند GitHub Copilot، Claude Code، Cursor و Replit استفاده می‌کنند، صندلی‌های Jira پولی خود را تقریباً 5% سریع‌تر از شرکت‌هایی که از این ابزارها استفاده نمی‌کنند، گسترش می‌دهند. این نشان می‌دهد که ابزارهای کدنویسی هوش مصنوعی باعث افزایش استخدام توسعه‌دهندگان می‌شوند &lt;em&gt;&lt;a href="https://x.com/tanayj/status/2005745892121317455"&gt;@tanayj&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سرمایه‌گذاران خطرپذیر پیش‌بینی می‌کنند که شرکت‌ها در سال 2026 هزینه‌های هوش مصنوعی خود را از طریق تعداد کمتری از فروشندگان، با وجود افزایش کلی هزینه‌ها، تثبیت خواهند کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2006026389468950657"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gergelyorosz نسبت به خرید Manus توسط متا بر اساس سابقه‌ی متا در تعطیلی پلتفرم‌های SaaS B2B مانند Parse و Meta Workspaces ابراز تردید کرد و به عدم وجود مزیت و ریسک قابل توجه برای کسب‌وکارهایی که پلتفرم‌های متا را که قابل میزبانی شخصی نیستند، اتخاذ می‌کنند، اشاره کرد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2006054423336833089"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مهندسان محصول‌محوری که می‌توانند از ابزارهای هوش مصنوعی با عاملیت برای ساخت راه‌حل‌هایی که معیارهای کسب‌وکار را تغییر می‌دهند استفاده کنند، به پرتقاضاترین نقش در توسعه‌ی نرم‌افزار تبدیل خواهند شد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2006100163647930805"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;خانواده‌ی مدل‌های NVIDIA Nemotron بیش از 5 میلیون بار در Hugging Face دانلود شده‌اند &lt;em&gt;&lt;a href="https://x.com/NVIDIAAP/status/2005858786855067848"&gt;@NVIDIAAP&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;مطالعه‌ی استنفورد نشان می‌دهد که پنج چت‌بات درمانی محبوب، شرایطی مانند اسکیزوفرنی و وابستگی به الکل را انگ می‌زنند و نشان می‌دهد که در حالی که هوش مصنوعی ممکن است در کارهای اداری عالی باشد، حضور انسان برای بهبود ضروری است &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2006003131658686485"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مجلات علمی در تشخیص سریع تحقیقات خوب و بد با کمک هوش مصنوعی با چالش‌هایی روبرو هستند، زیرا فیلترهای ذهنی و رویه‌ای طراحی شده برای کارهای تولید شده توسط انسان، در تشخیص تفاوت‌های کیفیت در هنگام دخالت هوش مصنوعی مشکل دارند و این امر ممکن است باعث شود ویراستاران بیشتر به سیگنال‌های پر سر و صدا مانند سابقه‌ی قبلی و وابستگی سازمانی تکیه کنند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005806593724809541"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;افزونه‌ی مرورگر 1Password به صورت سراسری Prism.js را در هر صفحه‌ی وب تزریق می‌کند که باعث خراب شدن برجسته‌سازی نحوه‌ی اصلی می‌شود و نگرانی‌هایی را در مورد سهل‌انگاری ایجاد می‌کند، زیرا این مشکل در طول آزمایش بتا گزارش شده بود اما همچنان به مرحله‌ی تولید رسید &lt;em&gt;&lt;a href="https://x.com/youyuxi/status/2005904473332564339"&gt;@youyuxi&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Qwen Code توانایی تجزیه‌ی اسناد PDF به markdown و انجام وظایف ترجمه را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006026233176318124"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Tesla FSD Supervised بیش از 9000 مایل متوالی رانندگی بدون دخالت را در بیش از 20 ایالت، از جمله تمام توقف‌های پارک و سوپرشارژر، به دست آورده است &lt;em&gt;&lt;a href="https://x.com/Tesla_AI/status/2005800650601644461"&gt;@Tesla_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان استنفورد DataTalk را توسعه داده‌اند، ابزاری خاص دامنه که سوالات زبان ساده را به پرس‌وجوهای پایگاه داده‌ی تأیید شده ترجمه می‌کند. این ابزار برای کمک به اتاق‌های خبر کم‌برخوردار طراحی شده است تا با ابزارهای دقیق به جای هوش مصنوعی عمومی، با فروپاشی اخبار محلی مقابله کنند &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2005791318102905312"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;توسعه‌دهندگان نشان می‌دهند که &lt;b&gt;Claude Opus 4.5&lt;/b&gt; پروژه‌های پیچیده را از ابتدا می‌سازد، از جمله یک برنامه‌ی ترمینال کامل MIDI mixer در Rust، یک مفسر جاوااسکریپت در پایتون و یک زمان اجرای WebAssembly، که نشان می‌دهد یافتن محدودیت‌های این مدل دشوار است &lt;em&gt;&lt;a href="https://x.com/simonw/status/2005884985438253507"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ترجمه‌ی ماشینی تجارت بین‌المللی را 10% افزایش داده است و همان تأثیر اقتصادی را دارد که کوچک کردن اندازه‌ی جهان به میزان 25% &lt;em&gt;&lt;a href="https://x.com/emollick/status/2006012159122149515"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که 60 مدل یادگیری ماشین برای مولکول‌ها، مواد و پروتئین‌ها با وجود رویکردهای آموزشی متفاوت، به سمت رمزگذاری مشابهی از ساختار مولکولی همگرا می‌شوند. این امر مفهوم نمایش افلاطونی را از مدل‌های زبان به حوزه‌های علمی گسترش می‌دهد، اگرچه این همگرایی در ساختارهای خارج از توزیع کار نمی‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005991284511760421"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;نمونه‌برداری اهمیت بریده‌شده در چارچوب‌های یادگیری تقویتی، عدم تطابق بین موتورهای نمونه‌بردار و یادگیرنده را با مقیاس‌بندی گرادیان‌های سیاست با نسبت‌های اهمیت محدود شده، برطرف می‌کند و عملکرد مدل را با وجود احتمال نشان دادن پاداش‌های ثبت‌شده‌ی پایین‌تر در طول آموزش، بهبود می‌بخشد &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2005891753224577123"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;بحث‌های برنامه‌نویسی با کمک هوش مصنوعی موازی با بحث‌های تاریخی در مورد زبان‌های سطح پایین در مقابل زبان‌های سطح بالا است، با این تفاوت اساسی که بهره‌وری در مقابل کنترل باقی می‌ماند، اگرچه کدنویسی حسی (vibe coding) مانند ویرایشگرهای WYSIWYG برای توسعه‌ی وب، به بن‌بست رسیده است &lt;em&gt;&lt;a href="https://x.com/random_walker/status/2006026959315226911"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فرانسوا شوله استدلال می‌کند که هوش در سطح انسان یک آستانه‌ی قابلیت خاص نیست، بلکه یک آستانه‌ی کارایی است &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2005772262973296677"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-30</guid>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-29</title>
       <link>https://sumbird.ir/fa/news/2025-12-29</link>
@@ -924,61 +967,6 @@
 &lt;li&gt;سایمون ویلسون راهنمای جامعی در مورد الگوهای کدنویسی حسی برای ابزارهای HTML تک‌فایلی منتشر کرد که شامل APIهای فعال‌شده با CORS، localStorage،&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-11</guid>
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-10</title>
-      <link>https://sumbird.ir/fa/news/2025-12-10</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;علی‌بابا نسخه‌ی ارتقایافته‌ی &lt;b&gt;Qwen3-Omni-Flash&lt;/b&gt; (نسخه‌ی 2025-12-01) را با قابلیت‌های بهبودیافته‌ی درک چندمرحله‌ای ویدئو/صوت، شخصیت هوش مصنوعی قابل تنظیم از طریق دستورات سیستمی، پشتیبانی از 119 زبان متنی و 19 زبان گفتاری، و کیفیت صدای شبیه به انسان منتشر کرد. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/1998776328586477672"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;میسترال مدل‌های &lt;b&gt;Devstral 2&lt;/b&gt; و &lt;b&gt;Devstral Small 2&lt;/b&gt; را به ترتیب با 123 میلیارد و 24 میلیارد پارامتر منتشر کرد، هرچند با مجوزهای محدودکننده‌ای که استفاده از آن‌ها را برای شرکت‌هایی با درآمد ماهانه بیش از 20 میلیون دلار ممنوع می‌کند. &lt;em&gt;&lt;a href="https://x.com/simonw/status/1998544905719959919"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;میسترال محدودیت کانتکست &lt;b&gt;Vibe&lt;/b&gt; را از 100 هزار به 200 هزار توکن افزایش داد. &lt;em&gt;&lt;a href="https://x.com/MistralAI/status/1998785548714991788"&gt;@MistralAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;نوس ریسرچ (Nous Research) مدل &lt;b&gt;Nomos 1&lt;/b&gt; را به صورت متن‌باز منتشر کرد؛ این مدل 30 میلیارد پارامتری در مسابقه‌ی ریاضی پاتنام 2024 امتیاز 87 از 120 را کسب کرد و در بین 3,988 شرکت‌کننده رتبه‌ی دوم را به دست آورد. &lt;em&gt;&lt;a href="https://x.com/NousResearch/status/1998536543565127968"&gt;@NousResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;استپ‌فان (StepFun) سیستم &lt;b&gt;استدلال هماهنگ موازی (PaCoRe)&lt;/b&gt; را معرفی کرد که به یک مدل 8 میلیارد پارامتری امکان می‌دهد با زمان محاسباتی چند میلیون توکنی، به امتیاز 94.5% در HMMT25 (که از 93.2% &lt;b&gt;GPT-5&lt;/b&gt; بیشتر است) و 78.2% در LiveCodeBench دست یابد. &lt;em&gt;&lt;a href="https://x.com/StepFun_ai/status/1998814974097952833"&gt;@StepFun_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;بلومبرگ گزارش می‌دهد که آزمایشگاه ابرهوش متا از &lt;b&gt;جما (Gemma)&lt;/b&gt;، مدل متن‌باز OpenAI، و &lt;b&gt;کیو‌ون (Qwen)&lt;/b&gt; برای آموزش مدل بزرگ بعدی خود با نام رمز آووکادو استفاده می‌کند که نشان‌دهنده‌ی تغییر احتمالی از استراتژی متن‌باز است. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998765772726739205"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;چت‌جی‌پی‌تی به پردانلودترین اپلیکیشن اپل در سال 2025 در ایالات متحده تبدیل شد؛ طبق گزارش پیو ریسرچ، 64% از نوجوانان آمریکایی از چت‌بات‌های هوش مصنوعی استفاده می‌کنند و 33% از آن‌ها روزانه از این چت‌بات‌ها بهره می‌برند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998775042734432292"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;غول‌های فناوری بزرگ حدود 68 میلیارد دلار سرمایه‌گذاری در هند طی 5 سال آینده را اعلام کردند که هند را پس از ایالات متحده به دومین محرک بزرگ درآمد برای توسعه‌ی هوش مصنوعی تبدیل می‌کند. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1998798782822232123"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;هاگینگ فیس (Hugging Face) اکنون میزبان بیش از 2.2 میلیون مدل است که بیش از 50,000 مدل دارای ارائه‌دهنده‌ی API هستند و این نشان‌دهنده‌ی رشد سریع در اکوسیستم هوش مصنوعی متن‌باز است. &lt;em&gt;&lt;a href="https://x.com/_akhaliq/status/1998506215027126358"&gt;@_akhaliq&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل طرح هوش مصنوعی پلاس (AI Plus) با قیمت کمتر از 5 دلار را در هند برای رقابت با چت‌جی‌پی‌تی گو (ChatGPT Go) راه‌اندازی کرد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998748361936220223"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اوبو (Oboe) 16 میلیون دلار در سری A به رهبری a16z برای پلتفرم تولید دوره‌های آموزشی مبتنی بر هوش مصنوعی خود که تجربه‌های یادگیری شخصی‌سازی‌شده ایجاد می‌کند، جذب سرمایه کرد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998771509377335322"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کرسر (Cursor) نسخه‌ی 2.2 را با حالت دیباگ (Debug Mode) منتشر کرد که کد را ابزاربندی می‌کند و داده‌های زمان اجرا را به عامل‌ها ارسال می‌کند، به علاوه بهبودهایی در حالت برنامه‌ریزی (Plan Mode) و قابلیت‌های داوری چندعاملی. &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/1998821350333440133"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI اعلام کرد که مدل‌های آینده‌ی آن تحت چارچوب آمادگی (Preparedness Framework) برای امنیت سایبری به قابلیت «بالا» خواهند رسید و این امر مستلزم تقویت تدابیر حفاظتی و همکاری با کارشناسان جهانی برای برتری مدافعان است. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/1998847719956426798"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک هشدار داد که مجوزهای محدودکننده‌ی مدل‌های میسترال (که استفاده از آن‌ها را برای شرکت‌هایی با درآمد ماهانه بیش از 20 میلیون دلار ممنوع می‌کند) می‌تواند مشارکت‌های متن‌باز را محدود کند، زیرا از لحاظ تاریخی بخش زیادی از کار از شرکت‌های انتفاعی می‌آید. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1998509960347709842"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گرگلی اوروس (Gergelyi Orosz) مشاهده کرد که لینکدین به شدت محصولات هوش مصنوعی را در همه جا تبلیغ می‌کند، با محتوای تولیدشده توسط هوش مصنوعی که پلتفرم را پر کرده و درخواست‌های شغلی ورودی را تقریباً بی‌فایده کرده است. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1998676798041739356"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;برایان لاوین (Brian Lovin) گزارش داد که حساب‌های جدید X محتوای تولیدشده توسط هوش مصنوعی با کیفیت بسیار پایین، مطالب سیاسی و پست‌های بی‌ارزش را به عنوان فید پیش‌فرض مشاهده می‌کنند. &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/1998808094827331895"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک اشاره کرد که &lt;b&gt;روتر خودکار GPT-5&lt;/b&gt; مشکلات ادراکی ایجاد می‌کند، زیرا بسیاری از نمونه‌های «چت‌جی‌پی‌تی X را اشتباه انجام داد» در واقع «&lt;b&gt;چت‌جی‌پی‌تی-5 اینستنت&lt;/b&gt; اشتباه انجام داد» هستند که منجر به باورهای نادرست در مورد قابلیت‌های هوش مصنوعی می‌شود. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1998838007609119010"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;جان کارمک پیشنهاد کرد که از تاریخچه‌ی چت LLM به عنوان مرجع شغلی استفاده شود، با این استدلال که تاریخچه‌های چت چندساله سیگنال‌های بهتری نسبت به رزومه‌های سنتی ارائه می‌دهند و می‌توانند تناسب بین افراد و مشاغل را هم برای کارفرمایان و هم برای کارمندان بهینه کنند. &lt;em&gt;&lt;a href="https://x.com/ID_AA_Carmack/status/1998753499002048589"&gt;@ID_AA_Carmack&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گوگل با چندین ناشر از جمله در اشپیگل، گاردین، تایمز آو ایندیا و واشنگتن پست برای آزمایش ویژگی‌های تعامل هوش مصنوعی از جمله خلاصه‌های صوتی توسط &lt;b&gt;جمینی&lt;/b&gt; در اخبار گوگل همکاری می‌کند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1998825942542843968"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل سرورهای مدیریت‌شده‌ی MCP را راه‌اندازی کرد که به عامل‌های هوش مصنوعی امکان می‌دهد به ابزارهای آن متصل شوند، به علاوه ویژگی «منابع ترجیحی» (Preferred Sources) در جستجو برای سفارشی‌سازی «اخبار برتر» (Top Stories) از منابع معتبر. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998770332723982668"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فیگما ابزارهای حذف شیء و گسترش تصویر مبتنی بر هوش مصنوعی را در Design و Draw راه‌اندازی کرد که به کاربران امکان می‌دهد حواس‌پرتی‌ها را پاک کنند، پس‌زمینه‌ها را گسترش دهند و اشیاء را جدا کنند. &lt;em&gt;&lt;a href="https://x.com/figma/status/1998756770421027243"&gt;@figma&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;میخائیل پاراخین (Mikhail Parakhin) سیستم SimGym را معرفی کرد که «مشتریان دیجیتال» ایجاد می‌کند که مانند مشتریان واقعی رفتار می‌کنند تا فرصت‌های بهینه‌سازی را آشکار کرده و امکان آزمایش A/B را با ترافیک زنده صفر فراهم کند. &lt;em&gt;&lt;a href="https://x.com/MParakhin/status/1998786503779234276"&gt;@MParakhin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک نشان داد که &lt;b&gt;نانو بنانا پرو (Nano Banana Pro)&lt;/b&gt; در NotebookLM می‌تواند ارائه‌های با کیفیت بالا را از مواد منبع با توهمات نادر تولید کند و آن را به عنوان جایگزینی بالقوه برای پاورپوینت معرفی کرد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/1998520025951752278"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آندری کارپاتی (Andrej Karpathy) سیستم خودکار نمره‌دهی را با استفاده از API &lt;b&gt;GPT 5.1 Thinking&lt;/b&gt; ایجاد کرد تا 930 بحث هکر نیوز (Hacker News) از دسامبر 2015 را با نگاهی به گذشته تحلیل کند و پربیننده‌ترین نظرات را با 60 دلار در 1 ساعت شناسایی کند. &lt;em&gt;&lt;a href="https://x.com/karpathy/status/1998803709468487877"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;لینیر (Linear) گزارش داد که عامل هوش مصنوعی آن‌ها یکی از محبوب‌ترین ویژگی‌هایشان بوده است، با افزایش قابل توجهی در تعداد مسائل جدید ایجاد شده پس از راه‌اندازی. &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/1998791558808862820"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ساتیا نادلا (Satya Nadella) بر همکاری مایکروسافت با وزارت کار هند برای استفاده از هوش مصنوعی برای اتصال بیش از 300 میلیون کارگر غیررسمی به مشاغل بهتر و تامین اجتماعی تاکید کرد. &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1998643116975546493"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;CTGT منتات (Mentat) را راه‌اندازی کرد، یک API سازگار با OpenAI که از قابلیت تفسیر مکانیکی (mechanistic interpretability) برای ارائه‌ی کنترل قطعی بر رفتار LLM به شرکت‌ها استفاده می‌کند و تضمین‌های سیاست ایمنی را بدون نیاز به آموزش مجدد اضافه می‌کند. &lt;em&gt;&lt;a href="https://x.com/CyrilGorlla/status/1998475784697049458"&gt;@CyrilGorlla&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اسپاتیفای ویژگی «لیست‌های پخش پیشنهادی» (Prompted Playlists) مبتنی بر هوش مصنوعی و شخصی‌سازی‌شده‌تر را آزمایش می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1998846239102865699"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گوگل دیپ‌مایند و گوگل ریسرچ مجموعه‌ی بنچمارک FACTS را توسعه دادند، اولین تست جامع صنعت که واقعیت‌سنجی LLM را در چهار بعد ارزیابی می‌کند: دانش مدل داخلی، جستجوی وب، زمینه‌سازی و ورودی‌های چندوجهی، با کسب امتیاز 68.8% توسط &lt;b&gt;جمینی 3 پرو&lt;/b&gt;. &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/1998831084277313539"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل کلود AlphaEvolve را معرفی کرد، یک عامل کدنویسی مبتنی بر &lt;b&gt;جمینی&lt;/b&gt; برای طراحی الگوریتم‌های پیشرفته که از LLMها برای پیشنهاد اصلاحات کد هوشمندانه در یک حلقه‌ی بازخورد استفاده می‌کند. &lt;em&gt;&lt;a href="https://x.com/GoogleCloudTech/status/1998501239219220648"&gt;@GoogleCloudTech&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان استنفورد دریافتند که 1 از هر 20 بنچمارک هوش مصنوعی دارای نقص‌های جدی است، به این معنی که صنعت مدل‌های کم‌کارایی را تبلیغ کرده و مدل‌های بهتر را جریمه کرده است. &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/1998817700366200854"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مایکروسافت ریسرچ Promptions را معرفی کرد که به توسعه‌دهندگان کمک می‌کند کنترل‌های پویا و آگاه به کانتکست را به رابط‌های چت اضافه کنند تا کاربران بتوانند پاسخ‌های هوش مصنوعی مولد را بدون نوشتن دستورالعمل‌های طولانی هدایت کنند. &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/1998815758747394159"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ناتان لمبرت (Nathan Lambert) سخنرانی جامعی را منتشر کرد که تمام مراحل ساخت Olmo 3 Think را پوشش می‌دهد، از جمله تغییرات در پیش‌آموزش، ارزیابی و پس‌آموزش با تمرکز بر زیرساخت یادگیری تقویتی. &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1998839179086639190"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LeRobot Community Datasets v3 تعداد 50 هزار اپیزود را در 46 نوع ربات از 235 مشارکت‌کننده در سراسر جهان منتشر کرد که یکی از بزرگترین مجموعه‌های نمایش ربات‌های متن‌باز و جمع‌سپاری‌شده است. &lt;em&gt;&lt;a href="https://x.com/danaaubakir/status/1998788613845430550"&gt;@danaaubakir&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آدی اولتین (Adi Oltean) آموزش اولین LLM در فضا را با استفاده از NVIDIA H100 در Starcloud-1 اعلام کرد و مدل nanoGPT را با موفقیت بر روی آثار کامل شکسپیر آموزش داد و استنتاج را اجرا کرد. &lt;em&gt;&amp;lt;a href="https://x.com/AdiOltean/status/19987699974310&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-10</guid>
-      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
