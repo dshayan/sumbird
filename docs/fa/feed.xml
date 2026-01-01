@@ -8,9 +8,47 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Thu, 01 Jan 2026 06:00:13 +0330</lastBuildDate>
-    <pubDate>Thu, 01 Jan 2026 06:00:13 +0330</pubDate>
+    <lastBuildDate>Fri, 02 Jan 2026 00:42:51 +0330</lastBuildDate>
+    <pubDate>Fri, 02 Jan 2026 00:42:51 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-01-01</title>
+      <link>https://sumbird.ir/fa/news/2026-01-01</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;علی‌بابا مدل &lt;b&gt;Qwen-Image-2512&lt;/b&gt; را منتشر کرد که اکنون در AI-Toolkit و پلتفرم Replicate در دسترس است. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006526972281999871"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آی‌کوئست لبز (IQuest Labs) از چین مدل کدنویسی &lt;b&gt;IQuest-40B&lt;/b&gt; را منتشر کرد که به ترتیب به امتیاز 81.4% در SWE-Bench-V و 54.2% در BigCodeBench دست یافته است. این مدل توسط تیمی با ارتباط با توسعه‌ی Qwen ساخته شده است. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2006768113820512427"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;توسعه‌دهندگان گزارش می‌دهند که تعطیلات زمستانی را صرف آزمایش با عامل‌های هوش مصنوعی کرده‌اند و بهبودهای قابل توجهی را در قابلیت‌ها طی ماه‌های اخیر، به‌ویژه برای توسعه‌ی پروژه‌های جدید، مشاهده کرده‌اند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2006479841349316893"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;بحث فزاینده‌ای در مورد نقش هوش مصنوعی در توسعه‌ی نرم‌افزار وجود دارد، با شواهدی مبنی بر اینکه نرم‌افزارهای تولیدی به‌طور فزاینده‌ای کد تولیدشده توسط هوش مصنوعی را در خود جای می‌دهند، اگرچه به‌ندرت 100% توسط هوش مصنوعی تولید می‌شوند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2006779894731276609"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تیم مصرف‌کننده‌ی a16z روندهای سال 2026 را پیش‌بینی می‌کند که شامل استفاده‌ی سازمانی برای هدایت پذیرش مصرف‌کننده، افزایش تولید اپلیکیشن، و قابلیت‌های چندوجهی «هر چیزی به هر چیزی» است که محصولات خاص را ممکن می‌سازد. &lt;em&gt;&lt;a href="https://x.com/a16z/status/2006780234545201575"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که دانشمندانی که از مدل‌های زبان بزرگ استفاده می‌کنند، به‌طور متوسط 40% بهره‌ورتر می‌شوند، و افراد غیربومی انگلیسی‌زبان تا 80% افزایش بهره‌وری را تجربه می‌کنند، که نگرانی‌هایی را در مورد ظرفیت داوری همتا ایجاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006734952700739747"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اوپن‌ای‌آی در حال توسعه‌ی معماری جدید مدل صوتی است که برای انتشار در سه‌ماهه‌ی اول 2026 برنامه‌ریزی شده است تا از دستگاه همراه مبتنی بر صدا پشتیبانی کند، با بهبودهایی در طبیعی بودن، دقت، و مدیریت وقفه‌ها. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006752192452231634"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ممیزی تولید انبوه &lt;b&gt;Optimus Gen3&lt;/b&gt; تسلا با هفت تامین‌کننده‌ی چینی نهایی شده است، با هدف شروع تولید در سه‌ماهه‌ی اول 2026 و ظرفیت 50,000 تا 100,000 واحد تا پایان سال. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006619632233500892"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;دیپ‌سیک (DeepSeek) مقاله‌ی &lt;b&gt;mHC: Manifold-Constrained Hyper-Connections&lt;/b&gt; را منتشر کرد که آموزش هایپرکانکشن پایدار را معرفی می‌کند که امکان مقیاس‌بندی عرض جریان باقیمانده را با حداقل سربار محاسباتی و حافظه از طریق ماتریس‌های دوگانه تصادفی فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/2006777150582698224"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;معماری هایپرکانکشن‌ها مسیرهای موازی در ترانسفورمرها با بازتوزیع سیگنال حفظ‌کننده‌ی جرم ایجاد می‌کند که تقریباً 0.02 کاهش در افت نهایی را با تنها 6.7% زمان آموزش اضافی به دست می‌آورد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006628917428334631"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;توسعه‌دهنده‌ای با استفاده از Cursor یک اپلیکیشن مک سفارشی برای توالی‌بندی ویدئو با ویژگی‌هایی از جمله بازچینی تصادفی، تبدیل‌ها، و جدول زمانی بصری ساخت که قابلیت‌هایی را نشان می‌دهد که در ابزارهای سنتی امکان‌پذیر نیستند. &lt;em&gt;&lt;a href="https://x.com/benblumenrose/status/2006470371177107528"&gt;@benblumenrose&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مهندسی وایب (Vibe engineering) به عنوان یک مهارت نوظهور شناسایی شده است که نیازمند جهت‌دهی دقیق، پیش‌بینی مسائل، و دانستن زمان کنترل دستی در طول توسعه‌ی با کمک هوش مصنوعی است. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2006773451856687130"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدل‌های هوش مصنوعی تجسم‌یافته (Embodied AI) پیش‌بینی می‌شود که با امکان‌پذیر ساختن اداره‌ی مزارع کوچک و ایجاد مازاد توسط یک نفر با پشتیبانی ربات، و اتصال از طریق استارلینک که قابلیت‌های تکنسین عمومی را فراهم می‌کند، خانه‌داری را متحول کنند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006540734133125331"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;جمینای لیستی از 26 مفهوم برای درک تاثیر اجتماعی هوش مصنوعی در سال 2026 تولید می‌کند، از جمله &lt;b&gt;شکاف پرومته‌ای&lt;/b&gt; که نابرابری فزاینده بین ظرفیت ایجاد فناوری و توانایی تصور پیامدها را توصیف می‌کند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2006644342979702853"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;قانون براندولینی&lt;/b&gt; به عنوان یک نگرانی حیاتی برجسته شده است: انرژی مورد نیاز برای رد اطلاعات نادرست چندین برابر بیشتر از تولید آن است، و هوش مصنوعی مولد هزینه‌ی تولید اطلاعات بی‌اساس را به صفر می‌رساند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2006644566233927964"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;بحث در مورد نقش هوش مصنوعی در جامعه بر نیاز به مقررات متفکرانه تاکید می‌کند که مزایای تحول‌آفرین را تضمین کرده و در عین حال خطرات را کاهش دهد، با تمرکز بر رهبری ایالات متحده در توسعه‌ی مسئولانه‌ی هوش مصنوعی. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2006512808104702370"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;هوش مصنوعی به عنوان یک نیروی بالقوه برای دموکراتیک کردن کارآفرینی، بهبود مقرون‌به‌صرفه بودن و اثربخشی مراقبت‌های بهداشتی، فراهم کردن دسترسی به آموزش با کیفیت، و تسریع کشف علمی شناسایی شده است. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2006512808104702370"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پیش‌بینی می‌شود که سال 2026 شاهد موضوعات اصلی پذیرش عامل‌های سازمانی و تسریع علمی از طریق هوش مصنوعی باشد. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2006584251521839141"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-01</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2025-12-31</title>
       <link>https://sumbird.ir/fa/news/2025-12-31</link>
@@ -899,64 +937,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-13</guid>
       <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-12</title>
-      <link>https://sumbird.ir/fa/news/2025-12-12</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI مدل &lt;b&gt;GPT-5.2&lt;/b&gt; را با به‌روزرسانی دانش تا اوت 2025 منتشر کرد. قیمت این مدل 1.4 برابر &lt;b&gt;GPT-5.1&lt;/b&gt; است و بهبودهای قابل‌توجهی در مدیریت متن‌های طولانی و وظایف «سوزن در انبار کاه» (needle-in-haystack) نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/simonw/status/1999269642528055586"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.2 Pro (X-High)&lt;/b&gt; به امتیاز 90.5% در ARC-AGI-1 با هزینه 11.64 دلار به ازای هر وظیفه دست یافت که نشان‌دهنده‌ی بهبود 390 برابری در کارایی نسبت به نسخه‌ی منتشرنشده‌ی &lt;b&gt;o3 (High)&lt;/b&gt; از یک سال پیش است که با امتیاز 88% و هزینه 4.5 هزار دلار به ازای هر وظیفه عمل می‌کرد &lt;em&gt;&lt;a href="https://x.com/simonw/status/1999270890497028161"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ai2 مدل &lt;b&gt;Olmo 3.1&lt;/b&gt; را با مدل‌های 32B Think و 32B Instruct منتشر کرد که اجرای RL آن‌ها را برای سه هفته‌ی دیگر تمدید کرده و بهبودهای مستمری در عملکرد AIME و معیارهای کدنویسی با هزینه‌ی کلی تقریباً 250 هزار دلار به دست آورده است &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1999528636085649532"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل مدل به‌روزرسانی‌شده‌ی &lt;b&gt;Gemini 2.5 Flash Native Audio&lt;/b&gt; را با بهبودهایی برای مدیریت گردش‌کارهای پیچیده، هدایت دستورالعمل‌های کاربر و مکالمات طبیعی منتشر کرد &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1999560839679082507"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل‌های پیش‌نمایش تبدیل متن به گفتار &lt;b&gt;Gemini 2.5 Flash&lt;/b&gt; و &lt;b&gt;2.5 Pro&lt;/b&gt; بهبودهایی در رعایت دستورات سبک، تنظیم دقیق سرعت با تنظیمات سرعت آگاه از متن و ثبات صدای شخصیت برای سناریوهای چند گوینده به ارمغان می‌آورند &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1999560839679082507"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Moonshoot AI مدل &lt;b&gt;Kimi K2 Thinking&lt;/b&gt; را منتشر کرد که اکنون در پلتفرم Tinker با قابلیت‌های جستجوی گسترده در دسترس است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999556490412081480"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ByteDance مدل &lt;b&gt;Dolphin-v2&lt;/b&gt; را منتشر کرد، یک مدل 3B برای تجزیه‌ی اسناد با مجوز MIT که روی PDFها، اسکن‌ها و عکس‌ها کار می‌کند و 21 نوع محتوا را با دقت پیکسلی درک می‌کند &lt;em&gt;&lt;a href="https://x.com/AdinaYakup/status/1999462500551786692"&gt;@AdinaYakup&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI مدل &lt;b&gt;circuit-sparsity&lt;/b&gt; را در Hugging Face منتشر کرد &lt;em&gt;&lt;a href="https://x.com/_akhaliq/status/1999528833490239864"&gt;@_akhaliq&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic به عنوان مشتری 10 میلیارد دلاری مرموز Broadcom از سپتامبر فاش شد، با سفارش 11 میلیارد دلاری اضافی برای زیرساخت‌های هوش مصنوعی &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999272523482206672"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI همکاری با BBVA را برای گسترش استقرار &lt;b&gt;ChatGPT Enterprise&lt;/b&gt; به 120,000 کارمند اعلام کرد که از تغییر BBVA به سمت بانکداری مبتنی بر هوش مصنوعی حمایت می‌کند &lt;em&gt;&lt;a href="https://x.com/gdb/status/1999565395385315749"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سم آلتمن، مدیرعامل OpenAI، اعلام کرد که &lt;b&gt;هوش مصنوعی سازمانی&lt;/b&gt; در سال 2026 اولویت بزرگی برای OpenAI خواهد بود که نشان‌دهنده‌ی یک تغییر استراتژیک عمده است &lt;em&gt;&lt;a href="https://x.com/gdb/status/1999416686446019049"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدیرعامل Pinterest گزارش داد که با استفاده از مدل‌های متن‌باز، تنظیم دقیق آن‌ها و دستیابی به عملکردی مشابه بهترین مدل‌های اختصاصی با کمتر از 10% هزینه، به نتایج مشابهی دست یافته است &lt;em&gt;&lt;a href="https://x.com/jeffboudier/status/1999530422242353200"&gt;@jeffboudier&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA به دلیل تقاضای قوی چین، با وجود محدودیت‌های صادراتی، افزایش تولید تراشه‌ی &lt;b&gt;H200&lt;/b&gt; را در نظر دارد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999472385725202627"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اتان مولیک اطمینان خود را ابراز کرد که حتی اگر توسعه‌ی هوش مصنوعی امروز متوقف شود، جامعه برای ده سال آینده با اختلالات گسترده‌ای مواجه خواهد شد، زیرا مردم در تلاش برای بهره‌برداری از قابلیت‌های مدل‌های موجود هستند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999242260945178813"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ناظران صنعت به پتانسیل &lt;b&gt;خستگی مدل&lt;/b&gt; در LLMها مشابه خستگی نصب برنامه در برنامه‌های موبایل اشاره می‌کنند، جایی که حتی محصولات برتر نیز برای پذیرش با مشکل مواجه می‌شوند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1999458386900058626"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحلیل‌ها نشان می‌دهد که صنعت به اوج APIهای اختصاصی رسیده و وارد دنیایی متعادل‌تر می‌شود که در آن متن‌باز، آموزش و پلتفرم‌های جایگزین سهم بیشتری از توجه، استفاده و درآمد را به دست خواهند آورد &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1999512786116698313"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پست طنزآمیز چالش‌های پذیرش هوش مصنوعی سازمانی را برجسته می‌کند و استقرار 1.4 میلیون دلاری Microsoft Copilot را با حداقل استفاده‌ی واقعی اما گزارش‌دهی موفقیت‌آمیز معیارها برای ارائه‌های هیئت‌مدیره توصیف می‌کند &lt;em&gt;&lt;a href="https://x.com/gothburz/status/1999124665801880032"&gt;@gothburz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;رئیس‌جمهور ترامپ فرمان اجرایی چارچوب سیاست ملی برای هوش مصنوعی را امضا کرد و اعلام کرد که ایالات متحده باید یک استاندارد ملی با حداقل بار برای هوش مصنوعی داشته باشد، نه 50 قانون ایالتی متناقض &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999270243785712047"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;این فرمان اجرایی شامل ابزارهایی مانند کارگروه دعاوی DOJ، توقف بودجه‌ی فدرال از ایالت‌هایی با قوانین هوش مصنوعی دست‌وپاگیر، تلاش‌های FTC برای مهار تلاش‌های ایالت‌ها برای مجبور کردن مدل‌های هوش مصنوعی به تغییر خروجی‌های واقعی، و تلاش‌های FCC برای مهار الزامات افشاگری است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999274443844231661"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یوتیوب سیستم تأیید سن مبتنی بر هوش مصنوعی را با استفاده از &lt;b&gt;Gemini&lt;/b&gt; برای تعیین خودکار سن کاربر با تجزیه و تحلیل الگوهای مشاهده اعلام کرد، با کاربران که به اشتباه زیر 18 سال تخمین زده می‌شوند، ملزم به تأیید از طریق کارت اعتباری یا شناسه‌ی دولتی هستند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999228316209823764"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آرویند نارایانان، محقق پرینستون، مقاله‌ای منتشر کرد که در آن استدلال می‌کند که عدالت الگوریتمی یک خطای دسته‌بندی است و از مطالعه‌ی کل سیستم‌های اجتماعی-فنی به جای فقط زیرسیستم‌های فنی هنگام طراحی بوروکراسی‌های الگوریتمی حمایت می‌کند &lt;em&gt;&lt;a href="https://x.com/random_walker/status/1999453337331105948"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحلیل‌ها نشان می‌دهد که اگر افراد زمان کوتاهی تا هوش مصنوعی تحول‌آفرین داشته باشند و معتقد باشند که برخی از ارزش‌های انسانی اساساً آشتی‌ناپذیر هستند، اطمینان از اینکه مدل برنده چارچوب اخلاقی آن‌ها را در بر می‌گیرد، به طور فزاینده‌ای مهم‌ترین چیز در جهان به نظر خواهد رسید &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999495750678434248"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Comet Android&lt;/b&gt; از Perplexity توانایی اشکال‌زدایی کد از طریق تلفن را با تجزیه و تحلیل لاگ‌های CI، ردیابی خطاها، یافتن راه‌حل‌ها و باز کردن درخواست‌های کشش آماده برای ادغام نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/1999531690331341192"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ChatGPT اکنون شامل یک پوشه‌ی /home/oai/skills با تعاریف مهارت برای PDFها، اسناد و صفحات گسترده است، با پشتیبانی آزمایشی نیز به Codex CLI اضافه شده است &lt;em&gt;&lt;a href="https://x.com/simonw/status/1999503124592230780"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل ترنسلیت ترجمه‌ی گفتار به گفتار زنده با پشتیبانی از &lt;b&gt;Gemini&lt;/b&gt; را در نسخه‌ی بتا منتشر کرد که ترجمه‌ی صوتی بلادرنگ را با درک ظرافت‌های گفتار انسانی به ارمغان می‌آورد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/1999524995572339092"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ادوبی برنامه‌های رایگان یکپارچه با ChatGPT را برای فتوشاپ، آکروبات و اکسپرس در دسکتاپ، وب و iOS راه‌اندازی کرد که به کاربران امکان می‌دهد مستقیماً از داخل ChatGPT به برنامه‌های ادوبی دسترسی داشته باشند &lt;em&gt;&lt;a href="https://x.com/gdb/status/1999574516872470694"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI همکاری با دیزنی را برای آوردن Sora و قابلیت‌های تولید تصویر برای شخصیت‌های دیزنی اعلام کرد که به کاربران امکان می‌دهد محتوا را با IP دیزنی تولید کنند &lt;em&gt;&lt;a href="https://x.com/sama/status/1999230400313589874"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مایکروسافت همکاری هوش مصنوعی MahaCrimeOS را با ماهاراشترا برای حمایت از قربانیان جرایم سایبری و کلاهبرداری مالی اعلام کرد &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/1999388548097810772"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Moonlake مدل &lt;b&gt;Reverie&lt;/b&gt; را معرفی کرد، یک مدل انتشار قابل برنامه‌ریزی بلادرنگ که برای بازی‌ها آموزش دیده است و قادر به شرطی‌سازی فراتر از پیکسل‌ها است و به گیم‌پلی اجازه می‌دهد تا با حفظ مکانیک بازی به هر زیبایی‌شناسی بازسازی شود &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/1999545548865479100"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کاربر گزارش می‌دهد که &lt;b&gt;GPT-5.2&lt;/b&gt; تحلیل طولانی و چشمگیری از اسکریپت‌های بازی ارائه می‌دهد، جزئیات ظریف را درک می‌کند و تفسیرهایی مشابه کسی که بازی را عمیقاً بازی کرده است، با تقریباً بدون توهم، ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999250027068449005"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Kimi K2&lt;/b&gt; رفتار جستجوی گسترده‌ای را در طول استدلال نشان می‌دهد، بارها برای حمایت از ادعاها، بررسی مثال‌های نقض و تأیید اطلاعات قبل از ارائه‌ی پاسخ‌های نهایی جستجو می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999577199544873438"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Olmo 3.1 32B Think&lt;/b&gt; از Ai2 نشان می‌دهد که مقیاس‌بندی RL می‌تواند بسیار فراتر از انتظارات اولیه ادامه یابد، با افزایش عملکرد بیش از 125 هزار ساعت H100 با هزینه‌ی تقریباً 250 هزار دلار، قابل مقایسه با مصرف منابع DeepSeek R1 &lt;em&gt;&lt;a href="https://x.com/natolambert/status/1999528636085649532"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش &lt;b&gt;Fast Flow Joint Distillation (F2D2)&lt;/b&gt; را معرفی می‌کند که NFEs را برای نمونه‌برداری و ارزیابی احتمال به میزان دو مرتبه در مدل‌های مبتنی بر جریان کاهش می‌دهد و در عین حال کیفیت نمونه را حفظ می‌کند &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/1999299948727140739"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google DeepMind پژوهشی را در مورد ارزیابی &lt;b&gt;سیاست‌های رباتیک Gemini&lt;/b&gt; در &lt;b&gt;شبیه‌ساز Veo World&lt;/b&gt; ارائه می‌دهد و یک ارزیاب عمومی برای آزمایش ایمنی ربات بدون شکستن اشیاء فیزیکی معرفی می‌کند &lt;em&gt;&lt;a href="https://x.com/Majumdar_Ani/status/1999525259276423569"&gt;@Majumdar_Ani&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فرانسوا شوله استدلال می‌کند که هوش مصنوعی از ماشین اتوماسیون به ماشین اختراع تکامل خواهد یافت و به یک پارادایم اساساً جدید با جستجوی نمادین به عنوان هسته‌ی آن به جای برازش منحنی نیاز دارد &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1999553766891123060"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شوله توضیح می‌دهد که هوش سیال اندازه‌گیری‌شده توسط ARC با قابلیت‌های اکتشاف، تعیین هدف و برنامه‌ریزی مورد نیاز برای عوامل خودمختار متفاوت است، با اکتشاف سخت‌ترین و برنامه‌ریزی آسان‌ترین در میان این مشکلات باز &lt;em&gt;&lt;a href="https://x.com/fchollet/status/1999504459341459843"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اولین LLM آموزش‌دیده در فضا با استفاده از NVIDIA &lt;b&gt;H100&lt;/b&gt; در Starcloud-1، همچنین اولین بار است که نسخه‌ای از &lt;b&gt;Gemini&lt;/b&gt; گوگل در فضا اجرا می‌شود، با استفاده از مدل‌های متن‌باز بسیار کارآمد &lt;b&gt;Gemma&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/1999296127276126417"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;روش جدید جاسازی متن با استفاده از شبکه‌ی کوچک ReLU برای تقریب ترانسفورمر بزرگ از ویژگی&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-12</guid>
-      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
