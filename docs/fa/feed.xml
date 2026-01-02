@@ -8,9 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Fri, 02 Jan 2026 06:00:08 +0330</lastBuildDate>
-    <pubDate>Fri, 02 Jan 2026 06:00:08 +0330</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 01:17:18 +0330</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2026 01:17:18 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-01-02</title>
+      <link>https://sumbird.ir/fa/news/2026-01-02</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;Qwen-Image-2512&lt;/b&gt; را منتشر کرد، یک مدل تبدیل متن به تصویر ارتقاءیافته که دارای رندرینگ واقع‌گرایانه‌تر انسان با «ظاهر هوش مصنوعی» کمتر، جزئیات طبیعی دقیق‌تر در مناظر و بافت‌ها، و دقت بهبودیافته در رندرینگ متن است &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006890361336246335"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;vLLM پشتیبانی روز صفر را برای &lt;b&gt;Qwen-Image-2512&lt;/b&gt; با معماری خط لوله‌ی بهینه‌شده اعلام کرد &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006891145000005718"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تیم SGLang پشتیبانی یکپارچه از &lt;b&gt;Qwen-Image-2512&lt;/b&gt; را به عنوان یک به‌روزرسانی وزن، با حفظ عملکرد سریع و قابل اعتماد، ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006892479619145983"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Pruna AI مدل &lt;b&gt;Qwen-Image-2512&lt;/b&gt; را برای تولید تصاویر با وضوح بالا در حدود 7 ثانیه در Replicate بهینه می‌کند &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006893557689495670"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GLM-4.7&lt;/b&gt; با موفقیت روی 115 گیگابایت VRAM اجرا می‌شود که نشان‌دهنده‌ی استفاده‌ی کارآمد از منابع است &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2006985043751968809"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;بانک‌های اروپایی قصد دارند 200,000 شغل را کاهش دهند زیرا پذیرش هوش مصنوعی در سراسر بخش مالی سرعت می‌گیرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2006825899027796018"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده گزارش می‌دهد که در سال 2025 در ChatPRD کمتر از حقوق یک مهندس تمام‌وقت آمریکایی را برای هوش مصنوعی و ابزارهای مهندسی هزینه کرده است و با توسعه‌دهندگان بین‌المللی و عوامل هوش مصنوعی به 1500 PR و بیش از 2 میلیارد توکن پردازش‌شده دست یافته است &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2006852032947433630"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده نشان می‌دهد که چگونه می‌توان یک کسب‌وکار 100 میلیون دلاری با حمایت سرمایه‌گذاران را در یک هفته با استفاده از ابزارهای هوش مصنوعی ساخت، که نشان‌دهنده‌ی اهرم قابل توجهی است که هوش مصنوعی برای سازندگان فردی فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/2006877549213995147"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;استارتاپ‌های سخت‌افزاری پس از چندین شکست بزرگ با دموهای جذاب اما محصولات ضعیف، با افزایش بدبینی مصرف‌کنندگان مواجه هستند، که باعث می‌شود کسب‌وکارهای سخت‌افزاری جدید و مشروع برای جلب اعتماد با مشکل مواجه شوند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007155270133395852"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یکی از کارمندان Replit تجربه‌ی کار در یک استارتاپ هوش مصنوعی با رشد فوق‌العاده را در دوران بارداری و بزرگ کردن یک کودک نوپا به اشتراک می‌گذارد، که نشان‌دهنده‌ی فرهنگ حمایتی شرکت برای والدین با وجود تقاضاهای کاری شدید است &lt;em&gt;&lt;a href="https://x.com/HayaOdeh/status/2006994015074529366"&gt;@HayaOdeh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;TechCrunch پیش‌بینی می‌کند که سال 2026 شاهد حرکت هوش مصنوعی از هیجان به عمل‌گرایی خواهد بود زیرا این فناوری به بلوغ می‌رسد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2007101129180828086"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;امپراتوری هوش مصنوعی NVIDIA از طریق تحلیل سرمایه‌گذاری‌های برتر استارتاپی آن بررسی می‌شود، که موقعیت استراتژیک آن را در اکوسیستم هوش مصنوعی آشکار می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2007120544735650105"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;لحظه‌ی تولید تصویر ویروسی Grok فرا می‌رسد، که نوع متفاوتی از پدیده‌ی محتوای تولیدشده توسط هوش مصنوعی را در مقایسه با روندهای قبلی نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2007047738484195811"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;هند به X دستور می‌دهد تا Grok را به دلیل محتوای تولیدشده توسط هوش مصنوعی «ناشایست» اصلاح کند، که چالش‌های نظارتی با تولید محتوای هوش مصنوعی را برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2007157730507894977"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدیرعامل Zomato از ChatGPT برای ارتباطات بحران و روابط عمومی استفاده می‌کند، که نشان می‌دهد چگونه هوش مصنوعی در حال تغییر شیوه‌های ارتباطات شرکتی در مقابل چشمان عموم است &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2007157507031261457"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شرکت‌های هوش مصنوعی به دلیل عدم شفافیت در نشان دادن به کاربران که چه زمانی از مدل‌های خوب در مقابل مدل‌های بد استفاده می‌کنند، مورد انتقاد قرار می‌گیرند، که باعث سردرگمی در مورد قابلیت‌های هوش مصنوعی و محدود کردن درک کاربر از آنچه هوش مصنوعی واقعاً می‌تواند انجام دهد، می‌شود &lt;em&gt;&lt;a href="https://x.com/emollick/status/2007121854000255041"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک محقق امنیتی در مورد تبدیل شدن عوامل هوش مصنوعی دسکتاپ به اهداف بدافزار با افزایش محبوبیت آنها هشدار می‌دهد و خاطرنشان می‌کند که در حالی که پلتفرم‌های وب و موبایل دارای سندباکسینگ قوی برنامه برای امنیت هستند، عوامل دسکتاپ برای عملکرد مؤثر به دسترسی به فایل‌ها در سراسر مرزهای برنامه نیاز دارند &lt;em&gt;&lt;a href="https://x.com/random_walker/status/2007110085135274071"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;یک توسعه‌دهنده با موفقیت قابلیت‌های صدا، بینایی و حرکت را برای ربات Reachy شرکت Pollen Robotics با استفاده از یک عامل LiveKit پیاده‌سازی می‌کند و یک تجربه‌ی رباتیک واقعی ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2006892808196808727"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده نشان می‌دهد که چگونه از &lt;b&gt;GLM-4.7-4bit&lt;/b&gt; با mlx_lm.server و opencode برای رفع اشکال کد واقعی به صورت محلی روی یک ماشین M3 Ultra 512GB استفاده می‌کند، با برنامه‌هایی برای مقیاس‌بندی با استفاده از Tensor Parallelism &lt;em&gt;&lt;a href="https://x.com/simonw/status/2007022151233421716"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده گزارش می‌دهد که Codex فرآیند توسعه‌ی آنها را به طور اساسی تغییر داده است، به آنها اجازه می‌دهد تا روی کارهای سطح بالاتر تمرکز کنند بدون اینکه در جزئیات کوچک غرق شوند، و آنها را قادر می‌سازد تا با سرعتی که انتظار دارند کار کنند و برای پروژه‌های جانبی وقت داشته باشند &lt;em&gt;&lt;a href="https://x.com/gdb/status/2006873947783233998"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده از تماشای پیشرفت Codex در انجام وظایف در طول شب ابراز رضایت می‌کند، که قابلیت‌های خودمختار دستیاران کدنویسی هوش مصنوعی را برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/gdb/status/2007167658958172191"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Codex ویژگی فراخوانی مهارت صریح را با تایپ $ و تکمیل خودکار معرفی می‌کند، با نوآوری‌های بیشتر برنامه‌ریزی‌شده برای ژانویه &lt;em&gt;&lt;a href="https://x.com/sama/status/2007135723120668953"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face Inference Providers مدیریت چندین API ارائه‌دهنده‌ی هوش مصنوعی را با ارائه‌ی یک API برای صدها مدل از Cohere، Groq، Replicate، Together AI و موارد دیگر ساده می‌کند، که از تولید متن، ایجاد تصویر و جاسازی‌ها پشتیبانی می‌کند &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2007125764597330155"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده مجموعه‌های تست داده‌محور مستقل از زبان را ایجاد می‌کند که به اندازه‌ی کافی جامع هستند تا عوامل کدنویسی را قادر سازند تا پیاده‌سازی‌های مطابق را از ابتدا در هر زبان برنامه‌نویسی بسازند &lt;em&gt;&lt;a href="https://x.com/simonw/status/2007133682008764853"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Prime Intellect تحقیقاتی را در مورد مدل‌های زبان بازگشتی (RLMs) معرفی می‌کند و معتقد است که آموزش مدل‌ها برای مدیریت زمینه‌ی خود به صورت سرتاسری از طریق یادگیری تقویتی، پیشرفت بزرگ بعدی برای توانمندسازی عوامل برای حل وظایف بلندمدت که هفته‌ها تا ماه‌ها طول می‌کشد، خواهد بود &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006856524011024437"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک محقق تضاد بین عملکرد &lt;b&gt;GPT-5-mini&lt;/b&gt; در DeepDive و معیارهای math-python را به عنوان شواهدی برای افزایش عملکرد بالقوه عظیم ناشی از آموزش بر روی RLM برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006857533823357381"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Geometric Mean Policy Optimization (GMPO) به عنوان یک نوع بهبودیافته‌ی GRPO معرفی شد که میانگین حسابی را با میانگین هندسی برای تجمیع ضررهای سطح توکن جایگزین می‌کند، حساسیت به نقاط پرت را کاهش می‌دهد و پایداری آموزش را بهبود می‌بخشد در حالی که از فروپاشی آنتروپی جلوگیری می‌کند &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2006934184627945975"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OlMo 3 ترفندهای کلیدی برای کارآمدتر کردن RL را نشان می‌دهد، از جمله تنظیمات کاملاً ناهمزمان خارج از سیاست، دسته‌بندی پیوسته، جبران نمونه‌برداری فعال، و به‌روزرسانی‌های وزن مدل در حین پرواز، که زمان آموزش RL را بدون تأثیر بر عملکرد به نصف کاهش می‌دهد &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2007146455694188716"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک محقق لیست جامعی از گزارش‌های فنی مدل استدلال از سال 2025 را گردآوری می‌کند، که از DeepSeek R1 در ژانویه تا MiMo-V2-Flash در دسامبر را شامل می‌شود و تکامل سریع قابلیت‌های استدلال را مستند می‌کند &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2007128273264750669"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کتاب RLHF به‌روزرسانی بزرگی دریافت می‌کند که از 150 به 200 صفحه افزایش می‌یابد، شامل الگوریتم‌های جدیدی مانند GSPO و CISPO، جدول به‌روزرسانی‌شده‌ی گزارش‌های فنی مدل استدلال، بخشی در مورد Rubrics برای RLVR، و بهبود ثبات نمادگذاری در سراسر کتاب &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2007128271121461605"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک محقق رویکردهای متفاوت مدل‌های هوش مصنوعی را به سوالات سرمایه‌گذاری تاریخی نشان می‌دهد، با Gemini که یک نمونه‌ی Magna Carta 1297 را توصیه می‌کند، ChatGPT که سهام در معدن مس Stora Kopparberg را پیشنهاد می‌کند، و Claude که مشارکت در وقف اسلامی را مطرح می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2007046290002325649"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اعتبار معیار مورد سوال قرار می‌گیرد زیرا IQuest-Coder به اشتباه تنظیم شده است، از جمله کل تاریخچه گیت با کامیت‌های آینده، که به مدل‌ها اجازه می‌دهد به جای حل مشروع مشکلات، از این موضوع سوءاستفاده کنند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2007053877305397384"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-02</guid>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-01-01</title>
       <link>https://sumbird.ir/fa/news/2026-01-01</link>
@@ -891,52 +944,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-14</guid>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-13</title>
-      <link>https://sumbird.ir/fa/news/2025-12-13</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.2&lt;/b&gt; از OpenAI در اولین روز عرضه‌اش، از یک تریلیون توکن در API فراتر رفت و به سرعت در حال رشد است &lt;em&gt;&lt;a href="https://x.com/sama/status/1999624463013544024"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل مدل به‌روز شده‌ی &lt;b&gt;Gemini Native Audio&lt;/b&gt; را با دقت بالاتر در فراخوانی توابع، پیروی بهتر از دستورالعمل‌ها در زمان واقعی و قابلیت‌های مکالمه‌ی روان‌تر عرضه کرد که اکنون در API جیمنای در دسترس توسعه‌دهندگان است &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1999586764382523521"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل &lt;b&gt;Gemini 3 Pro&lt;/b&gt; را با قابلیت‌های جدید برای یکپارچه‌سازی نتایج جستجوی محلی با Google Maps، نمایش عکس‌ها، رتبه‌بندی‌ها و اطلاعات دنیای واقعی در قالبی بصری و غنی راه‌اندازی کرد &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1999631529379791121"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سورا سه سبک جدید تولید ویدئو را منتشر کرد: Handheld، Retro و Festive که برای همه‌ی کاربران در وب، iOS و اندروید در دسترس است &lt;em&gt;&lt;a href="https://x.com/soraofficialapp/status/1999617302757802036"&gt;@soraofficialapp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گزارش‌ها حاکی از آن است که Anthropic در حال مذاکره با گوگل برای یک قرارداد محاسباتی به ارزش ده‌ها میلیارد دلار است و سفارش‌هایی به ارزش 21 میلیارد دلار برای TPUs جهت آموزش مدل‌های بزرگ‌تر پیشنهاد شده است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999607929629212852"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI و دیزنی همکاری خود را عمیق‌تر کردند و دیزنی حق خرید سهام بیشتر OpenAI را با ارزش‌گذاری فعلی دریافت کرد که به طور بالقوه می‌تواند روابط آینده‌ی قوی‌تری بین شرکت‌ها ایجاد کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999878416288583838"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;وزارت صنعت و فناوری اطلاعات چین ظاهراً دستورالعمل‌هایی را صادر کرده است که واردات GPUهای &lt;b&gt;H200&lt;/b&gt; را برای شرکت‌هایی مانند Alibaba، Tencent، ByteDance و DeepSeek که قادر به آموزش مدل‌ها هستند، در اولویت قرار می‌دهد، در حالی که دسترسی را برای فروشندگان مجدد و شرکت‌های سنتی که استنتاج انجام می‌دهند، محدود می‌کند &lt;em&gt;&lt;a href="https://x.com/jukan05/status/1999768579684901353"&gt;@jukan05&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات در مورد قیمت‌گذاری LLMها نشان داد که کشش کوتاه‌مدت حدود 1 است، که نشان‌دهنده‌ی عدم وجود پارادوکس جونس فوری است، اما قیمت‌ها در دو سال 1000 برابر کاهش یافتند در حالی که تقاضا به شدت افزایش یافت، که نشان می‌دهد این پارادوکس با گذشت زمان و با پذیرش تدریجی هوش مصنوعی توسط شرکت‌ها با قیمت‌های پایین‌تر رخ می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999672997121265867"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مطالعه‌ای تخمین می‌زند که ChatGPT منجر به افزایش 6 درصدی در استارت‌آپ‌های جدید بین مناطق با پذیرش بالای هوش مصنوعی و مناطق با پذیرش پایین هوش مصنوعی در چین شده است، که نشان‌دهنده‌ی تأثیر اقتصادی قابل اندازه‌گیری بر کارآفرینی است &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999848230851416310"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اعتبار گارتنر در تحلیل هوش مصنوعی پس از گزارش دستیاران کدنویسی هوش مصنوعی آن‌ها که آمازون، گیت‌لب و GCP را بالاتر از Cursor رتبه‌بندی کرد و Claude Code و OpenAI Codex را به طور کامل حذف کرد، زیر سوال رفته است، با ادعاهایی مبنی بر اینکه فروشندگان برای رتبه‌بندی‌های مطلوب پول پرداخت می‌کنند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1999740721721385385"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بازار دستیاران کدنویسی هوش مصنوعی رقابت پویایی را با تغییرات مکرر رهبری در فضاهای مختلف نشان می‌دهد، در حالی که بسیاری از شرکت‌ها هنوز از مدل‌های قدرتمند هوش مصنوعی خارج از کدنویسی و فناوری استفاده نکرده‌اند و اغلب گزینه‌های ارزان‌تر را انتخاب می‌کنند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999677698210431034"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face در حال ارسال 3000 ربات Reachy Mini در سراسر جهان است که به عنوان یکی از بزرگترین محموله‌های ربات هوش مصنوعی در سال توصیف شده است و به عنوان یک پلتفرم رباتیک DIY متن‌باز برای سازندگان هوش مصنوعی طراحی شده است &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1999851923399176235"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;قابلیت‌های سطح &lt;b&gt;GPT-4&lt;/b&gt; که در 2 سال 1000 برابر ارزان‌تر می‌شوند، برای تأثیرات اقتصادی کوتاه‌مدت حیاتی است، زیرا قابلیت‌های هوش مصنوعی بسیار ارزان فعلی برای بسیاری از کاربردهای مفید که اکثر مردم به طور کامل از آن‌ها استفاده نمی‌کنند، کافی است &lt;em&gt;&lt;a href="https://x.com/RishiBommasani/status/1999679291072872875"&gt;@RishiBommasani&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI مکانیسم مهارت‌های Anthropic را در ChatGPT و ابزار Codex CLI خود به کار گرفت، به طوری که ChatGPT اکنون دارای مهارت‌هایی برای ایجاد و دستکاری صفحات گسترده، فایل‌های docx و PDF در یک پوشه‌ی جدید /home/oai/skills است &lt;em&gt;&lt;a href="https://x.com/simonw/status/1999623295046664294"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;از مهارت جدید PDF در ChatGPT برای ایجاد یک گزارش دقیق در مورد فصل تولید مثل کاکاپو در سال استفاده شد، که 11 دقیقه طول کشید زیرا به طور مکرر مشکلات مانند رندر کاراکترهای خاص را رندر و رفع می‌کرد &lt;em&gt;&lt;a href="https://x.com/simonw/status/1999624481082605797"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor بهبودهای ابزار طراحی سریع را شامل انتخاب عناصر بدون انیمیشن، گرد کردن اسلایدر بلور، بک‌اسپیس برای حذف عناصر، میانبرهای undo/redo و انتخاب چند عنصری متنی را عرضه کرد &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/1999614772195492326"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل Android Emergency Live Video را راه‌اندازی کرد که به کاربران امکان می‌دهد اطلاعات بصری حیاتی را با یک ضربه با خدمات اضطراری به اشتراک بگذارند تا ارزیابی سریع‌تر وضعیت و راهنمایی‌های نجات‌بخش ارائه شود &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1999627455263645822"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کاربران به طور فزاینده‌ای به LLMهایی مانند Perplexity برای جستجوی دستور پخت روی می‌آورند به جای گوگل، که قبل از دستور پخت واقعی، متن و تبلیغات بی‌پایان را برمی‌گرداند، که نشان می‌دهد چگونه جستجوی هوش مصنوعی نتایج تمیزتر و مستقیم‌تری را مشابه وب اوایل دهه 2000 ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1999887115602272733"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;توسعه‌دهنده از عامل‌های خودمختار با استفاده از یک مهار سفارشی با ابزارهای متعدد، &lt;b&gt;GPT 5.2&lt;/b&gt; برای نظرات دوم، 7.5 هزار پرامپت سیستمی و تزریق مجدد متناوب زمینه برای حل مشکلات عجیب و دشوار که نیاز به افق‌های طولانی دارند، استفاده کرد &lt;em&gt;&lt;a href="https://x.com/Suhail/status/1999587905434714496"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.2&lt;/b&gt; یک صفحه‌ی گسترده‌ی تعاملی اکسل برای شبیه‌سازی مبارزه‌ی هیولاهای D&amp;amp;D شامل توانایی‌های ویژه را پس از 60 دقیقه زمان فکر کردن ایجاد کرد، در حالی که &lt;b&gt;Claude 4.5 Opus&lt;/b&gt; این کار را به سرعت انجام داد اما با حذف توانایی‌های ویژه آن را ساده کرد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999681376673776050"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Claude 4.5 Opus&lt;/b&gt; تفکر جانبی پیشرفته‌ای را نشان داد که نه تنها یک تک‌شاخ را در TikZ ترسیم کرد، بلکه آن را در LaTeX کامپایل کرد، به PDF تبدیل کرد، سپس به PNG و تصویر نهایی را با عناصر تزئینی ارائه داد &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999716324520464582"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;shadcn/create راه‌اندازی شد که به توسعه‌دهندگان امکان می‌دهد پیاده‌سازی‌های سفارشی shadcn/ui را با انتخاب کتابخانه‌های کامپوننت، آیکون‌ها، رنگ‌ها، تم‌ها و فونت‌ها بسازند، با بازنویسی کد کامپوننت برای مطابقت با ترجیحات فراتر از صرفاً تم‌سازی &lt;em&gt;&lt;a href="https://x.com/shadcn/status/1999530406744293593"&gt;@shadcn&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;DeepMind اولین مقاله‌ی آموزش ربات‌ها را با مدل‌های جهانی تولید شده توسط &lt;b&gt;Veo&lt;/b&gt; منتشر کرد که به همبستگی 0.88 با نرخ موفقیت در دنیای واقعی در بیش از 1600 آزمایش بر روی ربات‌های دو دستی ALOHA 2 دست یافت و به سناریوهای خارج از توزیع بدون آزمایش سخت‌افزاری در دنیای واقعی تعمیم یافت &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1999695333446832358"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;DeepMind یک عامل &lt;b&gt;Gemini Deep Research&lt;/b&gt; را برای توسعه‌دهندگان از طریق Interactions API منتشر کرد که امکان جاسازی پیشرفته‌ترین قابلیت‌های تحقیقاتی خودمختار گوگل را مستقیماً در برنامه‌ها فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1999657504070918150"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Research و DeepMind DeepSearchQA را معرفی کردند، یک معیار جدید عامل تحقیقات وب متن‌باز که برای آزمایش عامل‌ها در وظایف پیچیده‌ی تحقیقات وب طراحی شده است &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1999657504070918150"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Research و DeepMind مجموعه‌ی معیار FACTS را راه‌اندازی کردند، اولین آزمایش جامع صنعت که واقعیت LLM را در چهار بعد ارزیابی می‌کند: دانش مدل داخلی، جستجوی وب، مبناگذاری و ورودی‌های چندوجهی &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1999657504070918150"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل‌های هوش مصنوعی مرزی واگرایی بسیار کمی در توانایی‌ها، پایبندی به پرامپت و سایر عوامل نشان می‌دهند، به طوری که مدل‌های متن‌بسته‌ی آمریکایی، مدل‌های چینی و مدل‌های متن‌باز فرانسوی همگی عملکرد بسیار مشابهی با یکدیگر دارند &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999712938861674798"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;رهبر تیم عامل‌های استفاده از کامپیوتر متا پس از 1.45 سال ساخت زیرساخت CUA، خطوط لوله‌ی داده، ارزیابی‌ها و مدل‌ها از ابتدا برای دستیابی به عملکرد عامل استفاده از کامپیوتر در سطح مرزی، استعفا داد &lt;em&gt;&lt;a href="https://x.com/kohjingyu/status/1999595171822911689"&gt;@kohjingyu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-13</guid>
-      <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

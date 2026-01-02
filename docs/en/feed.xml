@@ -8,9 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Jan 2026 06:00:07 +0330</lastBuildDate>
-    <pubDate>Fri, 02 Jan 2026 06:00:07 +0330</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 01:17:16 +0330</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2026 01:17:16 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-01-02</title>
+      <link>https://sumbird.ir/en/news/2026-01-02</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen-Image-2512&lt;/b&gt;, an upgraded text-to-image model featuring more realistic human rendering with less "AI look", finer natural details across landscapes and textures, and improved text rendering accuracy &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006890361336246335"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;vLLM announces day-zero support for &lt;b&gt;Qwen-Image-2512&lt;/b&gt; with optimized pipelined architecture &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006891145000005718"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SGLang team provides seamless support for &lt;b&gt;Qwen-Image-2512&lt;/b&gt; as a weight update, maintaining fast and reliable performance &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006892479619145983"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Pruna AI optimizes &lt;b&gt;Qwen-Image-2512&lt;/b&gt; to generate high resolution images in approximately 7 seconds on Replicate &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006893557689495670"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GLM-4.7&lt;/b&gt; successfully runs on 115GB VRAM, demonstrating efficient resource utilization &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2006985043751968809"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;European banks plan to cut 200,000 jobs as AI adoption accelerates across the financial sector &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2006825899027796018"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer reports spending less than one full-time US engineer salary on AI and engineering tools at ChatPRD in 2025, achieving 1500 PRs and over 2 billion tokens processed with international developers and AI agents &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2006852032947433630"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer demonstrates building what could be a $100M venture-backed business in one week using AI tools, highlighting the significant leverage AI provides to individual builders &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/2006877549213995147"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hardware startups face increased skepticism from consumers after several high-profile failures with polished demos but poor products, making it harder for legitimate new hardware ventures to gain trust &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007155270133395852"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Replit employee shares experience of working at a hyper-growth AI startup while pregnant and raising a toddler, highlighting the company's supportive culture for parents despite intense work demands &lt;em&gt;&lt;a href="https://x.com/HayaOdeh/status/2006994015074529366"&gt;@HayaOdeh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;TechCrunch predicts 2026 will see AI move from hype to pragmatism as the technology matures &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2007101129180828086"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA's AI empire examined through analysis of its top startup investments, revealing strategic positioning in the AI ecosystem &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2007120544735650105"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Grok's viral image generation moment arrives, marking a different type of AI-generated content phenomenon compared to previous trends &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2007047738484195811"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;India orders X to fix Grok over "obscene" AI-generated content, highlighting regulatory challenges with AI content generation &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2007157730507894977"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Zomato CEO uses ChatGPT for crisis communications and PR, demonstrating how AI is changing corporate communication practices before the public's eyes &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2007157507031261457"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI companies criticized for failing to clearly indicate to users when they are using good versus bad models, creating confusion about AI capabilities and limiting user understanding of what AI can actually do &lt;em&gt;&lt;a href="https://x.com/emollick/status/2007121854000255041"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Security researcher warns about desktop AI agents becoming targets for malware as they gain popularity, noting that while web and mobile platforms have strong app sandboxing for security, desktop agents need file access across application boundaries to function effectively &lt;em&gt;&lt;a href="https://x.com/random_walker/status/2007110085135274071"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Developer successfully implements voice, sight, and motion capabilities for Pollen Robotics' Reachy robot using a LiveKit agent, creating a lifelike robotic experience &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2006892808196808727"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer demonstrates using &lt;b&gt;GLM-4.7-4bit&lt;/b&gt; with mlx_lm.server and opencode to fix real code locally on a single M3 Ultra 512GB machine, with plans to scale using Tensor Parallelism &lt;em&gt;&lt;a href="https://x.com/simonw/status/2007022151233421716"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer reports that Codex has fundamentally changed their development process, allowing them to focus on higher-level work without getting bogged down by minute details, enabling them to work as fast as they expect and have time for side projects &lt;em&gt;&lt;a href="https://x.com/gdb/status/2006873947783233998"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer experiences satisfaction watching Codex make progress on tasks overnight, highlighting the autonomous capabilities of AI coding assistants &lt;em&gt;&lt;a href="https://x.com/gdb/status/2007167658958172191"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Codex introduces explicit skill invocation feature by typing $ and autocompleting, with more innovations planned for January &lt;em&gt;&lt;a href="https://x.com/sama/status/2007135723120668953"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face Inference Providers simplifies managing multiple AI provider APIs by offering one API for hundreds of models from Cohere, Groq, Replicate, Together AI and more, supporting text generation, image creation, and embeddings &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2007125764597330155"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer creates language-independent data-driven test suites comprehensive enough to enable coding agents to build conforming implementations from scratch in any programming language &lt;em&gt;&lt;a href="https://x.com/simonw/status/2007133682008764853"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Prime Intellect introduces research on Recursive Language Models (RLMs), believing that teaching models to manage their own context end-to-end through reinforcement learning will be the next major breakthrough for enabling agents to solve long-horizon tasks spanning weeks to months &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006856524011024437"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Researcher highlights contrast between &lt;b&gt;GPT-5-mini's&lt;/b&gt; performance on DeepDive and math-python benchmarks as evidence for potential huge performance boosts from training on RLM &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006857533823357381"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Geometric Mean Policy Optimization (GMPO) introduced as an improved GRPO variant that replaces arithmetic mean with geometric mean for aggregating token-level losses, reducing sensitivity to outliers and improving training stability while avoiding entropy collapse &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2006934184627945975"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OlMo 3 demonstrates key tricks for making RL more efficient, including fully-asynchronous off-policy setup, continuous batching, active sampling compensation, and inflight model weight updates, cutting RL training time in half without impacting performance &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2007146455694188716"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Researcher compiles comprehensive list of reasoning model technical reports from 2025, spanning from DeepSeek R1 in January through MiMo-V2-Flash in December, documenting the rapid evolution of reasoning capabilities &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2007128273264750669"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;RLHF Book receives major update expanding from 150 to 200 pages, including new algorithms like GSPO and CISPO, updated reasoning model tech reports table, section on Rubrics for RLVR, and improved notation consistency throughout &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2007128271121461605"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Researcher demonstrates AI models' varying approaches to historical investment questions, with Gemini recommending a 1297 Magna Carta exemplification, ChatGPT suggesting shares in Stora Kopparberg copper mine, and Claude proposing an Islamic waqf endowment contribution &lt;em&gt;&lt;a href="https://x.com/emollick/status/2007046290002325649"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Benchmark validity questioned as IQuest-Coder found to be set up incorrectly, including entire git history with future commits, allowing models to exploit this rather than solve problems legitimately &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2007053877305397384"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-01-02</guid>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-01-01</title>
       <link>https://sumbird.ir/en/news/2026-01-01</link>
@@ -925,52 +978,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-14</guid>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-12-13</title>
-      <link>https://sumbird.ir/en/news/2025-12-13</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI's &lt;b&gt;GPT-5.2&lt;/b&gt; exceeded a trillion tokens in the API on its first day of availability and continues growing rapidly &lt;em&gt;&lt;a href="https://x.com/sama/status/1999624463013544024"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google rolled out an updated &lt;b&gt;Gemini Native Audio&lt;/b&gt; model with higher precision function calling, better realtime instruction following, and smoother conversational abilities, now available to developers in the Gemini API &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/1999586764382523521"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google launched &lt;b&gt;Gemini 3 Pro&lt;/b&gt; with new capabilities for local search results integration with Google Maps, displaying photos, ratings, and real-world information in a rich visual format &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/1999631529379791121"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sora released three new video generation styles: Handheld, Retro, and Festive, available to all users on web, iOS, and Android &lt;em&gt;&lt;a href="https://x.com/soraofficialapp/status/1999617302757802036"&gt;@soraofficialapp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic is reportedly in discussions with Google for a compute deal valued in the high tens of billions, with reports suggesting orders of $21 billion worth of TPUs to train larger models &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999607929629212852"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI and Disney deepened their partnership, with Disney receiving warrants to buy more OpenAI shares at current valuation, potentially creating stronger future ties between the companies &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/1999878416288583838"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;China's Ministry of Industry and Information Technology reportedly issued guidelines prioritizing &lt;b&gt;H200&lt;/b&gt; GPU imports for companies capable of training models like Alibaba, Tencent, ByteDance, and DeepSeek, while restricting access for resellers and traditional enterprises doing inference &lt;em&gt;&lt;a href="https://x.com/jukan05/status/1999768579684901353"&gt;@jukan05&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research on LLM pricing found short-run elasticity around 1, suggesting no immediate Jevons Paradox, but prices fell 1000x in two years while demand exploded, indicating the paradox occurs over time as firms gradually adopt AI at lower prices &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999672997121265867"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Study estimates that ChatGPT led to a 6% differential increase in new startups between high-AI and low-AI adoption areas in China, demonstrating measurable economic impact on entrepreneurship &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999848230851416310"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gartner's credibility in AI analysis is being questioned after their AI coding assistants report ranked Amazon, GitLab, and GCP above Cursor while omitting Claude Code and OpenAI Codex entirely, with allegations that vendors pay for favorable rankings &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1999740721721385385"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;The AI coding assistants market shows dynamic competition with frequent leadership changes across different spaces, while many companies have not yet leveraged powerful AI models outside of coding and tech, often choosing cheaper options &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999677698210431034"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face is shipping 3,000 Reachy Mini robots worldwide, described as one of the largest AI robot shipments of the year, designed as an open-source DIY robotics platform for AI builders &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/1999851923399176235"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-4&lt;/b&gt; level capabilities becoming 1000x cheaper in 2 years is critical for near-term economic impacts, as current dirt cheap AI capabilities suffice for many useful applications that most people are not fully leveraging &lt;em&gt;&lt;a href="https://x.com/RishiBommasani/status/1999679291072872875"&gt;@RishiBommasani&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI adopted Anthropic's skills mechanism in both ChatGPT and their Codex CLI tool, with ChatGPT now featuring skills for creating and manipulating spreadsheets, docx files, and PDFs in a new /home/oai/skills folder &lt;em&gt;&lt;a href="https://x.com/simonw/status/1999623295046664294"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ChatGPT's new PDF skill was used to create a detailed report on the year's Kakapo breeding season, taking 11 minutes as it iteratively rendered and fixed issues like special character rendering &lt;em&gt;&lt;a href="https://x.com/simonw/status/1999624481082605797"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor shipped rapid design tool improvements including element selection without animations, blur slider rounding, backspace to delete elements, undo/redo shortcuts, and multi-element context selection &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/1999614772195492326"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google launched Android Emergency Live Video, allowing users to share vital visual information with one tap to emergency services for faster situation assessment and life-saving guidance &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/1999627455263645822"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Users are increasingly turning to LLMs like Perplexity for recipe searches instead of Google, which returns endless text and ads before the actual recipe, demonstrating how AI search provides cleaner, more direct results similar to the early 2000s web &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/1999887115602272733"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer built autonomous agents using custom harness with multiple tools, &lt;b&gt;GPT 5.2&lt;/b&gt; for second opinions, 7.5k system prompt, and periodic context re-injection to solve weird, hard problems requiring long horizons &lt;em&gt;&lt;a href="https://x.com/Suhail/status/1999587905434714496"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.2&lt;/b&gt; created an interactive Excel spreadsheet for D&amp;amp;D monster combat simulation including special abilities after 60 minutes of thinking time, while &lt;b&gt;Claude 4.5 Opus&lt;/b&gt; completed the task quickly but simplified by omitting special abilities &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999681376673776050"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Claude 4.5 Opus&lt;/b&gt; demonstrated advanced lateral thinking by not only drawing a unicorn in TikZ but also compiling it in LaTeX, converting to PDF, then PNG, and delivering the final image with decorative elements &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999716324520464582"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;shadcn/create launched allowing developers to build customized shadcn/ui implementations by picking component libraries, icons, colors, themes, and fonts, with the config rewriting component code to match preferences beyond just theming &lt;em&gt;&lt;a href="https://x.com/shadcn/status/1999530406744293593"&gt;@shadcn&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;DeepMind released the first paper training robots with &lt;b&gt;Veo&lt;/b&gt;-generated world models, achieving 0.88 correlation to real world success rates on 1600+ trials on ALOHA 2 bimanual robots and generalizing to out-of-distribution scenarios without real world hardware trials &lt;em&gt;&lt;a href="https://x.com/deedydas/status/1999695333446832358"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;DeepMind released a &lt;b&gt;Gemini Deep Research&lt;/b&gt; agent for developers via the Interactions API, enabling embedding of Google's most advanced autonomous research capabilities directly into applications &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1999657504070918150"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Research and DeepMind introduced DeepSearchQA, a new open-source web research agent benchmark designed to test agents on complex web research tasks &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1999657504070918150"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Research and DeepMind launched the FACTS Benchmark Suite, the industry's first comprehensive test evaluating LLM factuality across four dimensions: internal model knowledge, web search, grounding, and multimodal inputs &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/1999657504070918150"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Frontier AI models show surprisingly little divergence in abilities, prompt adherence, and other factors, with American closed source models, Chinese models, and French open models all performing very similarly to each other &lt;em&gt;&lt;a href="https://x.com/emollick/status/1999712938861674798"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Meta's computer use agents team leader resigned after 1.45 years of building CUA infrastructure, data pipelines, evals, and models from scratch to achieve frontier level computer use agent performance &lt;em&gt;&lt;a href="https://x.com/kohjingyu/status/1999595171822911689"&gt;@kohjingyu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-13</guid>
-      <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
