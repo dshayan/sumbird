@@ -8,9 +8,53 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Sun, 04 Jan 2026 06:00:09 +0330</lastBuildDate>
-    <pubDate>Sun, 04 Jan 2026 06:00:09 +0330</pubDate>
+    <lastBuildDate>Mon, 05 Jan 2026 01:17:10 +0330</lastBuildDate>
+    <pubDate>Mon, 05 Jan 2026 01:17:10 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-01-04</title>
+      <link>https://sumbird.ir/fa/news/2026-01-04</link>
+      <description>&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;یک توسعه‌دهنده گزارش می‌دهد که با استفاده از &lt;b&gt;Claude&lt;/b&gt;، سال‌ها کار تئوری را تنها در 4 ساعت به کد کاربردی تبدیل کرده و سپس در زمان استراحت ناهار، آن را با موفقیت از &lt;b&gt;Golang&lt;/b&gt; به &lt;b&gt;Rust&lt;/b&gt; تبدیل کرده است. این موضوع نشان‌دهنده‌ی توانایی هوش مصنوعی در تسریع توسعه‌ی نرم‌افزارهای پیچیده است &lt;em&gt;&lt;a href="https://x.com/JustJake/status/2007730898192744751"&gt;@JustJake&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده توضیح می‌دهد که در تعطیلات کریسمس، پروژه‌های کدنویسی شخصی بیشتری را نسبت به 10 سال گذشته‌ی خود به اتمام رسانده است. او این افزایش بهره‌وری را به دستیاران کدنویسی هوش مصنوعی نسبت می‌دهد، با وجود اینکه محدودیت‌های فعلی آن‌ها را می‌شناسد &lt;em&gt;&lt;a href="https://x.com/DavidSHolz/status/2007650184680092158"&gt;@DavidSHolz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده گزارش می‌دهد که یک عامل هوش مصنوعی به مدت 6 ساعت به طور خودکار CI را اشکال‌زدایی کرده است، در حالی که او وقت خود را با خانواده‌اش گذرانده است. این موضوع نشان‌دهنده‌ی واگذاری عملی کارهای فنی به سیستم‌های هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/aarondfrancis/status/2007239192716439633"&gt;@aarondfrancis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده‌ی پایتون، تغییر استراتژیک به استفاده از &lt;b&gt;Next.js&lt;/b&gt; برای برنامه‌های وب را اعلام می‌کند، با وجود ترجیح شخصی‌اش. او به افزایش قابل توجه بهره‌وری ناشی از استفاده از پشته‌های فناوری مورد علاقه‌ی هوش مصنوعی اشاره می‌کند، به جای اینکه با ابزارهای کمتر پشتیبانی‌شده دست و پنجه نرم کند &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2007876604052074655"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک متخصص حقوقی مشاهده می‌کند که &lt;b&gt;Claude&lt;/b&gt; و &lt;b&gt;ChatGPT&lt;/b&gt; می‌توانند موقعیت‌های حقوقی پیچیده را تجزیه و تحلیل کرده و تحلیلی مشابه آنچه شرکت‌های حقوقی پس از هفته‌ها بررسی ارائه می‌دهند، ارائه دهند. او پایداری مدل‌های صورت‌حساب ساعتی را زیر سوال می‌برد، در حالی که هوش مصنوعی می‌تواند تحقیقات عمیق را در عرض چند دقیقه انجام دهد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007753861948477874"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;StackOverflow کاهش چشمگیری در تعداد سوالات ماهانه نشان می‌دهد، که حاکی از آن است که توسعه‌دهندگان به طور فزاینده‌ای به جای انجمن‌های جامعه، برای کمک در کدنویسی به دستیاران هوش مصنوعی روی می‌آورند &lt;em&gt;&lt;a href="https://x.com/samwhoo/status/2007590903448514921"&gt;@samwhoo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدیرعامل Linear استدلال می‌کند که عوامل هوش مصنوعی در حال فروپاشی جریان کاری سنتی توسعه‌ی محصول هستند، جایی که ترجمه از الزامات به کد 70 درصد زمان را مصرف می‌کرد. این امر نقاط اهرمی را معکوس می‌کند، به طوری که اکنون شفافیت در درک نیت مشتری اهمیت بیشتری نسبت به ترجمه‌ی پیاده‌سازی دارد &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/2007534281011155419"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شرکت‌های فناوری به طور فعال در حال ارزیابی ابزارهای هوش مصنوعی برای توسعه‌دهندگان در زمینه‌های کدنویسی، زیرساخت و بازبینی کد هستند، اگرچه عدم قطعیت در مورد اینکه کدام فروشندگان را انتخاب کنند و چه ابعادی را اندازه‌گیری کنند، همچنان باقی است &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007887392611418581"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شرکت‌های حقوقی ممکن است هزینه‌ها را از طریق هوش مصنوعی کاهش دهند، اما لزوماً این صرفه‌جویی‌ها را به مشتریان منتقل نخواهند کرد، زیرا صورت‌حساب همچنان به ریسک و تأثیر گره خورده است تا ساعات صرف شده. شرکت‌ها توانایی خود را برای دریافت هزینه بر اساس مسئولیت سوء عملکرد و اهمیت پرونده حفظ می‌کنند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007766227964539019"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کار محصول از اجرا به سمت جستجوی وضوح و ایجاد شرایط برای ظهور راه‌حل‌های خوب در حال تغییر است، با هدایت و مدیریت کار عامل به عنوان مهارت جدید، در حالی که هوش مصنوعی پیاده‌سازی را انجام می‌دهد &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/2007534281011155419"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;تنسنت مدل‌های ترجمه‌ی &lt;b&gt;Tencent-HY-MT1.5&lt;/b&gt; را در نسخه‌های 1.8B و 7B پارامتری به صورت متن‌باز منتشر می‌کند. مدل 1.8B برای استقرار روی دستگاه بهینه شده است و به تأخیر 0.18 ثانیه دست می‌یابد و از APIهای تجاری اصلی بهتر عمل می‌کند، در حالی که نسخه‌ی 7B از مدل‌های متن‌باز متوسط پیشی می‌گیرد &lt;em&gt;&lt;a href="https://x.com/TencentHunyuan/status/2005908069239447988"&gt;@TencentHunyuan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Galaxea Dynamics مدل &lt;b&gt;G0 Plus VLA&lt;/b&gt; را با دمو "Pick Up Anything" منتشر می‌کند، که هوش تجسمی بدون آموزش تخصصی را برای کارهای رباتیک متنوع در دنیای واقعی از طریق دستورات زبان خالص به نمایش می‌گذارد &lt;em&gt;&lt;a href="https://x.com/GalaxeaDynamics/status/2007665494841799124"&gt;@GalaxeaDynamics&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;GenrobotAI مجموعه‌داده‌ی &lt;b&gt;RealOmni-Open Dataset&lt;/b&gt; را با بیش از 10,000 ساعت، 1 میلیون کلیپ، 30+ مهارت در بیش از 3,000 خانه‌ی واقعی راه‌اندازی می‌کند، که بزرگترین مجموعه‌داده‌ی هوش مصنوعی تجسمی متن‌باز از نظر ساعت است &lt;em&gt;&lt;a href="https://x.com/GenrobotAI/status/2007869235113148503"&gt;@GenrobotAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;تحقیقات در مورد بازارهای پیش‌بینی نشان می‌دهد که &lt;b&gt;Claude Opus 4.5&lt;/b&gt; بهترین عملکرد را با امتیاز بریر تقریباً 0.23 در 300 بازار Kalshi به دست آورده است، که به محدوده‌ی 0.15-0.2 پیش‌بینی‌کنندگان انسانی نزدیک می‌شود اما هنوز به آن نمی‌رسد، در حالی که &lt;b&gt;GPT 5.2 XHigh&lt;/b&gt; کمتر از حد انتظار عمل کرده است &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2007697567585329375"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان به بی‌ثباتی یادگیری تقویتی در مدل‌های Mixture of Experts از طریق بازپخش متخصص/مسیریابی می‌پردازند، که متخصصان فعال شده را در طول تولید رول‌اوت ذخیره می‌کند و از آن‌ها برای به‌روزرسانی سیاست استفاده می‌کند، و مشکلی را حل می‌کند که در آن 10 درصد از متخصصان پس از هر به‌روزرسانی گرادیان در مدل‌های عمیق‌تر مانند &lt;b&gt;Qwen3-30B-A3B-Base&lt;/b&gt; تغییر می‌کنند &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2007686399403675672"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یان لکون اصول معماری JEPA را تشریح می‌کند و استدلال می‌کند که آموزش با بازسازی در فضای ورودی غیرمولد است و پیش‌بینی باید در فضای نمایش انجام شود، با روش‌های کنتراست ابعادی مانند &lt;b&gt;SIGReg/LeJEPA&lt;/b&gt; که بیشترین امید را نسبت به رویکردهای EMA و کنتراست نمونه نشان می‌دهند &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2007907701989232684"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مهندسان گزارش می‌دهند که &lt;b&gt;GPT-5.2&lt;/b&gt; و &lt;b&gt;Opus 4.5&lt;/b&gt; که در نوامبر منتشر شدند، نقطه‌ی عطفی را نشان می‌دهند که در آن بهبودهای تدریجی از یک آستانه‌ی قابلیت نامرئی عبور کردند و ناگهان مشکلات کدنویسی بسیار دشوارتری را که قبلاً غیرقابل حل بودند، باز کردند &lt;em&gt;&lt;a href="https://x.com/simonw/status/2007904766756880848"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;مقامات فرانسوی و مالزیایی در حال بررسی &lt;b&gt;Grok&lt;/b&gt; به دلیل تولید دیپ‌فیک‌های جنسی هستند، که نگرانی‌هایی را در مورد محتوای مضر تولید شده توسط هوش مصنوعی ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2007857867018428527"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;نیویورک تایمز گزارش می‌دهد که اوکراین استفاده‌ی روزانه از پهپادهای تهاجمی هوش مصنوعی را آغاز کرده است که به طور خودکار اهداف را پیدا می‌کنند، آن‌ها را ردیابی می‌کنند و حتی پس از قطع سیگنال‌های خلبان توسط پارازیت، به طور مستقل حمله می‌کنند، که نشان‌دهنده‌ی ورود کشتار خودکار به جنگ است &lt;em&gt;&lt;a href="https://x.com/Mylovanov/status/2007744410231136717"&gt;@Mylovanov&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Wegmans در فروشگاه‌های شهر نیویورک تابلوهای اطلاع‌رسانی در مورد جمع‌آوری تشخیص چهره، اسکن چشم و اثر صوتی به دلیل قانون سال 2021 نصب کرده است، اگرچه چنین الزاماتی برای سازمان‌های دولتی یا بانک‌ها اعمال نمی‌شود، که نشان‌دهنده‌ی جمع‌آوری گسترده‌ی داده‌های بیومتریک در شهرهای بزرگ است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2007870733398237653"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک ناظر اشاره می‌کند که مدل‌های هوش مصنوعی که برای دقت آموزش دیده‌اند، در مورد رویدادهای جاری بی‌اعتماد می‌شوند، زیرا واقعیت از دیدگاه گذشته به طور فزاینده‌ای شبیه توهمات است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2007910056462053777"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;رفتار کاربران با جستجوی هوش مصنوعی از پذیرش بی‌چون و چرا در سال 2024 به شک و تردید فزاینده در سال 2026 در حال تغییر است، به طوری که مردم اکنون تأیید دقیق انجام می‌دهند و اطلاعات ناکافی را زیر سوال می‌برند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2007609310327734530"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;داوران دانشگاهی ممکن است به زودی توسط مدل‌های هوش مصنوعی مانند &lt;b&gt;GPT X Pro&lt;/b&gt; نه تنها از نظر کیفیت، بلکه از نظر زمان صرف شده برای بررسی مقالات، پیشی گرفته شوند &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2007865787344937334"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-04</guid>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-01-03</title>
       <link>https://sumbird.ir/fa/news/2026-01-03</link>
@@ -891,56 +935,6 @@
 &lt;li&gt;Stanford HAI خلاصه‌ی مسئله‌ای را منتشر کرد که اکوسیستم متنوع مدل‌های هوش مصنوعی با وزن باز چین و پیامدهای سیاستی انتشار جهانی آن‌ها را تحلیل می‌کند. &lt;em&gt;&amp;lt;a href="https://x.com/StanfordHAI/status/200097460346072304&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-16</guid>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-15</title>
-      <link>https://sumbird.ir/fa/news/2025-12-15</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;NVIDIA مدل &lt;b&gt;Nemotron 3 Nano&lt;/b&gt; را منتشر کرد، یک مدل استدلال ترکیبی 30B با &lt;b&gt;معماری ترکیب متخصصان&lt;/b&gt; که طراحی مامبا-ترنسفورمر را ترکیب می‌کند. این مدل دارای پنجره‌ی متنی 1M و عملکرد پیشرو در معیارهای SWE-Bench، استدلال و چت است &lt;em&gt;&lt;a href="https://x.com/ctnzr/status/2000567572065091791"&gt;@ctnzr&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA خانواده‌ی کامل &lt;b&gt;Nemotron 3&lt;/b&gt; را با شفافیت بی‌سابقه معرفی کرد و داده‌های آموزشی، کتابخانه‌ی یادگیری تقویتی &lt;b&gt;NeMo Gym&lt;/b&gt; و کد آموزشی کامل را در کنار مدل‌ها منتشر کرد. نسخه‌های Super و Ultra در ماه‌های آینده عرضه خواهند شد &lt;em&gt;&lt;a href="https://x.com/nvidianewsroom/status/2000588337896198481"&gt;@nvidianewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;علی‌بابا &lt;b&gt;Qwen Code v0.5.0&lt;/b&gt; را با یکپارچه‌سازی VSCode، SDK بومی TypeScript، پشتیبانی از مدل‌های استدلال سازگار با OpenAI از جمله &lt;b&gt;DeepSeek V3.2&lt;/b&gt; و &lt;b&gt;Kimi-K2&lt;/b&gt; و پشتیبانی از زبان روسی منتشر کرد &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2000556828690624685"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اپل &lt;b&gt;Sharp&lt;/b&gt; را منتشر کرد، یک مدل سنتز دید تک‌چشمی که قادر به تولید نماها در کمتر از یک ثانیه است &lt;em&gt;&lt;a href="https://x.com/_akhaliq/status/2000587447680340257"&gt;@_akhaliq&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI2 مدل &lt;b&gt;Bolmo&lt;/b&gt; را معرفی کرد، اولین مدل زبان کاملاً باز در سطح بایت که با بایت‌سازی &lt;b&gt;Olmo 3&lt;/b&gt; ساخته شده است و در طیف وسیعی از وظایف با مدل‌های زیرکلمه‌ای پیشرفته برابری می‌کند یا از آن‌ها پیشی می‌گیرد &lt;em&gt;&lt;a href="https://x.com/allen_ai/status/2000616646042399047"&gt;@allen_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;مهندسان ارشد در شرکت‌های برتر فناوری گزارش می‌دهند که وظایف آن‌ها اکنون عمدتاً شامل &lt;b&gt;پرامپت‌نویسی برای Cursor یا Claude Code با Opus 4.5&lt;/b&gt; و بررسی صحت خروجی است، که نشان می‌دهد هوش مصنوعی از آستانه‌ی تعمیم به اکثر وظایف نرم‌افزاری عبور کرده است &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2000472514854825985"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک توسعه‌دهنده گزارش می‌دهد که &lt;b&gt;260 دلار توکن&lt;/b&gt; برای تکمیل یک مهاجرت سه‌روزه که تخمین زده می‌شد هفته‌ها طول بکشد، هزینه کرده است. این موضوع این سؤال را مطرح می‌کند که آیا شرکت‌ها هزینه‌های سالانه‌ی 12 تا 35 هزار دلاری توکن به ازای هر توسعه‌دهنده را علاوه بر حقوق جذب خواهند کرد یا خیر &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2000342930696044732"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شرکت‌ها برای توجیه هزینه‌های هوش مصنوعی، به دنبال &lt;b&gt;افزایش 20 درصدی بهره‌وری&lt;/b&gt; هستند، و عدم پیش‌بینی‌پذیری هزینه‌های اندازه‌گیری‌شده، ترجیح برنامه‌های کدنویسی هوش مصنوعی با قیمت ثابت را بر مدل‌های پرداخت به ازای استفاده، افزایش می‌دهد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2000486367151919459"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;توسعه‌دهندگان باتجربه ارزش بسیار بیشتری از ابزارهای هوش مصنوعی نسبت به توسعه‌دهندگان کم‌تجربه استخراج می‌کنند، زیرا آن‌ها می‌توانند وظایف را به طور دقیق مشخص کنند، نه اینکه از پرامپت‌های عمومی استفاده کنند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2000535434678427995"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;رئیس‌جمهور ترامپ &lt;b&gt;US Tech Force&lt;/b&gt; را راه‌اندازی کرد که 1000 مهندس را با همکاری OpenAI، Oracle، Palantir، Anduril، Apple، Amazon، Google، Microsoft، NVIDIA و xAI برای ابتکارات فناوری با تأثیر بالا استخدام می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2000612052612624763"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mirelo &lt;b&gt;41 میلیون دلار سرمایه‌ی اولیه&lt;/b&gt; را به رهبری a16z و Index برای مدل بنیادی متمرکز بر لایه‌ی صوتی برای تولید ویدئو جذب کرد &lt;em&gt;&lt;a href="https://x.com/a16z/status/2000657395903778987"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;First Voyage &lt;b&gt;2.5 میلیون دلار&lt;/b&gt; برای یک همراه هوش مصنوعی که به کاربران در ساخت عادت‌ها کمک می‌کند، جذب کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2000579246251774449"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sierra دفتر جدیدی در پاریس راه‌اندازی کرد زیرا این شرکت در حال گسترش بین‌المللی است &lt;em&gt;&lt;a href="https://x.com/btaylor/status/2000649830360846439"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;انتشار &lt;b&gt;Olmo 3&lt;/b&gt; استاندارد جدیدی را برای شفافیت با انتشار کامل داده‌ها، گزارش 100 صفحه‌ای، زیرساخت آموزشی باز و ارزیابی‌های قابل تکرار تعیین می‌کند و آزمایش‌های دقیق را با مانع صفر برای ورود امکان‌پذیر می‌سازد &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2000425063275798652"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Nemotron 3 Nano&lt;/b&gt; با تنها 3.6B پارامتر فعال از 31.6B کل، به امتیاز شاخص هوش 52 دست می‌یابد که 6 امتیاز از &lt;b&gt;Qwen3 30B&lt;/b&gt; با اندازه‌ی مشابه و 15 امتیاز بهبود نسبت به &lt;b&gt;Nemotron Nano 9B V2&lt;/b&gt; قبلی دارد &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/2000602570092675402"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;همه‌ی مدل‌های هوش مصنوعی پیشرفته اکنون همه‌ی سطوح &lt;b&gt;آزمون دشوار تحلیلگر مالی خبره (CFA)&lt;/b&gt; را با استفاده از آزمون‌های آزمایشی پولی برای کاهش خطر نشت، پشت سر می‌گذارند، با استراتژی پرامپت‌نویسی که تأثیر حداقلی بر اکثر انواع سؤالات نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/2000605774695837711"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;DisCIPL&lt;/b&gt; MIT از LLM برای هدایت مدل‌های زبان کوچک‌تر برای همکاری در وظایف باز با محدودیت‌هایی مانند پازل‌های پیشرفته و اثبات‌های ریاضی استفاده می‌کند و به دقت و کارایی قابل مقایسه با مدل‌های پیشرو دست می‌یابد &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/2000612121940275558"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;استادی که از نظر تاریخی نسبت به مفید بودن مدل‌ها شکاک بود، گزارش می‌دهد که &lt;b&gt;GPT 5.2 Pro&lt;/b&gt; گام بزرگی در مفید بودن برای کاربردهای پژوهشی هندسه‌ی جبری و نظریه‌ی اعداد است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2000651575514284103"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;چارچوب Parallel-Distill-Refine&lt;/b&gt; انویدیا به دقت 93.3% در AIME 2024 دست می‌یابد در مقایسه با 79.4% برای زنجیره‌ی فکری طولانی استاندارد با تأخیر یکسان، که نشان می‌دهد تکرار حافظه‌ی محدود می‌تواند جایگزین ردیابی‌های استدلالی طولانی شود &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/2000581380733030703"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Prime Intellect با NVIDIA همکاری می‌کند تا &lt;b&gt;محیط‌های RL NeMo Gym&lt;/b&gt; را در Environments Hub خود ادغام کند و مقیاس‌بندی یادگیری تقویتی را برای تیم‌ها آسان‌تر کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2000631482818408726"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Gemini Agent&lt;/b&gt; گوگل اکنون برای کاربران Google AI Ultra در ایالات متحده در دسترس است و قادر به انجام وظایفی مانند اجاره‌ی خودرو با مقایسه‌ی قیمت‌ها، جمع‌آوری اطلاعات صندوق ورودی و رزرو در محدودیت‌های بودجه است &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2000616120106221781"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Figma Slides و Figma Buzz اکنون در ChatGPT برای ایجاد ارائه‌ها و دعوت‌نامه‌ها از طریق رابط مکالمه‌ای در دسترس هستند &lt;em&gt;&lt;a href="https://x.com/figma/status/2000658273595482314"&gt;@figma&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;IBM &lt;b&gt;CUGA&lt;/b&gt; را منتشر کرد، یک عامل سازمانی متن‌باز که وظایف را با نوشتن و اجرای کد با توجه به فایل‌های فضای کاری خودکار می‌کند، با ابزارهای داخلی برای وظایف سازمانی و پشتیبانی MCP &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2000599316121924052"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شریک تجاری اجرایی Zapier، عامل آماده‌سازی جلسات مبتنی بر هوش مصنوعی، مربی جلسات برای هماهنگی تیم اجرایی و سیستم بررسی پیش‌نویس اسناد را پیاده‌سازی می‌کند که امکان بازخورد در سطح مدیرعامل را قبل از جلسات فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2000630050283196779"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک توسعه‌دهنده گزارش می‌دهد که وظایف پیچیده را از طریق Codex با &lt;b&gt;GPT 5.2 Extra High&lt;/b&gt; به ترتیب برای 2.5 و 1.75 ساعت اجرا کرده است و همه‌ی معیارهای پذیرش را با پوشش کامل تست و بدون کد خراب تکمیل کرده است &lt;em&gt;&lt;a href="https://x.com/gdb/status/2000453104006025652"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Zoom دستیار هوش مصنوعی را به وب می‌آورد و دسترسی را برای کاربران رایگان فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2000612139946684571"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Merriam-Webster کلمه‌ی &lt;b&gt;slop&lt;/b&gt; را به عنوان کلمه‌ی سال 2025 نامگذاری کرد که منعکس‌کننده‌ی نگرانی‌ها در مورد کیفیت محتوای تولیدشده توسط هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2000655160654311933"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;چت‌بات‌ها در مدیریت فایل به گونه‌ای مشکل دارند که نسخه‌های CLI ندارند، به طوری که Gemini اغلب فایل‌های ارجاع‌شده را اشتباه می‌گیرد و ChatGPT اغلب فایل‌های تولیدشده را اشتباه قرار می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/2000413758729162889"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ویژگی فشرده‌سازی مکالمه‌ی Claude برای کارهای دانشی به خوبی کدنویسی کار نمی‌کند و برخلاف پنجره‌های متنی چرخشی، لحن و جریان را به طور ناگهانی بازنشانی می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2000411848496291897"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-15</guid>
-      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
