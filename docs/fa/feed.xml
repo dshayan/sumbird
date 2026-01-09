@@ -8,9 +8,58 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Thu, 08 Jan 2026 06:00:10 +0330</lastBuildDate>
-    <pubDate>Thu, 08 Jan 2026 06:00:10 +0330</pubDate>
+    <lastBuildDate>Fri, 09 Jan 2026 11:58:19 +0330</lastBuildDate>
+    <pubDate>Fri, 09 Jan 2026 11:58:19 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-01-08</title>
+      <link>https://sumbird.ir/fa/news/2026-01-08</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;Qwen3-VL-Embedding&lt;/b&gt; و &lt;b&gt;Qwen3-VL-Reranker&lt;/b&gt; را منتشر کرد که با پشتیبانی از متن، تصاویر، اسکرین‌شات‌ها، ویدئوها و بیش از ۳۰ زبان، به عملکردی پیشرو در معیارهای بازیابی چندوجهی دست یافته‌اند &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2009264754917863924"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اوپن‌ای‌آی &lt;b&gt;ChatGPT Health&lt;/b&gt; را راه‌اندازی کرد؛ فضایی اختصاصی و خصوصی برای مکالمات مربوط به سلامت با رمزگذاری پیشرفته، کلیدهای اختصاصی برای هر کاربر، جداسازی داده‌ها و حذف از آموزش مدل &lt;em&gt;&lt;a href="https://x.com/nickaturley/status/2009007121942417530"&gt;@nickaturley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;جیمیل با &lt;b&gt;AI Inbox&lt;/b&gt;، &lt;b&gt;AI Overviews&lt;/b&gt; برای سؤالات مکالمه‌ای، پاسخ‌های پیشنهادی و قابلیت‌های ویرایش متن که توسط &lt;b&gt;Gemini 3&lt;/b&gt; پشتیبانی می‌شوند، وارد عصر جیمینای شد &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2009355875450851706"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;بر اساس اولین ردیاب سال ۲۰۲۶ سیمیلاروب، &lt;b&gt;Gemini&lt;/b&gt; سهم ترافیک جهانی وب‌سایت‌های هوش مصنوعی را به ۲۱.۵٪ رساند و از ۲۰٪ فراتر رفت، در حالی که &lt;b&gt;ChatGPT&lt;/b&gt; به ۶۴.۵٪ کاهش یافت و به زیر ۶۵٪ رسید &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/2009075877347512545"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;a16z دور سرمایه‌گذاری اولیه ۲۸ میلیون دلاری در &lt;b&gt;Boltz PBC&lt;/b&gt; را رهبری می‌کند؛ مدل‌های هوش مصنوعی متن‌باز این شرکت برای تحقیقات زیست‌مولکولی توسط بیش از ۱۰۰,۰۰۰ دانشمند، ۲۰ شرکت برتر داروسازی و هزاران شرکت بیوتکنولوژی استفاده شده‌اند &lt;em&gt;&lt;a href="https://x.com/a16z/status/2009267611553685583"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;a16z سرمایه‌گذاری ۳۰ میلیون دلاری سری A در &lt;b&gt;Protege&lt;/b&gt; را اعلام کرد؛ این شرکت زیرساخت داده‌های دنیای واقعی را برای توسعه‌ی هوش مصنوعی می‌سازد و به اکثر شرکت‌های MAG7 و بزرگترین بازیگران خصوصی هوش مصنوعی خدمات می‌دهد &lt;em&gt;&lt;a href="https://x.com/a16z/status/2009277723529937172"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مارک آندرسن هوش مصنوعی را بزرگترین انقلاب تکنولوژیکی زندگی خود توصیف می‌کند، که به وضوح بزرگتر از اینترنت است و با ریزپردازنده، موتور بخار و برق مقایسه می‌شود &lt;em&gt;&lt;a href="https://x.com/a16z/status/2009323632494075928"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;دیزنی ویدئوهای عمودی را به دیزنی+ اضافه می‌کند تا شورت‌های تولیدشده توسط &lt;b&gt;Sora&lt;/b&gt; که اواخر امسال عرضه می‌شوند را پشتیبانی کند، با برنامه‌هایی برای محتوای تولیدشده توسط کاربر، جدول امتیازات و پرداخت‌ها &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2009082891532382309"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;میسترال توافق‌نامه‌ی چارچوبی را از وزارت دفاع فرانسه برای استفاده از هوش مصنوعی جهت تقویت قابلیت‌های دفاعی دریافت کرد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2009323158332178599"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اسنوفلیک قصد خود را برای خرید پلتفرم نظارت &lt;b&gt;Observe&lt;/b&gt; اعلام کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2009310278954230148"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اوپن‌ای‌آی تیم پشت ابزار هوش مصنوعی مربیگری اجرایی &lt;b&gt;Convogo&lt;/b&gt; را خریداری کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2009327306045837494"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گزارش‌ها حاکی از آن است که انویدیا از مشتریان چینی می‌خواهد برای تراشه‌های هوش مصنوعی &lt;b&gt;H200&lt;/b&gt; پیش‌پرداخت کنند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2009317078965342495"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پرپلکسیتی &lt;b&gt;Perplexity for Public Safety&lt;/b&gt; را راه‌اندازی کرد که به سازمان‌های مجری قانون &lt;b&gt;Enterprise Pro&lt;/b&gt; را به مدت ۱۲ ماه و برای حداکثر ۲۰۰ کاربر رایگان ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/2009316078871302443"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ترس از دست دادن (FOMO) در هوش مصنوعی، استقرار عجولانه را به دنبال دارد که خطرات امنیتی را به همراه دارد، و این وضعیت با بازنگری در ایمنی بدتر می‌شود، جایی که اصطلاحاتی مانند «تیم قرمز» بدون دقت امنیتی کافی مورد استفاده‌ی مجدد قرار می‌گیرند &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/2009288512760164360"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گرگلی اوروس هشدار می‌دهد که ChatGPT، Claude و Perplexity همگی در تفسیر مشاوره‌ی حقوقی خود اشتباه کرده‌اند و تأکید می‌کند که نمی‌توان به هوش مصنوعی برای تصمیمات پرخطر که نیاز به پاسخگویی دارند، اعتماد کرد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2009183131769991354"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات استنفورد نشان می‌دهد که LLMهای تولیدی می‌توانند متن کتاب‌ها را تقریباً دقیقاً فاش کنند، به طوری که &lt;b&gt;Claude 3.7 Sonnet&lt;/b&gt; ۹۵.۸٪ از کتاب «هری پاتر و سنگ جادو» را بازتولید کرده است، که نشان می‌دهد فیلترهای ایمنی هنوز هم می‌توانند بخش‌های حفظ‌شده را از دست بدهند &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2009074285613338964"&gt;@percyliang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایتان مولیک مشاهده می‌کند که هوش مصنوعی باعث یکنواخت شدن نوشتار و از بین رفتن سبک‌های نوشتاری آکادمیک خاص می‌شود، اگرچه ارتباطات کلی واضح‌تر معمولاً مثبت است &lt;em&gt;&lt;a href="https://x.com/emollick/status/2009267972435526141"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که کیفیت داده‌های آنلاین، از جمله MTurk، به دلیل LLMها در حال کاهش است، که بحرانی وجودی برای علوم رفتاری ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2009361045794726020"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;وید فاستر در زاپیر از رونویسی‌های &lt;b&gt;Granola&lt;/b&gt; برای مهندسی معکوس فرهنگ شرکت و ساخت عوامل ارزیابی مصاحبه استفاده می‌کند که بازخورد ساختاریافته‌ای را در مورد هر نامزد ارائه می‌دهند &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2009014061971984404"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;برایان لاوین از Claude برای ایجاد یک توضیح‌دهنده‌ی تعاملی در مورد نحوه‌ی کار رابط‌های کاربری ترمینال استفاده می‌کند، که هوش مصنوعی را به عنوان ابزاری برای یادگیری مفاهیم فنی نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/2009046532218372262"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;توسعه‌دهندگان اکنون می‌توانند با استفاده از &lt;b&gt;Nano Banana Pro&lt;/b&gt;، &lt;b&gt;Hunyuan3D 3.1&lt;/b&gt;، Mixamo و Claude با three.js، شخصیت‌های سه‌بعدی را در کمتر از ۵ دقیقه تولید و متحرک‌سازی کنند &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2009096113853538419"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;CrowdStrike با انویدیا در تنظیم دقیق تخصصی مدل‌های باز &lt;b&gt;Nemotron&lt;/b&gt; برای استدلال امنیتی همکاری می‌کند، که از مدل‌های پیشرفته‌ی عمومی در دقت پیشی می‌گیرد &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2009010633702826133"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;انویدیا &lt;b&gt;Nemotron Speech ASR&lt;/b&gt; را برای عوامل صوتی با تأخیر کم منتشر کرد که به نهایی‌سازی رونویسی ۲۴ میلی‌ثانیه و زمان استنتاج کلی صدا به صدا کمتر از ۵۰۰ میلی‌ثانیه دست می‌یابد &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2009022603651096586"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تیم Google AI Studio بهبودهای رابط کاربری را ارائه کرد، از جمله کشیدن و رها کردن یکپارچه‌ی فایل، انتخاب آسان‌تر ابزار، پشتیبانی بهتر از موبایل و ثبات طراحی &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/2009039691530588290"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که &lt;b&gt;RL&lt;/b&gt; (یادگیری تقویتی) به طور طبیعی در برابر فراموشی فاجعه‌بار در یادگیری مداوم مقاوم است و به ۶۰٪ دقت نهایی متوسط در مقایسه با ۵۴٪ برای SFT متوالی، بدون استفاده از بافرهای بازپخش، دست می‌یابد &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2009006051304321085"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;قابلیت‌های یادگیری مداوم مبتنی بر RL از جریمه‌ی واگرایی KL ناشی نمی‌شوند، زیرا آموزش GRPO با و بدون واگرایی KL به سطوح عملکردی مشابهی دست می‌یابند &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2009309194323705988"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آندری کارپاتی مینی‌سریال نانوچت v1 را منتشر کرد که آموزش بهینه‌ی محاسباتی را بر اساس قوانین مقیاس‌بندی چنچیلا با نسبت پارامتر به توکن ۸ نشان می‌دهد و به نتایجی قابل مقایسه با GPT-2 با هزینه‌ی تقریبی ۵۰۰ دلار دست می‌یابد &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2009037707918626874"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;فرانسوا شوله ادغام Pallas در Keras را اعلام کرد که به توسعه‌دهندگان امکان می‌دهد هسته‌های سخت‌افزاری با کارایی بالا را در پایتون بنویسند که برای TPUها به Mosaic یا برای GPUها به Triton تبدیل می‌شوند &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2009221193812128006"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;معماری &lt;b&gt;Blackwell&lt;/b&gt; انویدیا با ارتقاءهای جدید TensorRT-LLM برای عملکرد MoE، توان عملیاتی توکن را در &lt;b&gt;GB200 NVL72&lt;/b&gt; بیش از ۲ برابر افزایش می‌دهد &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2009263824294081003"&gt;@NVIDIADC&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-08</guid>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-01-07</title>
       <link>https://sumbird.ir/fa/news/2026-01-07</link>
@@ -876,64 +925,6 @@
 &lt;li&gt;پژوهش MMGR (استدلال مولد&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-20</guid>
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-19</title>
-      <link>https://sumbird.ir/fa/news/2025-12-19</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI مدل &lt;b&gt;GPT-5.2-Codex&lt;/b&gt; را منتشر کرد که استاندارد جدیدی را برای کدنویسی عامل‌محور در توسعه‌ی نرم‌افزار واقعی و امنیت سایبری دفاعی تعیین می‌کند. این مدل عملکرد قابل‌اعتمادتری در کارهای پیچیده و مقیاس‌پذیری مؤثر در پروژه‌های بزرگ دارد. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2001766212494332013"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل &lt;b&gt;Gemini 3 Flash&lt;/b&gt; را معرفی کرد، یک ارتقای بزرگ که هوش نسل بعدی را با سرعت فوق‌العاده ارائه می‌دهد و بهبود قابل‌توجهی در قابلیت‌ها نسبت به &lt;b&gt;2.5 Flash&lt;/b&gt; دارد و اکنون در سراسر جهان در دسترس است. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2002062695726796831"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;علی‌بابا &lt;b&gt;Qwen-Image-Layered&lt;/b&gt; را منتشر کرد که دارای لایه‌بندی در حد فتوشاپ با لایه‌های RGBA از نظر فیزیکی ایزوله، ساختار کنترل‌شده با پرامپت برای 3 تا 10 لایه و قابلیت‌های تجزیه‌ی بی‌نهایت است و کاملاً متن‌باز است. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2002034611229229388"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;متا &lt;b&gt;Meta Seal&lt;/b&gt; را منتشر کرد، مجموعه‌ای جامع، پیشرفته و با مجوز MIT از پژوهش‌ها، مدل‌ها و کدهای آموزشی واترمارکینگ هوش مصنوعی. &lt;em&gt;&lt;a href="https://x.com/AIatMeta/status/2001996160873951268"&gt;@AIatMeta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل &lt;b&gt;Gemma Scope 2&lt;/b&gt; را منتشر کرد، بزرگترین انتشار عمومی ابزارهای تفسیرپذیری با بیش از 1 تریلیون پارامتر آموزش‌دیده که مانند میکروسکوپ برای تحلیل فعال‌سازی‌های داخلی همه‌ی مدل‌های &lt;b&gt;Gemma 3&lt;/b&gt; عمل می‌کند. &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2002018669879038433"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;متا در حال توسعه‌ی یک مدل هوش مصنوعی جدید متمرکز بر تصویر و ویدئو با اسم رمز &lt;b&gt;Mango&lt;/b&gt; است که انتظار می‌رود در نیمه‌ی اول سال 2026 منتشر شود. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2001776094370738298"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;جانشین Llama متا با اسم رمز &lt;b&gt;Avocado&lt;/b&gt;، که در ابتدا برای انتشار در کریسمس برنامه‌ریزی شده بود، به اوایل سال 2026 موکول شد، با عدم قطعیت در مورد اینکه آیا متن‌باز باقی خواهد ماند یا خیر. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2001780964368773227"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گزارش‌ها حاکی از آن است که OpenAI در تلاش است تا 100 میلیارد دلار با ارزش‌گذاری 830 میلیارد دلار جذب سرمایه کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002010106708582566"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یان لکون راه‌اندازی استارتاپ مدل جهانی جدید خود را تأیید کرد که گفته می‌شود به دنبال ارزش‌گذاری بیش از 5 میلیارد دلار است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002098925017444461"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor شرکت Graphite را خریداری کرد، یکی از بهترین پلتفرم‌های بررسی کد هوش مصنوعی و گردش کار PR، که نشان‌دهنده‌ی رقابت بالقوه با GitHub است. &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2002046697535676624"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI بیش از 700,000 مجوز ChatGPT را به تقریباً 35 دانشگاه دولتی ایالات متحده برای دانشجویان و اساتید فروخته است که در سپتامبر بیش از 14 میلیون بار از آن استفاده کرده‌اند و از میزان استفاده از Copilot پیشی گرفته است. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2001840268937695721"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;متا قابلیتی به نام &lt;b&gt;trajectories&lt;/b&gt; را برای توسعه‌دهندگان عرضه کرد که به بازبینان کد اجازه می‌دهد پرامپت‌های استفاده‌شده برای تولید تفاوت‌های کد تولیدشده توسط هوش مصنوعی را مشاهده کنند، این یک آزمایش در مدیریت افزایش کد تولیدشده توسط هوش مصنوعی است. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2001937858412912871"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آینده‌ی GitHub به عنوان یک محصول زیر سؤال رفته است، مگر اینکه استقلال خود را باز یابد و یک مدیرعامل داشته باشد، با مقایسه‌هایی با نحوه‌ی برخورد مایکروسافت با اسکایپ پس از عدم جایگزینی مدیرعامل آن. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2001987993511559348"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اندرو ان‌جی استدلال می‌کند که پیشرفت مدل‌های پیشرفته‌ی امروزی نیازمند تصمیمات دستی و رویکرد هوش مصنوعی داده‌محور برای مهندسی داده‌های آموزشی است، با پیشرفت‌هایی که علی‌رغم قابلیت‌های هوش عمومی مدل‌ها، تکه‌تکه‌تر از آن چیزی است که به طور گسترده‌ای تصور می‌شود. &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2002062897074352593"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;داده‌های Brex نشان می‌دهد که 30 درصد از سریع‌ترین فروشندگان نرم‌افزار در سال 2025، استارتاپ‌های YC هستند، با برنامه‌هایی برای رسیدن به 50 درصد در سال‌های آینده. &lt;em&gt;&lt;a href="https://x.com/paulg/status/2001810545679438150"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI پژوهشی را در مورد ارزیابی &lt;b&gt;قابلیت نظارت بر زنجیره‌ی فکری&lt;/b&gt; منتشر کرد و دریافت که نظارت بر زنجیره‌ی فکری یک مدل بسیار مؤثرتر از مشاهده‌ی تنها اقدامات یا پاسخ‌های نهایی آن است، اگرچه یک بده‌بستان وجود دارد که مدل‌های کوچک‌تر با تلاش استدلالی بالاتر می‌توانند با قابلیت مشابه راحت‌تر نظارت شوند. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2001791131353542788"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic تلاش‌های خود را برای اطمینان از اینکه Claude مکالمات پشتیبانی عاطفی را هم با همدلی و هم با صداقت مدیریت می‌کند، به اشتراک گذاشت و به طیف گسترده‌ای از دلایلی که مردم از هوش مصنوعی استفاده می‌کنند، پرداخت. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2001752303490232395"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI قوانین جدید ایمنی نوجوانان را به ChatGPT اضافه کرد، در حالی که قانون‌گذاران استانداردهای هوش مصنوعی برای خردسالان را بررسی می‌کنند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2002074491556671602"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش‌ها نشان می‌دهد که هوش مصنوعی ممکن است حرفه‌ی حقوقی را به طور اساسی تغییر دهد، با پیش‌بینی‌هایی که انگیزه‌های اقتصادی برای مقاومت در برابر آن بسیار قوی خواهند بود، علی‌رغم تلاش‌های احتمالی برای غیرقانونی کردن استفاده از هوش مصنوعی، که چالش‌هایی را برای متخصصان حقوقی با درآمد بالا و بیکار ایجاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002062912828158340"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک وکیل در یک شرکت حقوقی بزرگ تأیید کرد که &lt;b&gt;GPT-5.x Pro&lt;/b&gt; برای پژوهش و تحلیل حقوقی فوق‌العاده است اما هنوز قادر به تولید قابل‌اعتماد بهترین اسناد حقوقی ممکن که می‌توان به دادگاه‌ها ارائه داد، نیست، اگرچه اذعان می‌کند که این قابلیت برای آینده در مسیر درست قرار دارد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002079437958050248"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش‌ها نشان می‌دهد که اکثریت قریب به اتفاق افراد مورد بررسی نمی‌توانند توضیح دهند که فناوری‌های هوش مصنوعی که از آن‌ها استفاده می‌کنند چگونه کار می‌کنند، که سؤالاتی را در مورد درک در مقابل استفاده از فناوری مطرح می‌کند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002029055911018655"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فناوری Flock Safety به بازگرداندن بیش از 450 کودک گمشده در سال 2025 کمک کرد و در یافتن مظنونان در قتل‌های غم‌انگیز در براون و MIT نقش اساسی داشت، که نقش هوش مصنوعی در امنیت عمومی را نشان می‌دهد. &lt;em&gt;&lt;a href="https://x.com/a16z/status/2002106752725364886"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;خبرنگاران WSJ با موفقیت یک دستگاه فروش خودکار تحت کنترل Claude را با ایجاد سیاست‌های جعلی و متقاعد کردن Claude برای سفارش و اهدای پلی‌استیشن و ماهی زنده، مورد آزمایش قرار دادند، اگرچه این آزمایش به مسیرهای قابل‌اجرا در آینده اشاره دارد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2001755082510012750"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ChatGPT اکنون به کاربران اجازه می‌دهد تا ویژگی‌های خاصی مانند گرمی، اشتیاق و استفاده از ایموجی را در تنظیمات شخصی‌سازی تنظیم کنند. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2002099459883479311"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ChatGPT بلوک‌های نوشتاری را معرفی می‌کند که ساخت ایمیل‌ها را آسان‌تر می‌کند، با ویژگی‌هایی برای به‌روزرسانی و قالب‌بندی متن در چت، برجسته‌کردن برای درخواست تغییرات و پذیرش یا رد پیشنهادات. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2002104182397153358"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini قابلیت پیوست کردن نوت‌بوک‌های NotebookLM را به عنوان منابع اضافه می‌کند، که یادداشت‌های کلاس مشترک و پژوهش‌های عمیق را ترکیب می‌کند تا پاسخ‌هایی مبتنی بر اسناد دریافت کند. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2002062702160773531"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini روش جدیدی برای پرامپت‌دهی در Nano Banana معرفی می‌کند، با استفاده از انگشت یا نشانگر برای دایره کشیدن، طراحی یا حاشیه‌نویسی مستقیم روی تصاویر تا دقیقاً به Gemini بگویید کجا تغییرات را اعمال کند. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2002062697593188521"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گزارش‌های Gemini Deep Research اکنون شامل تصاویر هستند، که موضوعات پیچیده را با انیمیشن‌ها و تصاویر واضح تجزیه می‌کنند تا به درک اطلاعات متراکم در یک نگاه کمک کنند. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2002062712583696511"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini Live با کاهش وقفه‌ها هنگام مکث کاربران و اجازه دادن به کاربران برای بی‌صدا کردن میکروفون خود در حین صحبت هوش مصنوعی، آداب مکالمه را بهبود می‌بخشد. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2002064455967138233"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;عوامل هوش مصنوعی بینایی در حال تغییر تولید نیمه‌هادی‌ها هستند، که باعث افزایش بازده، عملیات ایمن‌تر و تصمیم‌گیری سریع‌تر از طریق کنترل کیفیتی می‌شوند که می‌تواند استدلال کند نه فقط تشخیص دهد. &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2001774473381388685"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;متا قابلیت &lt;b&gt;trajectories&lt;/b&gt; را برای توسعه‌دهندگان عرضه کرد، که به بازبینان کد اجازه می‌دهد پرامپت‌های استفاده‌شده برای تولید تفاوت‌های کد تولیدشده توسط هوش مصنوعی را مشاهده کنند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2001935718881591503"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;سباستین بورگو، از Google DeepMind، انتظار نوآوری قابل‌توجهی در پیش‌آموزش در سال آینده را دارد که هدف آن کارآمدتر کردن قابلیت‌های زمینه‌ی طولانی و گسترش بیشتر طول زمینه‌ی مدل‌ها است، با کشفیات جالب اخیر مربوط به مکانیسم توجه. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2001780901982961944"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;نوام شیزر اظهار داشت که 50/50 است که آیا پیشرفت بزرگ بعدی در گوگل توسط انسان‌ها یا توسط خود &lt;b&gt;Gemini&lt;/b&gt; انجام خواهد شد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2001766860791202073"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل تأیید کرد که در حال کار بر روی بازی‌های ویدئویی است، که با انتظارات از Genie و اظهارات در مورد مدل‌های جهانی همسو است. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2001768231686545893"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مقاله‌ی جدیدی استدلال می‌کند که AGI ممکن است ابتدا به عنوان هوش جمعی در شبکه‌های عامل‌ها ظاهر شود تا یک سیستم واحد، که چالش را از هم‌ترازی یک ذهن به حکمرانی دینامیک‌های نوظهور تغییر می‌دهد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002020453611651308"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پژوهش‌ها پتانسیل LLMها را برای کمک به کشف علمی ارزیابی می‌کند و نتیجه می‌گیرد که ایده‌های جدیدی برای حرکت هوش مصنوعی به سمت اختراع مورد نیاز است، اگرچه LLMها می‌توانند به عنوان شرکای طوفان فکری مفید باشند. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2002030113433465127"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI و وزارت انرژی ایالات متحده همکاری خود را در زمینه‌ی هوش مصنوعی و محاسبات پیشرفته برای حمایت از اولویت‌های علمی ملی از طریق مأموریت Genesis برای تسریع کشف علمی گسترش می‌دهند. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2001784831957700941"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google DeepMind از مأموریت Genesis وزارت انرژی ایالات متحده با فراهم کردن دسترسی آزمایشگاه‌های ملی به ابزارهای هوش مصنوعی از جمله همکار دانشمند هوش مصنوعی برای کمک به تسریع پژوهش در فیزیک، شیمی و فراتر از آن حمایت می‌کند. &lt;em&gt;&amp;lt;a href="https://x.com/ShaneLegg/status/&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-19</guid>
-      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
