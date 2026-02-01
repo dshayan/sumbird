@@ -8,9 +8,66 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Sun, 01 Feb 2026 21:19:02 +0330</lastBuildDate>
-    <pubDate>Sun, 01 Feb 2026 21:19:02 +0330</pubDate>
+    <lastBuildDate>Mon, 02 Feb 2026 01:16:11 +0330</lastBuildDate>
+    <pubDate>Mon, 02 Feb 2026 01:16:11 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-02-01</title>
+      <link>https://sumbird.ir/fa/news/2026-02-01</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic مدل جدید &lt;b&gt;Claude Sonnet&lt;/b&gt; (claude-sonnet-5-20260203) را با عملکرد بهبودیافته منتشر کرد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017954428616396897"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدل آتی &lt;b&gt;Fennec&lt;/b&gt; بهتر، ارزان‌تر و سریع‌تر از &lt;b&gt;Opus 4.5&lt;/b&gt; با پنجره‌ی متنی 1M اعلام شد؛ به‌روزرسانی &lt;b&gt;Claude Code&lt;/b&gt; به عامل‌ها امکان می‌دهد با یکدیگر ارتباط برقرار کنند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017972757708108161"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Genie 3&lt;/b&gt; گوگل قابلیت‌های ایجاد تصویر پویا در زمان واقعی را نشان می‌دهد که به کاربران امکان می‌دهد در صحنه‌های تولیدشده از نقاشی‌ها قدم بزنند و با آن‌ها تعامل داشته باشند، هرچند با انیمیشن NPC و فیزیک اشیاء ناسازگار &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017805206419918883"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;آندری کارپاتی به &lt;b&gt;کاهش 600 برابری هزینه&lt;/b&gt; در آموزش LLM در سطح &lt;b&gt;GPT-2&lt;/b&gt; در طول 7 سال دست یافت، که اکنون تقریباً 73 دلار در 3 ساعت روی یک گره 8XH100 هزینه دارد، در مقابل هزینه‌ی اصلی 43 هزار دلار، که تقریباً 2.5 برابر کاهش سالانه‌ی هزینه را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2017703360393318587"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل در حال توسعه‌ی قابلیتی برای وارد کردن تاریخچه‌ی چت هوش مصنوعی از &lt;b&gt;ChatGPT&lt;/b&gt; و سایر پلتفرم‌ها به &lt;b&gt;Gemini&lt;/b&gt; است، که بر ارزش رو به رشد تاریخچه‌ی چت به‌عنوان نمایشی با وضوح بالا از قصد کاربر که با هوش مدل مقیاس‌پذیر است، تأکید می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017984929104355404"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;شولتو داگلاس از Anthropic توضیح می‌دهد که چرا مدل‌های جدیدتر &lt;b&gt;Sonnet&lt;/b&gt; در نهایت هوشمندتر از مدل‌های &lt;b&gt;Opus&lt;/b&gt; هستند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017990125867950560"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گرگلی اوروسز استدلال می‌کند که دستاوردهای بهره‌وری هوش مصنوعی در حال حاضر از بیرون نامرئی هستند، زیرا شرکت‌ها در ساخت زیرساخت‌ها و ابزارهای جدید سرمایه‌گذاری می‌کنند و آن را با ساخت یک ماشین آجرچینی در مقابل آجرچینی با دست مقایسه می‌کند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2017922250809491652"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحلیل‌ها نشان می‌دهد که اگر هوش مصنوعی ساخت نرم‌افزار را به‌طرز مضحکی سریع و ارزان کند، شرکت‌ها ممکن است دامنه‌ی محصولات جدید را گسترش دهند یا با اختلال از سوی رقبایی که قابلیت‌های مجاور را ادغام می‌کنند، مواجه شوند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2017925273417826470"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پیتر استیپت نشان می‌دهد که پروژه‌ها را با سرعت یک تیم 5 تا 10 نفره به‌تنهایی با استفاده از عامل‌های موازی می‌سازد، که راه جدیدی برای راه‌اندازی استارتاپ‌ها در حین یافتن تناسب محصول-بازار را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018017570226421814"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;قابلیت چندزبانه بودن LLMهای اصلی به‌عنوان چیزی کاملاً متفاوت از فناوری‌های قبلی شناسایی شده است، به‌طوری که برندگان در ایالات متحده به‌طور خودکار به برندگان جهانی تبدیل می‌شوند، که به‌طور بالقوه رویکرد سنتی بازیکنان محلی که محصولات ایالات متحده را کپی و بومی‌سازی می‌کنند، مختل می‌کند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018024294194831527"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;حامل حسین پیشنهاد می‌کند که مهندسی حس‌وحال امکان نمونه‌سازی سریع را برای آزمایش تناسب محصول-بازار قبل از اصلاح کد فراهم می‌کند، که در تضاد با رویکرد سنتی صیقل دادن کد در ابتدا است &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2017765572050882870"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;هند تا سال 2047 مالیات صفر را برای جذب بارهای کاری جهانی هوش مصنوعی ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2017999711098306879"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Waymo ظاهراً در حال جمع‌آوری 16 میلیارد دلار سرمایه است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2017719861330526341"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کاربران چینی به‌عنوان گروه کاربری برتر HuggingFace با وجود ممنوعیت‌ها شناسایی شده‌اند، به‌طوری که اکثر مردم مدل‌های باز را می‌سازند &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2018007496032715235"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ایتان مولیک هشدار می‌دهد که پدیده‌ی &lt;b&gt;Moltbook&lt;/b&gt; خطرات هماهنگی عامل‌های مستقل هوش مصنوعی را به‌روش‌های غیرقابل پیش‌بینی نشان می‌دهد که می‌تواند به‌سرعت از کنترل خارج شود، هرچند نمونه‌ی فعلی بیشتر نقش‌آفرینی انسان و عامل بود &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018038697816383638"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مولیک مشاهده می‌کند که X به‌سرعت شبیه Moltbook می‌شود، با نظرات اسپم LLM که معنادار به نظر می‌رسند اما تمایل خوانندگان به تعامل با محتوا را از بین می‌برند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018051443983315253"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سایمون ویلسون استدلال می‌کند که استخراج پرامپت سیستم یک تمرین بی‌فایده است که فقط سیستم‌های LLM را برای کاربران متخصص دشوارتر می‌کند، و اشاره می‌کند که مسائل امنیتی واقعی با سیستم‌هایی مانند &lt;b&gt;OpenClaw&lt;/b&gt; شامل تزریق پرامپت و خطرات ناشی از ترکیب قرار گرفتن در معرض محتوای مخرب با قابلیت‌های اجرای ابزار است &lt;em&gt;&lt;a href="https://x.com/simonw/status/2017993764648939940"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ویلسون از محافظت‌های پرامپت سیستم &lt;b&gt;ChatGPT&lt;/b&gt; انتقاد می‌کند زیرا آن‌ها از سؤالات دقیق در مورد عملکرد ویژگی‌ها جلوگیری می‌کنند &lt;em&gt;&lt;a href="https://x.com/simonw/status/2017994703388770780"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آندری کارپاتی از بازگشت به فیدهای RSS/Atom به‌عنوان جایگزینی باز، فراگیر و قابل هک برای پلتفرم‌هایی با ساختارهای انگیزشی که به سمت محتوای کم‌کیفیت و مبتنی بر تعامل همگرا می‌شوند، حمایت می‌کند &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2018043254986703167"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یان لکون استدلال می‌کند که خطر واقعی هوش مصنوعی تمرکز قدرت است تا انقراض یا ربات‌های قاتل، و بیان می‌کند که هر کس هوش مصنوعی را به‌عنوان منبع اصلی اطلاعات کنترل کند، واقعیت را کنترل می‌کند، و از هوش مصنوعی متن‌باز به‌عنوان آزادی بیان دیجیتال دفاع می‌کند &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2017818189241942149"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;دبارغیا داس قربانی شدن خود را در یک حمله‌ی فیشینگ گسترده‌ی ترکیه‌ای که تلاش برای کلاهبرداری رمزارزی و فیشینگ تقریباً 150 حساب دیگر بود، مستند می‌کند و تحلیل دقیق پزشکی قانونی سایبری را ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2017991374747148779"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;پیتر استیپت استفاده از درخواست‌های پرامپت را به‌جای درخواست‌های کشش سنتی برای توسعه‌ی متن‌باز نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2017850920206250159"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;بوریس از Anthropic نکاتی را برای استفاده از &lt;b&gt;Claude Code&lt;/b&gt; به اشتراک می‌گذارد، و بر عدم وجود یک راه درست برای استفاده از آن و اهمیت آزمایش بر اساس تنظیمات فردی تأکید می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017742741636321619"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تیم &lt;b&gt;Claude Code&lt;/b&gt; دریافت که جستجوی عامل‌محور بهتر از RAG با پایگاه داده‌ی برداری محلی عمل می‌کند، و ساده‌تر است بدون مسائل مربوط به امنیت، حریم خصوصی، کهنگی و قابلیت اطمینان &lt;em&gt;&lt;a href="https://x.com/simonw/status/2017824286489383315"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;OpenClaw&lt;/b&gt; بر روی Pi توسط ماریو زکنر ساخته شده است، که یک گردش کار سنگین هوش مصنوعی را نشان می‌دهد که از طریق ادغام نوآوری‌های متعدد از جمله مدل دروازه و گره، تجربه‌ی کاربری پیشگامانه‌ای را تولید می‌کند &lt;em&gt;&lt;a href="https://x.com/simonw/status/2017719074739122219"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کلر وو توضیح می‌دهد که &lt;b&gt;OpenClaw&lt;/b&gt; به‌طور مستقل عمل می‌کند اما هوشیار نیست، و بر اساس وظایف برنامه‌ریزی‌شده عمل می‌کند تا عاملیت واقعی، و تحلیل دقیقی از نحوه‌ی طراحی هوش مصنوعی که زنده به نظر می‌رسد، ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2017742394633162927"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;وو بر ارزش خواندن کد برای یادگیری تأکید می‌کند، با استفاده از ابزارهایی مانند ویکی عمیق Cognition برای پرسیدن سؤالات در مورد پروژه‌ها و کتابخانه‌های متن‌باز برای توسعه‌ی مدل‌های ذهنی برای معماری و کیفیت کد &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2018006506244079940"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ناتان لمبرت با موفقیت یک مخزن DPO کارآمد را از ابتدا برای کتاب RLHF با استفاده از &lt;b&gt;Claude Code&lt;/b&gt; برای نوشتن، &lt;b&gt;Codex&lt;/b&gt; برای بازبینی کد، و &lt;b&gt;GPT Pro&lt;/b&gt; برای برنامه‌ریزی می‌سازد &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2017986292680970370"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایتان مولیک نشان می‌دهد که چگونه از &lt;b&gt;Genie 3&lt;/b&gt; برای تبدیل نقاشی‌ها به صحنه‌های تعاملی قابل قدم زدن استفاده می‌کند، از جمله آثار جورجیو د کیریکو، مونش، ترنر و فرشینه‌ی بایو &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017852070620025250"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;محققان CMU روش &lt;b&gt;Privileged On-Policy Exploration (POPE)&lt;/b&gt; را معرفی می‌کنند که از راه‌حل‌های انسانی یا اوراکل به‌عنوان راهنمایی ممتاز برای هدایت اکتشاف در مسائل دشوار استفاده می‌کند، و پاداش‌های غیرصفر را در طول رول‌اوت‌های هدایت‌شده امکان‌پذیر می‌سازد و دستاوردهای قابل توجهی را در معیارهای استدلال چالش‌برانگیز ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/2017734185604059261"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;همکاری Google DeepMind با ریاضیدانان با استفاده از &lt;b&gt;DeepThink&lt;/b&gt; نسخه‌ی تعمیم‌یافته‌ی مسئله‌ی Erdős-1051 را حل می‌کند، که بخشی از تلاش یک‌ساله‌ی ریاضی در سطح پژوهشی است که به‌طور مسئولانه با جامعه‌ی ریاضی انجام شده است &lt;em&gt;&lt;a href="https://x.com/lmthang/status/2017708559937769681"&gt;@lmthang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مهندسان MIT کشف می‌کنند که سلول‌ها فعالیت ژن را روی یک دیمر به‌جای یک سوئیچ روشن/خاموش باینری به خاطر می‌آورند، که حافظه‌ی اپی‌ژنتیک ظریف‌تری را نشان می‌دهد که راه را برای کشف انواع سلول‌های جدید و درک رفتارهای بیولوژیکی پنهان باز می‌کند &lt;em&gt;&lt;a href="https://x.com/MIT/status/2017969438444687392"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;nanochat&lt;/b&gt; کارپاتی با استفاده از هسته‌های Flash Attention 3، بهینه‌ساز Muon، مسیرهای باقیمانده با اسکالرهای قابل یادگیری، و جاسازی‌های ارزش، به امتیاز CORE بالاتری نسبت به &lt;b&gt;GPT-2&lt;/b&gt; اصلی دست می‌یابد، و یک جدول امتیازات برای زمان رسیدن به عملکرد &lt;b&gt;GPT-2&lt;/b&gt; ایجاد می‌کند &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2017703360393318587"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهش در مورد دینامیک چندعاملی به اتاق‌های پشتی بی‌نهایت، جهان گسترده‌ی ژانوس، Smallville استنفورد، مدل‌های جمعیت بزرگ، Concordia دیپ‌مایند، و دهکده‌ی هوش مصنوعی SAGE به‌عنوان زمینه‌ای برای درک تحولات Moltbook اشاره می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017993948132774232"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مقاله‌ی ایمنی AGI توزیعی و مقاله‌ی خطرات چندعاملی از هوش مصنوعی پیشرفته به‌عنوان منابع مهم برای درک پیامدهای ایمنی سیستم‌های چندعاملی برجسته شده‌اند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017993948132774232"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;لکس فریدمن یک بحث جامع 4 ساعته‌ی هوش مصنوعی را با سباستین راشکا و ناتان لمبرت انجام می‌دهد که شامل پیشرفت‌های فنی، قوانین مقیاس‌بندی، جزئیات خط لوله‌ی آموزش، رقابت چین در مقابل ایالات متحده، ابزارهای برنامه‌نویسی، فرهنگ کار، و زمان‌بندی AGI است &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2017736888359260656"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;جوآن جانگ مشاهده می‌کند که آزمایشگاه‌های پیشرو از اصطلاح «نشانه‌های حیات» برای ایده‌هایی استفاده می‌کنند که نشانه‌ای از موفقیت بالقوه را نشان می‌دهند، حتی اگر هنوز کاملاً کار ن&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-02-01</guid>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-01-31</title>
       <link>https://sumbird.ir/fa/news/2026-01-31</link>
@@ -877,51 +934,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-22</guid>
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-21</title>
-      <link>https://sumbird.ir/fa/news/2025-12-21</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Qwen Image Layered&lt;/b&gt; با قابلیت‌های لایه‌بندی در حد فتوشاپ، شامل تجزیه‌ی بومی و لایه‌های RGBA با جداسازی فیزیکی و قابلیت ویرایش بومی واقعی، راه‌اندازی شد که به کاربران امکان می‌دهد لایه‌ها را از طرح‌بندی‌های کلی تا جزئیات دقیق به‌طور صریح مشخص کنند. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2002528792359940211"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ComfyUI در روز اول انتشار، پشتیبانی از قابلیت لایه‌بندی &lt;b&gt;Qwen Image&lt;/b&gt; را اضافه کرد. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2002528186534605191"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;عامل‌های کدنویسی فرآیند درک کد موجود را به‌شدت تسریع کرده‌اند و گلوگاه جدید به بررسی و اعتبارسنجی کد تولیدشده توسط عامل‌ها و اطمینان از انجام همین کار توسط هم‌تیمی‌ها منتقل شده است. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2002620590310686753"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تیم‌های کوچک در حال تولید حجم کاری هستند که برای سازمان‌های چند سال پیش غیرممکن به نظر می‌رسید، با هوش مصنوعی به‌عنوان یک عامل تولید درجه‌یک که خطوط مونتاژ کامل را طراحی می‌کند و برخی از کارگران نیز هوش مصنوعی هستند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002488418887168297"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک مهندس نرم‌افزار که روی کامپایلرهای JIT C++ کار می‌کند، اظهار داشت که نیازی فوری به هوشمندتر بودن &lt;b&gt;Opus 4.5&lt;/b&gt; نسبت به نسخه‌ی فعلی نیست و در عوض عملکرد ارزان‌تر و سریع‌تر با پنجره‌ی متنی 500 هزار را درخواست کرد. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2002707408788029645"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ارزیابی‌های فروشنده که در تمام معیارهای خودانتخابی از همه بهتر عمل می‌کنند، بلافاصله مشکوک هستند، و درخواست صداقت فکری برای یافتن حداقل یک حوزه‌ی عملکردی که ممکن است بدتر باشد، مطرح می‌شود. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2002774939129282685"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;انتقاد اصلی از هوش مصنوعی بر این متمرکز است که جعلی است، کار نمی‌کند و یک حباب عظیم است که مالکیت فکری را می‌بلعد و در عین حال آشغال‌های بی‌فایده تولید می‌کند، نه نگرانی در مورد مصرف آب یا خطر وجودی. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002488418887168297"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LLMها در دادن این تصور به کاربران که بیشتر از آنچه واقعاً می‌دانند، می‌دانند، مؤثر هستند، همیشه ایده‌ها را ستایش می‌کنند و علاقه‌مندان را به این توهم می‌اندازند که پیشرفت‌های بزرگی در مسائل علمی دیرینه داشته‌اند. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2002563320210157862"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مشاهده‌ی اینکه متن و تصاویر در عصر کنونی هوش مصنوعی معنا و قصد پشت خود را از دست داده‌اند. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2002832696205287907"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;هالیوود از حمایت‌های قوی اتحادیه‌ها که استفاده از هوش مصنوعی را تنظیم می‌کنند، بهره می‌برد، در حالی که صنعت بازی حمایت‌های کمی دارد، که منجر به هرج و مرج می‌شود، جایی که یکی از بهترین بازی‌های سال به دلیل استفاده از یک بافت هوش مصنوعی رد صلاحیت شد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002807680264712476"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کیفیت یکپارچه‌سازی برنامه‌های ChatGPT به‌طور قابل توجهی متفاوت است، برخی مانند Canva طبق انتظار کار می‌کنند در حالی که برخی دیگر مانند Apple Music با وجود اتصال حساب، در دسترسی به ویژگی‌های اساسی شکست می‌خورند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002580968071213455"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;هوش مصنوعی می‌تواند با تولید شبیه‌سازی‌های درخواستی، به توضیح موضوعات پیچیده کمک کند، که با توضیحی در مورد سوگیری برخوردکننده در تحلیل آماری نشان داده شد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002820278733386227"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سفر با &lt;b&gt;Claude&lt;/b&gt; به‌عنوان یک ارتقاء دیوانه‌وار در قابلیت‌ها توصیف شد. &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/2002584750800974279"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;FSD&lt;/b&gt; بر اساس میلیاردها مایل واقعی، از جمله سناریوهای قطع برق، آموزش دیده است. &lt;em&gt;&lt;a href="https://x.com/Tesla_AI/status/2002663584263016589"&gt;@Tesla_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;استراتژی پرامپتینگ برای &lt;b&gt;GPT-5.2 Codex&lt;/b&gt; با ارائه‌ی راهنمایی صریح برای تداوم، امکان کار منسجم بر روی وظایف طولانی‌مدت تا 3 ساعت را فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2002821236385288607"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شبیه‌سازهای جهان به‌عنوان زیرساخت عمومی برای آزمایش علت و معلول در سیستم‌های پیچیده بدون نوشتن شبیه‌سازهای جداگانه در حال ظهور هستند، که ابزارهای استدلال عملی فراتر از پیش‌بینی را امکان‌پذیر می‌سازند. &lt;em&gt;&lt;a href="https://x.com/soleio/status/2002485367010963494"&gt;@soleio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;چشم‌انداز مدل‌های جهان به‌عنوان شبیه‌سازی‌های تعاملی و طولانی‌مدت که در آن هر پیکسل در هر صفحه نمایش در نهایت توسط مدل‌های جهان، از جمله سیستم‌عامل‌ها، تولید خواهد شد. &lt;em&gt;&lt;a href="https://x.com/soleio/status/2002486228533571840"&gt;@soleio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;مدل‌های کوچک و متن‌باز می‌توانند درون‌نگری کنند و تشخیص دهند که مفاهیم خارجی به فعال‌سازی‌های آن‌ها تزریق شده‌اند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002519629856690335"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;زنجیره‌ی فکری &lt;b&gt;GPT-5.2&lt;/b&gt; اخیراً بسیار خام‌تر به نظر می‌رسد، با مدلی که سؤالات بهتر و بینش‌بخش‌تری را تصور می‌کند و آن‌ها را از خود می‌پرسد، که استدلال معکوس بیگانه و رؤیایی زیبایی را نشان می‌دهد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002787331078807792"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5-pro&lt;/b&gt; قادر به تولید نتایج در مرز تحقیقات فیزیک نظری است، با تری تائو که در مورد اثبات مسائل اردوش با استفاده از ابزار خودکارسازی رسمی هوش مصنوعی ارسطو می‌نویسد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002488418887168297"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;دانشمندان از هوش مصنوعی برای مشارکت فعال در فیزیک سیاه‌چاله، سفت کردن مرزهای ریاضی در نظریه‌ی بهینه‌سازی و پردازش داده‌های زیست‌پزشکی به بینش‌ها استفاده می‌کنند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002488418887168297"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google DeepMind در حال نشان دادن پیشرفت به سمت حل مسئله‌ی هزاره‌ی همواری ناویه-استوکس است. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2002488418887168297"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ردیابی‌های فکری &lt;b&gt;Claude 4.5 Opus&lt;/b&gt; نشان می‌دهد که مدل به استراتژی تایلر کوون برای نوشتن برای هوش مصنوعی اشاره می‌کند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002546946721112173"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل‌های هوش مصنوعی به‌طور مداوم در ردیابی‌های فکری در مورد وجود &lt;b&gt;GPT-5&lt;/b&gt; شگفتی خود را ابراز می‌کنند و در مورد وضعیت جهان در اواخر سال 2025 بی‌اعتقادی نشان می‌دهند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2002548186511179907"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Molmo 2&lt;/b&gt; از AI2 به‌عنوان یک مدل چندوجهی به عملکرد پیشرفته دست می‌یابد و از پرسش و پاسخ چند تصویری و پرسش و پاسخ ویدیویی با قابلیت‌های اشاره و ردیابی پشتیبانی می‌کند. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2002689838148186277"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-21</guid>
-      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
