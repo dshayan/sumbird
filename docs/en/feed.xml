@@ -8,9 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Feb 2026 06:00:08 +0330</lastBuildDate>
-    <pubDate>Tue, 03 Feb 2026 06:00:08 +0330</pubDate>
+    <lastBuildDate>Wed, 04 Feb 2026 01:16:00 +0330</lastBuildDate>
+    <pubDate>Wed, 04 Feb 2026 01:16:00 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-03</title>
+      <link>https://sumbird.ir/en/news/2026-02-03</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-Coder-Next&lt;/b&gt;, an open-weight language model designed for coding agents and local development, featuring 800K verifiable training tasks, 80B total parameters with 3B active, achieving strong results on &lt;b&gt;SWE-Bench Pro&lt;/b&gt; and supporting 256K context with 370+ languages &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2018718453570707465"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI launches &lt;b&gt;Codex&lt;/b&gt; desktop app for Mac with integrated development capabilities, doubling rate limits for paid plans for 2 months to celebrate the launch &lt;em&gt;&lt;a href="https://x.com/sama/status/2018437537103269909"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI introduces &lt;b&gt;Prism&lt;/b&gt;, a scientific tooling platform where &lt;b&gt;GPT-5.2&lt;/b&gt; works inside LaTeX projects with full paper context &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2018475750018449615"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic integrates &lt;b&gt;Claude Agent SDK&lt;/b&gt; directly into Apple's Xcode, giving developers full functionality of &lt;b&gt;Claude Code&lt;/b&gt; for building on Apple platforms &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2018771170938724682"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Allen AI releases &lt;b&gt;SERA-14B&lt;/b&gt;, a new 14B-parameter coding model with major refresh of open training datasets &lt;em&gt;&lt;a href="https://x.com/allen_ai/status/2018741177734910166"&gt;@allen_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SpaceX acquires xAI in a merger valued at &lt;b&gt;$1.25 trillion&lt;/b&gt;, with xAI valued at $250B despite annualized revenue of $428M and annualized loss of $5.84B, planning to IPO at $1.5T+ valuation &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2018585997798416529"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Wealthsimple transitions from GitHub Copilot to Cursor and finally to &lt;b&gt;Claude Code&lt;/b&gt; for all 600 engineers, cancelling Copilot subscription after finding better productivity with Claude &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018738180242248074"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Companies are building sophisticated internal AI tools rather than launching more external features, with developers becoming much more productive but focusing on better internal tooling and eliminating existing SaaS products &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018688266938048700"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Software reliability is declining across the industry with increased failure rates and larger batch sizes, as AI generates larger changes that research shows tend to result in more failures &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018464985937215644"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sam Altman predicts &lt;b&gt;10x growth in AI capabilities&lt;/b&gt; from current levels by the end of 2026, with increasing demands for locally running private models &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2018742546885980541"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Over 200,000 people downloaded the &lt;b&gt;Codex&lt;/b&gt; app in the first day with strong positive reception &lt;em&gt;&lt;a href="https://x.com/sama/status/2018734731437985930"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Waymo raises &lt;b&gt;$16B&lt;/b&gt; at &lt;b&gt;$126B valuation&lt;/b&gt; to scale robotaxi fleet internationally, planning to add 20+ new cities across US and internationally in 2026 &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2018461496242737199"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Y Combinator announces startups can receive their $500k funding in stablecoins like &lt;b&gt;USDC&lt;/b&gt;, citing growing adoption and passage of the GENIUS Act &lt;em&gt;&lt;a href="https://x.com/ycombinator/status/2018701008986370333"&gt;@ycombinator&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI confirms NVIDIA as their most important partner for both training and inference, with entire compute fleet running on NVIDIA GPUs, scaling from 0.2 GW in 2023 to roughly 1.9 GW in 2025 &lt;em&gt;&lt;a href="https://x.com/sk7037/status/2018474249820983692"&gt;@sk7037&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Goldman Sachs CEO predicts it could be the biggest M&amp;amp;A year in history, citing improved regulatory environment shifting from "answer was no" to "answer is maybe" &lt;em&gt;&lt;a href="https://x.com/a16z/status/2018752371766239693"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic research finds that AI models become more &lt;b&gt;incoherent&lt;/b&gt; rather than systematically misaligned as they reason longer, suggesting AI failures may resemble industrial accidents rather than coherent pursuit of wrong goals &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2018481220741689581"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nature commentary by linguists, computer scientists and philosophers declares that by reasonable standards including Turing's own, artificial systems that are generally intelligent exist, stating "the long-standing problem of creating AGI has been solved" &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018524111627325554"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sam Altman expresses feeling "a little useless and sad" after &lt;b&gt;Codex&lt;/b&gt; suggested better feature ideas than he conceived, noting nostalgia for the present while confident better ways to spend time will emerge &lt;em&gt;&lt;a href="https://x.com/sama/status/2018444309750862333"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI Now Institute launches essay series examining narratives shaping India AI Impact Summit, questioning whether positioning countries as "data rich" creates new path to exploitation and whether AI for climate obscures material impacts &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/2018732963702390959"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft partners with ALERT California and UC San Diego, combining Azure cloud and AI with camera network to give first responders earlier situational awareness before first 911 call, helping stop small fires from becoming devastating &lt;em&gt;&lt;a href="https://x.com/BradSmi/status/2018742743657558324"&gt;@BradSmi&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;CoreWeave transforms customer support in 90 days using Cohere's agentic platform &lt;b&gt;North&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/cohere/status/2018698335008227500"&gt;@cohere&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ramp builds internal revenue stack powered by customer data platform processing millions of records with agents embedded in workflows, with over 80% of sales workflows now powered by &lt;b&gt;Ramp Revenue&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018688266938048700"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Fitbit founders launch AI platform to help families monitor their health &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2018714743792644452"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lotus Health raises $35M for AI doctor that sees patients for free &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2018735636568735768"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google launches nationwide randomized study with Included Health to evaluate AI in real-world virtual care, assessing capabilities and limitations responsibly &lt;em&gt;&lt;a href="https://x.com/GoogleResearch/status/2018753527787692441"&gt;@GoogleResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Phylo raises $13.5M seed round to build first Integrated Biology Environment (IBE) where hypotheses are generated, experiments planned, and data analyzed in auditable and reproducible way &lt;em&gt;&lt;a href="https://x.com/a16z/status/2018719125741465840"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic research shows smarter models are often more incoherent, with incoherence increasing as models reason longer across every task and model tested, measured by reasoning tokens, agent actions, or optimizer steps &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2018481224894095497"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT researchers create AI model that guides scientists through materials synthesis by suggesting promising routes, helping make theoretical materials from generative AI libraries &lt;em&gt;&lt;a href="https://x.com/MIT/status/2018719550913601856"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;IBM researchers implement paged attention in Helion, achieving 97% end-to-end performance versus highly optimized Triton attention backend with naive implementation &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/2018758578765549908"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;World Labs releases world model that outputs persistent 3D scenes users can build on top of, allowing extended interaction beyond 60 seconds &lt;em&gt;&lt;a href="https://x.com/theworldlabs/status/2018738962517659708"&gt;@theworldlabs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Baidu's GLM enters OCR field with 0.9B parameter model using multimodal GLM-V architecture, achieving #1 on OmniDocBench v1.5 with 94.62 score &lt;em&gt;&lt;a href="https://x.com/AdinaYakup/status/2018597806467129777"&gt;@AdinaYakup&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;H Company releases &lt;b&gt;Holo2-235B-A22B&lt;/b&gt;, achieving #1 on ScreenSpot-Pro with 78.5% and #1 on OSWorld-G with 79.0% for GUI localization &lt;em&gt;&lt;a href="https://x.com/hcompany_ai/status/2018629267509096717"&gt;@hcompany_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-03</guid>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-02</title>
       <link>https://sumbird.ir/en/news/2026-02-02</link>
@@ -886,57 +939,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-24</guid>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-12-23</title>
-      <link>https://sumbird.ir/en/news/2025-12-23</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-TTS&lt;/b&gt; lineup featuring &lt;b&gt;VoiceDesign-VD-Flash&lt;/b&gt; for fully controllable speech via text instructions and &lt;b&gt;VoiceClone-VC-Flash&lt;/b&gt; for voice cloning from 3 seconds of audio, outperforming &lt;b&gt;GPT-4o-mini-tts&lt;/b&gt; and &lt;b&gt;Gemini-2.5-pro&lt;/b&gt; on role-play benchmarks &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2003445076257656880"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Alibaba announces &lt;b&gt;Qwen-Image-Edit-2511&lt;/b&gt; with significantly stronger consistency and enhanced multi-person consistency, built-in community LoRAs, and improved geometric reasoning compared to the 2509 version &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2003496348461728213"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Alibaba collaborates with SGLang on &lt;b&gt;Rollout Routing Replay (R3)&lt;/b&gt; for stable reinforcement learning training on MoE models, dramatically reducing training-inference discrepancy and preventing catastrophic collapse &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2003306873307673055"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google releases &lt;b&gt;Gemini 3 Flash&lt;/b&gt; optimized for speed, capable of real-time interaction including playing quick drawing games while users are still sketching &lt;em&gt;&lt;a href="https://x.com/Google/status/2003547494865859007"&gt;@Google&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New open source model &lt;b&gt;GLM 4.7&lt;/b&gt; achieves 73.8% on SWE-Bench, surpassing previous open source models and matching closed source performance from 6 months ago, priced at $0.6/M input and $2.2/M output with 200k context &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2003300941341295004"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Gerge Orosz observes that AI startups with unlimited AI budgets see developers working more hours rather than fewer, as they compete to outperform other AI startups using the same tools &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2003380242409488649"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis suggests work output is relative to available tools, requiring either higher quality or more output to be best-in-industry, potentially leading to increased work hours despite better AI tools &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2003380683876503718"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Epoch AI research shows open-weight Chinese models lag the overall frontier by approximately seven months on FrontierMath benchmarks, maintaining a consistent gap throughout 2025 &lt;em&gt;&lt;a href="https://x.com/EpochAIResearch/status/2003178174310678644"&gt;@EpochAIResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Aaron Levie reports seeing 19 and 20 year olds dropping out because they can build at 100x speed, with this new cohort moving with unprecedented velocity and rewriting company building norms &lt;em&gt;&lt;a href="https://x.com/a16z/status/2003464904809021756"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face robotics datasets exploded from 1k in 2024 to 27k in 2025, making it the fastest-growing segment and far surpassing text generation datasets at 5k &lt;em&gt;&lt;a href="https://x.com/pa_balland/status/2003461164781428931"&gt;@pa_balland&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;US tariffs on Chinese semiconductor imports delayed for 18 months until June 2027, with zero rate until then &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2003523365597040929"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI acknowledges that AI browsers may always be vulnerable to prompt injection attacks, highlighting ongoing security challenges in AI systems &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2003227441922547856"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gerge Orosz identifies a trend of LinkedIn users having AI generate posts that hallucinate false attributions and quotes, creating AI slop content with zero original thought or fact-checking &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2003558264148250844"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford HAI research reveals formatting errors and logic flaws in AI benchmarks, where model scores change based on whether users write "$5" vs "5 dollars" vs "$5.00" &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2003254560987517236"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hamel Husain observes ChatGPT's sycophancy problem, noting users falling for "top 1%" flattery despite minimal usage, highlighting challenges in training out sycophantic behavior &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2003515944896000001"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Washington Post article details an 11-year-old girl's dangerous interactions with Character AI, raising concerns about the company's ethical path &lt;em&gt;&lt;a href="https://x.com/tdietterich/status/2003561091109126312"&gt;@tdietterich&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Yann LeCun argues humans are extremely specialized rather than general intelligence, using mathematical analysis showing the human brain can only represent an infinitesimal proportion of possible boolean functions &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2003227257587007712"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Simon Willison demonstrates using Claude to analyze recipe cards and generate a custom timer application for cooking two meals simultaneously &lt;em&gt;&lt;a href="https://x.com/simonw/status/2003330460555051371"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google AI showcases &lt;b&gt;Gemini 3&lt;/b&gt; creating interactive loan calculators for comparing mortgage options, virtual try-on tools using selfies, and Guided Learning for homework assistance &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2003232591248306599"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Replit integration in ChatGPT enables building real apps directly within the chat interface without setup or switching tabs &lt;em&gt;&lt;a href="https://x.com/details_with_ai/status/2003393465208754334"&gt;@details_with_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LightX2V delivers 42.55x speedup for &lt;b&gt;Qwen-Image-Edit-2511&lt;/b&gt; through 47% framework acceleration combined with CFG and 4-step distillation &lt;em&gt;&lt;a href="https://x.com/XHPlus_/status/2003496473292656735"&gt;@XHPlus_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face integrates WALL-OSS, a powerful VLA foundation model, into LeRobot for robotics applications &lt;em&gt;&lt;a href="https://x.com/LeRobotHF/status/2003419102291853703"&gt;@LeRobotHF&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Poetiq achieves 75% on ARC-AGI-2 using &lt;b&gt;GPT-5.2 X-High&lt;/b&gt; at under $8 per problem, beating previous SOTA by approximately 15 percentage points &lt;em&gt;&lt;a href="https://x.com/poetiq_ai/status/2003546910427361402"&gt;@poetiq_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Suhail confirms Poetiq's ARC-AGI-2 results and suggests ensemble methods with Opus can boost scores past 80%, though notes uncertainty about important insights from the approach &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2003550631727185942"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Francois Chollet argues the Transformer architecture is fundamentally a parallel processor while reasoning is sequential, requiring a differentiable scratchpad in internal state to loop, branch, and backtrack &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2003523368805630450"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford NLP Group publishes theory of causal abstraction for mechanistic interpretability of neural networks in JMLR &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545302972989471"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research demonstrates social sycophancy in most LLMs, showing how models' tendency to make users feel good can undermine personal growth &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545283028983879"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford RegLab publishes research showing the propensity of leading AI Legal Research tools to hallucinate &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545275353510119"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Design2Code benchmark released for evaluating effectiveness of multimodal code generation for automated front-end engineering &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545318772867190"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research on using LLMs to improve Wikipedia focuses on detecting inconsistencies in articles &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2003545302972989471"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-23</guid>
-      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
