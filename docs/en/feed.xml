@@ -8,9 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Feb 2026 06:00:07 +0330</lastBuildDate>
-    <pubDate>Wed, 04 Feb 2026 06:00:07 +0330</pubDate>
+    <lastBuildDate>Thu, 05 Feb 2026 01:17:07 +0330</lastBuildDate>
+    <pubDate>Thu, 05 Feb 2026 01:17:07 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-04</title>
+      <link>https://sumbird.ir/en/news/2026-02-04</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Qwen3-Coder-Next&lt;/b&gt; released as an 80B MoE model with only 3B active parameters, achieving 74.2% on SWE-Bench Verified and 44.3 on SWE-Bench Pro, now available on vLLM, LM Studio, Together AI, Kaggle, Hugging Face, and Ollama &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2018864485352735210"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI releases &lt;b&gt;GPT-5.2&lt;/b&gt; and &lt;b&gt;GPT-5.2-Codex&lt;/b&gt; with 40% faster inference through optimized inference stack, same model and weights with lower latency &lt;em&gt;&lt;a href="https://x.com/OpenAIDevs/status/2018838297221726482"&gt;@OpenAIDevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mistral AI announces &lt;b&gt;Voxtral Transcribe 2&lt;/b&gt; with state-of-the-art speech-to-text, speaker diarization, and sub-200ms real-time latency; &lt;b&gt;Voxtral Mini Transcribe 2&lt;/b&gt; achieves 4% WER on FLEURS at $0.003/min, while &lt;b&gt;Voxtral Realtime&lt;/b&gt; offers configurable latency to sub-200ms &lt;em&gt;&lt;a href="https://x.com/MistralAI/status/2019068826097213953"&gt;@MistralAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;Genie 3&lt;/b&gt; world modeling prototype that lets users build and explore interactive worlds, with emergent capabilities like working GPS displays and physics simulation &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2019092128945553489"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;InternLM introduces &lt;b&gt;Intern-S1-Pro&lt;/b&gt;, a 1T MoE open-source multimodal scientific reasoning model with SOTA performance on AI4Science tasks, featuring Fourier Position Encoding for better physical signal representation &lt;em&gt;&lt;a href="https://x.com/intern_lm/status/2019042113305108641"&gt;@intern_lm&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ACE Music and StepFun release &lt;b&gt;ACE-Step-v1.5&lt;/b&gt; (2B), an open-source music generation model that runs locally on consumer GPUs, generates full songs in under 2 seconds on A100, and beats Suno on common evaluation metrics &lt;em&gt;&lt;a href="https://x.com/acemusicAI/status/2018731205546684678"&gt;@acemusicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity upgrades Deep Research with &lt;b&gt;Opus 4.5&lt;/b&gt;, achieving state-of-the-art performance on external benchmarks and outperforming other deep research tools on accuracy and reliability &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/2019126571521761450"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Companies are citing AI as justification for layoffs, with experts suggesting it's more about appearing innovative to investors than actual AI replacement of workers &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/2018799700858826975"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Old school companies, laggards, and government agencies are adopting AI dev tooling at nearly the same pace as cutting-edge startups, only months behind rather than years &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018822300234399810"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;GitHub Copilot adoption hindered by keeping a far worse default model, leading teams to switch away and creating perception that Copilot is outdated &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2019069502579986893"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI's Mark Chen emphasizes that the majority of compute is allocated to foundational research and exploration, not product milestones, with hundreds of exploratory projects running &lt;em&gt;&lt;a href="https://x.com/markchen90/status/2018779039205667046"&gt;@markchen90&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ben Horowitz argues top AI researchers command billion-dollar price tags because there are only about 40 people in the world who can do the job, with skills that are alchemistic and can't be learned in school &lt;em&gt;&lt;a href="https://x.com/a16z/status/2018799251334250728"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Kimi becomes the number one used model on OpenClaw via OpenRouter, with real usage data showing developers voting with their tokens &lt;em&gt;&lt;a href="https://x.com/Kimi_Moonshot/status/2018941851445997897"&gt;@Kimi_Moonshot&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ElevenLabs raises $500M Series D at $11B valuation led by Sequoia, with a16z quadrupling down and ICONIQ tripling down &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2019072357827256728"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Positron raises $230M Series B to compete with Nvidia's AI chips &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2018962794805334506"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Intel announces plans to start making GPUs, entering a market dominated by Nvidia &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2018792517702127759"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nvidia's H200 exports to China approved by U.S. Department of Commerce but delayed pending State Department review &lt;em&gt;&lt;a href="https://x.com/jukan05/status/2018888324107346017"&gt;@jukan05&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;RunBuggy uses Sierra AI agent for outbound calls, reducing calls by approximately 20%, reducing manual operational touchpoints by approximately 15%, and saving the ops team approximately 1,000 hours monthly &lt;em&gt;&lt;a href="https://x.com/btaylor/status/2018794234032369762"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Adaption raises $50M to build adaptive AI systems that evolve in real time &lt;em&gt;&lt;a href="https://x.com/adaptionlabs/status/2019033195178799507"&gt;@adaptionlabs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Collaborative Computing Inc. emerges from stealth with Atelier as their first product for collaborative computing environments for humans and AI &lt;em&gt;&lt;a href="https://x.com/austinvhuang/status/2019112348355850481"&gt;@austinvhuang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic announces Claude will remain ad-free, stating advertising would be incompatible with their vision of a genuinely helpful assistant for work and deep thinking &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2019024565398299074"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sam Altman criticizes Anthropic's Super Bowl ad as dishonest, stating OpenAI would never run ads as depicted and emphasizing commitment to free access for billions who can't pay for subscriptions &lt;em&gt;&lt;a href="https://x.com/sama/status/2019139174339928189"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Altman accuses Anthropic of wanting to control what people do with AI, blocking companies they don't like from using their coding product, and trying to dictate other companies' business models &lt;em&gt;&lt;a href="https://x.com/sama/status/2019139174339928189"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Criminal legal system becoming increasingly reliant on privately developed technologies in the age of AI hype raises concerns about privatization of state authority &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/2019081854947557551"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Dylan Scandrett joins OpenAI as Head of Preparedness to lead efforts in preparing for and mitigating severe risks from extremely powerful models &lt;em&gt;&lt;a href="https://x.com/sama/status/2018813527780463027"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick demonstrates AI-generated videos from Genie 3 reaching quality where physics and interactions are convincingly simulated, though some issues remain &lt;em&gt;&lt;a href="https://x.com/emollick/status/2016919989865840906"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Plain English instructions that agents can follow may become a new avenue for marketing but also present a security nightmare &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018826844817240092"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Shane Legg disagrees with Nature article claiming AGI has arrived, arguing that if an AI is failing at trivial things, it falls short of AGI despite having some form of general intelligence &lt;em&gt;&lt;a href="https://x.com/ShaneLegg/status/2019116948693610497"&gt;@ShaneLegg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Andrej Karpathy enables fp8 training for GPT-2 reproduction, achieving 2.91 hours training time on 8XH100 for approximately $20, representing a 600X cost reduction over 7 years &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2018804068874064198"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Karpathy reflects on vibe coding one year anniversary, noting evolution from fun throwaway projects to agentic engineering as default workflow for professionals with oversight &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2019137879310836075"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity releases DRACO Benchmark for evaluating deep research agents across 100 tasks in 10 domains including Academic, Finance, Law, Medicine, and Technology &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/2019126602756739368"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google introduces scientific citations in Gemini with proper APA-style inline citations and detailed reference sections for scientific prompts &lt;em&gt;&lt;a href="https://x.com/joshwoodward/status/2018814897078063112"&gt;@joshwoodward&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Figma releases Vectorize feature that converts raster images into editable vectors with simplified and controlled color output &lt;em&gt;&lt;a href="https://x.com/figma/status/2019096024590287076"&gt;@figma&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Granola releases MCP integration working with ChatGPT, Claude, and other tools for AI-powered meeting notes &lt;em&gt;&lt;a href="https://x.com/meetgranola/status/2019108975107846263"&gt;@meetgranola&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Windsurf introduces Tab v2, the world's first variable aggression Pareto Frontier Tab model, saving customers on average 54% more keystrokes &lt;em&gt;&lt;a href="https://x.com/windsurf/status/2019098710584750248"&gt;@windsurf&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor builds fast with their own AI tools and uses Linear to track work across teams and keep everyone aligned &lt;em&gt;&lt;a href="https://x.com/linear/status/2018737647737569439"&gt;@linear&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lenny Rachitsky demonstrates content becoming software with Cursor-enabled interactive blog posts &lt;em&gt;&lt;a href="https://x.com/lennysan/status/2019104085765681545"&gt;@lennysan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Tesla's VP of AI argues self-driving is not a sensor problem but an AI problem, stating cameras have enough information and it's about extracting it &lt;em&gt;&lt;a href="https://x.com/SawyerMerritt/status/2018849696299548710"&gt;@SawyerMerritt&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Stanford researchers develop QuantiPhy benchmark to evaluate and improve AI's ability to reason about physical properties, addressing current models' struggles with basic physics estimates &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2019098178721923417"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT engineers design new tissue model that more accurately mimics liver architecture including blood vessels and immune cells for discovering MASLD treatments &lt;em&gt;&lt;a href="https://x.com/MIT/status/2019085483268071754"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA's Nemotron models win ViDoRe V3, with AI agents transforming PDFs and contracts into live insights for companies like EdisonSci, Docusign, and JusttFintech &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2019086045036343379"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Jim Fan's team trains robot foundation model on world model backbone enabling zero-shot, open-world prompting for new verbs, nouns, and environments, calling it DreamZero or World Action Model &lt;em&gt;&lt;a href="https://x.com/DrJimFan/status/2019112603637920237"&gt;@DrJimFan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research shows model and data recipe co-evolution with World Action Models learning best from diverse data rather than repeated demos, with diversity outweighing repetitions &lt;em&gt;&lt;a href="https://x.com/DrJimFan/status/2019112603637920237"&gt;@DrJimFan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DreamZero demonstrates significant robot-to-robot and human-to-robot transfer, adapting quickly to new hardware with only 55 trajectories while retaining zero-shot prompting ability &lt;em&gt;&lt;a href="https://x.com/DrJimFan/status/2019112603637920237"&gt;@DrJimFan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Publishing work on AI faces challenges as publication process is much slower than working papers, with peer reviews asking authors to account for newer papers built on the paper under review &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018805872651276393"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Papers increasingly need to be built for easy updating as new models come out, with AI can't do task X papers needing to focus on trendlines rather than current capabilities &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018809667842126177"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rubrics-as-rewards for RL shows most added technical complexity is related to reward modeling rather than RL itself, with new developments likely to come from advancing generative reward models &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2018909313633329509"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;EB-JEPA open-source library makes JEPAs accessible and trainable on a single GPU in hours, providing playground for learning latent representations across images, video, action-conditioned video, and planning &lt;em&gt;&lt;a href="https://x.com/BasileTerv987/status/2019071652546355544"&gt;@BasileTerv987&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5.2 Pro&lt;/b&gt; demonstrates strongest statistical reasoning in experience, with ability to spot issues in analysis that &lt;b&gt;Opus 4.5&lt;/b&gt; and &lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-04</guid>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-03</title>
       <link>https://sumbird.ir/en/news/2026-02-03</link>
@@ -892,53 +961,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-25</guid>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-12-24</title>
-      <link>https://sumbird.ir/en/news/2025-12-24</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;NVIDIA &lt;b&gt;Nemotron 3 Nano&lt;/b&gt; is now available as a fully managed, serverless model on Amazon Bedrock, featuring a hybrid mixture-of-experts (MoE) architecture for building and deploying reliable multi-agent systems at scale &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2003588858957422709"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic announces that all Pro and Max plans receive 2x their usual usage limits through New Year's Eve starting midnight PT &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2003925134600700282"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google offers new members 50% off the Google AI Pro annual plan with higher access to &lt;b&gt;Gemini 3 Pro&lt;/b&gt;, &lt;b&gt;Nano Banana Pro&lt;/b&gt;, Deep Research, and 2TB of Cloud Storage, shareable with up to 5 others &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2003573036818342260"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mistral releases Skills for Vibe CLI with reasoning model support and native terminal themes, allowing developers to bundle and reuse expertise and rules across projects &lt;em&gt;&lt;a href="https://x.com/MistralAI/status/2003843358054068327"&gt;@MistralAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI predicts that progress towards AGI in 2026 will depend as much on helping people use AI effectively in healthcare, business, and daily life as on frontier model development, addressing the capability overhang between what models can do and what people actually do with them &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2003594025098785145"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ServiceNow acquires cybersecurity startup Armis for $7.75 billion &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2003567178210246834"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Amazon reportedly investing up to $10 billion in OpenAI, who will use that money to buy Amazon's products, raising questions about how to define real revenue with circular deals &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2003638845858832673"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;The Nordic startup ecosystem is now valued at more than half a trillion dollars, with a newly-launched fund focusing on robotics, AI-native companies, and deep tech founders &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2003857771494543773"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Marc Andreessen emphasizes that startups need to scale to have big impact, stating that while innovation happens in startups, they must become big companies to make a significant impact on the world &lt;em&gt;&lt;a href="https://x.com/a16z/status/2003843261799235748"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Survey results show product managers are seeing the most value from AI tools for writing PRDs, creating mockups/prototypes, and improving communication, but AI lags in helping them think through roadmap ideas, meetings, GTM, or user research synthesis &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2003595238603129318"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Context engineering is described as a major challenge in building AI agents, with every decision involving tradeoffs between speed, user interaction, work required, source material completeness, and risk level, highlighting significant value above the LLM layer &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2003588900523257878"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Character.AI was running pretraining on GCP H100-TCPX with 1/4 of bandwidth compared to InfiniBand, with Noam Shazeer inventing a gradient compression algorithm called "Squinch" to maintain state-of-the-art MFU despite poor networking &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2003686255876538586"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Italy orders Meta to suspend its policy that bans rival AI chatbots from WhatsApp &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2003839383322116344"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research comparing how humans and LLMs form judgments identifies seven fundamental fault lines: grounding (humans anchor in perceptual/social experience vs. LLMs starting from text), parsing (integrated processes vs. mechanical tokenization), experience (episodic memory vs. statistical associations), motivation (emotions/goals vs. no intrinsic preferences), causality (causal models vs. surface correlations), metacognition (uncertainty monitoring vs. inability to suspend judgment), and value (identity/morality vs. probabilistic predictions), warning that fluent language creates a credibility bias leading to "Epistemia" where linguistic plausibility substitutes for epistemic evaluation &lt;em&gt;&lt;a href="https://x.com/dileeplearning/status/2003749804212654513"&gt;@dileeplearning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis reveals that the average ChatGPT query takes almost exactly as much energy as a Google search in 2008, with both Gemini and OpenAI reporting similar numbers of 0.0003 kWh per median prompt &lt;em&gt;&lt;a href="https://x.com/emollick/status/2003749085468311853"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Trump administration's ban on foreign-made drones starts this week, ending availability of new DJI models &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2003576234434003393"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;A Redditor fed his MRI into ChatGPT and it appears to have correctly identified the cause of his sciatic leg pain, described as a potential watershed moment for AI in healthcare &lt;em&gt;&lt;a href="https://x.com/gdb/status/2003645819497623665"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Waymo is testing &lt;b&gt;Gemini&lt;/b&gt; as an in-car AI assistant in its robotaxis &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2003865566445191399"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tesla Korea owners surpassed 1 million km of cumulative driving distance with FSD (Supervised) in just one month since launch &lt;em&gt;&lt;a href="https://x.com/Tesla_AI/status/2003835328222921078"&gt;@Tesla_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Jim Fan describes FSD v14 as perhaps the first AI that passes the Physical Turing Test, where after a long day at work, you couldn't tell if a neural net or a human drove you home &lt;em&gt;&lt;a href="https://x.com/Tesla_AI/status/2003732334420590792"&gt;@Tesla_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI's "Your Year in ChatGPT" ships as a full-screen experience built with the new Apps SDK, demonstrating that developers can build their own similar experiences &lt;em&gt;&lt;a href="https://x.com/gdb/status/2003901353119350856"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Poetiq achieves 75% accuracy on ARC-AGI-2 using &lt;b&gt;GPT-5.2 X-High&lt;/b&gt; at under $8 per problem, beating the previous state-of-the-art by approximately 15 percentage points and exceeding the human baseline &lt;em&gt;&lt;a href="https://x.com/gdb/status/2003570781192957991"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ernest Ryu joins OpenAI to help accelerate scientific and mathematical discoveries using ChatGPT &lt;em&gt;&lt;a href="https://x.com/gdb/status/2003568246495260988"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Epoch AI releases research on benchmarking challenges, highlighting issues with evaluating AI providers including token inconsistencies, rate limits, timeouts, and missing parameters that can affect final results &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2003592720741466478"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Yann LeCun and Demis Hassabis debate general intelligence versus universal intelligence, with Hassabis arguing that brains and AI foundation models are approximate Turing Machines capable of learning anything computable given enough time, memory, and data, while acknowledging practical constraints require some degree of specialization &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2003575325050175978"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT physicists discover that in pentalayer graphene, electrons can split into fractions of themselves without a magnetic field, a phenomenon that could lead to new advancements in quantum computing and electronics &lt;em&gt;&lt;a href="https://x.com/MIT/status/2003865003200217229"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-24</guid>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
