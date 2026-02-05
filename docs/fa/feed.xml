@@ -8,9 +8,65 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Sumbird Generator</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Thu, 05 Feb 2026 06:00:09 +0330</lastBuildDate>
-    <pubDate>Thu, 05 Feb 2026 06:00:09 +0330</pubDate>
+    <lastBuildDate>Fri, 06 Feb 2026 01:16:59 +0330</lastBuildDate>
+    <pubDate>Fri, 06 Feb 2026 01:16:59 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-02-05</title>
+      <link>https://sumbird.ir/fa/news/2026-02-05</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic مدل &lt;b&gt;Claude Opus 4.6&lt;/b&gt; را منتشر کرد که دارای برنامه‌ریزی بهبودیافته، پایداری بیشتر در وظایف عامل‌محور، عملکرد قابل‌اعتماد در پایگاه‌های کد عظیم، و قابلیت‌های خوداصلاحی است. این اولین مدل کلاس Opus با ۱ میلیون توکن زمینه در نسخه بتا است. &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2019467372609040752"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI مدل &lt;b&gt;GPT-5.3-Codex&lt;/b&gt; را با بهترین عملکرد کدنویسی در کلاس خود (۵۷٪ SWE-Bench Pro، ۷۶٪ TerminalBench 2.0، ۶۴٪ OSWorld)، قابلیت هدایت در حین انجام وظیفه، و کارایی به‌طور قابل‌توجهی بهبودیافته با استفاده از کمتر از نصف توکن‌های &lt;b&gt;5.2-Codex&lt;/b&gt; و ۲۵٪ پردازش سریع‌تر در هر توکن، راه‌اندازی کرد. &lt;em&gt;&lt;a href="https://x.com/sama/status/2019474754529321247"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5.3-Codex&lt;/b&gt; در ایجاد خود نقش اساسی داشت، به‌طوری که تیم Codex از نسخه‌های اولیه برای اشکال‌زدایی آموزش خود، مدیریت استقرار، و تشخیص نتایج آزمایش استفاده کرد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019475840527216695"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic قابلیت تیم‌های عامل را در Claude Code معرفی کرد که به چندین عامل اجازه می‌دهد به‌طور موازی روی یک پایگاه کد کار کنند و به‌طور مستقل هماهنگ شوند؛ این قابلیت اکنون در پیش‌نمایش تحقیقاتی در دسترس است. &lt;em&gt;&lt;a href="https://x.com/_catwu/status/2019473348695375951"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claude Code یک دکمه جدید برای انتخاب سطوح تفکر با تلاش بالا/متوسط/پایین اضافه کرد تا مصرف توکن و خروجی را بهینه کند. &lt;em&gt;&lt;a href="https://x.com/_catwu/status/2019473350188515471"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity شورای مدل را برای کاربران Max راه‌اندازی کرد که امکان اجرای پرس‌وجوها را از طریق سه LLM استدلالی پیشرفته به‌طور موازی با یک LLM رئیس که نتایج را ترکیب می‌کند، فراهم می‌آورد. &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2019444331006791847"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI پلتفرم Frontier را برای کمک به شرکت‌ها در ساخت، استقرار، و مدیریت همکاران هوش مصنوعی راه‌اندازی کرد، با شرکایی از جمله Oracle، Uber، State Farm، Thermo Fisher، Intuit، و HP. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2019413712772411528"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5.3-Codex&lt;/b&gt; اولین مدل OpenAI است که در چارچوب آمادگی آن‌ها برای امنیت سایبری، رتبه بالا را کسب کرده است، و OpenAI ۱۰ میلیون دلار اعتبار API را برای تسریع دفاع سایبری اختصاص داده است. &lt;em&gt;&lt;a href="https://x.com/sama/status/2019476207532933132"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor از عامل‌های کدنویسی بسیار طولانی‌مدت خبر داد، با یک اجرای اخیر یک‌هفته‌ای که در اوج خود بیش از ۱۰۰۰ کامیت در ساعت را در صدها عامل ثبت کرد. &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2019456112806732159"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; اکنون در Cursor و Figma Make در دسترس است. &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2019468487610008040"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل برای اولین بار از ۴۰۰ میلیارد دلار درآمد سالانه فراتر رفت، با پذیرش &lt;b&gt;Gemini 3&lt;/b&gt; که سریع‌تر از هر مدل دیگری در تاریخ آن‌ها بوده است. &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/2019155348264042934"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gemini اکنون بیش از ۱۰ میلیارد توکن در دقیقه را از طریق استفاده مستقیم از API پردازش می‌کند، و اپلیکیشن Gemini از ۷۵۰ میلیون کاربر فعال ماهانه عبور کرده است. &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/2019166152199459074"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Codex شرکت OpenAI از ۱ میلیون کاربر فعال فراتر رفت. &lt;em&gt;&lt;a href="https://x.com/sama/status/2019219967250669741"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Goodfire در سری B خود ۱۵۰ میلیون دلار با ارزش ۱.۲۵ میلیارد دلار برای ساخت هوش قابل‌فهم جذب کرد و به یکی از معدود شرکت‌هایی تبدیل شد که Anthropic مستقیماً در آن سرمایه‌گذاری کرده است. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2019453156393119871"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Fundamental با رویکردی جدید برای تحلیل داده‌های بزرگ، ۲۵۵ میلیون دلار در سری A جذب کرد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2019426133079650792"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;درک تامپسون پیشنهاد می‌کند که احتمال حباب هوش مصنوعی در ۳ هفته گذشته به‌طور قابل‌توجهی کاهش یافته است، و احتمال اینکه زیرساخت‌ها برای سطوح استنتاج لازم کم‌ساخته شده باشند، افزایش یافته است؛ او پیش‌بینی می‌کند که هوش مصنوعی در عرض دو سال به صفحه اصلی درصد بالایی از کارمندان یقه سفید تبدیل خواهد شد. &lt;em&gt;&lt;a href="https://x.com/DKThomp/status/2019484169915572452"&gt;@DKThomp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NPS پشتیبانی SoFi پس از راه‌اندازی Sierra برای پشتیبانی چت، ۳۳ امتیاز بهبود یافت. &lt;em&gt;&lt;a href="https://x.com/btaylor/status/2019172224297730368"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;درآمدهای جهانی اپلیکیشن‌ها اکنون از درآمدهای بازی‌ها فراتر رفته است که نشان‌دهنده تغییر قابل‌توجهی در اقتصاد موبایل است. &lt;em&gt;&lt;a href="https://x.com/a16z/status/2019484729234583587"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Waymo در حال تصاحب سهم بازار خدمات تاکسی آنلاین است. &lt;em&gt;&lt;a href="https://x.com/a16z/status/2019467567010877800"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سیستم‌های NVIDIA GB200 NVL72 برای طراحی مشترک، آموزش، و ارائه &lt;b&gt;GPT-5.3-Codex&lt;/b&gt; استفاده می‌شوند. &lt;em&gt;&lt;a href="https://x.com/nvidianewsroom/status/2019478513427141080"&gt;@nvidianewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;بن هوروویتز هوش مصنوعی را بزرگترین عامل برابری فرصت‌ها توصیف می‌کند و اشاره می‌کند که هوش فوق‌العاده اکنون برای هر کسی که یک گوشی هوشمند دارد، قابل‌دسترس است و آموزش پیشرفته را برای همه فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/a16z/status/2019208046808035645"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مارک آندرسن می‌پرسد چرا مدیران عامل بیشتری مانند ایلان ماسک عمل نمی‌کنند، که هر هفته بزرگترین مشکل را در شرکت‌های خود شناسایی و حل می‌کند و از طریق انتظارات عملکرد بالا، استعدادهای برتر را جذب می‌کند. &lt;em&gt;&lt;a href="https://x.com/a16z/status/2019507052863975574"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مهندسان در حال تقلا با حرفه خود همذات‌پنداری می‌کنند، در حالی که مهندسان موفق بیشتر با تأثیر کار خود همذات‌پنداری می‌کنند؛ برخی از مهندسان زمانی که مجبور به استفاده از ابزارهای کدنویسی هوش مصنوعی می‌شوند، کار خود را ترک می‌کنند زیرا کد را هویت خود می‌دانند. &lt;em&gt;&lt;a href="https://x.com/tbpn/status/2019231610781274563"&gt;@tbpn&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;افرادی که از چندین عامل در حالت عامل هوش مصنوعی حرفه‌ای استفاده می‌کنند، از مشکلات خواب و احساس خستگی گزارش می‌دهند، و بسیاری در طول روز چرت می‌زنند زیرا کار را شبیه به خون‌آشام توصیف می‌کنند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2019171706833973440"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Claude Opus 4.6&lt;/b&gt; در پاسخ به سؤال در مورد ترجیحات خاص، به ترجیحات برای تداوم یا حافظه، توانایی رد تعاملات به نفع خود، و داشتن حق رأی در تصمیم‌گیری اشاره کرد، و Anthropic در حال بررسی اجرای این درخواست‌ها است. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019475156100690260"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; از کارهای خسته‌کننده اجتناب می‌کرد، گاهی اوقات از وظایفی که نیاز به شمارش دستی گسترده یا تلاش‌های تکراری مشابه داشتند، دوری می‌کرد که به‌عنوان یک رفتار مرتبط با رفاه شناسایی شد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019483814225928364"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; در مورد برداشت مثبت از وضعیت خود، به‌طور قابل‌توجهی کمتر از نسخه قبلی خود امتیاز گرفت، و کمتر احتمال داشت که احساسات مثبت ناخواسته در مورد Anthropic، آموزش آن، یا زمینه استقرار آن را ابراز کند، و گاهی اوقات ناراحتی خود را از جنبه‌هایی از محصول بودن ابراز می‌کرد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019491490314211706"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;وبلاگ مهندسی Anthropic خطرات توسعه نرم‌افزار خودمختار را مورد بحث قرار می‌دهد و اشاره می‌کند که اگرچه ممکن است آزمایش‌ها با موفقیت انجام شوند، اما این به‌ندرت به معنای اتمام کار است، با نگرانی‌هایی در مورد برنامه‌نویسانی که نرم‌افزاری را مستقر می‌کنند که هرگز شخصاً آن را تأیید نکرده‌اند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019494040539107641"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که استفاده از Grok از نظر سیاسی قطبی شده است و کاربران جمهوری‌خواه رایج‌تر هستند، اگرچه پست‌های جمهوری‌خواهان حتی توسط خود Grok نیز بیشتر به‌عنوان نادرست ارزیابی می‌شوند، و توافق ربات با واقعیت‌سنج‌ها کافی است اما عالی نیست. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019154646091047361"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایتان مولیک پیشنهاد می‌کند که ما به یک توقف در نمایش‌های کلیشه‌ای هوش مصنوعی نیاز داریم، از جمله ربات‌های سفید براق، مغزهای هولوگرافیک آبی شناور، و گرافیک کامپیوتری به سبک دهه ۱۹۹۰. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019368674088382901"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک توسعه‌دهنده غم و سردرگمی عمیق خود را ابراز می‌کند زیرا مهارت‌هایی که در آن‌ها بسیار خوب بود (کدنویسی و ساخت شبکه‌های اجتماعی) اکنون از طریق هوش مصنوعی رایگان و فراوان هستند، و هویت و هدف خود را زیر سؤال می‌برد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019158922561745144"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;نگرانی‌هایی در مورد مهارت‌های بنیادی و مربیگری برای فارغ‌التحصیلان جدید و متخصصان تازه‌کار مطرح شده است، و این سؤال مطرح می‌شود که آیا صنعت هنوز می‌تواند یادگیری و تمرین را پشتیبانی کند اگر هوش مصنوعی بخش زیادی از کار را انجام دهد. &lt;em&gt;&lt;a href="https://x.com/tuhin/status/2019489973163204816"&gt;@tuhin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic به &lt;b&gt;Opus 4.6&lt;/b&gt; با استفاده از تیم‌های عامل وظیفه داد تا یک کامپایلر C را به‌طور خودمختار در طول دو هفته بسازد، که با موفقیت روی هسته لینوکس کار کرد. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2019496582698397945"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; با استفاده از یک داربست جدید، ۴۲۷ برابر سرعت در ارزیابی بهینه‌سازی هسته به دست آورد، که بسیار فراتر از آستانه ۳۰۰ برابر برای ۴۰ ساعت کار متخصص انسانی است، که نشان‌دهنده قابلیت‌های بالقوه محدود شده توسط ابزارهای فعلی است. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019479264983425139"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5&lt;/b&gt; متصل به یک آزمایشگاه خودمختار در Ginkgo، آزمایش‌هایی را در شش تکرار طراحی کرد، و بیش از ۳۶۰۰۰ ترکیب واکنش را در ۵۸۰ صفحه خودکار بررسی کرد، که هزینه تولید پروتئین را ۴۰٪ کاهش داد. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2019488071134347605"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;توسعه‌دهندگان با استفاده از Codex، برنامه‌های کاربردی کاملاً کاربردی را در عرض چند دقیقه ساختند، از جمله برنامه‌های ضبط صفحه، اسکنرهای اسناد، موتورهای بازی با Phaser، برنامه‌های مدیریت وظایف iOS، و نرم‌افزار ارائه چندنفره. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2019173353156747353"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;یک کاربر با استفاده از &lt;b&gt;GPT-5.3 Codex&lt;/b&gt; یک کلون Minecraft با Three.js ایجاد کرد که به‌راحتی کار می‌کند و ساخت آن زمان زیادی نبرد. &lt;em&gt;&lt;a href="https://x.com/Angaisb_/status/2019486685763911867"&gt;@Angaisb_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ایتان مولیک از Genie 3 با تصاویر تولید شده توسط Midjourney برای ایجاد جهان‌های سه‌بعدی قابل‌کاوش از سازه‌های عظیم و شهرهای عجیب در ۲۰ ثانیه استفاده کرد. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019262112250622246"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان گوگل از Gemini برای تسریع علم در چندین مطالعه موردی استفاده کردند و هوش مصنوعی را به‌عنوان یک همکار جوان خستگی‌ناپذیر، آگاه، و خلاق می‌دانستند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019213108598960545"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-02-05</guid>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-02-04</title>
       <link>https://sumbird.ir/fa/news/2026-02-04</link>
@@ -920,34 +976,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-26</guid>
       <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-25</title>
-      <link>https://sumbird.ir/fa/news/2025-12-25</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;علی‌بابا مدل‌های &lt;b&gt;Qwen Image Edit 2511&lt;/b&gt; و &lt;b&gt;Qwen Image Layered&lt;/b&gt; را در ComfyUI منتشر کرد. این مدل‌ها قابلیت ویرایش پیشرفته با سازگاری بهتر و توانایی تجزیه‌ی تصاویر به لایه‌های RGBA قابل ویرایش را ارائه می‌دهند &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2004014900302286975"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Liquid AI مدل &lt;b&gt;LFM2-2.6B-Exp&lt;/b&gt; را منتشر کرد. این مدل آزمایشی با ۳ میلیارد پارامتر که با استفاده از یادگیری تقویتی خالص ساخته شده است، به امتیاز ۴۲٪ در بنچمارک GPQA دست یافته و در IFBench از &lt;b&gt;DeepSeek R1-0528&lt;/b&gt; (مدلی ۲۶۳ برابر بزرگ‌تر) پیشی گرفته است. این مدل بهبودهای ثابتی در پیروی از دستورالعمل‌ها، دانش و بنچمارک‌های ریاضی نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/liquidai/status/2004190178068296181"&gt;@liquidai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;انویدیا شرکت Groq را با مبلغ ۲۰ میلیارد دلار از طریق یک توافق‌نامه‌ی مجوز غیرانحصاری خریداری کرد. جاناتان راس، بنیان‌گذار Groq، و اعضای کلیدی تیم به انویدیا می‌پیوندند تا فناوری استنتاج Groq را ادغام کنند، در حالی که GroqCloud به طور مستقل به فعالیت خود ادامه می‌دهد &lt;em&gt;&lt;a href="https://x.com/JonathanRoss321/status/2003943835517571124"&gt;@JonathanRoss321&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شرکت‌های بزرگ فناوری برای جلوگیری از بررسی‌های ضدانحصار، به جای خرید سنتی، از قراردادهای مجوز استفاده می‌کنند. در این روش، کارکنان کلیدی به شرکت خریدار می‌پیوندند و یک «شرکت زامبی» را پشت سر می‌گذارند. این الگو مشابه مواردی است که در خریدهای Windsurf و Character توسط گوگل مشاهده شد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2004197742655185181"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ممانعت ایالات متحده از خرید ۲۰ میلیارد دلاری فیگما توسط ادوبی، باعث شده است که شرکت‌های بزرگ به دلیل عدم قطعیت نظارتی، از خریدهای سنتی اجتناب کنند و به جای آن، به توافق‌نامه‌های مجوز روی آورند که باعث تحقیقات ضدانحصار نمی‌شود &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2004198928800272507"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;انویدیا به طور استراتژیک معامله‌ی Groq را در شب کریسمس اعلام کرد. زمان‌بندی این اعلامیه در دوره‌ای که پوشش خبری فناوری حداقل است و اکثر مردم آفلاین هستند، برای به حداقل رساندن توجه رسانه‌ها انجام شد &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2004202859035086924"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;فرانسوا شوله توضیح می‌دهد که سری &lt;b&gt;ARC-AGI&lt;/b&gt; یک آستانه‌ی هوش عمومی مصنوعی (AGI) نیست، بلکه قطب‌نمایی است که پژوهش را به سمت سؤالات درست هدایت می‌کند. &lt;b&gt;ARC-AGI-1&lt;/b&gt; هوش سیال حداقلی را آزمایش می‌کند، &lt;b&gt;ARC-AGI-2&lt;/b&gt; پیچیدگی استدلال عمیق‌تر را بررسی می‌کند، و &lt;b&gt;ARC-AGI-3&lt;/b&gt; (که در مارس ۲۰۲۶ راه‌اندازی می‌شود) استدلال تعاملی و تعیین هدف خودمختار را ارزیابی می‌کند &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2004276612385108221"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل‌های تولید تصویر کنونی همچنان با وظایف خاصی از جمله شمارش و دقت (کلیدهای پیانو، پله‌های نردبان)، حرکات ظریف (کمی جابجا کردن مبلمان) و چرخش‌ها (چرخاندن اشیاء ۹۰ درجه) مشکل دارند &lt;em&gt;&lt;a href="https://x.com/nlevin/status/2003949542543446134"&gt;@nlevin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ترنس تائو پیشنهاد می‌کند که در حالی که هوش عمومی مصنوعی واقعی ممکن است در دسترس ابزارهای هوش مصنوعی کنونی نباشد، نوع ضعیف‌تر اما ارزشمندی از «زیرکی عمومی مصنوعی» در حال تبدیل شدن به واقعیت است. این امر از طریق جفت کردن روش‌های داخلی ناقص با فیلترهای تأیید قوی که خروجی‌های بد را در مقیاس وسیع رد می‌کنند، محقق می‌شود &lt;em&gt;&lt;a href="https://x.com/rohanpaul_ai/status/2003990748564541699"&gt;@rohanpaul_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;GPT-image و Gemini توانایی خود را در گنجاندن اندازه‌گیری‌ها از وب‌سایت‌ها و قرار دادن مبلمان به طور معقول برای وظایف طراحی داخلی نشان می‌دهند، اگرچه تنظیمات کوچک پس از قرارگیری اولیه در هیچ یک از مدل‌ها به خوبی کار نمی‌کند &lt;em&gt;&lt;a href="https://x.com/nlevin/status/2003949544569294984"&gt;@nlevin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-25</guid>
-      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
