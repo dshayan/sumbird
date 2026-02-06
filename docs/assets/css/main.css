@@ -131,12 +131,25 @@ body {
   color: var(--primary);
 }
 
+.theme-toggle .icon {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.theme-toggle .icon svg {
+  width: 100%;
+  height: 100%;
+}
+
 .theme-toggle .icon-sun {
   display: none;
 }
 
 .theme-toggle .icon-moon {
-  display: inline-block;
+  display: inline-flex;
 }
 
 html.dark .theme-toggle .icon-moon {
@@ -144,7 +157,7 @@ html.dark .theme-toggle .icon-moon {
 }
 
 html.dark .theme-toggle .icon-sun {
-  display: inline-block;
+  display: inline-flex;
 }
 
 /* Dark theme */
