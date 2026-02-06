@@ -117,6 +117,10 @@ python scripts/telegraph_post_manager.py
 ./scripts/pipeline_scheduler.sh status
 ./scripts/pipeline_scheduler.sh test
 
+# Log processing
+python scripts/daily_runs_generator.py              # Generate logs/daily_runs.csv from log.txt
+python scripts/daily_runs_generator.py --input PATH --output PATH
+
 # Development tools
 python scripts/fetcher_monitor.py    # HTTP traffic monitoring
 python scripts/fetcher_original.py   # Alternative RSS fetcher
