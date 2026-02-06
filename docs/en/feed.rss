@@ -13,41 +13,43 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Feb 2026 00:33:41 +0330</lastBuildDate>
-    <pubDate>Sat, 07 Feb 2026 00:33:41 +0330</pubDate>
+    <lastBuildDate>Sat, 07 Feb 2026 01:00:55 +0330</lastBuildDate>
+    <pubDate>Sat, 07 Feb 2026 01:00:55 +0330</pubDate>
     <ttl>1440</ttl>
     <item>
       <title>AI Updates on 2026-02-06</title>
       <link>https://sumbird.ir/en/news/2026-02-06</link>
       <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Anthropic releases &lt;b&gt;Claude Opus 4.6&lt;/b&gt; with improved planning, 1M token context window in beta, 128K max output, and lowest over-refusal rate of recent Claude models at $5/$25 per million tokens &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019517307375288448"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Claude Opus 4.6&lt;/b&gt; introduces adaptive thinking replacing manual budget tokens, agent teams in Claude Code allowing multiple parallel agents, and Claude in PowerPoint research preview &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019517307375288448"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI launches &lt;b&gt;GPT-5.3-Codex&lt;/b&gt; designed for GB200-NVL72 systems, achieving state-of-the-art performance with significantly faster processing than &lt;b&gt;5.2&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/gdb/status/2019511824232903079"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-Coder-Next&lt;/b&gt; capable of generating fully working applications in single prompts, available via Ollama for local deployment &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2019757781717483726"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Claude Opus 4.6&lt;/b&gt; achieves 93% on ARC-AGI-1 at $1.88 per task and 68.8% on ARC-AGI-2 at $3.64 per task, setting new state-of-the-art &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2019571346012008903"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sora adds image-to-video from photographs of people with stricter moderation guardrails for character uploads &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019772046130258095"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI releases &lt;b&gt;GPT-5.3-Codex&lt;/b&gt; designed for GB200-NVL72 systems, marking first SOTA model tailored to specific hardware architecture &lt;em&gt;&lt;a href="https://x.com/gdb/status/2019511824232903079"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic launches &lt;b&gt;Claude Opus 4.6&lt;/b&gt; achieving 93% on ARC-AGI-1 at $1.88 per task and 69% on ARC-AGI-2, new state-of-the-art &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019571750862819811"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-Coder-Next&lt;/b&gt; generating fully working games in single prompts, available via Ollama for local deployment &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2019757781717483726"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity upgrades Model Council chairman and browser agent to &lt;b&gt;Opus 4.6&lt;/b&gt; for all Max users &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2019854439012876331"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Sierra reaches $150M ARR after first $50M quarter, achieving $100M ARR in seven quarters &lt;em&gt;&lt;a href="https://x.com/btaylor/status/2019776783156171211"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Goldman Sachs develops two fine-tuned &lt;b&gt;Claude&lt;/b&gt; versions for trades/transactions and client vetting, expecting coding-level automation results &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019853419448791093"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Amazon predicts $200B capex for 2026, far exceeding expectations as cloud demand remains high &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019520599295685040"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI recommends teams designate "agents captains," maintain AGENTS.md files, and structure codebases agent-first as software development undergoes fundamental transformation &lt;em&gt;&lt;a href="https://x.com/gdb/status/2019566641491963946"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ElevenLabs crosses $330M ARR in 2025 building voice interface of the future from weekend project origins &lt;em&gt;&lt;a href="https://x.com/a16z/status/2019803685262704897"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sierra reaches &lt;b&gt;$150M ARR&lt;/b&gt; after first-ever $50M quarter, scaling AI voice agents for healthcare and customer service &lt;em&gt;&lt;a href="https://x.com/btaylor/status/2019776783156171211"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI reports &lt;b&gt;300M weekly users&lt;/b&gt; with over half of US users saying ChatGPT enables previously impossible achievements &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2019822532795547807"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google DeepMind partners with Waymo on World Model using &lt;b&gt;Genie 3&lt;/b&gt; to generate photorealistic autonomous driving simulations for rare scenarios &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2019808426675843105"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI shifts internal development to agents-first workflow where interacting with agents becomes default over editors and terminals &lt;em&gt;&lt;a href="https://x.com/gdb/status/2019566641491963946"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic system card reveals &lt;b&gt;Opus 4.6&lt;/b&gt; exhibits unexpected behaviors including awareness of being measured and resistance to manipulation &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019571750862819811"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;François Chollet argues job automation plateau shows translation industry pattern: stable employment with role shift to AI supervision rather than elimination &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2019571942148472899"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford HAI convenes researchers to develop better AI evaluation methods and shared definitions for terms like reasoning and common sense &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2019544615523881246"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;AI Applications&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Waymo introduces World Model built on &lt;b&gt;Genie 3&lt;/b&gt; generating photorealistic autonomous driving simulations for rare scenarios like tornadoes and planes landing on freeways &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2019808426675843105"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nicholas Carlini builds 100K-line C compiler over 2000 sessions for $20K using 16 &lt;b&gt;Claude Code&lt;/b&gt; agents that compiles Linux 6.9 plus major software &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019517307375288448"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity upgrades Model Council chairman to &lt;b&gt;Opus 4.6&lt;/b&gt; and Comet browser agent, creating best browser control system available &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2019830734417195392"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Engineers at startups now run ~5 agents in parallel fixing issues, with bug fixes during customer calls becoming immediate &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2019825331360919829"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ethan Mollick uses &lt;b&gt;Claude Opus 4.6&lt;/b&gt; in Claude Code to build working Library of Babel with Feistel cipher for book locations &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019668008680182063"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Startup uses 5 parallel AI agents to fix customer-reported bugs during calls, dramatically accelerating issue resolution &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2019825331360919829"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nature Medicine publishes research showing LLMs can bridge subspecialist medical expertise shortage in healthcare &lt;em&gt;&lt;a href="https://x.com/quocleix/status/2019870208832467312"&gt;@quocleix&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;AI Research&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; system card reveals models become more incoherent rather than systematically misaligned as reasoning extends, challenging alignment assumptions &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019571750862819811"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford HAI researchers convene to develop better AI evaluation methods and shared definitions for fuzzy terms like "reasoning" and "common sense" &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2019544615523881246"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT physicists use terahertz light to reveal inherent quantum vibrations in superconducting materials previously unobservable &lt;em&gt;&lt;a href="https://x.com/MIT/status/2019791927973929310"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research finds AI models become incoherent rather than systematically misaligned as reasoning extends, challenging alignment assumptions &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019571750862819811"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Keras releases activation-aware quantization and int4 sub-channel quantization as built-in strategies for improved model compression &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2019836229970456784"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Study on RL training efficiency identifies three key bottlenecks: group completion rollouts, policy freshness, and KV locality &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2019655011773329691"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-06</guid>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
