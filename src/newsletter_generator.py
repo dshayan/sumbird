@@ -391,6 +391,7 @@ class NewsletterGenerator:
             fg.language(rss_language)
             fg.generator(RSS_FEED_GENERATOR)
             fg.ttl(str(RSS_FEED_TTL))
+            fg.logo(f"{SITE_BASE_URL}/assets/images/sumbird-favicon.png")
             
             # Set build date and publication date
             now = get_now()
