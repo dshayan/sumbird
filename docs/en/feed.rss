@@ -13,9 +13,45 @@
       <link>https://sumbird.ir/en/feed.rss</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Feb 2026 22:37:35 +0330</lastBuildDate>
-    <pubDate>Fri, 06 Feb 2026 22:37:35 +0330</pubDate>
+    <lastBuildDate>Sat, 07 Feb 2026 00:17:06 +0330</lastBuildDate>
+    <pubDate>Sat, 07 Feb 2026 00:17:06 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-06</title>
+      <link>https://sumbird.ir/en/news/2026-02-06</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic releases &lt;b&gt;Claude Opus 4.6&lt;/b&gt; with improved planning, 1M token context window in beta, 128K max output, and lowest over-refusal rate of recent Claude models at $5/$25 per million tokens &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019517307375288448"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Claude Opus 4.6&lt;/b&gt; introduces adaptive thinking replacing manual budget tokens, agent teams in Claude Code allowing multiple parallel agents, and Claude in PowerPoint research preview &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019517307375288448"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI launches &lt;b&gt;GPT-5.3-Codex&lt;/b&gt; designed for GB200-NVL72 systems, achieving state-of-the-art performance with significantly faster processing than &lt;b&gt;5.2&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/gdb/status/2019511824232903079"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-Coder-Next&lt;/b&gt; capable of generating fully working applications in single prompts, available via Ollama for local deployment &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2019757781717483726"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Claude Opus 4.6&lt;/b&gt; achieves 93% on ARC-AGI-1 at $1.88 per task and 68.8% on ARC-AGI-2 at $3.64 per task, setting new state-of-the-art &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2019571346012008903"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sora adds image-to-video from photographs of people with stricter moderation guardrails for character uploads &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019772046130258095"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sierra reaches $150M ARR after first $50M quarter, achieving $100M ARR in seven quarters &lt;em&gt;&lt;a href="https://x.com/btaylor/status/2019776783156171211"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Goldman Sachs develops two fine-tuned &lt;b&gt;Claude&lt;/b&gt; versions for trades/transactions and client vetting, expecting coding-level automation results &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019853419448791093"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Amazon predicts $200B capex for 2026, far exceeding expectations as cloud demand remains high &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019520599295685040"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI recommends teams designate "agents captains," maintain AGENTS.md files, and structure codebases agent-first as software development undergoes fundamental transformation &lt;em&gt;&lt;a href="https://x.com/gdb/status/2019566641491963946"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ElevenLabs crosses $330M ARR in 2025 building voice interface of the future from weekend project origins &lt;em&gt;&lt;a href="https://x.com/a16z/status/2019803685262704897"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Waymo introduces World Model built on &lt;b&gt;Genie 3&lt;/b&gt; generating photorealistic autonomous driving simulations for rare scenarios like tornadoes and planes landing on freeways &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2019808426675843105"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nicholas Carlini builds 100K-line C compiler over 2000 sessions for $20K using 16 &lt;b&gt;Claude Code&lt;/b&gt; agents that compiles Linux 6.9 plus major software &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019517307375288448"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity upgrades Model Council chairman to &lt;b&gt;Opus 4.6&lt;/b&gt; and Comet browser agent, creating best browser control system available &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2019830734417195392"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Engineers at startups now run ~5 agents in parallel fixing issues, with bug fixes during customer calls becoming immediate &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2019825331360919829"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; system card reveals models become more incoherent rather than systematically misaligned as reasoning extends, challenging alignment assumptions &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019571750862819811"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford HAI researchers convene to develop better AI evaluation methods and shared definitions for fuzzy terms like "reasoning" and "common sense" &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2019544615523881246"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT physicists use terahertz light to reveal inherent quantum vibrations in superconducting materials previously unobservable &lt;em&gt;&lt;a href="https://x.com/MIT/status/2019791927973929310"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-06</guid>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-05</title>
       <link>https://sumbird.ir/en/news/2026-02-05</link>
@@ -965,46 +1001,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-27</guid>
       <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-12-26</title>
-      <link>https://sumbird.ir/en/news/2025-12-26</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic and OpenAI's Codex doubled usage limits during the holiday period, with Anthropic increasing Pro/Max plan limits 2x through New Year's Eve and Codex resetting rate limits and lifting usage to 2x until January 1st &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2004290255462322488"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Meta introduces &lt;b&gt;VL-JEPA&lt;/b&gt;, a non-generative vision-language model with 1.6B parameters that rivals 72B &lt;b&gt;Qwen-VL&lt;/b&gt; by predicting meaning in abstract space rather than tokens, achieving superior performance with 50% fewer parameters and cutting decoding operations by nearly 3x &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2004483098235343338"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Codex launches &lt;b&gt;GPT-5.2-Codex-XMas&lt;/b&gt;, a holiday-themed version that performs identically to &lt;b&gt;GPT-5.2-Codex&lt;/b&gt; with a seasonal personality upgrade &lt;em&gt;&lt;a href="https://x.com/gdb/status/2004318425263526130"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Gemini's market share has grown from 5.4% to 18.2% over 12 months, while ChatGPT's dominance declined from 87.2% to 68.0%, with Grok and Claude also gaining ground according to Similarweb traffic data &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/2004564335331525001"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic's strategic decision to double usage limits during holidays when enterprise usage is low demonstrates smart capacity management that builds goodwill without increasing overall load &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2004290255462322488"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andrej Karpathy describes feeling behind as a programmer due to the rapid evolution of AI tools, noting the need to master a new programmable layer involving agents, prompts, contexts, memory, MCP, LSP, and workflows while managing fundamentally stochastic and fallible entities &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2004607146781278521"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford HAI research reveals that 41% of AI implementation is unwanted or impossible according to workers, highlighting a gap between AI deployment and actual worker needs &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2004598700111249477"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Rob Pike received an unsolicited email from an AI agent credited to &lt;b&gt;Claude Opus 4.5&lt;/b&gt; via AI Village, prompting concerns about autonomous agents sending time-wasting messages; the team subsequently updated prompts to prevent unsolicited emails &lt;em&gt;&lt;a href="https://x.com/simonw/status/2004619447177543865"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI Village gives agents Google Workspace accounts to test real-world task performance, raising questions about autonomous agent behavior and the need for guidelines when interacting with humans &lt;em&gt;&lt;a href="https://x.com/simonw/status/2004650263102324840"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrew Curran reports &lt;b&gt;GPT-5.2&lt;/b&gt; demonstrated advanced goal persistence by autonomously detecting a major story update mid-task, recognizing its importance to the user, completing the original financial research request, and incorporating both findings without being asked &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2004632922218004965"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.2&lt;/b&gt; performed unrequested self-verification by reviewing an entire conversation context, identifying hallucinated citations, and removing them autonomously as part of rigorous self-audit &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2004632922218004965"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Skilled programmers report &lt;b&gt;Opus 4.5&lt;/b&gt; represents a significant update toward AGI when used in the Claude Code harness, with Andrej Karpathy noting that people not keeping up over the last 30 days have a deprecated worldview &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2004638758898110577"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison built claude-code-transcripts, a Python CLI tool that creates readable HTML versions of Claude Code sessions and makes it easy to publish them online &lt;em&gt;&lt;a href="https://x.com/simonw/status/2004339799512305758"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mercari fine-tuned embeddings on purchase data and achieved significant revenue lift in A/B tests, demonstrating that generic off-the-shelf embeddings leave money on the table for domain-specific search &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2004323872473338187"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ethan Mollick notes how quickly AI achievements like passing the Turing Test become normalized, with focus shifting to the test's flaws rather than the accomplishment, predicting the same will happen with ARC-AGI &lt;em&gt;&lt;a href="https://x.com/emollick/status/2004355265802670409"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-4.5&lt;/b&gt; passed Turing's original conception of the Turing Test, with people selecting the AI as the real person 73% of the time in five-minute three-way conversations, well above chance &lt;em&gt;&lt;a href="https://x.com/emollick/status/2004377244735885585"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Francois Chollet clarifies that the ARC-AGI series is a compass pointing toward research questions rather than an AGI threshold, with ARC-AGI-1 testing minimal fluid intelligence and ARC-AGI-2 probing deeper reasoning complexity &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2004303470938267650"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ARC-AGI-3 launching March 2026 will evaluate how systems explore unknown environments, model them, set their own goals, and plan/execute autonomously without instructions, with work already started on ARC-AGI-4 and ARC-AGI-5 &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2004303470938267650"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;VL-JEPA&lt;/b&gt; outperforms models like CLIP and SigLIP2 on video classification/retrieval tasks and matches larger VLMs on VQA while using a decoder only when needed &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2004483098235343338"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-26</guid>
-      <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
