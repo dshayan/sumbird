@@ -85,23 +85,78 @@ body {
   margin-top: var(--space-xs);
 }
 
-.lang-switch {
+.header-actions {
   position: absolute;
   top: 0;
   right: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+[dir="rtl"] .header-actions {
+  right: auto;
+  left: 0;
+}
+
+.lang-switch {
   font-size: 0.875rem;
   color: var(--text-light);
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
-[dir="rtl"] .lang-switch {
-  right: auto;
-  left: 0;
-}
-
 .lang-switch:hover {
   color: var(--primary);
+}
+
+.header-sep {
+  color: var(--text-light);
+  font-size: 0.875rem;
+  user-select: none;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--text-light);
+  transition: color 0.15s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--primary);
+}
+
+.theme-toggle .icon-sun {
+  display: none;
+}
+
+.theme-toggle .icon-moon {
+  display: inline-block;
+}
+
+html.dark .theme-toggle .icon-moon {
+  display: none;
+}
+
+html.dark .theme-toggle .icon-sun {
+  display: inline-block;
+}
+
+/* Dark theme */
+html.dark {
+  --background: #1a1a1a;
+  --text: #e5e5e5;
+  --text-light: #a3a3a3;
+  --border: #333;
+  --background-white: #262626;
+  --background-hover: #333;
+  --background-primary-hover: #2d3d3d;
+  --primary: #5b9bd5;
 }
 
 /* Main Content */
