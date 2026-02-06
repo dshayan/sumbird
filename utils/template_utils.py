@@ -119,7 +119,7 @@ class TemplateManager:
         """
         return self.load_component("header", HOME_URL=home_url)
     
-    def load_footer(self, home_url: str = "/", rss_url: str = "/feed.xml") -> str:
+    def load_footer(self, home_url: str = "/", rss_url: str = "/feed.rss") -> str:
         """Load the footer component.
         
         Args:
@@ -209,13 +209,13 @@ class TemplateManager:
             if self.language == "fa":
                 # Posts are in docs/fa/news/{date_str}/, need ../../ to get to fa/ homepage
                 header_html = self.load_header("../../")  # From fa/news/{date_str}/ to fa/ homepage
-                footer_html = self.load_footer("../../", "../../feed.xml")  # RSS in fa/ directory
+                footer_html = self.load_footer("../../", "../../feed.rss")  # RSS in fa/ directory
                 # Generate canonical URL for Farsi post using SITE_BASE_URL from .env (no .html extension)
                 canonical_url = f"{SITE_BASE_URL}/fa/news/{date_str}" if date_str else f"{SITE_BASE_URL}/fa/"
             else:
                 # Posts are in docs/en/news/{date_str}/, need ../../ to get to en/ homepage
                 header_html = self.load_header("../../")  # From en/news/{date_str}/ to en/ homepage
-                footer_html = self.load_footer("../../", "../../feed.xml")  # RSS in en/ directory
+                footer_html = self.load_footer("../../", "../../feed.rss")  # RSS in en/ directory
                 # Generate canonical URL for English post using SITE_BASE_URL from .env (no .html extension)
                 canonical_url = f"{SITE_BASE_URL}/en/news/{date_str}" if date_str else f"{SITE_BASE_URL}/en/"
             
@@ -293,7 +293,7 @@ class TemplateManager:
             # Both English and Farsi are now in subdirectories (en/ and fa/)
             # Load components with appropriate paths (both need ../ to get to assets/)
             home_url = "../"  # From en/ or fa/ to root
-            rss_url = "feed.xml"
+            rss_url = "feed.rss"
             header_html = self.load_header(home_url)
             footer_html = self.load_footer(home_url, rss_url)
             

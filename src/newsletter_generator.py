@@ -71,7 +71,7 @@ class NewsletterGenerator:
         # Templates are now in language-specific directories
         self.template_path = self.docs_path / "templates" / "template.html"
         self.homepage_path = self.docs_path / "index.html"
-        self.feed_path = self.docs_path / "feed.xml"
+        self.feed_path = self.docs_path / "feed.rss"
         self.sitemap_path = self.docs_path / "sitemap.xml"
         
         # Initialize template manager for external CSS system with language context
@@ -366,10 +366,10 @@ class NewsletterGenerator:
         try:
             # Feed and homepage URLs include language subdirectory
             if self.is_farsi:
-                feed_url = f"{SITE_BASE_URL}/fa/feed.xml"
+                feed_url = f"{SITE_BASE_URL}/fa/feed.rss"
                 homepage_url = f"{SITE_BASE_URL}/fa/"
             else:
-                feed_url = f"{SITE_BASE_URL}/en/feed.xml"
+                feed_url = f"{SITE_BASE_URL}/en/feed.rss"
                 homepage_url = f"{SITE_BASE_URL}/en/"
             
             # Determine RSS metadata based on language
@@ -459,11 +459,26 @@ class NewsletterGenerator:
         Returns:
             Cleaned HTML string suitable for RSS.
         """
-        # Keep basic formatting but clean up complex elements
-        for elem in soup.find_all(['script', 'style']):
+        # Create a new soup to avoid modifying the original if it's used elsewhere
+        # (though in this codebase we pass a fresh soup or don't reuse it)
+        clean_soup = BeautifulSoup(str(soup), 'html.parser')
+
+        # Remove scripts, styles, and other non-content tags
+        for elem in clean_soup.find_all(['script', 'style', 'meta', 'link', 'iframe', 'object', 'embed']):
             elem.decompose()
         
-        return str(soup)
+        # Remove attributes that might cause issues or bloat
+        for tag in clean_soup.find_all(True):
+            tag.attrs = {key: value for key, value in tag.attrs.items() 
+                        if key in ['href', 'src', 'alt', 'title']}
+            
+        # Fix truncated tags - BeautifulSoup usually handles this on output,
+        # but if the input HTML was already truncated (e.g. from summary generation),
+        # we might have issues.
+        # Since we can't easily "un-truncate" text, we should ensure the HTML structure is valid.
+        # The prettify() or str() of BeautifulSoup automatically closes tags.
+        
+        return str(clean_soup)
     
     def _get_existing_posts(self) -> List[str]:
         """Get all existing post dates from the posts directory.
@@ -538,7 +553,7 @@ class NewsletterGenerator:
             
             # Add RSS feed
             url_elem = ET.SubElement(urlset, "url")
-            ET.SubElement(url_elem, "loc").text = f"{base_url}/feed.xml"
+            ET.SubElement(url_elem, "loc").text = f"{base_url}/feed.rss"
             ET.SubElement(url_elem, "lastmod").text = get_now().strftime("%Y-%m-%d")
             ET.SubElement(url_elem, "changefreq").text = "daily"
             ET.SubElement(url_elem, "priority").text = "0.3"
