@@ -69,6 +69,10 @@ body {
   padding: var(--space-sm) 0;
 }
 
+.header-content {
+  position: relative;
+}
+
 .header-title {
   font-size: var(--text-lg);
   font-weight: 600;
@@ -79,6 +83,25 @@ body {
 .header-subtitle {
   color: var(--text-light);
   margin-top: var(--space-xs);
+}
+
+.lang-switch {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.875rem;
+  color: var(--text-light);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+[dir="rtl"] .lang-switch {
+  right: auto;
+  left: 0;
+}
+
+.lang-switch:hover {
+  color: var(--primary);
 }
 
 /* Main Content */
