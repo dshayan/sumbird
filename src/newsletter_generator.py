@@ -13,6 +13,7 @@ This module:
 """
 import os
 import re
+import shutil
 import subprocess
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -72,6 +73,7 @@ class NewsletterGenerator:
         self.template_path = self.docs_path / "templates" / "template.html"
         self.homepage_path = self.docs_path / "index.html"
         self.feed_path = self.docs_path / "feed.rss"
+        self.feed_path_xml = self.docs_path / "feed.xml"
         self.sitemap_path = self.docs_path / "sitemap.xml"
         
         # Initialize template manager for external CSS system with language context
@@ -364,12 +366,12 @@ class NewsletterGenerator:
             True if successful, False otherwise.
         """
         try:
-            # Feed and homepage URLs include language subdirectory
+            # Feed and homepage URLs: use canonical /feed (no extension) for self link
             if self.is_farsi:
-                feed_url = f"{SITE_BASE_URL}/fa/feed.rss"
+                feed_url = f"{SITE_BASE_URL}/fa/feed"
                 homepage_url = f"{SITE_BASE_URL}/fa/"
             else:
-                feed_url = f"{SITE_BASE_URL}/en/feed.rss"
+                feed_url = f"{SITE_BASE_URL}/en/feed"
                 homepage_url = f"{SITE_BASE_URL}/en/"
             
             # Determine RSS metadata based on language
@@ -440,10 +442,11 @@ class NewsletterGenerator:
                     log_error("NewsletterGenerator", f"Error adding RSS item for {date_str}", e)
                     continue
             
-            # Write RSS feed file
+            # Write RSS feed to feed.rss and feed.xml so /feed (served as feed.xml) stays current
             fg.rss_file(str(self.feed_path), pretty=True)
-            
-            log_success("NewsletterGenerator", 
+            shutil.copy2(self.feed_path, self.feed_path_xml)
+
+            log_success("NewsletterGenerator",
                        f"Generated RSS feed with {items_count} items at {self.feed_path}")
             return True
             
@@ -552,9 +555,9 @@ class NewsletterGenerator:
             ET.SubElement(url_elem, "changefreq").text = "daily"
             ET.SubElement(url_elem, "priority").text = "1.0"
             
-            # Add RSS feed
+            # Add RSS feed (canonical URL is /feed)
             url_elem = ET.SubElement(urlset, "url")
-            ET.SubElement(url_elem, "loc").text = f"{base_url}/feed.rss"
+            ET.SubElement(url_elem, "loc").text = f"{base_url}/feed"
             ET.SubElement(url_elem, "lastmod").text = get_now().strftime("%Y-%m-%d")
             ET.SubElement(url_elem, "changefreq").text = "daily"
             ET.SubElement(url_elem, "priority").text = "0.3"
