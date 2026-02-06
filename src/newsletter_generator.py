@@ -827,5 +827,5 @@ if __name__ == "__main__":
     elif "--en" in sys.argv or "--english" in sys.argv:
         language = "en"
     
-    success = generate(force_regenerate=force_regenerate, language=language)
+    success = generate_newsletter(force_regenerate=force_regenerate, language=language)
     exit(0 if success else 1)

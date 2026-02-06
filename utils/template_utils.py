@@ -108,16 +108,17 @@ class TemplateManager:
             log_error("TemplateManager", f"Error loading component {component_name}", e)
             return ""
     
-    def load_header(self, home_url: str = "/") -> str:
+    def load_header(self, home_url: str = "/", alt_lang_url: str = "") -> str:
         """Load the header component.
         
         Args:
             home_url: URL for the home link.
+            alt_lang_url: URL for the other language version (language switcher).
             
         Returns:
             The header HTML.
         """
-        return self.load_component("header", HOME_URL=home_url)
+        return self.load_component("header", HOME_URL=home_url, ALT_LANG_URL=alt_lang_url)
     
     def load_footer(self, home_url: str = "/", rss_url: str = "/feed.rss") -> str:
         """Load the footer component.
@@ -208,13 +209,15 @@ class TemplateManager:
             
             if self.language == "fa":
                 # Posts are in docs/fa/news/{date_str}/, need ../../ to get to fa/ homepage
-                header_html = self.load_header("../../")  # From fa/news/{date_str}/ to fa/ homepage
+                alt_lang_url = f"../../en/news/{date_str}/" if date_str else "../../en/"
+                header_html = self.load_header("../../", alt_lang_url=alt_lang_url)
                 footer_html = self.load_footer("../../", "../../feed.rss")  # RSS in fa/ directory
                 # Generate canonical URL for Farsi post using SITE_BASE_URL from .env (no .html extension)
                 canonical_url = f"{SITE_BASE_URL}/fa/news/{date_str}" if date_str else f"{SITE_BASE_URL}/fa/"
             else:
                 # Posts are in docs/en/news/{date_str}/, need ../../ to get to en/ homepage
-                header_html = self.load_header("../../")  # From en/news/{date_str}/ to en/ homepage
+                alt_lang_url = f"../../fa/news/{date_str}/" if date_str else "../../fa/"
+                header_html = self.load_header("../../", alt_lang_url=alt_lang_url)
                 footer_html = self.load_footer("../../", "../../feed.rss")  # RSS in en/ directory
                 # Generate canonical URL for English post using SITE_BASE_URL from .env (no .html extension)
                 canonical_url = f"{SITE_BASE_URL}/en/news/{date_str}" if date_str else f"{SITE_BASE_URL}/en/"
@@ -294,7 +297,8 @@ class TemplateManager:
             # Load components with appropriate paths (both need ../ to get to assets/)
             home_url = "../"  # From en/ or fa/ to root
             rss_url = "feed.rss"
-            header_html = self.load_header(home_url)
+            alt_lang_url = "../fa/" if self.language == "en" else "../en/"
+            header_html = self.load_header(home_url, alt_lang_url=alt_lang_url)
             footer_html = self.load_footer(home_url, rss_url)
             
             # Adjust asset paths for subdirectory (both languages are in subdirectories)
