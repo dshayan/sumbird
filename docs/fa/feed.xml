@@ -13,9 +13,39 @@
       <link>https://sumbird.ir/fa/feed</link>
     </image>
     <language>fa-ir</language>
-    <lastBuildDate>Sun, 08 Feb 2026 06:00:09 +0330</lastBuildDate>
-    <pubDate>Sun, 08 Feb 2026 06:00:09 +0330</pubDate>
+    <lastBuildDate>Mon, 09 Feb 2026 01:15:38 +0330</lastBuildDate>
+    <pubDate>Mon, 09 Feb 2026 01:15:38 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-02-08</title>
+      <link>https://sumbird.ir/fa/news/2026-02-08</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic مدل &lt;b&gt;Claude Opus 4.6&lt;/b&gt; را با ۲.۵ برابر سرعت پردازش بیشتر منتشر کرد که اکنون از طریق Claude Code و API در دسترس است. &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2020207322124132504"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI مدل &lt;b&gt;GPT-5.3-Codex&lt;/b&gt; را عرضه کرد که در کدنویسی به ۲ برابر کارایی توکن بیشتر نسبت به نسخه‌های قبلی دست یافته است. &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/2020236875496321526"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مدل‌های &lt;b&gt;Grok-Imagine-Image&lt;/b&gt; شرکت xAI در Image Arena به عملکرد بهینه‌ی پارتو در رده‌ی قیمت متوسط دست یافتند و اکنون از طریق API در دسترس هستند. &lt;em&gt;&lt;a href="https://x.com/xai/status/2020313728802242673"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;حجم جستجوهای گوگل از سال ۲۰۲۳ تا ۲۰۲۵ با ۶۱٪ رشد به ۵ تریلیون در سال رسید و درآمد جستجو با ۲۸٪ افزایش به ۲۲۵ میلیارد دلار رسید، با وجود پیش‌بینی‌ها در مورد اختلال ناشی از هوش مصنوعی. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2020497629290148139"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ChatPRD یک مهندس نرم‌افزار تمام‌وقت را با هزینه‌ی توکن جایگزین کرد و دریافت که این روش مقرون‌به‌صرفه‌تر از استخدام نیروی جدید است. &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2020491512149406037"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;رقابت برای جذب استعدادهای برتر هوش مصنوعی شدت گرفته است، زیرا کاندیداها ظرف چند هفته پس از معرفی، توسط آزمایشگاه‌های تحقیقاتی، استارتاپ‌های YC یا شرکت‌های پیشرو هوش مصنوعی جذب می‌شوند. &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2020500603970154774"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Qwen با ۴۰ مدل در بین ۱۰۰ مدل برتر، پیشتاز دانلود مدل‌های باز است و پس از آن Llama با ۱۳ و DeepSeek با ۱۰ مدل قرار دارند. &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2020545034270150962"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Craft Agents به ۱۰۰٪ از افراد غیرتوسعه‌دهنده در Craft امکان استفاده از ابزارهای کدنویسی هوش مصنوعی را می‌دهد و اکنون از Codex در ویندوز، مک و لینوکس پشتیبانی می‌کند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2020536747176636789"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mitchell Hashimoto سیستم Vouch را راه‌اندازی کرد، یک سیستم مدیریت اعتماد برای متن‌باز که برای جلوگیری از PRهای اسپم تولیدشده توسط هوش مصنوعی، نیاز به تأیید صریح دارد. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2020318860738715821"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;توسعه‌دهندگان گزارش می‌دهند که &lt;b&gt;GPT-5.3 Codex&lt;/b&gt; بیش از ۲ ساعت و ۴۰ دقیقه به‌طور مداوم روی پایگاه‌های کد پیچیده‌ی C کار می‌کند تا زمانی که تست‌ها با موفقیت انجام شوند. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2020553388187144619"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;اپلیکیشن Dataset Papers on ArXiv با استفاده از طبقه‌بندی‌کننده‌ی ModernBERT که به‌خوبی تنظیم شده است، بیش از ۵۲ هزار مقاله را که مجموعه‌داده‌های جدیدی را معرفی می‌کنند، از ۲۱۲ هزار مقاله‌ی علوم کامپیوتر طبقه‌بندی می‌کند. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2020524587507663021"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات Anthropic نشان می‌دهد که مدل‌های هوش مصنوعی با افزایش مدت زمان استدلال، به‌جای اینکه به‌طور سیستماتیک ناهماهنگ شوند، بیشتر نامنسجم می‌شوند. &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2020271007253266536"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-02-08</guid>
+      <pubDate>Sun, 08 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-02-07</title>
       <link>https://sumbird.ir/fa/news/2026-02-07</link>
@@ -946,41 +976,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-29</guid>
       <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-28</title>
-      <link>https://sumbird.ir/fa/news/2025-12-28</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Codex 5.2&lt;/b&gt; اوپن‌ای‌آی پیشرفت‌های چشمگیری را با ارتباط شفاف‌تر در حین کار، ویرایش فایل‌های سازگارتر، کارایی بیشتر و هوش تقویت‌شده در مقایسه با نسخه‌های قبلی نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/gdb/status/2005033770395861201"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Claude Opus 4.5&lt;/b&gt; انتروپیک قابلیت‌های هوشی قابل‌توجهی را به نمایش می‌گذارد، به‌طوری‌که کاربران آن را نزدیک به عملکرد سطح AGI توصیف می‌کنند &lt;em&gt;&lt;a href="https://x.com/ericjang11/status/2005109435455467722"&gt;@ericjang11&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;انویدیا Groq را خریداری می‌کند و طبق گزارش‌ها، کارمندان حتی برای کسانی که هنوز به‌طور کامل سهامدار نشده‌اند، شرایط جبران خسارت بسیار مطلوبی دریافت می‌کنند &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2005117512820916725"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تأمین مالی استارت‌آپ‌های هند در سال 2025 به 11 میلیارد دلار می‌رسد، زیرا سرمایه‌گذاران در رویکرد سرمایه‌گذاری خود گزینشی‌تر می‌شوند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2005082060462195184"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اوپن‌ای‌آی به‌طور فعال برای موقعیت جدید &lt;b&gt;رئیس آمادگی&lt;/b&gt; استخدام می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2005295986810528212"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;انتظار می‌رود اختراع &lt;b&gt;Claude Code&lt;/b&gt; پروژه‌های جانبی را به‌طور تصاعدی بیشتر از آنچه قبلاً ممکن بود، تولید کند &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2005327756834525611"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;چین مقررات جدیدی را برای همراهان هوش مصنوعی معرفی می‌کند که ارائه‌دهندگان را ملزم می‌کند تا وضعیت عاطفی کاربران را شناسایی کرده و سطح وابستگی به سرویس را ارزیابی کنند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005272846382289333"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;نگرانی‌هایی در مورد این باور که تفکر را نمی‌توان به عوامل هوش مصنوعی برون‌سپاری کرد، مطرح می‌شود، با این استدلال که مدل‌ها ممکن است به‌زودی در کاوش ادبیات کشف‌نشده، جمع‌آوری اطلاعات جدید و الهام‌گیری در حوزه‌های مختلف، از انسان‌ها پیشی بگیرند، که عمدتاً توسط منابع محاسباتی محدود می‌شود تا قابلیت &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2005368446029091104"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;عوامل هوش مصنوعی اطلاعات تأییدشده‌ی ارزشمندی را در افق‌های طولانی تولید می‌کنند که می‌توان از آن‌ها برای کاوش بیشتر استفاده کرد، گاهی اوقات نتایج یا اطلاعاتی را تولید می‌کنند که هنوز توسط انسان‌ها دیده نشده‌اند یا اطلاعات گزارش‌شده‌ی قبلی را اصلاح می‌کنند &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2005374214467940432"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Claude Code&lt;/b&gt; با موفقیت یکپارچه‌سازی سیستم اتوماسیون خانگی را با کشف کنترل‌کننده‌های Lutron در وای‌فای محلی، اتصال به پورت‌های باز، بازیابی فراداده، یافتن مستندات سیستم، راهنمایی در جفت‌سازی گواهی‌نامه و کنترل تمام دستگاه‌های خانگی از جمله چراغ‌ها، پرده‌ها، تهویه مطبوع و حسگرهای حرکت، خودکار کرد &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2005067301511630926"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Claude&lt;/b&gt; قابلیت خود را در بازطراحی سازمانی تخیلی نشان می‌دهد و با موفقیت ساختارهای بازسازی را پیشنهاد می‌کند، نمودارهای سازمانی جدیدی را ترسیم می‌کند و برنامه‌های انتقال را برای سازمان‌های پیچیده پیشنهاد می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005286561026641941"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Codex 5.2&lt;/b&gt; عملکرد قوی‌ای را در وظایف درک پایگاه کد بزرگ نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/gdb/status/2005251373244518875"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;مستند "The Thinking Game" دیپ‌مایند در تنها 4 هفته از 200 میلیون بازدید در یوتیوب فراتر می‌رود و بینش‌های پشت صحنه را در مورد عملیات آزمایشگاه AGI و پروژه &lt;b&gt;AlphaFold&lt;/b&gt; برنده جایزه نوبل ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/2005358757203845592"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;عصب‌شناسان MIT با استفاده از فناوری پیشرفته، جامع‌ترین نقشه قشر مغز را تا به امروز ایجاد می‌کنند &lt;em&gt;&lt;a href="https://x.com/MIT/status/2005293918796013811"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-28</guid>
-      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

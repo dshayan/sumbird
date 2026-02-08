@@ -13,9 +13,39 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Feb 2026 06:00:07 +0330</lastBuildDate>
-    <pubDate>Sun, 08 Feb 2026 06:00:07 +0330</pubDate>
+    <lastBuildDate>Mon, 09 Feb 2026 01:15:37 +0330</lastBuildDate>
+    <pubDate>Mon, 09 Feb 2026 01:15:37 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-08</title>
+      <link>https://sumbird.ir/en/news/2026-02-08</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic releases &lt;b&gt;Claude Opus 4.6&lt;/b&gt; with 2.5x faster processing speed, now available via Claude Code and API &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2020207322124132504"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI launches &lt;b&gt;GPT-5.3-Codex&lt;/b&gt; achieving 2x token efficiency for coding compared to previous versions &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/2020236875496321526"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;xAI's &lt;b&gt;Grok-Imagine-Image&lt;/b&gt; models achieve Pareto-optimal performance in Image Arena at mid-price tier, now available via API &lt;em&gt;&lt;a href="https://x.com/xai/status/2020313728802242673"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google search query volume grew 61% to 5T/year from 2023-2025, with search revenue up 28% to $225B despite predictions of AI disruption &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2020497629290148139"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ChatPRD replaced one full-time software engineer with token spend, finding it more cost-effective than backfilling the position &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2020491512149406037"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Top AI talent competition intensifies as candidates are snatched by research labs, YC startups, or frontier AI companies within weeks of being recommended &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2020500603970154774"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Qwen leads open model downloads with 40 models in top 100, followed by Llama with 13 and DeepSeek with 10 &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2020545034270150962"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Craft Agents enables 100% of non-developers at Craft to use AI coding tools, now supporting Codex on Windows, Mac, and Linux &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2020536747176636789"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mitchell Hashimoto launches Vouch, a trust management system for open source that requires explicit vouching to prevent AI-generated spam PRs &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2020318860738715821"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developers report &lt;b&gt;GPT-5.3 Codex&lt;/b&gt; working continuously for over 2 hours 40 minutes on complex C codebases until tests pass &lt;em&gt;&lt;a href="https://x.com/gdb/status/2020553388187144619"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dataset Papers on ArXiv app classifies 52K+ papers introducing new datasets from 212K CS papers using fine-tuned ModernBERT classifier &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2020524587507663021"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic research suggests AI models become more incoherent rather than systematically misaligned as reasoning duration increases &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2020271007253266536"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-08</guid>
+      <pubDate>Sun, 08 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-07</title>
       <link>https://sumbird.ir/en/news/2026-02-07</link>
@@ -970,41 +1000,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-29</guid>
       <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-12-28</title>
-      <link>https://sumbird.ir/en/news/2025-12-28</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI's &lt;b&gt;Codex 5.2&lt;/b&gt; shows significant improvements with clearer communication during work, more consistent file editing, greater efficiency, and enhanced intelligence compared to previous versions &lt;em&gt;&lt;a href="https://x.com/gdb/status/2005033770395861201"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic's &lt;b&gt;Claude Opus 4.5&lt;/b&gt; demonstrates remarkable intelligence capabilities, with users describing it as approaching AGI-level performance &lt;em&gt;&lt;a href="https://x.com/ericjang11/status/2005109435455467722"&gt;@ericjang11&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;NVIDIA acquires Groq with employees reportedly receiving very favorable compensation terms, even for those not fully vested &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2005117512820916725"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;India's startup funding reaches $11B in 2025 as investors become more selective in their investment approach &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2005082060462195184"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI is actively recruiting for a new &lt;b&gt;Head of Preparedness&lt;/b&gt; position &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2005295986810528212"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;The invention of &lt;b&gt;Claude Code&lt;/b&gt; is expected to generate exponentially more side projects than previously possible &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2005327756834525611"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;China introduces new regulations for AI companions requiring providers to identify user emotional states and assess levels of dependence on the service &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005272846382289333"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Concerns emerge about the belief that thinking cannot be outsourced to AI agents, with arguments that models may soon outpace humans in exploring unexplored literature, gathering new information, and drawing inspiration across domains, primarily limited by compute resources rather than capability &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2005368446029091104"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI agents produce valuable verified information over long horizons that can be utilized for further exploration, sometimes generating results or information not yet seen by humans or correcting previously reported information &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2005374214467940432"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Claude Code&lt;/b&gt; successfully automated home automation system integration by discovering Lutron controllers on local WiFi, connecting to open ports, retrieving metadata, finding system documentation, guiding certificate pairing, and controlling all home devices including lights, shades, HVAC, and motion sensors &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2005067301511630926"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Claude&lt;/b&gt; demonstrates capability in fictional organizational redesign, successfully proposing reorganization structures, drawing new organizational charts, and suggesting transition plans for complex organizations &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005286561026641941"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Codex 5.2&lt;/b&gt; shows strong performance in large codebase understanding tasks &lt;em&gt;&lt;a href="https://x.com/gdb/status/2005251373244518875"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;DeepMind's documentary "The Thinking Game" surpasses 200M YouTube views in just 4 weeks, providing behind-the-scenes insights into AGI lab operations and the Nobel Prize-winning &lt;b&gt;AlphaFold&lt;/b&gt; project &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/2005358757203845592"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT neuroscientists create the most comprehensive map of the cerebral cortex to date using cutting-edge technology &lt;em&gt;&lt;a href="https://x.com/MIT/status/2005293918796013811"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-28</guid>
-      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
