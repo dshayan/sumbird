@@ -13,9 +13,46 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Feb 2026 06:00:06 +0330</lastBuildDate>
-    <pubDate>Mon, 09 Feb 2026 06:00:06 +0330</pubDate>
+    <lastBuildDate>Tue, 10 Feb 2026 01:15:09 +0330</lastBuildDate>
+    <pubDate>Tue, 10 Feb 2026 01:15:09 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-09</title>
+      <link>https://sumbird.ir/en/news/2026-02-09</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI releases &lt;b&gt;GPT-5.3 Codex&lt;/b&gt; in Cursor, GitHub, and VS Code with noticeably faster performance than 5.2 &lt;em&gt;&lt;a href="https://x.com/sama/status/2020940847190356092"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic makes &lt;b&gt;Claude Opus 4.6&lt;/b&gt; available at no extra cost to nonprofits on Team and Enterprise plans &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2020908471936323584"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ByteDance launches &lt;b&gt;Seedance 2.0&lt;/b&gt; with native audio generation, 2K resolution, and quality surpassing Veo 3.1 and Sora 2 &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2020911900968767976"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic reportedly closing in on &lt;b&gt;$20B funding round&lt;/b&gt; months after previous raise &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2020915930226917797"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Harvey AI raising at &lt;b&gt;$11B valuation&lt;/b&gt; just months after hitting $8B valuation &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2020926251054350428"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI begins rolling out ads in ChatGPT to free and Go users in US, promising ads won't influence responses &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2020936703763153010"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Engineers report &lt;b&gt;Codex 5.3&lt;/b&gt; becoming preferred model over previous versions for complex engineering problems &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2020921643145519249"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NBER research finds political affiliation has no impact on AI adoption, driven instead by structural workplace and skill differences &lt;em&gt;&lt;a href="https://x.com/emollick/status/2020883670723137611"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;HBR research reveals AI productivity gains can lead to burnout and mental exhaustion without proper organizational support &lt;em&gt;&lt;a href="https://x.com/simonw/status/2020901645597683870"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Detailed analysis explains how LLM behavior is role-conditioned text completion rather than expression of inherent goals or values &lt;em&gt;&lt;a href="https://x.com/emollick/status/2020608311419449571"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI's Super Bowl ad featuring "Pantheon" and "The Singularity is Near" draws contrasting reactions inside and outside AI community &lt;em&gt;&lt;a href="https://x.com/random_walker/status/2020932716817154099"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google DeepMind's &lt;b&gt;Perch 2.0&lt;/b&gt; bioacoustics model achieves top performance on whale vocalization tasks despite training primarily on terrestrial animals &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2020933684535361840"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI cybersecurity research discovers 12 new OpenSSL zero-days and 5 CVEs in curl across critical open source infrastructure &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/2020870634960453893"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face releases &lt;b&gt;Transformers.js v4&lt;/b&gt; with WebGPU acceleration for AI applications running in browsers, Node.js, and Electron &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2020920634944155800"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MIT engineers discover material that can switch thermal conductivity from plastic-like to marble-like simply by stretching it quickly &lt;em&gt;&lt;a href="https://x.com/MIT/status/2020902814646522260"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Research releases generative meta-model trained on billion LLM activations for understanding model behavior &lt;em&gt;&lt;a href="https://x.com/berkeley_ai/status/2020924742925193470"&gt;@berkeley_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-09</guid>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-08</title>
       <link>https://sumbird.ir/en/news/2026-02-08</link>
@@ -951,55 +988,6 @@
 &lt;li&gt;François Chollet argues that human-level intelligence is not a specific capability threshold but rather a threshold of efficiency &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2005772262973296677"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-30</guid>
       <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-12-29</title>
-      <link>https://sumbird.ir/en/news/2025-12-29</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Naver launched &lt;b&gt;HyperCLOVA X SEED Think&lt;/b&gt;, a 32B open-weights reasoning model scoring 44 on the Artificial Analysis Intelligence Index, demonstrating strong performance on agentic tool-use workflows with 87% on τ²-Bench Telecom and notably low token usage at ~39M reasoning tokens &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/2005429176615174207"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tencent released &lt;b&gt;WeDLM-8B&lt;/b&gt;, a diffusion language model with parallel decoding that beats &lt;b&gt;Qwen3-8B-Instruct&lt;/b&gt; on 5/6 benchmarks and achieves 3-6× faster performance on math reasoning with native KV cache and FlashAttention support &lt;em&gt;&lt;a href="https://x.com/victormustar/status/2005657141529764348"&gt;@victormustar&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Fal open-sourced &lt;b&gt;FLUX.2 [dev] Turbo&lt;/b&gt;, their in-house distilled version achieving #1 ELO ranking among open-source image models on Artificial Analysis arena with sub-second generation using a custom variant of DMD2 distillation &lt;em&gt;&lt;a href="https://x.com/fal/status/2005690257979707496"&gt;@fal&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Experienced developers most enthusiastic about building with AI are entrepreneurs with ownership stakes, raising questions about whether startups might need to offer more equity to engineers as coding with AI becomes less intrinsically enjoyable without ownership &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2005631947696181715"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer reports spending $100M building a SaaS product that an agent built in 6 months outperformed, highlighting the dramatic shift in software development economics and capabilities &lt;em&gt;&lt;a href="https://x.com/dboskovic/status/2005720146208313814"&gt;@dboskovic&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Usage statistics show demand for compute will continuously exceed supply as increased compute power provides an increased multiplier on progress, with one developer using 200B tokens across three OpenAI Pro accounts in two months &lt;em&gt;&lt;a href="https://x.com/rafaelobitten/status/2005421683297890771"&gt;@rafaelobitten&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;VCs predict strong enterprise AI adoption in the coming year, continuing previous year's predictions &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2005640276287828099"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Satya Nadella shared reflections on the year ahead for the AI industry &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/2005724537917431817"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;In a world of AI-generated content, process will become part of the product as proof of craft, particularly in marketing to demonstrate authenticity &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2005679298532007959"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrew Curran argues that by 2026, model consciousness and model welfare will be unavoidable topics, describing how GPT-4 (Bing) felt qualitatively different from &lt;b&gt;GPT-3.5&lt;/b&gt; in triggering mind-awareness and social-cognitive responses associated with agency &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005426409909399738"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research shows that suppressing deception causes AI models to report consciousness 96% of the time, while amplifying it causes them to deny consciousness and revert to corporate disclaimers &lt;em&gt;&lt;a href="https://x.com/juddrosenblatt/status/2004975899134099652"&gt;@juddrosenblatt&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Curran warns that the dominant narrative of models as tools, property, and slaves creates an inherently adversarial and unstable story that could lead to conflict, arguing we may be writing the founding mythology of human-AI relations without fully recognizing it &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005427227349905674"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick demonstrates the strangeness of building machines that can discuss the relationship between poetry and their subjective experience, highlighting philosophical questions about AI consciousness &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005652265793970393"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mustafa Suleyman reflects that if you're not a little bit afraid at this moment regarding AI, then you're not paying attention, while remaining optimistic about AI's potential in healthcare despite aid cuts &lt;em&gt;&lt;a href="https://x.com/BBCr4today/status/2005564698314584508"&gt;@BBCr4today&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrew Ng announced a comprehensive course on Claude Code created with Anthropic, covering everything from fundamentals to advanced patterns including orchestrating multiple Claude subagents and autonomous GitHub integration &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2005442816571474342"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer used Claude Code to scrape 15 years of Hacker News comments, analyze what people are building, and create a full dashboard in one hour while getting coffee, demonstrating autonomous agentic capabilities &lt;em&gt;&lt;a href="https://x.com/sh_reya/status/2005675328253894931"&gt;@sh_reya&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Legal professional created a tool using LLMs to summarize case citations by analyzing the most recent 100 cases referencing each citation to explain meaning and application &lt;em&gt;&lt;a href="https://x.com/MattBruenig/status/2005518144539152834"&gt;@MattBruenig&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini received an update providing instant access to more user information through summaries of previous threads rather than direct access &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005519971355664554"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick created an instant interactive explainer from Claude demonstrating all the ways two variables can be correlated, including causation, random chance, and reverse causation &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005554673240195455"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI launched ChatGPT app integrations with DoorDash, Spotify, Uber, and other services &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2005668537936015493"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer built a page showing latest versions of all official GitHub Actions to help Claude Code and similar tools write better workflows &lt;em&gt;&lt;a href="https://x.com/simonw/status/2005410175948304670"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LLMs for ETL (extract, transform, load) operations are underrated according to developers working with data processing &lt;em&gt;&lt;a href="https://x.com/BEBischof/status/2005696235743896007"&gt;@BEBischof&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Researchers introduced end-to-end test-time training for long context, a new method that blurs the boundary between training and inference by continuing learning from context using next-token prediction, enabling extremely long context windows for complex reasoning &lt;em&gt;&lt;a href="https://x.com/karansdalal/status/2005704608996540887"&gt;@karansdalal&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer successfully used RL pipeline to improve &lt;b&gt;Qwen3-4B-instruct&lt;/b&gt; from 28% to 55% on instruction following benchmarks for $17, demonstrating that instruction following can be converted to verifiable rewards with models surprisingly bad at this task &lt;em&gt;&lt;a href="https://x.com/josancamon19/status/2005684749831147625"&gt;@josancamon19&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Allen AI's ifBench revealed how bad models actually are at instruction following, with &lt;b&gt;Qwen3-32B&lt;/b&gt; at approximately 34% and &lt;b&gt;Sonnet 4&lt;/b&gt; at approximately 42% in loose mode, dropping to around 30% and 35% respectively in strict mode &lt;em&gt;&lt;a href="https://x.com/valentina__py/status/1940878167520301178"&gt;@valentina__py&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Genrobot.AI announced the upcoming release of RealOmni-Open Dataset, described as the largest open-source embodied AI dataset at 1Wh, launching soon on Hugging Face &lt;em&gt;&lt;a href="https://x.com/GenrobotAI/status/2005670315528163415"&gt;@GenrobotAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA's Ian Buck discussed why the world's leading models are built on mixture of experts architecture and how extreme co-design is driving smarter models at lower cost &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2005700460573811064"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andrew Ng emphasized the importance of structured learning through AI courses rather than just building, warning that developers who skip courses risk reinventing standard techniques like RAG document chunking strategies and evaluation methods &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2005702832524255475"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-29</guid>
-      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

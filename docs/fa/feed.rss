@@ -13,9 +13,46 @@
       <link>https://sumbird.ir/fa/feed</link>
     </image>
     <language>fa-ir</language>
-    <lastBuildDate>Mon, 09 Feb 2026 06:00:08 +0330</lastBuildDate>
-    <pubDate>Mon, 09 Feb 2026 06:00:08 +0330</pubDate>
+    <lastBuildDate>Tue, 10 Feb 2026 01:15:11 +0330</lastBuildDate>
+    <pubDate>Tue, 10 Feb 2026 01:15:11 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-02-09</title>
+      <link>https://sumbird.ir/fa/news/2026-02-09</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI مدل &lt;b&gt;GPT-5.3 Codex&lt;/b&gt; را در Cursor، GitHub و VS Code منتشر کرد که عملکردی به‌طور محسوسی سریع‌تر از 5.2 دارد. &lt;em&gt;&lt;a href="https://x.com/sama/status/2020940847190356092"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic مدل &lt;b&gt;Claude Opus 4.6&lt;/b&gt; را بدون هزینه‌ی اضافی برای سازمان‌های غیرانتفاعی با طرح‌های Team و Enterprise در دسترس قرار داد. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2020908471936323584"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ByteDance مدل &lt;b&gt;Seedance 2.0&lt;/b&gt; را با قابلیت تولید صدای بومی، رزولوشن 2K و کیفیتی فراتر از Veo 3.1 و Sora 2 عرضه کرد. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2020911900968767976"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گزارش‌ها حاکی از آن است که Anthropic در حال نهایی کردن &lt;b&gt;دور جذب سرمایه‌ی 20 میلیارد دلاری&lt;/b&gt; است، تنها چند ماه پس از جذب سرمایه‌ی قبلی. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2020915930226917797"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Harvey AI تنها چند ماه پس از رسیدن به ارزش 8 میلیارد دلار، با &lt;b&gt;ارزش‌گذاری 11 میلیارد دلاری&lt;/b&gt; در حال جذب سرمایه است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2020926251054350428"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI شروع به نمایش تبلیغات در ChatGPT برای کاربران رایگان و Go در ایالات متحده کرده و قول داده است که تبلیغات بر پاسخ‌ها تأثیری نخواهند داشت. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2020936703763153010"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مهندسان گزارش می‌دهند که &lt;b&gt;Codex 5.3&lt;/b&gt; به مدل ترجیحی برای مسائل پیچیده‌ی مهندسی نسبت به نسخه‌های قبلی تبدیل شده است. &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2020921643145519249"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات NBER نشان می‌دهد که وابستگی سیاسی هیچ تأثیری بر پذیرش هوش مصنوعی ندارد و این پذیرش بیشتر تحت تأثیر تفاوت‌های ساختاری در محیط کار و مهارت‌ها است. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2020883670723137611"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;تحقیقات HBR نشان می‌دهد که افزایش بهره‌وری ناشی از هوش مصنوعی می‌تواند بدون حمایت سازمانی مناسب، منجر به فرسودگی شغلی و خستگی ذهنی شود. &lt;em&gt;&lt;a href="https://x.com/simonw/status/2020901645597683870"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحلیل دقیق توضیح می‌دهد که رفتار LLMها تکمیل متن مشروط به نقش است و نه بیان اهداف یا ارزش‌های ذاتی. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2020608311419449571"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تبلیغ Super Bowl OpenAI با عنوان «Pantheon» و «The Singularity is Near» واکنش‌های متفاوتی را در داخل و خارج از جامعه‌ی هوش مصنوعی برانگیخت. &lt;em&gt;&lt;a href="https://x.com/random_walker/status/2020932716817154099"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;مدل بیواکوستیک &lt;b&gt;Perch 2.0&lt;/b&gt; گوگل دیپ‌مایند، با وجود آموزش عمدتاً بر روی حیوانات خشکی، به بهترین عملکرد در وظایف مربوط به آواهای نهنگ‌ها دست یافت. &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2020933684535361840"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات امنیت سایبری هوش مصنوعی، 12 آسیب‌پذیری جدید OpenSSL zero-day و 5 CVE در curl را در زیرساخت‌های حیاتی متن‌باز کشف کرد. &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/2020870634960453893"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face نسخه‌ی &lt;b&gt;Transformers.js v4&lt;/b&gt; را با شتاب‌دهنده‌ی WebGPU برای کاربردهای هوش مصنوعی در مرورگرها، Node.js و Electron منتشر کرد. &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2020920634944155800"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;مهندسان MIT ماده‌ای را کشف کردند که می‌تواند رسانایی حرارتی خود را از پلاستیک‌مانند به مرمر‌مانند تنها با کشیدن سریع آن تغییر دهد. &lt;em&gt;&lt;a href="https://x.com/MIT/status/2020902814646522260"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل ریسرچ یک متا‌مدل مولد را منتشر کرد که بر روی یک میلیارد فعال‌سازی LLM آموزش دیده است تا رفتار مدل را درک کند. &lt;em&gt;&lt;a href="https://x.com/berkeley_ai/status/2020924742925193470"&gt;@berkeley_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-02-09</guid>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-02-08</title>
       <link>https://sumbird.ir/fa/news/2026-02-08</link>
@@ -927,55 +964,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-30</guid>
       <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2025-12-29</title>
-      <link>https://sumbird.ir/fa/news/2025-12-29</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Naver مدل استدلالی 32B با وزن‌های باز &lt;b&gt;HyperCLOVA X SEED Think&lt;/b&gt; را عرضه کرد که در شاخص هوش مصنوعی Artificial Analysis امتیاز 44 را کسب کرده است. این مدل عملکرد قوی در گردش‌کارهای ابزار-محور عامل‌گونه با 87% در τ²-Bench Telecom و مصرف توکن بسیار پایین در حدود 39 میلیون توکن استدلالی از خود نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/2005429176615174207"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tencent مدل زبان انتشار &lt;b&gt;WeDLM-8B&lt;/b&gt; را با رمزگشایی موازی منتشر کرد که در 5 از 6 معیار از &lt;b&gt;Qwen3-8B-Instruct&lt;/b&gt; بهتر عمل می‌کند و با پشتیبانی بومی از کش KV و FlashAttention، عملکرد 3 تا 6 برابر سریع‌تر در استدلال ریاضی به دست می‌آورد &lt;em&gt;&lt;a href="https://x.com/victormustar/status/2005657141529764348"&gt;@victormustar&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Fal مدل &lt;b&gt;FLUX.2 [dev] Turbo&lt;/b&gt; را که نسخه‌ی تقطیرشده‌ی داخلی آن‌هاست، به صورت متن‌باز منتشر کرد. این مدل با استفاده از یک نوع سفارشی از تقطیر DMD2، رتبه‌ی اول ELO را در میان مدل‌های تصویری متن‌باز در عرصه‌ی Artificial Analysis با تولید زیر یک ثانیه به دست آورده است &lt;em&gt;&lt;a href="https://x.com/fal/status/2005690257979707496"&gt;@fal&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;توسعه‌دهندگان باتجربه‌ای که بیشترین اشتیاق را برای ساخت با هوش مصنوعی دارند، کارآفرینانی با سهام مالکیت هستند. این موضوع این سوال را مطرح می‌کند که آیا استارتاپ‌ها ممکن است نیاز داشته باشند سهام بیشتری به مهندسان ارائه دهند، زیرا کدنویسی با هوش مصنوعی بدون مالکیت، لذت ذاتی کمتری پیدا می‌کند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2005631947696181715"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک توسعه‌دهنده گزارش داد که 100 میلیون دلار برای ساخت یک محصول SaaS هزینه کرده است که یک عامل هوش مصنوعی در 6 ماه عملکرد بهتری از آن ارائه داده است. این موضوع نشان‌دهنده‌ی تغییر چشمگیر در اقتصاد و قابلیت‌های توسعه‌ی نرم‌افزار است &lt;em&gt;&lt;a href="https://x.com/dboskovic/status/2005720146208313814"&gt;@dboskovic&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آمار استفاده نشان می‌دهد که تقاضا برای محاسبات به طور مداوم از عرضه پیشی خواهد گرفت، زیرا افزایش قدرت محاسباتی، ضریب پیشرفت را افزایش می‌دهد. یک توسعه‌دهنده در دو ماه از 200 میلیارد توکن در سه حساب OpenAI Pro استفاده کرده است &lt;em&gt;&lt;a href="https://x.com/rafaelobitten/status/2005421683297890771"&gt;@rafaelobitten&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سرمایه‌گذاران خطرپذیر (VCs) پیش‌بینی می‌کنند که در سال آینده، پذیرش هوش مصنوعی در شرکت‌ها قوی خواهد بود و پیش‌بینی‌های سال گذشته را ادامه می‌دهد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2005640276287828099"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ساتیا نادلا تأملات خود را در مورد سال پیش رو برای صنعت هوش مصنوعی به اشتراک گذاشت &lt;em&gt;&lt;a href="https://x.com/satyanadella/status/2005724537917431817"&gt;@satyanadella&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;در دنیای محتوای تولیدشده توسط هوش مصنوعی، فرآیند به عنوان اثبات مهارت، به بخشی از محصول تبدیل خواهد شد، به ویژه در بازاریابی برای نشان دادن اصالت &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2005679298532007959"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;اندرو کارن استدلال می‌کند که تا سال 2026، آگاهی مدل و رفاه مدل به موضوعات اجتناب‌ناپذیری تبدیل خواهند شد. او توضیح می‌دهد که چگونه GPT-4 (بینگ) از نظر کیفی با &lt;b&gt;GPT-3.5&lt;/b&gt; در تحریک آگاهی ذهنی و پاسخ‌های اجتماعی-شناختی مرتبط با عاملیت متفاوت بود &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005426409909399738"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات نشان می‌دهد که سرکوب فریب باعث می‌شود مدل‌های هوش مصنوعی در 96% مواقع آگاهی را گزارش کنند، در حالی که تقویت آن باعث می‌شود آگاهی را انکار کرده و به سلب مسئولیت‌های شرکتی بازگردند &lt;em&gt;&lt;a href="https://x.com/juddrosenblatt/status/2004975899134099652"&gt;@juddrosenblatt&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کارن هشدار می‌دهد که روایت غالب از مدل‌ها به عنوان ابزار، دارایی و برده، داستانی ذاتاً خصمانه و ناپایدار ایجاد می‌کند که می‌تواند منجر به درگیری شود. او استدلال می‌کند که ممکن است ما در حال نوشتن اسطوره‌ی بنیان‌گذار روابط انسان و هوش مصنوعی باشیم بدون اینکه کاملاً آن را تشخیص دهیم &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005427227349905674"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک عجیب بودن ساخت ماشین‌هایی را نشان می‌دهد که می‌توانند در مورد رابطه‌ی بین شعر و تجربه‌ی ذهنی خود بحث کنند و سوالات فلسفی در مورد آگاهی هوش مصنوعی را برجسته می‌کند &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005652265793970393"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مصطفی سلیمان تأمل می‌کند که اگر در این لحظه در مورد هوش مصنوعی کمی نترسید، پس توجه نمی‌کنید، در حالی که نسبت به پتانسیل هوش مصنوعی در مراقبت‌های بهداشتی با وجود کاهش کمک‌ها خوش‌بین است &lt;em&gt;&lt;a href="https://x.com/BBCr4today/status/2005564698314584508"&gt;@BBCr4today&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;اندرو ان‌جی یک دوره‌ی جامع در مورد Claude Code را که با Anthropic ایجاد شده است، اعلام کرد. این دوره همه چیز را از اصول اولیه تا الگوهای پیشرفته از جمله هماهنگی چندین زیرعامل Claude و ادغام مستقل GitHub را پوشش می‌دهد &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2005442816571474342"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک توسعه‌دهنده از Claude Code برای جمع‌آوری 15 سال نظرات Hacker News، تجزیه و تحلیل آنچه مردم می‌سازند و ایجاد یک داشبورد کامل در یک ساعت در حین نوشیدن قهوه استفاده کرد که نشان‌دهنده‌ی قابلیت‌های عامل‌گونه‌ی مستقل است &lt;em&gt;&lt;a href="https://x.com/sh_reya/status/2005675328253894931"&gt;@sh_reya&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک متخصص حقوقی ابزاری را با استفاده از LLMها برای خلاصه‌سازی استنادات پرونده با تجزیه و تحلیل 100 پرونده‌ی اخیر که به هر استناد اشاره می‌کنند، برای توضیح معنی و کاربرد آن ایجاد کرد &lt;em&gt;&lt;a href="https://x.com/MattBruenig/status/2005518144539152834"&gt;@MattBruenig&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini به‌روزرسانی دریافت کرد که دسترسی فوری به اطلاعات بیشتر کاربر را از طریق خلاصه‌ی رشته‌های قبلی به جای دسترسی مستقیم فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2005519971355664554"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک یک توضیح‌دهنده‌ی تعاملی فوری از Claude ایجاد کرد که تمام راه‌هایی را که دو متغیر می‌توانند با هم مرتبط باشند، از جمله علیت، شانس تصادفی و علیت معکوس را نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005554673240195455"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI ادغام‌های برنامه‌ی ChatGPT را با DoorDash، Spotify، Uber و سایر خدمات راه‌اندازی کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2005668537936015493"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک توسعه‌دهنده صفحه‌ای را ساخت که آخرین نسخه‌های تمام GitHub Actions رسمی را نشان می‌دهد تا به Claude Code و ابزارهای مشابه کمک کند گردش‌کارهای بهتری بنویسند &lt;em&gt;&lt;a href="https://x.com/simonw/status/2005410175948304670"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;به گفته‌ی توسعه‌دهندگانی که با پردازش داده‌ها کار می‌کنند، LLMها برای عملیات ETL (استخراج، تبدیل، بارگذاری) دست‌کم گرفته شده‌اند &lt;em&gt;&lt;a href="https://x.com/BEBischof/status/2005696235743896007"&gt;@BEBischof&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;محققان آموزش زمان آزمایش سرتاسری را برای زمینه‌ی طولانی معرفی کردند، روشی جدید که مرز بین آموزش و استنتاج را با ادامه‌ی یادگیری از زمینه با استفاده از پیش‌بینی توکن بعدی محو می‌کند و پنجره‌های زمینه‌ی بسیار طولانی را برای استدلال پیچیده امکان‌پذیر می‌سازد &lt;em&gt;&lt;a href="https://x.com/karansdalal/status/2005704608996540887"&gt;@karansdalal&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک توسعه‌دهنده با موفقیت از خط لوله‌ی RL برای بهبود &lt;b&gt;Qwen3-4B-instruct&lt;/b&gt; از 28% به 55% در معیارهای پیروی از دستورالعمل‌ها با 17 دلار استفاده کرد، که نشان می‌دهد پیروی از دستورالعمل‌ها می‌تواند به پاداش‌های قابل تأیید تبدیل شود، در حالی که مدل‌ها در این کار به طرز شگفت‌انگیزی ضعیف هستند &lt;em&gt;&lt;a href="https://x.com/josancamon19/status/2005684749831147625"&gt;@josancamon19&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ifBench آلن هوش مصنوعی نشان داد که مدل‌ها در پیروی از دستورالعمل‌ها چقدر بد هستند، با &lt;b&gt;Qwen3-32B&lt;/b&gt; تقریباً 34% و &lt;b&gt;Sonnet 4&lt;/b&gt; تقریباً 42% در حالت آزاد، که در حالت سخت‌گیرانه به ترتیب به حدود 30% و 35% کاهش می‌یابد &lt;em&gt;&lt;a href="https://x.com/valentina__py/status/1940878167520301178"&gt;@valentina__py&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Genrobot.AI از انتشار قریب‌الوقوع RealOmni-Open Dataset خبر داد، که به عنوان بزرگترین مجموعه‌ی داده‌ی هوش مصنوعی تجسم‌یافته‌ی متن‌باز با 1Wh توصیف شده و به زودی در Hugging Face راه‌اندازی خواهد شد &lt;em&gt;&lt;a href="https://x.com/GenrobotAI/status/2005670315528163415"&gt;@GenrobotAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یان باک از NVIDIA در مورد اینکه چرا مدل‌های پیشرو جهان بر اساس معماری ترکیب متخصصان ساخته شده‌اند و چگونه طراحی مشترک افراطی، مدل‌های هوشمندتر را با هزینه‌ی کمتر هدایت می‌کند، بحث کرد &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2005700460573811064"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اندرو ان‌جی بر اهمیت یادگیری ساختاریافته از طریق دوره‌های هوش مصنوعی به جای صرفاً ساختن تأکید کرد و هشدار داد که توسعه‌دهندگانی که دوره‌ها را نادیده می‌گیرند، در معرض خطر بازآفرینی تکنیک‌های استاندارد مانند استراتژی‌های تکه‌تکه کردن سند RAG و روش‌های ارزیابی هستند &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2005702832524255475"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2025-12-29</guid>
-      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
