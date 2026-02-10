@@ -13,9 +13,45 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 06:00:07 +0330</lastBuildDate>
-    <pubDate>Tue, 10 Feb 2026 06:00:07 +0330</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2026 01:15:43 +0330</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2026 01:15:43 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-10</title>
+      <link>https://sumbird.ir/en/news/2026-02-10</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity upgrades &lt;b&gt;Advanced Deep Research&lt;/b&gt; to run on &lt;b&gt;Opus 4.6&lt;/b&gt;, extending lead on Google's DSQA benchmark &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2020969022154735736"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI launches &lt;b&gt;deep research&lt;/b&gt; powered by &lt;b&gt;GPT-5.2&lt;/b&gt; with app connections, real-time progress tracking, and fullscreen reports &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2021299935678026168"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor releases &lt;b&gt;Composer 1.5&lt;/b&gt; striking balance between intelligence and speed for AI-assisted coding &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2020968661142380971"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Former GitHub CEO Thomas Dohmke raises record &lt;b&gt;$60M seed round at $300M valuation&lt;/b&gt; for Entire, agent-first dev platform &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2021230764403351999"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI's &lt;b&gt;Codex App&lt;/b&gt; surpasses 1 million downloads in first week with 60% growth in overall Codex users &lt;em&gt;&lt;a href="https://x.com/sama/status/2020977975081177343"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Andrew Ng observes AI causing subtle job displacement as businesses replace employees who don't adapt to AI tools with those who do &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2021259884709413291"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;LLMs tripled new book releases since 2022; while average quality fell, books ranked 100-1,000 per category improved and pre-LLM authors became more productive &lt;em&gt;&lt;a href="https://x.com/emollick/status/2021287459016053083"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic relies primarily on internal employee survey to determine if &lt;b&gt;Opus 4.6&lt;/b&gt; crossed autonomous AI R&amp;amp;D threshold, raising deployment responsibility concerns &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/2021266471406666231"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI Now Institute releases essays on accountability, frugal AI, democratization, and "AI for Good" questioning tech industry narratives &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/2021273642617929932"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford HAI releases policy brief warning AI could worsen health insurance delays and wrongful denials without proper safeguards &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2021271235414589774"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Isomorphic Labs' drug design engine more than doubles &lt;b&gt;AlphaFold 3&lt;/b&gt; performance on key benchmarks for biomolecular structure prediction &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/2021223548744822972"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT graduate develops optical AI system analyzing figure skaters' jumps, working with NBC Sports for 2026 Winter Olympics coverage &lt;em&gt;&lt;a href="https://x.com/MIT/status/2021244723332096047"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ALMA system enables AI agents to automatically design memory mechanisms, outperforming hand-crafted designs across sequential decision-making domains &lt;em&gt;&lt;a href="https://x.com/jeffclune/status/2021242681826095179"&gt;@jeffclune&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Unsloth releases Triton kernels enabling 12× faster MoE model training with 35% less VRAM and no accuracy loss &lt;em&gt;&lt;a href="https://x.com/UnslothAI/status/2021244131927023950"&gt;@UnslothAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;New research derives neural scaling law exponents from natural language statistics, predicting data-limited scaling from first principles &lt;em&gt;&lt;a href="https://x.com/SuryaGanguli/status/2021291213639516184"&gt;@SuryaGanguli&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-10</guid>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-09</title>
       <link>https://sumbird.ir/en/news/2026-02-09</link>
@@ -946,48 +982,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-31</guid>
       <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-12-30</title>
-      <link>https://sumbird.ir/en/news/2025-12-30</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Alibaba releases &lt;b&gt;Qwen Code v0.6.0&lt;/b&gt; with experimental Skills feature, multi-provider support for Gemini and Anthropic, improved VS Code extension, and new commands for non-interactive usage &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006025958055346222"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Alibaba releases &lt;b&gt;MAI-UI&lt;/b&gt; family of foundation GUI agents with native MCP tool integration, achieving state-of-the-art results on AndroidWorld benchmark, surpassing &lt;b&gt;Gemini-2.5-Pro&lt;/b&gt;, Seed1.8, and UI-Tars-2, with publicly available 2B and 8B variants &lt;em&gt;&lt;a href="https://x.com/Ali_TongyiLab/status/2005789039719550988"&gt;@Ali_TongyiLab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Runway announces multi-year strategic partnership with Adobe to integrate Runway models into Adobe tools and develop specialized AI capabilities exclusively for Adobe applications &lt;em&gt;&lt;a href="https://x.com/c_valenzuelab/status/2006059919611441394"&gt;@c_valenzuelab&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Meta acquires Manus AI for over $1 billion, with the Singapore-based team joining Meta's AI efforts to build general agents, currently achieving state-of-the-art performance on the Remote Labor Index benchmark &lt;em&gt;&lt;a href="https://x.com/alexandr_wang/status/2005766469771223106"&gt;@alexandr_wang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;SoftBank completes $40 billion investment commitment to OpenAI with final $22 billion payment, bringing their stake to over 10% &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006014016242471346"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Atlassian reports that companies using AI code generation tools like GitHub Copilot, Claude Code, Cursor, and Replit expand their paid Jira seats approximately 5% faster than those who don't, suggesting AI coding tools drive increased developer hiring &lt;em&gt;&lt;a href="https://x.com/tanayj/status/2005745892121317455"&gt;@tanayj&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;VCs predict enterprises will consolidate AI spending through fewer vendors in 2026 despite increased overall spending &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2006026389468950657"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gergelyorosz expresses skepticism about Meta's Manus acquisition based on Meta's history of shutting down B2B SaaS platforms like Parse and Meta Workspaces, noting zero upside and significant risk for businesses adopting Meta platforms that cannot be self-hosted &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2006054423336833089"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Product-minded engineers who can use AI tools with agency to build solutions that move business metrics will become the most in-demand role in software development &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2006100163647930805"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA Nemotron model family surpasses 5 million downloads on Hugging Face &lt;em&gt;&lt;a href="https://x.com/NVIDIAAP/status/2005858786855067848"&gt;@NVIDIAAP&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Stanford study reveals five popular therapy chatbots stigmatize conditions like schizophrenia and alcohol dependence, demonstrating that while AI may excel at administrative tasks, human presence remains essential for healing &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2006003131658686485"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Scientific journals face challenges in quickly distinguishing between good and bad AI-assisted research, as mental and procedural filters designed for human-generated work struggle to detect quality differences when AI is involved, potentially leading editors to rely more heavily on noisy signals like prior record and institutional affiliation &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005806593724809541"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;1Password browser extension injects Prism.js globally on every webpage, breaking original syntax highlighting and raising concerns about negligence after the issue was flagged during beta testing but still made it to production &lt;em&gt;&lt;a href="https://x.com/youyuxi/status/2005904473332564339"&gt;@youyuxi&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Qwen Code demonstrates capability to parse PDF documents into markdown and perform translation tasks &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006026233176318124"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tesla FSD Supervised achieves over 9,000 consecutive miles of intervention-free driving across more than 20 states, including all parking and supercharger stops &lt;em&gt;&lt;a href="https://x.com/Tesla_AI/status/2005800650601644461"&gt;@Tesla_AI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford scholars develop DataTalk, a domain-specific tool that translates plain-language questions into verified database queries, designed to help underresourced newsrooms tackle local news collapse with precision tools rather than generic AI &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2005791318102905312"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developers demonstrate &lt;b&gt;Claude Opus 4.5&lt;/b&gt; building complex projects from scratch including a full MIDI mixer terminal app in Rust, a JavaScript interpreter in Python, and a WebAssembly runtime, proving difficult to find the model's limits &lt;em&gt;&lt;a href="https://x.com/simonw/status/2005884985438253507"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Machine translation has increased international trade by 10%, having the same economic effect as shrinking the size of the world by 25% &lt;em&gt;&lt;a href="https://x.com/emollick/status/2006012159122149515"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Research reveals 60 machine learning models for molecules, materials, and proteins converge toward similar encoding of molecular structure despite different training approaches, extending the concept of Platonic representation from language models to scientific domains, though this convergence doesn't work on out-of-distribution structures &lt;em&gt;&lt;a href="https://x.com/emollick/status/2005991284511760421"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Truncated importance sampling in reinforcement learning frameworks addresses the mismatch between sampler and learner engines by scaling policy gradients with capped importance ratios, improving model performance despite potentially showing lower logged rewards during training &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2005891753224577123"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AI-assisted programming debates parallel historical discussions about low-level versus high-level languages, with the fundamental trade-off remaining productivity versus control, though vibe coding is proving to be a dead end similar to WYSIWYG editors for web development &lt;em&gt;&lt;a href="https://x.com/random_walker/status/2006026959315226911"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;François Chollet argues that human-level intelligence is not a specific capability threshold but rather a threshold of efficiency &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2005772262973296677"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-30</guid>
-      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
