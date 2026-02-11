@@ -13,9 +13,51 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Feb 2026 06:00:07 +0330</lastBuildDate>
-    <pubDate>Wed, 11 Feb 2026 06:00:07 +0330</pubDate>
+    <lastBuildDate>Thu, 12 Feb 2026 01:16:11 +0330</lastBuildDate>
+    <pubDate>Thu, 12 Feb 2026 01:16:11 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-11</title>
+      <link>https://sumbird.ir/en/news/2026-02-11</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI updates &lt;b&gt;GPT-5.2&lt;/b&gt; instant model in ChatGPT with incremental improvements &lt;em&gt;&lt;a href="https://x.com/sama/status/2021452911511998557"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic releases &lt;b&gt;Claude Opus 4.6&lt;/b&gt; with preemptive ASL-4 safety assessment and detailed sabotage risk report &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2021397952791707696"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Zai releases &lt;b&gt;GLM-5&lt;/b&gt; with 744B parameters (40B active) trained on 28.5T tokens under MIT license for commercial use &lt;em&gt;&lt;a href="https://x.com/Zai_org/status/2021638634739527773"&gt;@Zai_org&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic ships Cowork on Windows with full feature parity to MacOS including file access and multi-step execution &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2021336313979625910"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ByteDance's &lt;b&gt;Seedance 2.0&lt;/b&gt; demonstrates one-shot manga-to-anime conversion and complex video generation capabilities &lt;em&gt;&lt;a href="https://x.com/emollick/status/2021412306291392535"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI CEO reports engineers rapidly switching from Claude to &lt;b&gt;Codex&lt;/b&gt; for development work &lt;em&gt;&lt;a href="https://x.com/sama/status/2021606985469211065"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic reports 67% increase in PRs per developer using &lt;b&gt;Claude Code&lt;/b&gt; and launches contribution metrics for Team and Enterprise users &lt;em&gt;&lt;a href="https://x.com/_catwu/status/2021385318172328057"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;GitHub CEO Thomas Dohmke announces &lt;b&gt;Entire&lt;/b&gt; with $60M seed funding to build next developer platform for agent-human collaboration &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2021495547698479447"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Two senior engineers including co-founders exit xAI amid internal controversy &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2021625839713177621"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;PyTorch Foundation appoints Mark Collier as Executive Director while Matt White becomes CTO to scale leadership capacity &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/2021630373323571382"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Startups and enterprises adopting follow-the-sun team formation with AI agents enabling continuous development across timezones &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2021467556998262920"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nature commentary by linguists and philosophers declares that by reasonable standards, artificial systems that are generally intelligent now exist &lt;em&gt;&lt;a href="https://x.com/emollick/status/2021627729637158922"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stanford HAI emphasizes need for measurement science for AI systems similar to physics and learning sciences &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2021359023145042099"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Docusign partners with NVIDIA to test &lt;b&gt;Nemotron-Parse&lt;/b&gt; model for extracting complex tables in agreements with reduced manual corrections &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2021644058591211706"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Adora launches with $7M funding to help product teams visualize entire product experiences using AI-powered journey mapping &lt;em&gt;&lt;a href="https://x.com/benblumenrose/status/2021358614448046115"&gt;@benblumenrose&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stripe launches machine payments preview enabling developers to directly charge AI agents with few lines of code &lt;em&gt;&lt;a href="https://x.com/jeff_weinstein/status/2021331763960873058"&gt;@jeff_weinstein&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google DeepMind's &lt;b&gt;Gemini Deep Think&lt;/b&gt; with agentic workflows helps solve research-level problems in mathematics, physics, and computer science &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2021632302070026581"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research agent Aletheia powered by advanced &lt;b&gt;Gemini Deep Think&lt;/b&gt; autonomously produces publishable math research and solves Erdős problems &lt;em&gt;&lt;a href="https://x.com/lmthang/status/2021631397614731563"&gt;@lmthang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT researchers develop method for AI agents to execute programs by backtracking and making multiple attempts to fix mistakes &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/2021630494723436732"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;New research on Learning to Continually Learn via Meta-learning Memory Designs shows agents can design better memory mechanisms than humans &lt;em&gt;&lt;a href="https://x.com/jeffclune/status/2021242681826095179"&gt;@jeffclune&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nature Machine Intelligence study finds LLM judgment of empathic communication exceeds crowd reliability and nearly matches expert annotations &lt;em&gt;&lt;a href="https://x.com/mattgroh/status/2021600043849937081"&gt;@mattgroh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-11</guid>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-10</title>
       <link>https://sumbird.ir/en/news/2026-02-10</link>
@@ -936,52 +978,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2026-01-01</guid>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2025-12-31</title>
-      <link>https://sumbird.ir/en/news/2025-12-31</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Alibaba releases &lt;b&gt;Qwen-Image-2512&lt;/b&gt;, an upgraded text-to-image model featuring more realistic human rendering with reduced "AI look," finer natural textures for landscapes and materials, and stronger text rendering capabilities. Tested in 10,000+ blind rounds on AI Arena, it ranks as the strongest open-source image model while staying competitive with closed-source systems &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006294325240668255"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;South Korea's Ministry of Science launches sovereign AI initiative with five companies releasing open-source models: SK Telecom's &lt;b&gt;A.X-K1&lt;/b&gt; (519B total, 33B active parameters), LG's &lt;b&gt;K-EXAONE&lt;/b&gt; (236B total, 23B active), NC-AI's &lt;b&gt;VAETKI&lt;/b&gt; (112B total, 10B active), Upstage's &lt;b&gt;Solar-Open&lt;/b&gt; (102B total, 12B active), and Naver's &lt;b&gt;HyperCLOVAX-SEED-Think&lt;/b&gt; (32B dense). The $140M first-round program requires from-scratch training, commercial usability, and ambitious scale &lt;em&gt;&lt;a href="https://x.com/eliebakouch/status/2006364076977336552"&gt;@eliebakouch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI quietly rebrands "Codex cloud" to "Codex web" within the last 48 hours &lt;em&gt;&lt;a href="https://x.com/simonw/status/2006404614829257013"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ByteDance plans to spend &lt;b&gt;$14 billion&lt;/b&gt; on NVIDIA &lt;b&gt;H200&lt;/b&gt; GPUs next year, with Chinese companies placing orders for more than 2 million &lt;b&gt;H200&lt;/b&gt;s in 2026. TSMC needs to fabricate 1.3M &lt;b&gt;H200&lt;/b&gt;s requiring nearly 24,000 wafer starts, allocating 3,000 wafers per month of N4 capacity over 8 months, generating nearly $450M for TSMC &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006355116279152984"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Unconfirmed reports claim NVIDIA RTX 5090 prices may gradually increase from $1,999 to $5,000 over the next few months, though no official statement from NVIDIA or AMD has been released &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006445105985826965"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Scale AI reports Q4 2025 as their biggest quarter ever, with US government business growing faster than ever, profitable data business, and multiple nine-figure enterprise and government deals &lt;em&gt;&lt;a href="https://x.com/alexandr_wang/status/2006413001293750738"&gt;@alexandr_wang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Investors predict AI is coming for labor in 2026, signaling major workforce transformation ahead &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2006405795966341184"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Demand for training non-programmers to become effective &lt;b&gt;AI-enabled developers&lt;/b&gt; is expected to skyrocket, though mastering software engineering fundamentals still requires significant time and effort that cannot be skipped &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2006293647860408632"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Korea releases more 100B+ parameter models in one day than the EU or US released in all of 2025, accomplished with only approximately 1,000 B200 GPUs from the government &lt;em&gt;&lt;a href="https://x.com/eliebakouch/status/2006380994467639694"&gt;@eliebakouch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;X platform allows Grok to generate images without consent of people depicted, raising concerns about gross behavior and lack of consent mechanisms &lt;em&gt;&lt;a href="https://x.com/RhysSullivan/status/2006341006837551588"&gt;@RhysSullivan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis questions whether AI fact-checking actually improved the information environment on X, noting that Grok appears unable to change major figures' minds on strongly held issues, suggesting AI's limits in overcoming deep priors and that fact-checking tools enhance discourse more through information access than persuasion &lt;em&gt;&lt;a href="https://x.com/emollick/status/2006354659536241056"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Social media described as a sedative that makes people forget they have freedom and agency, with the reminder that "you can just do things, but first you have to close the app" &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2006133118936166801"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;User demonstrates expert AI-driven bug reporting by using AI to write Python scripts that decode crash files, match them with dsym files, and analyze codebases to find root causes, despite having no knowledge of Zig, macOS development, or terminals. This resulted in fixing 4 real crashing cases in Ghostty, showcasing how high-quality AI drivers can produce valuable contributions when combined with thoughtful human navigation and critical thinking &lt;em&gt;&lt;a href="https://x.com/mitchellh/status/2006114026191769924"&gt;@mitchellh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer reports completing a Jupyter extension project in 8 hours using AI agents with specific testing tools packaged as skills, comprehensive test suites, and careful monitoring of diffs and thinking traces. Despite the capability to replicate features, the developer notes this doesn't kill SaaS due to the long tail of features, paper cuts, and the preference to leave constant tuning to focused teams with good taste &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2006440720001835135"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer reports 100% of contributions to Claude Code in the last thirty days were written by Claude Code itself, validating Dario's prediction that 90% of code would be written by AI was only off by a couple months &lt;em&gt;&lt;a href="https://x.com/emollick/status/2006230583131725858"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tesla &lt;b&gt;FSD V14.2&lt;/b&gt; completes first fully autonomous coast-to-coast drive across the USA with zero interventions, covering 2,732.4 miles from Los Angeles to Myrtle Beach over 2 days and 20 hours, including all parking at Tesla Superchargers. This achievement represents a major milestone that was a goal for the autopilot team from the start &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2006436622909452501"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini demonstrates interactive learning capabilities by producing fully interactive images on any topic where users can highlight any region to receive full explanations, showing potential for improving education &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/2006194293749277183"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Embodied AI models could transform homesteading by enabling one person supported by robots to realistically run a small farm and build surplus, with robots serving as generalist technicians, mechanics, and medics available 24/7 &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006430817267134585"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Radical decentralization of software development is accelerating with at least 260 custom "loom" implementations as of a few months ago, likely doubled since. This trend suggests a future where personal operating systems and AI-native, self-modifying software optimized as extended minds become common, moving away from centralized corporate software toward home-cooked solutions &lt;em&gt;&lt;a href="https://x.com/repligate/status/2006190633673974105"&gt;@repligate&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Replit MCP integrations enable one-shot website creation with global payments, allowing users to go from idea to production payments in less than 10 minutes by simply saying "add moneydevkit" &lt;em&gt;&lt;a href="https://x.com/amasad/status/2006441025032827124"&gt;@amasad&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.2 Pro&lt;/b&gt; demonstrates very strong performance on science and mathematics, approaching the ability to solve FrontierMath Tier 4 problems, which would provide evidence that AI can perform complex reasoning needed for scientific breakthroughs in technical domains &lt;em&gt;&lt;a href="https://x.com/gdb/status/2006154439208337417"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Truncated Importance Sampling (TIS) in reinforcement learning addresses the mismatch between sampler engines (vLLM/SGLang) and learner engines (FSDP/DeepSpeed) by scaling policy gradients with capped importance ratios. While TIS may show lower logged rewards during training (an artifact from the sampler engine), it improves final model performance by correcting for engine mismatch. Analysis shows distribution strategy differences and sequence length significantly impact mismatch, while inference backend choice has minimal impact &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2006210963440087103"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GLM-4.7&lt;/b&gt; achieves 1224 ELO on GDPval-AA leaderboard, becoming the new open weights leader with a 170-point increase compared to &lt;b&gt;GLM-4.6&lt;/b&gt;, meaning outputs from &lt;b&gt;GLM-4.7&lt;/b&gt; are expected to beat &lt;b&gt;GLM-4.6&lt;/b&gt; 73% of the time in head-to-head comparisons &lt;em&gt;&lt;a href="https://x.com/xeophon/status/2006263223880675446"&gt;@xeophon&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LG's &lt;b&gt;K-EXAONE&lt;/b&gt; features fine-grained MoE design optimized with Multi-Token Prediction (MTP), enabling self-speculative decoding that boosts inference throughput by approximately 1.5x &lt;em&gt;&lt;a href="https://x.com/ClementDelangue/status/2006369448551141506"&gt;@ClementDelangue&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Fields medalist Terry Tao discusses the future of mathematics with formal proof systems, stating "I got convinced that this was the future of mathematics... It's a different style of writing proofs that actually is in some ways easier to read—harder to check by humans, but you see more clearly the inputs and outputs of a proof, which traditional writing often conceals... I think the definition of a mathematician will broaden" &lt;em&gt;&lt;a href="https://x.com/mathematics_inc/status/2006117894305005762"&gt;@mathematics_inc&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2025-12-31</guid>
-      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
