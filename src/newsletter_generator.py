@@ -335,7 +335,8 @@ class NewsletterGenerator:
                 page_html = self.template_manager.generate_index_html(
                     posts_content=posts_html,
                     pagination_script=pagination_html,
-                    template_name="page-template.html"
+                    template_name="page-template.html",
+                    page_num=page_num
                 )
                 
                 if page_html:

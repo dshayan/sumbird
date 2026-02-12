@@ -78,6 +78,84 @@ class TemplateManager:
             log_error("TemplateManager", f"Error generating PostHog script", e)
             return ""
     
+    def _generate_article_structured_data(self, title: str, description: str, date_str: str, canonical_url: str) -> str:
+        """Generate Schema.org NewsArticle structured data for posts.
+        
+        Args:
+            title: The article title.
+            description: The article description.
+            date_str: Date string in YYYY-MM-DD format.
+            canonical_url: Canonical URL for the article.
+            
+        Returns:
+            JSON-LD script tag with structured data.
+        """
+        try:
+            import json
+            from datetime import datetime
+            from config import SITE_BASE_URL
+            
+            # Parse date and convert to ISO format
+            article_date = datetime.strptime(date_str, "%Y-%m-%d").isoformat()
+            
+            structured_data = {
+                "@context": "https://schema.org",
+                "@type": "NewsArticle",
+                "headline": title,
+                "description": description,
+                "datePublished": article_date,
+                "dateModified": article_date,
+                "author": {
+                    "@type": "Organization",
+                    "name": "Sumbird"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Sumbird",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": f"{SITE_BASE_URL}/assets/images/sumbird-favicon.png"
+                    }
+                },
+                "mainEntityOfPage": canonical_url
+            }
+            
+            return f'<script type="application/ld+json">\n{json.dumps(structured_data, indent=2)}\n    </script>'
+        except Exception as e:
+            log_error("TemplateManager", f"Error generating article structured data", e)
+            return ""
+    
+    def _generate_website_structured_data(self) -> str:
+        """Generate Schema.org WebSite structured data for homepage.
+        
+        Returns:
+            JSON-LD script tag with structured data.
+        """
+        try:
+            import json
+            from config import SITE_BASE_URL
+            
+            # Language-specific names and descriptions
+            if self.language == "fa":
+                name = "سامبرد"
+                description = "اخبار و حال‌وهوای هوش مصنوعی از توییتر"
+            else:
+                name = "Sumbird"
+                description = "AI news and vibes from Twitter"
+            
+            structured_data = {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": name,
+                "description": description,
+                "url": f"{SITE_BASE_URL}/{self.language}/"
+            }
+            
+            return f'<script type="application/ld+json">\n{json.dumps(structured_data, indent=2)}\n    </script>'
+        except Exception as e:
+            log_error("TemplateManager", f"Error generating website structured data", e)
+            return ""
+    
     def load_component(self, component_name: str, **kwargs) -> str:
         """Load a shared component and replace placeholders.
         
@@ -238,31 +316,52 @@ class TemplateManager:
             html_content = html_content.replace('src="../assets/', 'src="../../../assets/')
             
             if self.language == "fa":
-                # Update HTML lang attribute to Farsi
-                html_content = html_content.replace('lang="en"', 'lang="fa"')
+                # Update HTML lang attribute to Farsi (use regex to target only the html tag)
+                html_content = re.sub(r'<html\s+lang="en"', '<html lang="fa"', html_content)
                 # Remove any existing dir attribute and add dir="rtl"
                 html_content = re.sub(r'\s+dir="[^"]*"', '', html_content)  # Remove existing dir attribute
                 html_content = html_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
-                # Update Open Graph locale
-                html_content = html_content.replace('content="en_US"', 'content="fa_IR"')
+                # Update Open Graph locale (only the og:locale meta tag, not og:locale:alternate)
+                html_content = re.sub(r'(<meta property="og:locale" content=)"en_US"', r'\1"fa_IR"', html_content)
             else:
-                # Update HTML lang attribute to English
-                html_content = html_content.replace('lang="fa"', 'lang="en"')
+                # Update HTML lang attribute to English (use regex to target only the html tag)
+                html_content = re.sub(r'<html\s+lang="fa"', '<html lang="en"', html_content)
                 # Remove any existing dir attribute and add dir="ltr"
                 html_content = re.sub(r'\s+dir="[^"]*"', '', html_content)  # Remove existing dir attribute
                 html_content = html_content.replace('<html lang="en"', '<html lang="en" dir="ltr"')
-                # Update Open Graph locale to English
-                html_content = html_content.replace('content="fa_IR"', 'content="en_US"')
+                # Update Open Graph locale to English (only the og:locale meta tag, not og:locale:alternate)
+                html_content = re.sub(r'(<meta property="og:locale" content=)"fa_IR"', r'\1"en_US"', html_content)
+            
+            # Generate canonical URLs for both languages (for hreflang tags)
+            canonical_url_en = f"{SITE_BASE_URL}/en/news/{date_str}" if date_str else f"{SITE_BASE_URL}/en/"
+            canonical_url_fa = f"{SITE_BASE_URL}/fa/news/{date_str}" if date_str else f"{SITE_BASE_URL}/fa/"
+            
+            # Set alternate locale (opposite of current locale)
+            alternate_locale = "fa_IR" if self.language == "en" else "en_US"
+            
+            # Generate structured data for this article
+            structured_data = ""
+            if date_str:
+                structured_data = self._generate_article_structured_data(
+                    title=title,
+                    description=og_description,
+                    date_str=date_str,
+                    canonical_url=canonical_url
+                )
             
             # Replace template placeholders
             html_content = html_content.replace("{{TITLE}}", title)
             html_content = html_content.replace("{{DESCRIPTION}}", description)
             html_content = html_content.replace("{{CONTENT}}", content)
             html_content = html_content.replace("{{CANONICAL_URL}}", canonical_url)
+            html_content = html_content.replace("{{CANONICAL_URL_EN}}", canonical_url_en)
+            html_content = html_content.replace("{{CANONICAL_URL_FA}}", canonical_url_fa)
+            html_content = html_content.replace("{{ALTERNATE_LOCALE}}", alternate_locale)
             html_content = html_content.replace("{{OG_IMAGE}}", og_image)
             html_content = html_content.replace("{{HEADER}}", header_html)
             html_content = html_content.replace("{{FOOTER}}", footer_html)
             html_content = html_content.replace("{{POSTHOG_SCRIPT}}", self._get_posthog_script())
+            html_content = html_content.replace("{{STRUCTURED_DATA}}", structured_data)
             
             return html_content
             
@@ -273,13 +372,15 @@ class TemplateManager:
     def generate_index_html(self, 
                            posts_content: str, 
                            pagination_script: str = "", 
-                           template_name: str = "page-template.html") -> str:
+                           template_name: str = "page-template.html",
+                           page_num: int = 1) -> str:
         """Generate the index page HTML using the template.
         
         Args:
             posts_content: The HTML content for all posts.
             pagination_script: JavaScript for pagination functionality.
             template_name: Name of the template file to use.
+            page_num: Page number for pagination (1 for homepage, 2+ for pagination pages).
             
         Returns:
             The complete HTML for the index page.
@@ -305,30 +406,55 @@ class TemplateManager:
             template_content = template_content.replace('href="assets/', 'href="../assets/')
             template_content = template_content.replace('src="assets/', 'src="../assets/')
             
+            # Import config values for SEO
+            from config import SITE_BASE_URL, OG_IMAGE_URL
+            
+            # Generate canonical URLs for both languages (for hreflang tags)
+            # Include page number for pagination pages (page2.html, page3.html, etc.)
+            if page_num > 1:
+                canonical_url_en = f"{SITE_BASE_URL}/en/page{page_num}.html"
+                canonical_url_fa = f"{SITE_BASE_URL}/fa/page{page_num}.html"
+            else:
+                canonical_url_en = f"{SITE_BASE_URL}/en/"
+                canonical_url_fa = f"{SITE_BASE_URL}/fa/"
+            canonical_url = canonical_url_fa if self.language == "fa" else canonical_url_en
+            
+            # Set alternate locale (opposite of current locale)
+            alternate_locale = "fa_IR" if self.language == "en" else "en_US"
+            
+            # Generate structured data for website
+            structured_data = self._generate_website_structured_data()
+            
             # Adjust language attributes for both languages
             if self.language == "fa":
-                # Update HTML lang attribute to Farsi
-                template_content = template_content.replace('lang="en"', 'lang="fa"')
+                # Update HTML lang attribute to Farsi (use regex to target only the html tag)
+                template_content = re.sub(r'<html\s+lang="en"', '<html lang="fa"', template_content)
                 # Remove any existing dir attribute and add dir="rtl"
                 template_content = re.sub(r'\s+dir="[^"]*"', '', template_content)  # Remove existing dir attribute
                 template_content = template_content.replace('<html lang="fa"', '<html lang="fa" dir="rtl"')
-                # Update Open Graph locale
-                template_content = template_content.replace('content="en_US"', 'content="fa_IR"')
+                # Update Open Graph locale (only the og:locale meta tag, not og:locale:alternate)
+                template_content = re.sub(r'(<meta property="og:locale" content=)"en_US"', r'\1"fa_IR"', template_content)
             else:
-                # Update HTML lang attribute to English
-                template_content = template_content.replace('lang="fa"', 'lang="en"')
+                # Update HTML lang attribute to English (use regex to target only the html tag)
+                template_content = re.sub(r'<html\s+lang="fa"', '<html lang="en"', template_content)
                 # Remove any existing dir attribute and add dir="ltr"
                 template_content = re.sub(r'\s+dir="[^"]*"', '', template_content)  # Remove existing dir attribute
                 template_content = template_content.replace('<html lang="en"', '<html lang="en" dir="ltr"')
-                # Update Open Graph locale to English
-                template_content = template_content.replace('content="fa_IR"', 'content="en_US"')
+                # Update Open Graph locale to English (only the og:locale meta tag, not og:locale:alternate)
+                template_content = re.sub(r'(<meta property="og:locale" content=)"fa_IR"', r'\1"en_US"', template_content)
             
             # Replace template placeholders
             html_content = template_content.replace("{{POSTS}}", posts_content)
             html_content = html_content.replace("{{PAGINATION}}", pagination_script)
+            html_content = html_content.replace("{{CANONICAL_URL}}", canonical_url)
+            html_content = html_content.replace("{{CANONICAL_URL_EN}}", canonical_url_en)
+            html_content = html_content.replace("{{CANONICAL_URL_FA}}", canonical_url_fa)
+            html_content = html_content.replace("{{ALTERNATE_LOCALE}}", alternate_locale)
+            html_content = html_content.replace("{{OG_IMAGE}}", OG_IMAGE_URL)
             html_content = html_content.replace("{{HEADER}}", header_html)
             html_content = html_content.replace("{{FOOTER}}", footer_html)
             html_content = html_content.replace("{{POSTHOG_SCRIPT}}", self._get_posthog_script())
+            html_content = html_content.replace("{{STRUCTURED_DATA}}", structured_data)
             
             return html_content
             
