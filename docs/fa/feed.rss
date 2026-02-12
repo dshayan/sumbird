@@ -13,9 +13,51 @@
       <link>https://sumbird.ir/fa/feed</link>
     </image>
     <language>fa-ir</language>
-    <lastBuildDate>Thu, 12 Feb 2026 15:03:59 +0330</lastBuildDate>
-    <pubDate>Thu, 12 Feb 2026 15:03:59 +0330</pubDate>
+    <lastBuildDate>Fri, 13 Feb 2026 01:14:34 +0330</lastBuildDate>
+    <pubDate>Fri, 13 Feb 2026 01:14:34 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-02-12</title>
+      <link>https://sumbird.ir/fa/news/2026-02-12</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل نسخه‌ی ارتقایافته‌ی &lt;b&gt;Gemini 3 Deep Think&lt;/b&gt; را منتشر کرد که در ARC-AGI-2 به امتیاز 84.6% و در Codeforces به امتیاز 3455 Elo دست یافت و در میان برنامه‌نویسان رقابتی، رتبه‌ی هشتم جهان را کسب کرد. &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2021981510400709092"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Gemini 3 Deep Think&lt;/b&gt; در المپیادهای فیزیک و شیمی 2025 به نتایج در سطح مدال طلا دست یافت و با کسب 48.4% بدون ابزار، استاندارد جدیدی را در «آخرین امتحان بشریت» (Humanity's Last Exam) تعیین کرد. &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/2022002445027873257"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI نسخه‌ی پیش‌نمایش تحقیقاتی &lt;b&gt;GPT-5.3-Codex-Spark&lt;/b&gt; را راه‌اندازی کرد که برای کاربران حرفه‌ای (Pro) بیش از 1000 توکن در ثانیه ارائه می‌دهد. &lt;em&gt;&lt;a href="https://x.com/sama/status/2022011797524582726"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Gemini 3 Deep Think&lt;/b&gt; اکنون با تحلیل نقاشی‌ها و مدل‌سازی اشکال پیچیده، طرح‌ها را به فایل‌های STL قابل چاپ سه‌بعدی تبدیل می‌کند. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2021985731577852282"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;Qwen3-ASR-0.6B&lt;/b&gt; را به نمایش گذاشت که قابلیت رونویسی بلادرنگ روی دستگاه را در آیفون 15 پرو مکس فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2021975122853474620"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic با ارزش‌گذاری &lt;b&gt;380 میلیارد دلار&lt;/b&gt; و درآمد سالانه‌ی &lt;b&gt;14 میلیارد دلار&lt;/b&gt;، &lt;b&gt;30 میلیارد دلار&lt;/b&gt; سرمایه جذب کرد که برای سه سال متوالی رشد 10 برابری سالانه را نشان می‌دهد. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2022023155423002867"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Claude Code&lt;/b&gt; در کمتر از یک سال به درآمد سالانه‌ی &lt;b&gt;2.5 میلیارد دلار&lt;/b&gt; رسید و تعداد کاربران فعال هفتگی خود را از اول ژانویه دو برابر کرد. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2022023156513616220"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA &lt;b&gt;Codex&lt;/b&gt; را در سراسر شرکت برای 30,000 مهندس با کنترل‌های مدیریتی ابری و پردازش فقط در ایالات متحده راه‌اندازی کرد. &lt;em&gt;&lt;a href="https://x.com/OpenAIDevs/status/2021742142838993059"&gt;@OpenAIDevs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اسپاتیفای گزارش داد که بهترین توسعه‌دهندگانش از دسامبر به دلیل افزایش بهره‌وری هوش مصنوعی، کدی ننوشته‌اند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2022016688699674692"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مصرف هفتگی توکن OpenRouter 12.7 برابر افزایش یافت و به 12.1 تریلیون توکن در هفته رسید که با کل حجم استنتاج Azure برابری می‌کند. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2021829721957482995"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;استارتاپ استنتاج هوش مصنوعی Modal Labs در حال مذاکره برای جذب سرمایه با ارزش‌گذاری &lt;b&gt;2.5 میلیارد دلار&lt;/b&gt; است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2021718719274397904"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic متعهد شد که 100% افزایش قیمت برق و هزینه‌های ارتقای شبکه را از مراکز داده برای محافظت از مشترکین پوشش دهد. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2021694494215901314"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic مبلغ &lt;b&gt;20 میلیون دلار&lt;/b&gt; به Public First Action، یک سازمان دوحزبی متمرکز بر بسیج سیاست‌های هوش مصنوعی، کمک کرد. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2021921419026657362"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مؤسسه‌ی AI Now مداخلاتی را در زمینه‌ی متن‌باز، حاکمیت دیجیتال، تنوع زبانی و چندجانبه‌گرایی در حاکمیت هوش مصنوعی منتشر کرد. &lt;em&gt;&lt;a href="https://x.com/AINowInstitute/status/2021995858615771613"&gt;@AINowInstitute&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;آزمایشگاه وانگ دانشگاه دوک از &lt;b&gt;Gemini 3 Deep Think&lt;/b&gt; برای بهینه‌سازی رشد بلورهای پیچیده برای نیمه‌رساناهای با دمای بالا استفاده می‌کند. &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2021981510400709092"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity قابلیت Memory را با همکاری Model Council راه‌اندازی کرد که به چندین مدل استنتاج پیشرفته امکان همکاری روی داده‌های کاربر را می‌دهد. &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2021717769071603976"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;اندرو ان‌جی دوره‌ای را در مورد استاندارد پروتکل A2A برای ارتباط عامل‌ها منتشر کرد که با همکاری گوگل کلود و IBM Research ساخته شده است. &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2021985280102973931"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که &lt;b&gt;GPT-5 mini&lt;/b&gt; در وظایف بازیابی اطلاعات، عملکردی بهتر از دانشجویان تحصیلات تکمیلی بسیار آموزش‌دیده دارد و هزینه‌ی آن 1000 برابر کمتر است. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2021689359309664645"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل دیپ‌مایند عامل Aletheia را بر اساس &lt;b&gt;Gemini Deep Think&lt;/b&gt; برای ریاضیات در سطح دکترا معرفی کرد که به‌طور خودکار مقالات را تولید و حدس‌های باز اردوش را حل می‌کند. &lt;em&gt;&lt;a href="https://x.com/quocleix/status/2021702177002336656"&gt;@quocleix&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;کارپاتی microGPT را منتشر کرد: آموزش و استنتاج کامل GPT در 200 خط پایتون خالص و بدون وابستگی. &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2021862247568642485"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تیم جف کلون یک سیستم فرا-یادگیری را توسعه داد که در آن عامل‌های هوش مصنوعی به‌طور خودکار مکانیسم‌های حافظه‌ی بهتری را برای خود طراحی می‌کنند. &lt;em&gt;&lt;a href="https://x.com/jeffclune/status/2021242681826095179"&gt;@jeffclune&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-02-12</guid>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-02-11</title>
       <link>https://sumbird.ir/fa/news/2026-02-11</link>
@@ -915,44 +957,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-02</guid>
       <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2026-01-01</title>
-      <link>https://sumbird.ir/fa/news/2026-01-01</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;علی‌بابا مدل &lt;b&gt;Qwen-Image-2512&lt;/b&gt; را منتشر کرد که اکنون در AI-Toolkit و پلتفرم Replicate در دسترس است. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2006526972281999871"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آی‌کوئست لبز (IQuest Labs) از چین مدل کدنویسی &lt;b&gt;IQuest-40B&lt;/b&gt; را منتشر کرد که به ترتیب به امتیاز 81.4% در SWE-Bench-V و 54.2% در BigCodeBench دست یافته است. این مدل توسط تیمی با ارتباط با توسعه‌ی Qwen ساخته شده است. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2006768113820512427"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;توسعه‌دهندگان گزارش می‌دهند که تعطیلات زمستانی را صرف آزمایش با عامل‌های هوش مصنوعی کرده‌اند و بهبودهای قابل توجهی را در قابلیت‌ها طی ماه‌های اخیر، به‌ویژه برای توسعه‌ی پروژه‌های جدید، مشاهده کرده‌اند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2006479841349316893"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بحث فزاینده‌ای در مورد نقش هوش مصنوعی در توسعه‌ی نرم‌افزار وجود دارد، با شواهدی مبنی بر اینکه نرم‌افزارهای تولیدی به‌طور فزاینده‌ای کد تولیدشده توسط هوش مصنوعی را در خود جای می‌دهند، اگرچه به‌ندرت 100% توسط هوش مصنوعی تولید می‌شوند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2006779894731276609"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تیم مصرف‌کننده‌ی a16z روندهای سال 2026 را پیش‌بینی می‌کند که شامل استفاده‌ی سازمانی برای هدایت پذیرش مصرف‌کننده، افزایش تولید اپلیکیشن، و قابلیت‌های چندوجهی «هر چیزی به هر چیزی» است که محصولات خاص را ممکن می‌سازد. &lt;em&gt;&lt;a href="https://x.com/a16z/status/2006780234545201575"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات نشان می‌دهد که دانشمندانی که از مدل‌های زبان بزرگ استفاده می‌کنند، به‌طور متوسط 40% بهره‌ورتر می‌شوند، و افراد غیربومی انگلیسی‌زبان تا 80% افزایش بهره‌وری را تجربه می‌کنند، که نگرانی‌هایی را در مورد ظرفیت داوری همتا ایجاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006734952700739747"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اوپن‌ای‌آی در حال توسعه‌ی معماری جدید مدل صوتی است که برای انتشار در سه‌ماهه‌ی اول 2026 برنامه‌ریزی شده است تا از دستگاه همراه مبتنی بر صدا پشتیبانی کند، با بهبودهایی در طبیعی بودن، دقت، و مدیریت وقفه‌ها. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006752192452231634"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ممیزی تولید انبوه &lt;b&gt;Optimus Gen3&lt;/b&gt; تسلا با هفت تامین‌کننده‌ی چینی نهایی شده است، با هدف شروع تولید در سه‌ماهه‌ی اول 2026 و ظرفیت 50,000 تا 100,000 واحد تا پایان سال. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006619632233500892"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;دیپ‌سیک (DeepSeek) مقاله‌ی &lt;b&gt;mHC: Manifold-Constrained Hyper-Connections&lt;/b&gt; را منتشر کرد که آموزش هایپرکانکشن پایدار را معرفی می‌کند که امکان مقیاس‌بندی عرض جریان باقیمانده را با حداقل سربار محاسباتی و حافظه از طریق ماتریس‌های دوگانه تصادفی فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/chrmanning/status/2006777150582698224"&gt;@chrmanning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;معماری هایپرکانکشن‌ها مسیرهای موازی در ترانسفورمرها با بازتوزیع سیگنال حفظ‌کننده‌ی جرم ایجاد می‌کند که تقریباً 0.02 کاهش در افت نهایی را با تنها 6.7% زمان آموزش اضافی به دست می‌آورد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006628917428334631"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;توسعه‌دهنده‌ای با استفاده از Cursor یک اپلیکیشن مک سفارشی برای توالی‌بندی ویدئو با ویژگی‌هایی از جمله بازچینی تصادفی، تبدیل‌ها، و جدول زمانی بصری ساخت که قابلیت‌هایی را نشان می‌دهد که در ابزارهای سنتی امکان‌پذیر نیستند. &lt;em&gt;&lt;a href="https://x.com/benblumenrose/status/2006470371177107528"&gt;@benblumenrose&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مهندسی وایب (Vibe engineering) به عنوان یک مهارت نوظهور شناسایی شده است که نیازمند جهت‌دهی دقیق، پیش‌بینی مسائل، و دانستن زمان کنترل دستی در طول توسعه‌ی با کمک هوش مصنوعی است. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2006773451856687130"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مدل‌های هوش مصنوعی تجسم‌یافته (Embodied AI) پیش‌بینی می‌شود که با امکان‌پذیر ساختن اداره‌ی مزارع کوچک و ایجاد مازاد توسط یک نفر با پشتیبانی ربات، و اتصال از طریق استارلینک که قابلیت‌های تکنسین عمومی را فراهم می‌کند، خانه‌داری را متحول کنند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2006540734133125331"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;جمینای لیستی از 26 مفهوم برای درک تاثیر اجتماعی هوش مصنوعی در سال 2026 تولید می‌کند، از جمله &lt;b&gt;شکاف پرومته‌ای&lt;/b&gt; که نابرابری فزاینده بین ظرفیت ایجاد فناوری و توانایی تصور پیامدها را توصیف می‌کند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2006644342979702853"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;قانون براندولینی&lt;/b&gt; به عنوان یک نگرانی حیاتی برجسته شده است: انرژی مورد نیاز برای رد اطلاعات نادرست چندین برابر بیشتر از تولید آن است، و هوش مصنوعی مولد هزینه‌ی تولید اطلاعات بی‌اساس را به صفر می‌رساند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2006644566233927964"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بحث در مورد نقش هوش مصنوعی در جامعه بر نیاز به مقررات متفکرانه تاکید می‌کند که مزایای تحول‌آفرین را تضمین کرده و در عین حال خطرات را کاهش دهد، با تمرکز بر رهبری ایالات متحده در توسعه‌ی مسئولانه‌ی هوش مصنوعی. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2006512808104702370"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;هوش مصنوعی به عنوان یک نیروی بالقوه برای دموکراتیک کردن کارآفرینی، بهبود مقرون‌به‌صرفه بودن و اثربخشی مراقبت‌های بهداشتی، فراهم کردن دسترسی به آموزش با کیفیت، و تسریع کشف علمی شناسایی شده است. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2006512808104702370"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;پیش‌بینی می‌شود که سال 2026 شاهد موضوعات اصلی پذیرش عامل‌های سازمانی و تسریع علمی از طریق هوش مصنوعی باشد. &lt;em&gt;&lt;a href="https://x.com/gdb/status/2006584251521839141"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-01</guid>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
