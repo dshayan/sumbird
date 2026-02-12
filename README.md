@@ -71,7 +71,7 @@ nano .env  # or use your preferred editor
 **Key settings to configure in `.env`:**
 - Add your API keys (OpenRouter, Gemini, Telegraph, Telegram)
 - Add Twitter/X handles to monitor (see HANDLES section)
-- Set your site URL and branding
+- Set `SITE_BASE_URL` and `OG_IMAGE_URL` for the newsletter site (canonical URLs and social previews)
 - Configure timezone (default: UTC)
 
 ### 4. Set Up Nitter (RSS Service)
@@ -148,6 +148,13 @@ Controls request pacing to avoid overwhelming Nitter:
 - `FETCHER_BATCH_DELAY`: Delay between batches (default: 30s)
 - `FETCHER_REQUEST_DELAY`: Base delay between requests (default: 5s, actual: 8-12s with jitter)
 
+### Site & Newsletter Website
+Controls for the static newsletter site (GitHub Pages):
+- `SITE_BASE_URL`: Production domain (e.g. `https://sumbird.ir`). Used for canonical URLs, sitemaps, robots.txt, and Open Graph tags.
+- `OG_IMAGE_URL`: Full URL of the default social preview image.
+
+The generated site includes SEO features: canonical URLs, hreflang (en/fa), Schema.org structured data, `og:locale:alternate`, and `robots.txt` with sitemap references. Content lives under `/en/` and `/fa/` (index, `news/<date>/`, pagination pages).
+
 ### Prompts Customization
 The `prompts/` directory contains AI system prompts for each step:
 - `summarizer.txt`: Instructions for summarization
@@ -183,17 +190,23 @@ python main.py --check-lock         # Check if pipeline is running
 python main.py --force-lock         # Force release lock and run
 ```
 
-**Individual Modules** (for debugging or partial runs):
+**Individual Modules** (for debugging or partial runs; run from repo root):
 ```bash
-python src/fetcher.py               # Step 1: Fetch tweets
-python src/summarizer.py            # Step 2: Generate summary
-python src/translator.py            # Step 3: Translate to Persian
-python src/script_writer.py         # Step 4: Optimize for TTS
-python src/narrator.py              # Step 5: Generate audio
-python src/telegraph_converter.py   # Step 6: Convert for Telegraph
-python src/telegraph_publisher.py   # Step 7: Publish to Telegraph
-python src/telegram_distributer.py  # Step 8: Distribute to Telegram
-python src/newsletter_generator.py  # Step 9: Generate website
+python -m src.fetcher               # Step 1: Fetch tweets
+python -m src.summarizer            # Step 2: Generate summary
+python -m src.translator            # Step 3: Translate to Persian
+python -m src.script_writer         # Step 4: Optimize for TTS
+python -m src.narrator              # Step 5: Generate audio
+python -m src.telegraph_converter   # Step 6: Convert for Telegraph
+python -m src.telegraph_publisher   # Step 7: Publish to Telegraph
+python -m src.telegram_distributer  # Step 8: Distribute to Telegram
+python -m src.newsletter_generator  # Step 9: Generate website
+```
+
+**Newsletter regeneration** (full rebuild with current templates):
+```bash
+python -m src.newsletter_generator --force --en   # Regenerate all English pages
+python -m src.newsletter_generator --force --fa  # Regenerate all Farsi pages
 ```
 
 ### Utility Scripts
@@ -279,9 +292,11 @@ python scripts/telegraph_post_manager.py    # Manage Telegraph posts
 │   └── published/               # Publication metadata
 │
 ├── docs/                         # Newsletter website (GitHub Pages)
-│   ├── en/                      # English version
-│   ├── fa/                      # Farsi version
-│   └── assets/                  # Static assets
+│   ├── index.html               # Redirect to /en/
+│   ├── robots.txt               # Crawler rules and sitemap URLs
+│   ├── en/                      # English (index, news/<date>/, pageN.html, sitemap, feed)
+│   ├── fa/                      # Farsi (index, news/<date>/, pageN.html, sitemap, feed)
+│   └── assets/                  # CSS, images, components
 │
 ├── logs/                         # Execution logs (auto-created)
 │
@@ -309,11 +324,11 @@ python test/test_main.py --skip-telegram
 - Same Telegraph account (for testing publication)
 
 ### Debugging Individual Steps
-Each module can be run independently:
+Each module can be run independently from the repo root:
 ```bash
-python src/fetcher.py              # Test RSS fetching
-python src/summarizer.py           # Test AI summarization
-python src/narrator.py             # Test audio generation
+python -m src.fetcher              # Test RSS fetching
+python -m src.summarizer           # Test AI summarization
+python -m src.narrator             # Test audio generation
 ```
 
 ### Cache Behavior
