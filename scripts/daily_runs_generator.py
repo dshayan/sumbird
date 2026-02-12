@@ -2,9 +2,10 @@
 """
 Parse pipeline log.txt and generate logs/daily_runs.csv.
 
-Extracts one record per day (earliest run): date, time, gathered_sources,
-summarizer/translator input and output tokens. Only successful runs with
-non-cached summarizer and translator steps are included.
+Extracts one record per day (earliest run): date, time, sources, sum_in, sum_out,
+sum_oi, trans_in, trans_out, trans_oi. Only successful runs with non-cached
+summarizer and translator steps are included. sum_oi and trans_oi are
+output/input token ratios (rounded to 2 decimals).
 
 Usage:
     python scripts/daily_runs_generator.py
@@ -27,9 +28,9 @@ SCRIPT_TAG = "DailyRunsGenerator"
 def process_logs(input_path: str, output_path: str) -> bool:
     """Parse log file and write daily runs CSV.
 
-    Splits log by run separator, extracts date/time, gathered sources, and
-    summarizer/translator token counts from non-cached steps. Keeps one row
-    per date (earliest run of the day). Writes CSV to output_path.
+    Splits log by run separator, extracts date/time, sources, summarizer/translator
+    token counts and o/i rates from non-cached steps. Keeps one row per date
+    (earliest run of the day). Writes CSV to output_path.
 
     Args:
         input_path: Path to pipeline log file (e.g. logs/log.txt).
@@ -98,14 +99,21 @@ def process_logs(input_path: str, output_path: str) -> bool:
         if not translator_tokens:
             continue
 
+        sum_in, sum_out = summarizer_tokens[0], summarizer_tokens[1]
+        trans_in, trans_out = translator_tokens[0], translator_tokens[1]
+        sum_oi = round(sum_out / sum_in, 2) if sum_in else 0.0
+        trans_oi = round(trans_out / trans_in, 2) if trans_in else 0.0
+
         record = {
             "date": date_str,
             "time": time_str,
-            "gathered_sources": gathered_sources,
-            "summarizer_input_tokens": summarizer_tokens[0],
-            "summarizer_output_tokens": summarizer_tokens[1],
-            "translator_input_tokens": translator_tokens[0],
-            "translator_output_tokens": translator_tokens[1],
+            "sources": gathered_sources,
+            "sum_in": sum_in,
+            "sum_out": sum_out,
+            "sum_oi": sum_oi,
+            "trans_in": trans_in,
+            "trans_out": trans_out,
+            "trans_oi": trans_oi,
         }
 
         if date_str not in daily_data or time_str < daily_data[date_str]["time"]:
@@ -119,11 +127,13 @@ def process_logs(input_path: str, output_path: str) -> bool:
     header = [
         "date",
         "time",
-        "gathered_sources",
-        "summarizer_input_tokens",
-        "summarizer_output_tokens",
-        "translator_input_tokens",
-        "translator_output_tokens",
+        "sources",
+        "sum_in",
+        "sum_out",
+        "sum_oi",
+        "trans_in",
+        "trans_out",
+        "trans_oi",
     ]
 
     os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
@@ -140,7 +150,7 @@ def process_logs(input_path: str, output_path: str) -> bool:
 def main() -> None:
     """Parse arguments and run daily runs generator."""
     parser = argparse.ArgumentParser(
-        description="Generate daily_runs.csv from pipeline log",
+        description="Generate daily_runs.csv (date, time, sources, sum_in/out/oi, trans_in/out/oi) from pipeline log",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
     )
