@@ -100,7 +100,6 @@ python src/newsletter_generator.py   # Generate newsletter website
 ### Utility Scripts
 ```bash
 # Newsletter management
-python scripts/generate_newsletter.py --no-commit
 python scripts/generate_newsletter.py
 
 # Telegraph post management
@@ -118,8 +117,8 @@ python scripts/telegraph_post_manager.py
 ./scripts/pipeline_scheduler.sh test
 
 # Log processing
-python scripts/daily_runs_generator.py              # Generate logs/daily_runs.csv from log.txt
-python scripts/daily_runs_generator.py --input PATH --output PATH
+python scripts/daily_runs_generator.py    # Generate logs/daily_runs.csv from log.txt
+python scripts/handle_counts_generator.py # Generate logs/summary_handle_counts.csv (handle stats)
 
 # Development tools
 python scripts/fetcher_monitor.py    # HTTP traffic monitoring
