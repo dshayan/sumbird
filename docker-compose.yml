@@ -10,8 +10,8 @@ services:
     command: redis-server --appendonly yes
 
   nitter:
-    image: zedeus/nitter:latest
-    platform: linux/amd64
+    image: zedeus/nitter:latest-arm64
+    platform: linux/arm64
     container_name: nitter
     restart: unless-stopped
     ports:
