@@ -13,9 +13,44 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Feb 2026 07:00:09 +0330</lastBuildDate>
-    <pubDate>Sat, 14 Feb 2026 07:00:09 +0330</pubDate>
+    <lastBuildDate>Sun, 15 Feb 2026 00:35:12 +0330</lastBuildDate>
+    <pubDate>Sun, 15 Feb 2026 00:35:12 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-14</title>
+      <link>https://sumbird.ir/en/news/2026-02-14</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google upgrades &lt;b&gt;Gemini 3 Deep Think&lt;/b&gt; for complex science and engineering challenges, available via early access program and Google AI Ultra &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2022440915319595202"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Bytedance releases &lt;b&gt;Seed 2 Pro&lt;/b&gt; achieving top rankings on image and video understanding benchmarks at $0.47/M input tokens &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2022579925400850591"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI updates &lt;b&gt;GPT-5.2&lt;/b&gt; with API name "gpt-5.2-chat-latest" showing improved performance &lt;em&gt;&lt;a href="https://x.com/arena/status/2022449080727986442"&gt;@arena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Kling AI launches &lt;b&gt;Kling 3.0&lt;/b&gt; with 15-second video generation, native audio support, and 4K image output &lt;em&gt;&lt;a href="https://x.com/arena/status/2022503816126673129"&gt;@arena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Bytedance releases &lt;b&gt;GLM-5&lt;/b&gt; taking #3 overall on Design Arena and #1 among open-weights models &lt;em&gt;&lt;a href="https://x.com/Designarena/status/2022467169314111882"&gt;@Designarena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Airbnb reports one-third of US and Canada customer support now handled by AI systems &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2022434417520841109"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sentient AI processed 5.6 million queries in one week with 25-50% better cost efficiency on NVIDIA Blackwell &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2022702374276530406"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google simplifies Gemini API payments with in-platform upgrades and usage tracking in AI Studio &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/2022409335465480346"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Apptronik raises $935M for humanoid robots with Google DeepMind partnership &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2022433114979447058"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI's internal model solves at least 6 of 10 novel research math problems in First Proof challenge &lt;em&gt;&lt;a href="https://x.com/merettm/status/2022517085193277874"&gt;@merettm&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;GPT-5.2&lt;/b&gt; derives new theoretical physics result on gluon interactions in collaboration with Harvard and Cambridge researchers &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2022390096625078389"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT develops technique enabling generative materials models to create quantum materials following specific design constraints &lt;em&gt;&lt;a href="https://x.com/MIT/status/2022704403208155407"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic research on meta-learning memory designs shows AI agents can automatically design their own memory mechanisms &lt;em&gt;&lt;a href="https://x.com/jeffclune/status/2021242681826095179"&gt;@jeffclune&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases Perch 2.0 bioacoustics foundation model advancing underwater sound analysis for marine ecosystem monitoring &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2022440915319595202"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Waymo introduces World Model powered by Genie 3 for autonomous vehicle training in complex scenarios &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2022440915319595202"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Claude Code adds SSH support for remote machine development with improved Bash tool performance &lt;em&gt;&lt;a href="https://x.com/amorriscode/status/2022442179789300064"&gt;@amorriscode&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NotebookLM launches Video Overviews in mobile app for on-the-go learning &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2022440915319595202"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-14</guid>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-13</title>
       <link>https://sumbird.ir/en/news/2026-02-13</link>
@@ -934,44 +969,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2026-01-04</guid>
       <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2026-01-03</title>
-      <link>https://sumbird.ir/en/news/2026-01-03</link>
-      <description>&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;GitHub CEO emphasizes that while AI agents can replicate technical features of billion-dollar SaaS products like Typeform, the real business value lies in enterprise sales capabilities, not coding difficulty &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007401851306820082"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Paul Graham observes that AI cuts through organizational bureaucracy by generating initial versions when teams are paralyzed by indecision, creating a starting point that becomes the de facto version one &lt;em&gt;&lt;a href="https://x.com/paulg/status/2007430710932513089"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer reports fundamental shift in coding workflow over past two weeks, moving away from traditional IDE usage toward CLI, web interfaces, and mobile devices for code generation &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007451804380926453"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Industry experiencing rapid transformation in development tooling over just a few months, with new workflows becoming standard for future developers entering the field &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007456629181034707"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google engineer reports that &lt;b&gt;Claude Code&lt;/b&gt; generated in one hour what their team spent a year trying to build for distributed agent orchestrators, highlighting organizational alignment challenges &lt;em&gt;&lt;a href="https://x.com/paulg/status/2007430710932513089"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Developer successfully uses &lt;b&gt;Claude Code&lt;/b&gt; to build complex Jupyter extension in 8 hours by providing specific testing tools as skills and maintaining comprehensive test suites throughout development &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2007514391181398378"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developers now able to code from mobile phones by connecting GitHub repositories via Claude Code for the Web, creating pull requests and running automated tests entirely from mobile devices &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007504679002091901"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude Code can optimize developer terminal setups by automatically aliasing faster Rust/Go alternatives to built-in CLI tools and installing better native Mac applications &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2007342412335927400"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Rust identified as ideal language for AI agents due to its compile-time correctness guarantees &lt;em&gt;&lt;a href="https://x.com/gdb/status/2007228511363444905"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Stanford HAI warns that undress apps enabling teens to create convincing fake pornography of classmates represent an AI threat schools are unprepared for, with prevention as the only viable strategy &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2007196032271065194"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claire Vo criticizes emerging engagement hack where creators use AI to draft pseudo-academic analyses of trending posts, producing unearned content with no unique insight or experience &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2007194121627414757"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Concerns raised about inappropriate content placement in San Francisco public library children's section, highlighting challenges in managing public information spaces &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2007237619357516167"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;FAIR researcher Zeyuan Allen-Zhu presents tutorial on physics of language models, deriving 20+ architectural principles including why Canon layers work through hierarchical learning reshaping and why linear models reason 4x shallower than Transformers &lt;em&gt;&lt;a href="https://x.com/alexandr_wang/status/2007189007751622676"&gt;@alexandr_wang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research demonstrates architectural principles emerging at academic-scale pretraining with 1.3B parameters and 100B tokens, offering orders-of-magnitude lower cost than large-scale runs &lt;em&gt;&lt;a href="https://x.com/alexandr_wang/status/2007189007751622676"&gt;@alexandr_wang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stanford NLP introduces Recursive Language Models concept where models treat their own prompts as objects in external environments, manipulating them through code that invokes LLMs &lt;em&gt;&lt;a href="https://x.com/a1zhang/status/2007198916073136152"&gt;@a1zhang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick identifies managing AI agents as fundamentally a management problem requiring skills in goal specification, context provision, task division, and feedback delivery &lt;em&gt;&lt;a href="https://x.com/emollick/status/2007249835465072857"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Researcher argues that hierarchies for agents should draw from organizational management forms rather than coding practices, with early papers showing promising results &lt;em&gt;&lt;a href="https://x.com/emollick/status/2007322907379405187"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Francois Chollet highlights that children using bananas as phones demonstrates massive feat of abstraction through representational mapping, detaching behavioral programs from their abstract inputs &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2007522860512985428"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nondeterministic nature of LLMs identified as major challenge for reliable use, with run it multiple times approach being a bandaid rather than reliable solution requiring human review &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007527443813306687"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Deedy Das defends Pangram AI detector as having independently evaluated false positive and negative rates below 0.5%, working on text passed through humanizers and new models including &lt;b&gt;GPT-5&lt;/b&gt;, &lt;b&gt;Grok&lt;/b&gt; and &lt;b&gt;Sonnet 4.5&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2007207394947018782"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-01-03</guid>
-      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
