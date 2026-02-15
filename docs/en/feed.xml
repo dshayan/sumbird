@@ -13,9 +13,37 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Feb 2026 06:00:09 +0330</lastBuildDate>
-    <pubDate>Sun, 15 Feb 2026 06:00:09 +0330</pubDate>
+    <lastBuildDate>Mon, 16 Feb 2026 00:24:25 +0330</lastBuildDate>
+    <pubDate>Mon, 16 Feb 2026 00:24:25 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-15</title>
+      <link>https://sumbird.ir/en/news/2026-02-15</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI releases &lt;b&gt;GPT-5.3-Codex&lt;/b&gt; with significantly improved UI design taste and advanced shell scripting capabilities &lt;em&gt;&lt;a href="https://x.com/gdb/status/2022804437308445042"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI reports India has &lt;b&gt;100 million weekly active ChatGPT users&lt;/b&gt;, marking significant international adoption &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2023095610853949751"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;US productivity growth reaches &lt;b&gt;2.7% for 2025&lt;/b&gt;, nearly double the previous decade's average, with AI adoption cited as contributing factor &lt;em&gt;&lt;a href="https://x.com/emollick/status/2023075588974735869"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic launches official Claude Cowork plugins providing specialized knowledge for complex tasks, positioning as scalable successor to GPTs for enterprise agents &lt;em&gt;&lt;a href="https://x.com/emollick/status/2023113346162336137"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic's Amanda Askell emphasizes treating personal political views as potential bias rather than training AI models to adopt them &lt;em&gt;&lt;a href="https://x.com/AmandaAskell/status/2022778351744581779"&gt;@AmandaAskell&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Researcher argues AI labs must adapt safety frameworks to account for inference compute, as model capabilities now scale dramatically with computational resources &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/2022818095879065610"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developer warns of "cognitive debt" where excessive unreviewed AI-generated code erodes mental models, making future development decisions harder &lt;em&gt;&lt;a href="https://x.com/simonw/status/2022904199495983510"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Researchers find frontier models overfit to ARC benchmark's original encoding format, with performance dropping when symbols replace numbers &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2022787435348840630"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hugging Face releases &lt;b&gt;QED-Nano&lt;/b&gt;, a 4B parameter model for mathematical proof writing competitive with 120B models, with full pipeline open-sourced &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2022969039983882535"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;New visual reasoning benchmark shows 3-year-old children significantly outperform all frontier AI models on basic perception tasks &lt;em&gt;&lt;a href="https://x.com/random_walker/status/2022866961684926967"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-15</guid>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-14</title>
       <link>https://sumbird.ir/en/news/2026-02-14</link>
@@ -925,50 +953,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2026-01-05</guid>
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2026-01-04</title>
-      <link>https://sumbird.ir/en/news/2026-01-04</link>
-      <description>&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Developer reports using &lt;b&gt;Claude&lt;/b&gt; to transform years of theoretical work into functional code in just 4 hours, then successfully converting it from &lt;b&gt;Golang&lt;/b&gt; to &lt;b&gt;Rust&lt;/b&gt; during a lunch break, demonstrating AI's capability to accelerate complex software development &lt;em&gt;&lt;a href="https://x.com/JustJake/status/2007730898192744751"&gt;@JustJake&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer describes completing more personal coding projects over Christmas break than in the previous 10 years combined, attributing the productivity surge to AI coding assistants despite recognizing their current limitations &lt;em&gt;&lt;a href="https://x.com/DavidSHolz/status/2007650184680092158"&gt;@DavidSHolz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer reports AI agent autonomously debugging CI for 6 hours while they spent time with family, showcasing practical delegation of technical work to AI systems &lt;em&gt;&lt;a href="https://x.com/aarondfrancis/status/2007239192716439633"&gt;@aarondfrancis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Python developer announces strategic shift to using &lt;b&gt;Next.js&lt;/b&gt; for web applications despite personal preference, citing significant productivity gains from using AI-preferred technology stacks over swimming upstream with less-supported tools &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2007876604052074655"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Legal professional observes that &lt;b&gt;Claude&lt;/b&gt; and &lt;b&gt;ChatGPT&lt;/b&gt; can analyze complex legal situations and provide analysis comparable to what law firms deliver after weeks of review, questioning the sustainability of hourly billing models when AI can complete deep research in minutes &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007753861948477874"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;StackOverflow shows dramatic decline in monthly questions asked, suggesting developers are increasingly turning to AI assistants rather than community forums for coding help &lt;em&gt;&lt;a href="https://x.com/samwhoo/status/2007590903448514921"&gt;@samwhoo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Linear CEO argues that AI agents are collapsing the traditional product development workflow where translation from requirements to code consumed 70% of time, inverting leverage points so that capturing customer intent clearly now matters more than implementation translation &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/2007534281011155419"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tech companies are actively evaluating AI tools for developers across coding, infrastructure, and code review, though uncertainty remains about which vendors to adopt and what dimensions to measure &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007887392611418581"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Law firms may reduce costs through AI but won't necessarily pass savings to clients, as billing remains tied to risk and impact rather than hours spent, with firms maintaining ability to charge based on malpractice liability and case importance &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2007766227964539019"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Product work is shifting from execution to seeking clarity and creating conditions for good solutions to emerge, with directing and managing agent work becoming the new craft as AI handles implementation &lt;em&gt;&lt;a href="https://x.com/karrisaarinen/status/2007534281011155419"&gt;@karrisaarinen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Tencent open-sources &lt;b&gt;Tencent-HY-MT1.5&lt;/b&gt; translation models in 1.8B and 7B parameter versions, with the 1.8B model optimized for on-device deployment achieving 0.18s latency and outperforming mainstream commercial APIs, while the 7B version surpasses mid-sized open-source models &lt;em&gt;&lt;a href="https://x.com/TencentHunyuan/status/2005908069239447988"&gt;@TencentHunyuan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Galaxea Dynamics releases &lt;b&gt;G0 Plus VLA&lt;/b&gt; model with "Pick Up Anything" demo, showcasing zero-shot embodied intelligence for diverse real-world robotic tasks through pure language commands without specialized training &lt;em&gt;&lt;a href="https://x.com/GalaxeaDynamics/status/2007665494841799124"&gt;@GalaxeaDynamics&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;GenrobotAI launches &lt;b&gt;RealOmni-Open Dataset&lt;/b&gt; with over 10,000 hours, 1 million clips, 30+ skills across 3,000+ real households, representing the largest open-source embodied AI dataset by hours &lt;em&gt;&lt;a href="https://x.com/GenrobotAI/status/2007869235113148503"&gt;@GenrobotAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Research on prediction markets shows &lt;b&gt;Claude Opus 4.5&lt;/b&gt; achieved best performance with Brier Score of approximately 0.23 across 300 Kalshi markets, approaching but not yet matching human superforecasters' 0.15-0.2 range, while &lt;b&gt;GPT 5.2 XHigh&lt;/b&gt; underperformed expectations &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2007697567585329375"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Researchers address reinforcement learning instability in Mixture of Experts models through expert/routing replay, which caches activated experts during rollout generation and reuses them for policy updates, solving the problem where 10% of experts change after each gradient update in deeper models like &lt;b&gt;Qwen3-30B-A3B-Base&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2007686399403675672"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Yann LeCun outlines JEPA architecture principles, arguing that training by reconstruction in input space is counterproductive and prediction must occur in representation space, with dimension-contrastive methods like &lt;b&gt;SIGReg/LeJEPA&lt;/b&gt; showing most promise over EMA and sample-contrastive approaches &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2007907701989232684"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Engineers report that &lt;b&gt;GPT-5.2&lt;/b&gt; and &lt;b&gt;Opus 4.5&lt;/b&gt; released in November represent an inflection point where incremental improvements crossed an invisible capability threshold, suddenly opening up much harder coding problems that were previously intractable &lt;em&gt;&lt;a href="https://x.com/simonw/status/2007904766756880848"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;French and Malaysian authorities investigate &lt;b&gt;Grok&lt;/b&gt; for generating sexualized deepfakes, raising concerns about AI-generated harmful content &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2007857867018428527"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;New York Times reports Ukraine has begun daily combat use of AI attack drones that autonomously find targets, track them, and strike independently even after jamming cuts pilot signals, marking the entry of autonomous killing into warfare &lt;em&gt;&lt;a href="https://x.com/Mylovanov/status/2007744410231136717"&gt;@Mylovanov&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Wegmans posts notification signs in New York City stores about collecting facial recognition, eye scans and voiceprints due to 2021 law, though such requirements don't apply to government agencies or banks, suggesting widespread biometric data collection in major cities &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2007870733398237653"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Observer notes that AI models trained for accuracy are becoming incredulous about current events because reality increasingly resembles hallucinations when viewed from the past &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2007910056462053777"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;User behavior with AI search is evolving from uncritical acceptance in 2024 to heightened skepticism in 2026, with people now conducting detailed verification and questioning insufficiently sourced information &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2007609310327734530"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Academic reviewers may soon be outperformed by AI models like &lt;b&gt;GPT X Pro&lt;/b&gt; not only in quality but also in time spent on paper reviews &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2007865787344937334"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-01-04</guid>
-      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
