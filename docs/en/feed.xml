@@ -13,9 +13,48 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Feb 2026 06:00:10 +0330</lastBuildDate>
-    <pubDate>Mon, 16 Feb 2026 06:00:10 +0330</pubDate>
+    <lastBuildDate>Tue, 17 Feb 2026 01:15:16 +0330</lastBuildDate>
+    <pubDate>Tue, 17 Feb 2026 01:15:16 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-16</title>
+      <link>https://sumbird.ir/en/news/2026-02-16</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3.5-397B-A17B&lt;/b&gt;, first open-weight model in series with 397B total parameters (17B active), native multimodal capabilities, and 8.6x-19.0x faster decoding than &lt;b&gt;Qwen3-Max&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2023331062433153103"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Qwen3.5&lt;/b&gt; uses hybrid linear attention with sparse MoE architecture, supports 201 languages, and achieves competitive performance with &lt;b&gt;Gemini 3 Pro&lt;/b&gt; and &lt;b&gt;Claude Opus 4.5&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2023331062433153103"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Model trained with large-scale RL environment scaling for real-world agent capabilities, released under Apache 2.0 license with day-0 support from vLLM, SGLang, and Unsloth &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2023331062433153103"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI acquires OpenClaw creator Peter Steinberger to drive next generation of personal agents, with OpenClaw continuing as open source foundation project &lt;em&gt;&lt;a href="https://x.com/sama/status/2023150230905159801"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI Codex weekly users more than tripled since beginning of year as &lt;b&gt;GPT-5.3&lt;/b&gt; shows significant improvements in coding capabilities &lt;em&gt;&lt;a href="https://x.com/sama/status/2023233085509410833"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic opens Bengaluru office as second Asia-Pacific location, with India being second-largest market for Claude.ai &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2023322514206957688"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Blackstone backs Indian AI infrastructure startup Neysa with up to $1.2B financing as India pushes domestic AI capabilities &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2023194160497660066"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ricursive Intelligence raises $335M at $4B valuation in just 4 months, signaling continued strong investor appetite for AI startups &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2023443178863686135"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MiniMax M2.5 becomes most popular model on OpenRouter, praised for sounding most human-like of any available model &lt;em&gt;&lt;a href="https://x.com/OpenRouterAI/status/2023443957133570227"&gt;@OpenRouterAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic and Pentagon reportedly in dispute over Claude usage, highlighting ongoing tensions around military AI applications &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2023144339753615583"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Longtime NPR host David Greene sues Google over NotebookLM voice, raising questions about AI voice cloning and consent &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2023157926890991643"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google faces criticism for non-opt-in Gemini advertisements in Chrome browser, with users unable to remove persistent promotional elements &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2023416449973518608"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sand AI generates coherent 2-minute anime clips in 15 minutes for under $10, reducing production from 1000 human hours per minute &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2023262260248854577"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity Finance adds analyst ratings with consensus views and 52-week price targets synthesized with latest news &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2023475356112695432"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT researchers create magnetic transistor using magnetic semiconductors instead of silicon, enabling smaller and more energy-efficient circuits &lt;em&gt;&lt;a href="https://x.com/MIT/status/2023474714656530745"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Research shows AI models become more incoherent rather than systematically misaligned as they reason longer, challenging assumptions about extended reasoning &lt;em&gt;&lt;a href="https://x.com/emollick/status/2023255762525425839"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Study finds reduced latent inhibition (difficulty filtering irrelevant stimuli) predicts higher creative achievement when paired with high IQ &lt;em&gt;&lt;a href="https://x.com/paulg/status/2023448761989554317"&gt;@paulg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI physics research uses AI to solve gluon amplitude problem that had stumped researchers for a year &lt;em&gt;&lt;a href="https://x.com/gdb/status/2023445830880117214"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-16</guid>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-15</title>
       <link>https://sumbird.ir/en/news/2026-02-15</link>
@@ -893,66 +932,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2026-01-06</guid>
       <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2026-01-05</title>
-      <link>https://sumbird.ir/en/news/2026-01-05</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;MiniMax published their 2026 roadmap on Hugging Face, outlining upcoming developments &lt;em&gt;&lt;a href="https://x.com/victormustar/status/2008109158529368246"&gt;@victormustar&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Miro Thinker 1.5 released, post-trained on &lt;b&gt;qwen3&lt;/b&gt;, available in both 30A3B and 235A22B versions with strong results on BrowserComp under MIT license &lt;em&gt;&lt;a href="https://x.com/Xianbao_QIAN/status/2008133563284406532"&gt;@Xianbao_QIAN&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;TII released &lt;b&gt;Falcon H1R-7B&lt;/b&gt;, a new reasoning model outperforming others in math and coding with only 7B parameters and 256k context window, using a mamba-transformers hybrid architecture for improved efficiency &lt;em&gt;&lt;a href="https://x.com/mervenoyann/status/2008140906814468442"&gt;@mervenoyann&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tencent Hunyuan released &lt;b&gt;Youtu-LLM&lt;/b&gt;, a 2B model with 128K context and strong agentic abilities &lt;em&gt;&lt;a href="https://x.com/AdinaYakup/status/2008158391743418548"&gt;@AdinaYakup&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hugging Face added support for parallel decoding in transformers continuous batching, enabling multiple streams from one prompt which significantly impacts long context processing &lt;em&gt;&lt;a href="https://x.com/remi_or_/status/2008197159745995043"&gt;@remi_or_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Olmo 3.1 32B Instruct became one of the top upvoted LLMs in the r/LocalLlama end of year review thread &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2008237748642099329"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;A startup CTO reported planning to use AI models approximately 10x more in the coming year compared to last year, prioritizing establishing baseline productivity measurements to track impact &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2008116732960125430"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Data from Carta shows that VC-funded companies are overwhelmingly founded by multiple founders, with only 17% being solo-funded versus 30%+ of non-VC-funded startups &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2008182499445542912"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Industry observers note that AI tools are likely to make best practices from top engineering teams become the baseline for competitive companies, including product-minded engineering, testing, observability, and continuous deployment &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2008272970041409579"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Companies treating developers as ticket implementers will be left behind by teams where developers have autonomy to define their own work and leverage AI tools effectively &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2008274778684043445"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis suggests that people struggling with AI tools won't be the incompetent, but rather those with high ego who lack the humility to be surprised when AI overtakes their expectations &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2007929618280632598"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developers report that AI coding tools like &lt;b&gt;Claude Code&lt;/b&gt; and &lt;b&gt;Opus 4.5&lt;/b&gt; have reached an inflection point where they can now handle significantly harder coding problems &lt;em&gt;&lt;a href="https://x.com/gdb/status/2007938049209254002"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;StackOverflow data shows a dramatic decline in questions asked per month, suggesting developers are increasingly using AI for problem-solving rather than community forums &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2007927252844179726"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Prediction that within one to two years, CS degrees will be viewed as 10x productivity multipliers over codegen AI, reversing the current perception of AI as a 10x multiplier for CS graduates &lt;em&gt;&lt;a href="https://x.com/mlevchin/status/2007982927817400594"&gt;@mlevchin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Advice that startups founded in the last 12 months that aren't in the top 1% should reconsider everything, as &lt;b&gt;Claude Code&lt;/b&gt; and &lt;b&gt;Opus 4.5&lt;/b&gt; have fundamentally changed what's possible &lt;em&gt;&lt;a href="https://x.com/apoorva_mehta/status/2008192076341727501"&gt;@apoorva_mehta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Concerns raised about AI-generated content quality reaching a point where distinguishing it from human-written work is extremely difficult, with even smart people unable to tell that viral pieces shaping their worldview aren't written by humans &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2008073889092600099"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Discussion on the need for clear ways to acknowledge AI usage and human contribution, from all human work to mixed work to directed AI to autonomous AI, to properly assign credit or blame &lt;em&gt;&lt;a href="https://x.com/emollick/status/2008176039697223805"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Debate emerging around the shorthand for saying "An AI did the work, but I vouch for the result," as saying "I did it" feels sketchy while saying "Claude did it" feels like avoiding responsibility &lt;em&gt;&lt;a href="https://x.com/geoffreylitt/status/2008243455810748713"&gt;@geoffreylitt&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Water usage has become a primary concern for many people, especially younger ones, when discussing AI despite being among the least important environmental concerns according to data showing all US data center usage ranges from 50M to 628M gallons per day depending on measurement methodology &lt;em&gt;&lt;a href="https://x.com/emollick/status/2008223399839940656"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Prediction that GenAI will not replace human ingenuity but will raise the floor for mediocrity so high that being "pretty good" becomes economically worthless &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2008244326405738706"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI reports millions of people daily ask &lt;b&gt;ChatGPT&lt;/b&gt; about their health, from breaking down medical information to preparing questions for doctor appointments and managing overall wellbeing &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2008234625668104271"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Healthcare professionals report using AI to address staffing shortages and competence crises in systems like Canada and the UK, with predictions that ChatMD will eventually become the cure &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008166599858229253"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI's CEO of Applications outlined plans to transform Chat into a personal super-assistant in 2026, with more steerable and personalized personality and tone, plus group messages and multi-player workflow for collaborative work &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008247560004059405"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Non-technical user created a complete educational podcast website in 30 minutes using &lt;b&gt;Claude Code&lt;/b&gt;, including Vercel deployment, domain setup, content analysis, responsive design, and RSS feed integration &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2007995999189656035"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Multiple developers independently built daily brief applications using AI tools to aggregate information from email, calendar, notes, health data, and messaging apps into executive summaries &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2008250829640528351"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer demonstrated how &lt;b&gt;Claude Code&lt;/b&gt; can recreate three months of PhD research work in 20 minutes, using FAO and USDA data to calculate country nutrient availability over time &lt;em&gt;&lt;a href="https://x.com/jkeatn/status/2007527581650764112"&gt;@jkeatn&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Zapier CEO demonstrates AI-native leadership practices including using &lt;b&gt;Granola&lt;/b&gt; transcripts to reverse engineer company culture, creating interview rubric agents for structured candidate feedback, and using &lt;b&gt;Grok&lt;/b&gt; for talent sourcing &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2008231008970371288"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer reports that when one person can execute on the whole vision of a product using AI tools, the result is really special products, describing an efficient loop of planning, reviewing, iterating, executing, and merging &lt;em&gt;&lt;a href="https://x.com/Suhail/status/2008044285304995997"&gt;@Suhail&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Amazon launched Alexa.com bringing its AI assistant to the web, and revamped Fire TV with new Artline televisions featuring frames at CES &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008192669798039758"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google previewed new &lt;b&gt;Gemini&lt;/b&gt; features for TV at CES 2026 &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008177989062922663"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;The 2026 BMW iX3 voice assistant will be powered by Alexa+ &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008223280587829370"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LG showcased CLOiD, the first robotic demonstration at CES 2026 geared toward automating household chores including live laundry demonstration &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008230035887431952"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Comprehensive 13,000-word blog post published outlining practical tricks and best practices for GRPO (Group Relative Policy Optimization) including techniques like Clip Higher, Dynamic Sampling, Token-level Loss, Alternative Aggregation, Overlong Rewards, removing Standard Deviation, Truncated Importance Sampling, and CISPO to address training instability and entropy collapse at scale &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2008245160883208214"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research on functional iron deficiency potentially being at the core of Parkinson's disease, challenging existing dogma &lt;em&gt;&lt;a href="https://x.com/EricTopol/status/2008200946241987062"&gt;@EricTopol&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Proposal for new milestone toward AGI called Artificial Capable Intelligence (ACI), defined as an agent's ability to legally turn $100k into $1M, described as the modern Turing Test &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/2008208870204948746"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT physicists propose that under certain conditions, a magnetic material's electrons could splinter into fractions to form quasiparticles known as anyons &lt;em&gt;&lt;a href="https://x.com/MIT/status/2008220679653466594"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Meta's FAIR Perception team released SAM 3D, a major advance in 3D vision with capability to reconstruct any object in 3D from just a single image &lt;em&gt;&lt;a href="https://x.com/georgiagkioxari/status/2007953438035116159"&gt;@georgiagkioxari&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Free guide to machine learning fundamentals released by MIT CSAIL &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/2008222038415089692"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis showing that at the national level, a +1 IQ point predicts 6-7% higher GDP per worker, compared to only 1% higher wages at the individual level, demonstrating how small differences in individual traits produce large differences in collective outcomes &lt;em&gt;&lt;a href="https://x.com/williameijer/status/2008203634899882055"&gt;@williameijer&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-01-05</guid>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
