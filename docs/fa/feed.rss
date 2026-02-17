@@ -13,9 +13,53 @@
       <link>https://sumbird.ir/fa/feed</link>
     </image>
     <language>fa-ir</language>
-    <lastBuildDate>Tue, 17 Feb 2026 06:00:12 +0330</lastBuildDate>
-    <pubDate>Tue, 17 Feb 2026 06:00:12 +0330</pubDate>
+    <lastBuildDate>Wed, 18 Feb 2026 01:16:02 +0330</lastBuildDate>
+    <pubDate>Wed, 18 Feb 2026 01:16:02 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-02-17</title>
+      <link>https://sumbird.ir/fa/news/2026-02-17</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;علی‌بابا &lt;b&gt;Qwen3.5-397B-A17B&lt;/b&gt; را منتشر کرد، اولین مدل با وزن باز که دارای توجه خطی ترکیبی و MoE پراکنده است و ۸.۶ برابر سریع‌تر از &lt;b&gt;Qwen3-Max&lt;/b&gt; است &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2023331062433153103"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آنتروپیک &lt;b&gt;Claude Sonnet 4.6&lt;/b&gt; را با ارتقاهای عمده در کدنویسی، استفاده از کامپیوتر و پنجره‌ی متنی ۱ میلیون توکنی در نسخه‌ی بتا عرضه کرد &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2023817132581208353"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Qwen3.5-397B-A17B&lt;/b&gt; از ۲۰۱ زبان با قابلیت‌های چندوجهی بومی و مجوز Apache 2.0 پشتیبانی می‌کند &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2023331062433153103"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Claude Sonnet 4.6&lt;/b&gt; قابلیت استفاده از کامپیوتر در سطح انسانی را در صفحات گسترده‌ی پیچیده و فرم‌های وب چندمرحله‌ای نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2023817139665379485"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cohere Labs &lt;b&gt;Tiny Aya&lt;/b&gt; را معرفی کرد، یک مدل چندزبانه با ۳.۳۵ میلیارد پارامتر که از بیش از ۷۰ زبان پشتیبانی می‌کند و به اندازه‌ی کافی کارآمد است که روی گوشی‌ها اجرا شود &lt;em&gt;&lt;a href="https://x.com/Cohere_Labs/status/2023699450309275680"&gt;@Cohere_Labs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Emergent هند در تنها ۸ ماه به &lt;b&gt;۱۰۰ میلیون دلار ARR&lt;/b&gt; رسید و به یکی از سریع‌ترین شرکت‌ها برای رسیدن به این نقطه عطف تبدیل شد &lt;em&gt;&lt;a href="https://x.com/mukundjha/status/2023764054079402113"&gt;@mukundjha&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Temporal با رهبری a16z، &lt;b&gt;۳۰۰ میلیون دلار در سری D&lt;/b&gt; با ارزش &lt;b&gt;۵ میلیارد دلار&lt;/b&gt; جذب کرد، زیرا اجرای پایدار برای عوامل هوش مصنوعی تولیدی حیاتی می‌شود &lt;em&gt;&lt;a href="https://x.com/SamarAtTemporal/status/2023780116443394240"&gt;@SamarAtTemporal&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Braintrust با رهبری ICONIQ Capital، &lt;b&gt;۸۰ میلیون دلار در سری B&lt;/b&gt; جذب کرد تا زیرساخت‌هایی برای اندازه‌گیری و بهبود محصولات هوش مصنوعی تولیدی بسازد &lt;em&gt;&lt;a href="https://x.com/braintrust/status/2023801035647799634"&gt;@braintrust&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Thrive Capital صندوق &lt;b&gt;۱۰ میلیارد دلاری&lt;/b&gt; (Thrive X) را با ۹ میلیارد دلار برای سرمایه‌گذاری‌های هوش مصنوعی در مرحله‌ی رشد بست &lt;em&gt;&lt;a href="https://x.com/JoshuaKushner/status/2023732796649271619"&gt;@JoshuaKushner&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mistral AI در اولین خرید خود، Koyeb را برای حمایت از جاه‌طلبی‌های زیرساخت ابری خود خریداری کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2023811243237380181"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;هند برنامه‌هایی را برای جذب بیش از &lt;b&gt;۲۰۰ میلیارد دلار&lt;/b&gt; سرمایه‌گذاری در زیرساخت‌های هوش مصنوعی تا سال ۲۰۲۸ اعلام کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2023763683546194256"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آدانی &lt;b&gt;۱۰۰ میلیارد دلار&lt;/b&gt; برای ساخت مراکز داده‌ی هوش مصنوعی متعهد شد، زیرا هند به دنبال نقش بزرگ‌تری در رقابت جهانی هوش مصنوعی است &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2023746658899816825"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;فیگما یکپارچه‌سازی را ارائه می‌دهد که کار رابط کاربری &lt;b&gt;Claude Code&lt;/b&gt; را مستقیماً به فیگما به عنوان فریم‌های طراحی قابل ویرایش می‌آورد &lt;em&gt;&lt;a href="https://x.com/trq212/status/2023797194017706290"&gt;@trq212&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cursor بازار پلاگین را با یکپارچه‌سازی‌هایی برای Linear، Figma، Stripe، AWS و Databricks راه‌اندازی کرد &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2023827892506161541"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Waymo عملیات کاملاً خودران را با پلتفرم نسل ششم با هزینه‌ی تقریبی ۷۰ هزار دلار برای هر وسیله‌ی نقلیه آغاز کرد &lt;em&gt;&lt;a href="https://x.com/reed/status/2021992264378331159"&gt;@reed&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sully AI با استفاده از زیرساخت NVIDIA Blackwell، بیش از ۳۰ میلیون دقیقه را به پزشکان بازگرداند و هزینه‌ها را ۱۰ برابر کاهش داد &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2023789539299361102"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;چارچوب SteerVLA از استدلال VLM برای مدیریت سناریوهای رانندگی خودران با دم بلند مانند تصادفات و مناطق ساخت‌وساز استفاده می‌کند &lt;em&gt;&lt;a href="https://x.com/TianGao_19/status/2023479717379412195"&gt;@TianGao_19&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مؤسسه‌ی امنیت هوش مصنوعی بریتانیا پژوهشی را در مورد روش Boundary Point Jailbreaking برای توسعه‌ی جیلبریک‌های جهانی در برابر محافظت‌های سیستم منتشر کرد &lt;em&gt;&lt;a href="https://x.com/OpenAINewsroom/status/2023806364196434425"&gt;@OpenAINewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;محققان MIT تکنیکی را برای مدل‌های طراحی چاپ سه‌بعدی ایجاد کردند تا محدودیت‌های ساخت را در طول فرآیند طراحی در نظر بگیرند &lt;em&gt;&lt;a href="https://x.com/MIT/status/2023778720519966742"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهش آنتروپیک در مورد یادگیری تقویتی مبتنی بر رابریک، مزایای آموزش RL در مقیاس بزرگ را به حوزه‌های غیرقابل تأیید گسترش می‌دهد &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2023793825349579235"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;آنتروپیک تفاهم‌نامه‌ای را با دولت رواندا به عنوان اولین مشارکت هوش مصنوعی از نوع خود در آفریقا برای بخش‌های بهداشت و آموزش امضا کرد &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2023789983711326380"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پارلمان اروپا هوش مصنوعی را در دستگاه‌های قانون‌گذاران به دلیل خطرات امنیتی مسدود کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2023797660222976481"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پژوهش‌ها نشان می‌دهد که تقریباً ۴۰ درصد از دانشجویان دانشگاه کسی را می‌شناسند که از هوش مصنوعی برای حمایت عاطفی استفاده می‌کند و بیش از نیمی از آن‌ها روزانه یا هفتگی به آن تکیه می‌کنند &lt;em&gt;&lt;a href="https://x.com/nxthompson/status/2023564811892654392"&gt;@nxthompson&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-02-17</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-02-16</title>
       <link>https://sumbird.ir/fa/news/2026-02-16</link>
@@ -856,61 +900,6 @@
 &lt;li&gt;سباستین سئونگ پیش‌بینی می‌کند که هوش مصنوعی در سطح انسانی ۱۵ سال دیگر با توجه به اندازه‌ی مدل مغز انسان فاصله دارد &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2008909498224697549"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-07</guid>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2026-01-06</title>
-      <link>https://sumbird.ir/fa/news/2026-01-06</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;انویدیا پلتفرم &lt;b&gt;روبین&lt;/b&gt; را معرفی کرد که برای کارایی بی‌سابقه‌ در آموزش و استنتاج طراحی شده است. این پلتفرم دارای طراحی مشترک فوق‌العاده‌ای در محاسبات، شبکه‌سازی و نرم‌افزار برای آموزش، استنتاج و استدلال پیشرفته در مقیاس بزرگ است. &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2008361810991136824"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;انویدیا &lt;b&gt;کازموس ریزن 2&lt;/b&gt; را منتشر کرد، یک مدل زبان بصری استدلالی باز برای هوش مصنوعی فیزیکی با اندازه‌های مدل 2B و 8B، درک فضایی-زمانی بهبودیافته، استدلال با زمینه طولانی تا 256K توکن و درک بصری گسترده. &lt;em&gt;&lt;a href="https://x.com/NVIDIAAIDev/status/2008313146524520767"&gt;@NVIDIAAIDev&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;انویدیا از &lt;b&gt;آلپامایو&lt;/b&gt; رونمایی کرد که به عنوان اولین مدل تفکر و استدلال جهان برای وسایل نقلیه خودران توصیف شده است و پشته‌ی آن متن‌باز است. &lt;em&gt;&lt;a href="https://x.com/StockSavvyShay/status/2008301067210256563"&gt;@StockSavvyShay&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;لیکوئید ای‌آی &lt;b&gt;LFM2.5&lt;/b&gt; را منتشر کرد، قدرتمندترین خانواده‌ی مدل‌های بنیادی کوچک روی دستگاه در کلاس پارامتر ~1B، با پیش‌آموزش مقیاس‌یافته از 10T به 28T توکن و پس‌آموزش یادگیری تقویتی گسترده. &lt;em&gt;&lt;a href="https://x.com/liquidai/status/2008385292244242942"&gt;@liquidai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;لایت‌ریکس &lt;b&gt;LTX-2&lt;/b&gt; را منتشر کرد، اولین مدل متن‌باز تولید ویدئو-صوت. &lt;em&gt;&lt;a href="https://x.com/linoy_tsaban/status/2008429764722163880"&gt;@linoy_tsaban&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;xAI سری E را با جمع‌آوری 20 میلیارد دلار به پایان رساند و تأیید کرد که &lt;b&gt;گروک 5&lt;/b&gt; اکنون در حال آموزش است و محصولات جدید مصرف‌کننده و سازمانی به زودی عرضه خواهند شد. &lt;em&gt;&lt;a href="https://x.com/xai/status/2008629287767994437"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل ای‌آی استودیو ارتقاء کیفیت زندگی را در داشبوردهای استفاده، از جمله قابلیت مشاهده نرخ موفقیت API، ردیابی استفاده از مدل جاسازی جیمنای، قابلیت زوم خاص روز و طراحی نمودار جدید، ارائه کرد. &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/2008307867535683737"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ترافیک ChatGPT در 6 هفته گذشته از زمان عرضه &lt;b&gt;جیمنای 3&lt;/b&gt;، 22% کاهش یافته است، با میانگین بازدیدکنندگان 7 روزه از ~203 میلیون به ~158 میلیون کاهش یافته است، در حالی که جیمنای ثابت مانده و اکنون ~40% از ترافیک ChatGPT را تشکیل می‌دهد. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2008380527141941420"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;لیزا سو، مدیرعامل AMD، پیش‌بینی می‌کند که کاربران فعال هوش مصنوعی از یک میلیارد نفر امروز به بیش از پنج میلیارد نفر در پنج سال آینده افزایش خواهند یافت که به محاسبات به مراتب بیشتری نیاز دارد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008578829141615033"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;متا به دلیل تقاضای بی‌سابقه و موجودی محدود، گسترش بین‌المللی عینک‌های Ray-Ban Display را به بریتانیا، فرانسه، ایتالیا و کانادا متوقف کرد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008553625380143161"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LMArena تنها چهار ماه پس از عرضه محصول خود، به ارزش 1.7 میلیارد دلار رسید. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008624257727930443"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;جنسن هوانگ، مدیرعامل انویدیا، تأکید می‌کند که آینده‌ی کاربردهای هوش مصنوعی یک مدل عالی نیست، بلکه هماهنگ‌سازی چندین مدل عالی در هر مرحله از زنجیره‌ی استدلال است و آن را چندمدلی، چندوجهی و چندابری توصیف می‌کند. &lt;em&gt;&lt;a href="https://x.com/AskPerplexity/status/2008348715661004883"&gt;@AskPerplexity&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بیش از 5% از پیام‌های ChatGPT که در سراسر جهان ارسال می‌شوند، مربوط به مراقبت‌های بهداشتی هستند، با 25% از کاربران فعال هفتگی که سوالات بهداشتی می‌پرسند، با استفاده‌ی بیشتر در زمان‌هایی که مطب پزشکان بسته است و در مناطق محروم از بیمارستان که دسترسی محدود است. &lt;em&gt;&lt;a href="https://x.com/omooretweets/status/2008574857378935264"&gt;@omooretweets&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ابزارهای کدنویسی هوش مصنوعی باعث شده‌اند که دیگر بهانه‌ای برای نادیده گرفتن فرآیندهای مهندسی کیفیت مانند ردیابی خوب مسائل، تضمین کیفیت کامل، تست خودکار، مستندات به‌روز، CI و اتوماسیون استقرار وجود نداشته باشد. &lt;em&gt;&lt;a href="https://x.com/simonw/status/2008298185962512763"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;خطوط کد به عنوان یک معیار بهره‌وری، با وجود اینکه به طور گسترده‌ای بی‌فایده شناخته شده است، به خصوص هنگام بحث در مورد کیفیت کد دست‌ساز یا بهره‌وری کدنویسی عامل‌محور، همچنان پابرجا است. &lt;em&gt;&lt;a href="https://x.com/isaac_flath/status/2008533292862374137"&gt;@isaac_flath&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;کیسی نیوتن، روزنامه‌نگار، یک پست وایرال در ردیت درباره‌ی الگوریتم‌های تحویل اوبر ایتس را کاملاً جعلی افشا کرد، با "افشاگر" که از هوش مصنوعی برای تولید شواهد جعلی از جمله یک سند فنی 18 صفحه‌ای و کارت شناسایی کارمند استفاده کرده بود، که نشان می‌دهد چگونه هوش مصنوعی به راحتی می‌تواند اطلاعات نادرست متقاعدکننده ایجاد کند که زمان قابل توجهی برای روزنامه‌نگاران برای رد کردن آن لازم است. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2008449106436411846"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات جدید نشان می‌دهد که هوش مصنوعی سیل مقالات دانشگاهی را ایجاد می‌کند، با پیچیدگی مقاله که به جای کیفیت برای کار انسانی، نشانه‌ای از کیفیت پایین برای کار تولید شده توسط هوش مصنوعی می‌شود، که سیستم‌های سنتی داوری همتا را بدون برنامه‌ی مشخصی برای انطباق تهدید می‌کند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2008283235571077215"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اندرو ان‌جی &lt;b&gt;آزمون تورینگ-AGI&lt;/b&gt; را برای مقابله با هیجان AGI پیشنهاد می‌کند، که در آن هوش مصنوعی باید وظایف کاری چند روزه را به خوبی انسان‌های ماهر از طریق یک رابط کامپیوتری انجام دهد، و استدلال می‌کند که ادعاهای فعلی AGI معیارهای مصنوعی پایینی را تعیین می‌کنند که دانشجویان و مدیران عامل را در مورد قابلیت‌های هوش مصنوعی گمراه می‌کند. &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2008578741312836009"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;قانون‌گذار کالیفرنیا ممنوعیت چهار ساله ربات‌های چت هوش مصنوعی در اسباب‌بازی‌های کودکان را پیشنهاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008635584466866233"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان استنفورد گزارش جامعی در مورد تأثیر بالقوه هوش مصنوعی بر اشتغال، آموزش، مراقبت‌های بهداشتی، اطلاعات، رسانه، امنیت ملی و علم منتشر کردند و 18 جهت تحقیقاتی بلندپروازانه را برای به حداکثر رساندن تأثیر مثبت و به حداقل رساندن معایب پیشنهاد کردند. &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/2008575216109404425"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;گوگل دیپ‌مایند همکاری تحقیقاتی با بوستون داینامیکس را برای آوردن قابلیت‌های بنیادی &lt;b&gt;جیمنای رباتیک&lt;/b&gt; به ربات‌های انسان‌نمای جدید اطلس خود اعلام کرد. &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2008283100254494916"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بوستون داینامیکس از ربات انسان‌نمای اطلس نسل بعدی ارتقا یافته رونمایی کرد: کاملاً الکتریکی (بدون هیدرولیک)، 6'2" قد، 198 پوند وزن، 56 درجه آزادی، باتری قابل تعویض 4 ساعته، ظرفیت وزن 110 پوند، با تراشه‌های انویدیا با ارزیابی محیطی بلادرنگ و بازخورد حسگر لمسی. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008307840642154884"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;نرم‌افزار NVIDIA DRIVE AV در مرسدس بنز CLA کاملاً جدید عرضه شد و قابلیت‌های کمک راننده سطح 2 نقطه‌به‌نقطه را با عملکرد گسترده تا پایان سال به جاده‌های ایالات متحده می‌آورد. &lt;em&gt;&lt;a href="https://x.com/NVIDIADRIVE/status/2008312556985704631"&gt;@NVIDIADRIVE&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;توسعه‌دهنده با استفاده از &lt;b&gt;جیمنای 3 فلش&lt;/b&gt;، برنامه تقویم حیوانات خانگی شخصی‌سازی شده را برای طرح‌های سفارشی و آماده چاپ ایجاد کرد. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2008307579009855783"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;حامل حسین استفاده از ابزارهای کدنویسی هوش مصنوعی را برای ایجاد نرم‌افزار آموزشی برای مفاهیم مونته‌سوری 7 ساله خود در 15 دقیقه نشان می‌دهد. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2008321320375746902"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;توسعه‌دهنده از افزونه مرورگر کلود برای تجزیه و تحلیل یک گزارش سلامت پوست با طراحی ضعیف با مرور هر صفحه، گرفتن اسکرین‌شات و تولید یک تجزیه و تحلیل جامع با توصیه‌های برنامه مراقبت از پوست استفاده می‌کند. &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/2008632868415959237"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;آنتروپیک قابلیت کد محلی کلود را در Claude Desktop معرفی کرد که به کاربران امکان می‌دهد حالت کد را تغییر دهند و پوشه‌ها را برای دسترسی هوش مصنوعی مستقیماً از رابط دسکتاپ انتخاب کنند. &lt;em&gt;&lt;a href="https://x.com/_catwu/status/2008628736409956395"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;جردن سینگر از Async رونمایی کرد، یک "عامل محصول" که برای کمک به تیم‌ها در مدیریت وظایف توسعه محصول و هم‌ترازی طراحی شده است. &lt;em&gt;&lt;a href="https://x.com/jsngr/status/2008584545671508123"&gt;@jsngr&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;نوام براون تجربه‌ی دقیق ساخت یک حل‌کننده‌ی رودخانه‌ی پوکر متن‌باز با استفاده از ابزارهای کدنویسی هوش مصنوعی را به اشتراک می‌گذارد و دریافت که در حالی که &lt;b&gt;کدکس&lt;/b&gt; و &lt;b&gt;کلود کد&lt;/b&gt; تکرار سریع‌تر را امکان‌پذیر می‌کردند، اشتباهات الگوریتمی داشتند و در اشکال‌زدایی مشکل داشتند، با کدکس که کد C++ را 6 برابر سریع‌تر از نسخه‌ی بهینه‌شده‌ی کلود کد تولید می‌کرد. &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/2008277764093157623"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شریا شانکار تحقیقاتی را در مورد پردازش اسناد در مقیاس با LLMها ارائه می‌دهد، با معرفی عملگرهای معنایی Map، Filter، Reduce و تکنیک Task Cascades که 86% کاهش هزینه را با حفظ 90% دقت به دست آورد، همراه با DocWrangler IDE که به "انحراف معیار" که در آن معیارهای ارزیابی در طول فرآیند تکامل می‌یابند، می‌پردازد. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2008605567485706290"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات MIT نشان می‌دهد که مناطق درون مرکز کنترل اجرایی مغز، پیام‌ها را در مدارهای خاص با سایر مناطق مغز تنظیم می‌کنند تا آنها را با اطلاعات مربوط به رفتار و احساسات تحت تأثیر قرار دهند. &lt;em&gt;&lt;a href="https://x.com/MIT/status/2008586155327881312"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;انویدیا و هاگینگ فیس فناوری‌های آیزاک انویدیا را در کتابخانه‌ی LeRobot ادغام کردند، با Isaac Lab-Arena که اکنون در LeRobot Environment Hub برای ارزیابی سیاست‌های VLA و ایجاد محیط‌های ربات قابل استفاده مجدد در دسترس است. &lt;em&gt;&lt;a href="https://x.com/NVIDIARobotics/status/2008353163330441665"&gt;@NVIDIARobotics&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات نشان می‌دهد که &lt;b&gt;GPT-5.2 Pro&lt;/b&gt; اثبات‌های ظریفی را برای نتایج رشد انفجاری در مقالات نظریه‌ی اقتصادی ارائه می‌دهد. &lt;em&gt;&lt;a href="https://x.com/ChadJonesEcon/status/2008208845630570802"&gt;@ChadJonesEcon&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;فرانسوا شوله استدلال می‌کند که ارزان‌تر و سریع‌تر کردن تولید کد ممکن است یک نعمت بی‌قید و شرط نباشد، و کد را بیشتر یک بدهی می‌داند تا یک دارایی. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2008282353026674837"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-06</guid>
-      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
