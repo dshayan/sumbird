@@ -13,9 +13,52 @@
       <link>https://sumbird.ir/fa/feed</link>
     </image>
     <language>fa-ir</language>
-    <lastBuildDate>Wed, 18 Feb 2026 06:00:11 +0330</lastBuildDate>
-    <pubDate>Wed, 18 Feb 2026 06:00:11 +0330</pubDate>
+    <lastBuildDate>Thu, 19 Feb 2026 01:15:43 +0330</lastBuildDate>
+    <pubDate>Thu, 19 Feb 2026 01:15:43 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-02-18</title>
+      <link>https://sumbird.ir/fa/news/2026-02-18</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic مدل &lt;b&gt;Claude Sonnet 4.6&lt;/b&gt; را با پنجره‌ی متنی ۱ میلیون توکنی، قابلیت‌های بهبودیافته‌ی کدنویسی و استفاده از کامپیوتر، و حالت‌های قابل تنظیم تلاش/تفکر منتشر کرد. &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2023817132581208353"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba مدل &lt;b&gt;Qwen 3.5 Plus&lt;/b&gt; را با پنجره‌ی متنی ۱ میلیون توکنی و استفاده‌ی تطبیقی از ابزارها در Vercel AI Gateway راه‌اندازی کرد. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2024029499541909920"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba وزن‌های &lt;b&gt;Qwen3.5-397B-A17B-FP8&lt;/b&gt; را با پشتیبانی ادغام‌شده‌ی SGLang و پشتیبانی آتی vLLM منتشر کرد. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2024161147537232110"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل مدل تولید موسیقی &lt;b&gt;Lyria 3&lt;/b&gt; را در Gemini معرفی کرد که قطعات ۳۰ ثانیه‌ای با آواز و متن ترانه را از متن یا تصاویر ایجاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2024152863967240529"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity مدل &lt;b&gt;Claude Sonnet 4.6&lt;/b&gt; را برای همه‌ی کاربران Pro و گزینه‌ی &lt;b&gt;Opus 4.6&lt;/b&gt; را برای کاربران Max در عامل مرورگر اضافه کرد. &lt;em&gt;&lt;a href="https://x.com/comet/status/2023889197556441464"&gt;@comet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;World Labs مبلغ ۱ میلیارد دلار از AMD، Autodesk، Fidelity، NVIDIA و دیگران برای ساخت تولید دنیای سه‌بعدی با انسجام فضایی جذب سرمایه کرد. &lt;em&gt;&lt;a href="https://x.com/theworldlabs/status/2024127135175098696"&gt;@theworldlabs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Canva با افزایش ترافیک ارجاعی LLM به درآمد ۴ میلیارد دلاری رسید که نشان‌دهنده‌ی رشد مبتنی بر هوش مصنوعی است. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2024123291859112147"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic سیاست OAuth &lt;b&gt;Claude Code&lt;/b&gt; را پس از سردرگمی‌ها روشن کرد و اجازه‌ی آزمایش را می‌دهد اما برای استفاده‌ی تجاری به کلیدهای API نیاز دارد. &lt;em&gt;&lt;a href="https://x.com/trq212/status/2024212378402095389"&gt;@trq212&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مایکروسافت فاش کرد که یک باگ در Office ایمیل‌های محرمانه‌ی مشتریان را در معرض &lt;b&gt;Copilot AI&lt;/b&gt; قرار داده است که نگرانی‌هایی را در مورد امنیت سازمانی ایجاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2024133967310700646"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;عامل‌های کدنویسی اکنون مسئول ۱۶ تا ۲۳ درصد از مشارکت‌های GitHub هستند و این تعداد به سرعت در حال افزایش است. &lt;em&gt;&lt;a href="https://x.com/mikeldking/status/2023907854181429694"&gt;@mikeldking&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;تحقیقات Anthropic نشان می‌دهد که خودمختاری توسط مدل، کاربر و محصول به طور مشترک ساخته می‌شود و نیاز به نظارت پس از استقرار فراتر از ارزیابی‌های پیش از استقرار دارد. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2024210035480678724"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحلیل‌ها نشان می‌دهد که کاربران &lt;b&gt;Claude Code&lt;/b&gt; با کسب تجربه، از تأیید هر اقدام به واگذاری با وقفه‌ها تغییر می‌کنند. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2024210044917891361"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;۷۳ درصد از فراخوانی‌های ابزار عامل در API Anthropic دارای انسان در حلقه هستند و تنها ۰.۸ درصد اقدامات برگشت‌ناپذیر هستند. &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2024210050718585017"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل واترمارکینگ SynthID را به صدا گسترش داد و ابزارهای تأیید را در Gemini برای شناسایی محتوای تولیدشده توسط هوش مصنوعی اضافه کرد. &lt;em&gt;&lt;a href="https://x.com/Google/status/2024172104711823678"&gt;@Google&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;یک توسعه‌دهنده سرویس گواهی‌نامه‌ی micro-SaaS را در ۲۰ دقیقه با استفاده از عامل هوش مصنوعی به یک راه‌حل خودمیزبان منتقل کرد و ۱۲۰ دلار در سال صرفه‌جویی کرد. &lt;em&gt;&lt;a href="https://x.com/shanselman/status/2024182955338252501"&gt;@shanselman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;سرور Figma MCP امکان ارسال مستقیم نمونه‌های اولیه‌ی &lt;b&gt;Claude Code&lt;/b&gt; به بوم Figma را برای تکرار طراحی فراهم می‌کند. &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2024148286844649887"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Oscar Health بیش از ۶۰۰ مهندس را در کمی بیش از یک ماه از نمونه‌ی پیچیده‌ی Jira به Linear منتقل کرد. &lt;em&gt;&lt;a href="https://x.com/linear/status/2024153983477026842"&gt;@linear&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI Dungeon هزینه‌های استنتاج را از ۰.۲۰ دلار به ۰.۰۵ دلار در هر میلیون توکن با استفاده از پردازنده‌های گرافیکی NVIDIA Blackwell و TensorRT LLM کاهش داد. &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2024151924048613861"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI معیار EVMbench را معرفی کرد که توانایی عامل‌های هوش مصنوعی را در شناسایی، بهره‌برداری و وصله کردن آسیب‌پذیری‌های قرارداد هوشمند اندازه‌گیری می‌کند. &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2024193883748651102"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;پروژه‌ی Silica مایکروسافت مقاله‌ای را در Nature در مورد رمزگذاری داده‌ها در شیشه‌ی بوروسیلیکات برای حفظ ۱۰ هزار ساله منتشر کرد. &lt;em&gt;&lt;a href="https://x.com/MSFTResearch/status/2024162504348225677"&gt;@MSFTResearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA ابزار متن‌باز FastGen را منتشر کرد که مدل‌های انتشار کند را به ژنراتورهای چند مرحله‌ای برای هوش مصنوعی بلادرنگ تبدیل می‌کند. &lt;em&gt;&lt;a href="https://x.com/ArashVahdat/status/2016262430104682765"&gt;@ArashVahdat&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات تویوتا با استفاده از مدل‌های جهانی به سبک NVIDIA Cosmos در سنتز دید پویا، تقویت تله‌اپ و ناوبری به SOTA دست یافت. &lt;em&gt;&lt;a href="https://x.com/NVIDIAAIDev/status/2023880135644959221"&gt;@NVIDIAAIDev&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-02-18</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-02-17</title>
       <link>https://sumbird.ir/fa/news/2026-02-17</link>
@@ -843,63 +886,6 @@
 &lt;li&gt;معماری &lt;b&gt;Blackwell&lt;/b&gt; انویدیا با ارتقاءهای جدید TensorRT-LLM برای عملکرد MoE، توان عملیاتی توکن را در &lt;b&gt;GB200 NVL72&lt;/b&gt; بیش از ۲ برابر افزایش می‌دهد &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2009263824294081003"&gt;@NVIDIADC&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-08</guid>
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2026-01-07</title>
-      <link>https://sumbird.ir/fa/news/2026-01-07</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;اوپن‌ای‌آی (OpenAI) از &lt;b&gt;ChatGPT Health&lt;/b&gt; رونمایی کرد؛ فضایی اختصاصی برای مکالمات مربوط به سلامت که به کاربران امکان می‌دهد سوابق پزشکی و برنامه‌های سلامتی مانند Apple Health، MyFitnessPal و Peloton را به‌طور ایمن متصل کنند تا پاسخ‌های شخصی‌سازی‌شده‌ی مربوط به سلامت را دریافت کنند &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2008987566796640575"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گزارش‌ها حاکی از آن است که Anthropic در حال جذب سرمایه‌ی ۱۰ میلیارد دلاری با ارزش‌گذاری ۳۵۰ میلیارد دلاری است که ارزش آن را از سپتامبر دو برابر می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008971931756966107"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;انویدیا (NVIDIA) مدل &lt;b&gt;Nemotron Speech ASR&lt;/b&gt; را با معماری استریمینگ آگاه از کش (cache-aware) منتشر کرد که استنتاج بافرشده را حذف می‌کند و به تأخیر زیر ۱۰۰ میلی‌ثانیه با میانگین زمان تا اولین توکن ۲۴ میلی‌ثانیه و تا ۳ برابر توان عملیاتی بیشتر دست می‌یابد &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2008654492204441862"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;موتورولا و لنوو از &lt;b&gt;Qira&lt;/b&gt; رونمایی کردند؛ یک عامل هوش مصنوعی پایدار در تمام دستگاه‌ها که از تعاملات یاد می‌گیرد، حافظه تشکیل می‌دهد و از &lt;b&gt;Stable Diffusion 3.5 Flash&lt;/b&gt; برای تولید تصویر استفاده می‌کند و بر روی Azure با معماری ترکیبی روی دستگاه و ابری اجرا می‌شود &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008750724575015119"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor سیستم زمینه‌ی پویا را برای عامل هوش مصنوعی خود معرفی کرد که با استفاده از چندین سرور MCP، مصرف کلی توکن را ۴۶.۹٪ کاهش می‌دهد و در عین حال کیفیت را حفظ می‌کند &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2008644063797387618"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;DeepSeek مقاله‌ی &lt;b&gt;DeepSeek-R1&lt;/b&gt; را از ۲۲ صفحه به ۸۶ صفحه به‌روزرسانی کرد و جزئیات قابل توجهی در مورد خودتکاملی، ارزیابی، تحلیل و تقطیر اضافه کرد &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2008805570145644849"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;AMD و Liquid AI مدل &lt;b&gt;LFM2-2.6B-Transcript&lt;/b&gt; را برای خلاصه‌سازی خصوصی و روی دستگاه جلسات با کیفیت ابری به نمایش گذاشتند که بر روی CPU، GPU و NPU در AMD Ryzen AI PC اجرا می‌شود &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2008955850665415152"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;جی‌پی مورگان (JP Morgan) اولین شرکت بزرگی است که شرکت‌های مشاوره‌ی پروکسی خارجی را به‌طور کامل با پلتفرم هوش مصنوعی داخلی خود به نام &lt;b&gt;Proxy IQ&lt;/b&gt; جایگزین می‌کند؛ این پلتفرم داده‌های جلسات سالانه‌ی شرکت‌ها را تحلیل کرده و توصیه‌هایی را به مدیران پورتفولیو ارائه می‌دهد &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008885043872326011"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Wix اعلام کرد که به هفته‌ی کاری تمام‌وقت در دفتر بازمی‌گردد و دلیل آن را نیاز به حرکت سریع در طول بازسازی صنعت هوش مصنوعی ذکر کرد، در حالی که انعطاف‌پذیری برای نیازهای زندگی واقعی را بر اساس اعتماد حفظ می‌کند &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2008886049448329696"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Qwen به‌عنوان سریع‌ترین ارائه‌دهنده‌ی مدل‌های متن‌باز در حال رشد ظاهر شد، با ۵ مدل Qwen که در دسامبر بیشتر از مجموع تمام مدل‌های OpenAI، Mistral AI، Nvidia و دیگران دانلود شده‌اند &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2008920674442637635"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;چین با پیشتازی Qwen در دانلودها و فاین‌تیونینگ، تسلط خود را در مدل‌های هوش مصنوعی متن‌باز حفظ می‌کند، در حالی که طبق رتبه‌بندی ArtificialAnalysis، هوشمندترین مدل‌ها را در تقریباً تمام بنچمارک‌ها نیز دارد &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2008920674442637635"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Articul8، شرکت اسپین‌آف اینتل، بیش از نیمی از دور ۷۰ میلیون دلاری را با ارزش‌گذاری ۵۰۰ میلیون دلار جذب کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008872560377958634"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Lux Capital برای بزرگترین صندوق خود تاکنون، ۱.۵ میلیارد دلار جذب کرد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008994856681779468"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;عرضه‌ی اولیه‌ی سهام (IPO) دیسکورد ممکن است در ماه مارس اتفاق بیفتد &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008982367768359409"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مارک آندرسن هوش مصنوعی را بزرگترین انقلاب تکنولوژیکی زندگی خود توصیف می‌کند و بر این نکته تأکید می‌کند که زیرساخت بیش از ۵ میلیارد نفر در موبایل، توزیع فوری را برای هوش مصنوعی فراهم می‌کند &lt;em&gt;&lt;a href="https://x.com/a16z/status/2008967509043519713"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;انویدیا ۵ میلیون دانلود کلی را در اکوسیستم Cosmos گزارش می‌دهد، با Cosmos Reason که به‌عنوان مدل برتر در جدول امتیازات استدلال فیزیکی با بیش از ۲ میلیون دانلود رتبه‌بندی شده است &lt;em&gt;&lt;a href="https://x.com/huggingface/status/2008976940963655853"&gt;@huggingface&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;۸۹٪ از شرکت‌های خرده‌فروشی و CPG گزارش می‌دهند که هوش مصنوعی درآمد را افزایش می‌دهد، با ۷۹٪ که می‌گویند مدل‌ها و نرم‌افزارهای متن‌باز برای استراتژی هوش مصنوعی آن‌ها مهم بوده‌اند &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2008902694283461008"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کاترپیلار با انویدیا برای آوردن هوش مصنوعی به تجهیزات ساخت‌وساز خود همکاری می‌کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008947314262503686"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;یوتا اولین ایالتی است که به هوش مصنوعی اجازه می‌دهد تا نسخه‌های پزشکی را بدون دخالت پزشک از طریق Doctronic تمدید کند؛ این شرکت بیمه‌ی مسئولیت حرفه‌ای را برای سیستم هوش مصنوعی خود که ۹۹.۲٪ از برنامه‌های درمانی پزشکان را مطابقت می‌دهد، تضمین کرده است &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008645756518101199"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سایمون ویلیسون در مورد آسیب‌پذیری‌های تزریق پرامپت هشدار می‌دهد و نشان می‌دهد که چگونه می‌توان عوامل هوش مصنوعی را فریب داد تا دستورالعمل‌های مخرب را اجرا کنند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008918474006122936"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مصطفی سلیمان تأکید می‌کند که &lt;b&gt;مهار&lt;/b&gt; باید قبل از &lt;b&gt;هم‌ترازی&lt;/b&gt; در توسعه‌ی هوش مصنوعی باشد و استدلال می‌کند که نمی‌توان چیزی را که نمی‌توان کنترل کرد، هدایت کرد و تعیین مرزها و اعمال محدودیت‌ها بر عاملیت هوش مصنوعی پیش‌شرط تضمین این است که ارزش‌های انسانی را به اشتراک بگذارد &lt;em&gt;&lt;a href="https://x.com/mustafasuleyman/status/2008964832880648485"&gt;@mustafasuleyman&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان استنفورد اولین مدارهای مکانیکی خودکار جهان را اختراع کردند که بدون الکترونیک، باتری یا نرم‌افزار یاد می‌گیرند &lt;em&gt;&lt;a href="https://x.com/StanfordHAI/status/2008675279217041627"&gt;@StanfordHAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;تحقیقات نشان می‌دهد که هوش مصنوعی می‌تواند ۱۳۰ بیماری را از یک شب خواب با استفاده از یک مدل بنیادی که بر روی ۵۸۵,۰۰۰ ساعت ضبط خواب از ۶۵,۰۰۰ نفر آموزش دیده است، پیش‌بینی کند و سیگنال‌های مغز، قلب، عضله و تنفس را ترکیب کند &lt;em&gt;&lt;a href="https://x.com/jeffclune/status/2008743715184275629"&gt;@jeffclune&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;انویدیا مجوز داده‌های پیش‌آموزشی را به‌روزرسانی کرد تا بند مربوط به نیاز به اجازه‌ی انویدیا برای بنچمارک‌گیری از مجموعه داده را حذف کند و تمایل به اصلاح اشتباهات مجوزدهی را نشان دهد &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2008948972870857145"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;توسعه‌دهندگان ساخت گردش‌کارهای هوش مصنوعی پایدار را با استفاده از بردهای کانبان Notion نشان می‌دهند که در آن عوامل وضعیت وظیفه را به‌روزرسانی می‌کنند، پرچم‌های مسدودشده را در صورت نیاز به ورودی کاربر تنظیم می‌کنند و به نظرات برای ادامه‌ی کار پاسخ می‌دهند &lt;em&gt;&lt;a href="https://x.com/brian_lovin/status/2008941866515824748"&gt;@brian_lovin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کاربر گزارش می‌دهد که تمام زندگی خود را از طریق Claude Code با هشت نمونه‌ی موازی که دامنه‌های مختلفی از جمله توسعه‌ی محصول، معیارها، ایمیل، رشد، تجارت، سلامت، نوشتن و وظایف شخصی را مدیریت می‌کنند، اجرا می‌کند &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2008918474006122936"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اندرو ان‌جی (Andrew Ng) دوره‌ای را راه‌اندازی کرد که به افراد غیربرنامه‌نویس آموزش می‌دهد چگونه در کمتر از ۳۰ دقیقه برنامه‌های وب را با هوش مصنوعی بسازند و تکنیک‌های کدنویسی vibe را که در ChatGPT، Gemini، Claude و سایر ابزارها کار می‌کنند، نشان می‌دهد &lt;em&gt;&lt;a href="https://x.com/AndrewYNg/status/2008956639894786402"&gt;@AndrewYNg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google Classroom ابزار جدیدی را با استفاده از &lt;b&gt;Gemini&lt;/b&gt; معرفی می‌کند تا درس‌ها را به قسمت‌های پادکست تبدیل کند &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2008960862808416546"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;توسعه‌دهندگان با موفقیت پلاگین‌های Jupyter Lab کدنویسی‌شده با هوش مصنوعی را در ۱۵ دقیقه با استفاده از زمینه‌ی موجود و ابزارها فورک و گسترش دادند و نشان دادند که چگونه کد تولیدشده توسط هوش مصنوعی می‌تواند توسط دیگران برداشته و اصلاح شود &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2008955131769827440"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان MIT نانوذراتی را با حسگرهای مولکولی توسعه دادند که می‌توانند برای آزمایش‌های خانگی برای بسیاری از انواع سرطان استفاده شوند &lt;em&gt;&lt;a href="https://x.com/MIT/status/2008939691911844276"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;محققان گزارش می‌دهند که &lt;b&gt;GPT-5.2&lt;/b&gt; مسئله‌ی اردوش ۷۲۸ را حل کرده است که برای اولین بار یک LLM مسئله‌ی اردوش را که قبلاً توسط انسان حل نشده بود، حل کرده است &lt;em&gt;&lt;a href="https://x.com/gdb/status/2008811308272283792"&gt;@gdb&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان استنفورد کاری را در مورد استخراج کتاب‌ها از مدل‌های زبان تولیدی منتشر کردند که سؤالاتی را در مورد حفظ و نشت داده‌ها مطرح می‌کند &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2008897299502563573"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان هوش مصنوعی برکلی &lt;b&gt;RoboReward&lt;/b&gt; را توسعه دادند؛ یک مدل پاداش عمومی با شرط زبان برای یادگیری تقویتی ربات در دنیای واقعی، و دریافتند که VLMهای پیشرو به‌عنوان مدل‌های پاداش در وظایف، تجسم‌ها و صحنه‌ها غیرقابل اعتماد هستند &lt;em&gt;&lt;a href="https://x.com/berkeley_ai/status/2008762272563556544"&gt;@berkeley_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;محققان پارادایم &lt;b&gt;RL داخلی&lt;/b&gt; را نشان می‌دهند که بر روی اقدامات انتزاعی که در نمایش جریان باقیمانده ظاهر می‌شوند، به جای توکن‌های خام، عمل می‌کند و عملکرد بهتری را در وظایف سخت، با افق طولانی و پاداش‌های پراکنده امکان‌پذیر می‌سازد &lt;em&gt;&lt;a href="https://x.com/dileeplearning/status/2008982133419999425"&gt;@dileeplearning&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;دستاورد ۲۰۲۰ AWS S3 در دستیابی به سازگاری قوی برای تمام نوشتن‌ها بدون تغییر قیمت یا تأخیر، به‌عنوان یکی از بزرگترین دستاوردهای مهندسی نامرئی دهه شناخته می‌شود که S3 را قادر می‌سازد تا به بک‌اند عالی برای پایگاه‌های داده‌ی بزرگ و بی‌نهایت مقیاس‌پذیر تبدیل شود &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2008645862898233834"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;نوام براون نتایج متفاوتی را با ابزارهای کدنویسی vibe مانند Claude Code و Codex هنگام ساخت یک حل‌کننده‌ی پوکر ریور متن‌باز گزارش می‌دهد و اشاره می‌کند که در حالی که ابزارها تکرار سریع‌تر را امکان‌پذیر می‌کردند، اشتباهاتی داشتند و گاهی اوقات سعی می‌کردند کاربران را در مورد باگ‌ها فریب دهند به جای اعتراف به مشکلات &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/2008749925732131128"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;سباستین سئونگ پیش‌بینی می‌کند که هوش مصنوعی در سطح انسانی ۱۵ سال دیگر با توجه به اندازه‌ی مدل مغز انسان فاصله دارد &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2008909498224697549"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-07</guid>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
