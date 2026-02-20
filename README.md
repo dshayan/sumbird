@@ -146,7 +146,7 @@ Network resilience settings:
 Controls request pacing to avoid overwhelming Nitter:
 - `FETCHER_BATCH_SIZE`: Feeds per batch (default: 20)
 - `FETCHER_BATCH_DELAY`: Delay between batches (default: 30s)
-- `FETCHER_REQUEST_DELAY`: Base delay between requests (default: 5s, actual: 8-12s with jitter)
+- `FETCHER_REQUEST_DELAY`: Base delay between requests (default: 5s -> 7.5-12.5s; increase if you see 429 errors)
 
 ### Site & Newsletter Website
 Controls for the static newsletter site (GitHub Pages):
@@ -387,7 +387,7 @@ python main.py --force-lock
 ### API Rate Limiting
 **Problem:** API errors or timeouts
 - Increase timeout values in `.env` (e.g., `OPENROUTER_TIMEOUT`, `TTS_TIMEOUT`)
-- Increase `FETCHER_REQUEST_DELAY` and `FETCHER_BATCH_DELAY` for Nitter
+- **429 from Nitter:** HTTP 429 means the Nitter instance (or Twitter behind it) is rate-limiting. Increase `FETCHER_REQUEST_DELAY` and `FETCHER_BATCH_DELAY` to slow the fetcher. If you run the Nitter instance, consider tuning `rssMinutes` (RSS cache) and `httpMaxConnections` in `nitter.conf`.
 - Check API quota limits
 
 ### Missing Dependencies
@@ -403,10 +403,10 @@ python --version
 ## Performance Optimization
 
 ### Fetcher Rate Limiting
-The fetcher uses conservative delays to avoid session exhaustion:
-- Actual delay: 8-12 seconds between requests (randomized)
-- Batch delay: 30s + 0-15s jitter between batches
-- Adjust `FETCHER_REQUEST_DELAY` and `FETCHER_BATCH_DELAY` if needed
+The fetcher uses configurable delays to avoid overwhelming Nitter:
+- Delay between feeds: `FETCHER_REQUEST_DELAY * 1.5` to `* 2.5` seconds (default 5.0 -> 7.5-12.5s)
+- Batch delay: `FETCHER_BATCH_DELAY` + 0-15s jitter between batches
+- If you see 429 errors, increase `FETCHER_REQUEST_DELAY` (e.g. 12) and `FETCHER_BATCH_DELAY` (e.g. 60)
 
 ### Caching Strategy
 - Pipeline caches all intermediate outputs

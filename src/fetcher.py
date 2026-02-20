@@ -27,12 +27,14 @@ class TweetFetcher:
         self.network_client = NetworkClient(NITTER_BASE_URL)
         self.rate_limiter = RateLimiter()
         
-        # Use conservative delays: 8-12 seconds between requests
+        # Delay between feeds from config (default 5.0 -> 7.5-12.5s; increase for rate-limited Nitter)
+        base_delay_min = FETCHER_REQUEST_DELAY * 1.5
+        base_delay_max = FETCHER_REQUEST_DELAY * 2.5
         self.feed_processor = FeedProcessor(
-            self.network_client, 
+            self.network_client,
             self.rate_limiter,
-            base_delay_min=8.0,
-            base_delay_max=12.0
+            base_delay_min=base_delay_min,
+            base_delay_max=base_delay_max
         )
         self.batch_processor = BatchProcessor(
             self.feed_processor, 
@@ -65,7 +67,7 @@ class TweetFetcher:
         
         log_info('TweetFetcher', f"Nitter Base URL: {NITTER_BASE_URL}")
         log_info('TweetFetcher', f"Target date: {date_str}")
-        log_info('TweetFetcher', f"Using conservative delays (8-12s between requests)")
+        log_info('TweetFetcher', f"Using delays ({self.feed_processor.base_delay_min:.1f}-{self.feed_processor.base_delay_max:.1f}s between requests)")
         
         # Get feeds and posts
         feeds = self.get_feeds_from_handles()

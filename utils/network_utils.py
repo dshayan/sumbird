@@ -5,6 +5,7 @@ Centralized network operations with retry and rate limiting.
 """
 import random
 import time
+from email.utils import parsedate_to_datetime
 from typing import Dict, List, Optional
 
 import feedparser
@@ -37,11 +38,12 @@ class NetworkClient:
         """Create a session with proper retry strategy."""
         session = requests.Session()
         
-        # Configure retry strategy for rate limits and server errors
+        # Configure retry strategy for server errors only. Do NOT retry 429 here;
+        # we handle 429 in fetch_feed with long backoff via _handle_rate_limit().
         retry_strategy = Retry(
             total=3,
             backoff_factor=2,
-            status_forcelist=[429, 500, 502, 503, 504],
+            status_forcelist=[500, 502, 503, 504],
             allowed_methods=["GET"]
         )
         
@@ -89,7 +91,7 @@ class NetworkClient:
             
             # Handle rate limiting
             if response.status_code == 429:
-                self._handle_rate_limit()
+                self._handle_rate_limit(response)
                 # Let retry_utils handle the retry
                 raise requests.exceptions.RequestException("Rate limited")
             
@@ -115,14 +117,28 @@ class NetworkClient:
             log_error('NetworkClient', f"Request failed: {e}")
             raise
     
-    def _handle_rate_limit(self):
-        """Handle rate limiting with exponential backoff."""
+    def _handle_rate_limit(self, response: Optional[requests.Response] = None):
+        """Handle rate limiting with exponential backoff or Retry-After header."""
         self.consecutive_429_errors += 1
         self.last_429_time = time.time()
-        
-        # Exponential backoff: 30s, 60s, 120s, etc.
+
         backoff_time = min(300, 30 * (2 ** (self.consecutive_429_errors - 1)))
-        log_warning('NetworkClient', f"Rate limit hit, backing off for {backoff_time}s")
+        if response is not None and "Retry-After" in response.headers:
+            raw = response.headers["Retry-After"].strip()
+            try:
+                # Integer seconds
+                after_secs = int(raw)
+            except ValueError:
+                try:
+                    # HTTP-date
+                    dt = parsedate_to_datetime(raw)
+                    after_secs = max(0, (dt.timestamp() - time.time()))
+                except (ValueError, TypeError):
+                    after_secs = backoff_time
+            backoff_time = min(300, max(0, int(after_secs))) if after_secs else backoff_time
+            log_warning('NetworkClient', f"Rate limit hit, waiting Retry-After: {backoff_time}s")
+        else:
+            log_warning('NetworkClient', f"Rate limit hit, backing off for {backoff_time}s")
         time.sleep(backoff_time + random.uniform(5, 15))
     
     def get_feed_url(self, handle: str) -> str:
