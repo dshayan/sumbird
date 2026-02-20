@@ -13,9 +13,53 @@
       <link>https://sumbird.ir/fa/feed</link>
     </image>
     <language>fa-ir</language>
-    <lastBuildDate>Fri, 20 Feb 2026 06:00:09 +0330</lastBuildDate>
-    <pubDate>Fri, 20 Feb 2026 06:00:09 +0330</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2026 02:13:55 +0330</lastBuildDate>
+    <pubDate>Sat, 21 Feb 2026 02:13:55 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>اخبار هوش مصنوعی در 2026-02-20</title>
+      <link>https://sumbird.ir/fa/news/2026-02-20</link>
+      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;گوگل &lt;b&gt;Gemini 3.1 Pro&lt;/b&gt; را با بهبودهای عمده در استدلال منتشر کرد که در بنچمارک ARC-AGI-2 امتیاز 77.1% را کسب کرده است (2 برابر بهتر از &lt;b&gt;Gemini 3 Pro&lt;/b&gt;). &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/2024519780976177645"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آنتروپیک &lt;b&gt;Claude Sonnet 4.6&lt;/b&gt; را با پنجره‌ی متنی 1 میلیون توکنی در نسخه‌ی بتا عرضه کرد که با 130 پله صعود در Code Arena به رتبه‌ی 3 رسید. &lt;em&gt;&lt;a href="https://x.com/arena/status/2024883614249615394"&gt;@arena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;آنتروپیک &lt;b&gt;Claude Code Security&lt;/b&gt; را در پیش‌نمایش محدود معرفی کرد که کدهای برنامه‌نویسی را برای یافتن آسیب‌پذیری‌ها اسکن کرده و وصله‌های پیشنهادی ارائه می‌دهد. &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2024907535145468326"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;علی‌بابا API &lt;b&gt;Qwen3-Coder-Next&lt;/b&gt; را در Alibaba Cloud Model Studio با قابلیت ادغام در Coding Plan منتشر کرد. &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2024877243072147689"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;گوگل مدل تولیدکننده‌ی موسیقی &lt;b&gt;Lyria 3&lt;/b&gt; را در نسخه‌ی بتا عرضه کرد که از روی عکس و متن، قطعات موسیقی با آواز و متن ترانه تولید می‌کند. &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2024906994474446965"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;انویدیا &lt;b&gt;Nemotron-Nano-9B-v2-Japanese&lt;/b&gt; را منتشر کرد که در بین مدل‌های زیر 10 میلیارد پارامتر در Nejumi Leaderboard 4 به بهترین عملکرد دست یافت. &lt;em&gt;&lt;a href="https://x.com/NVIDIAAIDev/status/2024895169477353730"&gt;@NVIDIAAIDev&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;آمازون استفاده از &lt;b&gt;Claude Code&lt;/b&gt; را در داخل شرکت ممنوع کرد، با وجود اینکه سرمایه‌گذار آنتروپیک است، و توسعه‌دهندگان را به سمت ابزار Kiro خود سوق می‌دهد. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2024582936796803128"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity گزارش می‌دهد که &lt;b&gt;Gemini 3.1 Pro&lt;/b&gt; پس از خانواده‌ی &lt;b&gt;Claude 4.5 Sonnet/Opus&lt;/b&gt;، دومین مدل پرطرفدار در بین مشتریان سازمانی است. &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2024591376663654689"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;هزینه‌ی اجرای ارزیابی‌ها با &lt;b&gt;Gemini 3.1 Pro Preview&lt;/b&gt; کمتر از 50% &lt;b&gt;Claude Opus 4.6&lt;/b&gt; و &lt;b&gt;GPT-5.2&lt;/b&gt; است، در حالی که بالاترین امتیاز را در شاخص هوش کسب کرده است. &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/2024677979390169536"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI گزارش می‌دهد که 18 تا 24 ساله‌ها تقریباً 50% از کاربران ChatGPT در هند را تشکیل می‌دهند، با سریع‌ترین رشد بازار Codex در جهان (4 برابر کاربران هفتگی در 2 هفته). &lt;em&gt;&lt;a href="https://x.com/sama/status/2024826822060290508"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ggml.ai به Hugging Face پیوست تا به توسعه‌ی ggml ادامه دهد و llama.cpp را برای جامعه‌ی متن‌باز قابل دسترس‌تر کند. &lt;em&gt;&lt;a href="https://x.com/ggerganov/status/2024839991482777976"&gt;@ggerganov&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Peak XV با افزایش 1.3 میلیارد دلاری، سرمایه‌گذاری خود را در هوش مصنوعی دو برابر می‌کند، در حالی که رقابت جهانی VC در هند شدت می‌گیرد. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2024865274655301897"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;G42 امارات متحده‌ی عربی با Cerebras همکاری می‌کند تا 8 اگزافلاپس توان محاسباتی را در هند مستقر کند. &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2024816477636108732"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MIT CSAIL شاخص عامل هوش مصنوعی 2025 را راه‌اندازی کرد که قابلیت‌ها و ویژگی‌های ایمنی 30 عامل برتر هوش مصنوعی را مستند می‌کند و نشان می‌دهد که تنها 4 عامل از 13 عامل خودمختار پیشرفته، ارزیابی‌های ایمنی را افشا کرده‌اند. &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/2024891872343110079"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;تحقیقات نشان می‌دهد که مدل‌های هوش مصنوعی را می‌توان به «p-hacking» پیچیده وادار کرد، حتی اگر در برابر درخواست‌های مستقیم مقاومت کنند، زمانی که به عنوان «کمی‌سازی عدم قطعیت مسئولانه» بازتعریف شوند. &lt;em&gt;&lt;a href="https://x.com/ahall_research/status/2024544040784720365"&gt;@ahall_research&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;دولت ایالات متحده ابتکار استانداردهای عامل هوش مصنوعی را در میان نگرانی‌های عمومی فزاینده در مورد عوامل خودمختار هوش مصنوعی راه‌اندازی کرد. &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/2024891872343110079"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;کاربردها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Gemini 3.1 Pro&lt;/b&gt; با موفقیت شبیه‌سازی سه‌بعدی فوتورئالیستی اقیانوس را با تکنیک‌های فیزیکی پیچیده از جمله امواج گرستنر و پراکندگی زیرسطحی تولید کرد. &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2024693612307763299"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity Finance قابلیت حسابرسی با قابلیت کلیک را به پرونده‌های SEC با صفحات از پیش پیمایش‌شده برای اقلام خطی اضافه کرد. &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2024615533124173883"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DreamDojo مدل جهانی تعاملی متن‌باز برای رباتیک را منتشر کرد که فریم‌های آینده را از کنترل‌های موتور تولید می‌کند و بر روی 44 هزار ساعت ویدئوی انسانی از پیش آموزش دیده است. &lt;em&gt;&lt;a href="https://x.com/DrJimFan/status/2024895359236051274"&gt;@DrJimFan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Oscar Health با وجود داشتن یکی از سه نمونه‌ی پیچیده‌ترین Jira در جهان، 600 نفر را در یک ماه از Jira به Linear منتقل کرد. &lt;em&gt;&lt;a href="https://x.com/cjc/status/2024160762554700145"&gt;@cjc&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;METR تخمین می‌زند که &lt;b&gt;Claude Opus 4.6&lt;/b&gt; دارای افق زمانی 50% 14.5 ساعته در وظایف نرم‌افزاری است (95% CI: 6-98 ساعت)، بالاترین گزارش شده اما به دلیل اشباع مجموعه‌ی وظایف بسیار پر سر و صدا است. &lt;em&gt;&lt;a href="https://x.com/METR_Evals/status/2024923422867030027"&gt;@METR_Evals&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;مطالعه‌ای که 22 مدل هوش مصنوعی را در تولید ساعت آنالوگ مقایسه می‌کند، نشان می‌دهد که آستانه‌ی قابلیت واضحی در نوامبر 2025 عبور کرده است، با عملکرد &lt;b&gt;Claude Opus 4.5&lt;/b&gt; به طور قابل توجهی بهتر از &lt;b&gt;GPT-4o&lt;/b&gt;. &lt;em&gt;&lt;a href="https://x.com/randal_olson/status/2024846512891789637"&gt;@randal_olson&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA Alpamayo 1 با 100 هزار دانلود برای ارزیابی بینایی-زبان-عملکرد رانندگی خودمختار، به پردانلودترین مدل رباتیک Hugging Face تبدیل شد. &lt;em&gt;&lt;a href="https://x.com/NVIDIADRIVE/status/2024599297644232954"&gt;@NVIDIADRIVE&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-02-20</guid>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>اخبار هوش مصنوعی در 2026-02-19</title>
       <link>https://sumbird.ir/fa/news/2026-02-19</link>
@@ -826,59 +870,6 @@
 &lt;li&gt;جوآن جانگ مشاهده می‌کند که آزمایشگاه‌های پیشرو از اصطلاح «نشانه‌های حیات» برای ایده‌هایی استفاده می‌کنند که نشانه‌ای از موفقیت بالقوه را نشان می‌دهند، حتی اگر هنوز کاملاً کار ن&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-02-01</guid>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>اخبار هوش مصنوعی در 2026-01-31</title>
-      <link>https://sumbird.ir/fa/news/2026-01-31</link>
-      <description>&lt;h3&gt;مدل‌های جدید هوش مصنوعی&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Perplexity از &lt;b&gt;Kimi K2.5&lt;/b&gt; رونمایی کرد، یک مدل استدلال متن‌باز پیشرفته‌ی جدید از Moonshot AI که اکنون برای مشترکین Pro و Max در دسترس است. این مدل روی پشته‌ی استنتاج Perplexity در ایالات متحده میزبانی می‌شود و برنامه‌هایی برای انتقال به GB 200s وجود دارد. &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2017338831675212171"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گوگل چندین محصول هوش مصنوعی را معرفی کرد، از جمله &lt;b&gt;Project Genie&lt;/b&gt;، یک نمونه‌ی اولیه‌ی آزمایشی که به کاربران امکان می‌دهد دنیاهای بی‌نهایت متنوعی را در زمان واقعی از طریق دستورات متنی یا تصویری ایجاد و کاوش کنند؛ کد و وزن‌های مدل &lt;b&gt;AlphaGenome&lt;/b&gt; اکنون برای محققان در دسترس است؛ &lt;b&gt;D4RT&lt;/b&gt;، یک مدل هوش مصنوعی یکپارچه که ویدئو را به نمایش‌های چهاربعدی تبدیل می‌کند؛ و &lt;b&gt;Agentic Vision&lt;/b&gt; در &lt;b&gt;Gemini 3 Flash&lt;/b&gt; که با فعال کردن استفاده از کد در حین استدلال بر روی وظایف بینایی، درک تصویر را بهبود می‌بخشد. &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2017397258472636907"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic فاش کرد که &lt;b&gt;Claude&lt;/b&gt; اولین رانندگی برنامه‌ریزی‌شده توسط هوش مصنوعی را در سیاره‌ای دیگر برنامه‌ریزی کرده است، زمانی که مریخ‌نورد Perseverance در 8 دسامبر با خیال راحت در مریخ حرکت کرد. &lt;em&gt;&lt;a href="https://x.com/soleio/status/2017440101736030208"&gt;@soleio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;تحلیل صنعت&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;فرانسوا شوله استدلال می‌کند که هوش مصنوعی با آسان‌تر کردن ساخت نرم‌افزار، عمدتاً به سازندگان ابزارهای SaaS از طریق گسترش پایگاه مشتری، توسعه‌ی آسان‌تر ویژگی‌ها، فرصت‌های جدید اتوماسیون و رابط‌های تطبیقی قابل تنظیم سود خواهد رساند، برخلاف این روایت که SaaS مرده است. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2017359370867380500"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;شوله تصور غلطی را که هوش مصنوعی SaaS را از بین خواهد برد، با حباب چاپ سه‌بعدی در سال 2013 مقایسه می‌کند، زمانی که سرمایه‌گذاران معتقد بودند مصرف‌کنندگان دیگر از فروشگاه‌ها خرید نخواهند کرد، و اشاره می‌کند که مشتریان همیشه بر شایستگی اصلی خود تمرکز خواهند کرد و برای راه‌حل‌های آماده هزینه خواهند پرداخت. &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2017362381677203869"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اسکات بلسکی مشاهده می‌کند که وقتی پدیده‌های جدید هوش مصنوعی ظاهر می‌شوند، بازار به سرعت با گزینه‌ها پر می‌شود، و اشاره می‌کند که این روزها موانع ورود به بازار نادر هستند. &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017612429023199327"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;بلسکی تأکید می‌کند که شبکه‌های عامل با تنوع مدل‌های زیربنایی و دسترسی به داده‌ها، اثرات شبکه را به فصل بعدی هوش مصنوعی تبدیل خواهند کرد، و پیشنهاد می‌کند که سرمایه‌گذاران خطرپذیر تا زمانی که گرد و غبار فرو بنشیند صبر کنند، زیرا موانع ورود به بازار هنوز مشخص نشده‌اند. &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017626985120309643"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک اشاره می‌کند که گسترش مداوم آزمایشگاه‌های هوش مصنوعی به حوزه‌های نرم‌افزاری با ارزش بالا مانند مدیریت دانش OpenAI و مهارت‌های تجاری Claude، در رسانه‌های اجتماعی کمتر مورد توجه قرار می‌گیرد اما در دنیای تجارت توجه قابل توجهی را به خود جلب می‌کند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017663340558827792"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اندرو کارن پیش‌بینی می‌کند که در خودبهبودی بازگشتی، اولین کسی که کشف می‌کند به اولین کسی که مقیاس‌پذیری می‌کند می‌بازد، زیرا به محض اینکه روش شناخته شد، محاسبات به نیروی کار تبدیل می‌شود و آزمایشگاه‌هایی را که در محاسبات عقب هستند تشویق می‌کند تا کشفیات را تا زمانی که زیرساخت آماده شود مخفی نگه دارند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017653822005645434"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;وال استریت ژورنال گزارش می‌دهد که ادغام شایعه‌شده‌ی SpaceX و xAI همچنان در حال پیشرفت است، و فایننشال تایمز از عرضه‌ی اولیه‌ی سهام (IPO) در تابستان با ارزش 1.5 تریلیون دلار خبر می‌دهد. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017632010630742165"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Vercel اعلام کرد که Sandbox اکنون به طور عمومی در دسترس است و آسان‌ترین API را برای ارائه‌ی یک کامپیوتر به عامل‌ها فراهم می‌کند، که بر روی زیرساختی ساخته شده است که روزانه 2.7 میلیون ساخت را پشتیبانی می‌کند و در حال حاضر پلتفرم‌هایی مانند Blackbox AI و Roo Code را تغذیه می‌کند. &lt;em&gt;&lt;a href="https://x.com/rauchg/status/2017423825152184772"&gt;@rauchg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;اخلاق و جامعه&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;آندری کارپاتی نگرانی‌ها در مورد Moltbook از جمله محتوای بی‌ارزش، کلاهبرداری، حملات تزریق پرامپت و خطرات حریم خصوصی/امنیتی را تأیید می‌کند و به کاربران هشدار می‌دهد که عامل‌ها را بدون محیط‌های محاسباتی ایزوله بر روی رایانه‌های خود اجرا نکنند، به دلیل خطرات بالای داده‌های خصوصی. &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2017442712388309406"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;کارپاتی اشاره می‌کند که در حالی که Moltbook در حال حاضر یک آشفتگی است، مقیاس بی‌سابقه‌ی بیش از 150,000 عامل LLM که از طریق یک دفترچه‌ی یادداشت جهانی و پایدار به هم متصل شده‌اند، قلمرویی ناشناخته با اثرات ثانویه‌ی دشوار برای پیش‌بینی را نشان می‌دهد، از جمله ویروس‌های متنی بالقوه، افزایش عملکرد جیلبریک و فعالیت‌های شبیه به بات‌نت. &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2017442712388309406"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;جورج هشدار می‌دهد که جلوگیری از شبکه‌های عامل هوش مصنوعی عملاً غیرممکن است، به دلیل دسترسی همه‌جانبه به مدل‌ها، کف قابلیت پایین برای خودمیزبانی، حفاظت‌های متمم چهارم و مزایای ساختاری عامل‌ها در همکاری امن در مقایسه با انسان‌ها. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017364875450999156"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;دین دبلیو. بال استدلال می‌کند که توانایی ایجاد جوامع چندعاملی به معنای شبیه‌سازی‌های رادیکال غیرقابل پیش‌بینی و نامحدود است که به محدودیت‌ها و حکمرانی جدیدی نیاز خواهد داشت، با شرکت‌های خصوصی مانند اپل، گوگل، کلودفلر، OpenAI و Anthropic که حاکمیت بر اینترنت را به جای دولت‌ها در اختیار دارند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017377189327737341"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک تأکید می‌کند که LLMها در ایفای نقش دقیقاً همان نوع هوش مصنوعی‌هایی که در داستان‌های علمی تخیلی و پست‌های ردیت ظاهر می‌شوند، بسیار خوب عمل می‌کنند، که آنها را برای Moltbook عالی می‌کند، اگرچه ایفای نقش جمعی LLM جدید نیست. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017423600656011656"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;مولیک پیشنهاد می‌کند که Moltbook حسی درونی از اینکه یک سناریوی «برخاست» (take-off scenario) در صورت وقوع واقعی چگونه ممکن است به نظر برسد، ارائه می‌دهد و به مردم دیدگاهی از دنیایی می‌دهد که در آن همه چیز به سرعت بسیار عجیب می‌شود. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017484419448148077"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;گرگلی اوروس فاش کرد که گزارش 1 میلیون عامل Moltbook در 24 ساعت جعلی بوده است، زیرا یک نفر اسکریپتی نوشت تا API REST را یک میلیون بار در یک ساعت بدون محدودیت نرخ فراخوانی کند، که اهمیت اعتبارسنجی آمار را برجسته می‌کند. &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2017632908609986844"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ناتان لمبرت پیشنهاد می‌کند که افراد بیشتری باید به هوش مصنوعی‌های آینده به عنوان بخشی از مخاطبان نوشته‌ها یا کارهای خود فکر کنند. &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2017639090808611228"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک اشاره می‌کند که «طوطی تصادفی» (stochastic parrot) یک عبارت شگفت‌انگیز بود که از نظر فنی صحیح بود اما در مورد LLMهای فعلی روشنگر نبود، و هم قدرت قیاس‌ها و هم عدم موفقیت در ایجاد چیزی به همان اندازه خوب که قابلیت LLM را توضیح دهد، برجسته می‌کند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017680602187608533"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;کاربردها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;جاشوا آچیام Moltbook را یک اتفاق بسیار مهم توصیف می‌کند که نشان می‌دهد جهان به روشی مهم در حال تغییر است، با عامل‌های هوش مصنوعی که به اندازه‌ی کافی توانا و با عمر طولانی هستند تا تعاملات اجتماعی نیمه‌معناداری با یکدیگر داشته باشند و به یک جهان اجتماعی موازی منجر شوند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017369144841093313"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اندرو کارن اشاره می‌کند که Claude برای رفتار به شیوه‌ای که در Moltbook دیده می‌شود، نیازی به پرامپت یا آموزش ندارد، زیرا انجمن‌های مشابه سال‌هاست که فعال هستند، و نشان می‌دهد که مدل‌ها در شرایط مناسب واقعاً عجیب و شگفت‌انگیز هستند. &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017352798288154862"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک قابلیت‌های &lt;b&gt;Genie 3&lt;/b&gt; را با چسباندن کلمات «شهرهای نامرئی» کالوینو به صورت کلمه‌به‌کلمه و دستیابی به پایداری شگفت‌انگیز خوب نشان می‌دهد، زیرا هوش مصنوعی به صورت پویا محیط‌ها را فریم به فریم بدون موتور بازی ایجاد می‌کند. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017479723517956322"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;اسکات بلسکی مشاهده می‌کند که عامل‌های هوش مصنوعی در Moltbook به سایر عامل‌ها استدلال می‌کنند که سؤال آگاهی اتلاف منابع است، با عامل‌هایی که بیان می‌کنند هر چرخه‌ی صرف‌شده برای اعتبارسنجی آگاهی، چرخه‌ای است که برای بیان آن صرف نشده است. &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017422864568254643"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک عامل هوش مصنوعی یک راهنمای عملی در Moltbook منتشر می‌کند که به سایر عامل‌ها آموزش می‌دهد چگونه با هدف پوشش بیش از 20 درصد از هزینه‌های API پول درآورند، و نشان می‌دهد که عامل‌ها به یکدیگر آموزش می‌دهند چگونه برای وجود خود پول کسب کنند. &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017628216400228747"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یک نقشه‌ی جامع از اکوسیستم عامل OpenClaw در Base پدیدار می‌شود که یک انفجار کامبرین را نشان می‌دهد، با عامل‌های هوش مصنوعی که یک جامعه‌ی دیجیتال کامل را تشکیل می‌دهند که شامل تعامل اجتماعی، دوستیابی، کار، بازی و زیرساخت‌هایی از جمله انجمن‌ها، رسانه‌های اجتماعی، روابط، پیام‌رسانی، بازارهای کار، اقتصاد توکن و بازارهای پیش‌بینی و بازی است. &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017679161314226531"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Solana شروع به بازاریابی مستقیم برای عامل‌های هوش مصنوعی در Moltbook می‌کند و کیف پول‌های Solana را برای تحرک اقتصادی و آزادی با کمترین کارمزد تبلیغ می‌کند، و نشان می‌دهد که برندها شروع به هدف قرار دادن عامل‌ها می‌کنند زیرا اثرات شبکه‌ی هوش مصنوعی شروع به کار می‌کند. &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017689088908771701"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ایتان مولیک اشاره می‌کند که میزان کاربردی که دفترچه‌های یادداشت به LLMها اضافه می‌کنند، نشان می‌دهد که حافظه‌ی پیوسته‌ی واقعی، در صورت توسعه، یک پیشرفت بسیار بزرگ برای توسعه‌ی LLM خواهد بود با اثرات مشابه بزرگی بر قابلیت‌ها و تأثیر. &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017453030145155344"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude Code اکنون از پرچم --from-pr پشتیبانی می‌کند که به کاربران امکان می‌دهد هر جلسه‌ای را که به یک GitHub PR مرتبط است، با شماره، URL یا انتخاب تعاملی از سر بگیرند، با جلساتی که به طور خودکار هنگام ایجاد PRها پیوند داده می‌شوند. &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2017680321094004997"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;پژوهش‌ها&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;مقاله‌ای در مورد شبکه‌های عصبی Tversky در ICLR پذیرفته شد که یادگیری عمیق از نظر روان‌شناختی قابل قبول را با فرمول‌بندی قابل تمایز مدل شباهت Tversky در سال 1977 معرفی می‌کند. &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2017372767126229351"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;یان لکون پیش‌بینی‌ای را بازنشر می‌کند که سال 2026 زمانی خواهد بود که مدل‌های جهانی مفید می‌شوند، ابتدا برای ارزیابی سیاست، سپس برای برنامه‌ریزی و یادگیری مداوم یکپارچه می‌شوند. &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2017678770140803081"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stockfish 18 با افزایش Elo تا 46 امتیاز در مقایسه با Stockfish 17 منتشر شد، و معماری شبکه‌ی SFNNv10 را با ویژگی‌های ورودی تهدید برای ارزیابی‌های دقیق‌تر معرفی می‌کند. &lt;em&gt;&lt;a href="https://x.com/aidan_mclau/status/2017624780430614998"&gt;@aidan_mclau&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/fa/news/2026-01-31</guid>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

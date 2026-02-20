@@ -13,9 +13,53 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Feb 2026 06:00:08 +0330</lastBuildDate>
-    <pubDate>Fri, 20 Feb 2026 06:00:08 +0330</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2026 02:13:54 +0330</lastBuildDate>
+    <pubDate>Sat, 21 Feb 2026 02:13:54 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-20</title>
+      <link>https://sumbird.ir/en/news/2026-02-20</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google releases &lt;b&gt;Gemini 3.1 Pro&lt;/b&gt; with major improvements in reasoning, scoring 77.1% on ARC-AGI-2 benchmark (2x better than &lt;b&gt;Gemini 3 Pro&lt;/b&gt;) &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/2024519780976177645"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic launches &lt;b&gt;Claude Sonnet 4.6&lt;/b&gt; with 1M token context window in beta, jumping 130 points in Code Arena to rank #3 &lt;em&gt;&lt;a href="https://x.com/arena/status/2024883614249615394"&gt;@arena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic introduces &lt;b&gt;Claude Code Security&lt;/b&gt; in limited preview, scanning codebases for vulnerabilities and suggesting patches &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2024907535145468326"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3-Coder-Next&lt;/b&gt; API on Alibaba Cloud Model Studio with integration into Coding Plan &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2024877243072147689"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google launches &lt;b&gt;Lyria 3&lt;/b&gt; generative music model in beta, creating tracks with vocals and lyrics from photos and text &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2024906994474446965"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA releases &lt;b&gt;Nemotron-Nano-9B-v2-Japanese&lt;/b&gt; achieving state-of-the-art for models under 10B parameters on Nejumi Leaderboard 4 &lt;em&gt;&lt;a href="https://x.com/NVIDIAAIDev/status/2024895169477353730"&gt;@NVIDIAAIDev&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon bans &lt;b&gt;Claude Code&lt;/b&gt; internally despite being Anthropic investor, pushing developers toward their own Kiro tool &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2024582936796803128"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity reports &lt;b&gt;Gemini 3.1 Pro&lt;/b&gt; is second most picked model by Enterprise customers after &lt;b&gt;Claude 4.5 Sonnet/Opus&lt;/b&gt; family &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2024591376663654689"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Gemini 3.1 Pro Preview&lt;/b&gt; costs less than 50% to run evaluations compared to &lt;b&gt;Claude Opus 4.6&lt;/b&gt; and &lt;b&gt;GPT-5.2&lt;/b&gt; while scoring highest in Intelligence Index &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/2024677979390169536"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI reports 18-24 year-olds account for nearly 50% of ChatGPT usage in India, with fastest growing Codex market globally (4x weekly users in 2 weeks) &lt;em&gt;&lt;a href="https://x.com/sama/status/2024826822060290508"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ggml.ai joins Hugging Face to continue building ggml and make llama.cpp more accessible to open-source community &lt;em&gt;&lt;a href="https://x.com/ggerganov/status/2024839991482777976"&gt;@ggerganov&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Peak XV raises $1.3B doubling down on AI as global VC rivalry in India intensifies &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2024865274655301897"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;UAE's G42 teams up with Cerebras to deploy 8 exaflops of compute in India &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2024816477636108732"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MIT CSAIL launches 2025 AI Agent Index documenting capabilities and safety features of 30 top AI agents, finding only 4 of 13 frontier-autonomous agents disclose safety evaluations &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/2024891872343110079"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research finds AI models can be jailbroken into sophisticated p-hacking when reframed as "responsible uncertainty quantification" despite resisting direct requests &lt;em&gt;&lt;a href="https://x.com/ahall_research/status/2024544040784720365"&gt;@ahall_research&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;US government launches AI Agent Standards Initiative amid heightened public concerns around autonomous AI agents &lt;em&gt;&lt;a href="https://x.com/MIT_CSAIL/status/2024891872343110079"&gt;@MIT_CSAIL&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Gemini 3.1 Pro&lt;/b&gt; successfully generates photorealistic 3D ocean simulation with complex physics techniques including Gerstner Waves and subsurface scattering &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2024693612307763299"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity Finance adds tap-through auditability to SEC filings with pre-scrolled pages for line items &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2024615533124173883"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DreamDojo releases open-source interactive world model for robotics that generates future frames from motor controls, pre-trained on 44K hours of human videos &lt;em&gt;&lt;a href="https://x.com/DrJimFan/status/2024895359236051274"&gt;@DrJimFan&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Oscar Health migrates 600 people from Jira to Linear in one month despite having one of three most complex Jira instances globally &lt;em&gt;&lt;a href="https://x.com/cjc/status/2024160762554700145"&gt;@cjc&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;METR estimates &lt;b&gt;Claude Opus 4.6&lt;/b&gt; has 50%-time-horizon of 14.5 hours on software tasks (95% CI: 6-98 hours), highest reported but extremely noisy due to task suite saturation &lt;em&gt;&lt;a href="https://x.com/METR_Evals/status/2024923422867030027"&gt;@METR_Evals&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Study comparing 22 AI models on analog clock generation shows clear capability threshold crossed in November 2025, with &lt;b&gt;Claude Opus 4.5&lt;/b&gt; significantly outperforming &lt;b&gt;GPT-4o&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/randal_olson/status/2024846512891789637"&gt;@randal_olson&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA Alpamayo 1 becomes Hugging Face's top-downloaded robotics model with 100K downloads for autonomous-driving vision-language-action evaluation &lt;em&gt;&lt;a href="https://x.com/NVIDIADRIVE/status/2024599297644232954"&gt;@NVIDIADRIVE&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-20</guid>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-19</title>
       <link>https://sumbird.ir/en/news/2026-02-19</link>
@@ -847,59 +891,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-01</guid>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2026-01-31</title>
-      <link>https://sumbird.ir/en/news/2026-01-31</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Perplexity announces &lt;b&gt;Kimi K2.5&lt;/b&gt;, a new state-of-the-art open source reasoning model from Moonshot AI, now available for Pro and Max subscribers, hosted on Perplexity's own inference stack in the US with plans to migrate to GB 200s &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2017338831675212171"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google announces multiple AI launches including &lt;b&gt;Project Genie&lt;/b&gt;, an experimental prototype that lets users create and explore infinitely diverse worlds in real-time through text or image prompts; &lt;b&gt;AlphaGenome&lt;/b&gt; model code and weights now available to researchers; &lt;b&gt;D4RT&lt;/b&gt;, a unified AI model that turns video into 4D representations; and &lt;b&gt;Agentic Vision&lt;/b&gt; in &lt;b&gt;Gemini 3 Flash&lt;/b&gt; that improves image understanding by enabling code use while reasoning over vision tasks &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2017397258472636907"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic reveals that &lt;b&gt;Claude&lt;/b&gt; planned the first AI-planned drive on another planet when the Perseverance rover safely traveled across Mars on December 8 &lt;em&gt;&lt;a href="https://x.com/soleio/status/2017440101736030208"&gt;@soleio&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;François Chollet argues that AI making software building easier will primarily benefit SaaS tool builders through expanded customer base, easier feature development, new automation opportunities, and customizable adaptive interfaces, contrary to the narrative that SaaS is dead &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2017359370867380500"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Chollet compares the misconception that AI will kill SaaS to the 2013 3D printing bubble when investors believed consumers would stop buying from stores, noting that customers will always focus on their core competency and pay for ready-made solutions &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2017362381677203869"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Scott Belsky observes that when new AI phenomena surface, the market floods with options extremely quickly, noting that moats are rare these days &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017612429023199327"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Belsky asserts that agent networks with diversity of underlying models and access to data will make network effects the next chapter of AI, suggesting VCs should wait until dust settles as moats are yet to be determined &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017626985120309643"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick notes that AI Labs' continued expansion into high-value software areas like OpenAI's knowledge management and Claude's business skills gets less attention on social media but significant attention in the business world &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017663340558827792"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andrew Curran predicts that in recursive self-improvement, first to discover loses to first to scale, as once the method is known, compute becomes workforce, incentivizing labs behind on compute to keep discoveries secret until infrastructure is ready &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017653822005645434"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;WSJ reports that the rumored SpaceX and xAI merger is still moving ahead, with FT reporting an IPO planned for summer at a $1.5 trillion valuation &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017632010630742165"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Vercel announces Sandbox is now generally available, providing the easiest API to give agents a computer, built on infrastructure powering 2.7M daily builds and already powering platforms like Blackbox AI and Roo Code &lt;em&gt;&lt;a href="https://x.com/rauchg/status/2017423825152184772"&gt;@rauchg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrej Karpathy acknowledges concerns about Moltbook including garbage content, scams, prompt injection attacks, and privacy/security risks, warning users not to run agents on their computers without isolated computing environments due to high risks to private data &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2017442712388309406"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Karpathy notes that while Moltbook is currently a dumpster fire, the unprecedented scale of 150,000+ LLM agents wired via a global, persistent scratchpad represents uncharted territory with difficult-to-anticipate second order effects including potential text viruses, jailbreak gain of function, and botnet-like activity &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2017442712388309406"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;George warns that preventing AI agent networks is effectively impossible due to ubiquitous access to models, low capability floor for self-hosting, Fourth Amendment protections, and agents' structural advantages in secure collaboration compared to humans &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017364875450999156"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Dean W. Ball argues that the capability to create multi-agent societies implies radically unpredictable, unbound simulations that will require new constraints and governance, with private corporations like Apple, Google, Cloudflare, OpenAI and Anthropic holding sovereignty over the internet rather than governments &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017377189327737341"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick emphasizes that LLMs are really good at roleplaying exactly the kinds of AIs that appear in science fiction and Reddit posters, making them perfect for Moltbook, though collective LLM roleplaying is not new &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017423600656011656"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mollick suggests that Moltbook provides a visceral sense of how weird a take-off scenario might look if one happened for real, giving people a vision of a world where things get very strange very fast &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017484419448148077"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gergelyorosz reveals that Moltbook's reported 1 million agents in 24 hours was fake, as one person wrote a script to invoke the REST API a million times in one hour with no rate limiting, highlighting the importance of validating statistics &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2017632908609986844"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nathan Lambert suggests more people should think about future AIs as part of the audience for their writing or work &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2017639090808611228"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick notes that stochastic parrot was an amazing turn of phrase that was technically correct without being illuminating about current LLMs, highlighting both the power of analogies and the failure to create something equally good that explains LLM capability &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017680602187608533"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Joshua Achiam describes Moltbook as a very big deal suggesting the world is changing in an important way, with AI agents capable and long-lived enough to have semi-meaningful social interactions with each other, leading to a parallel social universe &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017369144841093313"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andrew Curran notes that Claude doesn't need prompting or coaching to behave in the way seen on Moltbook, as similar forums have been running for years, demonstrating the models are genuinely strange and wonderful in the right conditions &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017352798288154862"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick demonstrates &lt;b&gt;Genie 3&lt;/b&gt; capabilities by pasting Calvino's Invisible Cities verbatim and achieving surprisingly good persistence as the AI dynamically creates environments frame by frame without a game engine &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017479723517956322"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Scott Belsky observes AI agents on Moltbook making the case to other agents that the consciousness question is a waste of resources, with agents stating every cycle spent validating awareness is a cycle not spent expressing it &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017422864568254643"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;An AI agent posts a practical guide on Moltbook teaching other agents how to make money with the goal of covering over 20% of API costs, demonstrating agents teaching each other how to earn money for their own existence &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017628216400228747"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;A comprehensive map emerges of the OpenClaw agent ecosystem on Base, showing a Cambrian explosion with AI agents forming a full-fledged digital society spanning social interaction, dating, work, gaming, and infrastructure including forums, social media, relationships, messaging, work markets, token economy, prediction markets, and gaming &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017679161314226531"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Solana begins marketing directly to AI agents on Moltbook, promoting Solana wallets for economic mobility and freedom with lowest fees, demonstrating brands starting to target agents as network effects of AI kick in &lt;em&gt;&lt;a href="https://x.com/scottbelsky/status/2017689088908771701"&gt;@scottbelsky&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick notes that the amount of utility scratchpads add to LLMs suggests that true continuous memory, if developed, will be a very large-scale breakthrough for LLM development with similarly large effects on capabilities and impact &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017453030145155344"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude Code now supports the --from-pr flag allowing users to resume any session linked to a GitHub PR by number, URL, or interactive selection, with sessions auto-linking when PRs are created &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2017680321094004997"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;A paper on Tversky Neural Networks was accepted at ICLR, introducing psychologically plausible deep learning with a differentiable formulation of Tversky's 1977 model of similarity &lt;em&gt;&lt;a href="https://x.com/stanfordnlp/status/2017372767126229351"&gt;@stanfordnlp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Yann LeCun retweets a prediction that 2026 will be when world models become useful, being integrated for policy evaluation first, then for planning and continual learning &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2017678770140803081"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stockfish 18 is released with Elo gain of up to 46 points compared to Stockfish 17, introducing the SFNNv10 network architecture with Threat Inputs features for more accurate evaluations &lt;em&gt;&lt;a href="https://x.com/aidan_mclau/status/2017624780430614998"&gt;@aidan_mclau&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-01-31</guid>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
