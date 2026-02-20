@@ -387,7 +387,7 @@ python main.py --force-lock
 ### API Rate Limiting
 **Problem:** API errors or timeouts
 - Increase timeout values in `.env` (e.g., `OPENROUTER_TIMEOUT`, `TTS_TIMEOUT`)
-- **429 from Nitter:** HTTP 429 means the Nitter instance (or Twitter behind it) is rate-limiting. Increase `FETCHER_REQUEST_DELAY` and `FETCHER_BATCH_DELAY` to slow the fetcher. If you run the Nitter instance, consider tuning `rssMinutes` (RSS cache) and `httpMaxConnections` in `nitter.conf`.
+- Increase `FETCHER_REQUEST_DELAY` and `FETCHER_BATCH_DELAY` for Nitter
 - Check API quota limits
 
 ### Missing Dependencies
