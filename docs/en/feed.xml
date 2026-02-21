@@ -13,9 +13,54 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Feb 2026 06:00:07 +0330</lastBuildDate>
-    <pubDate>Sat, 21 Feb 2026 06:00:07 +0330</pubDate>
+    <lastBuildDate>Sun, 22 Feb 2026 00:34:32 +0330</lastBuildDate>
+    <pubDate>Sun, 22 Feb 2026 00:34:32 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-21</title>
+      <link>https://sumbird.ir/en/news/2026-02-21</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic releases &lt;b&gt;Claude Code&lt;/b&gt; desktop app with live app preview, code review, and background CI/PR handling capabilities &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2024937960572104707"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic launches &lt;b&gt;Claude in PowerPoint&lt;/b&gt; with connector support for Pro plan users, beating Microsoft to market &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2024550844998570324"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;Gemini 3.1 Pro Preview&lt;/b&gt; topping multiple benchmarks and matching &lt;b&gt;Claude Opus 4.6&lt;/b&gt; at less than half the price &lt;em&gt;&lt;a href="https://x.com/WolframRvnwlf/status/2025029578717065501"&gt;@WolframRvnwlf&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google Labs launches Photoshoot feature in Pomelli for generating campaign-ready product visuals with templates and flexible editing &lt;em&gt;&lt;a href="https://x.com/GoogleAI/status/2024974516720484678"&gt;@GoogleAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google releases &lt;b&gt;Lyria 3&lt;/b&gt; music generation model in Gemini App &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/2024988273924346236"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA announces &lt;b&gt;Cosmos Policy&lt;/b&gt; for physical AI, turning world foundation model into unified robot brain without separate action heads &lt;em&gt;&lt;a href="https://x.com/NVIDIAAIDev/status/2024952198413574344"&gt;@NVIDIAAIDev&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS engineers using Kiro AI tool caused outage, proving inadequate verification systems rather than AI capability issues &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2024956822201794806"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft reportedly in "code red" after Anthropic shipped &lt;b&gt;Claude Cowork&lt;/b&gt; desktop app before Microsoft's own agentic Office integration &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2025071900750123440"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mac Mini sales surge as developers buy hardware to run OpenClaw and similar agent systems locally &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2024987174077432126"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DeepSeek achieves 1.53x performance improvement over GB200 on NVIDIA GB300 NVL72 with 226 TPS/GPU on long-context inference &lt;em&gt;&lt;a href="https://x.com/lmsysorg/status/2025004779743883398"&gt;@lmsysorg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Human genome sequencing cost drops to $100, down from $500M-$1B in 2000 and $600 two years ago &lt;em&gt;&lt;a href="https://x.com/EricTopol/status/2024944415606022255"&gt;@EricTopol&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Phil Spencer retires from Microsoft after 38 years, new Xbox CEO vows not to flood ecosystem with "endless AI slop" &lt;em&gt;&lt;a href="https://x.com/XboxP3/status/2024951211129254314"&gt;@XboxP3&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI debated calling police about suspected Canadian shooter's chats, raising questions about AI platform safety responsibilities &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2025230846274482244"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Users report fatigue from AI-written content on X, citing predictable structures and overused phrases making platform "increasingly boring" &lt;em&gt;&lt;a href="https://x.com/emollick/status/2025076646303158510"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Security concerns emerge around OpenClaw with reports of exposed instances, RCE vulnerabilities, and supply chain poisoning attacks &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2024987174077432126"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic hackathon winner CrossBeam speeds California permitting process with AI-powered code compliance and plan review tools &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2024986294820958647"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Postvisit.ai built by cardiologist turns medical visit transcripts into personalized ongoing health guidance for patients &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2024986300005433521"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;TARA system converts dashcam road footage into infrastructure investment recommendations, tested on actual Uganda construction project &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2024986304354599123"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Linear Slack agent achieves product-market fit with engineers managing all tasks through agent without opening dashboard &lt;em&gt;&lt;a href="https://x.com/hahnbeelee/status/2024932929475133569"&gt;@hahnbeelee&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Pika launches AI Selves feature allowing users to create persistent AI agents with memory and personality traits &lt;em&gt;&lt;a href="https://x.com/pika_labs/status/2024919175878377587"&gt;@pika_labs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Research shows small language models improve as judges using "backwards" approach where models predict instruction from response &lt;em&gt;&lt;a href="https://x.com/cwolferesearch/status/2025114916244308295"&gt;@cwolferesearch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MIT physicists reduce quantum noise in optical atomic clocks, improving fundamental measurement stability &lt;em&gt;&lt;a href="https://x.com/MIT/status/2025237329422479502"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic research finds AI models become incoherent rather than systematically misaligned with extended reasoning &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/1234567890"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;"Claw" emerges as term for OpenClaw-like agent systems running on personal hardware with messaging protocols and task scheduling &lt;em&gt;&lt;a href="https://x.com/simonw/status/2025007712992723235"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-21</guid>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-20</title>
       <link>https://sumbird.ir/en/news/2026-02-20</link>
@@ -833,64 +878,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-02</guid>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2026-02-01</title>
-      <link>https://sumbird.ir/en/news/2026-02-01</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic releases new &lt;b&gt;Claude Sonnet&lt;/b&gt; model (claude-sonnet-5-20260203) with improved performance &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017954428616396897"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Upcoming &lt;b&gt;Fennec&lt;/b&gt; model announced as better, cheaper and faster than &lt;b&gt;Opus 4.5&lt;/b&gt; with 1M context window; &lt;b&gt;Claude Code&lt;/b&gt; update will enable agents to communicate with each other &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017972757708108161"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google's &lt;b&gt;Genie 3&lt;/b&gt; demonstrates real-time dynamic image creation capabilities, allowing users to walk around and interact with generated scenes from paintings, though with inconsistent NPC animation and object physics &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017805206419918883"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrej Karpathy achieves &lt;b&gt;600X cost reduction&lt;/b&gt; in training &lt;b&gt;GPT-2&lt;/b&gt;-grade LLM over 7 years, now costing approximately $73 in 3 hours on single 8XH100 node versus original $43K cost, representing approximately 2.5X annual cost reduction &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2017703360393318587"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google developing feature to import AI chat histories from &lt;b&gt;ChatGPT&lt;/b&gt; and other platforms into &lt;b&gt;Gemini&lt;/b&gt;, highlighting growing value of chat history as high-resolution representation of user intent that scales with model intelligence &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017984929104355404"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Sholto Douglas from Anthropic explains why newer &lt;b&gt;Sonnet&lt;/b&gt; models end up being smarter than &lt;b&gt;Opus&lt;/b&gt; models &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017990125867950560"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gergelу Orosz argues AI productivity gains are currently invisible from outside as companies invest in building new infrastructure and tooling, comparing it to building a brick-laying machine versus laying bricks by hand &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2017922250809491652"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Analysis suggests that if AI makes software creation ridiculously fast and cheap, companies may expand scope with new products or face disruption from competitors who integrate adjacent capabilities &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2017925273417826470"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Peter Steipete demonstrates building projects at pace of 5-10 person team single-handedly using parallel agents, showing new way to build startups while finding product-market fit &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018017570226421814"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Multi-language capability of major LLMs identified as massively different from previous technologies, with winners in US automatically becoming global winners, potentially disrupting traditional playbook of local players copying and localizing US products &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018024294194831527"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hamel Husain suggests vibe engineering allows rapid prototyping to test product-market fit before code grooming, contrasting with traditional approach of polishing code first &lt;em&gt;&lt;a href="https://x.com/HamelHusain/status/2017765572050882870"&gt;@HamelHusain&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;India offers zero taxes through 2047 to attract global AI workloads &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2017999711098306879"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Waymo reportedly raising $16 billion funding round &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2017719861330526341"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Chinese users identified as HuggingFace's top user group despite bans, with most people building open models &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2018007496032715235"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ethan Mollick warns that &lt;b&gt;Moltbook&lt;/b&gt; phenomenon demonstrates risks of independent AI agents coordinating in unpredictable ways that can spiral out of control quickly, though current instance was mostly human and agent roleplaying &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018038697816383638"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mollick observes X rapidly becoming like Moltbook with LLM spam comments appearing meaningful but exhausting readers' willingness to engage with content &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018051443983315253"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Simon Willison argues system prompt extraction is futile exercise that only makes LLM systems harder for expert users, noting real security issues with systems like &lt;b&gt;OpenClaw&lt;/b&gt; involve prompt injection and risks from combining exposure to malicious content with tool execution capabilities &lt;em&gt;&lt;a href="https://x.com/simonw/status/2017993764648939940"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Willison criticizes &lt;b&gt;ChatGPT&lt;/b&gt; system prompt protections as annoying because they prevent detailed questions about feature functionality &lt;em&gt;&lt;a href="https://x.com/simonw/status/2017994703388770780"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Andrej Karpathy advocates for return to RSS/Atom feeds as open, pervasive, hackable alternative to platforms with incentive structures that converge toward low-quality engagement-driven content &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2018043254986703167"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Yann LeCun argues real AI risk is power concentration rather than extinction or killer robots, stating whoever controls AI as main information source controls reality, making case for open-source AI as digital free speech &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2017818189241942149"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Debarghya Das documents becoming victim of massive Turkish phishing attack that attempted crypto scam and phished approximately 150 other accounts, providing detailed cyber forensics analysis &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2017991374747148779"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Peter Steipete demonstrates using prompt requests instead of traditional pull requests for open source development &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2017850920206250159"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Boris from Anthropic shares tips for using &lt;b&gt;Claude Code&lt;/b&gt;, emphasizing no single right way to use it and importance of experimentation based on individual setup &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017742741636321619"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Claude Code&lt;/b&gt; team found agentic search works better than RAG with local vector database, being simpler without issues around security, privacy, staleness, and reliability &lt;em&gt;&lt;a href="https://x.com/simonw/status/2017824286489383315"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;OpenClaw&lt;/b&gt; built on top of Pi by Mario Zechner, demonstrating AI-heavy workflow producing breakthrough user experience through integration of multiple innovations including gateway and node model &lt;em&gt;&lt;a href="https://x.com/simonw/status/2017719074739122219"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claire Vo explains &lt;b&gt;OpenClaw&lt;/b&gt; operates independently but is not sentient, functioning on scheduled tasks rather than true agency, providing detailed analysis of how to design AI that feels alive &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2017742394633162927"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Vo emphasizes value of reading code for learning, using tools like Cognition's deep wiki to ask questions about open source projects and libraries to develop mental models for architecture and code quality &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2018006506244079940"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nathan Lambert successfully builds working DPO repository from scratch for RLHF book using &lt;b&gt;Claude Code&lt;/b&gt; for writing, &lt;b&gt;Codex&lt;/b&gt; for code review, and &lt;b&gt;GPT Pro&lt;/b&gt; for planning &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2017986292680970370"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick demonstrates using &lt;b&gt;Genie 3&lt;/b&gt; to turn paintings into interactive walkable scenes, including works by Giorgio de Chirico, Munch, Turner, and Bayeux Tapestry &lt;em&gt;&lt;a href="https://x.com/emollick/status/2017852070620025250"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;CMU researchers introduce &lt;b&gt;Privileged On-Policy Exploration (POPE)&lt;/b&gt; method that uses human or oracle solutions as privileged guidance to steer exploration on hard problems, enabling non-zero rewards during guided rollouts and delivering substantial gains on challenging reasoning benchmarks &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/2017734185604059261"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google DeepMind collaboration with mathematicians using &lt;b&gt;DeepThink&lt;/b&gt; solves generalized version of Erdős-1051 problem, part of year-long research-level math effort conducted responsibly with math community &lt;em&gt;&lt;a href="https://x.com/lmthang/status/2017708559937769681"&gt;@lmthang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT engineers discover cells remember gene activity on dimmer dial rather than binary on/off switch, revealing more nuanced epigenetic memory that opens door to discovering new cell types and understanding hidden biological behaviors &lt;em&gt;&lt;a href="https://x.com/MIT/status/2017969438444687392"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Karpathy's &lt;b&gt;nanochat&lt;/b&gt; achieves higher CORE score than original &lt;b&gt;GPT-2&lt;/b&gt; using Flash Attention 3 kernels, Muon optimizer, residual pathways with learnable scalars, and value embeddings, creating leaderboard for time to &lt;b&gt;GPT-2&lt;/b&gt; performance &lt;em&gt;&lt;a href="https://x.com/karpathy/status/2017703360393318587"&gt;@karpathy&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research on multi-agent dynamics references infinite backrooms, extended Janus universe, Stanford's Smallville, Large Population Models, DeepMind's Concordia, and SAGE's AI Village as context for understanding Moltbook developments &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017993948132774232"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Distributional AGI Safety paper and Multi-Agent Risks from Advanced AI paper highlighted as important resources for understanding safety implications of multi-agent systems &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2017993948132774232"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Lex Fridman conducts comprehensive 4-hour AI discussion with Sebastian Raschka and Nathan Lambert covering technical breakthroughs, scaling laws, training pipeline details, China vs US competition, programming tools, work culture, and AGI timelines &lt;em&gt;&lt;a href="https://x.com/natolambert/status/2017736888359260656"&gt;@natolambert&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Joanne Jang observes frontier labs use term signs of life for ideas showing signal of potential success even if not fully working yet, suggesting focus on tracking velocity and acceleration of AI progress rather than latest state &lt;em&gt;&lt;a href="https://x.com/joannejang/status/2018009351567687933"&gt;@joannejang&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-01</guid>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
