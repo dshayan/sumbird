@@ -13,9 +13,40 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Feb 2026 06:00:08 +0330</lastBuildDate>
-    <pubDate>Sun, 22 Feb 2026 06:00:08 +0330</pubDate>
+    <lastBuildDate>Mon, 23 Feb 2026 01:23:31 +0330</lastBuildDate>
+    <pubDate>Mon, 23 Feb 2026 01:23:31 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-22</title>
+      <link>https://sumbird.ir/en/news/2026-02-22</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic releases &lt;b&gt;Claude Opus 4.6&lt;/b&gt; with improved capabilities, though specific benchmarks show mixed results on complex rendering tasks &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2025439167967363128"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Shopify deployed AI coding assistants across all teams by assigning an intern to each team after discovering interns used AI to complete two-week tasks in one day &lt;em&gt;&lt;a href="https://x.com/tbpn/status/2025594001764859940"&gt;@tbpn&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;SaaS companies continue using traditional software tools (Slack, Zoom, Figma, Notion) despite AI coding advances, suggesting implementation complexity remains a moat &lt;em&gt;&lt;a href="https://x.com/fchollet/status/2025343064991301705"&gt;@fchollet&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI coding tools show jagged capabilities with persistent weaknesses in photorealistic rendering and object interaction despite improvements in basic code generation &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2025349159965118786"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Public opposition to AI stems from consistent messaging by AI company CEOs about massive job losses, creating rational concern despite current chatbot utility &lt;em&gt;&lt;a href="https://x.com/alexolegimas/status/2025575296171131084"&gt;@alexolegimas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI companies face political challenges from failure to articulate non-ominous future visions beyond vague promises while emphasizing job displacement &lt;em&gt;&lt;a href="https://x.com/emollick/status/2025607547009273979"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Jaggedness in AI capabilities creates bottlenecks requiring human intervention, with 1000 identical model agents sharing weaknesses unlike diverse human teams &lt;em&gt;&lt;a href="https://x.com/emollick/status/2025406696605028508"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Real-time video understanding by AI remains underexplored despite economic value in applications requiring AI to watch and interpret the world continuously &lt;em&gt;&lt;a href="https://x.com/emollick/status/2025663349367685274"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA's DreamDojo demonstrates world models from video becoming central to robotics, with pretraining on motor behavior dynamics showing promise over vision-language models &lt;em&gt;&lt;a href="https://x.com/JitendraMalikCV/status/2025316024632181125"&gt;@JitendraMalikCV&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Research shows AI models become more incoherent rather than systematically misaligned with extended reasoning, challenging assumptions about longer inference &lt;em&gt;&lt;a href="https://x.com/emollick/status/2025321903582302527"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-22</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-21</title>
       <link>https://sumbird.ir/en/news/2026-02-21</link>
@@ -828,56 +859,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-03</guid>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2026-02-02</title>
-      <link>https://sumbird.ir/en/news/2026-02-02</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;xAI releases &lt;b&gt;Grok Imagine 1.0&lt;/b&gt;, featuring 10-second video generation, 720p resolution, dramatically improved audio with emotional and expressive voices, and enhanced prompt following capabilities. The model tops Artificial Analysis benchmarks and has generated 1.245 billion videos in the last 30 days &lt;em&gt;&lt;a href="https://x.com/xai/status/2018164753810764061"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI launches &lt;b&gt;Codex app&lt;/b&gt; for macOS, a command center for building with agents that enables parallel multitasking with worktrees, reusable skills, and scheduled automations. The app includes doubled rate limits across all tiers from Free to Enterprise &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2018385565289267236"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google DeepMind adds &lt;b&gt;Werewolf&lt;/b&gt;, &lt;b&gt;Poker&lt;/b&gt;, and updated &lt;b&gt;Chess&lt;/b&gt; results to Kaggle Game Arena, testing AI models on contextual communication, building consensus, and navigating ambiguity. Latest &lt;b&gt;Gemini 3&lt;/b&gt; models top the chess leaderboard &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2018378872513794332"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cohere &lt;b&gt;Command A Vision&lt;/b&gt; and &lt;b&gt;Command A Reasoning&lt;/b&gt; now available through OCI Generative AI, enabling multimodal apps, agentic workflows, and reasoning-driven systems with enterprise security and EU region availability &lt;em&gt;&lt;a href="https://x.com/OracleCloud/status/2018335301173662130"&gt;@OracleCloud&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OpenAI's Codex team reports the tool now builds itself with team supervision, with the bottleneck shifting to how fast humans can help and supervise the outcome rather than development speed &lt;em&gt;&lt;a href="https://x.com/thsottiaux/status/2018258151603388639"&gt;@thsottiaux&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Linear adds more net new revenue in January 2026 alone than in their entire first three years combined, demonstrating how consistent acceleration enables compounding growth &lt;em&gt;&lt;a href="https://x.com/cjc/status/2018381371694354939"&gt;@cjc&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Companies are renaming 2-pizza teams to 1-pizza teams as AI makes large teams unnecessary and slows things down, with teams getting smaller across most organizations &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018365180246200561"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;University of Waterloo's co-op program produces standout new grads with far more real-world experience at good companies than most universities, making it a goto hiring source for CTOs and founders &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2018390019757723981"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ben Horowitz explains AI has eliminated the &lt;b&gt;Mythical Man Month&lt;/b&gt; limitation in tech, as companies can now throw data and GPUs at problems to solve them, unlike traditional software development where team size was constrained &lt;em&gt;&lt;a href="https://x.com/a16z/status/2018418113952555445"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Goldman Sachs CEO notes the four largest companies contributed 1% to GDP growth with $400 billion of spending, with this potentially being the biggest M&amp;amp;A year in history &lt;em&gt;&lt;a href="https://x.com/a16z/status/2018353435658400095"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI partners with Snowflake to expand enterprise AI capabilities, signaling intensifying competition in the enterprise AI race &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2018333756931911854"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic partners with The Allen Institute and Howard Hughes Medical Institute for research collaboration &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2018333313405256068"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Coalition demands federal Grok ban over nonconsensual sexual content generation, raising concerns about AI-generated harmful content &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2018339455254602189"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ben Horowitz argues AI regulation should focus on applications rather than the technology itself, stating "Don't regulate math. Regulate the applications of that math" and warning that banning technology has hundred-year implications &lt;em&gt;&lt;a href="https://x.com/a16z/status/2018379436228505726"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick demonstrates AI-generated videos have reached quality levels where distinguishing them from real content is extremely difficult, with examples of playing as characters in famous paintings and WWI battlecruiser simulations &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018213227503534572"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Concerns emerge about AI-generated content on social media, with high-quality viral essays being entirely AI-written but presented as emotional truths, making it difficult to distinguish human from AI authorship &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018078627066212570"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Marc Andreessen argues the world will be better off with more Einstein-level intelligence, stating existing AI models test around 130-140 IQ and will reach 160+ levels, comparing this to releasing limitations of human biology &lt;em&gt;&lt;a href="https://x.com/a16z/status/2018402890180936013"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Google's AI tools &lt;b&gt;DeepVariant&lt;/b&gt; and &lt;b&gt;DeepPolisher&lt;/b&gt; help researchers sequence genomes for endangered species, compressing what once took years into days. Genomes of 13 species are now freely available, with plans to scale to 150+ more species &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/2018389711111455090"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Carbon Robotics builds an AI model that detects and identifies plants for agricultural applications &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2018340208828359107"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Linq raises $20M to enable AI assistants to live within messaging apps, expanding AI integration into communication platforms &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2018327953256731039"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claire Vo builds an infinite generative sci-fi story with 42 characters powered by Vercel AI gateway and workflows, demonstrating agent-to-agent communication and emergent narratives &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2018169714321854723"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Reid Robinson demonstrates using MCPs to automate meeting prep, CRM updates, and customer feedback synthesis, showing practical PM workflows with Zapier's MCP server and Claude Projects &lt;em&gt;&lt;a href="https://x.com/clairevo/status/2018350576187449525"&gt;@clairevo&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;PyTorch demonstrates unlocking advanced reasoning in &lt;b&gt;Llama 8B&lt;/b&gt; through full fine-tuning on NVIDIA's DGX Spark AI-PC, using synthetic data and chain-of-thought prompts entirely offline with 128GB unified memory &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/2018397061964550205"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Meta launches Oakley Meta Performance AI glasses with hands-free camera, Meta AI, and open-ear audio for athletic training applications &lt;em&gt;&lt;a href="https://x.com/Meta/status/2018400361841586219"&gt;@Meta&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Google DeepMind researchers use &lt;b&gt;Gemini&lt;/b&gt; to systematically evaluate 700 open conjectures in the Erdős Problems database, addressing 13 problems marked as open with 5 novel autonomous solutions and identifying 8 existing solutions missed by previous literature &lt;em&gt;&lt;a href="https://x.com/quocleix/status/2018402933193539735"&gt;@quocleix&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research demonstrates that even older &lt;b&gt;GPT-4&lt;/b&gt; could be prompted to generate more diverse and higher quality ideas than most people, with newer models performing better, challenging arguments that AI is poor at idea generation &lt;em&gt;&lt;a href="https://x.com/emollick/status/2018388869515784595"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Arvind Narayanan explains agentic coding works well because it's a type of neurosymbolic AI that fuses statistical LLMs with symbolic code execution, leveraging verifiable domains, compilers, shell tools, and recursive LLM-code interactions &lt;em&gt;&lt;a href="https://x.com/random_walker/status/2018342421696766147"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Phase 3 trial shows lung cancer patients treated with immunotherapy in the morning had better overall survival than those treated in the afternoon, demonstrating the immune system's circadian rhythm affects treatment outcomes &lt;em&gt;&lt;a href="https://x.com/PatrickHeizer/status/2018407093686931636"&gt;@PatrickHeizer&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google DeepMind launches harder benchmarks for AI models through Kaggle Game Arena with werewolf, poker, and chess, providing objective measures of real-world skills like planning and decision making under uncertainty that auto-scale difficulty as models improve &lt;em&gt;&lt;a href="https://x.com/demishassabis/status/2018385757816181178"&gt;@demishassabis&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-02</guid>
-      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
