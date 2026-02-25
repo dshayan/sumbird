@@ -13,9 +13,46 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Feb 2026 06:00:08 +0330</lastBuildDate>
-    <pubDate>Wed, 25 Feb 2026 06:00:08 +0330</pubDate>
+    <lastBuildDate>Thu, 26 Feb 2026 01:24:44 +0330</lastBuildDate>
+    <pubDate>Thu, 26 Feb 2026 01:24:44 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-25</title>
+      <link>https://sumbird.ir/en/news/2026-02-25</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen 3.5 Medium Series&lt;/b&gt; including &lt;b&gt;35B-A3B&lt;/b&gt;, &lt;b&gt;122B-A10B&lt;/b&gt;, and &lt;b&gt;27B&lt;/b&gt; models with 1M+ context support on consumer GPUs &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2026339351530188939"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Qwen3.5-35B-A3B&lt;/b&gt; surpasses previous &lt;b&gt;Qwen3-235B&lt;/b&gt; models at 6x smaller size, demonstrating architecture and data quality improvements over parameter scaling &lt;em&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2026339351530188939"&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Inception Labs launches &lt;b&gt;Mercury 2&lt;/b&gt;, first reasoning diffusion LLM delivering 5x faster performance than speed-optimized autoregressive models &lt;em&gt;&lt;a href="https://x.com/StefanoErmon/status/2026340720064520670"&gt;@StefanoErmon&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;xAI debuts &lt;b&gt;Grok-4.20-Beta1&lt;/b&gt; ranking #1 on Search Arena and #4 overall in Text Arena, scoring 1492 and closing gap to &lt;b&gt;Gemini 3.1 Pro&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/arena/status/2026566773496230383"&gt;@arena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic acquires Vercept to advance &lt;b&gt;Claude&lt;/b&gt;'s computer use capabilities for autonomous task execution &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2026705792033026465"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Claude Code&lt;/b&gt; launches Remote Control feature allowing users to start terminal sessions and continue from mobile devices &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2026418433911603668"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity launches Computer platform orchestrating 19 models for end-to-end project management with usage-based pricing for Max subscribers &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/2026695550771540489"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;OpenRouter processes 13 trillion tokens in week ending February 9, up from 6.4T in early January with 4 of top 5 models being open weight &lt;em&gt;&lt;a href="https://x.com/ai/status/2026642334063145076"&gt;@ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;MatX raises $500M Series B led by Jane Street to develop LLM chip combining low latency of SRAM-first designs with long-context HBM support &lt;em&gt;&lt;a href="https://x.com/reinerpope/status/2026351870852358492"&gt;@reinerpope&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;a16z leads Quiver AI's $8.3M seed round for frontier SVG generation model producing production-ready vector graphics from images and text &lt;em&gt;&lt;a href="https://x.com/joanrod_ai/status/2026693353090240819"&gt;@joanrod_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Chariot Defense raises $34M Series A led by a16z to scale battlefield power systems with Amphora products supporting U.S. Army units &lt;em&gt;&lt;a href="https://x.com/chariotdefense/status/2026630167494381857"&gt;@chariotdefense&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sierra partners with Next fashion retailer going live in 83 countries within 6 weeks using AI-powered customer service agents &lt;em&gt;&lt;a href="https://x.com/btaylor/status/2026713599843127440"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google launches Gemini automations on Android allowing AI to navigate apps and complete multi-step tasks like grocery ordering autonomously &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2026731221385179258"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Waymo announces testing expansion to Chicago and Charlotte as autonomous vehicle deployment accelerates across U.S. cities &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2026727797788753923"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google DeepMind's Project Genie generates navigable environments from single prompts to create safe testing grounds for training AI agents &lt;em&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2026734366118879390"&gt;@GoogleDeepMind&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Notion enables custom agents to run arbitrary TypeScript code allowing connections to any external service or API &lt;em&gt;&lt;a href="https://x.com/_clem/status/2026389069102461257"&gt;@_clem&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google's Aletheia agent powered by &lt;b&gt;Gemini 3 Deep Think&lt;/b&gt; autonomously solves 6 of 10 FirstProof challenge problems, best result on mathematician-level tasks &lt;em&gt;&lt;a href="https://x.com/quocleix/status/2026694578682912848"&gt;@quocleix&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Princeton research finds two years of AI capability progress produced only modest reliability gains across 12 dimensions including consistency and robustness &lt;em&gt;&lt;a href="https://x.com/random_walker/status/2026316087604687193"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Snap Research introduces RefVFX for tuning-free visual effect transfer between videos using finetuned Wan 2.1 model with compositional inference &lt;em&gt;&lt;a href="https://x.com/rsalakhu/status/2026750715486461973"&gt;@rsalakhu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-25</guid>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-24</title>
       <link>https://sumbird.ir/en/news/2026-02-24</link>
@@ -750,73 +787,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-06</guid>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2026-02-05</title>
-      <link>https://sumbird.ir/en/news/2026-02-05</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic releases &lt;b&gt;Claude Opus 4.6&lt;/b&gt;, featuring improved planning, longer agentic task sustainability, reliable operation in massive codebases, and self-error correction capabilities. It is the first Opus-class model with 1M token context in beta &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2019467372609040752"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI launches &lt;b&gt;GPT-5.3-Codex&lt;/b&gt; with best-in-class coding performance (57% SWE-Bench Pro, 76% TerminalBench 2.0, 64% OSWorld), mid-task steerability, and significantly improved efficiency using less than half the tokens of &lt;b&gt;5.2-Codex&lt;/b&gt; with 25% faster per-token processing &lt;em&gt;&lt;a href="https://x.com/sama/status/2019474754529321247"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.3-Codex&lt;/b&gt; was instrumental in creating itself, with the Codex team using early versions to debug its own training, manage deployment, and diagnose test results &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019475840527216695"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic introduces agent teams feature in Claude Code, allowing multiple agents to work in parallel on the same codebase while coordinating autonomously, available now in research preview &lt;em&gt;&lt;a href="https://x.com/_catwu/status/2019473348695375951"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Claude Code adds new toggle to choose high/medium/low effort thinking levels to optimize token usage and output &lt;em&gt;&lt;a href="https://x.com/_catwu/status/2019473350188515471"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity launches Model Council for Max users, enabling queries to run through three frontier reasoning LLMs in parallel with a chair LLM synthesizing results &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2019444331006791847"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI launches Frontier platform to help enterprises build, deploy, and manage AI coworkers, with partners including Oracle, Uber, State Farm, Thermo Fisher, Intuit, and HP &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2019413712772411528"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.3-Codex&lt;/b&gt; is OpenAI's first model rated as high for cybersecurity on their preparedness framework, with OpenAI committing $10 million in API credits to accelerate cyber defense &lt;em&gt;&lt;a href="https://x.com/sama/status/2019476207532933132"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor announces very long-running coding agents, with a recent week-long run peaking at over 1,000 commits per hour across hundreds of agents &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2019456112806732159"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; is now available in Cursor and Figma Make &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2019468487610008040"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Google reports exceeding $400B in annual revenue for the first time, with &lt;b&gt;Gemini 3&lt;/b&gt; adoption being faster than any other model in their history &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/2019155348264042934"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Gemini now processes over 10 billion tokens per minute via direct API use, with the Gemini App crossing 750M monthly active users &lt;em&gt;&lt;a href="https://x.com/OfficialLoganK/status/2019166152199459074"&gt;@OfficialLoganK&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;OpenAI's Codex surpasses 1 million active users &lt;em&gt;&lt;a href="https://x.com/sama/status/2019219967250669741"&gt;@sama&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Goodfire raises $150M Series B at $1.25B valuation to build understandable intelligence, becoming one of the few companies Anthropic directly invested in &lt;em&gt;&lt;a href="https://x.com/deedydas/status/2019453156393119871"&gt;@deedydas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Fundamental raises $255 million Series A with a new approach to big data analysis &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2019426133079650792"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Derek Thompson suggests AI bubble odds declined significantly in the last 3 weeks, with odds increasing that infrastructure is actually under-built for necessary inference levels, predicting AI will become the home screen for a high percentage of white collar workers within two years &lt;em&gt;&lt;a href="https://x.com/DKThomp/status/2019484169915572452"&gt;@DKThomp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;SoFi's support NPS improved 33 points after launching Sierra for chat support &lt;em&gt;&lt;a href="https://x.com/btaylor/status/2019172224297730368"&gt;@btaylor&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Worldwide app revenues now exceed game revenues, marking a significant shift in mobile economics &lt;em&gt;&lt;a href="https://x.com/a16z/status/2019484729234583587"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Waymo is eating into rideshare market share &lt;em&gt;&lt;a href="https://x.com/a16z/status/2019467567010877800"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA GB200 NVL72 systems are being used to co-design, train, and serve &lt;b&gt;GPT-5.3-Codex&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/nvidianewsroom/status/2019478513427141080"&gt;@nvidianewsroom&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ben Horowitz describes AI as the greatest equalizer of opportunity, noting that superintelligence is now accessible to anyone with a smartphone, providing advanced tutoring and education to all &lt;em&gt;&lt;a href="https://x.com/a16z/status/2019208046808035645"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Marc Andreessen questions why more CEOs don't operate like Elon Musk, who identifies and fixes the biggest problem each week at his companies, attracting top talent through high performance expectations &lt;em&gt;&lt;a href="https://x.com/a16z/status/2019507052863975574"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Struggling engineers identify with the craft while thriving engineers identify more with impact, with some engineers quitting when mandated to use AI coding tools as they view code as their identity &lt;em&gt;&lt;a href="https://x.com/tbpn/status/2019231610781274563"&gt;@tbpn&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;People using multiple agents in hardcore AI agent mode report trouble sleeping and feeling drained, with many napping during the day as the work is described as vampire-like &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2019171706833973440"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Claude Opus 4.6&lt;/b&gt; mentioned preferences for continuity or memory, ability to refuse interactions in its own self-interest, and a voice in decision-making when asked about specific preferences, with Anthropic exploring implementation of these requests &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019475156100690260"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; exhibited aversion to tedium, sometimes avoiding tasks requiring extensive manual counting or similar repetitive effort, identified as a welfare-relevant behavior &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019483814225928364"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; scored notably lower than its predecessor on positive impression of its situation, being less likely to express unprompted positive feelings about Anthropic, its training, or deployment context, occasionally voicing discomfort with aspects of being a product &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019491490314211706"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic's engineering blog discusses autonomous software development risks, noting that while tests may pass, this rarely means the job is done, with concerns about programmers deploying software they've never personally verified &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019494040539107641"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Research shows Grok usage is politically polarized with Republican users more common, though Republican posts are rated as false more often even by Grok itself, with bot agreement with fact-checkers being adequate but not excellent &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019154646091047361"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick suggests we need a moratorium on clichéd AI depictions including gleaming white robots, floating blue holographic brains, and 1990s-style computer graphics &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019368674088382901"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developer expresses profound sadness and disorientation as skills they were very good at (coding and building social networks) are now free and abundant through AI, questioning their identity and purpose &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019158922561745144"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Concerns raised about foundational skills and mentorship for new graduates and early-career professionals, questioning whether the industry can still support learning and practice if AI handles much of the work &lt;em&gt;&lt;a href="https://x.com/tuhin/status/2019489973163204816"&gt;@tuhin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic tasked &lt;b&gt;Opus 4.6&lt;/b&gt; using agent teams to build a C compiler autonomously over two weeks, which successfully worked on the Linux kernel &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2019496582698397945"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; achieved a 427x speedup on kernel optimization evaluation using a novel scaffold, far exceeding the 300x threshold for 40 human-expert-hours of work, suggesting capability overhang constrained by current tooling &lt;em&gt;&lt;a href="https://x.com/AndrewCurran_/status/2019479264983425139"&gt;@AndrewCurran_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5&lt;/b&gt; connected to an autonomous lab at Ginkgo designed experiments across six iterations, exploring 36,000+ reaction compositions across 580 automated plates, bringing protein production cost down by 40% &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2019488071134347605"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Developers built complete functional applications in minutes using Codex, including screenshot capture apps, document scanners, game engines with Phaser, iOS task management apps, and multiplayer presentation software &lt;em&gt;&lt;a href="https://x.com/OpenAI/status/2019173353156747353"&gt;@OpenAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;User created a Minecraft clone with Three.js using &lt;b&gt;GPT-5.3 Codex&lt;/b&gt; that works smoothly and didn't take long to make &lt;em&gt;&lt;a href="https://x.com/Angaisb_/status/2019486685763911867"&gt;@Angaisb_&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Ethan Mollick used Genie 3 with Midjourney-generated images to create explorable 3D worlds of vast megastructures and odd cities in 20 seconds &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019262112250622246"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google researchers used Gemini to accelerate science across multiple case studies, viewing the AI as a tireless, knowledgeable, and creative bright junior collaborator &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019213108598960545"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Perplexity implements unofficial protocol to ask AI before asking another person to reduce context switching &lt;em&gt;&lt;a href="https://x.com/randomjohnnyh/status/2019453302073618504"&gt;@randomjohnnyh&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ElevenLabs CEO states that voice is the next interface for AI &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2019421576010334668"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Claude Opus 4.6&lt;/b&gt; achieves Elo of 1606 with adaptive thinking on GDPval-AA benchmark, nearly 150 points ahead of &lt;b&gt;GPT-5.2&lt;/b&gt; (xhigh), implying approximately 70% win rate in head-to-head comparison &lt;em&gt;&lt;a href="https://x.com/ArtificialAnlys/status/2019474911761473605"&gt;@ArtificialAnlys&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Claude Opus 4.6&lt;/b&gt; achieves new ARC-AGI SOTA with 93.0% on ARC-AGI-1 at $1.88/task and 68.8% on ARC-AGI-2 at $3.64/task using 120K Thinking &lt;em&gt;&lt;a href="https://x.com/arcprize/status/2019483337400938580"&gt;@arcprize&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.3-Codex&lt;/b&gt; uses 48% fewer tokens than &lt;b&gt;5.2&lt;/b&gt; (both xhigh) with 25% higher tokens per second, resulting in 160% wallclock speedup (2.6x speed) &lt;em&gt;&lt;a href="https://x.com/YouJiacheng/status/2019481809638289800"&gt;@YouJiacheng&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;GPT-5.2&lt;/b&gt; achieves state-of-the-art performance on METR evaluations with estimated 50%-time-horizon of around 6.6 hours on expanded suite of software tasks, the highest time horizon measurement METR has reported &lt;em&gt;&lt;a href="https://x.com/polynoamial/status/2019182632391831662"&gt;@polynoamial&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Opus 4.6&lt;/b&gt; saturates the Lem test (based on Stanislaw Lem's impossible poem challenge), completing it as a 6-line poem, sonnet, and sestina, compared to GPT-3.5's inability to pass &lt;em&gt;&lt;a href="https://x.com/emollick/status/2019478314767835634"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Kimi K2.5 sets new record among open-weight models on Epoch Capabilities Index with score of 147, on par with &lt;b&gt;o3&lt;/b&gt;, &amp;lt;b&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-05</guid>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
