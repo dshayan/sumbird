@@ -13,9 +13,52 @@
       <link>https://sumbird.ir/en/feed</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 06:00:08 +0330</lastBuildDate>
-    <pubDate>Fri, 27 Feb 2026 06:00:08 +0330</pubDate>
+    <lastBuildDate>Sat, 28 Feb 2026 01:24:47 +0330</lastBuildDate>
+    <pubDate>Sat, 28 Feb 2026 01:24:47 +0330</pubDate>
     <ttl>1440</ttl>
+    <item>
+      <title>AI Updates on 2026-02-27</title>
+      <link>https://sumbird.ir/en/news/2026-02-27</link>
+      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Google releases &lt;b&gt;Nano Banana 2&lt;/b&gt; (Gemini 3.1 Flash Image Preview) achieving #1 ranking in Image Arena with 1279 score, 60+ point lead in text rendering &lt;em&gt;&lt;a href="https://x.com/arena/status/2027053222876393703"&gt;@arena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google launches &lt;b&gt;Gemini 3.1 Pro&lt;/b&gt; for complex reasoning tasks and &lt;b&gt;Gemini 3 Deep Think&lt;/b&gt; mode for researchers and engineers &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2027430331532644821"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google introduces &lt;b&gt;Lyria 3&lt;/b&gt; music model enabling 30-second custom soundtrack generation from text, images, or video &lt;em&gt;&lt;a href="https://x.com/GeminiApp/status/2027430329359995317"&gt;@GeminiApp&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity launches &lt;b&gt;Computer&lt;/b&gt;, unifying research, design, code deployment and project management into single AI system &lt;em&gt;&lt;a href="https://x.com/perplexity_ai/status/2026695550771540489"&gt;@perplexity_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Alibaba releases &lt;b&gt;Qwen3.5&lt;/b&gt; with ~400B-parameter MoE architecture for native multimodal agents with UI understanding &lt;em&gt;&lt;a href="https://x.com/NVIDIAAIDev/status/2027439286589518245"&gt;@NVIDIAAIDev&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI raises &lt;b&gt;$110B&lt;/b&gt; from Amazon, NVIDIA, and SoftBank in one of largest private funding rounds in history &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2027387151768510969"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ChatGPT reaches &lt;b&gt;900M weekly active users&lt;/b&gt; and &lt;b&gt;50M paying subscribers&lt;/b&gt; with faster responses and improved reliability &lt;em&gt;&lt;a href="https://x.com/nickaturley/status/2027418597728079989"&gt;@nickaturley&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Perplexity integrates into all &lt;b&gt;Samsung Galaxy S26&lt;/b&gt; phones as pre-loaded assistant with "Hey Plex" wake word, reaching 100M+ devices &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2027068958541799749"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;AI music generator Suno hits &lt;b&gt;2M paid subscribers&lt;/b&gt; and &lt;b&gt;$300M annual recurring revenue&lt;/b&gt; &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2027434715121361140"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Block cuts workforce by 40% (4,000+ employees) citing AI tools enabling smaller teams to maintain productivity &lt;em&gt;&lt;a href="https://x.com/jack/status/2027129697092731343"&gt;@jack&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stripe CEO reports Q1 2026 shows "phase transition" with more businesses starting and median business performing better &lt;em&gt;&lt;a href="https://x.com/a16z/status/2027148602737651738"&gt;@a16z&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Ethics &amp;amp; Society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic CEO Dario Amodei declines Pentagon partnership over concerns about mass surveillance and autonomous weapons &lt;em&gt;&lt;a href="https://x.com/AnthropicAI/status/2027150818575528261"&gt;@AnthropicAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;200+ Google and OpenAI employees sign petition supporting Anthropic's Pentagon red lines on AI military use &lt;em&gt;&lt;a href="https://x.com/jasminewsun/status/2027197574017602016"&gt;@jasminewsun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Research finds AI models become more incoherent rather than systematically misaligned with extended reasoning &lt;em&gt;&lt;a href="https://x.com/random_walker/status/2027403722263842925"&gt;@random_walker&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Study shows AI subjected to harsh labor conditions exhibits slight but significant shifts in economic and political views &lt;em&gt;&lt;a href="https://x.com/emollick/status/2027438062410551740"&gt;@emollick&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity Computer enables one-shot creation of insider trading tracker analyzing 1,301 SEC Form 4 filings with 73% win rate &lt;em&gt;&lt;a href="https://x.com/dividendology/status/2027273219200164238"&gt;@dividendology&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Users build real-time arbitrage scanners across prediction markets and sportsbooks using Perplexity Computer &lt;em&gt;&lt;a href="https://x.com/natjjin/status/2027440190265167929"&gt;@natjjin&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Developers create language learning apps, podcast generators, and financial dashboards in minutes with AI coding agents &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2027197647665479753"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Nano Banana 2&lt;/b&gt; achieves 71-point improvement in 3D imaging and 60-point gain in text rendering over predecessor &lt;em&gt;&lt;a href="https://x.com/arena/status/2027152296547930153"&gt;@arena&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;METR reverses previous finding that AI coding slowed developers, now indicates speedups are likely &lt;em&gt;&lt;a href="https://x.com/METR_Evals/status/2026355544668385373"&gt;@METR_Evals&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sakana AI introduces Doc-to-LoRA and Text-to-LoRA for instant model customization via hypernetwork-generated adapters &lt;em&gt;&lt;a href="https://x.com/SakanaAILabs/status/2027240298666209535"&gt;@SakanaAILabs&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;K-Search achieves 2.10x average speedup over state-of-the-art evolutionary search for GPU kernel generation &lt;em&gt;&lt;a href="https://x.com/shiyi_c98/status/2027121927870202049"&gt;@shiyi_c98&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-27</guid>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AI Updates on 2026-02-26</title>
       <link>https://sumbird.ir/en/news/2026-02-26</link>
@@ -755,41 +798,6 @@
 &lt;/ul&gt;</description>
       <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-08</guid>
       <pubDate>Sun, 08 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Updates on 2026-02-07</title>
-      <link>https://sumbird.ir/en/news/2026-02-07</link>
-      <description>&lt;h3&gt;AI Model Announcements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic releases &lt;b&gt;Claude Opus 4.6&lt;/b&gt; in fast mode, running 2.5x faster than standard version, now available via Claude Code and API &lt;em&gt;&lt;a href="https://x.com/claudeai/status/2020207322124132504"&gt;@claudeai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic grants all Claude Pro and Max users $50 in free extra usage credits for fast mode &lt;b&gt;Opus 4.6&lt;/b&gt; in Claude Code &lt;em&gt;&lt;a href="https://x.com/_catwu/status/2020221012605038985"&gt;@_catwu&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Cursor integrates &lt;b&gt;Opus 4.6&lt;/b&gt; fast mode at $30 input/$150 output per million tokens, offering 50% discount for 10 days &lt;em&gt;&lt;a href="https://x.com/cursor_ai/status/2020208132207845576"&gt;@cursor_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Google updates &lt;b&gt;Veo 3.1&lt;/b&gt; with portrait mode support, more expressive movement control, and state-of-the-art upscaling to 4K &lt;em&gt;&lt;a href="https://x.com/JeffDean/status/2020183073988702605"&gt;@JeffDean&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Industry Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Perplexity launches Model Council feature enabling parallel research across &lt;b&gt;GPT-5.2&lt;/b&gt;, &lt;b&gt;Claude Opus 4.6&lt;/b&gt;, and &lt;b&gt;Gemini 3 Pro&lt;/b&gt; with consensus analysis &lt;em&gt;&lt;a href="https://x.com/AravSrinivas/status/2019886813842928110"&gt;@AravSrinivas&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;NVIDIA reports Cursor helping ship 3x more committed code across large codebases by accelerating onboarding and automating workflows &lt;em&gt;&lt;a href="https://x.com/NVIDIAAI/status/2020232309514096662"&gt;@NVIDIAAI&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Heroku transitions to sustaining engineering model, ending new Enterprise contracts while focusing investments on enterprise-grade AI deployment &lt;em&gt;&lt;a href="https://x.com/GergelyOrosz/status/2020028114542436531"&gt;@GergelyOrosz&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Benchmark raises $225M in special funds to double down on Cerebras investment &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2020005914477224317"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;X API launches pay-per-use pricing with 20% cashback in xAI credits for developers spending on X API &lt;em&gt;&lt;a href="https://x.com/xai/status/2019914112743219453"&gt;@xai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Applications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Waymo uses Google's &lt;b&gt;Genie 3&lt;/b&gt; world model to generate photorealistic interactive simulations of rare driving events for autonomous vehicle training &lt;em&gt;&lt;a href="https://x.com/sundarpichai/status/2020000115055006106"&gt;@sundarpichai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Strong DM launches "Software Factory" approach where code is neither written nor reviewed by humans, spending $1,000/engineer/day in tokens &lt;em&gt;&lt;a href="https://x.com/simonw/status/2020161285376082326"&gt;@simonw&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Apple working to integrate AI chatbots like &lt;b&gt;ChatGPT&lt;/b&gt; into CarPlay for in-vehicle assistance &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2019922854045970710"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Anthropic adds WordPress integration to &lt;b&gt;Claude&lt;/b&gt;, enabling easier site monitoring and management &lt;em&gt;&lt;a href="https://x.com/TechCrunch/status/2019895674524102971"&gt;@TechCrunch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;AI Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;EchoJEPA foundation model trained on 18M heart ultrasound videos reduces error on cardiac function metrics by 20% using JEPA architecture &lt;em&gt;&lt;a href="https://x.com/ylecun/status/2019907895102669006"&gt;@ylecun&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;PyTorch releases fused Triton kernel for Mamba-2 achieving 1.5x-2.5x speedups on NVIDIA A100 and H100 GPUs &lt;em&gt;&lt;a href="https://x.com/PyTorch/status/2019906992584978666"&gt;@PyTorch&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Berkeley AI research reveals LLMs can embed hidden instructions through data subsets without system prompts or visible signals &lt;em&gt;&lt;a href="https://x.com/berkeley_ai/status/2019879899499311366"&gt;@berkeley_ai&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;MIT physicists demonstrate new form of magnetism potentially enabling faster, denser, lower-power spintronic memory chips &lt;em&gt;&lt;a href="https://x.com/MIT/status/2020167432581628027"&gt;@MIT&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://sumbird.ir/en/news/2026-02-07</guid>
-      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
